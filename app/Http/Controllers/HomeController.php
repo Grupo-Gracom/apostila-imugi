@@ -47,4 +47,16 @@ class HomeController extends Controller
     public function unidade1Understanding(){
         return view('unidade1/understanding');
     }
+    public function unidade2Vocabulary(){
+        return view('unidade2/vocabulary');
+    }
+    public function unidade2Grammar(){
+        return view('unidade2/grammar');
+    }
+    public function unidade2Listening(){
+        return view('unidade2/listening');
+    }
+    public function unidade2Understanding(){
+        return view('unidade2/understanding');
+    }
 }

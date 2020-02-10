@@ -47,5 +47,6 @@
             $('nav li[data-unidade="'+unidade+'"] ul').slideToggle("fast");
             $('nav li[data-unidade="'+unidade+'"] ul li a[data-etapa="'+etapa+'"]').addClass("active");
         }
+        console.log(base.attr("data-unidade"))
     }
 </script>
