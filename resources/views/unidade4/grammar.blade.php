@@ -93,6 +93,11 @@
 					<li><b>WANT</b></li>
                 </ul>
                 <h5 class="barlow">B. Read the sentence below to practi ce the pronunciati on of words ending in ‘E’.</h5>
+                <ul class="lista-inline">
+                <p>“These are my friends Kate and Kyle.”</p>
+                </ul>
+               
+               
                 <!-- <h5 class="barlow">B - Use the correct punctuati on at the end of the sentences. Use “?” or “.”.</h5>
 				<form id="unidade1grammar2" method="post">
                     <p>1. Is Professor Ludemann from Germany <input type="text" name="grammar2-1" required></p>

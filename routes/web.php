@@ -26,7 +26,12 @@ Route::get('/unidade2/vocabulary', 'HomeController@unidade2Vocabulary')->name('u
 Route::get('/unidade2/grammar', 'HomeController@unidade2Grammar')->name('unidade2/grammar');
 Route::get('/unidade2/listening', 'HomeController@unidade2Listening')->name('unidade2/listening');
 Route::get('/unidade2/understanding', 'HomeController@unidade2Understanding')->name('unidade2/understanding');
-<<<<<<< HEAD
+
+Route::get('/unidade3/vocabulary', 'HomeController@unidade3Vocabulary')->name('unidade3/vocabulary');
+Route::get('/unidade3/conversation', 'HomeController@unidade3Conversation')->name('unidade3/conversation');
+Route::get('/unidade3/grammar', 'HomeController@unidade3Grammar')->name('unidade3/grammar');
+Route::get('/unidade3/listening', 'HomeController@unidade3Listening')->name('unidade3/listening');
+Route::get('/unidade3/understanding', 'HomeController@unidade3Understanding')->name('unidade3/understanding');
 
 Route::get('/unidade4/vocabulary', 'HomeController@unidade4Vocabulary')->name('unidade4/vocabulary');
 Route::get('/unidade4/grammar', 'HomeController@unidade4Grammar')->name('unidade4/grammar');
@@ -37,14 +42,8 @@ Route::get('/unidade4/understanding', 'HomeController@unidade4Understanding')->n
 // Route::get('/modelos-de-solicitacoes', 'CategoriaController@solicitacoes')->name('modelos-de-solicitacoes');
 // Route::get('/manuais-e-regulamentos', 'CategoriaController@franquias')->name('manuais-e-regulamentos');
 // Route::get('marketing/arquivos/{id}/',  ['as'=>'conteudo/{id}', 'uses'=> 'CategoriaController@conteudo']);
-=======
->>>>>>> 10c22e077fec43b2a901134c0e66b463b2059470
 
-Route::get('/unidade3/vocabulary', 'HomeController@unidade3Vocabulary')->name('unidade3/vocabulary');
-Route::get('/unidade3/conversation', 'HomeController@unidade3Conversation')->name('unidade3/conversation');
-Route::get('/unidade3/grammar', 'HomeController@unidade3Grammar')->name('unidade3/grammar');
-Route::get('/unidade3/listening', 'HomeController@unidade3Listening')->name('unidade3/listening');
-Route::get('/unidade3/understanding', 'HomeController@unidade3Understanding')->name('unidade3/understanding');
+
 
 Route::post('/unidade1/grammar/respostas', 'RespostaController@store');
 Route::get('/unidade1/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
