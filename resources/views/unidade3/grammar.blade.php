@@ -10,55 +10,38 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade3" data-etapa="grammar">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-				<h5 class="barlow">2 - GRAMMAR</h5>
-				<span class="play-audio">( Aperte o play )</span>
+				<h3 class="barlow">UNIT 03 - PHOTOGRAPHY AND PHOTOSHOP</h3>
+				<h5 class="barlow">3 - GRAMMAR</h5>
+				<!-- <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit3/grammar/Page15Grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>
-				<ul class="lista-vertical metade esquerda center-align">
-                    <li><h5 class="barlow">Aﬃrmative</h5></li>
-                    <li>I <b>am</b> a photographer.</li>
-                    <li>You <b>are</b> a designer.</li>
-                    <li>He <b>is</b> an illustrator.</li>
-                    <li>She <b>is</b> a game designer.</li>
-                    <li>We <b>are</b> students.</li>
-                    <li>They <b>are</b> web designers.</li>
-                    <li>It <b>is</b> Photoshop.</li>
-                </ul>
-                <ul class="lista-vertical metade direita center-align">
-                    <li><h5 class="barlow">Interrogative</h5></li>
-                    <li><b>Am</b> i a photographer.</li>
-                    <li><b>Are</b> you a designer.</li>
-                    <li><b>Is</b> he an illustrator.</li>
-                    <li><b>Is</b> she a game designer.</li>
-                    <li><b>Are</b> we students.</li>
-                    <li><b>Are</b> they web designers.</li>
-                    <li><b>Is</b> it Photoshop.</li>
-                </ul>
-                <div class="clear"></div>
-				<h5 class="barlow">A - Complete the sentences using the verb to be.</h5>
-				<form id="unidade1grammar1" method="post">
-                    <p><b>Professor Ludemann:</b> Bruna, what <input type="text" name="grammar1-1" required> your job?</p>
-                    <p><b>Bruno:</b> I <input type="text" name="grammar1-2" required> your job?</p>
-                    <p><b>Professor Ludemann:</b> <input type="text" name="grammar1-3" required> Photoshop important in your area?</p>
-                    <p><b>Bruno:</b> Yes, it <input type="text" name="grammar1-4" required> very important.</p>
-                    <p><b>Professor Ludemann:</b> João, why <input type="text" name="grammar1-5" required> Photoshop important in Bruna’s work?</p>
-                    <p><b>João:</b> It <input type="text" name="grammar1-6" required> necessary because she can use it to develop the layout of the website.</p>
+                <div class="clear"></div> -->
+                
+                <p>I am a teacher <b>and</b> a photographer. (addition)</p>
+                <p>My hobby is wildlife photography, <b>but</b> my profession is fashion photography. (contrast)</p>
+                <p>My work is published in magazines and websites, so I need the photos to be perfect. (conclusion)</p>
+                
+
+				<h5 class="barlow">A - Complete the sentences with the appropriate conjuncti on. Use and, but or so.</h5>
+				<form id="" method="post">
+                    <p>1. Sophia works with teaching <input type="text" name="" required> photography.</p>
+                    <p>2. My photos are published in magazines, <input type="text" name="" required> they need to be perfect.</p>
+                    <p>3. The teacher’s name is Sophia Jones, <input type="text" name="" required> she likes to be called by her fi rst name, Sophia.</p>
+                    <p>4. Sophia’s work is published in websites <input type="text" name="" required> magazines.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
                     <input type="hidden" name="atividade_id" value="1">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow">B - Use the correct punctuati on at the end of the sentences. Use “?” or “.”.</h5>
-				<form id="unidade1grammar2" method="post">
-                    <p>1. Is Professor Ludemann from Germany <input type="text" name="grammar2-1" required></p>
-                    <p>2. Bruna is a web designer <input type="text" name="grammar2-2" required></p>
-                    <p>3. Is João a professional photographer <input type="text" name="grammar2-3" required></p>
-                    <p>4. Is Bruno’s hobby photography <input type="text" name="grammar2-4" required></p>
-                    <p>5. Photoshop is a soft ware with innumerous tools <input type="text" name="grammar2-5" required></p>
+                <h5 class="barlow">B - Correct the conjuncti ons in the sentences, if necessary.</h5>
+				<form id="" method="post">
+                    <p>1. I work with photography <input type="text" name="" value="but" required> design.</p>
+                    <p>2. Photoshop off ers complete <input type="text" name="" value="so" required> advanced editi ng tools.</p>
+                    <p>3. Klaus <input type="text" name="" value="and" required> Katia are Sophia’s students.</p>
+                    <p>4. I am a photographer, <input type="text" name="" value="but" required> I need Photoshop.</p>
+                    <p>5. Sophia is from the United States, <input type="text" name="" value="and" required> she lives in Brazil.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">

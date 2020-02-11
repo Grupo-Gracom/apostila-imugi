@@ -28,6 +28,7 @@ Route::get('/unidade2/listening', 'HomeController@unidade2Listening')->name('uni
 Route::get('/unidade2/understanding', 'HomeController@unidade2Understanding')->name('unidade2/understanding');
 
 Route::get('/unidade3/vocabulary', 'HomeController@unidade3Vocabulary')->name('unidade3/vocabulary');
+Route::get('/unidade3/conversation', 'HomeController@unidade3Conversation')->name('unidade3/conversation');
 Route::get('/unidade3/grammar', 'HomeController@unidade3Grammar')->name('unidade3/grammar');
 Route::get('/unidade3/listening', 'HomeController@unidade3Listening')->name('unidade3/listening');
 Route::get('/unidade3/understanding', 'HomeController@unidade3Understanding')->name('unidade3/understanding');

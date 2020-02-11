@@ -61,6 +61,9 @@ class HomeController extends Controller
     public function unidade3Vocabulary(){
         return view('unidade3/vocabulary');
     }
+    public function unidade3Conversation(){
+        return view('unidade3/conversation');
+    }
     public function unidade3Grammar(){
         return view('unidade3/grammar');
     }
