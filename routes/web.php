@@ -25,6 +25,11 @@ Route::get('/unidade2/vocabulary', 'HomeController@unidade2Vocabulary')->name('u
 Route::get('/unidade2/grammar', 'HomeController@unidade2Grammar')->name('unidade2/grammar');
 Route::get('/unidade2/listening', 'HomeController@unidade2Listening')->name('unidade2/listening');
 Route::get('/unidade2/understanding', 'HomeController@unidade2Understanding')->name('unidade2/understanding');
+
+Route::get('/unidade4/vocabulary', 'HomeController@unidade4Vocabulary')->name('unidade4/vocabulary');
+Route::get('/unidade4/grammar', 'HomeController@unidade4Grammar')->name('unidade4/grammar');
+Route::get('/unidade4/listening', 'HomeController@unidade4Listening')->name('unidade4/listening');
+Route::get('/unidade4/understanding', 'HomeController@unidade4Understanding')->name('unidade4/understanding');
 // Route::get('/marketing', 'CategoriaController@marketing')->name('marketing');
 // Route::get('/treinamentos', 'CategoriaController@treinamentos')->name('treinamentos');
 // Route::get('/modelos-de-solicitacoes', 'CategoriaController@solicitacoes')->name('modelos-de-solicitacoes');

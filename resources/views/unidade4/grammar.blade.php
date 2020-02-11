@@ -10,49 +10,90 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade4" data-etapa="grammar">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-				<h5 class="barlow">2 - GRAMMAR</h5>
+				<h3 class="barlow">UNIT 04 - NICE TO MEET YOU, KATE!</h3>
+				<h5 class="barlow">3 - Grammar (demonstrati ve pronouns)</h5>
+                <table class="tabelagrammar">
+                    <tr>
+                        <td></td>
+                        <td class="upper"><b>Close</b></td>
+                        <td class="upper"><b>far</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="upper"><b>singular</b></td>
+                        <td>This</td>
+                        <td>That</td>
+                        <td>(is)</td>
+                    </tr>
+                    <tr>
+                        <td class="upper"><b>plural</b></td>
+                        <td>These</td>
+                        <td>Those</td>
+                        <td>(are)</td>
+                    </tr>
+                </table>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit4/Grammar/gramar.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-				<ul class="lista-vertical metade esquerda center-align">
-                    <li><h5 class="barlow">Aﬃrmative</h5></li>
-                    <li>I <b>am</b> a photographer.</li>
-                    <li>You <b>are</b> a designer.</li>
-                    <li>He <b>is</b> an illustrator.</li>
-                    <li>She <b>is</b> a game designer.</li>
-                    <li>We <b>are</b> students.</li>
-                    <li>They <b>are</b> web designers.</li>
-                    <li>It <b>is</b> Photoshop.</li>
-                </ul>
-                <ul class="lista-vertical metade direita center-align">
-                    <li><h5 class="barlow">Interrogative</h5></li>
-                    <li><b>Am</b> i a photographer.</li>
-                    <li><b>Are</b> you a designer.</li>
-                    <li><b>Is</b> he an illustrator.</li>
-                    <li><b>Is</b> she a game designer.</li>
-                    <li><b>Are</b> we students.</li>
-                    <li><b>Are</b> they web designers.</li>
-                    <li><b>Is</b> it Photoshop.</li>
-                </ul>
-                <div class="clear"></div>
-				<h5 class="barlow">A - Complete the sentences using the verb to be.</h5>
-				<form id="unidade1grammar1" method="post">
-                    <p><b>Professor Ludemann:</b> Bruna, what <input type="text" name="grammar1-1" required> your job?</p>
-                    <p><b>Bruno:</b> I <input type="text" name="grammar1-2" required> your job?</p>
-                    <p><b>Professor Ludemann:</b> <input type="text" name="grammar1-3" required> Photoshop important in your area?</p>
-                    <p><b>Bruno:</b> Yes, it <input type="text" name="grammar1-4" required> very important.</p>
-                    <p><b>Professor Ludemann:</b> João, why <input type="text" name="grammar1-5" required> Photoshop important in Bruna’s work?</p>
-                    <p><b>João:</b> It <input type="text" name="grammar1-6" required> necessary because she can use it to develop the layout of the website.</p>
+                <h5 class="barlow" style="margin-top: 16px">A - Complete the exercise with the correct demonstrative pronouns in the questions and personal pronouns in the answers.</h5>
+				<form>
+                    <div class="umterco">
+                        <figure>
+                            <img src="{{ asset('assets/img/playgo/unit4/01.png') }}" alt="Garotos festejando">
+                        </figure>
+                        <p>What <input type="text"/> ?</p>
+                        <p><input type="text" /> book.</p>
+                    </div>
+                    <div class="umterco">
+                        <figure>
+                            <img src="{{ asset('assets/img/playgo/unit4/02.png') }}" alt="Garotos festejando">
+                        </figure>
+                        <p>What <input type="text"/> ?</p>
+                        <p><input type="text" /> book.</p>
+                    </div>
+                    <div class="umterco">
+                        <figure>
+                            <img src="{{ asset('assets/img/playgo/unit4/03.png') }}" alt="Garotos festejando">
+                        </figure>
+                        <p>What <input type="text"/> ?</p>
+                        <p><input type="text" /> book.</p>
+                    </div>
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
                     <input type="hidden" name="atividade_id" value="1">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow">B - Use the correct punctuati on at the end of the sentences. Use “?” or “.”.</h5>
+                
+				<h5 class="barlow">B. Fill in the blanks with the appropriate form of the verb be using informati on from the text.</h5>
+				<form id="unidade1grammar1" method="post">
+                    <p>1. This <input type="text"/> Kate. She <input type="text"/> from here. She <input type="text"/> from Japan.</p>
+                    <p>2. Carlos and Kate <input type="text"/>  Photoshop students. They <input type="text"/> from Australia. Carlos <input type="text"/> Brasilia and she <input type="text"/> Japanese.</p>
+                    <p>3. <input type="text"/> you Brazilian?</p>
+           
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="1">
+                    <input type="hidden" name="atividade_id" value="1">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+
+                <h5 class="barlow" style="margin-top: 30px">4 - PRONUNCIATION</h5>
+                <h5 class="barlow">A. Observe that the letter 'E' is not pronounced at the end of words.</h5>
+                <ul class="lista-inline">
+					<li><b>NEWS</b></li>
+					<li><b>HAVE</b></li>
+					<li><b>SPEAK</b></li>
+					<li><b>UNDERSTAND</b></li>
+					<li><b>MEET</b></li>
+					<li><b>MAKE</b></li>
+					<li><b>WANT</b></li>
+                </ul>
+                <h5 class="barlow">B. Read the sentence below to practi ce the pronunciati on of words ending in ‘E’.</h5>
+                <!-- <h5 class="barlow">B - Use the correct punctuati on at the end of the sentences. Use “?” or “.”.</h5>
 				<form id="unidade1grammar2" method="post">
                     <p>1. Is Professor Ludemann from Germany <input type="text" name="grammar2-1" required></p>
                     <p>2. Bruna is a web designer <input type="text" name="grammar2-2" required></p>
@@ -87,7 +128,7 @@
                     <input type="hidden" name="unidade_id" value="1">
                     <input type="hidden" name="atividade_id" value="3">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+                </form> -->
 			</div>
 		</div>
     </main>
