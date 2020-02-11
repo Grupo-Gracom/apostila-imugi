@@ -32,9 +32,6 @@ class HomeController extends Controller
         return view('home/index');
     }
 
-    public function unidade1(){
-        return view('home/unidade1');
-    }
     public function unidade1Vocabulary(){
         return view('unidade1/vocabulary');
     }
@@ -47,6 +44,7 @@ class HomeController extends Controller
     public function unidade1Understanding(){
         return view('unidade1/understanding');
     }
+
     public function unidade2Vocabulary(){
         return view('unidade2/vocabulary');
     }
@@ -58,5 +56,18 @@ class HomeController extends Controller
     }
     public function unidade2Understanding(){
         return view('unidade2/understanding');
+    }
+    
+    public function unidade3Vocabulary(){
+        return view('unidade3/vocabulary');
+    }
+    public function unidade3Grammar(){
+        return view('unidade3/grammar');
+    }
+    public function unidade3Listening(){
+        return view('unidade3/listening');
+    }
+    public function unidade3Understanding(){
+        return view('unidade3/understanding');
     }
 }
