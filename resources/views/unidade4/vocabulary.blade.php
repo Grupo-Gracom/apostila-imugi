@@ -11,7 +11,7 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade4" data-etapa="vocabulary">
 				<h3 class="barlow">UNIT 04 - NICE TO MEET YOU, KATE!</h3>
-				<p><b>Goal:</b> Getti ng to know the foreign student Kate Kawamura while taking the ti me to learn more about third person verb conjugati on as well as nati onaliti es and demonstrati ve pronouns.</p>
+				<p><b>Goal:</b> Getting to know the foreign student Kate Kawamura while taking the time to learn more about third person verb conjugation as well as nationalities and demonstrative pronouns.</p>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -26,7 +26,7 @@
 					<li><b>MAKE</b></li>
 					<li><b>WANT</b></li>
 				</ul>
-				<h5 class="barlow">1.1 - CONVERSATION</h5>
+				<h5 class="barlow">2 - CONVERSATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit4/Conversation/Page17Conversation.ogg') }}" type="audio/ogg">

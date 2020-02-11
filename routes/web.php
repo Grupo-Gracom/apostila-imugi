@@ -30,6 +30,7 @@ Route::get('/unidade2/understanding', 'HomeController@unidade2Understanding')->n
 Route::get('/unidade3/vocabulary', 'HomeController@unidade3Vocabulary')->name('unidade3/vocabulary');
 Route::get('/unidade3/conversation', 'HomeController@unidade3Conversation')->name('unidade3/conversation');
 Route::get('/unidade3/grammar', 'HomeController@unidade3Grammar')->name('unidade3/grammar');
+Route::get('/unidade3/pronunciation', 'HomeController@unidade3Pronunciation')->name('unidade3/pronunciation');
 Route::get('/unidade3/listening', 'HomeController@unidade3Listening')->name('unidade3/listening');
 Route::get('/unidade3/understanding', 'HomeController@unidade3Understanding')->name('unidade3/understanding');
 
@@ -42,7 +43,6 @@ Route::get('/unidade4/understanding', 'HomeController@unidade4Understanding')->n
 // Route::get('/modelos-de-solicitacoes', 'CategoriaController@solicitacoes')->name('modelos-de-solicitacoes');
 // Route::get('/manuais-e-regulamentos', 'CategoriaController@franquias')->name('manuais-e-regulamentos');
 // Route::get('marketing/arquivos/{id}/',  ['as'=>'conteudo/{id}', 'uses'=> 'CategoriaController@conteudo']);
-
 
 
 Route::post('/unidade1/grammar/respostas', 'RespostaController@store');
@@ -59,6 +59,13 @@ Route::post('/unidade3/listening/respostas', 'RespostaController@store');
 Route::get('/unidade3/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
 Route::post('/unidade3/understanding/respostas', 'RespostaController@store');
 Route::get('/unidade3/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+
+Route::post('/unidade4/grammar/respostas', 'RespostaController@store');
+Route::get('/unidade4/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/unidade4/listening/respostas', 'RespostaController@store');
+Route::get('/unidade4/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/unidade4/understanding/respostas', 'RespostaController@store');
+Route::get('/unidade4/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
 
 //Route::get('/admin', ['as'=>'admin','uses'=>'AdminController@index']);

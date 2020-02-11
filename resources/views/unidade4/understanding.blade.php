@@ -10,65 +10,53 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade4" data-etapa="understanding">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
+				<h3 class="barlow">UNIT 04 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
 				<h5 class="barlow">4 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <form id="unidade1understanding5" method="post">
                     <p>
-                        1 - Where is Professor Ludemann from?<br>
+                        1 -  Where is Kate from?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        2 - What is João’s profession?<br>
+                        2 - What is Carlos’ hobby?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        3 - Why is Photoshop ideal for Bruno?<br>
+                        3 - What does Kate do for a living?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        4 - Name two professionals who work with Photoshop.<br>
+                        4 - Why does Kate want to learn Photoshop?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        5 - What is João’s personal opinion about Photoshop?<br>
+                        5 - What is Kate’s last name?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        6 - According to João, what is the ideal soft ware to use for image edit on?<br>
+                        6 - What is Kate’s hobby?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        7 - What did Professor Ludemann do fi ve years ago?<br>
+                        7 - Does Kate speak English well?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        8 - Why do professionals of graphic design production have an infinite number of opportunities?<br>
+                        8 - Is Photoshop important to Kate?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        9 - What is Bruno’s hobby?<br>
+                        9 - What news does Sophia have?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
-                    <p>
-                        10 - What does Professor Ludemann work with?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
-                    </p>
+                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
                     <input type="hidden" name="atividade_id" value="5">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
-
 			</div>
 		</div>
     </main>

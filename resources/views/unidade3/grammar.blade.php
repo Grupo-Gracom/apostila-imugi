@@ -48,29 +48,6 @@
                     <input type="hidden" name="atividade_id" value="2">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow">C - Connect the questions to the correct answers.</h5>
-                <form id="unidade1grammar3" method="post">
-                    <div class="metade esquerda">
-                        <p>1. What is the professional photographer’s name?</p>
-                        <p>2. What does Bruno do?</p>
-                        <p>3. When did the professor move to Brazil?</p>
-                        <p>4. Where is the professor from?</p>
-                        <p>5. Why does João need Photoshop?</p>
-                    </div>
-                    <div class="metade direita">
-                        <p><input type="text" name="grammar3-1" required> His name is João.</p>
-                        <p><input type="text" name="grammar3-2" required> To edit his photos.</p>
-                        <p><input type="text" name="grammar3-3" required> He is a photographer</p>
-                        <p><input type="text" name="grammar3-4" required> He is from Canada.</p>
-                        <p><input type="text" name="grammar3-5" required> 5 years ago.</p>
-                    </div>
-                    <div class="clear"></div>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="3">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
 			</div>
 		</div>
     </main>

@@ -9,63 +9,35 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade4" data-etapa="listening">
-				<h3 class="barlow">UNIT 04 - NICE TO MEET YOU, KATE!</h3>
+			<div id="unidade" class="box" data-unidade="unidade3" data-etapa="pronunciation">
+				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit4/Pronuciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A. Observe that the letter 'E' is not pronounced at the end of words.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to and repeat the pronunciati on of the following words. Observe the pronunciati on of the lett er ‘L’.</h5>
+				<ul class="lista-inline">
+                    <li><b class="upper">Wildlife</b></li>
+                    <li><b class="upper">Original</b></li>
+                    <li><b class="upper">Old</b></li>
+                    <li><b class="upper">Tool</b></li>
+                    <li><b class="upper">Call</b></li>
+                    <li><b class="upper">Professional</b></li>
+                    <li><b class="upper">All</b></li>
+                </ul>
+                <h5 class="barlow" style="margin-top: 16px">B - Listen to and repeat the pronunciati on of the following words. Pay att enti on to the pronunciati on of “CH”.</h5>
                 <ul class="lista-inline">
-					<li><b>LIKE</b></li>
-					<li><b>NICE</b></li>
-					<li><b>HAVE</b></li>
-					<li><b>LOVE</b></li>
-					<li><b>MAKE</b></li>
-					<li><b>HERE</b></li>
+                    <li><b class="upper">Choose</b></li>
+                    <li><b class="upper">Teach</b></li>
+                    <li><b class="upper">Check</b></li>
+                    <li><b class="upper">Touch</b></li>
+                    <li><b class="upper">Change</b></li>
+                    <li><b class="upper">Chat</b></li>
                 </ul>
-
-                <h5 class="barlow" style="margin-top: 16px">B. Read the sentence below to practice the pronunciation of words ending in ‘E’.</h5>
-                <ul class="lista-inline">
-                    <p>“These are my friends Kate and Kyle.”</p>
-                </ul>
-                
-                <h5 class="barlow">5 - LISTENING</h5>
-                <span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit4/Listening/completo.ogg') }}" type="audio/ogg">
-                </audio>
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen and answer the questions.</h5>
-                <ul>
-                    <p><b>Hello. My name is Pong. I am from Australia.</b></p>
-                    <p><b>Hi. I am Jessica. I was born in the United States.</b></p>
-                    <p><b>Hey there! My name is Nicolas, but my friends call me Nick. I’m from England.</b></p>
-                </ul>
-                <div class="metade">
-                    <form id="unidade1listening4" method="post">
-                        <p>
-                            1. What is Nicolas’ nationality?<br>
-                            <input type="text" name="listening4-1" class="full left-align" required>
-                        </p>
-                        <p>
-                            2. Where is Pong from?<br>
-                            <input type="text" name="listening4-1" class="full left-align" required>
-                        </p>
-                        <p>
-                            3. Where was Jessica born?<br>
-                            <input type="text" name="listening4-1" class="full left-align" required>
-                        </p>
-            
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="1">
-                        <input type="hidden" name="atividade_id" value="1">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+                <h5 class="barlow" style="margin-top: 16px">C - Listen to your teacher read the sentence, and then repeat it aft er him.</h5>
+                <p>I teach children to use professional Photoshop tools.</p>
 			</div>
 		</div>
     </main>
