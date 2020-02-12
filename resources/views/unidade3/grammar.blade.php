@@ -23,29 +23,29 @@
                 <p>My work is published in magazines and websites, so I need the photos to be perfect. (conclusion)</p>
                 
 
-				<h5 class="barlow">A - Complete the sentences with the appropriate conjuncti on. Use and, but or so.</h5>
-				<form id="" method="post">
-                    <p>1. Sophia works with teaching <input type="text" name="" required> photography.</p>
-                    <p>2. My photos are published in magazines, <input type="text" name="" required> they need to be perfect.</p>
-                    <p>3. The teacher’s name is Sophia Jones, <input type="text" name="" required> she likes to be called by her fi rst name, Sophia.</p>
-                    <p>4. Sophia’s work is published in websites <input type="text" name="" required> magazines.</p>
+				<h5 class="barlow">A - Complete the sentences with the appropriate conjunction. Use and, but or so.</h5>
+				<form id="unidade3grammar11" method="post">
+                    <p>1. Sophia works with teaching <input type="text" name="grammar-11-1" required> photography.</p>
+                    <p>2. My photos are published in magazines, <input type="text" name="grammar-11-2" required> they need to be perfect.</p>
+                    <p>3. The teacher’s name is Sophia Jones, <input type="text" name="grammar-11-3" required> she likes to be called by her fi rst name, Sophia.</p>
+                    <p>4. Sophia’s work is published in websites <input type="text" name="grammar-11-4" required> magazines.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="1">
+                    <input type="hidden" name="unidade_id" value="3">
+                    <input type="hidden" name="atividade_id" value="11">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 <h5 class="barlow">B - Correct the conjuncti ons in the sentences, if necessary.</h5>
-				<form id="" method="post">
-                    <p>1. I work with photography <input type="text" name="" value="but" required> design.</p>
-                    <p>2. Photoshop off ers complete <input type="text" name="" value="so" required> advanced editi ng tools.</p>
-                    <p>3. Klaus <input type="text" name="" value="and" required> Katia are Sophia’s students.</p>
-                    <p>4. I am a photographer, <input type="text" name="" value="but" required> I need Photoshop.</p>
-                    <p>5. Sophia is from the United States, <input type="text" name="" value="and" required> she lives in Brazil.</p>
+				<form id="unidade3grammar12" method="post">
+                    <p>1. I work with photography <input type="text" name="grammar-12-1" value="but" required> design.</p>
+                    <p>2. Photoshop off ers complete <input type="text" name="grammar-12-2" value="so" required> advanced editi ng tools.</p>
+                    <p>3. Klaus <input type="text" name="grammar-12-3" value="and" required> Katia are Sophia’s students.</p>
+                    <p>4. I am a photographer, <input type="text" name="grammar-12-4" value="but" required> I need Photoshop.</p>
+                    <p>5. Sophia is from the United States, <input type="text" name="grammar-12-5" value="and" required> she lives in Brazil.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="2">
+                    <input type="hidden" name="unidade_id" value="3">
+                    <input type="hidden" name="atividade_id" value="12">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 			</div>
@@ -59,57 +59,39 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1grammar1").submit(function(e){
+        $("#unidade3grammar11").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1grammar1 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar1 input[type="text"]').length - 1) == index){
+            $('#unidade3grammar11 input[type="text"]').each(function(index){
+                if(($('#unidade3grammar11 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1grammar1 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1grammar1'), respostas);
+            if($('#unidade3grammar11 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade3grammar11'), respostas);
             }else{
-                enviarAtividade($('#unidade1grammar1'), respostas);
+                enviarAtividade($('#unidade3grammar11'), respostas);
             }
         });
 
-        $("#unidade1grammar2").submit(function(e){
+        $("#unidade3grammar12").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1grammar2 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar2 input[type="text"]').length - 1) == index){
+            $('#unidade3grammar12 input[type="text"]').each(function(index){
+                if(($('#unidade3grammar12 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1grammar2 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1grammar2'), respostas);
+            if($('#unidade3grammar12 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade3grammar12'), respostas);
             }else{
-                enviarAtividade($('#unidade1grammar2'), respostas);
-            }
-        });
-
-        $("#unidade1grammar3").submit(function(e){
-            e.preventDefault();
-            $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade1grammar3 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar3 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
-            if($('#unidade1grammar3 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1grammar3'), respostas);
-            }else{
-                enviarAtividade($('#unidade1grammar3'), respostas);
+                enviarAtividade($('#unidade3grammar12'), respostas);
             }
         });
         

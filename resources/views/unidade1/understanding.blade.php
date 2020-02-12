@@ -20,39 +20,39 @@
                     </p>
                     <p>
                         2 - What is João’s profession?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
+                        <input type="text" name="understanding5-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - Why is Photoshop ideal for Bruno?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
+                        <input type="text" name="understanding5-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - Name two professionals who work with Photoshop.<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
+                        <input type="text" name="understanding5-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - What is João’s personal opinion about Photoshop?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
+                        <input type="text" name="understanding5-5" class="full left-align" required>
                     </p>
                     <p>
                         6 - According to João, what is the ideal soft ware to use for image edit on?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
+                        <input type="text" name="understanding5-6" class="full left-align" required>
                     </p>
                     <p>
                         7 - What did Professor Ludemann do fi ve years ago?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
+                        <input type="text" name="understanding5-7" class="full left-align" required>
                     </p>
                     <p>
                         8 - Why do professionals of graphic design production have an infinite number of opportunities?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
+                        <input type="text" name="understanding5-8" class="full left-align" required>
                     </p>
                     <p>
                         9 - What is Bruno’s hobby?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
+                        <input type="text" name="understanding5-9" class="full left-align" required>
                     </p>
                     <p>
                         10 - What does Professor Ludemann work with?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
+                        <input type="text" name="understanding5-10" class="full left-align" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -82,6 +82,7 @@
 
         $("#unidade1understanding5").submit(function(e){
             e.preventDefault();
+            $(this).find('button').prop('disabled', true);
             var respostas = '{';
             $('#unidade1understanding5 input[type="text"]').each(function(index){
                 if(($('#unidade1understanding5 input[type="text"]').length - 1) == index){
@@ -110,11 +111,11 @@
                     console.log("não veio nada");
                 }else{
                     var objeto = JSON.parse(response[0].resposta_respostas);
-                    var respostas = Object.keys(objeto).map(i => JSON.parse(objeto[String(i)]));
-                    for(i = 0; i < respostas.length; i++){
-                        var next = i + 1;
-                        $('#unidade1understanding'+atividade_id+' input[name="understanding'+atividade_id+'-'+next+'"]').val(respostas[i]);
-                        $('#unidade1understanding'+atividade_id+' input[name="understanding'+atividade_id+'-'+next+'"]').attr("value", respostas[i]);
+                    var chaves = Object.keys(objeto);
+                    var respostas = Object.values(objeto);
+                    for(j = 0; j < respostas.length; j++){
+                        $('#unidade1understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade1understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
                     $('#unidade1understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade1understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
