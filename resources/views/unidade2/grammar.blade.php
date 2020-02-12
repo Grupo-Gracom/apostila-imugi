@@ -10,83 +10,61 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade2" data-etapa="grammar">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
+				<h3 class="barlow">UNIT 02 - INTRODUCTION TO PHOTOSHOP</h3>
 				<h5 class="barlow">2 - GRAMMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit2/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
+                <div class="clear" style="margin-bottom: 16px;"></div>
+				<div class="metade esquerda">
+                    <h5 class="barlow">A - Answer the questions. Use short answers.</h5>
+                    <form id="unidade2grammar6" method="post">
+                        <p><b>1. </b> Do you have Photoshop in your computer? <input type="text" name="grammar6-1" required ></p>
+                        <p><b>2. </b> Do you use Photoshop to edit photos? <input type="text" name="grammar6-2" required></p>
+                        <p><b>3. </b> Do any of your friends use Photoshop for work? <input type="text" name="grammar6-3" required></p>
+                        <p><b>4. </b> Do you have experience in Photoshop? <input type="text" name="grammar6-4" required></p>
+                        <p><b>5. </b> Do you need Photoshop now? <input type="text" name="grammar6-5" required></p>                    
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="2">
+                        <input type="hidden" name="atividade_id" value="6">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>
+                <div class="metade direita">
+                    <figure>
+                        <img style="max-width:500px; max-height:600px;" src="{{ asset('assets/img/playgo/unit2/painel.png') }}" alt="Garotos festejando">
+                    </figure>
+                </div>
                 <div class="clear"></div>
-				<ul class="lista-vertical metade esquerda center-align">
-                    <li><h5 class="barlow">Aﬃrmative</h5></li>
-                    <li>I <b>am</b> a photographer.</li>
-                    <li>You <b>are</b> a designer.</li>
-                    <li>He <b>is</b> an illustrator.</li>
-                    <li>She <b>is</b> a game designer.</li>
-                    <li>We <b>are</b> students.</li>
-                    <li>They <b>are</b> web designers.</li>
-                    <li>It <b>is</b> Photoshop.</li>
-                </ul>
-                <ul class="lista-vertical metade direita center-align">
-                    <li><h5 class="barlow">Interrogative</h5></li>
-                    <li><b>Am</b> i a photographer.</li>
-                    <li><b>Are</b> you a designer.</li>
-                    <li><b>Is</b> he an illustrator.</li>
-                    <li><b>Is</b> she a game designer.</li>
-                    <li><b>Are</b> we students.</li>
-                    <li><b>Are</b> they web designers.</li>
-                    <li><b>Is</b> it Photoshop.</li>
-                </ul>
-                <div class="clear"></div>
-				<h5 class="barlow">A - Complete the sentences using the verb to be.</h5>
-				<form id="unidade1grammar1" method="post">
-                    <p><b>Professor Ludemann:</b> Bruna, what <input type="text" name="grammar1-1" required> your job?</p>
-                    <p><b>Bruno:</b> I <input type="text" name="grammar1-2" required> your job?</p>
-                    <p><b>Professor Ludemann:</b> <input type="text" name="grammar1-3" required> Photoshop important in your area?</p>
-                    <p><b>Bruno:</b> Yes, it <input type="text" name="grammar1-4" required> very important.</p>
-                    <p><b>Professor Ludemann:</b> João, why <input type="text" name="grammar1-5" required> Photoshop important in Bruna’s work?</p>
-                    <p><b>João:</b> It <input type="text" name="grammar1-6" required> necessary because she can use it to develop the layout of the website.</p>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="1">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-                <h5 class="barlow">B - Use the correct punctuati on at the end of the sentences. Use “?” or “.”.</h5>
-				<form id="unidade1grammar2" method="post">
-                    <p>1. Is Professor Ludemann from Germany <input type="text" name="grammar2-1" required></p>
-                    <p>2. Bruna is a web designer <input type="text" name="grammar2-2" required></p>
-                    <p>3. Is João a professional photographer <input type="text" name="grammar2-3" required></p>
-                    <p>4. Is Bruno’s hobby photography <input type="text" name="grammar2-4" required></p>
-                    <p>5. Photoshop is a soft ware with innumerous tools <input type="text" name="grammar2-5" required></p>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="2">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-                <h5 class="barlow">C - Connect the questions to the correct answers.</h5>
-                <form id="unidade1grammar3" method="post">
-                    <div class="metade esquerda">
-                        <p>1. What is the professional photographer’s name?</p>
-                        <p>2. What does Bruno do?</p>
-                        <p>3. When did the professor move to Brazil?</p>
-                        <p>4. Where is the professor from?</p>
-                        <p>5. Why does João need Photoshop?</p>
-                    </div>
-                    <div class="metade direita">
-                        <p><input type="text" name="grammar3-1" required> His name is João.</p>
-                        <p><input type="text" name="grammar3-2" required> To edit his photos.</p>
-                        <p><input type="text" name="grammar3-3" required> He is a photographer</p>
-                        <p><input type="text" name="grammar3-4" required> He is from Canada.</p>
-                        <p><input type="text" name="grammar3-5" required> 5 years ago.</p>
-                    </div>
-                    <div class="clear"></div>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="3">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                <div class="metade">				
+                    <h5 class="barlow">B - Organize the sentences. Use DO when necessary.</h5>
+                    <form id="unidade2grammar7" method="post">
+                        <p>1. You/with/work/photography <input class="full" type="text" name="grammar7-1" required></p>
+                        <p>2. They/a soft ware/need/to edit/photos <input class="full" type="text" name="grammar7-2" required></p>
+                        <p>3. Have/you/ a computer <input class="full" type="text" name="grammar7-3" required></p>
+                        <p>4. We/Photoshop/use/for work <input class="full" type="text" name="grammar7-4" required></p>                        
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="2">
+                        <input type="hidden" name="atividade_id" value="7">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>
+                <h5 class="barlow">C - The punctuation is correct.</h5>
+                <form id="unidade2grammar8" method="post">
+                    <div class="metade">
+                        <p>1. You develop websites? <input class="full" type="text" name="grammar8-1" required>? </p>
+                        <p>2. Do I use layouts I develop on Photoshop for sites. <input class="full" type="text" name="grammar8-2" required>. </p>
+                        <p>3. Thomas and John Knoll are brothers. <input class="full" type="text" name="grammar8-3" required>? </p>                        
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="2">
+                        <input type="hidden" name="atividade_id" value="8">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </div>                    
+                    <div class="clear"></div>                                        
                 </form>
 			</div>
 		</div>
@@ -99,54 +77,54 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1grammar1").submit(function(e){
+        $("#unidade2grammar6").submit(function(e){
             e.preventDefault();
             var respostas = '{';
-            $('#unidade1grammar1 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar1 input[type="text"]').length - 1) == index){
+            $('#unidade2grammar6 input[type="text"]').each(function(index){
+                if(($('#unidade2grammar6 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1grammar1 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1grammar1'), respostas);
+            if($('#unidade2grammar6 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade2grammar6'), respostas);
             }else{
-                enviarAtividade($('#unidade1grammar1'), respostas);
+                enviarAtividade($('#unidade2grammar6'), respostas);
             }
         });
 
-        $("#unidade1grammar2").submit(function(e){
+        $("#unidade2grammar7").submit(function(e){
             e.preventDefault();
             var respostas = '{';
-            $('#unidade1grammar2 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar2 input[type="text"]').length - 1) == index){
+            $('#unidade2grammar7 input[type="text"]').each(function(index){
+                if(($('#unidade2grammar7 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1grammar2 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1grammar2'), respostas);
+            if($('#unidade2grammar7 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade2grammar7'), respostas);
             }else{
-                enviarAtividade($('#unidade1grammar2'), respostas);
+                enviarAtividade($('#unidade2grammar7'), respostas);
             }
         });
 
-        $("#unidade1grammar3").submit(function(e){
+        $("#unidade2grammar8").submit(function(e){
             e.preventDefault();
             var respostas = '{';
-            $('#unidade1grammar3 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar3 input[type="text"]').length - 1) == index){
+            $('#unidade2grammar8 input[type="text"]').each(function(index){
+                if(($('#unidade2grammar8 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1grammar3 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1grammar3'), respostas);
+            if($('#unidade2grammar8 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade2grammar8'), respostas);
             }else{
-                enviarAtividade($('#unidade1grammar3'), respostas);
+                enviarAtividade($('#unidade2grammar8'), respostas);
             }
         });
         
@@ -166,11 +144,11 @@
                     var respostas = Object.keys(objeto).map(i => JSON.parse(objeto[String(i)]));
                     for(i = 0; i < respostas.length; i++){
                         var next = i + 1;
-                        $('#unidade1grammar'+atividade_id+' input[name="grammar'+atividade_id+'-'+next+'"]').val(respostas[i]);
-                        $('#unidade1grammar'+atividade_id+' input[name="grammar'+atividade_id+'-'+next+'"]').attr("value", respostas[i]);
+                        $('#unidade2grammar'+atividade_id+' input[name="grammar'+atividade_id+'-'+next+'"]').val(respostas[i]);
+                        $('#unidade2grammar'+atividade_id+' input[name="grammar'+atividade_id+'-'+next+'"]').attr("value", respostas[i]);
                     }
-                    $('#unidade1grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade2grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade2grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
