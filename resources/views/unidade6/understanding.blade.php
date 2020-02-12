@@ -12,7 +12,7 @@
 			<div id="unidade" class="box" data-unidade="unidade6" data-etapa="understanding">
 				<h3 class="barlow">UNIT 06 - Brush and Red Eye Correction</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questi ons according to the information studied in the unit.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions according to the information studied in the unit.</h5>
                 <div class="metade">
                     <form id="unidade6understanding82" method="post">
                         <p>
@@ -24,7 +24,7 @@
                             <input type="text" name="understanding82-2" class="full left-align" required>
                         </p>
                         <p>
-                            3 - Which tool is used to touch up imperfecti ons in a picture?<br>
+                            3 - Which tool is used to touch up imperfections in a picture?<br>
                             <input type="text" name="understanding82-3" class="full left-align" required>
                         </p>
                         <p>

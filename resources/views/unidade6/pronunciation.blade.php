@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Observe how in the suffi x “ing” the lett er “g” is not pronounced.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Observe how in the suffix “ing” the letter “g” is not pronounced.</h5>
 				<ul class="lista-inline">
                     <li><b class="upper">Touching up</b></li>
                     <li><b class="upper">Healing</b></li>
