@@ -10,47 +10,47 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade6" data-etapa="understanding">
-				<h3 class="barlow">UNIT 06 - </h3>
+				<h3 class="barlow">UNIT 06 - Brush and Red Eye Correction</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questi ons according to the information studied in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade3understanding81" method="post">
+                    <form id="unidade6understanding82" method="post">
                         <p>
                             1 - How many tools does Sophia have to teach the class?<br>
-                            <input type="text" name="understanding81-1" class="full left-align" required>
+                            <input type="text" name="understanding82-1" class="full left-align" required>
                         </p>
                         <p>
                             2 - What are the names of the two tools studied in this unit?<br>
-                            <input type="text" name="understanding81-2" class="full left-align" required>
+                            <input type="text" name="understanding82-2" class="full left-align" required>
                         </p>
                         <p>
                             3 - Which tool is used to touch up imperfecti ons in a picture?<br>
-                            <input type="text" name="understanding81-3" class="full left-align" required>
+                            <input type="text" name="understanding82-3" class="full left-align" required>
                         </p>
                         <p>
                             4 - Does Kate know what the Healing Brush is?<br>
-                            <input type="text" name="understanding81-4" class="full left-align" required>
+                            <input type="text" name="understanding82-4" class="full left-align" required>
                         </p>
                         <p>
                             5 - What is the tool that removes the red from your eyes called?<br>
-                            <input type="text" name="understanding81-5" class="full left-align" required>
+                            <input type="text" name="understanding82-5" class="full left-align" required>
                         </p>
                         <p>
                             6 - Who uses Healing Brush?<br>
-                            <input type="text" name="understanding81-6" class="full left-align" required>
+                            <input type="text" name="understanding82-6" class="full left-align" required>
                         </p>
                         <p>
                             7 - Why is it obvious to Kate that Red Eye Correction removes the red from your eyes in pictures?<br>
-                            <input type="text" name="understanding81-7" class="full left-align" required>
+                            <input type="text" name="understanding82-7" class="full left-align" required>
                         </p>
                         <p>
                             8 - Is Carlos sure about his answer?<br>
-                            <input type="text" name="understanding81-8" class="full left-align" required>
+                            <input type="text" name="understanding82-8" class="full left-align" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="3">
-                        <input type="hidden" name="atividade_id" value="81">
+                        <input type="hidden" name="unidade_id" value="6">
+                        <input type="hidden" name="atividade_id" value="82">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -74,21 +74,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade3understanding81").submit(function(e){
+        $("#unidade6understanding82").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade3understanding81 input[type="text"]').each(function(index){
-                if(($('#unidade3understanding81 input[type="text"]').length - 1) == index){
+            $('#unidade6understanding82 input[type="text"]').each(function(index){
+                if(($('#unidade6understanding82 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade3understanding81 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade3understanding81'), respostas);
+            if($('#unidade6understanding82 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade6understanding82'), respostas);
             }else{
-                enviarAtividade($('#unidade3understanding81'), respostas);
+                enviarAtividade($('#unidade6understanding82'), respostas);
             }
         });
 
@@ -108,11 +108,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade3understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade3understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade6understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade6understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade3understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade3understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade6understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade6understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
