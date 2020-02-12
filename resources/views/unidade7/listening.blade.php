@@ -9,56 +9,34 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade4" data-etapa="understanding">
-				<h3 class="barlow">UNIT 04 - NICE TO MEET YOU, KATE!</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
-                <div class="metade">
-                <form id="unidade4understanding17" method="post">
-                    <p>
-                        1 -  Where is Kate from?<br>
-                        <input type="text" name="understanding17-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        2 - What is Carlos’ hobby?<br>
-                        <input type="text" name="understanding17-2" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 - What does Kate do for a living?<br>
-                        <input type="text" name="understanding17-3" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - Why does Kate want to learn Photoshop?<br>
-                        <input type="text" name="understanding17-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - What is Kate’s last name?<br>
-                        <input type="text" name="understanding17-5" class="full left-align" required>
-                    </p>
-                    <p>
-                        6 - What is Kate’s hobby?<br>
-                        <input type="text" name="understanding17-6" class="full left-align" required>
-                    </p>
-                    <p>
-                        7 - Does Kate speak English well?<br>
-                        <input type="text" name="understanding17-7" class="full left-align" required>
-                    </p>
-                    <p>
-                        8 - Is Photoshop important to Kate?<br>
-                        <input type="text" name="understanding17-8" class="full left-align" required>
-                    </p>
-                    <p>
-                        9 - What news does Sophia have?<br>
-                        <input type="text" name="understanding17-9" class="full left-align" required>
-                    </p>
-                    
+			<div id="unidade" class="box" data-unidade="unidade1" data-etapa="listening">
+				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
+                <h5 class="barlow">5 - LISTENING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
+                </audio>
+                <div class="clear"></div>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen and write the words you hear on the lines.</h5>
+                <p>Graphic design is an important <b>tool</b> that enhances how you <b>communicate</b> with people. It is used to <b>transmit</b> ideas in an effective and beautiful way. Professionally designed graphics cause positive opinions about your <b>product</b> , service or <b>brand</b>.</p>
+                <h5 class="barlow" style="margin-top: 16px">B - List the professionals who use Photoshop.</h5>
+                <p>Photoshop is an important tool used by many professionals of different areas. It is extremely important for photographers, web designers, game designers, illustrators and many others.</p>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/unit1/listining/listining_b.ogg') }}" type="audio/ogg">
+                </audio>
+                <div class="clear"></div>
+                <form id="unidade1listening4" method="post">
+                    <p>1 - <input type="text" name="listening4-1" required></p>
+                    <p>2 - <input type="text" name="listening4-2" required></p>
+                    <p>3 - <input type="text" name="listening4-3" required></p>
+                    <p>4 - <input type="text" name="listening4-4" required></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="4">
-                    <input type="hidden" name="atividade_id" value="17">
+                    <input type="hidden" name="unidade_id" value="1">
+                    <input type="hidden" name="atividade_id" value="4">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                </div>
 			</div>
 		</div>
     </main>
@@ -70,21 +48,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade4understanding17").submit(function(e){
+        $("#unidade1listening4").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade4understanding17 input[type="text"]').each(function(index){
-                if(($('#unidade4understanding17 input[type="text"]').length - 1) == index){
+            $('#unidade1listening4 input[type="text"]').each(function(index){
+                if(($('#unidade1listening4 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade4understanding17 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade4understanding17'), respostas);
+            if($('#unidade1listening4 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade1listening4'), respostas);
             }else{
-                enviarAtividade($('#unidade4understanding17'), respostas);
+                enviarAtividade($('#unidade1listening4'), respostas);
             }
         });
 
@@ -104,11 +82,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade4understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade4understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade4understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade4understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
