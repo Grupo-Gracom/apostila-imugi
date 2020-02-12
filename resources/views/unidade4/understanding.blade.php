@@ -11,51 +11,51 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade4" data-etapa="understanding">
 				<h3 class="barlow">UNIT 04 - NICE TO MEET YOU, KATE!</h3>
-				<h5 class="barlow">4 - UNDERSTANDING</h5>
+				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                <form id="unidade4understanding16" method="post">
+                <form id="unidade4understanding17" method="post">
                     <p>
                         1 -  Where is Kate from?<br>
-                        <input type="text" name="understanding16-1" class="full left-align" required>
+                        <input type="text" name="understanding17-1" class="full left-align" required>
                     </p>
                     <p>
                         2 - What is Carlos’ hobby?<br>
-                        <input type="text" name="understanding16-2" class="full left-align" required>
+                        <input type="text" name="understanding17-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - What does Kate do for a living?<br>
-                        <input type="text" name="understanding16-3" class="full left-align" required>
+                        <input type="text" name="understanding17-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - Why does Kate want to learn Photoshop?<br>
-                        <input type="text" name="understanding16-4" class="full left-align" required>
+                        <input type="text" name="understanding17-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - What is Kate’s last name?<br>
-                        <input type="text" name="understanding16-5" class="full left-align" required>
+                        <input type="text" name="understanding17-5" class="full left-align" required>
                     </p>
                     <p>
                         6 - What is Kate’s hobby?<br>
-                        <input type="text" name="understanding16-6" class="full left-align" required>
+                        <input type="text" name="understanding17-6" class="full left-align" required>
                     </p>
                     <p>
                         7 - Does Kate speak English well?<br>
-                        <input type="text" name="understanding16-7" class="full left-align" required>
+                        <input type="text" name="understanding17-7" class="full left-align" required>
                     </p>
                     <p>
                         8 - Is Photoshop important to Kate?<br>
-                        <input type="text" name="understanding16-8" class="full left-align" required>
+                        <input type="text" name="understanding17-8" class="full left-align" required>
                     </p>
                     <p>
                         9 - What news does Sophia have?<br>
-                        <input type="text" name="understanding16-9" class="full left-align" required>
+                        <input type="text" name="understanding17-9" class="full left-align" required>
                     </p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="4">
-                    <input type="hidden" name="atividade_id" value="16">
+                    <input type="hidden" name="atividade_id" value="17">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 </div>
@@ -70,21 +70,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade4understanding16").submit(function(e){
+        $("#unidade4understanding17").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade4understanding16 input[type="text"]').each(function(index){
-                if(($('#unidade4understanding16 input[type="text"]').length - 1) == index){
+            $('#unidade4understanding17 input[type="text"]').each(function(index){
+                if(($('#unidade4understanding17 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade4understanding16 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade4understanding16'), respostas);
+            if($('#unidade4understanding17 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade4understanding17'), respostas);
             }else{
-                enviarAtividade($('#unidade4understanding16'), respostas);
+                enviarAtividade($('#unidade4understanding17'), respostas);
             }
         });
 
