@@ -93,6 +93,7 @@
 
         $("#unidade4grammar14").submit(function(e){
             e.preventDefault();
+            $(this).find('button').prop('disabled', true);
             var respostas = '{';
             $('#unidade4grammar14 input[type="text"]').each(function(index){
                 if(($('#unidade4grammar14 input[type="text"]').length - 1) == index){
@@ -110,6 +111,7 @@
 
         $("#unidade4grammar15").submit(function(e){
             e.preventDefault();
+            $(this).find('button').prop('disabled', true);
             var respostas = '{';
             $('#unidade4grammar15 input[type="text"]').each(function(index){
                 if(($('#unidade4grammar15 input[type="text"]').length - 1) == index){
@@ -138,11 +140,11 @@
                     console.log("não veio nada");
                 }else{
                     var objeto = JSON.parse(response[0].resposta_respostas);
+                    var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        var next = j + 1;
-                        $('#unidade4grammar'+atividade_id+' input[name="grammar'+atividade_id+'-'+next+'"]').val(respostas[j]);
-                        $('#unidade4grammar'+atividade_id+' input[name="grammar'+atividade_id+'-'+next+'"]').attr("value", respostas[j]);
+                        $('#unidade4grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade4grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
                     $('#unidade4grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade4grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
