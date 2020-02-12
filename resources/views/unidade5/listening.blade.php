@@ -17,10 +17,10 @@
 					<source src="{{ asset('assets/audio/Unit5/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div class="col-md-12" style="margin-top: 36px">
-                        <p>A - Kate: Hey, Lee, I <b>have</b> a beauti ful picture of the beach that I love, but the sky is a little <b>bright</b>. What can I do to make it darker?</p>
-                        <p>B - Lee: HI there, Kate! You can use <b>Burn Tool</b> to make specifi c areas of the picture <b>darker</b>. It is a great tool to balance the <b>contrast</b> in a picture</p>
-                        <p>C - Kate: Great! Thank you so much, Lee!</p>
+                <div style="margin-top: 36px">
+                    <p>A - Kate: Hey, Lee, I <b>have</b> a beautiful picture of the beach that I love, but the sky is a little <b>bright</b>. What can I do to make it darker?</p>
+                    <p>B - Lee: HI there, Kate! You can use <b>Burn Tool</b> to make specific areas of the picture <b>darker</b>. It is a great tool to balance the <b>contrast</b> in a picture</p>
+                    <p>C - Kate: Great! Thank you so much, Lee!</p>
                 </div>
 			</div>
 		</div>

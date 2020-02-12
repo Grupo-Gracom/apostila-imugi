@@ -68,10 +68,10 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 
-				<h5 class="barlow">B. Fill in the blanks with the appropriate form of the verb be using informati on from the text.</h5>
+				<h5 class="barlow">B. Fill in the blanks with the appropriate form of the verb be using information from the text.</h5>
 				<form id="unidade4grammar15" method="post">
                     <p>1. This <input type="text" name="grammar15-1" required/> Kate. She <input type="text" name="grammar15-2" required/> from here. She <input type="text" name="grammar15-3" required/> from Japan.</p>
-                    <p>2. Carlos and Kate <input type="text" name="grammar15-4" required/>  Photoshop students. They <input type="text" name="grammar15-5" required/> from Australia. Carlos <input type="text"  name="grammar15-6" required/> Brasilia and she <input type="text" name="grammar15-7" required/> Japanese.</p>
+                    <p>2. Carlos and Kate <input type="text" name="grammar15-4" required/>  Photoshop students. They <input type="text" name="grammar15-5" required/> from Australia. Carlos <input type="text"  name="grammar15-6" required/> Brasilian and she <input type="text" name="grammar15-7" required/> Japanese.</p>
                     <p>3. <input type="text" name="grammar15-8" required/> you Brazilian?</p>
            
                     <input type="hidden" name="_token" value="{{csrf_token()}}">

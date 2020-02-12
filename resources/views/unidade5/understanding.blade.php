@@ -9,54 +9,59 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade4" data-etapa="understanding">
-				<h3 class="barlow">UNIT 04 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-				<h5 class="barlow">4 - UNDERSTANDING</h5>
+			<div id="unidade" class="box" data-unidade="unidade5" data-etapa="understanding">
+				<h3 class="barlow">UNIT 05 - BURN TOOL</h3>
+				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
-                <form id="unidade4understanding16" method="post">
+                <form id="unidade5understanding20" method="post">
                     <p>
-                        1 -  Where is Kate from?<br>
-                        <input type="text" name="understanding16-1" class="full left-align" required>
+                        1 -  What is the tool mentioned in the text called?<br>
+                        <input type="text" name="understanding20-1" class="full left-align" required>
                     </p>
                     <p>
-                        2 - What is Carlos’ hobby?<br>
-                        <input type="text" name="understanding16-2" class="full left-align" required>
+                        2 -  Does Beatriz know what the tool is used for?<br>
+                        <input type="text" name="understanding20-2" class="full left-align" required>
                     </p>
                     <p>
-                        3 - What does Kate do for a living?<br>
-                        <input type="text" name="understanding16-3" class="full left-align" required>
+                        3 -  What is Burn tool used for?<br>
+                        <input type="text" name="understanding20-3" class="full left-align" required>
                     </p>
                     <p>
-                        4 - Why does Kate want to learn Photoshop?<br>
-                        <input type="text" name="understanding16-4" class="full left-align" required>
+                        4 - Who knows what Burn tool is?<br>
+                        <input type="text" name="understanding20-4" class="full left-align" required>
                     </p>
                     <p>
-                        5 - What is Kate’s last name?<br>
-                        <input type="text" name="understanding16-5" class="full left-align" required>
+                        5 - What does the tool balance?<br>
+                        <input type="text" name="understanding20-5" class="full left-align" required>
                     </p>
                     <p>
-                        6 - What is Kate’s hobby?<br>
-                        <input type="text" name="understanding16-6" class="full left-align" required>
+                        6 - What picture does Kate need to edit the contrast?<br>
+                        <input type="text" name="understanding20-6" class="full left-align" required>
                     </p>
                     <p>
-                        7 - Does Kate speak English well?<br>
-                        <input type="text" name="understanding16-7" class="full left-align" required>
+                        7 - What is the problem with Kate’s picture?<br>
+                        <input type="text" name="understanding20-7" class="full left-align" required>
                     </p>
                     <p>
-                        8 - Is Photoshop important to Kate?<br>
-                        <input type="text" name="understanding16-8" class="full left-align" required>
+                        8 - In what situation do you recommend the use of Burn Tool?<br>
+                        <input type="text" name="understanding20-8" class="full left-align" required>
                     </p>
                     <p>
-                        9 - What news does Sophia have?<br>
-                        <input type="text" name="understanding16-9" class="full left-align" required>
+                        9 - Do you know how to use Burn Tool?<br>
+                        <input type="text" name="understanding20-9" class="full left-align" required>
                     </p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="4">
-                    <input type="hidden" name="atividade_id" value="16">
+                    <input type="hidden" name="unidade_id" value="5">
+                    <input type="hidden" name="atividade_id" value="20">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
+                <div class="metade" style="margin-top: 36px">
+					<figure>
+						<img src="{{ asset('assets/img/playgo/unit5/pagina-1.png') }}" alt="Garotos festejando">
+					</figure>
+				</div>
 			</div>
 		</div>
     </main>
@@ -68,21 +73,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade4understanding16").submit(function(e){
+        $("#unidade5understanding20").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade4understanding16 input[type="text"]').each(function(index){
-                if(($('#unidade4understanding16 input[type="text"]').length - 1) == index){
+            $('#unidade5understanding20 input[type="text"]').each(function(index){
+                if(($('#unidade5understanding20 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade4understanding16 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade4understanding16'), respostas);
+            if($('#unidade5understanding20 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade5understanding20'), respostas);
             }else{
-                enviarAtividade($('#unidade4understanding16'), respostas);
+                enviarAtividade($('#unidade5understanding20'), respostas);
             }
         });
 
@@ -102,11 +107,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade4understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade4understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade5understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade5understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade4understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade4understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade5understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade5understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

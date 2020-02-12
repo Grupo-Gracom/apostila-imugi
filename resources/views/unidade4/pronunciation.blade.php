@@ -9,7 +9,7 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade4" data-etapa="listening">
+			<div id="unidade" class="box" data-unidade="unidade4" data-etapa="pronunciation">
 				<h3 class="barlow">UNIT 04 - NICE TO MEET YOU, KATE!</h3>
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
