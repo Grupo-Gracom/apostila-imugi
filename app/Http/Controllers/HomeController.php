@@ -144,6 +144,7 @@ class HomeController extends Controller
     }
     public function unidade7Understanding(){
         return view('unidade7/understanding');
+    }
     //UNIDADE 6
     public function unidade6Vocabulary(){
         return view('unidade6/vocabulary');

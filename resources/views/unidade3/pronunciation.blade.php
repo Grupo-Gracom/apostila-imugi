@@ -14,7 +14,7 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit3/pronuciation/PronunciationCompleto.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to and repeat the pronunciati on of the following words. Observe the pronunciati on of the lett er ‘L’.</h5>

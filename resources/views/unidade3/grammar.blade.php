@@ -12,13 +12,12 @@
 			<div id="unidade" class="box" data-unidade="unidade3" data-etapa="grammar">
 				<h3 class="barlow">UNIT 03 - PHOTOGRAPHY AND PHOTOSHOP</h3>
 				<h5 class="barlow">3 - GRAMMAR</h5>
-				<!-- <span class="play-audio">( Aperte o play )</span>
+				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit3/grammar/Page15Grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div> -->
-                
-                <p>I am a teacher <b>and</b> a photographer. (addition)</p>
+                <div class="clear"></div>                
+                <p style="margin-top:16px;">I am a teacher <b>and</b> a photographer. (addition)</p>
                 <p>My hobby is wildlife photography, <b>but</b> my profession is fashion photography. (contrast)</p>
                 <p>My work is published in magazines and websites, so I need the photos to be perfect. (conclusion)</p>
                 
