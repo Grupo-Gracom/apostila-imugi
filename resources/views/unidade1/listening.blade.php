@@ -11,34 +11,7 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade1" data-etapa="listening">
 				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-				<h5 class="barlow">3 - PRONUNCIATION</h5>
-				<span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
-                </audio>
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Observe how the sound of the letters “PH” resembles an “F”. Practice by repeating the words below.</h5>
-				<ul class="lista-inline">
-                    <li><b class="upper">Photo</b></li>
-                    <li><b class="upper">Graph</b></li>
-                    <li><b class="upper">Phone</b></li>
-                    <li><b class="upper">Laugh</b></li>
-                    <li><b class="upper">Pharmacy</b></li>
-                    <li><b class="upper">Alphabet</b></li>
-                    <li><b class="upper">Pamphlet</b></li>
-                </ul>
-                <h5 class="barlow" style="margin-top: 16px">B - Listen to your teacher say the words bellow and repeat after him. Observe the pronunciation of the suffixtion.</h5>
-                <ul class="lista-inline">
-                    <li><b class="upper">Production</b></li>
-                    <li><b class="upper">Edition</b></li>
-                    <li><b class="upper">Solution</b></li>
-                    <li><b class="upper">Position</b></li>
-                    <li><b class="upper">Option</b></li>
-                    <li><b class="upper">Introduction</b></li>
-                </ul>
-                <h5 class="barlow" style="margin-top: 16px">C - Read the following sentence to practice pronunciation. Observe the underlined letters.</h5>
-                <p class="center-align">Photoshop is for the edition of photos and other graphic designing production.</p>
-                <h5 class="barlow">3.1 - LISTENING</h5>
+                <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
@@ -77,6 +50,7 @@
 
         $("#unidade1listening4").submit(function(e){
             e.preventDefault();
+            $(this).find('button').prop('disabled', true);
             var respostas = '{';
             $('#unidade1listening4 input[type="text"]').each(function(index){
                 if(($('#unidade1listening4 input[type="text"]').length - 1) == index){
@@ -105,11 +79,11 @@
                     console.log("não veio nada");
                 }else{
                     var objeto = JSON.parse(response[0].resposta_respostas);
-                    var respostas = Object.keys(objeto).map(i => JSON.parse(objeto[String(i)]));
-                    for(i = 0; i < respostas.length; i++){
-                        var next = i + 1;
-                        $('#unidade1listening'+atividade_id+' input[name="listening'+atividade_id+'-'+next+'"]').val(respostas[i]);
-                        $('#unidade1listening'+atividade_id+' input[name="listening'+atividade_id+'-'+next+'"]').attr("value", respostas[i]);
+                    var chaves = Object.keys(objeto);
+                    var respostas = Object.values(objeto);
+                    for(j = 0; j < respostas.length; j++){
+                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
                     $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
