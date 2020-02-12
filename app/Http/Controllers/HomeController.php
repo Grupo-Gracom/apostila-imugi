@@ -106,6 +106,7 @@ class HomeController extends Controller
         return view('unidade4/understanding');
     }
 
+    //UNIDADE 5
     public function unidade5Vocabulary(){
         return view('unidade5/vocabulary');
     }
@@ -123,6 +124,26 @@ class HomeController extends Controller
     }
     public function unidade5Understanding(){
         return view('unidade5/understanding');
+    }
+
+    //UNIDADE 7
+    public function unidade7Vocabulary(){
+        return view('unidade7/vocabulary');
+    }
+    public function unidade7Conversation(){
+        return view('unidade7/conversation');
+    }
+    public function unidade7Grammar(){
+        return view('unidade7/grammar');
+    }
+    public function unidade7Pronunciation(){
+        return view('unidade7/pronunciation');
+    }
+    public function unidade7Listening(){
+        return view('unidade7/listening');
+    }
+    public function unidade7Understanding(){
+        return view('unidade7/understanding');
     }
     
 }
