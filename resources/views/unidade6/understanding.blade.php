@@ -9,51 +9,43 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade3" data-etapa="understanding">
-				<h3 class="barlow">UNIT 03 - PHOTOGRAPHY AND PHOTOSHOP</h3>
+			<div id="unidade" class="box" data-unidade="unidade6" data-etapa="understanding">
+				<h3 class="barlow">UNIT 06 - </h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Answer the questi ons according to the information studied in the unit.</h5>
                 <div class="metade">
                     <form id="unidade3understanding81" method="post">
                         <p>
-                            1 - Where was Sophia born?<br>
+                            1 - How many tools does Sophia have to teach the class?<br>
                             <input type="text" name="understanding81-1" class="full left-align" required>
                         </p>
                         <p>
-                            2 - What do photographers mainly use Photoshop for?<br>
+                            2 - What are the names of the two tools studied in this unit?<br>
                             <input type="text" name="understanding81-2" class="full left-align" required>
                         </p>
                         <p>
-                            3 - What is Sophia’s hobby?<br>
+                            3 - Which tool is used to touch up imperfecti ons in a picture?<br>
                             <input type="text" name="understanding81-3" class="full left-align" required>
                         </p>
                         <p>
-                            4 - What does Sophia work with?<br>
+                            4 - Does Kate know what the Healing Brush is?<br>
                             <input type="text" name="understanding81-4" class="full left-align" required>
                         </p>
                         <p>
-                            5 - Why do Sophia’s photos need to be perfect?<br>
+                            5 - What is the tool that removes the red from your eyes called?<br>
                             <input type="text" name="understanding81-5" class="full left-align" required>
                         </p>
                         <p>
-                            6 - How old is the teacher?<br>
+                            6 - Who uses Healing Brush?<br>
                             <input type="text" name="understanding81-6" class="full left-align" required>
                         </p>
                         <p>
-                            7 - What is Sophia’s last name?<br>
+                            7 - Why is it obvious to Kate that Red Eye Correction removes the red from your eyes in pictures?<br>
                             <input type="text" name="understanding81-7" class="full left-align" required>
                         </p>
                         <p>
-                            8 - Why does Sophia prefer Photoshop to other editi ng soft ware?<br>
+                            8 - Is Carlos sure about his answer?<br>
                             <input type="text" name="understanding81-8" class="full left-align" required>
-                        </p>
-                        <p>
-                            9 - Why is editi ng soft ware necessary for photos?<br>
-                            <input type="text" name="understanding81-9" class="full left-align" required>
-                        </p>
-                        <p>
-                            10 - Where does Sophia publish her photos?<br>
-                            <input type="text" name="understanding81-10" class="full left-align" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">

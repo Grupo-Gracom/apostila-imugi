@@ -32,8 +32,12 @@ class HomeController extends Controller
         return view('home/index');
     }
 
+    //UNIDADE 1
     public function unidade1Vocabulary(){
         return view('unidade1/vocabulary');
+    }
+    public function unidade1Conversation(){
+        return view('unidade1/conversation');
     }
     public function unidade1Grammar(){
         return view('unidade1/grammar');
@@ -41,10 +45,14 @@ class HomeController extends Controller
     public function unidade1Listening(){
         return view('unidade1/listening');
     }
+    public function unidade1Pronunciation(){
+        return view('unidade1/pronunciation');
+    }
     public function unidade1Understanding(){
         return view('unidade1/understanding');
     }
 
+    //UNIDADE 2
     public function unidade2Vocabulary(){
         return view('unidade2/vocabulary');
     }
@@ -58,6 +66,7 @@ class HomeController extends Controller
         return view('unidade2/understanding');
     }
 
+    //UNIDADE 3
     public function unidade3Vocabulary(){
         return view('unidade3/vocabulary');
     }
@@ -77,6 +86,7 @@ class HomeController extends Controller
         return view('unidade3/understanding');
     }
     
+    //UNIDADE 4
     public function unidade4Vocabulary(){
         return view('unidade4/vocabulary');
     }
@@ -96,6 +106,7 @@ class HomeController extends Controller
         return view('unidade4/understanding');
     }
 
+    //UNIDADE 5
     public function unidade5Vocabulary(){
         return view('unidade5/vocabulary');
     }
@@ -113,6 +124,26 @@ class HomeController extends Controller
     }
     public function unidade5Understanding(){
         return view('unidade5/understanding');
+    }
+
+    //UNIDADE 6
+    public function unidade6Vocabulary(){
+        return view('unidade6/vocabulary');
+    }
+    public function unidade6Conversation(){
+        return view('unidade6/conversation');
+    }
+    public function unidade6Grammar(){
+        return view('unidade6/grammar');
+    }
+    public function unidade6Pronunciation(){
+        return view('unidade6/pronunciation');
+    }
+    public function unidade6Listening(){
+        return view('unidade6/listening');
+    }
+    public function unidade6Understanding(){
+        return view('unidade6/understanding');
     }
     
 }

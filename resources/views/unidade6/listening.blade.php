@@ -9,18 +9,18 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade3" data-etapa="listening">
-				<h3 class="barlow">UNIT 03 - PHOTOGRAPHY AND PHOTOSHOP</h3>
+			<div id="unidade" class="box" data-unidade="unidade6" data-etapa="listening">
+				<h3 class="barlow">UNIT 06 - </h3>
 				<h5 class="barlow">5 - LISTENING</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and complete the text with the missing words.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio track and fill in the blanks with the words you hear.</h5>
                 <div class="metade">
                     <form id="unidade3listening13" method="post">
-                        <textarea name="listening13-1">Photoshop is fundamental in photo editi ng because even with quality lenses, cameras and lighti ng, the pictures never represent the reality of the image. So, it is necessary to use editi ng soft ware to make photos more realisti c and att racti ve to people.</textarea>
+                        <textarea name="listening13-1">Healing Brush tool is mainly used to edit photos of professional models, but it is also used by amateurs to touch up personal photos and delete imperfections.</textarea>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="3">

@@ -10,56 +10,58 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade2" data-etapa="understanding">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
+				<h3 class="barlow">UNIT 02 - INTRODUCTION TO PHOTOSHOP</h3>
 				<h5 class="barlow">4 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
-                <form id="unidade1understanding5" method="post">
-                    <p>
-                        1 - Where is Professor Ludemann from?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        2 - What is João’s profession?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 - Why is Photoshop ideal for Bruno?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - Name two professionals who work with Photoshop.<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - What is João’s personal opinion about Photoshop?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        6 - According to João, what is the ideal soft ware to use for image edit on?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        7 - What did Professor Ludemann do fi ve years ago?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        8 - Why do professionals of graphic design production have an infinite number of opportunities?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        9 - What is Bruno’s hobby?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        10 - What does Professor Ludemann work with?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
-                    </p>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="5">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+                <div class="metade">
+                    <form id="unidade2understanding10" method="post">
+                        <p>
+                            1 - When was Photoshop developed?<br>
+                            <input type="text" name="understanding10-1" class="full left-align" required>
+                        </p>
+                        <p>
+                            2 - Who created Photoshop?<br>
+                            <input type="text" name="understanding10-2" class="full left-align" required>
+                        </p>
+                        <p>
+                            3 - Do João and Bruna use Photoshop?<br>
+                            <input type="text" name="understanding10-3" class="full left-align" required>
+                        </p>
+                        <p>
+                            4 - Is Bruna a Photographer?<br>
+                            <input type="text" name="understanding10-4" class="full left-align" required>
+                        </p>
+                        <p>
+                            5 - Who is Photoshop important to? <br>
+                            <input type="text" name="understanding10-5" class="full left-align" required>
+                        </p>
+                        <p>
+                            6 - Why does Bruna need Photoshop?<br>
+                            <input type="text" name="understanding10-6" class="full left-align" required>
+                        </p>
+                        <p>
+                            7 - Why does João need Photoshop?<br>
+                            <input type="text" name="understanding10-7" class="full left-align" required>
+                        </p>
+                        <p>
+                            8 - What is Bruna’s profession?<br>
+                            <input type="text" name="understanding10-8" class="full left-align" required>
+                        </p>
+                        <p>
+                            9 - Why is Photoshop important today?<br>
+                            <input type="text" name="understanding10-9" class="full left-align" required>
+                        </p>
+                        <p>
+                            10 -  Is it possible to use Photoshop to edit videos?<br>
+                            <input type="text" name="understanding10-10" class="full left-align" required>
+                        </p>
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="2">
+                        <input type="hidden" name="atividade_id" value="10">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>
                 <div class="metade esquerda">
                     <figure>
                         <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
@@ -80,20 +82,20 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1understanding5").submit(function(e){
+        $("#unidade2understanding10").submit(function(e){
             e.preventDefault();
             var respostas = '{';
-            $('#unidade1understanding5 input[type="text"]').each(function(index){
-                if(($('#unidade1understanding5 input[type="text"]').length - 1) == index){
+            $('#unidade2understanding10 input[type="text"]').each(function(index){
+                if(($('#unidade2understanding10 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1understanding5 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1understanding5'), respostas);
+            if($('#unidade2understanding10 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade2understanding10'), respostas);
             }else{
-                enviarAtividade($('#unidade1understanding5'), respostas);
+                enviarAtividade($('#unidade2understanding10'), respostas);
             }
         });
 
@@ -110,14 +112,14 @@
                     console.log("não veio nada");
                 }else{
                     var objeto = JSON.parse(response[0].resposta_respostas);
-                    var respostas = Object.keys(objeto).map(i => JSON.parse(objeto[String(i)]));
-                    for(i = 0; i < respostas.length; i++){
-                        var next = i + 1;
-                        $('#unidade1understanding'+atividade_id+' input[name="understanding'+atividade_id+'-'+next+'"]').val(respostas[i]);
-                        $('#unidade1understanding'+atividade_id+' input[name="understanding'+atividade_id+'-'+next+'"]').attr("value", respostas[i]);
+                    var chaves = Object.keys(objeto);
+                    var respostas = Object.values(objeto);
+                    for(j = 0; j < respostas.length; j++){
+                        $('#unidade2understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade2understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade1understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade2understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade2understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

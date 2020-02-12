@@ -11,7 +11,7 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade1" data-etapa="grammar">
 				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-				<h5 class="barlow">2 - GRAMMAR</h5>
+				<h5 class="barlow">3 - GRAMMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">

@@ -9,32 +9,40 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade1" data-etapa="listening">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-                <h5 class="barlow">5 - LISTENING</h5>
-                <span class="play-audio">( Aperte o play )</span>
+			<div id="unidade" class="box" data-unidade="unidade6" data-etapa="grammar">
+				<h3 class="barlow">UNIT 06 - </h3>
+				<h5 class="barlow">3 - GRAMMAR</h5>
+				<!-- <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit3/grammar/Page15Grammar.ogg') }}" type="audio/ogg">
                 </audio>
+                <div class="clear"></div> -->
+                <p><b>IMPERATIVE FORM</b></p>
+                <div class="metade esquerda">
+                    <p>Open your books.</p>
+                    <p>Edit the picture.</p>
+                    <p>Remove brightness.</p>
+                    <p>Add contrast </p>
+                </div>
+                <div class="metade direita">
+                    <p>Use the brush.</p>
+                    <p>Click on burn tool.</p>
+                    <p>Delete the photo.</p>
+                    <p>Touch up the imperfecti ons.</p>
+                </div>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen and write the words you hear on the lines.</h5>
-                <p>Graphic design is an important <b>tool</b> that enhances how you <b>communicate</b> with people. It is used to <b>transmit</b> ideas in an effective and beautiful way. Professionally designed graphics cause positive opinions about your <b>product</b> , service or <b>brand</b>.</p>
-                <h5 class="barlow" style="margin-top: 16px">B - List the professionals who use Photoshop.</h5>
-                <p>Photoshop is an important tool used by many professionals of different areas. It is extremely important for photographers, web designers, game designers, illustrators and many others.</p>
-                <span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/listining/listining_b.ogg') }}" type="audio/ogg">
-                </audio>
-                <div class="clear"></div>
-                <form id="unidade1listening4" method="post">
-                    <p>1 - <input type="text" name="listening4-1" required></p>
-                    <p>2 - <input type="text" name="listening4-2" required></p>
-                    <p>3 - <input type="text" name="listening4-3" required></p>
-                    <p>4 - <input type="text" name="listening4-4" required></p>
+
+				<h5 class="barlow">A - Select the correct opti on of the underlined verbs.</h5>
+				<form id="unidade6grammar21" method="post">
+                    <p>1 - <input type="radio" name="grammar-21-1" value="1" required> <b>Open</b> <input type="radio" name="grammar-21-1" value="2" required> <b>Edit</b> Photoshop.</p>
+                    <p>2 - <input type="radio" name="grammar-21-2" value="1" required> <b>Add</b> <input type="radio" name="grammar-21-2" value="2" required> <b>Touch</b> up the picture.</p>
+                    <p>3 - <input type="radio" name="grammar-21-3" value="1" required> <b>Remove</b> <input type="radio" name="grammar-21-3" value="2" required> <b>Click</b> on the brush.</p>
+                    <p>4 - <input type="radio" name="grammar-21-4" value="1" required> <b>Delete</b> <input type="radio" name="grammar-21-4" value="2" required> <b>Edit</b> the brightness.</p>
+                    <p>5 - <input type="radio" name="grammar-21-5" value="1" required> <b>Use</b> <input type="radio" name="grammar-21-5" value="2" required> <b>Touch</b> the brightness.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="4">
+                    <input type="hidden" name="unidade_id" value="6">
+                    <input type="hidden" name="atividade_id" value="21">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 			</div>
@@ -48,21 +56,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1listening4").submit(function(e){
+        $("#unidade6grammar21").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1listening4 input[type="text"]').each(function(index){
-                if(($('#unidade1listening4 input[type="text"]').length - 1) == index){
+            $('#unidade6grammar21 input[type="radio"]:checked').each(function(index){
+                if(($('#unidade6grammar21 input[type="radio"]:checked').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1listening4 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1listening4'), respostas);
+            if($('#unidade6grammar21 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade6grammar21'), respostas);
             }else{
-                enviarAtividade($('#unidade1listening4'), respostas);
+                enviarAtividade($('#unidade6grammar21'), respostas);
             }
         });
 
@@ -82,25 +90,24 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade6grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
                     }
-                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade6grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade6grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
 
-        function enviarAtividade(formId, respostas){
-            var resposta = {
-                "_token" : formId.find('input[name="_token"]').val(),
+        function enviarAtividade(form, respostas){
+            var atividade = {
+                "_token" : form.find('input[name="_token"]').val(),
                 "resposta_respostas" : respostas,
-                "atividade_id" : formId.find('input[name="atividade_id"]').val(),
-                "unidade_id" : formId.find('input[name="unidade_id"]').val()
+                "atividade_id" : form.find('input[name="atividade_id"]').val(),
+                "unidade_id" : form.find('input[name="unidade_id"]').val()
             };
             request = $.ajax({
                 url: window.location.pathname+'/respostas',
-                data: resposta,
+                data: atividade,
                 type: 'post',
                 error: function(){
                     console.log("Erro de envio.");
@@ -109,7 +116,7 @@
             request.done(function(response){
                 if(response == "1"){
                     alert("Respostas salvas");
-                    window.location.reload();
+                    //window.location.reload();
                 }else if(response == 2){
                     alert("Respostas atualizadas");
                     window.location.reload();
