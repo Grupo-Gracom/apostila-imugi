@@ -10,10 +10,9 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade4" data-etapa="understanding">
-				<h3 class="barlow">UNIT 04 - NICE TO MEET YOU, KATE!</h3>
+				<h3 class="barlow">UNIT 04 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
 				<h5 class="barlow">4 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
-                <div class="metade">
                 <form id="unidade4understanding16" method="post">
                     <p>
                         1 -  Where is Kate from?<br>
@@ -58,7 +57,6 @@
                     <input type="hidden" name="atividade_id" value="16">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                </div>
 			</div>
 		</div>
     </main>

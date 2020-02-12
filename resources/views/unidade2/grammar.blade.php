@@ -79,6 +79,7 @@
 
         $("#unidade2grammar6").submit(function(e){
             e.preventDefault();
+            $(this).find('button').prop('disabled', true);
             var respostas = '{';
             $('#unidade2grammar6 input[type="text"]').each(function(index){
                 if(($('#unidade2grammar6 input[type="text"]').length - 1) == index){
@@ -96,6 +97,7 @@
 
         $("#unidade2grammar7").submit(function(e){
             e.preventDefault();
+            $(this).find('button').prop('disabled', true);
             var respostas = '{';
             $('#unidade2grammar7 input[type="text"]').each(function(index){
                 if(($('#unidade2grammar7 input[type="text"]').length - 1) == index){
@@ -113,6 +115,7 @@
 
         $("#unidade2grammar8").submit(function(e){
             e.preventDefault();
+            $(this).find('button').prop('disabled', true);
             var respostas = '{';
             $('#unidade2grammar8 input[type="text"]').each(function(index){
                 if(($('#unidade2grammar8 input[type="text"]').length - 1) == index){
@@ -141,11 +144,11 @@
                     console.log("não veio nada");
                 }else{
                     var objeto = JSON.parse(response[0].resposta_respostas);
-                    var respostas = Object.keys(objeto).map(i => JSON.parse(objeto[String(i)]));
-                    for(i = 0; i < respostas.length; i++){
-                        var next = i + 1;
-                        $('#unidade2grammar'+atividade_id+' input[name="grammar'+atividade_id+'-'+next+'"]').val(respostas[i]);
-                        $('#unidade2grammar'+atividade_id+' input[name="grammar'+atividade_id+'-'+next+'"]').attr("value", respostas[i]);
+                    var chaves = Object.keys(objeto);
+                    var respostas = Object.values(objeto);
+                    for(j = 0; j < respostas.length; j++){
+                        $('#unidade2grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade2grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
                     $('#unidade2grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade2grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);

@@ -80,14 +80,39 @@ class HomeController extends Controller
     public function unidade4Vocabulary(){
         return view('unidade4/vocabulary');
     }
+    public function unidade4Conversation(){
+        return view('unidade4/conversation');
+    }
     public function unidade4Grammar(){
         return view('unidade4/grammar');
+    }
+    public function unidade4Pronunciation(){
+        return view('unidade4/pronunciation');
     }
     public function unidade4Listening(){
         return view('unidade4/listening');
     }
     public function unidade4Understanding(){
         return view('unidade4/understanding');
+    }
+
+    public function unidade5Vocabulary(){
+        return view('unidade5/vocabulary');
+    }
+    public function unidade5Conversation(){
+        return view('unidade5/conversation');
+    }
+    public function unidade5Grammar(){
+        return view('unidade5/grammar');
+    }
+    public function unidade5Pronunciation(){
+        return view('unidade5/pronunciation');
+    }
+    public function unidade5Listening(){
+        return view('unidade5/listening');
+    }
+    public function unidade5Understanding(){
+        return view('unidade5/understanding');
     }
     
 }

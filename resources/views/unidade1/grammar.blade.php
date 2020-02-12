@@ -101,6 +101,7 @@
 
         $("#unidade1grammar1").submit(function(e){
             e.preventDefault();
+            $(this).find('button').prop('disabled', true);
             var respostas = '{';
             $('#unidade1grammar1 input[type="text"]').each(function(index){
                 if(($('#unidade1grammar1 input[type="text"]').length - 1) == index){
@@ -118,6 +119,7 @@
 
         $("#unidade1grammar2").submit(function(e){
             e.preventDefault();
+            $(this).find('button').prop('disabled', true);
             var respostas = '{';
             $('#unidade1grammar2 input[type="text"]').each(function(index){
                 if(($('#unidade1grammar2 input[type="text"]').length - 1) == index){
@@ -135,6 +137,7 @@
 
         $("#unidade1grammar3").submit(function(e){
             e.preventDefault();
+            $(this).find('button').prop('disabled', true);
             var respostas = '{';
             $('#unidade1grammar3 input[type="text"]').each(function(index){
                 if(($('#unidade1grammar3 input[type="text"]').length - 1) == index){
@@ -163,11 +166,11 @@
                     console.log("não veio nada");
                 }else{
                     var objeto = JSON.parse(response[0].resposta_respostas);
-                    var respostas = Object.keys(objeto).map(i => JSON.parse(objeto[String(i)]));
-                    for(i = 0; i < respostas.length; i++){
-                        var next = i + 1;
-                        $('#unidade1grammar'+atividade_id+' input[name="grammar'+atividade_id+'-'+next+'"]').val(respostas[i]);
-                        $('#unidade1grammar'+atividade_id+' input[name="grammar'+atividade_id+'-'+next+'"]').attr("value", respostas[i]);
+                    var chaves = Object.keys(objeto);
+                    var respostas = Object.values(objeto);
+                    for(j = 0; j < respostas.length; j++){
+                        $('#unidade1grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade1grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
                     $('#unidade1grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade1grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
