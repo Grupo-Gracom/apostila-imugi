@@ -63,6 +63,10 @@ Route::get('/unidade1/understanding/respostasCheck/{atividade_id}', 'RespostaCon
 
 Route::post('/unidade2/grammar/respostas', 'RespostaController@store');
 Route::get('/unidade2/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/unidade2/listening/respostas', 'RespostaController@store');
+Route::get('/unidade2/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/unidade2/understanding/respostas', 'RespostaController@store');
+Route::get('/unidade2/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
 
 Route::post('/unidade3/grammar/respostas', 'RespostaController@store');

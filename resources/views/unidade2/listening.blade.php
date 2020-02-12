@@ -50,15 +50,15 @@
                 <p>Did you know that you can edit videos with Adobe’s image-editing program? It is not necessary to study other programs because Photoshop can do simple editing and transformations.</p>				
                 <div class="clear"></div>
                 <div class="metade">
-                    <form id="unidade1listening4" method="post">
-                        <p>a - The creati on of Photoshop <input class="full" type="text" name="listening4-1" required></p>
-                        <p>b - The professionals who use Photoshop <input class="full" type="text" name="listening4-2" required></p>
-                        <p>c - The tools in Photoshop <input class="full" type="text" name="listening4-3" required></p>
-                        <p>d - The video-editing features of Photoshop <input class="full" type="text" name="listening4-4" required></p>
+                    <form id="unidade2listening9" method="post">
+                        <p>a - The creati on of Photoshop <input class="full" type="text" name="listening9-1" required></p>
+                        <p>b - The professionals who use Photoshop <input class="full" type="text" name="listening9-2" required></p>
+                        <p>c - The tools in Photoshop <input class="full" type="text" name="listening9-3" required></p>
+                        <p>d - The video-editing features of Photoshop <input class="full" type="text" name="listening9-4" required></p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="1">
-                        <input type="hidden" name="atividade_id" value="4">
+                        <input type="hidden" name="unidade_id" value="2">
+                        <input type="hidden" name="atividade_id" value="9">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -73,20 +73,20 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1listening4").submit(function(e){
+        $("#unidade2listening9").submit(function(e){
             e.preventDefault();
             var respostas = '{';
-            $('#unidade1listening4 input[type="text"]').each(function(index){
-                if(($('#unidade1listening4 input[type="text"]').length - 1) == index){
+            $('#unidade2listening9 input[type="text"]').each(function(index){
+                if(($('#unidade2listening9 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1listening4 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1listening4'), respostas);
+            if($('#unidade2listening9 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade2listening9'), respostas);
             }else{
-                enviarAtividade($('#unidade1listening4'), respostas);
+                enviarAtividade($('#unidade2listening9'), respostas);
             }
         });
 
@@ -103,14 +103,14 @@
                     console.log("não veio nada");
                 }else{
                     var objeto = JSON.parse(response[0].resposta_respostas);
-                    var respostas = Object.keys(objeto).map(i => JSON.parse(objeto[String(i)]));
-                    for(i = 0; i < respostas.length; i++){
-                        var next = i + 1;
-                        $('#unidade1listening'+atividade_id+' input[name="listening'+atividade_id+'-'+next+'"]').val(respostas[i]);
-                        $('#unidade1listening'+atividade_id+' input[name="listening'+atividade_id+'-'+next+'"]').attr("value", respostas[i]);
+                    var chaves = Object.keys(objeto);
+                    var respostas = Object.values(objeto);
+                    for(j = 0; j < respostas.length; j++){
+                        $('#unidade2listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade2listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade2listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade2listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
