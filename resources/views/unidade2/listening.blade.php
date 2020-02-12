@@ -10,60 +10,58 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade2" data-etapa="listening">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
+				<h3 class="barlow">UNIT 02 - INTRODUCTION TO PHOTOSHOP</h3>
 				<h5 class="barlow">3 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit2/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Observe how the sound of the letters “PH” resembles an “F”. Practice by repeating the words below.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to your teacher and repeat the words to practi ce the pronunciati on of words with the lett er ‘R’.</h5>
 				<ul class="lista-inline">
-                    <li><b class="upper">Photo</b></li>
-                    <li><b class="upper">Graph</b></li>
-                    <li><b class="upper">Phone</b></li>
-                    <li><b class="upper">Laugh</b></li>
-                    <li><b class="upper">Pharmacy</b></li>
-                    <li><b class="upper">Alphabet</b></li>
-                    <li><b class="upper">Pamphlet</b></li>
+                    <li><b class="upper">For</b></li>
+                    <li><b class="upper">Designer</b></li>
+                    <li><b class="upper">Importance</b></li>
+                    <li><b class="upper">Photographer</b></li>
+                    <li><b class="upper">Great</b></li>
+                    <li><b class="upper">Brother</b></li>
                 </ul>
-                <h5 class="barlow" style="margin-top: 16px">B - Listen to your teacher say the words bellow and repeat after him. Observe the pronunciation of the suffixtion.</h5>
+                <h5 class="barlow" style="margin-top: 16px">B - Listen to your teacher and repeat the words to practi ce the pronunciati on of words with the lett er ‘P’.</h5>
                 <ul class="lista-inline">
                     <li><b class="upper">Production</b></li>
-                    <li><b class="upper">Edition</b></li>
-                    <li><b class="upper">Solution</b></li>
-                    <li><b class="upper">Position</b></li>
-                    <li><b class="upper">Option</b></li>
-                    <li><b class="upper">Introduction</b></li>
+                    <li><b class="upper">Professional</b></li>
+                    <li><b class="upper">Professor</b></li>
+                    <li><b class="upper">Develop</b></li>
+                    <li><b class="upper">Photoshop</b></li>
+                    <li><b class="upper">Profession</b></li>
                 </ul>
-                <h5 class="barlow" style="margin-top: 16px">C - Read the following sentence to practice pronunciation. Observe the underlined letters.</h5>
-                <p class="center-align">Photoshop is for the edition of photos and other graphic designing production.</p>
+                <h5 class="barlow" style="margin-top: 16px">C - Now, read the sentence below to check your understanding.</h5>
+                <p class="center-align">“Photoshop, for professionals of graphic producti on, is of great importance.”</p>
                 <h5 class="barlow">3.1 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit2/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen and write the words you hear on the lines.</h5>
-                <p>Graphic design is an important <b>tool</b> that enhances how you <b>communicate</b> with people. It is used to <b>transmit</b> ideas in an effective and beautiful way. Professionally designed graphics cause positive opinions about your <b>product</b> , service or <b>brand</b>.</p>
-                <h5 class="barlow" style="margin-top: 16px">B - List the professionals who use Photoshop.</h5>
-                <p>Photoshop is an important tool used by many professionals of different areas. It is extremely important for photographers, web designers, game designers, illustrators and many others.</p>
-                <span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/listining/listining_b.ogg') }}" type="audio/ogg">
-                </audio>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the track and fill in the blanks with the words you hear.</h5>
+                <p>Photoshop was <b>developed</b> in 1987 by two brothers. The <b>software</b>  is very important for <b>graphic</b> designing.  You can <b>create</b>
+                everything you imagine if you understand the program and use your creativity.</p>
+                <h5 class="barlow" style="margin-top: 16px">B - Listen to the passage and circle the subject of the audio.</h5>
+                <p>Did you know that you can edit videos with Adobe’s image-editing program? It is not necessary to study other programs because Photoshop can do simple editing and transformations.</p>				
                 <div class="clear"></div>
-                <form id="unidade1listening4" method="post">
-                    <p>1 - <input type="text" name="listening4-1" required></p>
-                    <p>2 - <input type="text" name="listening4-2" required></p>
-                    <p>3 - <input type="text" name="listening4-3" required></p>
-                    <p>4 - <input type="text" name="listening4-4" required></p>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="4">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+                <div class="metade">
+                    <form id="unidade1listening4" method="post">
+                        <p>a - The creati on of Photoshop <input class="full" type="text" name="listening4-1" required></p>
+                        <p>b - The professionals who use Photoshop <input class="full" type="text" name="listening4-2" required></p>
+                        <p>c - The tools in Photoshop <input class="full" type="text" name="listening4-3" required></p>
+                        <p>d - The video-editing features of Photoshop <input class="full" type="text" name="listening4-4" required></p>
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="1">
+                        <input type="hidden" name="atividade_id" value="4">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>
 			</div>
 		</div>
     </main>

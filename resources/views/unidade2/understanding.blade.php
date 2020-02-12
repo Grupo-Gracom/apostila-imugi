@@ -10,48 +10,48 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade2" data-etapa="understanding">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
+				<h3 class="barlow">UNIT 02 - INTRODUCTION TO PHOTOSHOP</h3>
 				<h5 class="barlow">4 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <form id="unidade1understanding5" method="post">
                     <p>
-                        1 - Where is Professor Ludemann from?<br>
+                        1 - When was Photoshop developed?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        2 - What is João’s profession?<br>
+                        2 - Who created Photoshop?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        3 - Why is Photoshop ideal for Bruno?<br>
+                        3 - Do João and Bruna use Photoshop?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        4 - Name two professionals who work with Photoshop.<br>
+                        4 - Is Bruna a Photographer?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        5 - What is João’s personal opinion about Photoshop?<br>
+                        5 - Who is Photoshop important to? <br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        6 - According to João, what is the ideal soft ware to use for image edit on?<br>
+                        6 - Why does Bruna need Photoshop?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        7 - What did Professor Ludemann do fi ve years ago?<br>
+                        7 - Why does João need Photoshop?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        8 - Why do professionals of graphic design production have an infinite number of opportunities?<br>
+                        8 - What is Bruna’s profession?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        9 - What is Bruno’s hobby?<br>
+                        9 - Why is Photoshop important today?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <p>
-                        10 - What does Professor Ludemann work with?<br>
+                        10 -  Is it possible to use Photoshop to edit videos?<br>
                         <input type="text" name="understanding5-1" class="full left-align" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">

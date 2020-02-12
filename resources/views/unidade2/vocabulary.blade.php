@@ -10,36 +10,39 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade2" data-etapa="vocabulary">
-				<h3 class="barlow">unidade 2</h3>
-				<p><b>Lesson Goal:</b> Permit a communication-friendly environment in order to make students feel comfortable in their first class while exploring their understanding of graphic design production, its applications and the demand for professionals in the market.</p>
+				<h3 class="barlow">UNIT 02 - INTRODUCTION TO PHOTOSHOP</h3>
+				<p><b>Goal:</b>  Promote a broad understanding of what Photoshop is and its utilities in people’s professional lives.</p>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit2/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>WELCOME</b></li>
-					<li><b>WORK</b></li>
-					<li><b>MOVE</b></li>
-					<li><b>INCLUDE</b></li>
-					<li><b>HAVE</b></li>
-					<li><b>GROW</b></li>
-					<li><b>NEED</b></li>
-					<li><b>USE</b></li>
+					<li><b>EDIT</b></li>
+					<li><b>DEVELOP</b></li>
+					<li><b>SUBJECT</b></li>
+					<li><b>PICTURE</b></li>
+					<li><b>LAYOUT</b></li>
+					<li><b>TODAY</b></li>
+					<li><b>ANY</b></li>
+					<li><b>FOR</b></li>
+					<li><b>VERSION</b></li>
 				</ul>
 				<h5 class="barlow">1.1 - CONVERSATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit2/conversation/conversation.ogg') }}" type="audio/ogg">
 				</audio>
-				<p style="margin-top: 16px"><b>Professor Ludemann :</b> Hello class. Welcome to our first lesson. My name is Caique Ludemann. I am from Canada, but I moved to Brazil five years ago. I work with graphic production.</p>
-				<p><b>Professor Ludemann :</b> This area of work is extremely vast. It includes professionals from the fields of photography, web design, video edition, game design and others.</p>
-				<p><b>Professor Ludemann :</b> Graphic designers have an infinite number of opportunities for work because the market in this area is continuously expanding</p>
-				<p><b>Bruno :</b> Professor, photography is my hobby and I need a program to edit my photos.</p>
-				<p><b>João :</b> Hey Bruno, I am a professional photographer! I use Photoshop to edit my photos. It is an excellent software. The possibilities are infinite.</p>
-				<p><b>Professor Ludemann :</b> Thank you João. You are correct! Photoshop is the ideal software to use for image edition.</p>
+				<p style="margin-top: 16px"><b>Professor Ludemann :</b> HI everyone! Today is our second lesson. The subject today is Photoshop.</p>
+				<p><b>Professor Ludemann :</b> The fi rst version of this soft ware was created in 1987 by two brothers. Their names are Thomas and John Knoll. Today, Photoshop is necessary in many
+				professions. The word “Photoshop” is now a verb too!</p>
+				<p><b>Professor Ludemann :</b>  Do any of you use Photoshop?</p>
+				<p><b>João :</b>  I do, professor! I use it to edit my pictures because I am a photographer!</p>
+				<p><b>Professor Ludemann :</b> Very good João! What about you, Bruna? Do you use Photoshop?</p>
+				<p><b>Bruna :</b>  I do! I am a web designer. I need Photoshop to develop and edit layouts for sites.</p>
+				<p><b>Professor Ludemann :</b> Thank you! You and João are great examples of the importance of Photoshop for professionals in the area of graphic design production.</p>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit2/unidade1.png') }}" alt="Garotos festejando">
 				</figure>
 			</div>
 		</div>
