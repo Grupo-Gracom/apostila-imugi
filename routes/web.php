@@ -58,13 +58,6 @@ Route::get('/unidade5/pronunciation', 'HomeController@unidade5Pronunciation')->n
 Route::get('/unidade5/listening', 'HomeController@unidade5Listening')->name('unidade5/listening');
 Route::get('/unidade5/understanding', 'HomeController@unidade5Understanding')->name('unidade5/understanding');
 
-//UNIDADE 7
-Route::get('/unidade7/vocabulary', 'HomeController@unidade7Vocabulary')->name('unidade7/vocabulary');
-Route::get('/unidade7/conversation', 'HomeController@unidade7Conversation')->name('unidade7/conversation');
-Route::get('/unidade7/grammar', 'HomeController@unidade7Grammar')->name('unidade7/grammar');
-Route::get('/unidade7/pronunciation', 'HomeController@unidade7Pronunciation')->name('unidade7/pronunciation');
-Route::get('/unidade7/listening', 'HomeController@unidade7Listening')->name('unidade7/listening');
-Route::get('/unidade7/understanding', 'HomeController@unidade7Understanding')->name('unidade7/understanding');
 
 //UNIDADE 6
 Route::get('/unidade6/vocabulary', 'HomeController@unidade6Vocabulary')->name('unidade6/vocabulary');
@@ -73,6 +66,14 @@ Route::get('/unidade6/grammar', 'HomeController@unidade6Grammar')->name('unidade
 Route::get('/unidade6/pronunciation', 'HomeController@unidade6Pronunciation')->name('unidade6/pronunciation');
 Route::get('/unidade6/listening', 'HomeController@unidade6Listening')->name('unidade6/listening');
 Route::get('/unidade6/understanding', 'HomeController@unidade6Understanding')->name('unidade6/understanding');
+
+//UNIDADE 7
+Route::get('/unidade7/vocabulary', 'HomeController@unidade7Vocabulary')->name('unidade7/vocabulary');
+Route::get('/unidade7/conversation', 'HomeController@unidade7Conversation')->name('unidade7/conversation');
+Route::get('/unidade7/grammar', 'HomeController@unidade7Grammar')->name('unidade7/grammar');
+Route::get('/unidade7/pronunciation', 'HomeController@unidade7Pronunciation')->name('unidade7/pronunciation');
+Route::get('/unidade7/listening', 'HomeController@unidade7Listening')->name('unidade7/listening');
+Route::get('/unidade7/understanding', 'HomeController@unidade7Understanding')->name('unidade7/understanding');
 
 /* ROTAS PARA O CRUD */
 
@@ -117,6 +118,7 @@ Route::get('/unidade5/listening/respostasCheck/{atividade_id}', 'RespostaControl
 Route::post('/unidade5/understanding/respostas', 'RespostaController@store');
 Route::get('/unidade5/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
+<<<<<<< HEAD
 //UNIDADE 7
 Route::post('/unidade7/grammar/respostas', 'RespostaController@store');
 Route::get('/unidade7/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
@@ -124,6 +126,8 @@ Route::post('/unidade7/listening/respostas', 'RespostaController@store');
 Route::get('/unidade7/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
 Route::post('/unidade7/understanding/respostas', 'RespostaController@store');
 Route::get('/unidade7/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+=======
+>>>>>>> 79c9b836a4ed5a89041f2f47bcc8dbbd5fc133db
 //UNIDADE 6
 Route::post('/unidade6/grammar/respostas', 'RespostaController@store');
 Route::get('/unidade6/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
@@ -131,6 +135,17 @@ Route::post('/unidade6/listening/respostas', 'RespostaController@store');
 Route::get('/unidade6/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
 Route::post('/unidade6/understanding/respostas', 'RespostaController@store');
 Route::get('/unidade6/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+<<<<<<< HEAD
+=======
+
+//UNIDADE 7
+Route::post('/unidade7/grammar/respostas', 'RespostaController@store');
+Route::get('/unidade7/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/unidade7/listening/respostas', 'RespostaController@store');
+Route::get('/unidade7/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/unidade7/understanding/respostas', 'RespostaController@store');
+Route::get('/unidade7/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+>>>>>>> 79c9b836a4ed5a89041f2f47bcc8dbbd5fc133db
 
 
 //Route::get('/admin', ['as'=>'admin','uses'=>'AdminController@index']);

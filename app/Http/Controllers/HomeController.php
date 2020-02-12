@@ -165,4 +165,5 @@ class HomeController extends Controller
         return view('unidade6/understanding');
     }
     
+    
 }

@@ -117,6 +117,7 @@
                 </li>
             </ul>
         </li>
+        
     </ul>
     <!-- @if(Auth::user()->nivel == 1)
         <div class="logo">
