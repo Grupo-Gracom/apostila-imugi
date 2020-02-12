@@ -144,6 +144,24 @@ class HomeController extends Controller
     }
     public function unidade7Understanding(){
         return view('unidade7/understanding');
+    //UNIDADE 6
+    public function unidade6Vocabulary(){
+        return view('unidade6/vocabulary');
+    }
+    public function unidade6Conversation(){
+        return view('unidade6/conversation');
+    }
+    public function unidade6Grammar(){
+        return view('unidade6/grammar');
+    }
+    public function unidade6Pronunciation(){
+        return view('unidade6/pronunciation');
+    }
+    public function unidade6Listening(){
+        return view('unidade6/listening');
+    }
+    public function unidade6Understanding(){
+        return view('unidade6/understanding');
     }
     
 }
