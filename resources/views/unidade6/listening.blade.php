@@ -10,7 +10,7 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade6" data-etapa="listening">
-				<h3 class="barlow">UNIT 06 - </h3>
+				<h3 class="barlow">UNIT 06 - Brush and Red Eye Correction</h3>
 				<h5 class="barlow">5 - LISTENING</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -19,12 +19,12 @@
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio track and fill in the blanks with the words you hear.</h5>
                 <div class="metade">
-                    <form id="unidade3listening13" method="post">
-                        <textarea name="listening13-1">Healing Brush tool is mainly used to edit photos of professional models, but it is also used by amateurs to touch up personal photos and delete imperfections.</textarea>
+                    <form id="unidade6listening22" method="post">
+                        <textarea name="listening22-1">Healing Brush tool is mainly used to edit photos of professional models, but it is also used by amateurs to touch up personal photos and delete imperfections.</textarea>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="3">
-                        <input type="hidden" name="atividade_id" value="13">
+                        <input type="hidden" name="unidade_id" value="6">
+                        <input type="hidden" name="atividade_id" value="22">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -39,14 +39,14 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade3listening13").submit(function(e){
+        $("#unidade6listening22").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade3listening13 textarea').attr("name")+'":"'+$('#unidade3listening13 textarea').val()+'"}';
-            if($('#unidade3listening13 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade3listening13'), respostas);
+            var respostas = '{"'+$('#unidade6listening22 textarea').attr("name")+'":"'+$('#unidade6listening22 textarea').val()+'"}';
+            if($('#unidade6listening22 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade6listening22'), respostas);
             }else{
-                enviarAtividade($('#unidade3listening13'), respostas);
+                enviarAtividade($('#unidade6listening22'), respostas);
             }
         });
 
@@ -66,11 +66,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade3listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade3listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade6listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade6listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade3listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade3listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade6listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade6listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

@@ -10,7 +10,7 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade6" data-etapa="grammar">
-				<h3 class="barlow">UNIT 06 - </h3>
+				<h3 class="barlow">UNIT 06 - Brush and Red Eye Correction</h3>
 				<h5 class="barlow">3 - GRAMMAR</h5>
 				<!-- <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -28,11 +28,11 @@
                     <p>Use the brush.</p>
                     <p>Click on burn tool.</p>
                     <p>Delete the photo.</p>
-                    <p>Touch up the imperfecti ons.</p>
+                    <p>Touch up the imperfections.</p>
                 </div>
                 <div class="clear"></div>
 
-				<h5 class="barlow">A - Select the correct opti on of the underlined verbs.</h5>
+				<h5 class="barlow">A - Select the correct option of the underlined verbs.</h5>
 				<form id="unidade6grammar21" method="post">
                     <p>1 - <input type="radio" name="grammar-21-1" value="1" required> <b>Open</b> <input type="radio" name="grammar-21-1" value="2" required> <b>Edit</b> Photoshop.</p>
                     <p>2 - <input type="radio" name="grammar-21-2" value="1" required> <b>Add</b> <input type="radio" name="grammar-21-2" value="2" required> <b>Touch</b> up the picture.</p>

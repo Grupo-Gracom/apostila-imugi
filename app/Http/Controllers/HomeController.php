@@ -164,6 +164,7 @@ class HomeController extends Controller
     }
     public function unidade7Understanding(){
         return view('unidade7/understanding');
+
     }
 
     //UNIDADE 8
@@ -185,4 +186,5 @@ class HomeController extends Controller
     public function unidade8Understanding(){
         return view('unidade8/understanding');
     }
+
 }
