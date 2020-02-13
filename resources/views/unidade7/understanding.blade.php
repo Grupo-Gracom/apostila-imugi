@@ -9,55 +9,38 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade1" data-etapa="understanding">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
-                <form id="unidade1understanding5" method="post">
+			<div id="unidade" class="box" data-unidade="unidade7" data-etapa="understanding">
+				<h3 class="barlow">UNIT 07 - Adjustment Panel</h3>
+				<h5 class="barlow">6 - UNDERSTANDING</h5>                
+                <form id="unidade7understanding25" method="post">
                     <p>
-                        1 - Where is Professor Ludemann from?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
+                        1 - Does Carlos know how to use the Adjustment Panel?<br>
+                        <input type="text" name="understanding25-1" class="full left-align" required>
                     </p>
                     <p>
-                        2 - What is João’s profession?<br>
-                        <input type="text" name="understanding5-2" class="full left-align" required>
+                        2 - What does Sophia think about the students’ comments?<br>
+                        <input type="text" name="understanding25-2" class="full left-align" required>
                     </p>
                     <p>
-                        3 - Why is Photoshop ideal for Bruno?<br>
-                        <input type="text" name="understanding5-3" class="full left-align" required>
+                        3 - Who does Beatriz know that uses the Adjustment Panel?<br>
+                        <input type="text" name="understanding25-3" class="full left-align" required>
                     </p>
                     <p>
-                        4 - Name two professionals who work with Photoshop.<br>
-                        <input type="text" name="understanding5-4" class="full left-align" required>
+                        4 - Why does Beatriz’s friend use the Adjustment Panel?<br>
+                        <input type="text" name="understanding25-4" class="full left-align" required>
                     </p>
                     <p>
-                        5 - What is João’s personal opinion about Photoshop?<br>
-                        <input type="text" name="understanding5-5" class="full left-align" required>
+                        5 - What does Lee especially like about the Panel?<br>
+                        <input type="text" name="understanding25-5" class="full left-align" required>
                     </p>
                     <p>
-                        6 - According to João, what is the ideal soft ware to use for image edit on?<br>
-                        <input type="text" name="understanding5-6" class="full left-align" required>
-                    </p>
-                    <p>
-                        7 - What did Professor Ludemann do fi ve years ago?<br>
-                        <input type="text" name="understanding5-7" class="full left-align" required>
-                    </p>
-                    <p>
-                        8 - Why do professionals of graphic design production have an infinite number of opportunities?<br>
-                        <input type="text" name="understanding5-8" class="full left-align" required>
-                    </p>
-                    <p>
-                        9 - What is Bruno’s hobby?<br>
-                        <input type="text" name="understanding5-9" class="full left-align" required>
-                    </p>
-                    <p>
-                        10 - What does Professor Ludemann work with?<br>
-                        <input type="text" name="understanding5-10" class="full left-align" required>
-                    </p>
+                        6 - What does Carlos’ friend use the Panel for?<br>
+                        <input type="text" name="understanding25-6" class="full left-align" required>
+                    </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="5">
+                    <input type="hidden" name="unidade_id" value="7">
+                    <input type="hidden" name="atividade_id" value="25">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 <div class="metade esquerda">
@@ -80,21 +63,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1understanding5").submit(function(e){
+        $("#unidade7understanding25").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1understanding5 input[type="text"]').each(function(index){
-                if(($('#unidade1understanding5 input[type="text"]').length - 1) == index){
+            $('#unidade7understanding25 input[type="text"]').each(function(index){
+                if(($('#unidade7understanding25 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1understanding5 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1understanding5'), respostas);
+            if($('#unidade7understanding25 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade7understanding25'), respostas);
             }else{
-                enviarAtividade($('#unidade1understanding5'), respostas);
+                enviarAtividade($('#unidade7understanding25'), respostas);
             }
         });
 
@@ -114,11 +97,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade1understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade1understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade7understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade7understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade1understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade7understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade7understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

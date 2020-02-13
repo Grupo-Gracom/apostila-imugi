@@ -15,7 +15,7 @@
         </li>
         <li class="item" data-unidade="unidade1">
             <a class="click submenu">
-                <i class="material-icons">folder</i> Unidade 1
+                <i class="material-icons">folder</i> UNIT 1
             </a>
             <ul>
                 <li>
@@ -30,7 +30,7 @@
         </li>
         <li class="item" data-unidade="unidade2">
             <a class="click submenu">
-                <i class="material-icons">folder</i> Unidade 2
+                <i class="material-icons">folder</i> UNIT 2
             </a>
             <ul>
                 <li>
@@ -43,7 +43,7 @@
         </li>
         <li class="item" data-unidade="unidade3">
             <a class="click submenu">
-                <i class="material-icons">folder</i> Unidade 3
+                <i class="material-icons">folder</i> UNIT 3
             </a>
             <ul>
                 <li>
@@ -58,7 +58,7 @@
         </li>
         <li class="item" data-unidade="unidade4">
             <a class="click submenu">
-                <i class="material-icons">folder</i> Unidade 4
+                <i class="material-icons">folder</i> UNIT 4
             </a>
             <ul>
                 <li>
@@ -73,7 +73,7 @@
         </li>
         <li class="item" data-unidade="unidade5">
             <a class="click submenu">
-                <i class="material-icons">folder</i> Unidade 5
+                <i class="material-icons">folder</i> UNIT 5
             </a>
             <ul>
                 <li>
@@ -86,10 +86,11 @@
                 </li>
             </ul>
         </li>
+        
         <li class="item" data-unidade="unidade6">
 <<<<<<< HEAD
             <a class="click submenu">
-                <i class="material-icons">folder</i> Unidade 6
+                <i class="material-icons">folder</i> UNIT 6
             </a>
             <ul>
                 <li>
@@ -104,7 +105,7 @@
         </li>
         <li class="item" data-unidade="unidade7">
             <a class="click submenu">
-                <i class="material-icons">folder</i> Unidade 7
+                <i class="material-icons">folder</i> UNIT 7
             </a>
             <ul>
                 <li>

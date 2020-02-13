@@ -54,10 +54,10 @@
                 </form>
                 <h5 class="barlow">B - CHOOSE THE CORRECT HELPING VERB FOR EACH SENTENCE.</h5>
 				<form id="unidade7grammar24" method="post">
-                    <p><b>1. </b><input type="radio" name="grammar24-1" value="do" required><b>DO</b></input> <input type="radio" name="grammar24-1" value="does" required><b>Does</b></input>  Lee know how to use the Black & White effect?</p>
-                    <p><b>2. </b><input type="radio" name="grammar24-2" value="do" required><b>DO</b></input> <input type="radio" name="grammar24-2" value="does" required><b>Does</b></input>  you remember how to edit the contrast with the Adjustment Panel?</p>
-                    <p><b>3. </b><input type="radio" name="grammar24-3" value="do" required><b>DO</b></input> <input type="radio" name="grammar24-3" value="does" required><b>Does</b></input>  Beatriz remember the name of the panel?</p>
-                    <p><b>4. </b><input type="radio" name="grammar24-4" value="do" required><b>DO</b></input> <input type="radio" name="grammar24-4" value="does" required><b>Does</b></input>  Lee and Sophia use Photoshop?</p>
+                    <p><b>1. </b><input type="radio" name="grammar24-1" value="1" required><b>DO</b></input> <input type="radio" name="grammar24-1" value="2" required><b>Does</b></input>  Lee know how to use the Black & White effect?</p>
+                    <p><b>2. </b><input type="radio" name="grammar24-2" value="1" required><b>DO</b></input> <input type="radio" name="grammar24-2" value="2" required><b>Does</b></input>  you remember how to edit the contrast with the Adjustment Panel?</p>
+                    <p><b>3. </b><input type="radio" name="grammar24-3" value="1" required><b>DO</b></input> <input type="radio" name="grammar24-3" value="2" required><b>Does</b></input>  Beatriz remember the name of the panel?</p>
+                    <p><b>4. </b><input type="radio" name="grammar24-4" value="1" required><b>DO</b></input> <input type="radio" name="grammar24-4" value="2" required><b>Does</b></input>  Lee and Sophia use Photoshop?</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="7">
@@ -70,10 +70,8 @@
     <script>
         activeMenu();
 
-        $("form").each(function(){
-            var atividade_id = $(this).find('input[name="atividade_id"]').val();
-            checkAtividade(atividade_id);
-        });
+        checkAtividade(23);
+        checkAtividade2(24);
 
         $("#unidade7grammar23").submit(function(e){
             e.preventDefault();
@@ -97,8 +95,8 @@
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade7grammar24 input[type="text"]').each(function(index){
-                if(($('#unidade7grammar24 input[type="text"]').length - 1) == index){
+            $('#unidade7grammar24 input[type="radio"]:checked').each(function(index){
+                if(($('#unidade7grammar24 input[type="radio"]:checked').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
@@ -107,7 +105,7 @@
             if($('#unidade7grammar24 input[name="resposta_id"').val() != 0){
                 atualizarAtividade($('#unidade7grammar24'), respostas);
             }else{
-                enviarAtividade($('#unidade7grammar24'), respostas);
+                enviarAtividade($('#unidade7grammar24'), respostas);                
             }
         });
         
@@ -129,6 +127,29 @@
                     for(j = 0; j < respostas.length; j++){
                         $('#unidade7grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade7grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                    }
+                    $('#unidade7grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade7grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                }
+            });
+        }
+        function checkAtividade2(atividade_id){
+            request = $.ajax({
+                url: window.location.pathname+'/respostasCheck/'+atividade_id,
+                type: 'get',
+                error: function(){
+                    console.log("Erro de retorno de dados.");
+                }
+            });
+            request.done(function(response){
+                if(response == 0){
+                    console.log("não veio nada");
+                }else{
+                    var objeto = JSON.parse(response[0].resposta_respostas);
+                    var chaves = Object.keys(objeto);
+                    var respostas = Object.values(objeto);
+                    for(j = 0; j < respostas.length; j++){
+                        $('#unidade7grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
                     }
                     $('#unidade7grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade7grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);

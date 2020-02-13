@@ -59,9 +59,13 @@ Route::get('/unidade5/listening', 'HomeController@unidade5Listening')->name('uni
 Route::get('/unidade5/understanding', 'HomeController@unidade5Understanding')->name('unidade5/understanding');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 79c9b836a4ed5a89041f2f47bcc8dbbd5fc133db
+=======
+
+>>>>>>> 0fde0e716f6904fb6e0ff998bc3a3d04abf7eb89
 //UNIDADE 6
 Route::get('/unidade6/vocabulary', 'HomeController@unidade6Vocabulary')->name('unidade6/vocabulary');
 Route::get('/unidade6/conversation', 'HomeController@unidade6Conversation')->name('unidade6/conversation');
@@ -131,6 +135,16 @@ Route::get('/unidade5/listening/respostasCheck/{atividade_id}', 'RespostaControl
 Route::post('/unidade5/understanding/respostas', 'RespostaController@store');
 Route::get('/unidade5/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
+<<<<<<< HEAD
+//UNIDADE 7
+Route::post('/unidade7/grammar/respostas', 'RespostaController@store');
+Route::get('/unidade7/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/unidade7/listening/respostas', 'RespostaController@store');
+Route::get('/unidade7/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/unidade7/understanding/respostas', 'RespostaController@store');
+Route::get('/unidade7/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+=======
+>>>>>>> 79c9b836a4ed5a89041f2f47bcc8dbbd5fc133db
 //UNIDADE 6
 Route::post('/unidade6/grammar/respostas', 'RespostaController@store');
 Route::get('/unidade6/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
@@ -140,6 +154,7 @@ Route::post('/unidade6/understanding/respostas', 'RespostaController@store');
 Route::get('/unidade6/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 
 //UNIDADE 7
 Route::post('/unidade7/grammar/respostas', 'RespostaController@store');
@@ -149,6 +164,8 @@ Route::get('/unidade7/listening/respostasCheck/{atividade_id}', 'RespostaControl
 Route::post('/unidade7/understanding/respostas', 'RespostaController@store');
 Route::get('/unidade7/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 >>>>>>> 79c9b836a4ed5a89041f2f47bcc8dbbd5fc133db
+=======
+>>>>>>> 0fde0e716f6904fb6e0ff998bc3a3d04abf7eb89
 
 //UNIDADE 7
 Route::post('/unidade7/grammar/respostas', 'RespostaController@store');
@@ -157,6 +174,7 @@ Route::post('/unidade7/listening/respostas', 'RespostaController@store');
 Route::get('/unidade7/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
 Route::post('/unidade7/understanding/respostas', 'RespostaController@store');
 Route::get('/unidade7/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+>>>>>>> 79c9b836a4ed5a89041f2f47bcc8dbbd5fc133db
 
 //UNIDADE 8
 Route::post('/unidade8/grammar/respostas', 'RespostaController@store');

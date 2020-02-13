@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/unit2/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to your teacher and repeat the words to practi ce the pronunciati on of words with the lett er ‘R’.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to your teacher and repeat the words to practice the pronunciation of words with the lett er ‘R’.</h5>
 				<ul class="lista-inline">
                     <li><b class="upper">For</b></li>
                     <li><b class="upper">Designer</b></li>
@@ -26,7 +26,7 @@
                     <li><b class="upper">Great</b></li>
                     <li><b class="upper">Brother</b></li>
                 </ul>
-                <h5 class="barlow" style="margin-top: 16px">B - Listen to your teacher and repeat the words to practi ce the pronunciati on of words with the lett er ‘P’.</h5>
+                <h5 class="barlow" style="margin-top: 16px">B - Listen to your teacher and repeat the words to practice the pronunciation of words with the lett er ‘P’.</h5>
                 <ul class="lista-inline">
                     <li><b class="upper">Production</b></li>
                     <li><b class="upper">Professional</b></li>
@@ -36,7 +36,7 @@
                     <li><b class="upper">Profession</b></li>
                 </ul>
                 <h5 class="barlow" style="margin-top: 16px">C - Now, read the sentence below to check your understanding.</h5>
-                <p class="center-align">“Photoshop, for professionals of graphic producti on, is of great importance.”</p>
+                <p class="center-align">“Photoshop, for professionals of graphic production, is of great importance.”</p>
                 <h5 class="barlow">3.1 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -51,7 +51,7 @@
                 <div class="clear"></div>
                 <div class="metade">
                     <form id="unidade2listening9" method="post">
-                        <p>a - The creati on of Photoshop <input class="full" type="text" name="listening9-1" required></p>
+                        <p>a - The creation of Photoshop <input class="full" type="text" name="listening9-1" required></p>
                         <p>b - The professionals who use Photoshop <input class="full" type="text" name="listening9-2" required></p>
                         <p>c - The tools in Photoshop <input class="full" type="text" name="listening9-3" required></p>
                         <p>d - The video-editing features of Photoshop <input class="full" type="text" name="listening9-4" required></p>
