@@ -26,9 +26,9 @@
 				<p><b>Lee : </b>  It is utilized to remove imperfections from photos, such as acne and scars.</p>
 				<p><b>Sophia : </b>  That’s right Lee! And sometimes your eyes may be red in a picture. Do you use Spot Healing Brush, or another tool?</p>
 				<p><b>Beatriz : </b>  No, you don’t use the Healing Brush. You need to use the Red Eye Correction Tool.</p>
-				<div class="metade" style="margin-top: 36px">
+				<div class="full" style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit8/pagina-1.png') }}" alt="Garotos festejando">
+						<img src="{{ asset('assets/img/playgo/unit8/ilust_08.jpg') }}" alt="Garotos festejando">
 					</figure>
 				</div>
 			</div>

@@ -64,7 +64,7 @@
                 </div>
                 <div class="metade esquerda">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
+                        <img src="{{ asset('assets/img/playgo/unit3/U3.jpg') }}" alt="">
                     </figure>
                 </div>
                 <div class="metade direita">

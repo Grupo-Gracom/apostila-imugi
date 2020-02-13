@@ -22,7 +22,7 @@
 				<p><b>Lee :</b> Hey, I use that panel with every picture I edit! I especially love the Black & White tool because I like to give a dramatic effect on my photos.</p>
 				<p><b>Sophia :</b>  Great comments, everybody! I am really happy to see you all understand a little about the Adjustment Panel.</p>				
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit7/ilust_07.jpg') }}" alt="Garotos festejando">
 				</figure>
 			</div>
 		</div>
