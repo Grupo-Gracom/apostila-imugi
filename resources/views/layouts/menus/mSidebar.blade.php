@@ -7,7 +7,7 @@
             </figure>
         </a>
     </div>
-    <ul class="nav" class="scroll">
+    <ul class="nav">
         <li class="@if(Route::current()->getName() == 'home') active-item @endif item">
             <a href="{{ route('home') }}">
                 <i class="material-icons">home</i> Bem vindo
@@ -129,6 +129,51 @@
                     <a href="{{ route('unidade8/pronunciation') }}" data-etapa="pronunciation"><i class="material-icons suave">record_voice_over</i> Pronunciation</a>
                     <a href="{{ route('unidade8/listening') }}" data-etapa="listening"><i class="material-icons suave">hearing</i> Listening</a>
                     <a href="{{ route('unidade8/understanding') }}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
+                </li>
+            </ul>
+        </li>
+        <li class="item" data-unidade="unidade11">
+            <a class="click submenu">
+                <i class="material-icons">folder</i> UNIT 11
+            </a>
+            <ul>
+                <li>
+                    <a href="{{ route('unidade11/vocabulary') }}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                    <a href="{{ route('unidade11/conversation') }}" data-etapa="conversation"><i class="material-icons suave">forum</i> Conversation</a>
+                    <a href="{{ route('unidade11/grammar') }}" data-etapa="grammar"><i class="material-icons suave">edit</i> Grammar</a>
+                    <a href="{{ route('unidade11/pronunciation') }}" data-etapa="pronunciation"><i class="material-icons suave">record_voice_over</i> Pronunciation</a>
+                    <a href="{{ route('unidade11/listening') }}" data-etapa="listening"><i class="material-icons suave">hearing</i> Listening</a>
+                    <a href="{{ route('unidade11/understanding') }}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
+                </li>
+            </ul>
+        </li>
+        <li class="item" data-unidade="unidade12">
+            <a class="click submenu">
+                <i class="material-icons">folder</i> UNIT 12
+            </a>
+            <ul>
+                <li>
+                    <a href="{{ route('unidade12/vocabulary') }}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                    <a href="{{ route('unidade12/conversation') }}" data-etapa="conversation"><i class="material-icons suave">forum</i> Conversation</a>
+                    <a href="{{ route('unidade12/grammar') }}" data-etapa="grammar"><i class="material-icons suave">edit</i> Grammar</a>
+                    <a href="{{ route('unidade12/pronunciation') }}" data-etapa="pronunciation"><i class="material-icons suave">record_voice_over</i> Pronunciation</a>
+                    <a href="{{ route('unidade12/listening') }}" data-etapa="listening"><i class="material-icons suave">hearing</i> Listening</a>
+                    <a href="{{ route('unidade12/understanding') }}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
+                </li>
+            </ul>
+        </li>
+        <li class="item" data-unidade="unidade13">
+            <a class="click submenu">
+                <i class="material-icons">folder</i> UNIT 13
+            </a>
+            <ul>
+                <li>
+                    <a href="{{ route('unidade13/vocabulary') }}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                    <a href="{{ route('unidade13/conversation') }}" data-etapa="conversation"><i class="material-icons suave">forum</i> Conversation</a>
+                    <a href="{{ route('unidade13/grammar') }}" data-etapa="grammar"><i class="material-icons suave">edit</i> Grammar</a>
+                    <a href="{{ route('unidade13/pronunciation') }}" data-etapa="pronunciation"><i class="material-icons suave">record_voice_over</i> Pronunciation</a>
+                    <a href="{{ route('unidade13/listening') }}" data-etapa="listening"><i class="material-icons suave">hearing</i> Listening</a>
+                    <a href="{{ route('unidade13/understanding') }}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
                 </li>
             </ul>
         </li>
