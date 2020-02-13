@@ -34,7 +34,7 @@ audio::-webkit-media-controls-time-remaining-display{color: white;text-shadow: n
 audio::-webkit-media-controls-volume-control-container{filter: invert(1);}
 
 
-nav{width: 300px;height: 100vh;position: fixed;top: 0;left: 0;background-color: white;box-shadow: 5px 0 8px rgba(0, 0, 0, .10);}
+nav{width: 300px;height: 100vh;position: fixed;top: 0;left: 0;background-color: white;box-shadow: 5px 0 8px rgba(0, 0, 0, .10); overflow: auto;}
 nav .logo{width: 100%;}
 nav .logo a{display: block;}
 nav .logo figure{height: 70px;margin: 0;}

@@ -7,7 +7,7 @@
             </figure>
         </a>
     </div>
-    <ul class="nav">
+    <ul class="nav" class="scroll">
         <li class="@if(Route::current()->getName() == 'home') active-item @endif item">
             <a href="{{ route('home') }}">
                 <i class="material-icons">home</i> Bem vindo
@@ -119,7 +119,7 @@
         </li>
         <li class="item" data-unidade="unidade8">
             <a class="click submenu">
-                <i class="material-icons">folder</i> Unidade 8
+                <i class="material-icons">folder</i> UNIT 8
             </a>
             <ul>
                 <li>
