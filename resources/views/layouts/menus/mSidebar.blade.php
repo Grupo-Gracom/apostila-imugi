@@ -7,7 +7,7 @@
             </figure>
         </a>
     </div>
-    <ul class="nav">
+    <ul class="nav" class="scroll">
         <li class="@if(Route::current()->getName() == 'home') active-item @endif item">
             <a href="{{ route('home') }}">
                 <i class="material-icons">home</i> Bem vindo
@@ -147,6 +147,21 @@
                 </li>
             </ul>
         </li>  
+        <li class="item" data-unidade="unidade8">
+            <a class="click submenu">
+                <i class="material-icons">folder</i> UNIT 8
+            </a>
+            <ul>
+                <li>
+                    <a href="{{ route('unidade8/vocabulary') }}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                    <a href="{{ route('unidade8/conversation') }}" data-etapa="conversation"><i class="material-icons suave">forum</i> Conversation</a>
+                    <a href="{{ route('unidade8/grammar') }}" data-etapa="grammar"><i class="material-icons suave">edit</i> Grammar</a>
+                    <a href="{{ route('unidade8/pronunciation') }}" data-etapa="pronunciation"><i class="material-icons suave">record_voice_over</i> Pronunciation</a>
+                    <a href="{{ route('unidade8/listening') }}" data-etapa="listening"><i class="material-icons suave">hearing</i> Listening</a>
+                    <a href="{{ route('unidade8/understanding') }}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
+                </li>
+            </ul>
+        </li>
     </ul>
     <!-- @if(Auth::user()->nivel == 1)
         <div class="logo">

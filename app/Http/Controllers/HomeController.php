@@ -126,25 +126,6 @@ class HomeController extends Controller
         return view('unidade5/understanding');
     }
 
-    //UNIDADE 7
-    public function unidade7Vocabulary(){
-        return view('unidade7/vocabulary');
-    }
-    public function unidade7Conversation(){
-        return view('unidade7/conversation');
-    }
-    public function unidade7Grammar(){
-        return view('unidade7/grammar');
-    }
-    public function unidade7Pronunciation(){
-        return view('unidade7/pronunciation');
-    }
-    public function unidade7Listening(){
-        return view('unidade7/listening');
-    }
-    public function unidade7Understanding(){
-        return view('unidade7/understanding');
-    }
     //UNIDADE 6
     public function unidade6Vocabulary(){
         return view('unidade6/vocabulary');
@@ -163,6 +144,47 @@ class HomeController extends Controller
     }
     public function unidade6Understanding(){
         return view('unidade6/understanding');
+    }
+    
+    //UNIDADE 7
+    public function unidade7Vocabulary(){
+        return view('unidade7/vocabulary');
+    }
+    public function unidade7Conversation(){
+        return view('unidade7/conversation');
+    }
+    public function unidade7Grammar(){
+        return view('unidade7/grammar');
+    }
+    public function unidade7Pronunciation(){
+        return view('unidade7/pronunciation');
+    }
+    public function unidade7Listening(){
+        return view('unidade7/listening');
+    }
+    public function unidade7Understanding(){
+        return view('unidade7/understanding');
+
+    }
+
+    //UNIDADE 8
+    public function unidade8Vocabulary(){
+        return view('unidade8/vocabulary');
+    }
+    public function unidade8Conversation(){
+        return view('unidade8/conversation');
+    }
+    public function unidade8Grammar(){
+        return view('unidade8/grammar');
+    }
+    public function unidade8Pronunciation(){
+        return view('unidade8/pronunciation');
+    }
+    public function unidade8Listening(){
+        return view('unidade8/listening');
+    }
+    public function unidade8Understanding(){
+        return view('unidade8/understanding');
     }
 
     //UNIDADE 9
