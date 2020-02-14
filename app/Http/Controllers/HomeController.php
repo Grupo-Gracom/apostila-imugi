@@ -187,8 +187,6 @@ class HomeController extends Controller
         return view('unidade8/understanding');
     }
 
-    
-
     //UNIDADE 9
     public function unidade9Vocabulary(){
         return view('unidade9/vocabulary');
@@ -330,6 +328,7 @@ class HomeController extends Controller
     }
 
         //UNIDADE 16
+    //UNIDADE 16
     public function unidade16Vocabulary(){
         return view('unidade16/vocabulary');
     }
@@ -347,6 +346,82 @@ class HomeController extends Controller
     }
     public function unidade16Understanding(){
         return view('unidade16/understanding');
+    }
+    //UNIDADE 17
+    public function unidade17Vocabulary(){
+        return view('unidade17/vocabulary');
+    }
+    public function unidade17Conversation(){
+        return view('unidade17/conversation');
+    }
+    public function unidade17Grammar(){
+        return view('unidade17/grammar');
+    }
+    public function unidade17Pronunciation(){
+        return view('unidade17/pronunciation');
+    }
+    public function unidade17Listening(){
+        return view('unidade17/listening');
+    }
+    public function unidade17Understanding(){
+        return view('unidade17/understanding');
+    }
+    //UNIDADE 18
+    public function unidade18Vocabulary(){
+        return view('unidade18/vocabulary');
+    }
+    public function unidade18Conversation(){
+        return view('unidade18/conversation');
+    }
+    public function unidade18Grammar(){
+        return view('unidade18/grammar');
+    }
+    public function unidade18Pronunciation(){
+        return view('unidade18/pronunciation');
+    }
+    public function unidade18Listening(){
+        return view('unidade18/listening');
+    }
+    public function unidade18Understanding(){
+        return view('unidade18/understanding');
+    }
+    //UNIDADE 19
+    public function unidade19Vocabulary(){
+        return view('unidade19/vocabulary');
+    }
+    public function unidade19Conversation(){
+        return view('unidade19/conversation');
+    }
+    public function unidade19Grammar(){
+        return view('unidade19/grammar');
+    }
+    public function unidade19Pronunciation(){
+        return view('unidade19/pronunciation');
+    }
+    public function unidade19Listening(){
+        return view('unidade19/listening');
+    }
+    public function unidade19Understanding(){
+        return view('unidade19/understanding');
+    }
+    //UNIDADE 20
+    public function unidade20Vocabulary(){
+        return view('unidade20/vocabulary');
+    }
+    public function unidade20Conversation(){
+        return view('unidade19/conversation');
+    }
+    public function unidade20Grammar(){
+        return view('unidade20/grammar');
+    }
+    public function unidade20Pronunciation(){
+        return view('unidade20/pronunciation');
+    }
+    public function unidade20Listening(){
+        return view('unidade20/listening');
+    }
+    public function unidade20Understanding(){
+        return view('unidade20/understanding');
     }
     //UNIDADE 21
     public function unidade21Vocabulary(){
