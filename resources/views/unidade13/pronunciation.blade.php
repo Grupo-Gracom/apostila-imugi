@@ -24,30 +24,30 @@
 					much time on it).
 				</p>
                 <h5 class="barlow" style="margin-top: 16px">A. Observe That “Ed” Someti mes Sounds Like A “T”, “D”, Or Just “Ed”. It Depends On The Use Of Your Voice At The End Of The Verb.</h5>
-					<div class="metade">
-				<div class="umterco">
-					<ul>
-						<p>/T/</p>
-						<p>WORKED</p>
-						<p>LIKED</p>
-						<p>HELPED</p>
-					</ul>
-					</div>
+				<div class="metade">
 					<div class="umterco">
-					<ul>
-						<p>/D/</p>
-						<p>SHOWED</p>
-						<p>LEARNED</p>
-						<p>PLAYED</p>
-					</ul>
-					</div>
-					<div class="umterco">
-					<ul>
-						<p>/ED/</p>
-						<p>WAITED</p>
-						<p>DECIDED</p>
-						<p>WANTED</p>
-					</ul>
+						<ul>
+							<p>/T/</p>
+							<p>WORKED</p>
+							<p>LIKED</p>
+							<p>HELPED</p>
+						</ul>
+						</div>
+						<div class="umterco">
+						<ul>
+							<p>/D/</p>
+							<p>SHOWED</p>
+							<p>LEARNED</p>
+							<p>PLAYED</p>
+						</ul>
+						</div>
+						<div class="umterco">
+						<ul>
+							<p>/ED/</p>
+							<p>WAITED</p>
+							<p>DECIDED</p>
+							<p>WANTED</p>
+						</ul>
 					</div>
 				</div>
 				<div class="clear"></div>

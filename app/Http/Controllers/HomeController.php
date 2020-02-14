@@ -286,5 +286,45 @@ class HomeController extends Controller
     public function unidade13Understanding(){
         return view('unidade13/understanding');
     }
+
+    //UNIDADE 14
+    public function unidade14Vocabulary(){
+        return view('unidade14/vocabulary');
+    }
+    public function unidade14Conversation(){
+        return view('unidade14/conversation');
+    }
+    public function unidade14Grammar(){
+        return view('unidade14/grammar');
+    }
+    public function unidade14Pronunciation(){
+        return view('unidade14/pronunciation');
+    }
+    public function unidade14Listening(){
+        return view('unidade14/listening');
+    }
+    public function unidade14Understanding(){
+        return view('unidade14/understanding');
+    }
+
+    //UNIDADE 15
+    public function unidade15Vocabulary(){
+        return view('unidade15/vocabulary');
+    }
+    public function unidade15Conversation(){
+        return view('unidade15/conversation');
+    }
+    public function unidade15Grammar(){
+        return view('unidade15/grammar');
+    }
+    public function unidade15Pronunciation(){
+        return view('unidade15/pronunciation');
+    }
+    public function unidade15Listening(){
+        return view('unidade15/listening');
+    }
+    public function unidade15Understanding(){
+        return view('unidade15/understanding');
+    }
     
 }
