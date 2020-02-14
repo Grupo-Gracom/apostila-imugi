@@ -104,6 +104,26 @@ main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242
 #unidade .tabelaVerde h5{
     color:white;
 }
+.gramar17Verde p{
+    background-color: #6cc51f;
+    color:white;    
+    margin-bottom: unset;
+    text-align: center;
+    width: 55px;
+    height: 27px;
+    
+    
+}
+.gramar17VerdeEscuro p{
+    background-color: #147220;
+    color:white;
+    margin-bottom: unset;
+    text-align: center;
+    width: 100px;
+    height: 108px;
+    line-height: 108px;
+    font-size: 21px;
+}
 
 /* header .perfil{min-width: 250px;position: absolute;top: 0;right: 0;}
 header .perfil .infos{height: 70px;padding: 15px 16px;overflow: hidden;box-sizing: border-box;}
