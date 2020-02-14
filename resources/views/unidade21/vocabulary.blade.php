@@ -9,21 +9,23 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade6" data-etapa="vocabulary">
-				<h3 class="barlow">UNIT 06 - Brush and Red Eye Correction</h3>
+			<div id="unidade" class="box" data-unidade="unidade21" data-etapa="vocabulary">
+				<h3 class="barlow">UNIT 21 - PROFESSOR SARAH HENDRIX</h3>
+				<p><b>Goal:</b> Provide Students With An Understanding Of The Field Of Ilustration.</p>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit6/vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>OPEN</b></li>
-					<li><b>TOUCH UP</b></li>
-					<li><b>CAN</b></li>
-					<li><b>REMOVE</b></li>
-					<li><b>BRUSH</b></li>
-					<li><b>SOME</b></li>
-					<li><b>ANSWER</b></li>
+					<li><b>THOUGH</b></li>
+					<li><b>MOVE</b></li>
+					<li><b>SPECIALIZE</b></li>
+					<li><b>DRAW</b></li>
+					<li><b>NOWADAYS</b></li>
+					<li><b>VARIETY</b></li>
+					<li><b>DURING</b></li>
+					<li><b>SUCHAS</b></li>
 				</ul>
 			</div>
 		</div>

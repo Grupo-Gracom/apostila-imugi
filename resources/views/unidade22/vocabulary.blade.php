@@ -9,21 +9,23 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade6" data-etapa="vocabulary">
-				<h3 class="barlow">UNIT 06 - Brush and Red Eye Correction</h3>
+			<div id="unidade" class="box" data-unidade="unidade22" data-etapa="vocabulary">
+				<h3 class="barlow">UNIT 22 - SARAH’S STUDENTS</h3>
+				<p><b>Goal:</b> Focus On Contrasting Of The Verb Tenses Studied Previously.</p>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit6/vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>OPEN</b></li>
-					<li><b>TOUCH UP</b></li>
-					<li><b>CAN</b></li>
-					<li><b>REMOVE</b></li>
-					<li><b>BRUSH</b></li>
-					<li><b>SOME</b></li>
-					<li><b>ANSWER</b></li>
+					<li><b>THINK</b></li>
+					<li><b>LEARN</b></li>
+					<li><b>DO</b></li>
+					<li><b>CALL</b></li>
+					<li><b>TAKE</b></li>
+					<li><b>FIELD</b></li>
+					<li><b>EXPECT</b></li>
+					<li><b>GUESS</b></li>
 				</ul>
 			</div>
 		</div>

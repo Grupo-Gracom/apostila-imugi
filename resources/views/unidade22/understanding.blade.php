@@ -9,43 +9,54 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade7" data-etapa="understanding">
-				<h3 class="barlow">UNIT 07 - Adjustment Panel</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>                
-                <form id="unidade7understanding25" method="post">
-                    <p>
-                        1 - Does Carlos know how to use the Adjustment Panel?<br>
-                        <input type="text" name="understanding25-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        2 - What does Sophia think about the students’ comments?<br>
-                        <input type="text" name="understanding25-2" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 - Who does Beatriz know that uses the Adjustment Panel?<br>
-                        <input type="text" name="understanding25-3" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - Why does Beatriz’s friend use the Adjustment Panel?<br>
-                        <input type="text" name="understanding25-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - What does Lee especially like about the Panel?<br>
-                        <input type="text" name="understanding25-5" class="full left-align" required>
-                    </p>
-                    <p>
-                        6 - What does Carlos’ friend use the Panel for?<br>
-                        <input type="text" name="understanding25-6" class="full left-align" required>
-                    </p>                    
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="7">
-                    <input type="hidden" name="atividade_id" value="25">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+			<div id="unidade" class="box" data-unidade="unidade22" data-etapa="understanding">
+				<h3 class="barlow">UNIT 22 - SARAH’S STUDENTS</h3>
+				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <div class="metade">
+                    <form id="unidade22understanding61" method="post">
+                        <p>
+                            1 - Why Didn’t Mariana Thin She’d Be In The Class?<br>
+                            <input type="text" name="understanding61-1" class="full left-align" required>
+                        </p>
+                        <p>
+                            2 - What Did Mariana Decide To Do?<br>
+                            <input type="text" name="understanding61-2" class="full left-align" required>
+                        </p>
+                        <p>
+                            3 - How Does Rafael Like To Be Called?<br>
+                            <input type="text" name="understanding61-3" class="full left-align" required>
+                        </p>
+                        <p>
+                            4 - Why Is Rafael Taking The Course?<br>
+                            <input type="text" name="understanding61-4" class="full left-align" required>
+                        </p>
+                        <p>
+                            5 - What Does Marcelo Study?<br>
+                            <input type="text" name="understanding61-5" class="full left-align" required>
+                        </p>
+                        <p>
+                            6 - Why Is Marcelo In The Course?<br>
+                            <input type="text" name="understanding61-6" class="full left-align" required>
+                        </p>
+                        <p>
+                            7 - Why Is Kylie In The Class?<br>
+                            <input type="text" name="understanding61-7" class="full left-align" required>
+                        </p>
+                        <p>
+                            8 - How Old Is Kylie?<br>
+                            <input type="text" name="understanding61-8" class="full left-align" required>
+                        </p>
+                    
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="22">
+                        <input type="hidden" name="atividade_id" value="61">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>
                 <div class="metade esquerda">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit7/U7.jpg') }}" alt="">
+                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
                     </figure>
                 </div>
                 <div class="metade direita">
@@ -63,25 +74,26 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade7understanding25").submit(function(e){
+        $("#unidade22understanding61").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade7understanding25 input[type="text"]').each(function(index){
-                if(($('#unidade7understanding25 input[type="text"]').length - 1) == index){
+            $('#unidade22understanding61 input[type="text"]').each(function(index){
+                if(($('#unidade22understanding61 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade7understanding25 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade7understanding25'), respostas);
+            if($('#unidade22understanding61 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade22understanding61'), respostas);
             }else{
-                enviarAtividade($('#unidade7understanding25'), respostas);
+                enviarAtividade($('#unidade22understanding61'), respostas);
             }
         });
 
         function checkAtividade(atividade_id){
+            console.log(atividade_id);
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,
                 type: 'get',
@@ -97,11 +109,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade7understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade7understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade22understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade22understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade7understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade7understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade22understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade22understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

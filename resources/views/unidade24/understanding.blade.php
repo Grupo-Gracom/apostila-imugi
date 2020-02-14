@@ -9,43 +9,49 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade7" data-etapa="understanding">
-				<h3 class="barlow">UNIT 07 - Adjustment Panel</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>                
-                <form id="unidade7understanding25" method="post">
-                    <p>
-                        1 - Does Carlos know how to use the Adjustment Panel?<br>
-                        <input type="text" name="understanding25-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        2 - What does Sophia think about the students’ comments?<br>
-                        <input type="text" name="understanding25-2" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 - Who does Beatriz know that uses the Adjustment Panel?<br>
-                        <input type="text" name="understanding25-3" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - Why does Beatriz’s friend use the Adjustment Panel?<br>
-                        <input type="text" name="understanding25-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - What does Lee especially like about the Panel?<br>
-                        <input type="text" name="understanding25-5" class="full left-align" required>
-                    </p>
-                    <p>
-                        6 - What does Carlos’ friend use the Panel for?<br>
-                        <input type="text" name="understanding25-6" class="full left-align" required>
-                    </p>                    
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="7">
-                    <input type="hidden" name="atividade_id" value="25">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+			<div id="unidade" class="box" data-unidade="unidade24" data-etapa="understanding">
+				<h3 class="barlow">UNIT 24 - ERASER TOOL</h3>
+				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <div class="metade">
+                    <form id="unidade24understanding65" method="post">
+                        <p>
+                            1 - What’s Marcelo Trying To Draw?<br>
+                            <input type="text" name="understanding65-1" class="full left-align" required>
+                        </p>
+                        <p>
+                            2 - What Is Wrong With Marcelo’s Drawing?<br>
+                            <input type="text" name="understanding65-2" class="full left-align" required>
+                        </p>
+                        <p>
+                            3 - What Does Marcelo Need To Do To Fix The Errors In The Project?<br>
+                            <input type="text" name="understanding65-3" class="full left-align" required>
+                        </p>
+                        <p>
+                            4 - Why Does Marcelo Want To Keep The Original Mistakes?<br>
+                            <input type="text" name="understanding65-4" class="full left-align" required>
+                        </p>
+                        <p>
+                            5 - What Tool Does Sarah Recommend To Marcelo?<br>
+                            <input type="text" name="understanding65-5" class="full left-align" required>
+                        </p>
+                        <p>
+                            6 - In Marcelo’s Case, What Does He Need To Do First To Fix The Error?<br>
+                            <input type="text" name="understanding65-6" class="full left-align" required>
+                        </p>
+                        <p>
+                            7 - Why Should Marcelo Change The Opacity Of The Eraser? <br>
+                            <input type="text" name="understanding65-7" class="full left-align" required>
+                        </p>                       
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="24">
+                        <input type="hidden" name="atividade_id" value="65">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>
                 <div class="metade esquerda">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit7/U7.jpg') }}" alt="">
+                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
                     </figure>
                 </div>
                 <div class="metade direita">
@@ -63,25 +69,26 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade7understanding25").submit(function(e){
+        $("#unidade24understanding65").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade7understanding25 input[type="text"]').each(function(index){
-                if(($('#unidade7understanding25 input[type="text"]').length - 1) == index){
+            $('#unidade24understanding65 input[type="text"]').each(function(index){
+                if(($('#unidade24understanding65 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade7understanding25 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade7understanding25'), respostas);
+            if($('#unidade24understanding65 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade24understanding65'), respostas);
             }else{
-                enviarAtividade($('#unidade7understanding25'), respostas);
+                enviarAtividade($('#unidade24understanding65'), respostas);
             }
         });
 
         function checkAtividade(atividade_id){
+            console.log(atividade_id);
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,
                 type: 'get',
@@ -97,11 +104,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade7understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade7understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade24understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade24understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade7understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade7understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade24understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade24understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

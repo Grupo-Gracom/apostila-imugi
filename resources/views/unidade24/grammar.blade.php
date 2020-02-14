@@ -9,49 +9,39 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade7" data-etapa="understanding">
-				<h3 class="barlow">UNIT 07 - Adjustment Panel</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>                
-                <form id="unidade7understanding25" method="post">
-                    <p>
-                        1 - Does Carlos know how to use the Adjustment Panel?<br>
-                        <input type="text" name="understanding25-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        2 - What does Sophia think about the students’ comments?<br>
-                        <input type="text" name="understanding25-2" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 - Who does Beatriz know that uses the Adjustment Panel?<br>
-                        <input type="text" name="understanding25-3" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - Why does Beatriz’s friend use the Adjustment Panel?<br>
-                        <input type="text" name="understanding25-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - What does Lee especially like about the Panel?<br>
-                        <input type="text" name="understanding25-5" class="full left-align" required>
-                    </p>
-                    <p>
-                        6 - What does Carlos’ friend use the Panel for?<br>
-                        <input type="text" name="understanding25-6" class="full left-align" required>
-                    </p>                    
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="7">
-                    <input type="hidden" name="atividade_id" value="25">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit7/U7.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
-
+			<div id="unidade" class="box" data-unidade="unidade24" data-etapa="grammar">
+				<h3 class="barlow">UNIT 24 - ERASER TOOL</h3>
+				<h5 class="barlow">3 - GRAMMAR</h5>
+				<span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
+                </audio>
+        
+                <p>There To Be</p>
+                <p>The Verb There To Be Is Used To Express The Existance Or Presence Of Something Or Someone.</p>
+                
+                <p style="word-spacing: 12em;">Affirmative Interrogative Negative</p>
+                <p style="word-spacing: 2em;">Singular There Is. Is There? There Isn’t/ There Is No.</p>
+                <p style="word-spacing: 2em;">Plural There Are Are There? There Aren’t/ There Are No</p>
+                
+                <div class="metade">
+                <div class="clear"></div>
+                    <h5 class="barlow">A - complete The Sentences With The Correct Form Of The Verb There To Be.</h5>
+                    <form id="unidade24grammar64" method="post">
+                    <p>1. <input type="text" name="grammar64-1" required>  Many People At The Party</p>
+                    <p>2. <input type="text" name="grammar64-2" required> Animals In The Park?</p>
+                    <p>3. <input type="text" name="grammar64-3" required> Cars Parked On The Street. (Negative)</p>
+                    <p>4. <input type="text" name="grammar64-4" required> Anyone Home?</p>
+                    <p>5. <input type="text" name="grammar64-5" required>  Tickets For The Movie?</p>
+                        
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="24">
+                        <input type="hidden" name="atividade_id" value="64">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+            </div>
+               
 			</div>
 		</div>
     </main>
@@ -63,24 +53,24 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade7understanding25").submit(function(e){
+        $("#unidade24grammar64").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade7understanding25 input[type="text"]').each(function(index){
-                if(($('#unidade7understanding25 input[type="text"]').length - 1) == index){
+            $('#unidade24grammar64 input[type="text"]').each(function(index){
+                if(($('#unidade24grammar64 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade7understanding25 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade7understanding25'), respostas);
+            if($('#unidade24grammar64 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade24grammar64'), respostas);
             }else{
-                enviarAtividade($('#unidade7understanding25'), respostas);
+                enviarAtividade($('#unidade24grammar64'), respostas);
             }
         });
-
+        
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,
@@ -97,11 +87,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade7understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade7understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade24grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade24grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade7understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade7understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade24grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade24grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
