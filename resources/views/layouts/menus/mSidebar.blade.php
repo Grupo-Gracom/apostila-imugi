@@ -174,6 +174,9 @@
                     <a href="{{ route('unidade16/pronunciation') }}" data-etapa="pronunciation"><i class="material-icons suave">record_voice_over</i> Pronunciation</a>
                     <a href="{{ route('unidade16/listening') }}" data-etapa="listening"><i class="material-icons suave">hearing</i> Listening</a>
                     <a href="{{ route('unidade16/understanding') }}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
+                </li>
+            </ul>
+        </li>
         <li class="item" data-unidade="unidade11">
             <a class="click submenu">
                 <i class="material-icons">folder</i> UNIT 11
