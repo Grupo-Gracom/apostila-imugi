@@ -9,22 +9,22 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade11" data-etapa="vocabulary">
-				<h3 class="barlow">UNIT 11 - COLOR TOOLS</h3>
-				<p><b>Lesson goal:</b>  Teach students about basic color tool options and focus on present continuous tense.</p>
+			<div id="unidade" class="box" data-unidade="unidade29" data-etapa="vocabulary">
+				<h3 class="barlow">UNIT 29 - KEY FRAME</h3>
+				<p><b>Goal: </b> Explain To Students How Possessive Adjectives And Pronouns Differ.</p>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit11/Vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit29/Vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>CREATE</b></li>
-					<li><b>TRY</b></li>
-					<li><b>MAKE</b></li>
-					<li><b>RECOMMEND</b></li>
-					<li><b>SELECT</b></li>
-					<li><b>CHOOSE</b></li>
-					<li><b>PICK</b></li>
+					<li><b>TO LAST</b></li>
+					<li><b>GOT IT</b></li>
+					<li><b>TO SET</b></li>
+					<li><b>AT LEAST</b></li>
+					<li><b>CLIP</b></li>
+					<li><b>BELIEVE</b></li>
+					<li><b>ONLY</b></li>
 				</ul>
 			</div>
 		</div>

@@ -426,7 +426,7 @@ class HomeController extends Controller
     public function unidade20Understanding(){
         return view('unidade20/understanding');
     }
-    
+
     //UNIDADE 21
     public function unidade21Vocabulary(){
         return view('unidade21/vocabulary');
@@ -547,4 +547,124 @@ class HomeController extends Controller
         return view('unidade26/understanding');
     }
     
+    //UNIDADE 27
+    public function unidade27Vocabulary(){
+        return view('unidade27/vocabulary');
+    }
+    public function unidade27Conversation(){
+        return view('unidade27/conversation');
+    }
+    public function unidade27Grammar(){
+        return view('unidade27/grammar');
+    }
+    public function unidade27Pronunciation(){
+        return view('unidade27/pronunciation');
+    }
+    public function unidade27Listening(){
+        return view('unidade27/listening');
+    }
+    public function unidade27Understanding(){
+        return view('unidade27/understanding');
+    }
+
+    //UNIDADE 28
+    public function unidade28Vocabulary(){
+        return view('unidade28/vocabulary');
+    }
+    public function unidade28Conversation(){
+        return view('unidade28/conversation');
+    }
+    public function unidade28Grammar(){
+        return view('unidade28/grammar');
+    }
+    public function unidade28Pronunciation(){
+        return view('unidade28/pronunciation');
+    }
+    public function unidade28Listening(){
+        return view('unidade28/listening');
+    }
+    public function unidade28Understanding(){
+        return view('unidade28/understanding');
+    }
+
+    //UNIDADE 29
+    public function unidade29Vocabulary(){
+        return view('unidade29/vocabulary');
+    }
+    public function unidade29Conversation(){
+        return view('unidade29/conversation');
+    }
+    public function unidade29Grammar(){
+        return view('unidade29/grammar');
+    }
+    public function unidade29Pronunciation(){
+        return view('unidade29/pronunciation');
+    }
+    public function unidade29Listening(){
+        return view('unidade29/listening');
+    }
+    public function unidade29Understanding(){
+        return view('unidade29/understanding');
+    }
+
+    //UNIDADE 30
+    public function unidade30Vocabulary(){
+        return view('unidade30/vocabulary');
+    }
+    public function unidade30Conversation(){
+        return view('unidade30/conversation');
+    }
+    public function unidade30Grammar(){
+        return view('unidade30/grammar');
+    }
+    public function unidade30Pronunciation(){
+        return view('unidade30/pronunciation');
+    }
+    public function unidade30Listening(){
+        return view('unidade30/listening');
+    }
+    public function unidade30Understanding(){
+        return view('unidade30/understanding');
+    }
+
+    //UNIDADE 31
+    public function unidade31Vocabulary(){
+        return view('unidade31/vocabulary');
+    }
+    public function unidade31Conversation(){
+        return view('unidade31/conversation');
+    }
+    public function unidade31Grammar(){
+        return view('unidade31/grammar');
+    }
+    public function unidade31Pronunciation(){
+        return view('unidade31/pronunciation');
+    }
+    public function unidade31Listening(){
+        return view('unidade31/listening');
+    }
+    public function unidade31Understanding(){
+        return view('unidade31/understanding');
+    }
+
+    //UNIDADE 32
+    public function unidade32Vocabulary(){
+        return view('unidade32/vocabulary');
+    }
+    public function unidade32Conversation(){
+        return view('unidade32/conversation');
+    }
+    public function unidade32Grammar(){
+        return view('unidade32/grammar');
+    }
+    public function unidade32Pronunciation(){
+        return view('unidade32/pronunciation');
+    }
+    public function unidade32Listening(){
+        return view('unidade32/listening');
+    }
+    public function unidade32Understanding(){
+        return view('unidade32/understanding');
+    }
+
 }

@@ -9,27 +9,25 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade14" data-etapa="pronunciation">
-				<h3 class="barlow">UNIT 14 - COLOR TOOLS & TYPOGRAPHY TOOLS REVIEW</h3>
+			<div id="unidade" class="box" data-unidade="unidade30" data-etapa="pronunciation">
+				<h3 class="barlow">UNIT 30 - VIDEO EFFECTS</h3>
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit14/Pronunciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio30/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A. Observe The Difference In Pronounciation Between The Letters “Oo” And “U”.</h5>
+				
+                <h5 class="barlow" style="margin-top: 16px">A. Observe The Difference In Pronunciation Between The Sounds Of “M” And “N”. Touch Your Lips To Pronounce “M”.</h5>
 				<ul class="lista-inline">
-					<li><b>BOOT</b></li>
-					<li><b>MOOD</b></li>
-					<li><b>HOOT</b></li>
+					<li><b>MAN</b></li>
+					<li><b>GUN</b></li>
+					<li><b>SUN</b></li>
 				</ul>
 				<ul class="lista-inline">
-					<li><b>X</b></li>
-				</ul>
-				<ul class="lista-inline">
-					<li><b>BUT</b></li>
-					<li><b>MUD</b></li>
-					<li><b>HUT</b></li>
+					<li><b>MA’AM</b></li>
+					<li><b>GUM</b></li>
+					<li><b>SUM</b></li>
 				</ul>
 				<div class="clear"></div>
 			</div>

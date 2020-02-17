@@ -9,22 +9,21 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade11" data-etapa="vocabulary">
-				<h3 class="barlow">UNIT 11 - COLOR TOOLS</h3>
-				<p><b>Lesson goal:</b>  Teach students about basic color tool options and focus on present continuous tense.</p>
+			<div id="unidade" class="box" data-unidade="unidade32" data-etapa="vocabulary">
+				<h3 class="barlow">UNIT 32 - VICTOR’S REVIEW</h3>
+				<p><b>Goal: </b>Talk To Students About An Overview Of Video Editing On Photoshop. Go Over All Of The Tools Studied.</p>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit11/Vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit32/Vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>CREATE</b></li>
-					<li><b>TRY</b></li>
-					<li><b>MAKE</b></li>
-					<li><b>RECOMMEND</b></li>
-					<li><b>SELECT</b></li>
-					<li><b>CHOOSE</b></li>
-					<li><b>PICK</b></li>
+					<li><b>WONDERFUL</b></li>
+					<li><b>FAR</b></li>
+					<li><b>WRAP UP</b></li>
+					<li><b>ADJUSTMENT</b></li>
+					<li><b>BRILLIANT</b></li>
+					<li><b>LITTLE</b></li>
 				</ul>
 			</div>
 		</div>

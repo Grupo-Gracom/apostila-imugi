@@ -133,6 +133,7 @@
                 }
             });
         }
+        
         function checkAtividade2(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

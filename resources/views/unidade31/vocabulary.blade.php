@@ -9,22 +9,20 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade11" data-etapa="vocabulary">
-				<h3 class="barlow">UNIT 11 - COLOR TOOLS</h3>
-				<p><b>Lesson goal:</b>  Teach students about basic color tool options and focus on present continuous tense.</p>
+			<div id="unidade" class="box" data-unidade="unidade31" data-etapa="vocabulary">
+				<h3 class="barlow">UNIT 31 - VIDEO TRANSITION</h3>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit11/Vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit31/Vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>CREATE</b></li>
-					<li><b>TRY</b></li>
-					<li><b>MAKE</b></li>
-					<li><b>RECOMMEND</b></li>
-					<li><b>SELECT</b></li>
-					<li><b>CHOOSE</b></li>
-					<li><b>PICK</b></li>
+					<li><b>TRANSITION</b></li>
+					<li><b>TAKE</b></li>
+					<li><b>SUPPOSE</b></li>
+					<li><b>SHOULD</b></li>
+					<li><b>A BUNCH OF</b></li>
+					<li><b>LEFT</b></li>
 				</ul>
 			</div>
 		</div>

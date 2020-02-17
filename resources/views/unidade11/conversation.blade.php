@@ -16,7 +16,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit11/Conversation/completo.ogg') }}" type="audio/ogg">
 				</audio>
-				<p style="margin-top: 16px"><b>ADAM: :</b> Excuse me, Bia. I am creating a birthday card for my friend. I am trying to make it beautiful. What do you recommend?</p>
+				<p style="margin-top: 16px"><b>ADAM: </b> Excuse me, Bia. I am creating a birthday card for my friend. I am trying to make it beautiful. What do you recommend?</p>
 				<p><b>Beatriz :</b> Well, first, it’s important to select the colors you want to use. Are you using Photoshop to make it?</p>
 				<p><b>ADAM :</b> Yes, I am.</p>
 				<p><b>Beatriz :</b>  Good. So, to choose the right colors, you need to click on the color picker tool. After that, you can add the color you like to the swatches panel.</p>
