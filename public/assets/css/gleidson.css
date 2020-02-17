@@ -124,6 +124,13 @@ main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242
     line-height: 108px;
     font-size: 21px;
 }
+#gramar18Verde{background-color: #6cc51f; text-align: left;}
+#gramar18Verde p, #gramar18Verde p b{color:white; margin-bottom: 1px; margin: 0.3em;}
+
+#gramar18VerdeEscuro{background-color: #147220; text-align: left;}
+#gramar18VerdeEscuro p,
+#gramar18VerdeEscuro p b{color:white; margin-bottom: 1px; margin: 0.3em;}
+.versus{text-align: center; margin: 50% ; background-color: #dddddd; }
 
 /* header .perfil{min-width: 250px;position: absolute;top: 0;right: 0;}
 header .perfil .infos{height: 70px;padding: 15px 16px;overflow: hidden;box-sizing: border-box;}
