@@ -9,45 +9,53 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade13" data-etapa="understanding">
-				<h3 class="barlow">UNIT 13 - TYPE TOOL & STYLE PANEL</h3>
+			<div id="unidade" class="box" data-unidade="unidade15" data-etapa="understanding">
+				<h3 class="barlow">UNIT 15 - PROFESSOR Akira Suzuki</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade13understanding38" method="post">
+                    <form id="unidade15understanding44" method="post">
                         <p>
-                            1 -  What Does Beatriz Think About The Name Of The Tool?<br>
-                            <input type="text" name="understanding38-1" class="full left-align" required>
+                            1 -  Where Is Akira From?<br>
+                            <input type="text" name="understanding44-1" class="full left-align" required>
                         </p>
                         <p>
-                            2 -  What Is The Name Of The Tool Beatriz Is Teaching?<br>
-                            <input type="text" name="understanding38-2" class="full left-align" required>
+                            2 -  When Did Akira Start To Work As A Web Designer?<br>
+                            <input type="text" name="understanding44-2" class="full left-align" required>
                         </p>
                         <p>
-                            3 -  Does Lucy Know How To Use Layer Style?<br>
-                            <input type="text" name="understanding38-3" class="full left-align" required>
+                            3 -  How Old Was Akira When He Moved?<br>
+                            <input type="text" name="understanding44-3" class="full left-align" required>
                         </p>
                         <p>
-                            4 - When Did Lucy Create The Flyer For Her Friend?<br>
-                            <input type="text" name="understanding38-4" class="full left-align" required>
+                            4 - How Long Has He Worked In Web Designing?<br>
+                            <input type="text" name="understanding44-4" class="full left-align" required>
                         </p>
                         <p>
-                            5 - What Did Lucy’s Friend Think About The Flyer?<br>
-                            <input type="text" name="understanding38-5" class="full left-align" required>
+                            5 - How Long Did He Work As A Graphic Designer For?<br>
+                            <input type="text" name="understanding44-5" class="full left-align" required>
                         </p>
                         <p>
-                            6 - What Did Lucy Think About Layer Style?<br>
-                            <input type="text" name="understanding38-6" class="full left-align" required>
+                            6 - Why Did He Start Working As A Web Designer?<br>
+                            <input type="text" name="understanding44-6" class="full left-align" required>
                         </p>
                         <p>
-                            7 - What Can Layer Style Do?<br>
-                            <input type="text" name="understanding38-7" class="full left-align" required>
+                            7 - Who Had A Small Company?<br>
+                            <input type="text" name="understanding44-7" class="full left-align" required>
+                        </p>
+                        <p>
+                            8 - How Is Photoshop Important In Web Designing?<br>
+                            <input type="text" name="understanding44-7" class="full left-align" required>
+                        </p>
+                        <p>
+                            9 - Is Layout Development A Simple Process In Akira’s Opinion?<br>
+                            <input type="text" name="understanding44-7" class="full left-align" required>
                         </p>
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="13">
-                        <input type="hidden" name="atividade_id" value="38">
+                        <input type="hidden" name="unidade_id" value="15">
+                        <input type="hidden" name="atividade_id" value="44">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -67,21 +75,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade13understanding38").submit(function(e){
+        $("#unidade15understanding44").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade13understanding38 input[type="text"]').each(function(index){
-                if(($('#unidade13understanding38 input[type="text"]').length - 1) == index){
+            $('#unidade15understanding44 input[type="text"]').each(function(index){
+                if(($('#unidade15understanding44 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade13understanding38 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade13understanding38'), respostas);
+            if($('#unidade15understanding44 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade15understanding44'), respostas);
             }else{
-                enviarAtividade($('#unidade13understanding38'), respostas);
+                enviarAtividade($('#unidade15understanding44'), respostas);
             }
         });
 
@@ -101,11 +109,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade13understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade13understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade15understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade15understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade13understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade13understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade15understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade15understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

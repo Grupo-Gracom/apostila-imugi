@@ -9,53 +9,53 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade13" data-etapa="understanding">
-				<h3 class="barlow">UNIT 13 - TYPE TOOL & STYLE PANEL</h3>
+			<div id="unidade" class="box" data-unidade="unidade14" data-etapa="understanding">
+				<h3 class="barlow">UNIT 14 - COLOR TOOLS & TYPOGRAPHY TOOLS REVIEW</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade13understanding38" method="post">
+                    <form id="unidade14understanding41" method="post">
                         <p>
-                            1 -  What Does Beatriz Think About The Name Of The Tool?<br>
-                            <input type="text" name="understanding38-1" class="full left-align" required>
+                            1 -  Who Remembered The Color Tools?<br>
+                            <input type="text" name="understanding41-1" class="full left-align" required>
                         </p>
                         <p>
-                            2 -  What Is The Name Of The Tool Beatriz Is Teaching?<br>
-                            <input type="text" name="understanding38-2" class="full left-align" required>
+                            2 -  How Many Tools Does ADAM Remember?<br>
+                            <input type="text" name="understanding41-2" class="full left-align" required>
                         </p>
                         <p>
-                            3 -  Does Lucy Know How To Use Layer Style?<br>
-                            <input type="text" name="understanding38-3" class="full left-align" required>
+                            3 -  What Tool Do We Use To Save Colors Created In The Color Picker?<br>
+                            <input type="text" name="understanding41-3" class="full left-align" required>
                         </p>
                         <p>
-                            4 - When Did Lucy Create The Flyer For Her Friend?<br>
-                            <input type="text" name="understanding38-4" class="full left-align" required>
+                            4 - What Is The Color Picker Used For?<br>
+                            <input type="text" name="understanding41-4" class="full left-align" required>
                         </p>
                         <p>
-                            5 - What Did Lucy’s Friend Think About The Flyer?<br>
-                            <input type="text" name="understanding38-5" class="full left-align" required>
+                            5 - Did Medina Remember All Of The Typography Tools He Studied?<br>
+                            <input type="text" name="understanding41-5" class="full left-align" required>
                         </p>
                         <p>
-                            6 - What Did Lucy Think About Layer Style?<br>
-                            <input type="text" name="understanding38-6" class="full left-align" required>
+                            6 - What Is The Name Of The Tool Used To Select Fonts?<br>
+                            <input type="text" name="understanding41-6" class="full left-align" required>
                         </p>
                         <p>
-                            7 - What Can Layer Style Do?<br>
-                            <input type="text" name="understanding38-7" class="full left-align" required>
+                            7 - What Can The Layer Panel Do?<br>
+                            <input type="text" name="understanding41-7" class="full left-align" required>
                         </p>
+                        <p>
+                            8 - What Is The Difference Between The Style Panel And The Layer Panel?<br>
+                            <input type="text" name="understanding41-8" class="full left-align" required>
+                        </p>
+
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="13">
-                        <input type="hidden" name="atividade_id" value="38">
+                        <input type="hidden" name="unidade_id" value="14">
+                        <input type="hidden" name="atividade_id" value="41">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-                <div class="metade" style="margin-top: 36px">
-                        <figure>
-                            <img src="{{ asset('assets/img/playgo/unit5/pagina-1.png') }}" alt="Garotos festejando">
-                        </figure>
-				</div>
 			</div>
 		</div>
     </main>
@@ -67,21 +67,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade13understanding38").submit(function(e){
+        $("#unidade14understanding41").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade13understanding38 input[type="text"]').each(function(index){
-                if(($('#unidade13understanding38 input[type="text"]').length - 1) == index){
+            $('#unidade14understanding41 input[type="text"]').each(function(index){
+                if(($('#unidade14understanding41 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade13understanding38 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade13understanding38'), respostas);
+            if($('#unidade14understanding41 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade14understanding41'), respostas);
             }else{
-                enviarAtividade($('#unidade13understanding38'), respostas);
+                enviarAtividade($('#unidade14understanding41'), respostas);
             }
         });
 
@@ -101,11 +101,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade13understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade13understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade14understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade14understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade13understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade13understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade14understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade14understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

@@ -9,53 +9,67 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade13" data-etapa="understanding">
-				<h3 class="barlow">UNIT 13 - TYPE TOOL & STYLE PANEL</h3>
+			<div id="unidade" class="box" data-unidade="unidade26" data-etapa="understanding">
+				<h3 class="barlow">UNIT 26 - SARAH’S REVIEW</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade13understanding38" method="post">
+                    <form id="unidade26understanding68" method="post">
                         <p>
-                            1 -  What Does Beatriz Think About The Name Of The Tool?<br>
-                            <input type="text" name="understanding38-1" class="full left-align" required>
+                            1 - What Three Tools Is The Review About?<br>
+                            <input type="text" name="understanding68-1" class="full left-align" required>
                         </p>
                         <p>
-                            2 -  What Is The Name Of The Tool Beatriz Is Teaching?<br>
-                            <input type="text" name="understanding38-2" class="full left-align" required>
+                            2 - When Was Sarah Thinking About What To Teach In The Review?<br>
+                            <input type="text" name="understanding68-2" class="full left-align" required>
                         </p>
                         <p>
-                            3 -  Does Lucy Know How To Use Layer Style?<br>
-                            <input type="text" name="understanding38-3" class="full left-align" required>
+                            3 - What Did Sarah Use To Do When She Was Young?<br>
+                            <input type="text" name="understanding68-3" class="full left-align" required>
                         </p>
                         <p>
-                            4 - When Did Lucy Create The Flyer For Her Friend?<br>
-                            <input type="text" name="understanding38-4" class="full left-align" required>
+                            4 - When Did Sarah Use To Make Paintings?<br>
+                            <input type="text" name="understanding68-4" class="full left-align" required>
                         </p>
                         <p>
-                            5 - What Did Lucy’s Friend Think About The Flyer?<br>
-                            <input type="text" name="understanding38-5" class="full left-align" required>
+                            5 - What Does Sarah Want The Students To Do?<br>
+                            <input type="text" name="understanding68-5" class="full left-align" required>
                         </p>
                         <p>
-                            6 - What Did Lucy Think About Layer Style?<br>
-                            <input type="text" name="understanding38-6" class="full left-align" required>
+                            6 - Who Recommends The Brush Tool?<br>
+                            <input type="text" name="understanding68-6" class="full left-align" required>
                         </p>
                         <p>
-                            7 - What Can Layer Style Do?<br>
-                            <input type="text" name="understanding38-7" class="full left-align" required>
+                            7 - Why Does Marcelo Think Brush Tool Is The Best For The Sky?<br>
+                            <input type="text" name="understanding68-7" class="full left-align" required>
                         </p>
-                        
+                        <p>
+                            8 - How Does Kylie Think The Sky Should Be Detailed?<br>
+                            <input type="text" name="understanding68-8" class="full left-align" required>
+                        </p>   
+                        <p>
+                            9 - Where Does Mariana Want To Draw A Line In The Painting?<br>
+                            <input type="text" name="understanding68-9" class="full left-align" required>
+                        </p>   
+                        <p>
+                            10 - Why Does Mariana Think Pen Tool Is Ideal For The Horizon?<br>
+                            <input type="text" name="understanding68-10" class="full left-align" required>
+                        </p>                  
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="13">
-                        <input type="hidden" name="atividade_id" value="38">
+                        <input type="hidden" name="unidade_id" value="26">
+                        <input type="hidden" name="atividade_id" value="68">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-                <div class="metade" style="margin-top: 36px">
-                        <figure>
-                            <img src="{{ asset('assets/img/playgo/unit5/pagina-1.png') }}" alt="Garotos festejando">
-                        </figure>
-				</div>
+                <div class="metade esquerda">
+                    <figure>
+                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
+                    </figure>
+                </div>
+                <div class="metade direita">
+                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
+                </div>
+
 			</div>
 		</div>
     </main>
@@ -67,25 +81,26 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade13understanding38").submit(function(e){
+        $("#unidade26understanding68").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade13understanding38 input[type="text"]').each(function(index){
-                if(($('#unidade13understanding38 input[type="text"]').length - 1) == index){
+            $('#unidade26understanding68 input[type="text"]').each(function(index){
+                if(($('#unidade26understanding68 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade13understanding38 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade13understanding38'), respostas);
+            if($('#unidade26understanding68 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade26understanding68'), respostas);
             }else{
-                enviarAtividade($('#unidade13understanding38'), respostas);
+                enviarAtividade($('#unidade26understanding68'), respostas);
             }
         });
 
         function checkAtividade(atividade_id){
+            console.log(atividade_id);
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,
                 type: 'get',
@@ -101,15 +116,14 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade13understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade13understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade26understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade26understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade13understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade13understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade26understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade26understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
-
 
         function enviarAtividade(formId, respostas){
             var resposta = {

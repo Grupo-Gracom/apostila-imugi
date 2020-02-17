@@ -9,53 +9,40 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade13" data-etapa="understanding">
-				<h3 class="barlow">UNIT 13 - TYPE TOOL & STYLE PANEL</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
+			<div id="unidade" class="box" data-unidade="unidade26" data-etapa="grammar">
+				<h3 class="barlow">UNIT 26 - SARAH’S REVIEW</h3>
+				<h5 class="barlow">3 - GRAMMAR</h5>
+				<span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
+                </audio>
+                
+                <p>Used To:</p>
+                <p>• To Talk About Routine Actions In The Past.</p>
+                <p>Simple Past</p>
+                <p>• To Talk About An Isolated Action In The Past.</p>
+                <p>Past Continuous</p>
+                <p>• To Talk About An Action That Was In Progress In The Past.</p>
+                
                 <div class="metade">
-                    <form id="unidade13understanding38" method="post">
-                        <p>
-                            1 -  What Does Beatriz Think About The Name Of The Tool?<br>
-                            <input type="text" name="understanding38-1" class="full left-align" required>
-                        </p>
-                        <p>
-                            2 -  What Is The Name Of The Tool Beatriz Is Teaching?<br>
-                            <input type="text" name="understanding38-2" class="full left-align" required>
-                        </p>
-                        <p>
-                            3 -  Does Lucy Know How To Use Layer Style?<br>
-                            <input type="text" name="understanding38-3" class="full left-align" required>
-                        </p>
-                        <p>
-                            4 - When Did Lucy Create The Flyer For Her Friend?<br>
-                            <input type="text" name="understanding38-4" class="full left-align" required>
-                        </p>
-                        <p>
-                            5 - What Did Lucy’s Friend Think About The Flyer?<br>
-                            <input type="text" name="understanding38-5" class="full left-align" required>
-                        </p>
-                        <p>
-                            6 - What Did Lucy Think About Layer Style?<br>
-                            <input type="text" name="understanding38-6" class="full left-align" required>
-                        </p>
-                        <p>
-                            7 - What Can Layer Style Do?<br>
-                            <input type="text" name="understanding38-7" class="full left-align" required>
-                        </p>
+                <div class="clear"></div>
+                    <h5 class="barlow">A - use The Simple Past, Past Continuous Or Used To To Complete The Sentences.</h5>
+                    <form id="unidade26grammar67" method="post">
+                    <p>1.I <input type="text" name="grammar67-1" required>   (Run) Every Day When I Was Young.</p>
+                    <p>2.<input type="text" name="grammar67-2" required> You <input type="text" name="grammar67-3" required> (Talk) On The Phone When I Called You?</p>
+                    <p>3.<input type="text" name="grammar67-4" required> She <input type="text" name="grammar67-5" required> (Tell) You I Called?</p>
+                    <p>4.I <input type="text" name="grammar67-6" required> (Work) There Many Years Ago.</p>
+                    <p>5.We <input type="text" name="grammar67-7" required> (Travel) To Mexico Last Year.</p>
+                    <p>6.They <input type="text" name="grammar67-8" required> (Study) When I Arrived.</p>
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="13">
-                        <input type="hidden" name="atividade_id" value="38">
+                        <input type="hidden" name="unidade_id" value="26">
+                        <input type="hidden" name="atividade_id" value="67">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-                <div class="metade" style="margin-top: 36px">
-                        <figure>
-                            <img src="{{ asset('assets/img/playgo/unit5/pagina-1.png') }}" alt="Garotos festejando">
-                        </figure>
-				</div>
+                             
 			</div>
 		</div>
     </main>
@@ -67,24 +54,24 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade13understanding38").submit(function(e){
+        $("#unidade26grammar67").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade13understanding38 input[type="text"]').each(function(index){
-                if(($('#unidade13understanding38 input[type="text"]').length - 1) == index){
+            $('#unidade26grammar67 input[type="text"]').each(function(index){
+                if(($('#unidade26grammar67 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade13understanding38 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade13understanding38'), respostas);
+            if($('#unidade26grammar67 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade26grammar67'), respostas);
             }else{
-                enviarAtividade($('#unidade13understanding38'), respostas);
+                enviarAtividade($('#unidade26grammar67'), respostas);
             }
         });
-
+        
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,
@@ -101,15 +88,14 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade13understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade13understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade26grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade26grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade13understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade13understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade26grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade26grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
-
 
         function enviarAtividade(formId, respostas){
             var resposta = {
@@ -161,7 +147,7 @@
                 }
             });
         }
-
+       
     </script>
 
 @endsection
