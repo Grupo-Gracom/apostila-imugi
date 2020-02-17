@@ -28,7 +28,7 @@
 				<p><b>Beatriz : </b>  No, you don’t use the Healing Brush. You need to use the Red Eye Correction Tool.</p>
 				<div class="metade" style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit8/pagina-1.png') }}" alt="Garotos festejando">
+						<img src="{{ asset('assets/img/playgo/unit8/ilust_08.jpg') }}" alt="Garotos festejando">
 					</figure>
 				</div>
 			</div>

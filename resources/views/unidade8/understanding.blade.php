@@ -9,59 +9,53 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade5" data-etapa="understanding">
-				<h3 class="barlow">UNIT 05 - BURN TOOL</h3>
+			<div id="unidade" class="box" data-unidade="unidade8" data-etapa="understanding">
+				<h3 class="barlow">UNIT 08 - REVIEW OF SOPHIA’S CLASSES</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
-                <form id="unidade5understanding20" method="post">
-                    <p>
-                        1 -  What is the tool mentioned in the text called?<br>
-                        <input type="text" name="understanding20-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        2 -  Does Beatriz know what the tool is used for?<br>
-                        <input type="text" name="understanding20-2" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 -  What is Burn tool used for?<br>
-                        <input type="text" name="understanding20-3" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - Who knows what Burn tool is?<br>
-                        <input type="text" name="understanding20-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - What does the tool balance?<br>
-                        <input type="text" name="understanding20-5" class="full left-align" required>
-                    </p>
-                    <p>
-                        6 - What picture does Kate need to edit the contrast?<br>
-                        <input type="text" name="understanding20-6" class="full left-align" required>
-                    </p>
-                    <p>
-                        7 - What is the problem with Kate’s picture?<br>
-                        <input type="text" name="understanding20-7" class="full left-align" required>
-                    </p>
-                    <p>
-                        8 - In what situation do you recommend the use of Burn Tool?<br>
-                        <input type="text" name="understanding20-8" class="full left-align" required>
-                    </p>
-                    <p>
-                        9 - Do you know how to use Burn Tool?<br>
-                        <input type="text" name="understanding20-9" class="full left-align" required>
-                    </p>
+                <div class="metade">
+                    <form id="unidade8understanding28" method="post">
+                        <p>
+                            1 -  Why is the class today special?<br>
+                            <input type="text" name="understanding28-1" class="full left-align" required>
+                        </p>
+                        <p>
+                            2 -  What doesn’t Carlos understand?<br>
+                            <input type="text" name="understanding28-2" class="full left-align" required>
+                        </p>
+                        <p>
+                            3 -  In what practical situation can you use burn tool?<br>
+                            <input type="text" name="understanding28-3" class="full left-align" required>
+                        </p>
+                        <p>
+                            4 - What does Burn Tool balance?<br>
+                            <input type="text" name="understanding28-4" class="full left-align" required>
+                        </p>
+                        <p>
+                            5 - What two problems can Spot Healing Brush fix?<br>
+                            <input type="text" name="understanding28-5" class="full left-align" required>
+                        </p>
+                        <p>
+                            6 - What is the name of the tool that can remove imperfections from a photo?<br>
+                            <input type="text" name="understanding28-6" class="full left-align" required>
+                        </p>
+                        <p>
+                            7 - In case of red eyes in a photo, what can you use?<br>
+                            <input type="text" name="understanding28-7" class="full left-align" required>
+                        </p>
+                        <p>
+                            8 - What’s the difference between Dodge Tool and Burn Tool?<br>
+                            <input type="text" name="understanding28-8" class="full left-align" required>
+                        </p>
                     
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="5">
-                    <input type="hidden" name="atividade_id" value="20">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-                <div class="metade" style="margin-top: 36px">
-					<figure>
-						<img src="{{ asset('assets/img/playgo/unit5/pagina-1.png') }}" alt="Garotos festejando">
-					</figure>
-				</div>
+                        
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="8">
+                        <input type="hidden" name="atividade_id" value="28">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>
 			</div>
 		</div>
     </main>
@@ -73,21 +67,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade5understanding20").submit(function(e){
+        $("#unidade8understanding28").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade5understanding20 input[type="text"]').each(function(index){
-                if(($('#unidade5understanding20 input[type="text"]').length - 1) == index){
+            $('#unidade8understanding28 input[type="text"]').each(function(index){
+                if(($('#unidade8understanding28 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade5understanding20 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade5understanding20'), respostas);
+            if($('#unidade8understanding28 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade8understanding28'), respostas);
             }else{
-                enviarAtividade($('#unidade5understanding20'), respostas);
+                enviarAtividade($('#unidade8understanding28'), respostas);
             }
         });
 
@@ -107,11 +101,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade5understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade5understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade8understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade8understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade5understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade5understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade8understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade8understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

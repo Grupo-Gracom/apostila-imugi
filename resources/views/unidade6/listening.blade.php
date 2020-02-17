@@ -14,7 +14,7 @@
 				<h5 class="barlow">5 - LISTENING</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit6/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio track and fill in the blanks with the words you hear.</h5>

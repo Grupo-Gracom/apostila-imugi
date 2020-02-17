@@ -26,7 +26,7 @@
                 </ul>
                 <h5 class="barlow" style="margin-top: 16px">B. Read the sentence to practice pronunciation.</h5>
                 <ul class="lista-inline">
-                    <p>I know how to knit a knot.</p>
+                    <p><b>I know how to knit a knot.</b></p>
                 </ul>
 			</div>
 		</div>

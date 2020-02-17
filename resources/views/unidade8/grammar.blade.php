@@ -10,72 +10,113 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade8" data-etapa="grammar">
-				<h3 class="barlow">UNIT 08 - BURN TOOL</h3>
+				<h3 class="barlow">UNIT 08 - REVIEW OF SOPHIA’S CLASSES</h3>
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit5/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit8/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-				<div class="metade esquerda">
-                    <div class="metade esquerda">
-                    
-                    </div>
-                    <div class="metade direita">
-                        
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="metade direita">
-                    <div class="metade esquerda">
-                        
-                    </div>
-                    <div class="metade direita">
-                        
-                    </div>
-                    <div class="clear"></div>
+                <div class="metade esquerda" style="margin-top: 16px">
+                    <table>
+                           <p> NEGATIVE FORM OF THE SIMPLE PRESENT</p>
+                        <tr>
+                            <th>I DON’T</th>
+                            <th></th>
+                            <th>HE DOESN’T</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th>YOU DON’T</th>
+                            <th>+ VERB</th>
+                            <th>SHE DOESN’T</th>
+                            <th>+VERB</th>
+                        </tr>
+                        <tr>
+                            <th>WE DON’T</th>
+                            <th></th>
+                            <th>IT DOESN’T</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th>THEY DON’T</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </table>
                 </div>
                 
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Complete the sentences using the correct comparative form of the adjectives in parenthesis.</h5>
-				<form id="unidade5grammar18" method="post">
-                        <p>1. Photoshop CC is <input type="text" name="grammar18-1" required/> (new) than CS6.</p>
-                        <p>2. 12 pixels are <input type="text" name="grammar18-2" required/> (big) than 5 pixels.</p>
-                        <p>3. This image is <input type="text" name="grammar18-3" required/> (bright) than the other</p>
-                        <p>4. That picture is <input type="text" name="grammar18-4" required/> (dark) than this one.</p>
-                        <p>5. Kate is <input type="text" name="grammar18-5" required/> (patient) than Carlos.</p>
+                <h5 class="barlow" style="margin-top: 16px">A - COMPLETE THE SENTENCES WITH THE CORRECT HELPING VERB IN THE NEGATIVE FORM</h5>
+				<form id="unidade8grammar26" method="post">
+                        <p>1. Sarah and Mike <input type="text" name="grammar26-1" required/> know how to use burn tool.</p>
+                        <p>2. John <input type="text" name="grammar26-2" required/> work with Photography.</p>
+                        <p>3. Nick and I <input type="text" name="grammar26-3" required/>  utilize Dodge tool.</p>
+                        <p>4. Brian <input type="text" name="grammar26-4" required/> need to use Spot Healing Brush on his photos.</p>
+                    
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="5">
-                    <input type="hidden" name="atividade_id" value="18">
+                    <input type="hidden" name="unidade_id" value="8">
+                    <input type="hidden" name="atividade_id" value="26">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 
-                <h5 class="barlow">B - Correct the comparatives in the sentences.</h5>
-                <div class="metade">
-                    <form id="unidade5grammar19" method="post">
-                        <p>
-                            1. That car is expensiver than the other.
-                            <input type="text" name="grammar19-1" class="full left-align" required/> 
-                        </p>
-                        <p>
-                            2. An apartment is more small than a house. 
-                            <input type="text" name="grammar19-2" class="full left-align" required/>
-                        </p>
-                        <p>
-                            3. Sophia is more old than Carlos. 
-                            <input type="text" name="grammar19-3" class="full left-align" required/> 
-                        </p>
-                        <p>
-                            4. Photoshop is interestinger than other programs. 
-                            <input type="text" name="grammar19-4" class="full left-align" required/>  
-                        </p>
-            
+                <h5 class="barlow">B - TAKE THE GIVEN SENTENCES AND WRITE THEM IN THE OTHER TWO FORMS</h5>
+                <form id="unidade8grammar27" method="post">
+                    <p> 
+                        <p>1. <b>AFFIRMATIVE:</b></p>
+                        <p>SHE WORKS WITH PHOTOGRAPHY.</p>
+                        <div class="metade">
+                            <p>
+                                <b>INTERROGATIVE:</b>
+                                <input type="text" name="grammar27-1" class="left-align full" required/>
+                            </p>
+                            <p>
+                                <b>NEGATIVE:</b>
+                                <input type="text" name="grammar27-2" class="left-align full" required/>
+                            </p>
+                        </div>
+                    </p>
+
+                    <p style="margin-top: 36px"> 
+                        <div class="metade">
+                            <p>
+                                2. <b>AFFIRMATIVE:</b> 
+                                <input type="text" name="grammar27-3" class="left-align full"  required/>
+                            </p>
+                        </div>
+                        <p><b>INTERROGATIVE:</b></p>
+                        <p>DO CAIO AND SARAH HAVE AN EDITING SOFTWARE?</p>
+                        <div class="metade">
+                            <p>
+                                <b>NEGATIVE:</b> 
+                                <input type="text" name="grammar27-4" class="left-align full"  required/>
+                            </p>
+                        </div>
+                    </p>
+
+                    <p style="margin-top: 36px"> 
+                        <div class="metade">
+                            <p>
+                                3. <b>AFFIRMATIVE:</b> 
+                                <p><input type="text" name="grammar27-5" class="left-align full" required/></p>
+                            </p>
+                            <p>
+                                <b>INTERROGATIVE:</b> 
+                                <p><input type="text" name="grammar27-6" class="left-align full" required/></p>
+                            </p>
+                        </div>
+                        <p><b>NEGATIVE:</b></p>
+                        <p>THEY DON’T WANT TO STUDY.</p>
+                    </p>
+
+                        <div class="clear"></div>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="5">
-                        <input type="hidden" name="atividade_id" value="19">
+                        <input type="hidden" name="unidade_id" value="8">
+                        <input type="hidden" name="atividade_id" value="27">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form> 
                 </div>
@@ -90,39 +131,39 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade5grammar18").submit(function(e){
+        $("#unidade8grammar26").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade5grammar18 input[type="text"]').each(function(index){
-                if(($('#unidade5grammar18 input[type="text"]').length - 1) == index){
+            $('#unidade8grammar26 input[type="text"]').each(function(index){
+                if(($('#unidade8grammar26 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade5grammar18 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade5grammar18'), respostas);
+            if($('#unidade8grammar26 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade8grammar26'), respostas);
             }else{
-                enviarAtividade($('#unidade5grammar18'), respostas);
+                enviarAtividade($('#unidade8grammar26'), respostas);
             }
         });
 
-        $("#unidade5grammar19").submit(function(e){
+        $("#unidade8grammar27").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade5grammar19 input[type="text"]').each(function(index){
-                if(($('#unidade5grammar19 input[type="text"]').length - 1) == index){
+            $('#unidade8grammar27 input[type="text"]').each(function(index){
+                if(($('#unidade8grammar27 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade5grammar19 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade5grammar19'), respostas);
+            if($('#unidade8grammar27 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade8grammar27'), respostas);
             }else{
-                enviarAtividade($('#unidade5grammar19'), respostas);
+                enviarAtividade($('#unidade8grammar27'), respostas);
             }
         });
         
@@ -142,11 +183,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade5grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade5grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade8grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade8grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade5grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade5grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade8grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade8grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

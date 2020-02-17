@@ -23,8 +23,8 @@
 				<p><b>Professor Sophia Jones :</b> Exactly Klaus! My work is published in magazines and websites, so it is very important for me to know how to use tools for editing.</p>
 				<p><b>Katia :</b> Teacher, why do you prefer Photoshop to diff erent programs?</p>
 				<p><b>Professor Sophia Jones :</b> Good questi on, Kati a! I choose to use Photoshop because it off ers the most advanced and complete editi ng tools.</p>
-				<figure class="metade">
-					<img src="{{ asset('assets/img/playgo/unit3/pagina-1.png') }}" alt="Garotos festejando">
+				<figure class="full">
+					<img src="{{ asset('assets/img/playgo/unit3/ilust_03.jpg') }}" alt="Garotos festejando">
 				</figure>
 			</div>
 		</div>

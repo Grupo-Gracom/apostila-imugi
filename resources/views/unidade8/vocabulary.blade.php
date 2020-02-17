@@ -11,7 +11,7 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade8" data-etapa="vocabulary">
 				<h3 class="barlow">UNIT 08 - REVIEW OF SOPHIA’S CLASSES</h3>
-				<p><b>Lesson goal:</b>  Review the content studied in the last units during Sophia’s classes, explore more vocabulary and focus on text interpretation</p>
+				<p><b>Lesson goal:</b>  Review the content studied in the last units during Sophia’s classes, explore more vocabulary and focus on text interpretation.</p>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
