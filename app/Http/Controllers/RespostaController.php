@@ -65,7 +65,7 @@ class RespostaController extends Controller
             $resposta = Resposta::find($data['resposta_id']);
             $resposta->resposta_respostas = $data['resposta_respostas'];
             $resposta->resposta_data = date("Y-m-d");
-            $resposta->resposta_hora = date("H:m:s");
+            $resposta->resposta_hora = date("H:i:s");
             $resposta->save();
             return "2";
         }else{    
@@ -74,7 +74,7 @@ class RespostaController extends Controller
             $resposta->atividade_id = $data['atividade_id'];
             $resposta->unidade_id = $data['unidade_id'];
             $resposta->resposta_data = date("Y-m-d");
-            $resposta->resposta_hora = date("H:m:s");
+            $resposta->resposta_hora = date("H:i:s");
             $resposta->usuario_id = $id;
             $resposta->save();
             return "1";
