@@ -327,7 +327,6 @@ class HomeController extends Controller
         return view('unidade15/understanding');
     }
 
-        //UNIDADE 16
     //UNIDADE 16
     public function unidade16Vocabulary(){
         return view('unidade16/vocabulary');
@@ -347,6 +346,7 @@ class HomeController extends Controller
     public function unidade16Understanding(){
         return view('unidade16/understanding');
     }
+
     //UNIDADE 17
     public function unidade17Vocabulary(){
         return view('unidade17/vocabulary');
@@ -366,6 +366,7 @@ class HomeController extends Controller
     public function unidade17Understanding(){
         return view('unidade17/understanding');
     }
+
     //UNIDADE 18
     public function unidade18Vocabulary(){
         return view('unidade18/vocabulary');
@@ -385,6 +386,7 @@ class HomeController extends Controller
     public function unidade18Understanding(){
         return view('unidade18/understanding');
     }
+
     //UNIDADE 19
     public function unidade19Vocabulary(){
         return view('unidade19/vocabulary');
@@ -404,6 +406,7 @@ class HomeController extends Controller
     public function unidade19Understanding(){
         return view('unidade19/understanding');
     }
+
     //UNIDADE 20
     public function unidade20Vocabulary(){
         return view('unidade20/vocabulary');
@@ -423,6 +426,7 @@ class HomeController extends Controller
     public function unidade20Understanding(){
         return view('unidade20/understanding');
     }
+    
     //UNIDADE 21
     public function unidade21Vocabulary(){
         return view('unidade21/vocabulary');
