@@ -19,20 +19,20 @@
 				<div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A. Notice How The Sound Of “U” And “W” Are Totally Different. Listen And Repeat.</h5>
 				<ul class="lista-inline">
-						<li><b>WHAT</b></li>
-						<li><b>WET</b></li>
-						<li><b>WACK</b></li>
-						<li><b>WONDER</b></li>
-					</ul>
-					<ul class="lista-inline">
-						<li><b>X</b></li>
-					</ul>
-					<ul class="lista-inline">
-						<li><b>UPSET</b></li>
-						<li><b>UPLOAD</b></li>
-						<li><b>UTTER</b></li>
-						<li><b>UPTIGHT</b></li>
-					</ul>
+					<li><b>WHAT</b></li>
+					<li><b>WET</b></li>
+					<li><b>WACK</b></li>
+					<li><b>WONDER</b></li>
+				</ul>
+				<ul class="lista-inline">
+					<li><b>X</b></li>
+				</ul>
+				<ul class="lista-inline">
+					<li><b>UPSET</b></li>
+					<li><b>UPLOAD</b></li>
+					<li><b>UTTER</b></li>
+					<li><b>UPTIGHT</b></li>
+				</ul>
 				<div class="clear"></div>
 				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">B. Read The Sentence And Practice Pronounciation.</h5>
