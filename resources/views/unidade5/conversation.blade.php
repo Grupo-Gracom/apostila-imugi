@@ -21,7 +21,7 @@
 				<p><b>Lee Steve :</b> Professor, I think I know. Is it used to make a picture brighter?</p>
 				<p><b>Beatriz Lima :</b> I think it’s to make a picture darker.</p>
 				<p><b>Sophia : </b>  I’m sorry Lee, but Beatriz is right. Burn tool is used when an area in your picture is bright and you want to make it darker.</p>
-				<div class="full" style="margin-top: 36px">
+				<div class="metade" style="margin-top: 36px">
 					<figure>
 						<img src="{{ asset('assets/img/playgo/unit5/ilust_05.jpg') }}" alt="Garotos festejando">
 					</figure>

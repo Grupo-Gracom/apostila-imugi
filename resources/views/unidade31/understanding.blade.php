@@ -9,49 +9,45 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade30" data-etapa="understanding">
-				<h3 class="barlow">UNIT 30 - VIDEO EFFECTS</h3>
+			<div id="unidade" class="box" data-unidade="unidade31" data-etapa="understanding">
+				<h3 class="barlow">UNIT 31 - VIDEO TRANSITION</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade30understanding76" method="post">
+                    <form id="unidade31understanding78" method="post">
                         <p>
-                            1 -  What Does Victor Want To Talk About Today?<br>
-                            <input type="text" name="understanding76-1" class="full left-align" required>
+                            1 -  Who Knew The Answer To Victor’s First Question?<br>
+                            <input type="text" name="understanding78-1" class="full left-align" required>
                         </p>
                         <p>
-                            2 -  What Does Victor Think About Video Effects?<br>
-                            <input type="text" name="understanding76-2" class="full left-align" required>
+                            2 -  What Does Victor Think About The Name Of The Tool?<br>
+                            <input type="text" name="understanding78-2" class="full left-align" required>
                         </p>
                         <p>
-                            3 - Who Has Previous Knowledge About Effects?<br>
-                            <input type="text" name="understanding76-3" class="full left-align" required>
+                            3 -  Why Does Laura Consider It To Be A Great Tool?<br>
+                            <input type="text" name="understanding78-3" class="full left-align" required>
                         </p>
                         <p>
-                            4 - What Is Marcelo’s Hobby?<br>
-                            <input type="text" name="understanding76-4" class="full left-align" required>
+                            4 - Where Is It Located?<br>
+                            <input type="text" name="understanding78-4" class="full left-align" required>
                         </p>
                         <p>
-                            5 - How Does Marcelo Feel About Editing Videos With Effects?<br>
-                            <input type="text" name="understanding76-5" class="full left-align" required>
+                            5 - What Is The Tool Used For?<br>
+                            <input type="text" name="understanding78-5" class="full left-align" required>
                         </p>
                         <p>
-                            6 - What Is One Thing You Can Change In Videos Using Effects?<br>
-                            <input type="text" name="understanding76-6" class="full left-align" required>
+                            6 - Where Can You Add A Transition Effect?<br>
+                            <input type="text" name="understanding78-6" class="full left-align" required>
                         </p>
                         <p>
-                            7 - Where Can You Find The Black & White Tool?<br>
-                            <input type="text" name="understanding76-7" class="full left-align" required>
+                            7 - In Addition To Videos, What Else Can You Add This Effect To?<br>
+                            <input type="text" name="understanding78-7" class="full left-align" required>
                         </p>
-                        <p>
-                            8 - Where Can You Find Most Tools To Add Effects To Your Video?<br>
-                            <input type="text" name="understanding76-8" class="full left-align" required>
-                        </p>
-                        
+                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="30">
-                        <input type="hidden" name="atividade_id" value="76">
+                        <input type="hidden" name="unidade_id" value="31">
+                        <input type="hidden" name="atividade_id" value="78">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -66,21 +62,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade30understanding76").submit(function(e){
+        $("#unidade31understanding78").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade30understanding76 input[type="text"]').each(function(index){
-                if(($('#unidade30understanding76 input[type="text"]').length - 1) == index){
+            $('#unidade31understanding78 input[type="text"]').each(function(index){
+                if(($('#unidade31understanding78 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade30understanding76 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade30understanding76'), respostas);
+            if($('#unidade31understanding78 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade31understanding78'), respostas);
             }else{
-                enviarAtividade($('#unidade30understanding76'), respostas);
+                enviarAtividade($('#unidade31understanding78'), respostas);
             }
         });
 
@@ -100,11 +96,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade30understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade30understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade31understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade31understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade30understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade30understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade31understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade31understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
