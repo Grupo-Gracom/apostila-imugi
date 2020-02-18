@@ -45,6 +45,7 @@
             var etapa = base.attr("data-etapa");
             $('nav li[data-apostila="'+apostila+'"]').addClass("active-item");
             $('nav li[data-apostila="'+apostila+'"] > ul').slideToggle("fast");
+            $('nav li[data-apostila="'+apostila+'"] > .submenu').addClass("active");
             $('nav li[data-apostila="'+apostila+'"] > ul li[data-unidade="'+unidade+'"]').addClass("active-item");
             $('nav li[data-apostila="'+apostila+'"] > ul li[data-unidade="'+unidade+'"] .submenu').addClass("active");
             $('nav li[data-apostila="'+apostila+'"] > ul li[data-unidade="'+unidade+'"] a[data-etapa="'+etapa+'"]').addClass("active");

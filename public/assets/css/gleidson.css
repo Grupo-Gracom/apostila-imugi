@@ -35,24 +35,26 @@ audio::-webkit-media-controls-time-remaining-display{color: white;text-shadow: n
 audio::-webkit-media-controls-volume-control-container{filter: invert(1);}
 
 
-nav{width: 300px;height: 100vh;position: fixed;top: 0;left: 0;background-color: white;box-shadow: 5px 0 8px rgba(0, 0, 0, .10); overflow: auto;}
+nav{width: 300px;height: 100vh;position: fixed;top: 0;left: 0;background-color: white;box-shadow: 5px 0 8px rgba(0, 0, 0, .10); overflow: auto;box-sizing: border-box;}
 nav .logo{width: 100%;}
 nav .logo a{display: block;}
 nav .logo figure{height: 70px;margin: 0;}
 nav .logo figure img{height: 100%;display: block;margin: 0 auto;}
-nav ul{list-style: none;margin: 0;padding: 16px;}
-nav ul li{min-height: 40px;margin: 0;position: relative;}
+nav ul{list-style: none;margin: 0;padding: 16px 0;box-sizing: border-box;}
+nav ul li{min-height: 40px;margin: 0;position: relative;box-sizing: border-box;}
 nav ul li.label{height: 0;border-bottom: 1px solid #ededed;margin: 16px 0;}
-nav ul li a{display: block;line-height: 40px;text-decoration: none;color: #777;}
+nav ul li a{width: 100%;display: block;line-height: 40px;text-decoration: none;color: #777;padding: 0 16px;box-sizing: border-box;}
 nav ul li a i{width: 40px;height: 40px;line-height: 40px !important;float: left;margin-right: 16px;transition: initial;}
 nav ul li.active-item{position: relative;}
-nav ul li.active-item::before{content: "";width: calc(100% + 32px);height: 100%;background-color: #7dc242;position: absolute;top: 0;right: -16px;z-index: -1;}
+nav ul li.active-item::before{content: "";width: 100%;height: 100%;background-color: #263238;position: absolute;top: 0;left: 0;z-index: -1;}
 nav ul li ul{padding: 0;display: none;}
 nav ul li.active-item a{color: white;}
 nav ul li.active-item ul li a i{transition: none;}
 nav ul li.active-item ul li a:hover i{margin-right: 32px;}
 nav ul li a.submenu{position: relative;}
-nav ul li a.submenu::before{content: "";border: 8px solid transparent;border-bottom: 0;border-top-color: #777;position: absolute;top: 16px;right: 0;transform-origin: center center;transition-duration: .3s;box-sizing: border-box;}
+nav ul li ul li ul li a{background-color: #7dc242;}
+nav ul li a.submenu::before{content: "";border: 8px solid transparent;border-bottom: 0;border-top-color: #777;position: absolute;top: 16px;right: 16px;transform-origin: center center;transition-duration: .3s;box-sizing: border-box;}
+nav ul li.active-item a.submenu::before{border-top-color: white;}
 nav ul li a.submenu.active::before{transform: rotate(180deg);border-top-color: white;}
 nav ul li a.submenu + ul a{opacity: .7;}
 nav ul li a.submenu + ul a.active{opacity: 1;}
