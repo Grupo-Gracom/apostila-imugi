@@ -9,34 +9,110 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade1" data-etapa="grammar">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-				<h5 class="barlow">3 - GRAMMAR</h5>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade1" data-etapa="grammar">
+				<h3 class="barlow">LESSON 1</h3>
+				<h5 class="barlow">C – GRAMMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-				<ul class="lista-vertical metade esquerda center-align">
-                    <li><h5 class="barlow">Aﬃrmative</h5></li>
-                    <li>I <b>am</b> a photographer.</li>
-                    <li>You <b>are</b> a designer.</li>
-                    <li>He <b>is</b> an illustrator.</li>
-                    <li>She <b>is</b> a game designer.</li>
-                    <li>We <b>are</b> students.</li>
-                    <li>They <b>are</b> web designers.</li>
-                    <li>It <b>is</b> Photoshop.</li>
-                </ul>
-                <ul class="lista-vertical metade direita center-align">
-                    <li><h5 class="barlow">Interrogative</h5></li>
-                    <li><b>Am</b> i a photographer.</li>
-                    <li><b>Are</b> you a designer.</li>
-                    <li><b>Is</b> he an illustrator.</li>
-                    <li><b>Is</b> she a game designer.</li>
-                    <li><b>Are</b> we students.</li>
-                    <li><b>Are</b> they web designers.</li>
-                    <li><b>Is</b> it Photoshop.</li>
-                </ul>
+                
+                <div class="umterco">
+                    <table class="tabelaVerdeEscuro">
+                        <tr>
+                            <th>Affirmative</th>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td><b>I am </b>a video Maker.(I´m)</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>You <b>are</b> a Game Developer.(You´re)</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>He <b>is</b> a Youtuber.(He´s)</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>She <b>is</b> a nice software.(It´s)</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>We <b>are</b> a very happy.(We´re)</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>You <b>are</b> focused.(You´re)</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>They <b>are</b> in New York.(They´re)</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="umterco">
+                    <table class="tabelaVerdeEscuro">
+                        <tr>
+                            <th>Negative</th>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td><b>I am not</b>a video Maker</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>You <b>are not</b> a...</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>He <b>are not</b> a...</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>She  <b>is not</b> in...</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>It <b>is not</b> a...</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>We <b>are not</b>...</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>You <b>are not</b>...</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>They <b>are not</b>...</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="umterco">
+                    <table class="tabelaVerdeEscuro">
+                        <tr>
+                            <th>Interrogative</th>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td><b>Am <I></I></b>a video Maker ?</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td><b>Are</b> you a... ?</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>Is <b>he</b> a... ?</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>Is <b>she</b> in... ?</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>Are <b>is</b> we</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>Are <b>you</b>  very happy.(We´re)</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>You <b>are</b> a Game Developer.(You´re)</td>
+                        </tr>
+                        <tr class="tabelaVerde">
+                            <td>They <b>are</b> in New York.(They´re)</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                    
+                    
+
                 <div class="clear"></div>
 				<h5 class="barlow">A - Complete the sentences using the verb to be.</h5>
 				<form id="unidade1grammar1" method="post">

@@ -9,7 +9,7 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-unidade="unidade1" data-etapa="vocabulary">
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade1"  data-etapa="vocabulary">
 				<h3 class="barlow">LESSON 1</h3>
 				<h5 class="barlow">A - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">1 - CARDINAL NUMBERS / ORDINAL NUMBERS</h5>
-				<div class="metade">
+				
 					<table class="tabelaVerdeEscuro">
 						<tr>
 							<th>Cardinal</th>
@@ -56,7 +56,7 @@
 							<td>10th - tenth</td>
 						</tr>
 					</table>
-				</div>
+				
 				<h5 class="barlow" style="margin-top: 16px">2 – WORDS IN CONTEXT</h5>
 				<ul class="lista-inline">
 					<li><b>What’s up</b></li>
