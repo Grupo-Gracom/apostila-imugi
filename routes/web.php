@@ -20,11 +20,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/apostila1/intro1/intro', 'HomeController@apostila1Intro')->name('apostila1/intro1/intro');
-<<<<<<< HEAD
-// Route::get('/apostila2/intro2/index', 'Apostila1Controller@apostila2Intro')->name('apostila2Intro');
-=======
 Route::get('/apostila2/intro2/index', 'HomeController@apostila2Intro')->name('apostila2/intro2/intro');
->>>>>>> d3716c46d12f60e49e7c66121350081943ee3a9e
 
 //UNIDADE 1
 Route::get('/apostila1/unidade1/vocabulary', 'Apostila1Controller@unidade1Vocabulary')->name('apostila1/unidade1/vocabulary');

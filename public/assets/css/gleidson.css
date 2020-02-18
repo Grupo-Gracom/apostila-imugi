@@ -102,6 +102,24 @@ main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242
     color:white;
     width: 30%;
 }
+
+#unidade .tabelaVerdeEscuro {
+    background-color: #15b449;
+    color:white;
+    border: none;
+    text-align: left;
+}
+#unidade .tabelaVerdeEscuro td{
+    padding: 0;
+    padding-left: 10px;
+    margin: 0px;
+}
+#unidade .tabelaVerdeEscuro th{
+    padding: 0;
+    padding-left: 10px;
+    margin: 0px;
+}
+
 #unidade .tabelaVerde h5{
     color:white;
 }
@@ -112,8 +130,6 @@ main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242
     text-align: center;
     width: 55px;
     height: 27px;
-    
-    
 }
 .gramar17VerdeEscuro p{
     background-color: #147220;
