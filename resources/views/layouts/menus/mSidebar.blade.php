@@ -561,7 +561,7 @@
                             <a href="{{ route('apostila2/unidade1/understanding') }}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
                         </li>
                     </ul>
-                </li>
+                </li>                             
             </ul>
         </li>
     </ul>
