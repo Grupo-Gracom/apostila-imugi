@@ -20,7 +20,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/apostila1/intro1/intro', 'HomeController@apostila1Intro')->name('apostila1/intro1/intro');
-Route::get('/apostila2/intro2/index', 'HomeController@apostila2Intro')->name('apostila2/intro2/intro');
+Route::get('/apostila2/intro2/intro', 'HomeController@apostila2Intro')->name('apostila2/intro2/intro');
 
 //UNIDADE 1
 Route::get('/apostila1/unidade1/vocabulary', 'Apostila1Controller@unidade1Vocabulary')->name('apostila1/unidade1/vocabulary');
@@ -543,6 +543,15 @@ Route::post('/apostila1/unidade32/listening/respostas', 'RespostaController@stor
 Route::get('/apostila1/unidade32/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
 Route::post('/apostila1/unidade32/understanding/respostas', 'RespostaController@store');
 Route::get('/apostila1/unidade32/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+
+/* ROTAS PARA O CRUD APOSTILA 02*/
+//UNIDADE 1
+Route::post('/apostila2/unidade1/grammar/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade1/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade1/listening/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade1/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade1/understanding/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade1/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
 //Route::get('/admin', ['as'=>'admin','uses'=>'AdminController@index']);
 // Route::resource('topicos', 'TopicoController');
