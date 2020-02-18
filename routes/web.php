@@ -555,12 +555,21 @@ Route::get('/apostila1/unidade32/understanding/respostasCheck/{atividade_id}', '
 
 /* ROTAS PARA O CRUD APOSTILA 02 */
 //UNIDADE 1
+Route::post('/apostila2/unidade1/grammar/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade1/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade1/listening/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade1/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade1/understanding/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade1/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+
+//UNIDADE 6
 Route::post('/apostila2/unidade6/grammar/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidade6/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
 Route::post('/apostila2/unidade6/listening/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidade6/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
 Route::post('/apostila2/unidade6/understanding/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidade6/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+
 
 //Route::get('/admin', ['as'=>'admin','uses'=>'AdminController@index']);
 // Route::resource('topicos', 'TopicoController');
