@@ -9,34 +9,36 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade6" data-etapa="listening">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-                <h5 class="barlow">5 - LISTENING</h5>
-                <span class="play-audio">( Aperte o play )</span>
+			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade32" data-etapa="grammar">
+				<h3 class="barlow">UNIT 32 - VICTOR’S REVIEW</h3>
+				<h5 class="barlow">3 - GRAMAR</h5>
+				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit32/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen and write the words you hear on the lines.</h5>
-                <p>Graphic design is an important <b>tool</b> that enhances how you <b>communicate</b> with people. It is used to <b>transmit</b> ideas in an effective and beautiful way. Professionally designed graphics cause positive opinions about your <b>product</b> , service or <b>brand</b>.</p>
-                <h5 class="barlow" style="margin-top: 16px">B - List the professionals who use Photoshop.</h5>
-                <p>Photoshop is an important tool used by many professionals of different areas. It is extremely important for photographers, web designers, game designers, illustrators and many others.</p>
-                <span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/listining/listining_b.ogg') }}" type="audio/ogg">
-                </audio>
-                <div class="clear"></div>
-                <form id="unidade1listening4" method="post">
-                    <p>1 - <input type="text" name="listening4-1" required></p>
-                    <p>2 - <input type="text" name="listening4-2" required></p>
-                    <p>3 - <input type="text" name="listening4-3" required></p>
-                    <p>4 - <input type="text" name="listening4-4" required></p>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="4">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+                <div style="margin-top: 16px">
+                    <p>Object Pronouns/Subject Pronouns X Possessive Adjectives/Possessive Pronouns</p>
+                    
+                    <h5 class="barlow" style="margin-top: 16px">A - Complete The Sentences Using One Of The Forms Above For The Pronouns In Parenthesis</h5>
+                    <form id="unidade32grammar79" method="post">
+                        <p>1. She Told <input type="text" name="grammar79-1" required/> (I) She Sick.</p>
+                                <p>2. They Are <input type="text" name="grammar79-2" required/> (He) Friends.</p>
+                                <p>3. That Book Is <input type="text" name="grammar79-3" required/> (You).</p>
+                                <p>4. She Likes <input type="text" name="grammar79-4" required/> (You).</p>
+                                <p>5. They Work With <input type="text" name="grammar79-5" required/>  (We)</p>
+                                <p>6. He Travels With  <input type="text" name="grammar79-6" required/>   (She) Tomorrow.</p>
+                                <p>7. <input type="text" name="grammar79-7" required/>  (She) Car Is In The Garage.</p>
+                        </p>
+                        
+                        <div class="clear"></div>
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="32">
+                        <input type="hidden" name="atividade_id" value="79">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>
 			</div>
 		</div>
     </main>
@@ -48,24 +50,25 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1listening4").submit(function(e){
+        $("#unidade32grammar79").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1listening4 input[type="text"]').each(function(index){
-                if(($('#unidade1listening4 input[type="text"]').length - 1) == index){
+            $('#unidade32grammar79 input[type="text"]').each(function(index){
+                if(($('#unidade32grammar79 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1listening4 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1listening4'), respostas);
+            if($('#unidade32grammar79 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade32grammar79'), respostas);
             }else{
-                enviarAtividade($('#unidade1listening4'), respostas);
+                enviarAtividade($('#unidade32grammar79'), respostas);
             }
         });
 
+        
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,
@@ -82,11 +85,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade32grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade32grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade32grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade32grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

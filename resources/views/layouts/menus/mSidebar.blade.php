@@ -17,12 +17,12 @@
         <!--APOSTILA PLAY GO-->
         <li class="item" data-apostila="apostila1">
             <a class="click submenu">
-                <i class="material-icons">folder</i> APOSTILA PLAY GO
+                <i class="material-icons">folder</i> PLAY GO
             </a>
             <ul>
                 <!-- INTRO 1 -->
                 <li class="item" data-unidade="intro1">
-                    <a href="{{ route('apostila1/intro1/intro') }}" data-etapa="intro"><i class="material-icons suave">folder</i> INTRO</a>
+                    <a href="{{ route('apostila1/intro1/intro') }}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRO</a>
                 </li>
                 <!--UNIDADE 1-->
                 <li class="item" data-unidade="unidade1">
@@ -540,13 +540,14 @@
         <!--APOSTILA DOMINATING-->
         <li class="item" data-apostila="apostila2">
             <a class="click submenu">
-                <i class="material-icons">folder</i> APOSTILA DOMINATING
+                <i class="material-icons">folder</i> DOMINATING
             </a>
             <ul>
                 <!-- INTRO 2 -->
                 <li class="item" data-unidade="intro2">
-                    <a href="{{ route('apostila2/intro2/intro') }}" data-etapa="intro"><i class="material-icons suave">folder</i> INTRO</a>
+                    <a href="{{ route('apostila2/intro2/intro') }}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRO</a>
                 </li>
+                <!--UNIDADE 1-->
                 <li class="item" data-unidade="unidade1">
                     <a class="click submenu">
                         <i class="material-icons">folder</i> LESSON 1
@@ -559,6 +560,21 @@
                             <a href="{{ route('apostila2/unidade1/pronunciation') }}" data-etapa="pronunciation"><i class="material-icons suave">record_voice_over</i> Pronunciation</a>
                             <a href="{{ route('apostila2/unidade1/listening') }}" data-etapa="listening"><i class="material-icons suave">hearing</i> Listening</a>
                             <a href="{{ route('apostila2/unidade1/understanding') }}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="item" data-unidade="unidade6">
+                    <a class="click submenu">
+                        <i class="material-icons">folder</i> UNIT 6
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{ route('apostila2/unidade6/vocabulary') }}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{ route('apostila2/unidade6/conversation') }}" data-etapa="conversation"><i class="material-icons suave">forum</i> Conversation</a>
+                            <a href="{{ route('apostila2/unidade6/grammar') }}" data-etapa="grammar"><i class="material-icons suave">edit</i> Grammar</a>
+                            <a href="{{ route('apostila2/unidade6/pronunciation') }}" data-etapa="pronunciation"><i class="material-icons suave">record_voice_over</i> Pronunciation</a>
+                            <a href="{{ route('apostila2/unidade6/listening') }}" data-etapa="listening"><i class="material-icons suave">hearing</i> Listening</a>
+                            <a href="{{ route('apostila2/unidade6/understanding') }}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
                         </li>
                     </ul>
                 </li>
