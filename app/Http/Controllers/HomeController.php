@@ -37,6 +37,11 @@ class HomeController extends Controller
         return view('apostila1/intro1/intro');
     }
 
+    public function apostila2Intro()
+    {
+        return view('apostila2/intro2/intro');
+    }
+
     // public function apostila2Intro()
     // {
     //     return view('apostila2/intro2/index');

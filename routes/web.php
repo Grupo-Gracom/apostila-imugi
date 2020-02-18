@@ -20,7 +20,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/apostila1/intro1/intro', 'HomeController@apostila1Intro')->name('apostila1/intro1/intro');
-// Route::get('/apostila2/intro2/index', 'HomeController@apostila2Intro')->name('apostila2Intro');
+Route::get('/apostila2/intro2/index', 'HomeController@apostila2Intro')->name('apostila2/intro2/intro');
 
 //UNIDADE 1
 Route::get('/apostila1/unidade1/vocabulary', 'HomeController@unidade1Vocabulary')->name('apostila1/unidade1/vocabulary');

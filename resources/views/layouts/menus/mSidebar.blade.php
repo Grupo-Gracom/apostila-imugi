@@ -520,6 +520,15 @@
                 </li>
             </ul>
         </li>
+
+        <!--APOSTILA PLAY GO-->
+        <li class="item" data-apostila="apostila2">
+            <a class="click submenu">
+                <i class="material-icons">folder</i> APOSTILA DOMINATING
+            </a>
+            <ul>
+            </ul>
+        </li>
     </ul>
     <!-- @if(Auth::user()->nivel == 1)
         <div class="logo">
