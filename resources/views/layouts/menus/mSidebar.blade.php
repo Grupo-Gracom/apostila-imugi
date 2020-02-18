@@ -521,12 +521,16 @@
             </ul>
         </li>
 
-        <!--APOSTILA PLAY GO-->
+        <!--APOSTILA DOMINATING-->
         <li class="item" data-apostila="apostila2">
             <a class="click submenu">
                 <i class="material-icons">folder</i> APOSTILA DOMINATING
             </a>
             <ul>
+                <!-- INTRO 2 -->
+                <li class="item" data-unidade="intro2">
+                    <a href="{{ route('apostila2/intro2/intro') }}" data-etapa="intro"><i class="material-icons suave">folder</i> INTRO</a>
+                </li>
             </ul>
         </li>
     </ul>

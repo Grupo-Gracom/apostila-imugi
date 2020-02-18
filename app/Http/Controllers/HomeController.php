@@ -42,10 +42,6 @@ class HomeController extends Controller
         return view('apostila2/intro2/intro');
     }
 
-    // public function apostila2Intro()
-    // {
-    //     return view('apostila2/intro2/index');
-    // }
 
     //UNIDADE 1
     public function unidade1Vocabulary(){
