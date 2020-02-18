@@ -10,8 +10,7 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-unidade="unidade1" data-etapa="vocabulary">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-				<p><b>Lesson Goal:</b> Permit a communication-friendly environment in order to make students feel comfortable in their first class while exploring their understanding of graphic design production, its applications and the demand for professionals in the market.</p>
+				<h3 class="barlow">LESSON 1</h3>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
