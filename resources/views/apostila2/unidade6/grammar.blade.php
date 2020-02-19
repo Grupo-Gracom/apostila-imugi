@@ -14,25 +14,41 @@
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit32/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
                     <h5 class="barlow" style="margin-top: 16px">A - WH - QUESTIONS</h5>
                     <div class="style="background-color:green;>
-                    <table>
-                        <tr class="titulotabela">
-                            <td><b>Verb to Be</b></td>
-                        </tr>
-                        <tr class="titulotabela">
-                            <td>What's your favorite hobby?</td>
-                        </tr>
-                        <tr>
-                            <td>Who is the best Avengers Super hero</td>
-                        </tr>
-                        <tr>
-                            <td>When is the special effects workshop?</td>
-                        </tr>
+                    <table class="metade">
+                            <h5 class="tituloTabela"><b>Verb to Be<b></h5>
+                            <tr class="corpoTabela">
+                                <td><b>What's</b> your favorite hobby?</td>
+                                <td>My favorite hobby is drawing wizards</td>
+                            </tr>
+                            <tr class="corpoTabela">
+                                <td><b>Who</b> is the best Avengers Super hero</td>
+                                <td>I Guess Thor is the best.</td> 
+
+                            </tr>
+                            <tr class="corpoTabela">
+                                <td><b>When</b> is the special effects workshop?</td>
+                                <td>I believe it’s in the end of July.</td>
+                            </tr>
+                            <h5 class="tituloTabela"><b>Other Verbs<b></h5>
+                             <tr class="corpoTabela">
+                                <td><b>Where do you find</b> good study references?</td>
+                                <td>I find very good tutorials <b>on youtube</b></td>
+                            </tr>
+                            <tr class="corpoTabela">
+                                <td><b>What do you do</b> before starting a project?</td>
+                                <td><b>We have a brainstorm</b> to debate it.</td> 
+
+                            </tr>
+                            <tr class="corpoTabela">
+                                <td><b>Which FPS do you</b> like to play? BF4 or CS Go</td>
+                                <td>I like to play BF4.</td>
+                            </tr>
                     </table>    
                     </div>
 
