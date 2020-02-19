@@ -9,8 +9,8 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade32" data-etapa="grammar">
-				<h3 class="barlow">UNIT 32 - VICTOR’S REVIEW</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade6" data-etapa="grammar">
+				<h3 class="barlow">UNIT 6 </h3>
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -18,17 +18,33 @@
                 </audio>
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
-                    <p>Object Pronouns/Subject Pronouns X Possessive Adjectives/Possessive Pronouns</p>
-                    
-                    <h5 class="barlow" style="margin-top: 16px">A - Complete The Sentences Using One Of The Forms Above For The Pronouns In Parenthesis</h5>
+                    <h5 class="barlow" style="margin-top: 16px">A - WH - QUESTIONS</h5>
+                    <div class="style="background-color:green;>
+                    <table>
+                        <tr class="titulotabela">
+                            <td><b>Verb to Be</b></td>
+                        </tr>
+                        <tr class="titulotabela">
+                            <td>What's your favorite hobby?</td>
+                        </tr>
+                        <tr>
+                            <td>Who is the best Avengers Super hero</td>
+                        </tr>
+                        <tr>
+                            <td>When is the special effects workshop?</td>
+                        </tr>
+                    </table>    
+                    </div>
+
                     <form id="unidade32grammar79" method="post">
-                        <p>1. She Told <input type="text" name="grammar79-1" required/> (I) She Sick.</p>
-                                <p>2. They Are <input type="text" name="grammar79-2" required/> (He) Friends.</p>
-                                <p>3. That Book Is <input type="text" name="grammar79-3" required/> (You).</p>
-                                <p>4. She Likes <input type="text" name="grammar79-4" required/> (You).</p>
-                                <p>5. They Work With <input type="text" name="grammar79-5" required/>  (We)</p>
-                                <p>6. He Travels With  <input type="text" name="grammar79-6" required/>   (She) Tomorrow.</p>
-                                <p>7. <input type="text" name="grammar79-7" required/>  (She) Car Is In The Garage.</p>
+                        <p>
+                            1. She Told <input type="text" name="grammar79-1" required/> (I) She Sick.</p>
+                            <p>2. They Are <input type="text" name="grammar79-2" required/> (He) Friends.</p>
+                            <p>3. That Book Is <input type="text" name="grammar79-3" required/> (You).</p>
+                            <p>4. She Likes <input type="text" name="grammar79-4" required/> (You).</p>
+                            <p>5. They Work With <input type="text" name="grammar79-5" required/>  (We)</p>
+                            <p>6. He Travels With  <input type="text" name="grammar79-6" required/>   (She) Tomorrow.</p>
+                            <p>7. <input type="text" name="grammar79-7" required/>  (She) Car Is In The Garage.</p>
                         </p>
                         
                         <div class="clear"></div>
