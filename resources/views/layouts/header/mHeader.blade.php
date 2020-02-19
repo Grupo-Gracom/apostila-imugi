@@ -40,12 +40,20 @@
     function activeMenu(){
         var base = $("#unidade");
         if(base){
+            var apostila = base.attr("data-apostila");
             var unidade = base.attr("data-unidade");
             var etapa = base.attr("data-etapa");
-            $('nav li[data-unidade="'+unidade+'"]').addClass("active-item");
-            $('nav li[data-unidade="'+unidade+'"] .submenu').addClass("active");
-            $('nav li[data-unidade="'+unidade+'"] ul').slideToggle("fast");
-            $('nav li[data-unidade="'+unidade+'"] ul li a[data-etapa="'+etapa+'"]').addClass("active");
+            $('nav li[data-apostila="'+apostila+'"]').addClass("active-item");
+            $('nav li[data-apostila="'+apostila+'"] > ul').slideToggle("fast");
+            $('nav li[data-apostila="'+apostila+'"] > .submenu').addClass("active");
+            $('nav li[data-apostila="'+apostila+'"] > ul li[data-unidade="'+unidade+'"]').addClass("active-item");
+            $('nav li[data-apostila="'+apostila+'"] > ul li[data-unidade="'+unidade+'"] .submenu').addClass("active");
+            $('nav li[data-apostila="'+apostila+'"] > ul li[data-unidade="'+unidade+'"] a[data-etapa="'+etapa+'"]').addClass("active");
+            $('nav li[data-apostila="'+apostila+'"] > ul li[data-unidade="'+unidade+'"] ul').slideToggle("fast");
+            $('nav li[data-apostila="'+apostila+'"] > ul li[data-unidade="'+unidade+'"] ul li a[data-etapa="'+etapa+'"]').addClass("active");
         }
+        console.log(apostila)
+        console.log(unidade)
+        console.log(etapa)
     }
 </script>
