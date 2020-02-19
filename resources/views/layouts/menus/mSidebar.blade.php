@@ -550,7 +550,7 @@
                 <!--UNIDADE 1-->
                 <li class="item" data-unidade="unidade1">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> LESSON 1
+                        <i class="material-icons">folder</i> UNIT 1
                     </a>
                     <ul>
                         <li>

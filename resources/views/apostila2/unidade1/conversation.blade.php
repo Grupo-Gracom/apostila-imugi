@@ -11,15 +11,15 @@
 		<div class="dashboard">
 
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade1" data-etapa="conversation">
-				<h3 class="barlow">LESSON 1</h3>
-				<h5 class="barlow">B - CONVERSATION</h5>
+				<h3 class="barlow">UNIT 01</h3>
+				<h5 class="barlow">2 - CONVERSATION</h5>
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
 				</audio>
 				<p><b>Gleen :</b> Hey you guys. What’s up? My name is Gleen, I’m your new teacher and I’m excited to start this
-							second part of the course with you. First of all, congrats on your dedication during the Photo Shop
+							second part of the course with you. First of all, congrats on your dedication during the PhotoShop
 							course. You spent almost 9 months studying what is necessary to create fantastic images and I’m sure
 							you are excited to start your new course. I know it is a challenge to memorize all the concepts and
 							tools you guys learned but this is the way. It’s important to dedicate yourself to study all the elements
