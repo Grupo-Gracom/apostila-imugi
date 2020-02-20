@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 2 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -11,50 +11,26 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade2" data-etapa="listening">
 				<h3 class="barlow">UNIT 02 - INTRODUCTION TO PHOTOSHOP</h3>
-				<h5 class="barlow">3 - PRONUNCIATION</h5>
-				<span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit2/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
-                </audio>
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to your teacher and repeat the words to practice the pronunciation of words with the lett er ‘R’.</h5>
-				<ul class="lista-inline">
-                    <li><b class="upper">For</b></li>
-                    <li><b class="upper">Designer</b></li>
-                    <li><b class="upper">Importance</b></li>
-                    <li><b class="upper">Photographer</b></li>
-                    <li><b class="upper">Great</b></li>
-                    <li><b class="upper">Brother</b></li>
-                </ul>
-                <h5 class="barlow" style="margin-top: 16px">B - Listen to your teacher and repeat the words to practice the pronunciation of words with the lett er ‘P’.</h5>
-                <ul class="lista-inline">
-                    <li><b class="upper">Production</b></li>
-                    <li><b class="upper">Professional</b></li>
-                    <li><b class="upper">Professor</b></li>
-                    <li><b class="upper">Develop</b></li>
-                    <li><b class="upper">Photoshop</b></li>
-                    <li><b class="upper">Profession</b></li>
-                </ul>
-                <h5 class="barlow" style="margin-top: 16px">C - Now, read the sentence below to check your understanding.</h5>
-                <p class="center-align">“Photoshop, for professionals of graphic production, is of great importance.”</p>
-                <h5 class="barlow">3.1 - LISTENING</h5>
+                <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit2/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the track and fill in the blanks with the words you hear.</h5>
-                <p>Photoshop was <b>developed</b> in 1987 by two brothers. The <b>software</b>  is very important for <b>graphic</b> designing.  You can <b>create</b>
-                everything you imagine if you understand the program and use your creativity.</p>
-                <h5 class="barlow" style="margin-top: 16px">B - Listen to the passage and circle the subject of the audio.</h5>
-                <p>Did you know that you can edit videos with Adobe’s image-editing program? It is not necessary to study other programs because Photoshop can do simple editing and transformations.</p>				
-                <div class="clear"></div>
+                <div class="espacamento">
+                    <p>Photoshop was <b>developed</b> in 1987 by two brothers. The <b>software</b> is very important for <b>graphic</b> designing. You can <b>create</b> everything you imagine if you understand the program and use your creativity.</p>
+                </div>
+                <h5 class="barlow" style="margin-top: 16px">B - Listen to the passage and write the subject of the audio.</h5>
+                <div class="espacamento">
+                    <p>Did you know that you can edit videos with Adobe’s image-editing program? It is not necessary to study other programs because Photoshop can do simple editing and transformations.</p>
+                </div>
                 <div class="metade">
                     <form id="unidade2listening9" method="post">
-                        <p>a - The creation of Photoshop <input class="full" type="text" name="listening9-1" required></p>
-                        <p>b - The professionals who use Photoshop <input class="full" type="text" name="listening9-2" required></p>
-                        <p>c - The tools in Photoshop <input class="full" type="text" name="listening9-3" required></p>
-                        <p>d - The video-editing features of Photoshop <input class="full" type="text" name="listening9-4" required></p>
+                        <p>1 - The creation of Photoshop <input class="full left-align" type="text" name="listening9-1" placeholder="Responda aqui" required></p>
+                        <p>2 - The professionals who use Photoshop <input class="full left-align" type="text" name="listening9-2" placeholder="Responda aqui" required></p>
+                        <p>3 - The tools in Photoshop <input class="full left-align" type="text" name="listening9-3" placeholder="Responda aqui" required></p>
+                        <p>4 - The video-editing features of Photoshop <input class="full left-align" type="text" name="listening9-4" placeholder="Responda aqui" required></p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="2">

@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 4 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -11,25 +11,25 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade4" data-etapa="grammar">
 				<h3 class="barlow">UNIT 04 - NICE TO MEET YOU, KATE!</h3>
-				<h5 class="barlow">3 - Grammar (demonstrative pronouns)</h5>
-                <table class="tabelagrammar">
+				<h5 class="barlow">3 - GRAMMAR (demonstrative pronouns)</h5>
+                <table class="metade center-align">
                     <tr>
                         <td></td>
-                        <td class="upper"><b>Close</b></td>
-                        <td class="upper"><b>far</b></td>
+                        <td class="upper"><p><b>Close</b></p></td>
+                        <td class="upper"><p><b>far</b></p></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="upper"><b>singular</b></td>
-                        <td>This</td>
-                        <td>That</td>
-                        <td>(is)</td>
+                        <td class="upper"><p><b>singular</b></p></td>
+                        <td><p>This</p></td>
+                        <td><p>That</p></td>
+                        <td><p>(is)</p></td>
                     </tr>
                     <tr>
-                        <td class="upper"><b>plural</b></td>
-                        <td>These</td>
-                        <td>Those</td>
-                        <td>(are)</td>
+                        <td class="upper"><p><b>plural</b></p></td>
+                        <td><p>These</p></td>
+                        <td><p>Those</p></td>
+                        <td><p>(are)</p></td>
                     </tr>
                 </table>
 				<span class="play-audio">( Aperte o play )</span>
@@ -43,22 +43,22 @@
                         <figure>
                             <img src="{{ asset('assets/img/playgo/unit4/01.png') }}" alt="Garotos festejando">
                         </figure>
-                        <p>What <input type="text" name="grammar14-1" required/> ?</p>
-                        <p><input type="text" name="grammar14-2" required/> book.</p>
+                        <p>What <input type="text" name="grammar14-1" placeholder="Responda aqui" required/> ?</p>
+                        <p><input type="text" name="grammar14-2" placeholder="Responda aqui" required/> book.</p>
                     </div>
                     <div class="umterco">
                         <figure>
                             <img src="{{ asset('assets/img/playgo/unit4/02.png') }}" alt="Garotos festejando">
                         </figure>
-                        <p>Who is <input type="text" name="grammar14-3" required/> ?</p>
-                        <p><input type="text" name="grammar14-4" required/> Kate.</p>
+                        <p>Who is <input type="text" name="grammar14-3" placeholder="Responda aqui" required/> ?</p>
+                        <p><input type="text" name="grammar14-4" placeholder="Responda aqui" required/> Kate.</p>
                     </div>
                     <div class="umterco">
                         <figure>
                             <img src="{{ asset('assets/img/playgo/unit4/03.png') }}" alt="Garotos festejando">
                         </figure>
-                        <p>What <input type="text" name="grammar14-5" required/> ?</p>
-                        <p><input type="text" name="grammar14-6" required/> glasses.</p>
+                        <p>What <input type="text" name="grammar14-5" placeholder="Responda aqui" required/> ?</p>
+                        <p><input type="text" name="grammar14-6" placeholder="Responda aqui" required/> glasses.</p>
                     </div>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -70,9 +70,9 @@
                 
 				<h5 class="barlow">B. Fill in the blanks with the appropriate form of the verb be using information from the text.</h5>
 				<form id="unidade4grammar15" method="post">
-                    <p>1. This <input type="text" name="grammar15-1" required/> Kate. She <input type="text" name="grammar15-2" required/> from here. She <input type="text" name="grammar15-3" required/> from Japan.</p>
-                    <p>2. Carlos and Kate <input type="text" name="grammar15-4" required/>  Photoshop students. They <input type="text" name="grammar15-5" required/> from Australia. Carlos <input type="text"  name="grammar15-6" required/> Brasilian and she <input type="text" name="grammar15-7" required/> Japanese.</p>
-                    <p>3. <input type="text" name="grammar15-8" required/> you Brazilian?</p>
+                    <p>1 - This <input type="text" name="grammar15-1" placeholder="Responda aqui" required/> Kate. She <input type="text" name="grammar15-2" placeholder="Responda aqui" required/> from here. She <input type="text" name="grammar15-3" placeholder="Responda aqui" required/> from Japan.</p>
+                    <p>2 - Carlos and Kate <input type="text" name="grammar15-4" placeholder="Responda aqui" required/>  Photoshop students. They <input type="text" name="grammar15-5" placeholder="Responda aqui" required/> from Australia. Carlos <input type="text"  name="grammar15-6" placeholder="Responda aqui" required/> Brasilian and she <input type="text" name="grammar15-7" placeholder="Responda aqui" required/> Japanese.</p>
+                    <p>3 - <input type="text" name="grammar15-8" placeholder="Responda aqui" required/> you Brazilian?</p>
            
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

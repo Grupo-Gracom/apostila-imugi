@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 15 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -17,8 +17,7 @@
 					<source src="{{ asset('assets/audio/Unit15/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                <ul>
+                <div class="espacamento">
                     <h6><b>FUTURE WITH WILL vs. FUTURE WITH GOING TO</b></h6>
                     <p>
                         When you want to express a decision use will; use going to after the decision has been
@@ -33,19 +32,15 @@
                    <p>EXAMPLE: WILL YOU BE HOME AT NIGHT?</p>
                    <p><b>(NEGATIVE):</b>  SUBJECT + WILL + NOT + VERB</p>
                    <p>EXAMPLE:  I WILL NOT BE HOME AT NIGHT.</p>
-                </ul>
                 </div>
-                
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Complete The Sentences With The Verbs In Parenthesis Using Will.</h5>
 				<form id="unidade15grammar42" method="post">
-                <p>1. EVA <input type="text" name="grammar42-1" required/> ( NOT TRAVEL) TO JAPAN.</p>
-                        <p>2. <input type="text" name="grammar42-2" required/> ROBERTA <input type="text" name="grammar42-3" required/> (HELP) YOU WITH THE EXERCISE?</p>
-                        <p>3. JOHN <input type="text" name="grammar42-4" required/>  (BE) HERE IN 10 MINUTES.</p>
-                        <p>4. THEY <input type="text" name="grammar42-5" required/> (NOT GO) TO THE PARTY.</p>
-                        <p>5. <input type="text" name="grammar42-6" required/> HE <input type="text" name="grammar26-4" required/> (CALL) ME TOMORROW.</p>
-                </p>
-
+                    <p>1. EVA <input type="text" name="grammar42-1" required/> ( NOT TRAVEL) TO JAPAN.</p>
+                    <p>2. <input type="text" name="grammar42-2" required/> ROBERTA <input type="text" name="grammar42-3" required/> (HELP) YOU WITH THE EXERCISE?</p>
+                    <p>3. JOHN <input type="text" name="grammar42-4" required/>  (BE) HERE IN 10 MINUTES.</p>
+                    <p>4. THEY <input type="text" name="grammar42-5" required/> (NOT GO) TO THE PARTY.</p>
+                    <p>5. <input type="text" name="grammar42-6" required/> HE <input type="text" name="grammar26-4" required/> (CALL) ME TOMORROW.</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -57,13 +52,11 @@
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">B - Use Will Or Going To To Complete The Sentences.</h5>
 				<form id="unidade15grammar43" method="post">
-                <p>1. THE GAME <input type="text" name="grammar43-1" required/> (BE) GREAT!</p>
-                        <p>2. I PLANNED A PARTY FOR MY BIRTHDAY. I <input type="text" name="grammar43-2" required/> (TRAVEL) TO VISIT MY OLD FRIENDS IN THE UNITED STATES.</p>
-                        <p>3. SHE <input type="text" name="grammar43-3" required/>  (MAKE) A GREAT WEB DESIGNER.</p>
-                        <p>4. WE <input type="text" name="grammar43-4" required/>  (BE) LATE. WE NEED TO GO NOW.</p>
-                        <p>5. YOU <input type="text" name="grammar43-5" required/> (NEED) TO STUDY A LOT TO PASS THE TEST.</p>
-                </p>
-
+                    <p>1. THE GAME <input type="text" name="grammar43-1" required/> (BE) GREAT!</p>
+                    <p>2. I PLANNED A PARTY FOR MY BIRTHDAY. I <input type="text" name="grammar43-2" required/> (TRAVEL) TO VISIT MY OLD FRIENDS IN THE UNITED STATES.</p>
+                    <p>3. SHE <input type="text" name="grammar43-3" required/>  (MAKE) A GREAT WEB DESIGNER.</p>
+                    <p>4. WE <input type="text" name="grammar43-4" required/>  (BE) LATE. WE NEED TO GO NOW.</p>
+                    <p>5. YOU <input type="text" name="grammar43-5" required/> (NEED) TO STUDY A LOT TO PASS THE TEST.</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

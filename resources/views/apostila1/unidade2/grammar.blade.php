@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 2 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -11,7 +11,7 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade2" data-etapa="grammar">
 				<h3 class="barlow">UNIT 02 - INTRODUCTION TO PHOTOSHOP</h3>
-				<h5 class="barlow">2 - GRAMMAR</h5>
+				<h5 class="barlow">3 - GRAMMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit2/grammar/grammar.ogg') }}" type="audio/ogg">
@@ -20,11 +20,11 @@
 				<div class="metade esquerda">
                     <h5 class="barlow">A - Answer the questions. Use short answers.</h5>
                     <form id="unidade2grammar6" method="post">
-                        <p><b>1. </b> Do you have Photoshop in your computer? <input type="text" name="grammar6-1" required ></p>
-                        <p><b>2. </b> Do you use Photoshop to edit photos? <input type="text" name="grammar6-2" required></p>
-                        <p><b>3. </b> Do any of your friends use Photoshop for work? <input type="text" name="grammar6-3" required></p>
-                        <p><b>4. </b> Do you have experience in Photoshop? <input type="text" name="grammar6-4" required></p>
-                        <p><b>5. </b> Do you need Photoshop now? <input type="text" name="grammar6-5" required></p>                    
+                        <p><b>1 - </b> Do you have Photoshop in your computer? <input type="text" name="grammar6-1" placeholder="Responda aqui" required ></p>
+                        <p><b>2 - </b> Do you use Photoshop to edit photos? <input type="text" name="grammar6-2" placeholder="Responda aqui" required></p>
+                        <p><b>3 - </b> Do any of your friends use Photoshop for work? <input type="text" name="grammar6-3" placeholder="Responda aqui" required></p>
+                        <p><b>4 - </b> Do you have experience in Photoshop? <input type="text" name="grammar6-4" placeholder="Responda aqui" required></p>
+                        <p><b>5 - </b> Do you need Photoshop now? <input type="text" name="grammar6-5" placeholder="Responda aqui" required></p>                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="2">
@@ -41,10 +41,10 @@
                 <div class="metade">				
                     <h5 class="barlow">B - Organize the sentences. Use DO when necessary.</h5>
                     <form id="unidade2grammar7" method="post">
-                        <p>1. You/with/work/photography <input class="full" type="text" name="grammar7-1" required></p>
-                        <p>2. They/a soft ware/need/to edit/photos <input class="full" type="text" name="grammar7-2" required></p>
-                        <p>3. Have/you/ a computer <input class="full" type="text" name="grammar7-3" required></p>
-                        <p>4. We/Photoshop/use/for work <input class="full" type="text" name="grammar7-4" required></p>                        
+                        <p>1 - You/with/work/photography <input class="full left-align" type="text" name="grammar7-1" placeholder="Responda aqui" required></p>
+                        <p>2 - They/a soft ware/need/to edit/photos <input class="full left-align" type="text" name="grammar7-2" placeholder="Responda aqui" required></p>
+                        <p>3 - Have/you/ a computer <input class="full left-align" type="text" name="grammar7-3" placeholder="Responda aqui" required></p>
+                        <p>4 - We/Photoshop/use/for work <input class="full left-align" type="text" name="grammar7-4" placeholder="Responda aqui" required></p>                        
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="2">
@@ -55,9 +55,9 @@
                 <h5 class="barlow">C - The punctuation is correct.</h5>
                 <form id="unidade2grammar8" method="post">
                     <div class="metade">
-                        <p>1. You develop websites? <input class="full" type="text" name="grammar8-1" required>? </p>
-                        <p>2. Do I use layouts I develop on Photoshop for sites. <input class="full" type="text" name="grammar8-2" required>. </p>
-                        <p>3. Thomas and John Knoll are brothers. <input class="full" type="text" name="grammar8-3" required>? </p>                        
+                        <p>1 - You develop websites? <input class="full left-align" type="text" name="grammar8-1" placeholder="Responda aqui" required>? </p>
+                        <p>2 - Do I use layouts I develop on Photoshop for sites. <input class="full left-align" type="text" name="grammar8-2" placeholder="Responda aqui" required>. </p>
+                        <p>3 - Thomas and John Knoll are brothers. <input class="full left-align" type="text" name="grammar8-3" placeholder="Responda aqui" required>? </p>                        
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="2">

@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 4 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -17,41 +17,40 @@
                 <form id="unidade4understanding17" method="post">
                     <p>
                         1 -  Where is Kate from?<br>
-                        <input type="text" name="understanding17-1" class="full left-align" required>
+                        <input type="text" name="understanding17-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         2 - What is Carlos’ hobby?<br>
-                        <input type="text" name="understanding17-2" class="full left-align" required>
+                        <input type="text" name="understanding17-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         3 - What does Kate do for a living?<br>
-                        <input type="text" name="understanding17-3" class="full left-align" required>
+                        <input type="text" name="understanding17-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         4 - Why does Kate want to learn Photoshop?<br>
-                        <input type="text" name="understanding17-4" class="full left-align" required>
+                        <input type="text" name="understanding17-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         5 - What is Kate’s last name?<br>
-                        <input type="text" name="understanding17-5" class="full left-align" required>
+                        <input type="text" name="understanding17-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         6 - What is Kate’s hobby?<br>
-                        <input type="text" name="understanding17-6" class="full left-align" required>
+                        <input type="text" name="understanding17-6" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         7 - Does Kate speak English well?<br>
-                        <input type="text" name="understanding17-7" class="full left-align" required>
+                        <input type="text" name="understanding17-7" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         8 - Is Photoshop important to Kate?<br>
-                        <input type="text" name="understanding17-8" class="full left-align" required>
+                        <input type="text" name="understanding17-8" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         9 - What news does Sophia have?<br>
-                        <input type="text" name="understanding17-9" class="full left-align" required>
+                        <input type="text" name="understanding17-9" class="full left-align" placeholder="Responda aqui" required>
                     </p>
-                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="4">

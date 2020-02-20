@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 5 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -16,16 +16,17 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit5/Conversation/completo.ogg') }}" type="audio/ogg">
 				</audio>
-				<p style="margin-top: 16px"><b>Sophia :</b> What’s up everyone? I have an interesting tool to teach you today. It is called Burn Tool.</p>
-				<p><b>Sophia :</b> Do any of you know what it is used for?</p>
-				<p><b>Lee Steve :</b> Professor, I think I know. Is it used to make a picture brighter?</p>
-				<p><b>Beatriz Lima :</b> I think it’s to make a picture darker.</p>
-				<p><b>Sophia : </b>  I’m sorry Lee, but Beatriz is right. Burn tool is used when an area in your picture is bright and you want to make it darker.</p>
-				<div class="metade" style="margin-top: 36px">
-					<figure>
-						<img src="{{ asset('assets/img/playgo/unit5/ilust_05.jpg') }}" alt="Garotos festejando">
-					</figure>
+				<div class="clear"></div>
+				<div class="espacamento">
+					<p><b>Sophia :</b> What’s up everyone? I have an interesting tool to teach you today. It is called Burn Tool.</p>
+					<p><b>Sophia :</b> Do any of you know what it is used for?</p>
+					<p><b>Lee Steve :</b> Professor, I think I know. Is it used to make a picture brighter?</p>
+					<p><b>Beatriz Lima :</b> I think it’s to make a picture darker.</p>
+					<p><b>Sophia : </b>  I’m sorry Lee, but Beatriz is right. Burn tool is used when an area in your picture is bright and you want to make it darker.</p>
 				</div>
+				<figure>
+					<img src="{{ asset('assets/img/playgo/unit5/ilust_05.jpg') }}" alt="Garotos festejando">
+				</figure>
 			</div>
 		</div>
 	</main>

@@ -10,24 +10,52 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade6" data-etapa="conversation">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
+				<h3 class="barlow">UNIT 6</h3>
 				<h5 class="barlow">2 - CONVERSATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit6/Conversation/completo.ogg') }}" type="audio/ogg">
 				</audio>
-				<p style="margin-top: 16px"><b>Professor Ludemann :</b> Hello class. Welcome to our first lesson. My name is Caique Ludemann. I am from Canada, but I moved to Brazil five years ago. I work with graphic production.</p>
-				<p><b>Professor Ludemann :</b> This area of work is extremely vast. It includes professionals from the fields of photography, web design, video edition, game design and others.</p>
-				<p><b>Professor Ludemann :</b> Graphic designers have an infinite number of opportunities for work because the market in this area is continuously expanding</p>
-				<p><b>Bruno :</b> Professor, photography is my hobby and I need a program to edit my photos.</p>
-				<p><b>João :</b> Hey Bruno, I am a professional photographer! I use Photoshop to edit my photos. It is an excellent software. The possibilities are infinite.</p>
-				<p><b>Professor Ludemann :</b> Thank you João. You are correct! Photoshop is the ideal software to use for image edition.</p>
-				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
-				</figure>
+				<p style="margin-top: 16px">
+					<b>Gleen :</b> My dear students. How are you guys? I hope everything is ok. Let’s start the	class? Today Akira and Laura have something to share with us. Do you guys have your
+					notes? John is all set for today.
+				</p>
+				<p><b>Akira and Laura :</b> Yes teacher we are ready.</p>
+				<p><b>Akira :</b>  Ladies first. (LOL)</p>
+				<p><b>Laura :</b> Thank you Akira. You are very smart but no problem teacher, I’m ready.</p>
+				<p><b>Gleen :</b> Great Laura. Go ahead.</p>
+				<p>
+					<b>Laura :</b> Guys, the first thing I do is to decide with my client what type of video he needs. Second,I prepare a story board and discuss the details with the client. Then we list everything
+					we need. The takes, the scenarios, the people involved, material, scripts and etc. When
+					the material is ready, it’s time to plan how we are going to work on the video. I decide what
+					softwares and effects I want to use. Zooming, Fading, Rotating, special effects like shades,
+					different colors, backgrounds and etc. I apply all these tools and effects and finish the video.
+					Finally, I arrange a meeting with my client and show him the final result. That’s it.
+				</p>
+				<p><b>Gleen :</b> Awesome Laura. A lot of steps. And you Akira.</p>
+				<p>
+					<b>Akira :</b> Well guys, we almost always start with a brainstorm. We have an idea about one
+					game or one phase of the game and we brainstorm how we want to create it. After that,
+					it’s time for the story-telling technique. A good game has a good story behind it. So, we
+					write the story. When all these elements are ok, it’s time to sit and start programming.
+					We also decide what software to use, what tools and etc. An FPS game for example we
+					need to plan things like Navigation and orientation inside the game. Well, basically this
+					is the way we develop the games.
+				</p>
+				<p>
+					<b>Gleen :</b> Guys, you rock. That’s is for today. Next class we’re going to talk about your
+					current jobs. Things that you are producing, creating or developing ok. See you
+					tomorrow folks.
+				</p>
+				<div class="metade" style="margin-top: 36px">
+					<figure>
+						<img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="Toy Story">
+					</figure>
+				</div>
 			</div>
 		</div>
 	</main>
+	
 	<script>
         activeMenu();
     </script>

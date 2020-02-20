@@ -9,85 +9,210 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade6" data-etapa="grammar">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-				<h5 class="barlow">3 - GRAMMAR</h5>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade1" data-etapa="grammar">
+				<h3 class="barlow">UNIT 1</h3>
+				<h5 class="barlow">3 – GRAMMAR</h5>
+
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>
-				<ul class="lista-vertical metade esquerda center-align">
-                    <li><h5 class="barlow">Aﬃrmative</h5></li>
-                    <li>I <b>am</b> a photographer.</li>
-                    <li>You <b>are</b> a designer.</li>
-                    <li>He <b>is</b> an illustrator.</li>
-                    <li>She <b>is</b> a game designer.</li>
-                    <li>We <b>are</b> students.</li>
-                    <li>They <b>are</b> web designers.</li>
-                    <li>It <b>is</b> Photoshop.</li>
-                </ul>
-                <ul class="lista-vertical metade direita center-align">
-                    <li><h5 class="barlow">Interrogative</h5></li>
-                    <li><b>Am</b> i a photographer.</li>
-                    <li><b>Are</b> you a designer.</li>
-                    <li><b>Is</b> he an illustrator.</li>
-                    <li><b>Is</b> she a game designer.</li>
-                    <li><b>Are</b> we students.</li>
-                    <li><b>Are</b> they web designers.</li>
-                    <li><b>Is</b> it Photoshop.</li>
-                </ul>
-                <div class="clear"></div>
-				<h5 class="barlow">A - Complete the sentences using the verb to be.</h5>
-				<form id="unidade1grammar1" method="post">
-                    <p><b>Professor Ludemann:</b> Bruna, what <input type="text" name="grammar1-1" required> your job?</p>
-                    <p><b>Bruno:</b> I <input type="text" name="grammar1-2" required> your job?</p>
-                    <p><b>Professor Ludemann:</b> <input type="text" name="grammar1-3" required> Photoshop important in your area?</p>
-                    <p><b>Bruno:</b> Yes, it <input type="text" name="grammar1-4" required> very important.</p>
-                    <p><b>Professor Ludemann:</b> João, why <input type="text" name="grammar1-5" required> Photoshop important in Bruna’s work?</p>
-                    <p><b>João:</b> It <input type="text" name="grammar1-6" required> necessary because she can use it to develop the layout of the website.</p>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="1">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-                <h5 class="barlow">B - Use the correct punctuati on at the end of the sentences. Use “?” or “.”.</h5>
-				<form id="unidade1grammar2" method="post">
-                    <p>1. Is Professor Ludemann from Germany <input type="text" name="grammar2-1" required></p>
-                    <p>2. Bruna is a web designer <input type="text" name="grammar2-2" required></p>
-                    <p>3. Is João a professional photographer <input type="text" name="grammar2-3" required></p>
-                    <p>4. Is Bruno’s hobby photography <input type="text" name="grammar2-4" required></p>
-                    <p>5. Photoshop is a soft ware with innumerous tools <input type="text" name="grammar2-5" required></p>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="2">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-                <h5 class="barlow">C - Connect the questions to the correct answers.</h5>
-                <form id="unidade1grammar3" method="post">
-                    <div class="metade esquerda">
-                        <p>1. What is the professional photographer’s name?</p>
-                        <p>2. What does Bruno do?</p>
-                        <p>3. When did the professor move to Brazil?</p>
-                        <p>4. Where is the professor from?</p>
-                        <p>5. Why does João need Photoshop?</p>
-                    </div>
-                    <div class="metade direita">
-                        <p><input type="text" name="grammar3-1" required> His name is João.</p>
-                        <p><input type="text" name="grammar3-2" required> To edit his photos.</p>
-                        <p><input type="text" name="grammar3-3" required> He is a photographer</p>
-                        <p><input type="text" name="grammar3-4" required> He is from Canada.</p>
-                        <p><input type="text" name="grammar3-5" required> 5 years ago.</p>
-                    </div>
+                <div class="clear"></div>               
+                    
+                <div class="center-align">
+                    
+                    <table class="tabelaVerdeEscuro">
+                            <tr>
+                                <th><b>Affirmative</b></th>
+                            </tr>
+                            <tr>
+                                <td><b>I am </b>a video Maker.(I´m)</td>
+                            </tr>
+                            <tr>
+                                <td>You <b>are</b> a Game Developer.(You´re)</td>
+                            </tr>
+                            <tr>
+                                <td>He <b>is</b> a Youtuber.(He´s)</td>
+                            </tr>
+                            <tr>
+                                <td>She <b>is</b> in the office.(She´s)</td>
+                            </tr>
+                            <tr>
+                                <td>It <b>is</b> a nice software.(It´s)</td>
+                            </tr>
+                            <tr>
+                                <td>We <b>are</b> a very happy.(We´re)</td>
+                            </tr>
+                            <tr>
+                                <td>You <b>are</b> focused.(You´re)</td>
+                            </tr>
+                            <tr>
+                                <td>They <b>are</b> in New York.(They´re)</td>
+                            </tr>
+                    </table>
+                    
+                    <table class="tabelaVerdeEscuro">
+                        <tr>
+                            <th><b>Negative</b></th>
+                        </tr>
+                        <tr>
+                            <td>I<b> am not</b> a video Maker</td>
+                        </tr>
+                        <tr>
+                            <td>You <b>are not</b> a...</td>
+                        </tr>
+                        <tr>
+                            <td>He <b>is not</b> a...</td>
+                        </tr>
+                        <tr>
+                            <td>She  <b>is not</b> in...</td>
+                        </tr>
+                        <tr>
+                            <td>It <b>is not</b> a...</td>
+                        </tr>
+                        <tr>
+                            <td>We <b>are not</b>...</td>
+                        </tr>
+                        <tr>
+                            <td>You <b>are not</b>...</td>
+                        </tr>
+                        <tr>
+                            <td>They <b>are not</b>...</td>
+                        </tr>
+                    </table>
+                          
+                    <table class="tabelaVerdeEscuro">
+                        <tr>
+                            <th><b>Interrogative</b></th>
+                        </tr>
+                        <tr >
+                            <td><b>Am</b> I a video Maker ?</td>
+                        </tr>
+                        <tr >
+                            <td><b>Are</b> you a... ?</td>
+                        </tr>
+                        <tr >
+                            <td><b>Is</b> he a... ?</td>
+                        </tr>
+                        <tr >
+                            <td><b>Is</b> she in... ?</td>
+                        </tr>
+                        <tr >
+                            <td><b>Is</b> it a...?</td>
+                        </tr>
+                        <tr >
+                            <td><b>Are</b> we...?</td>
+                        </tr>
+                        <tr >
+                            <td><b>Are</b> you...?</td>
+                        </tr>
+                        <tr >
+                            <td><b>Are</b> they...?</td>
+                        </tr>
+                    </table>
+                                   
+                </div>
+
+                <br>
+
                     <div class="clear"></div>
+
+                <div class="center-align">
+                    <table class="tabelaVerdeEscuro">
+                        <tr>
+                            <th style="background-color:white"></th>
+                            <th><b>Pronouns</b></th>
+                            <th><b>Verb</b></th>
+                        </tr>
+                        <tr>
+                            <th><b>Singular</b></th>
+                            <td>I – YOU – HE – SHE - IT</td>
+                            <td>AM – ARE – IS</td>
+                        </tr>
+                        <tr>
+                            <th><b>Plural</b></th>
+                            <td>WE – YOU - THEY</td>
+                            <td>ARE</td>
+                        </tr>
+                    </table>
+                </div>
+                                   
+                <div class="clear"></div>
+
+                <p><b>Examples:</b></p>
+                
+                <p>Aff(+): I <b>am</b> a Special effects specialist. | We <b>are</b> excited to start the class.</p>
+                <p>Neg(-): I <b>am</b> not a Special Effects specialist | We <b>are not</b> excited to start the class</p>
+                <p>Int(?): <b>Are</b> you a special effects specialist? | <b>Are</b> you excited to start the class?</p>
+                <p><b>Contractions: </b>Is + no = <b>isn’t</b> | are + not =<b> aren’t</b></p>
+                
+                <p><b>EXERCISES:</b></p>
+                <h5 class="barlow">A - Choose the best answer:</h5>
+                <form id="unidade1grammar100" method="post">
+                    <p>1. Maggie and Carol <input type="text" name="grammar100-1" required> designers.</p>
+                    <p class="espacamentoWord">a)am - b)are - c)is - d)isn’t</p>
+                    <p>2. Sue <input type="text" name="grammar100-2" required> a Youtuber.</p>
+                    <p class="espacamentoWord">a)are not  - b)is - c)are - d)am</p>
+                    <p>3. Mark Steven <input type="text" name="grammar100-3" required> a student at Gracon. It <input type="text" name="grammar100-4" required>a Visual Art school.</p>
+                    <p class="espacamentoWord">a)am/is - b)are/is - c)is/am - d)is/is</p>
+                    <p>4. James <input type="text" name="grammar100-5" required> from Spain. I <input type="text" name="grammar100-6" required> from Turkey.</p>
+                    <p class="espacamentoWord">a)is/am - b)are/is - c)am/is - d)is/are</p>
+                    <p>5. You and I <input type="text" name="grammar100-7" required> at the same age.</p>
+                    <p class="espacamentoWord">a)am - b)isn’t - c)are - d)is</p>
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="3">
+                    <input type="hidden" name="atividade_id" value="100">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
+
+
+                <h5 class="barlow">B - Complete this card by using “AM, IS, ARE, AM NOT , ISN’T,AREN’T”:</h5>
+				<form id="unidade1grammar101" method="post">
+                    <p>Hello!</p>
+                    <p>My name <input type="text" name="grammar101-1" required>is<input type="text" name="grammar101-2" required>Gleen, and this<input type="text" name="grammar101-3" required>is<input type="text" name="grammar101-4" required>Carlos.</p>
+                    <p>He <input type="text" name="grammar101-5" required>my friend. Carlos<input type="text" name="grammar101-6" required>twenty four years old and I<input type="text" name="grammar101-7" required>32 years old.</p>
+                    <p>I <input type="text" name="grammar101-8" required>A teacher an he<input type="text" name="grammar101-9" required>a designer. We<input type="text" name="grammar101-10" required>Canadians. We<input type="text" name="grammar101-11" required>Americans.</p>
+                    <p>We <input type="text" name="grammar101-12" required>from Chicago. Chicago<input type="text" name="grammar101-13" required>in the United States.</p>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="1">
+                    <input type="hidden" name="atividade_id" value="101">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+
+                <h5 class="barlow">C - Build up good sentences.</h5>
+				<form id="unidade1grammar102" method="post">
+                    <p>1. Mike / photographer (-) <input type="text" name="grammar102-1" required>Mike isn’t a photographer<input type="text" name="grammar102-2" required></p>
+                    <div class="metade">
+                        <p>2. Charlie and Chris / policemen(+) <input type="text" name="grammar102-3" class="full left-align" required></p>
+                        <p>3. Danny and Rick / singers (-) <input type="text" name="grammar102-4" class="full left-align" required></p>
+                        <p>4. Salem and Lucky / friends (+) <input type="text" name="grammar102-5" class="full left-align" required></p>
+                        <p>5. Rome / London / cities (+) <input type="text" name="grammar102-6" class="full left-align" required></p>
+                    </div>
+                                        
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="1">
+                    <input type="hidden" name="atividade_id" value="102">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+
+                <h5 class="barlow">D - Prepare your personal presentation. Tell us your name, age, profession, nationality and any other thing you want to share.</h5>
+				<form id="unidade1grammar103" method="post">
+                    <div class="metade">
+                        <p><input type="text" name="grammar103-1" class="full left-align" required></p>
+                    </div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="1">
+                    <input type="hidden" name="atividade_id" value="103">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+
+
+                
 			</div>
 		</div>
     </main>
@@ -99,57 +224,75 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1grammar1").submit(function(e){
+        $("#unidade1grammar100").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1grammar1 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar1 input[type="text"]').length - 1) == index){
+            $('#unidade1grammar100 input[type="text"]').each(function(index){
+                if(($('#unidade1grammar100 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1grammar1 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1grammar1'), respostas);
+            if($('#unidade1grammar100 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade1grammar100'), respostas);
             }else{
-                enviarAtividade($('#unidade1grammar1'), respostas);
+                enviarAtividade($('#unidade1grammar100'), respostas);
             }
         });
 
-        $("#unidade1grammar2").submit(function(e){
+        $("#unidade1grammar101").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1grammar2 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar2 input[type="text"]').length - 1) == index){
+            $('#unidade1grammar101 input[type="text"]').each(function(index){
+                if(($('#unidade1grammar101 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1grammar2 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1grammar2'), respostas);
+            if($('#unidade1grammar101 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade1grammar101'), respostas);
             }else{
-                enviarAtividade($('#unidade1grammar2'), respostas);
+                enviarAtividade($('#unidade1grammar101'), respostas);
             }
         });
 
-        $("#unidade1grammar3").submit(function(e){
+        $("#unidade1grammar102").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1grammar3 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar3 input[type="text"]').length - 1) == index){
+            $('#unidade1grammar102 input[type="text"]').each(function(index){
+                if(($('#unidade1grammar102 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1grammar3 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1grammar3'), respostas);
+            if($('#unidade1grammar102 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade1grammar102'), respostas);
             }else{
-                enviarAtividade($('#unidade1grammar3'), respostas);
+                enviarAtividade($('#unidade1grammar102'), respostas);
+            }
+        });
+
+        $("#unidade1grammar103").submit(function(e){
+            e.preventDefault();
+            $(this).find('button').prop('disabled', true);
+            var respostas = '{';
+            $('#unidade1grammar103 input[type="text"]').each(function(index){
+                if(($('#unidade1grammar103 input[type="text"]').length - 1) == index){
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
+                }else{
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
+                }
+            });
+            if($('#unidade1grammar103 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade1grammar103'), respostas);
+            }else{
+                enviarAtividade($('#unidade1grammar103'), respostas);
             }
         });
         

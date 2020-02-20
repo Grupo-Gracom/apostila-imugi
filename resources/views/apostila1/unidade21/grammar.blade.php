@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 21 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -16,14 +16,14 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <p>Used To</p>
+                <h5 class="barlow">Used To</h5>
                 <p>Used To Is Utilized To Reffer To An Action That Happened At A Certain Frequency But Doesn’t Occur Any Longer.</p>
-                <p>Structure</p>
+                <h5 class="barlow">Structure</h5>
 
                
-                <p>• AFFIRMATIVE: SUBJECT + USED TO + VERB I USED TO WORK ON SATURDAYS.</p>
-                <p>• INTERROGATIVE: DID + SUBJECT + USED TO + VERB DID YOU USED TO TRAVEL EVERY WEEKEND?</p>
-                <p>• NEGATIVE: SUBJECT + DID + NOT + USED TO + VERBSHE DIDN’T USED TO PAY ATTENTION TO THE CLASS, BUT NOW SHE DOES.</p>
+                <p><b>AFFIRMATIVE :</b> SUBJECT + USED TO + VERB I USED TO WORK ON SATURDAYS.</p>
+                <p><b>INTERROGATIVE :</b> DID + SUBJECT + USED TO + VERB DID YOU USED TO TRAVEL EVERY WEEKEND?</p>
+                <p><b>NEGATIVE :</b> SUBJECT + DID + NOT + USED TO + VERBSHE DIDN’T USED TO PAY ATTENTION TO THE CLASS, BUT NOW SHE DOES.</p>
                                     
                 
                 <div class="metade">

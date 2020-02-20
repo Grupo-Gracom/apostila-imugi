@@ -9,57 +9,39 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade6" data-etapa="understanding">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
-                <form id="unidade1understanding5" method="post">
-                    <p>
-                        1 - Where is Professor Ludemann from?<br>
-                        <input type="text" name="understanding5-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        2 - What is João’s profession?<br>
-                        <input type="text" name="understanding5-2" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 - Why is Photoshop ideal for Bruno?<br>
-                        <input type="text" name="understanding5-3" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - Name two professionals who work with Photoshop.<br>
-                        <input type="text" name="understanding5-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - What is João’s personal opinion about Photoshop?<br>
-                        <input type="text" name="understanding5-5" class="full left-align" required>
-                    </p>
-                    <p>
-                        6 - According to João, what is the ideal soft ware to use for image edit on?<br>
-                        <input type="text" name="understanding5-6" class="full left-align" required>
-                    </p>
-                    <p>
-                        7 - What did Professor Ludemann do fi ve years ago?<br>
-                        <input type="text" name="understanding5-7" class="full left-align" required>
-                    </p>
-                    <p>
-                        8 - Why do professionals of graphic design production have an infinite number of opportunities?<br>
-                        <input type="text" name="understanding5-8" class="full left-align" required>
-                    </p>
-                    <p>
-                        9 - What is Bruno’s hobby?<br>
-                        <input type="text" name="understanding5-9" class="full left-align" required>
-                    </p>
-                    <p>
-                        10 - What does Professor Ludemann work with?<br>
-                        <input type="text" name="understanding5-10" class="full left-align" required>
-                    </p>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="5">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade1" data-etapa="understanding">
+				<h3 class="barlow">UNIT 01</h3>
+                <h5 class="barlow">6 - UNDERSTANDING</h5>
+                <div class="metade">
+                    <form id="unidade1understanding105" method="post">
+                        <p>
+                            1. Who is Gleen?<br>
+                            <input type="text" name="understanding105-1" class="full left-align" required>
+                        </p>
+                        <p>
+                            2. What’s the Challenge of the course?<br>
+                            <input type="text" name="understanding105-2" class="full left-align" required>
+                        </p>
+                        <p>
+                            3 - Why is it important to dedicate yourself during the course?<br>
+                            <input type="text" name="understanding105-3" class="full left-align" required>
+                        </p>
+                        <p>
+                            4 - What’s the objective of the second part of the course?<br>
+                            <input type="text" name="understanding105-4" class="full left-align" required>
+                        </p>
+                        <p>
+                            5 - What companies use the softwares learned in the course?<br>
+                            <input type="text" name="understanding105-5" class="full left-align" required>
+                        </p>
+                        
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="1">
+                        <input type="hidden" name="atividade_id" value="105">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>
                 <div class="metade esquerda">
                     <figure>
                         <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
@@ -80,21 +62,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1understanding5").submit(function(e){
+        $("#unidade1understanding105").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1understanding5 input[type="text"]').each(function(index){
-                if(($('#unidade1understanding5 input[type="text"]').length - 1) == index){
+            $('#unidade1understanding105 input[type="text"]').each(function(index){
+                if(($('#unidade1understanding105 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1understanding5 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1understanding5'), respostas);
+            if($('#unidade1understanding105 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade1understanding105'), respostas);
             }else{
-                enviarAtividade($('#unidade1understanding5'), respostas);
+                enviarAtividade($('#unidade1understanding105'), respostas);
             }
         });
 

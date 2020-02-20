@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 21 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -46,7 +46,6 @@
                             8 - How Old Is Sarah?<br>
                             <input type="text" name="understanding59-8" class="full left-align" required>
                         </p>
-                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="21">
@@ -59,10 +58,6 @@
                         <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
                     </figure>
                 </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
-
 			</div>
 		</div>
     </main>

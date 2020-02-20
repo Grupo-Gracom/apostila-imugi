@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 4 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -27,9 +27,9 @@
 					<li><b>HERE</b></li>
                 </ul>
                 <h5 class="barlow" style="margin-top: 16px">B. Read the sentence below to practice the pronunciation of words ending in ‘E’.</h5>
-                <ul class="lista-inline">
+                <div class="espacamento">
                     <p>“These are my friends Kate and Kyle.”</p>
-                </ul>
+                </div>
 			</div>
 		</div>
     </main>

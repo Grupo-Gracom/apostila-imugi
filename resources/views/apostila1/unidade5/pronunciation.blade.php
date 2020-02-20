@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 5 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -25,9 +25,9 @@
 					<li><b>KNIT</b></li>
                 </ul>
                 <h5 class="barlow" style="margin-top: 16px">B. Read the sentence to practice pronunciation.</h5>
-                <ul class="lista-inline">
-                    <p><b>I know how to knit a knot.</b></p>
-                </ul>
+                <div class="espacamento">
+                    <p>I know how to knit a knot.</p>
+				</div>
 			</div>
 		</div>
     </main>

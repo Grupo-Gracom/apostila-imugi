@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 23 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -11,7 +11,7 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade23" data-etapa="vocabulary">
 				<h3 class="barlow">UNIT 23 - BRUSHES</h3>
-				<p><b>Goal:</b> Make Students Uderstand There Is A Difference In Spoken And Writt en Language. Focus On Expressions And The Presented Vocabulary.</p>
+				<p><b>Goal:</b> Make Students Uderstand There Is A Difference In Spoken And Written Language. Focus On Expressions And The Presented Vocabulary.</p>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">

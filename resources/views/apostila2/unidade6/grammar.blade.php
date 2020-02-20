@@ -10,84 +10,169 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade6" data-etapa="grammar">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-				<h5 class="barlow">3 - GRAMMAR</h5>
+				<h3 class="barlow">UNIT 6 </h3>
+				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-				<ul class="lista-vertical metade esquerda center-align">
-                    <li><h5 class="barlow">Aﬃrmative</h5></li>
-                    <li>I <b>am</b> a photographer.</li>
-                    <li>You <b>are</b> a designer.</li>
-                    <li>He <b>is</b> an illustrator.</li>
-                    <li>She <b>is</b> a game designer.</li>
-                    <li>We <b>are</b> students.</li>
-                    <li>They <b>are</b> web designers.</li>
-                    <li>It <b>is</b> Photoshop.</li>
-                </ul>
-                <ul class="lista-vertical metade direita center-align">
-                    <li><h5 class="barlow">Interrogative</h5></li>
-                    <li><b>Am</b> i a photographer.</li>
-                    <li><b>Are</b> you a designer.</li>
-                    <li><b>Is</b> he an illustrator.</li>
-                    <li><b>Is</b> she a game designer.</li>
-                    <li><b>Are</b> we students.</li>
-                    <li><b>Are</b> they web designers.</li>
-                    <li><b>Is</b> it Photoshop.</li>
-                </ul>
-                <div class="clear"></div>
-				<h5 class="barlow">A - Complete the sentences using the verb to be.</h5>
-				<form id="unidade1grammar1" method="post">
-                    <p><b>Professor Ludemann:</b> Bruna, what <input type="text" name="grammar1-1" required> your job?</p>
-                    <p><b>Bruno:</b> I <input type="text" name="grammar1-2" required> your job?</p>
-                    <p><b>Professor Ludemann:</b> <input type="text" name="grammar1-3" required> Photoshop important in your area?</p>
-                    <p><b>Bruno:</b> Yes, it <input type="text" name="grammar1-4" required> very important.</p>
-                    <p><b>Professor Ludemann:</b> João, why <input type="text" name="grammar1-5" required> Photoshop important in Bruna’s work?</p>
-                    <p><b>João:</b> It <input type="text" name="grammar1-6" required> necessary because she can use it to develop the layout of the website.</p>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="1">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-                <h5 class="barlow">B - Use the correct punctuati on at the end of the sentences. Use “?” or “.”.</h5>
-				<form id="unidade1grammar2" method="post">
-                    <p>1. Is Professor Ludemann from Germany <input type="text" name="grammar2-1" required></p>
-                    <p>2. Bruna is a web designer <input type="text" name="grammar2-2" required></p>
-                    <p>3. Is João a professional photographer <input type="text" name="grammar2-3" required></p>
-                    <p>4. Is Bruno’s hobby photography <input type="text" name="grammar2-4" required></p>
-                    <p>5. Photoshop is a soft ware with innumerous tools <input type="text" name="grammar2-5" required></p>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="2">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-                <h5 class="barlow">C - Connect the questions to the correct answers.</h5>
-                <form id="unidade1grammar3" method="post">
-                    <div class="metade esquerda">
-                        <p>1. What is the professional photographer’s name?</p>
-                        <p>2. What does Bruno do?</p>
-                        <p>3. When did the professor move to Brazil?</p>
-                        <p>4. Where is the professor from?</p>
-                        <p>5. Why does João need Photoshop?</p>
-                    </div>
-                    <div class="metade direita">
-                        <p><input type="text" name="grammar3-1" required> His name is João.</p>
-                        <p><input type="text" name="grammar3-2" required> To edit his photos.</p>
-                        <p><input type="text" name="grammar3-3" required> He is a photographer</p>
-                        <p><input type="text" name="grammar3-4" required> He is from Canada.</p>
-                        <p><input type="text" name="grammar3-5" required> 5 years ago.</p>
+                <div style="margin-top: 16px">
+                    <h5 class="barlow" style="margin-top: 16px">3.1 - WH - QUESTIONS</h5>
+                    <table class="metade">
+                        <thead class="corpoTabela">
+                            <tr><th class="tituloTabela" colspan="3"><b>Verb to Be<b></th></tr>
+                            <tr>
+                                <td><b>What's</b> your favorite hobby?</td>
+                                <td><b>My favorite hobby</b> is drawing wizards</td>
+                            </tr>
+                            <tr>
+                                <td><b>Who</b> is the best Avengers Super hero</td>
+                                <td>I Guess <b>Thor</b> is the best.</td> 
+                            </tr>
+                            <tr>
+                                <td><b>When</b> is the special effects workshop?</td>
+                                <td><b>I believe it’s in the</b> end of July.</td>
+                            </tr>
+                        </thead>
+                        <tfoot class="corpoTabela"> 
+                            <tr><th class="tituloTabela" colspan="3"><b>Other Verbs<b></th></tr>
+                             <tr>
+                                <td><b>Where do you find</b> good study references?</td>
+                                <td><b>I</b> find very good tutorials <b>on youtube</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>What do you do</b> before starting a project?</td>
+                                <td><b>We have a brainstorm</b> to debate it.</td> 
+                            </tr>
+                            <tr>
+                                <td><b>Which FPS do you</b> like to play? BF4 or CS Go</td>
+                                <td>I like to play <b>BF4</b>.</td>
+                            </tr>
+                        </tfoot>
+                    </table>    
+
+                    <div class="metade" style="margin-top: 36px">
+                        <figure>
+                            <img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="gamer">
+                        </figure>
                     </div>
                     <div class="clear"></div>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="3">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                    <h5 class="barlow">A - Read the questions & answers about LAURA and ask and answer about AKIRA.</h5>               
+                    <form id="unidade6grammar125" method="post">
+                        <div class="metade esquerda">
+                            <h5>QUESTIONS:</h5>
+                            <p> 
+                                <p>1. What does Laura do?</p>
+                                <p>2. How <input type="text" name="grammar125-1" required/> is Laura?</p>
+                                <p>3. <input type="text" name="grammar125-2" required/> a week does she work?</p>
+                                <p>4. What time does she get up?</p>
+                                <p>5. What <input type="text" name="grammar125-3" required/> for breakfast?</p>
+                                <p>6. <input type="text" name="grammar125-4" required/> does he drink?</p>
+                                <p>7. What <input type="text" name="grammar125-5" required/> she do after breakfast? </p>
+                                <p>8. What time <input type="text" name="grammar125-6" required/> for work? </p>
+                                <p>9. <input type="text" name="grammar125-7" required/> does She have lunch? </p>
+                                <p>10. What time does She come home? </p>
+                                <p>11. Where does she go in the evening?</p>
+                                <p>12. <input type="text" name="grammar125-8" required/> does he go to bed? </p>
+                            </p>
+                        </div>
+                        <div class="metade direita">
+                            <h5>LAURA:</h5>
+                            <p>
+                                <p>1. Laura is a <input type="text" name="grammar125-9" required/></p>
+                                <p>2. She’s nineteen years old.</p>
+                                <p>3. She works five days a week.</p>
+                                <p>4. She <input type="text" name="grammar125-10" required/>  at six o’clock every day.</p>
+                                <p>5. She eats an enormous breakfast.</p>
+                                <p>6. He drinks two cups of tea.</p>
+                                <p>7. Then she kisses her boyfriend.</p>
+                                <p>8. She leaves for work at half past six.</p>
+                                <p>9. She has lunch in a transport café.</p>
+                                <p>10. She <input type="text" name="grammar125-11" required/> home at five o’clock.</p>
+                                <p>11. In the evening <input type="text" name="grammar125-12" required/> to the pub.</p>
+                                <p>12. She goes to bed at ten o’clock.</p>
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="6">
+                        <input type="hidden" name="atividade_id" value="125">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                    <form id="unidade6grammar126" method="post">
+                        <div class="metade esquerda">
+                            <h5>QUESTIONS:</h5>
+                            <p> 
+                                <p>1. <input type="text" name="grammar126-1" class="full left-align" required/></p>
+                                <p>2. <input type="text" name="grammar126-2" class="full left-align" required/></p>
+                                <p>3. <input type="text" name="grammar126-3" class="full left-align" required/></p>
+                                <p>4. <input type="text" name="grammar126-4" class="full left-align" required/></p>
+                                <p>5. <input type="text" name="grammar126-5" class="full left-align" required/></p>
+                                <p>6. <input type="text" name="grammar126-6" class="full left-align" required/></p>
+                                <p>7. <input type="text" name="grammar126-7" class="full left-align" required/></p>
+                                <p>8. <input type="text" name="grammar126-8" class="full left-align" required/></p>
+                                <p>9. <input type="text" name="grammar126-9" class="full left-align" required/></p>
+                                <p>10. <input type="text" name="grammar126-10" class="full left-align" required/></p>
+                                <p>11. <input type="text" name="grammar126-11" class="full left-align" required/></p>
+                                <p>12. <input type="text" name="grammar126-12" class="full left-align" required/></p>
+                            </p>
+                        </div>
+                        <div class="metade direita">
+                            <h5>AKIRA:</h5>
+                            <p>
+                                <p>1. Game developer.</p>
+                                <p>2. 21.</p>
+                                <p>3. 4 days a week.</p>
+                                <p>4. 7.30 am.</p>
+                                <p>5. With a team of developers.</p>
+                                <p>6. He loves comic books.</p>
+                                <p>7. They are from Japan.</p>
+                                <p>8. He’s American.</p>
+                                <p>9. He listens to music.</p>
+                                <p>10. In California.</p>
+                                <p>11. He prefers Fifa 2016.</p>
+                                <p>12. Japanese food.</p>
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="6">
+                        <input type="hidden" name="atividade_id" value="126">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                    <h5 class="barlow" style="margin-top: 16px">B - Imagine you are a movie star. Are you ready to answer questions about the following topics on your interview for a famous movie blog.</h5> 
+                    <form id="unidade6grammar127" method="post">
+                            <div class="metade">
+                                <p> 
+                                    <p>1. Name <input type="text" name="grammar127-1" class="full left-align" required/></p>
+                                    <p>2. Profession <input type="text" name="grammar127-2" class="full left-align" required/></p>
+                                    <p>3. Likes and dislikes <input type="text" name="grammar127-3" class="full left-align" required/></p>
+                                    <p>4. Age <input type="text" name="grammar127-4" class="full left-align" required/></p>
+                                    <p>5. Marital Status <input type="text" name="grammar127-5" class="full left-align" required/></p>
+                                    <p>6. Favorites<input type="text" name="grammar127-6" class="full left-align" required/></p>
+                                </p>
+                            </div>
+                        
+                        <div class="clear"></div>
+
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="6">
+                        <input type="hidden" name="atividade_id" value="127">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                    <div class="metade" style="margin-top: 36px">
+                        <figure>
+                            <img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="rapper">
+                        </figure>
+                    </div>
+                </div>
 			</div>
 		</div>
     </main>
@@ -99,59 +184,60 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1grammar1").submit(function(e){
+        $("#unidade6grammar125").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1grammar1 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar1 input[type="text"]').length - 1) == index){
+            $('#unidade6grammar125 input[type="text"]').each(function(index){
+                if(($('#unidade6grammar125 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1grammar1 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1grammar1'), respostas);
+            if($('#unidade6grammar125 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade6grammar125'), respostas);
             }else{
-                enviarAtividade($('#unidade1grammar1'), respostas);
+                enviarAtividade($('#unidade6grammar125'), respostas);
             }
         });
 
-        $("#unidade1grammar2").submit(function(e){
+        $("#unidade6grammar126").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1grammar2 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar2 input[type="text"]').length - 1) == index){
+            $('#unidade6grammar126 input[type="text"]').each(function(index){
+                if(($('#unidade6grammar126 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1grammar2 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1grammar2'), respostas);
+            if($('#unidade6grammar126 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade6grammar126'), respostas);
             }else{
-                enviarAtividade($('#unidade1grammar2'), respostas);
+                enviarAtividade($('#unidade6grammar126'), respostas);
             }
         });
 
-        $("#unidade1grammar3").submit(function(e){
+        $("#unidade6grammar127").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1grammar3 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar3 input[type="text"]').length - 1) == index){
+            $('#unidade6grammar127 input[type="text"]').each(function(index){
+                if(($('#unidade6grammar127 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1grammar3 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1grammar3'), respostas);
+            if($('#unidade6grammar127 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade6grammar127'), respostas);
             }else{
-                enviarAtividade($('#unidade1grammar3'), respostas);
+                enviarAtividade($('#unidade6grammar127'), respostas);
             }
         });
+
         
         function checkAtividade(atividade_id){
             request = $.ajax({
@@ -169,11 +255,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade1grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade1grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade6grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade6grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade1grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade6grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade6grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

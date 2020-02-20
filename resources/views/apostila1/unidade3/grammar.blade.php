@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 3 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -17,27 +17,27 @@
 					<source src="{{ asset('assets/audio/unit3/grammar/Page15Grammar.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>                
-                <p style="margin-top:16px;">I am a teacher <b>and</b> a photographer. (addition)</p>
-                <p>My hobby is wildlife photography, <b>but</b> my profession is fashion photography. (contrast)</p>
-                <p>My work is published in magazines and websites, so I need the photos to be perfect. (conclusion)</p>
-                
-
-				<h5 class="barlow">A - Complete the sentences with the appropriate conjunction. Use and, but or so.</h5>
+                <div class="espacamento">
+                    <p>I am a teacher <b>and</b> a photographer. (addition)</p>
+                    <p>My hobby is wildlife photography, <b>but</b> my profession is fashion photography. (contrast)</p>
+                    <p>My work is published in magazines and websites, so I need the photos to be perfect. (conclusion)</p>
+                </div>
+				<h5 class="barlow">A - Complete the sentences with the appropriate conjunction. Use "and", "but" or "so".</h5>
 				<form id="unidade3grammar11" method="post">
-                    <p>1. Sophia works with teaching <input type="text" name="grammar-11-1" required> photography.</p>
-                    <p>2. My photos are published in magazines, <input type="text" name="grammar-11-2" required> they need to be perfect.</p>
-                    <p>3. The teacher’s name is Sophia Jones, <input type="text" name="grammar-11-3" required> she likes to be called by her fi rst name, Sophia.</p>
-                    <p>4. Sophia’s work is published in websites <input type="text" name="grammar-11-4" required> magazines.</p>
+                    <p>1. Sophia works with teaching <input type="text" name="grammar-11-1" placeholder="Responda aqui" required> photography.</p>
+                    <p>2. My photos are published in magazines, <input type="text" name="grammar-11-2" placeholder="Responda aqui" required> they need to be perfect.</p>
+                    <p>3. The teacher’s name is Sophia Jones, <input type="text" name="grammar-11-3" placeholder="Responda aqui" required> she likes to be called by her first name, Sophia.</p>
+                    <p>4. Sophia’s work is published in websites <input type="text" name="grammar-11-4" placeholder="Responda aqui" required> magazines.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="3">
                     <input type="hidden" name="atividade_id" value="11">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow">B - Correct the conjuncti ons in the sentences, if necessary.</h5>
+                <h5 class="barlow">B - Correct the conjunctions in the sentences, if necessary.</h5>
 				<form id="unidade3grammar12" method="post">
                     <p>1. I work with photography <input type="text" name="grammar-12-1" value="but" required> design.</p>
-                    <p>2. Photoshop off ers complete <input type="text" name="grammar-12-2" value="so" required> advanced editi ng tools.</p>
+                    <p>2. Photoshop offers complete <input type="text" name="grammar-12-2" value="so" required> advanced editing tools.</p>
                     <p>3. Klaus <input type="text" name="grammar-12-3" value="and" required> Katia are Sophia’s students.</p>
                     <p>4. I am a photographer, <input type="text" name="grammar-12-4" value="but" required> I need Photoshop.</p>
                     <p>5. Sophia is from the United States, <input type="text" name="grammar-12-5" value="and" required> she lives in Brazil.</p>

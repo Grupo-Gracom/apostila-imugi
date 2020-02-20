@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 2 | understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -11,49 +11,49 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade2" data-etapa="understanding">
 				<h3 class="barlow">UNIT 02 - INTRODUCTION TO PHOTOSHOP</h3>
-				<h5 class="barlow">4 - UNDERSTANDING</h5>
+				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
                     <form id="unidade2understanding10" method="post">
                         <p>
                             1 - When was Photoshop developed?<br>
-                            <input type="text" name="understanding10-1" class="full left-align" required>
+                            <input type="text" name="understanding10-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 - Who created Photoshop?<br>
-                            <input type="text" name="understanding10-2" class="full left-align" required>
+                            <input type="text" name="understanding10-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 - Do João and Bruna use Photoshop?<br>
-                            <input type="text" name="understanding10-3" class="full left-align" required>
+                            <input type="text" name="understanding10-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - Is Bruna a Photographer?<br>
-                            <input type="text" name="understanding10-4" class="full left-align" required>
+                            <input type="text" name="understanding10-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - Who is Photoshop important to? <br>
-                            <input type="text" name="understanding10-5" class="full left-align" required>
+                            <input type="text" name="understanding10-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - Why does Bruna need Photoshop?<br>
-                            <input type="text" name="understanding10-6" class="full left-align" required>
+                            <input type="text" name="understanding10-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - Why does João need Photoshop?<br>
-                            <input type="text" name="understanding10-7" class="full left-align" required>
+                            <input type="text" name="understanding10-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - What is Bruna’s profession?<br>
-                            <input type="text" name="understanding10-8" class="full left-align" required>
+                            <input type="text" name="understanding10-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             9 - Why is Photoshop important today?<br>
-                            <input type="text" name="understanding10-9" class="full left-align" required>
+                            <input type="text" name="understanding10-9" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             10 -  Is it possible to use Photoshop to edit videos?<br>
-                            <input type="text" name="understanding10-10" class="full left-align" required>
+                            <input type="text" name="understanding10-10" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
@@ -61,11 +61,7 @@
                         <input type="hidden" name="atividade_id" value="10">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                </div>                
-                <div class="metade esquerda">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
                 </div>
-
 			</div>
 		</div>
     </main>

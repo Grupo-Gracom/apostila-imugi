@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 1 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -18,19 +18,23 @@
                 </audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen and write the words you hear on the lines.</h5>
-                <p>Graphic design is an important <b>tool</b> that enhances how you <b>communicate</b> with people. It is used to <b>transmit</b> ideas in an effective and beautiful way. Professionally designed graphics cause positive opinions about your <b>product</b> , service or <b>brand</b>.</p>
+                <div class="espacamento">
+                    <p>Graphic design is an important <b>tool</b> that enhances how you <b>communicate</b> with people. It is used to <b>transmit</b> ideas in an effective and beautiful way. Professionally designed graphics cause positive opinions about your <b>product</b> , service or <b>brand</b>.</p>
+                </div>
                 <h5 class="barlow" style="margin-top: 16px">B - List the professionals who use Photoshop.</h5>
-                <p>Photoshop is an important tool used by many professionals of different areas. It is extremely important for photographers, web designers, game designers, illustrators and many others.</p>
                 <span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/listining/listining_b.ogg') }}" type="audio/ogg">
+                <audio controls="" controlslist="nodownload" class="suave">
+                    <source src="{{ asset('assets/audio/unit1/listining/listining_b.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
+                <div class="espacamento">
+                    <p>Photoshop is an important tool used by many professionals of different areas. It is extremely important for photographers, web designers, game designers, illustrators and many others.</p>
+                </div>
                 <form id="unidade1listening4" method="post">
-                    <p>1 - <input type="text" name="listening4-1" required></p>
-                    <p>2 - <input type="text" name="listening4-2" required></p>
-                    <p>3 - <input type="text" name="listening4-3" required></p>
-                    <p>4 - <input type="text" name="listening4-4" required></p>
+                    <p>1 - <input type="text" name="listening4-1" placeholder="Responda aqui" class="left-align" required></p>
+                    <p>2 - <input type="text" name="listening4-2" placeholder="Responda aqui" class="left-align" required></p>
+                    <p>3 - <input type="text" name="listening4-3" placeholder="Responda aqui" class="left-align" required></p>
+                    <p>4 - <input type="text" name="listening4-4" placeholder="Responda aqui" class="left-align" required></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
