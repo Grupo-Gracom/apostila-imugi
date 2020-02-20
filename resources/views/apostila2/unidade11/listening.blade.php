@@ -9,48 +9,26 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade2" data-etapa="understanding">
-				<h3 class="barlow">UNIT 02</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <div class="metade">
-                    <form id="unidade2understanding111" method="post">
-                        <p>
-                            1. Who is Gleen?<br>
-                            <input type="text" name="understanding111-1" class="full left-align" required>
-                        </p>
-                        <p>
-                            2. Where is Gleen from?<br>
-                            <input type="text" name="understanding111-2" class="full left-align" required>
-                        </p>
-                        <p>
-                            3 - What’s his profession? / What does he do?<br>
-                            <input type="text" name="understanding111-3" class="full left-align" required>
-                        </p>
-                        <p>
-                            4 - What’s Laura’s full name?<br>
-                            <input type="text" name="understanding111-4" class="full left-align" required>
-                        </p>
-                        <p>
-                            5 - What’s Akira’s nationality?<br>
-                            <input type="text" name="understanding111-5" class="full left-align" required>
-                        </p>
-                        
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="2">
-                        <input type="hidden" name="atividade_id" value="111">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
-
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade11" data-etapa="listening">
+				<h3 class="barlow">UNIT 11</h3>
+                <h5 class="barlow">5 - LISTENING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
+                </audio>
+                <div class="clear"></div>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                
+                <form id="unidade11listening151" method="post">
+                    <p>I Look at her and I think, I know<input type="text" name="listening151-1" required> <input type="text" name="listening151-2" required> to be better than me,<input type="text" name="listening151-3" required>,</p>
+                    <p>smarter, <input type="text" name="listening151-4" required>  <input type="text" name="listening151-5" required>, less imperfect. But, <input type="text" name="listening151-6" required> <input type="text" name="listening151-7" required> be kind? Will She be</p>
+                    <p>lovable? <input type="text" name="listening151-8" required>, <input type="text" name="listening151-9" required> and philanthropic. The kind of <input type="text" name="listening151-10" required> </p>
+                    <p>I would<input type="text" name="listening151-11" required> to be remembered for.</p>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="11">
+                    <input type="hidden" name="atividade_id" value="151">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
 			</div>
 		</div>
     </main>
@@ -62,21 +40,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade2understanding111").submit(function(e){
+        $("#unidade11listening151").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade2understanding111 input[type="text"]').each(function(index){
-                if(($('#unidade2understanding111 input[type="text"]').length - 1) == index){
+            $('#unidade11listening151 input[type="text"]').each(function(index){
+                if(($('#unidade11listening151 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade2understanding111 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade2understanding111'), respostas);
+            if($('#unidade11listening151 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade11listening151'), respostas);
             }else{
-                enviarAtividade($('#unidade2understanding111'), respostas);
+                enviarAtividade($('#unidade11listening151'), respostas);
             }
         });
 
@@ -96,11 +74,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade2understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade2understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade11listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade11listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade2understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade2understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade11listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade11listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

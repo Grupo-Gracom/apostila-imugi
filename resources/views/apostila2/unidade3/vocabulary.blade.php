@@ -9,74 +9,85 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade2" data-etapa="understanding">
-				<h3 class="barlow">UNIT 02</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <div class="metade">
-                    <form id="unidade2understanding111" method="post">
-                        <p>
-                            1. Who is Gleen?<br>
-                            <input type="text" name="understanding111-1" class="full left-align" required>
-                        </p>
-                        <p>
-                            2. Where is Gleen from?<br>
-                            <input type="text" name="understanding111-2" class="full left-align" required>
-                        </p>
-                        <p>
-                            3 - What’s his profession? / What does he do?<br>
-                            <input type="text" name="understanding111-3" class="full left-align" required>
-                        </p>
-                        <p>
-                            4 - What’s Laura’s full name?<br>
-                            <input type="text" name="understanding111-4" class="full left-align" required>
-                        </p>
-                        <p>
-                            5 - What’s Akira’s nationality?<br>
-                            <input type="text" name="understanding111-5" class="full left-align" required>
-                        </p>
-                        
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="2">
-                        <input type="hidden" name="atividade_id" value="111">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade3"  data-etapa="vocabulary">
 
+				<h3 class="barlow">UNIT 03</h3>
+				<h5 class="barlow">1 - VOCABULARY</h5>
+				<span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
+				</audio>
+				<h5 class="barlow" style="margin-top: 16px">A - ROUTINE VERBS</h5>
+
+				<ul class="lista-inline">
+					<li><b>Work</b></li>
+					<li><b>Go</b></li>
+					<li><b>Do</b></li>
+					<li><b>Wake up </b></li>
+					<li><b>Send</b></li>
+					<li><b>Answer</b></li>
+					<li><b>Ask</b></li>
+					<li><b>Use</b></li>
+					<li><b>Finish</b></li>
+				</ul>
+
+				<h5 class="barlow" style="margin-top: 16px">B - LIKES AND DISLIKES</h5>
+				
+				<p class="espacamentoWord"><b>ACTIONS > </b>To-play To-practice To-study To-read To-dance To-create To-draw</p>
+				<p class="espacamentoWord"><b>THINGS > </b>games sports English Books Hip Hop Heroes Warriors</p>
+				
+				<div class="metade">
+					<form id="unidade2vocabulary112" method="post">
+						<p><input type="text" name="vocabulary112-1" class="full" required></p>
+						<p><input type="text" name="vocabulary112-2" class="full" required></p>
+						<input type="hidden" name="_token" value="{{csrf_token()}}">
+						<input type="hidden" name="resposta_id" value="0">
+						<input type="hidden" name="unidade_id" value="2">
+						<input type="hidden" name="atividade_id" value="112">
+						<button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+					</form>
+				</div>
+				
+				
+				<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT</h5>
+				
+				<ul class="lista-inline">
+					<li><b>Annoy</b></li>
+					<li><b>Challenge</b></li>
+					<li><b>Many</b></li>
+					<li><b>Every</b></li>
+					<li><b>Bored</b></li>
+					<li><b>Meet</b></li>
+					<li><b>Change</b></li>
+					<li><b>Always</b></li>
+				</ul>
+				
 			</div>
 		</div>
-    </main>
-    <script>
+	</main>
+	<script>
         activeMenu();
 
-        $("form").each(function(){
+		$("form").each(function(){
             var atividade_id = $(this).find('input[name="atividade_id"]').val();
             checkAtividade(atividade_id);
         });
 
-        $("#unidade2understanding111").submit(function(e){
+        $("#unidade2vocabulary112").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade2understanding111 input[type="text"]').each(function(index){
-                if(($('#unidade2understanding111 input[type="text"]').length - 1) == index){
+            $('#unidade2vocabulary112 input[type="text"]').each(function(index){
+                if(($('#unidade2vocabulary112 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade2understanding111 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade2understanding111'), respostas);
+            if($('#unidade2vocabulary112 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade2vocabulary112'), respostas);
             }else{
-                enviarAtividade($('#unidade2understanding111'), respostas);
+                enviarAtividade($('#unidade2vocabulary112'), respostas);
             }
         });
 
@@ -96,11 +107,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade2understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade2understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade2vocabulary'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade2vocabulary'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade2understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade2understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade2vocabulary'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade2vocabulary'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
@@ -155,7 +166,6 @@
                 }
             });
         }
-
     </script>
 
 @endsection

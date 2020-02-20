@@ -9,8 +9,8 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade2" data-etapa="grammar">
-				<h3 class="barlow">UNIT 2</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade3" data-etapa="grammar">
+				<h3 class="barlow">UNIT 3</h3>
 				<h5 class="barlow">3 – GRAMMAR</h5>
 
 				<span class="play-audio">( Aperte o play )</span>
@@ -19,22 +19,22 @@
                 </audio>
                 <div class="clear"></div>     
                 
-                <h5 class="barlow" style="margin-top: 16px">A - WH QUESTIONS – WHAT – WHERE – WHO.</h5>
-                <p><b>What</b> – Used for <b>general questions.</b></p>
-                <p>Examples:</p>
-                <p><b>What</b> is your <b>full name? </b> / My full name is <b>Gleen Frey</b></p>
-                <p><b>What’s</b> your favorite <b>software?</b> / My favorite Software is<b> Photoshop.</b></p>
-                <p><b>Where</b> – Used for <b>questions about places.</b></p>
-                <p>Examples:</p>
-                <p><b>Where</b> is your book? / It is<b> in my backpack</b></p>
-                <p><b>Where</b> are your parents? / They are <b>in Europe.</b></p>
-                <p><b>Who</b> – Used for <b>questions about people.</b></p>
-                <p>Examples:</p>
-                <p><b>Who</b> is your favorite illustrator? / My favorite illustrator is<b> Paul.</b></p>
-                <p><b>Who</b>are you? / I am<b> Akira</b> The<b> new game Developer.</b></p>
+                <h5 class="barlow" style="margin-top: 16px">A - SIMPLE PRESENT</h5>
+                <p>Simple present refers to <b>facts</b> or <b>repeated actions</b>in the present.</p>
+                
+                <div class="metade center-align">
+                    <table tabelaVerdeEscuro>
+                        <tr>
+                            <th coldspan="2" class="barlow">HE – SHE – IT (3rd person)(+)</th>
+                        </tr>
+                        <tr>
+                            <td><p>Works</p></td>
+                            <td><p>Reads</p></td>
+                        </tr> 
+                    </table>
+                </div>
 
                 <h5 class="barlow" style="margin-top: 16px">A - SUBJECT PRONOUNS X POSSESSIVE ADJECTIVE.</h5>
-
 
                 <div class="center-align metade">
                     <table class="tabelaVerdeEscuro tabelagrammar">
