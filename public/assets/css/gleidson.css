@@ -111,9 +111,12 @@ main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242
     color:white;
 }
 
-#unidade .tabelaVerdeEscuro {color:white;text-align: left;}
-#unidade .tabelaVerdeEscuro td{background-color: #7dc242;padding: 0;padding-left: 10px;padding-right: 5px;padding-top: 10px; margin: 0px;}
-#unidade .tabelaVerdeEscuro th{background-color: #15b449;padding-left: 10px;margin: 0px;color: white;}
+#unidade .tabelaVerdeEscuro {display: inline;}
+#unidade .tabelaVerdeEscuro, th, tr, td {color:white;text-align: left; border: none !important; padding-left: 10px;margin: 0px;}
+#unidade .tabelaVerdeEscuro th{background-color: #15b449;color: white;}
+#unidade .tabelaVerdeEscuro td{background-color: #7dc242;};
+/* #unidade .tabelaVerdeEscuro td{background-color: #7dc242;padding: 0;padding-left: 10px;padding-right: 5px;padding-top: 10px; margin: 0px;}
+ */
 
 
 .gramar17Verde p{

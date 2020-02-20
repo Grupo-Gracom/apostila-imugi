@@ -19,7 +19,7 @@
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - CARDINAL NUMBERS / ORDINAL NUMBERS</h5>
 				
-				<div class="umterco">
+				<div class="center-align">
 					<table class="tabelaVerdeEscuro">
 						<tr>
 							<th><b>Cardinal</b></th>
