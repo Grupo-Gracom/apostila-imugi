@@ -107,7 +107,7 @@
                             <div class="metade esquerda">
                                 <h5>QUESTIONS:</h5>
                                 <p> 
-                                    <p>1. <input type="text" name="grammar126-1" class="full left-align" required/> </p>
+                                    <p>1. <input type="text" name="grammar126-1" class="small left-align" required/> </p>
                                     <p>2. <input type="text" name="grammar126-2" class="full left-align" required/> </p>
                                     <p>3. <input type="text" name="grammar126-3" class="full left-align" required/> </p>
                                     <p>4. <input type="text" name="grammar126-4" class="full left-align" required/> </p>
@@ -148,14 +148,17 @@
                         </form>
                         <h5 class="barlow" style="margin-top: 16px">B - Imagine you are a movie star. Are you ready to answer questions about the following topics on your interview for a famous movie blog.</h5> 
                         <form id="unidade6grammar127" method="post">
-                                <p> 
-                                    <p>1. Name <input type="text" name="grammar127-1" class="left-align" required/> </p>
-                                    <p>2. Profession <input type="text" name="grammar127-2" class="left-align" required/> </p>
-                                    <p>3. Likes and dislikes <input type="text" name="grammar127-3" class="left-align" required/> </p>
-                                    <p>4. Age <input type="text" name="grammar127-4" class="full left-align" required/> </p>
-                                    <p>5. Marital Status <input type="text" name="grammar127-5" class="full left-align" required/> </p>
-                                    <p>6. Favorites<input type="text" name="grammar127-6" class="full left-align" required/> </p>
-                                </p>
+                                <div class="metade">
+                                    <p> 
+                                        <p>1. Name <input type="text" name="grammar127-1" class="full left-align" required/> </p>
+                                        <p>2. Profession <input type="text" name="grammar127-2" class="full left-align" required/> </p>
+                                        <p>3. Likes and dislikes <input type="text" name="grammar127-3" class="full left-align" required/> </p>
+                                        <p>4. Age <input type="text" name="grammar127-4" class="full left-align" required/> </p>
+                                        <p>5. Marital Status <input type="text" name="grammar127-5" class="full left-align" required/> </p>
+                                        <p>6. Favorites<input type="text" name="grammar127-6" class="full left-align" required/> </p>
+                                    
+                                    </p>
+                                </div>
                             
                             <div class="clear"></div>
 
