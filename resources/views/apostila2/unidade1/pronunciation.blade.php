@@ -18,34 +18,34 @@
                 </audio>
                 <div class="clear"></div>
                 <h5>A - Contractions: Practice the pronunciation of contracted form x non-contracted forms.</h5>
-                <div class="umterco">
-                    <table class="tabelaVerdeEscuro">
-                        <tr>
-                            <td>I am a ...</td>
-                            <td>I'm a ...</td>
-                        </tr>
-                        <tr>
-                            <td>He is an...</td>
-                            <td>He's an...</td>
-                        </tr>
-                        <tr>
-                            <td>You are an...</td>
-                            <td>You're an...</td>
-                        </tr>
-                        <tr>
-                            <td>We are in...</td>
-                            <td>We're in...</td>
-                        </tr>
-                        <tr>
-                            <td>They are on...</td>
-                            <td>They’re on...</td>
-                        </tr>
-                        <tr>
-                            <td>Isn't …</td>
-                            <td>Aren't...</td>
-                        </tr>
-                    </table>
-                </div>                
+                
+                <table class="metade center-align">
+                    <tr>
+                        <td><p>I am a ...</p></td>
+                        <td><p>I'm a ...</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>He is an...</p></td>
+                        <td><p>He's an...</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>You are an...</p></td>
+                        <td><p>You're an...</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>We are in...</p></td>
+                        <td><p>We're in...</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>They are on...</p></td>
+                        <td><p>They’re on...</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Isn't …</p></td>
+                        <td><p>Aren't...</p></td>
+                    </tr>
+                </table>
+                              
 			</div>
 		</div>
     </main>

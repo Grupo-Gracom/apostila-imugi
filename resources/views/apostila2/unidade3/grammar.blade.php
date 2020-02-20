@@ -20,19 +20,47 @@
                 <div class="clear"></div>     
                 
                 <h5 class="barlow" style="margin-top: 16px">A - SIMPLE PRESENT</h5>
-                <p>Simple present refers to <b>facts</b> or <b>repeated actions</b>in the present.</p>
+                <p>Simple present refers to <b>facts</b> or <b>repeated actions </b>in the present.</p>                
                 
-                <div class="metade center-align">
-                    <table tabelaVerdeEscuro>
-                        <tr>
-                            <th coldspan="2" class="barlow">HE – SHE – IT (3rd person)(+)</th>
-                        </tr>
-                        <tr>
-                            <td><p>Works</p></td>
-                            <td><p>Reads</p></td>
-                        </tr> 
-                    </table>
-                </div>
+                <table class="metade center-align">
+                    <tr>
+                        <td colspan="2" class="barlow"><p>HE – SHE – IT (3rd person)(+)</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Works</p></td>
+                        <td><p>Reads</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Goes</p></td>
+                        <td><p>Fixes</p></td>
+                    </tr> 
+                    <tr>
+                        <td><p>Plays</p></td>
+                        <td><p>Studies</p></td>
+                    </tr> 
+                    <tr>
+                        <td><p>Washes</p></td>
+                        <td><p>Watches</p></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="barlow"><p>Has</p></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><p>For (-) and (?) use DOES.</p></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><p>(+) She studies Vusual Art.</p></td>
+                    </tr>                    
+                    <tr>
+                        <td colspan="2"><p>(?) Does she study Visual Art?</p></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><p>(-) She does not study Visual Art.</p></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><p>*does + not = doesn’t</p></td>
+                    </tr>         
+                </table>                
 
                 <h5 class="barlow" style="margin-top: 16px">A - SUBJECT PRONOUNS X POSSESSIVE ADJECTIVE.</h5>
 
