@@ -20,15 +20,15 @@
 				<h5 class="barlow" style="margin-top: 16px">A - ROUTINE VERBS</h5>
 
 				<ul class="lista-inline">
-					<li><b>Work</b></li>
-					<li><b>Go</b></li>
-					<li><b>Do</b></li>
-					<li><b>Wake up </b></li>
-					<li><b>Send</b></li>
-					<li><b>Answer</b></li>
-					<li><b>Ask</b></li>
-					<li><b>Use</b></li>
-					<li><b>Finish</b></li>
+					<li><b>WORK</b></li>
+					<li><b>GO</b></li>
+					<li><b>DO</b></li>
+					<li><b>WAKE UP</b></li>
+					<li><b>SEND</b></li>
+					<li><b>ANSWER</b></li>
+					<li><b>ASK</b></li>
+					<li><b>USE</b></li>
+					<li><b>FINISH</b></li>
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">B - LIKES AND DISLIKES</h5>
@@ -52,14 +52,14 @@
 				<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT</h5>
 				
 				<ul class="lista-inline">
-					<li><b>Annoy</b></li>
-					<li><b>Challenge</b></li>
-					<li><b>Many</b></li>
-					<li><b>Every</b></li>
-					<li><b>Bored</b></li>
-					<li><b>Meet</b></li>
-					<li><b>Change</b></li>
-					<li><b>Always</b></li>
+					<li><b>ANNOY</b></li>
+					<li><b>CHALLENGE</b></li>
+					<li><b>MANY</b></li>
+					<li><b>EVERY</b></li>
+					<li><b>BORED</b></li>
+					<li><b>MEET</b></li>
+					<li><b>CHANGE</b></li>
+					<li><b>ALWAYS</b></li>
 				</ul>
 				
 			</div>
