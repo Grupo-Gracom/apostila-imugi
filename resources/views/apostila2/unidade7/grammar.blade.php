@@ -9,19 +9,51 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade6" data-etapa="grammar">
-				<h3 class="barlow">UNIT 6 </h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade7" data-etapa="grammar">
+				<h3 class="barlow">UNIT 7 </h3>
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit7/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
-                    <h5 class="barlow" style="margin-top: 16px">3.1 - WH - QUESTIONS</h5>
-                    <table class="metade">
-                        <thead class="corpoTabela">
-                            <tr><th class="tituloTabela" colspan="3"><b>Verb to Be<b></th></tr>
+                    <h5 class="barlow" style="margin-top: 16px">A - PRESENT CONTINUOUS</h5>
+                    <table class="metade center-align">
+                        <tr>
+                            <td><h5 class="barlow">Subject</h5></td>
+                            <td><h5 class="barlow">Am/are/is</h5></td>
+                            <td><h5 class="barlow">Verb</h5></td>
+                            <td><h5 class="barlow">Action in progress</h5></td>
+                        </tr>
+                        <tr>
+                            <td><p>Akira</p></td>
+                            <td><p>is</p></td>
+                            <td><p>develop</p></td>
+                            <td><p>Akira <b>is</b> developing a new game.</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>I</p></td>
+                            <td><p>am</p></td> 
+                            <td><p>design</p></td>
+                            <td><p>I am designing a new magazine.</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>They</p></td>
+                            <td><p>are</p></td>
+                            <td><p>Watch</p></td>
+                            <td><p>They are watching tutorials on youtube</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>She</p></td>
+                            <td><p>is</p></td>
+                            <td><p>Plan</p></td>
+                            <td><p>She is planning to take another course.</p></td>
+                        </tr>
+                    </table> 
+                    <h5 class="barlow" style="margin-top: 16px">B - YES/NO QUESTION – WH-QUESTIONS</h5>
+                    <table class="metade center-align">
+                            <tr><td class="tituloTabela" colspan="3"><b>Verb to Be<b></td></tr>
                             <tr>
                                 <td><b>What's</b> your favorite hobby?</td>
                                 <td><b>My favorite hobby</b> is drawing wizards</td>
@@ -50,8 +82,7 @@
                                 <td>I like to play <b>BF4</b>.</td>
                             </tr>
                         </tfoot>
-                    </table>    
-
+                    </table> 
                     <div class="metade" style="margin-top: 36px">
                         <figure>
                             <img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="gamer">

@@ -26,7 +26,7 @@
 				<p><b>Gleen :</b> Great Laura. Go ahead.</p>
 				<p>
 					<b>Laura :</b> Guys, the first thing I do is to decide with my client what type of video he needs. Second,I prepare a story board and discuss the details with the client. Then we list everything
-					we need. The takes, the scenarios, the people involved, material , scripts and etc. When
+					we need. The takes, the scenarios, the people involved, material, scripts and etc. When
 					the material is ready, it’s time to plan how we are going to work on the video. I decide what
 					softwares and effects I want to use. Zooming, Fading, Rotating, special effects like shades,
 					different colors, backgrounds and etc. I apply all these tools and effects and finish the video.
@@ -43,9 +43,9 @@
 					is the way we develop the games.
 				</p>
 				<p>
-					<b>Gleen :</b> Guys , you rock. That’s is for today. Next class we’re going to talk about your
+					<b>Gleen :</b> Guys, you rock. That’s is for today. Next class we’re going to talk about your
 					current jobs. Things that you are producing, creating or developing ok. See you
-					tomorrow folks
+					tomorrow folks.
 				</p>
 				<div class="metade" style="margin-top: 36px">
 					<figure>

@@ -312,6 +312,14 @@ Route::get('/apostila2/unidade6/pronunciation', 'Apostila2Controller@unidade6Pro
 Route::get('/apostila2/unidade6/listening', 'Apostila2Controller@unidade6Listening')->name('apostila2/unidade6/listening');
 Route::get('/apostila2/unidade6/understanding', 'Apostila2Controller@unidade6Understanding')->name('apostila2/unidade6/understanding');
 
+//UNIDADE 7
+Route::get('/apostila2/unidade7/vocabulary', 'Apostila2Controller@unidade7Vocabulary')->name('apostila2/unidade7/vocabulary');
+Route::get('/apostila2/unidade7/conversation', 'Apostila2Controller@unidade7Conversation')->name('apostila2/unidade7/conversation');
+Route::get('/apostila2/unidade7/grammar', 'Apostila2Controller@unidade7Grammar')->name('apostila2/unidade7/grammar');
+Route::get('/apostila2/unidade7/pronunciation', 'Apostila2Controller@unidade7Pronunciation')->name('apostila2/unidade7/pronunciation');
+Route::get('/apostila2/unidade7/listening', 'Apostila2Controller@unidade7Listening')->name('apostila2/unidade7/listening');
+Route::get('/apostila2/unidade7/understanding', 'Apostila2Controller@unidade7Understanding')->name('apostila2/unidade7/understanding');
+
 /*****************************************************************************************************************************************/
 
 /* ROTAS PARA O CRUD APOSTILA 01 */
@@ -605,6 +613,14 @@ Route::post('/apostila2/unidade6/listening/respostas', 'RespostaController@store
 Route::get('/apostila2/unidade6/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
 Route::post('/apostila2/unidade6/understanding/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidade6/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+
+//UNIDADE 7
+Route::post('/apostila2/unidade7/grammar/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade7/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade7/listening/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade7/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade7/understanding/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade7/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
 
 //Route::get('/admin', ['as'=>'admin','uses'=>'AdminController@index']);
