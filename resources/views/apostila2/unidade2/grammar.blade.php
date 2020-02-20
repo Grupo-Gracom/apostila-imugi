@@ -9,132 +9,119 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade1" data-etapa="grammar">
-				<h3 class="barlow">UNIT 1</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade2" data-etapa="grammar">
+				<h3 class="barlow">UNIT 2</h3>
 				<h5 class="barlow">3 – GRAMMAR</h5>
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>               
-                    
-                <div class="center-align">
-                    
+                <div class="clear"></div>     
+                
+                <h5 class="barlow" style="margin-top: 16px">A - WH QUESTIONS – WHAT – WHERE – WHO.</h5>
+                <p><b>What</b> – Used for <b>general questions.</b></p>
+                <p>Examples:</p>
+                <p><b>What</b> is your <b>full name? </b> / My full name is <b>Gleen Frey</b></p>
+                <p><b>What’s</b> your favorite <b>software?</b> / My favorite Software is<b> Photoshop.</b></p>
+                <p><b>Where</b> – Used for <b>questions about places.</b></p>
+                <p>Examples:</p>
+                <p><b>Where</b> is your book? / It is<b> in my backpack</b></p>
+                <p><b>Where</b> are your parents? / They are <b>in Europe.</b></p>
+                <p><b>Who</b> – Used for <b>questions about people.</b></p>
+                <p>Examples:</p>
+                <p><b>Who</b> is your favorite illustrator? / My favorite illustrator is<b> Paul.</b></p>
+                <p><b>Who</b>are you? / I am<b> Akira</b> The<b> new game Developer.</b></p>
+
+                <h5 class="barlow" style="margin-top: 16px">A - SUBJECT PRONOUNS X POSSESSIVE ADJECTIVE.</h5>
+
+
+                <div class="metade">
                     <table class="tabelaVerdeEscuro">
-                            <tr>
-                                <th><b>Affirmative</b></th>
-                            </tr>
-                            <tr>
-                                <td><b>I am </b>a video Maker.(I´m)</td>
-                            </tr>
-                            <tr>
-                                <td>You <b>are</b> a Game Developer.(You´re)</td>
-                            </tr>
-                            <tr>
-                                <td>He <b>is</b> a Youtuber.(He´s)</td>
-                            </tr>
-                            <tr>
-                                <td>She <b>is</b> in the office.(She´s)</td>
-                            </tr>
-                            <tr>
-                                <td>It <b>is</b> a nice software.(It´s)</td>
-                            </tr>
-                            <tr>
-                                <td>We <b>are</b> a very happy.(We´re)</td>
-                            </tr>
-                            <tr>
-                                <td>You <b>are</b> focused.(You´re)</td>
-                            </tr>
-                            <tr>
-                                <td>They <b>are</b> in New York.(They´re)</td>
-                            </tr>
+                        <tr>
+                            <th><b>Subject Pronoun</b></th>
+                        </tr>
+                        <tr>
+                            <td>I</td>
+                        </tr>
+                        <tr>
+                            <td>You</td>
+                        </tr>
+                        <tr>
+                            <td>He</td>
+                        </tr>
+                        <tr>
+                            <td>She</td>
+                        </tr>
+                        <tr>
+                            <td>It</td>
+                        </tr>
+                        <tr>
+                            <td>We</td>
+                        </tr>
+                        <tr>
+                            <td>You</td>
+                        </tr>
+                        <tr>
+                            <td>They</td>
+                        </tr>
                     </table>
                     
                     <table class="tabelaVerdeEscuro">
                         <tr>
-                            <th><b>Negative</b></th>
+                            <th><b>Possessive Adjective</b></th>
                         </tr>
                         <tr>
-                            <td>I<b> am not</b> a video Maker</td>
+                            <td>My</td>
                         </tr>
                         <tr>
-                            <td>You <b>are not</b> a...</td>
+                            <td>Your</td>
                         </tr>
                         <tr>
-                            <td>He <b>is not</b> a...</td>
+                            <td>His</td>
                         </tr>
                         <tr>
-                            <td>She  <b>is not</b> in...</td>
+                            <td>Her</td>
                         </tr>
                         <tr>
-                            <td>It <b>is not</b> a...</td>
+                            <td>Its</td>
                         </tr>
                         <tr>
-                            <td>We <b>are not</b>...</td>
+                            <td>Our</td>
                         </tr>
                         <tr>
-                            <td>You <b>are not</b>...</td>
+                            <td>Your</td>
                         </tr>
                         <tr>
-                            <td>They <b>are not</b>...</td>
+                            <td>Their</td>
                         </tr>
                     </table>
-                          
-                    <table class="tabelaVerdeEscuro">
-                        <tr>
-                            <th><b>Interrogative</b></th>
-                        </tr>
-                        <tr >
-                            <td><b>Am</b> I a video Maker ?</td>
-                        </tr>
-                        <tr >
-                            <td><b>Are</b> you a... ?</td>
-                        </tr>
-                        <tr >
-                            <td><b>Is</b> he a... ?</td>
-                        </tr>
-                        <tr >
-                            <td><b>Is</b> she in... ?</td>
-                        </tr>
-                        <tr >
-                            <td><b>Is</b> it a...?</td>
-                        </tr>
-                        <tr >
-                            <td><b>Are</b> we...?</td>
-                        </tr>
-                        <tr >
-                            <td><b>Are</b> you...?</td>
-                        </tr>
-                        <tr >
-                            <td><b>Are</b> they...?</td>
-                        </tr>
-                    </table>
-                                   
                 </div>
+                
+                             
 
-                <br>
+                <div class="clear"></div>
 
-                    <div class="clear"></div>
+                <h5 class="barlow" style="margin-top: 16px">B - DEMONSTRATIVE PRONOUNS</h5>
 
-                <div class="center-align">
-                    <table class="tabelaVerdeEscuro">
-                        <tr>
-                            <th style="background-color:white"></th>
-                            <th><b>Pronouns</b></th>
-                            <th><b>Verb</b></th>
-                        </tr>
-                        <tr>
-                            <th><b>Singular</b></th>
-                            <td>I – YOU – HE – SHE - IT</td>
-                            <td>AM – ARE – IS</td>
-                        </tr>
-                        <tr>
-                            <th><b>Plural</b></th>
-                            <td>WE – YOU - THEY</td>
-                            <td>ARE</td>
-                        </tr>
-                    </table>
+                <div class="umterco">
+                <table class="tabelaVerdeEscuro">
+                    <tr>
+                        <th style="background-color:white"></th>
+                        <th><b>Near</b></th>
+                        <th><b>Far</b></th>
+                    </tr>
+                    <tr>
+                        <th><b>Singular</b></th>
+                        <td>This</td>
+                        <td>That</td>
+                    </tr>
+                    <tr>
+                        <th><b>Plural</b></th>
+                        <td>These</td>
+                        <td>Those</td>
+                    </tr>
+                </table>
                 </div>
                                    
                 <div class="clear"></div>
