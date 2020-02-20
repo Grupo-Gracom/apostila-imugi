@@ -581,7 +581,6 @@
                         </li>
                     </ul>
                 </li>
-<<<<<<< HEAD
                 <li class="item" data-unidade="unidade3">
                     <a class="click submenu">
                         <i class="material-icons">folder</i> UNIT 3
@@ -597,9 +596,7 @@
                         </li>
                     </ul>
                 </li>
-=======
                 <!--UNIDADE 6-->
->>>>>>> 1fd843325d1058790d333400ebb045490369ae5e
                 <li class="item" data-unidade="unidade6">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 6
