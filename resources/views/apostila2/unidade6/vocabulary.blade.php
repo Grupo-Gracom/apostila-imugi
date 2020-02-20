@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/Unit6/Vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - PROFESSION RELATED VERBS.</h5>
-				<div class="unterco">
+				<div class="metade">
 					<ul class="lista-inline">
 						<li><b>Save</b></li>
 						<li><b>Copy</b></li>
@@ -38,9 +38,7 @@
 						<li><b>Color</b></li>
 						<li><b>Brainstorm</b></li>
 					</ul>
-				</div>
-				<h5 class="barlow" style="margin-top: 16px">B - ADJECTIVES X ADVERBS.</h5>
-				<div class="unterco">
+					<h5 class="barlow" style="margin-top: 16px">B - ADJECTIVES X ADVERBS.</h5>
 					<ul class="lista-inline">
 						<li><b>Good</b></li>
 						<li><b>Careful</b></li>
@@ -65,9 +63,7 @@
 						<li><b>Completely</b></li>
 						<li><b>Complete</b></li>
 					</ul>
-				</div>
-				<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT.</h5>
-				<div class="unterco">
+					<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT.</h5>
 					<ul class="lista-inline">
 						<li><b>Notes</b></li>
 						<li><b>All set</b></li>

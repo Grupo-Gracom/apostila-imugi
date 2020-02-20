@@ -9,38 +9,38 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade32" data-etapa="understanding">
-				<h3 class="barlow">UNIT 32 - VICTOR’S REVIEW</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade6" data-etapa="understanding">
+				<h3 class="barlow">UNIT 6</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade32understanding80" method="post">
+                    <form id="unidade6understanding129" method="post">
                         <p>
-                            1 -  What Is The Professor’s Personal Opinion About His Students?<br>
-                            <input type="text" name="understanding80-1" class="full left-align" required>
+                            1 -  What’s the first step Laura follows is her job?<br>
+                            <input type="text" name="understanding129-1" class="full left-align" required>
                         </p>
                         <p>
-                            2 -  What Does Victor Think The Students Need To Achieve Success?<br>
-                            <input type="text" name="understanding80-2" class="full left-align" required>
+                            2 -  What’s the last step of Laura’s Job?<br>
+                            <input type="text" name="understanding129-2" class="full left-align" required>
                         </p>
                         <p>
-                            3 -  What Tool Do You Use To Add Anitamted Effects To The Video?<br>
-                            <input type="text" name="understanding80-3" class="full left-align" required>
+                            3 -  What does she do after the all the material is ready?<br>
+                            <input type="text" name="understanding129-3" class="full left-align" required>
                         </p>
                         <p>
-                            4 - What Does The Key Frame Do?<br>
-                            <input type="text" name="understanding80-4" class="full left-align" required>
+                            4 - According to Akira, what does a good game have behind it?<br>
+                            <input type="text" name="understanding129-4" class="full left-align" required>
                         </p>
                         <p>
-                            5 - Is It Possible To Create Effects For Videos? How?<br>
-                            <input type="text" name="understanding80-5" class="full left-align" required>
+                            5 - When Does Akira start programming a game?<br>
+                            <input type="text" name="understanding129-5" class="full left-align" required>
                         </p>
                         
                     
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="32">
-                        <input type="hidden" name="atividade_id" value="80">
+                        <input type="hidden" name="unidade_id" value="6">
+                        <input type="hidden" name="atividade_id" value="129">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -55,21 +55,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade32understanding80").submit(function(e){
+        $("#unidade6understanding129").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade32understanding80 input[type="text"]').each(function(index){
-                if(($('#unidade32understanding80 input[type="text"]').length - 1) == index){
+            $('#unidade6understanding129 input[type="text"]').each(function(index){
+                if(($('#unidade6understanding129 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade32understanding80 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade32understanding80'), respostas);
+            if($('#unidade6understanding129 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade6understanding129'), respostas);
             }else{
-                enviarAtividade($('#unidade32understanding80'), respostas);
+                enviarAtividade($('#unidade6understanding129'), respostas);
             }
         });
 
@@ -89,11 +89,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade32understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade32understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade6understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade6understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade32understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade32understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade6understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade6understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
