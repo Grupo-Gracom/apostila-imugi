@@ -105,6 +105,9 @@ main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242
     width: 30%;
 }
 
+.tabelaVerde th{background-color:#15b449; color: white; border: none; font-size: 22px;}
+.tabelaVerde td{border: none;  font-size: 16px;}
+
 #unidade .tabelaVerdeEscuro {
     background-color: #15b449;
     color:white;
@@ -151,6 +154,11 @@ main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242
 #gramar18VerdeEscuro p b{color:white; margin-bottom: 1px; margin: 0.3em;}
 .versus{text-align: center; margin: 50% ; background-color: #dddddd; }
 #unidade20understanding56 form {padding-right: 26px;}
+.bordaSilples{border: solid 2px black; position: 16px; width: 55%; padding: 5px;}
+.marginCustomizada{margin-bottom: 3px;}
+.tabelaGramar11 {width: 60%;}
+/* #tabelaGramar12 {width: 80%;} */
+
 
 /* header .perfil{min-width: 250px;position: absolute;top: 0;right: 0;}
 header .perfil .infos{height: 70px;padding: 15px 16px;overflow: hidden;box-sizing: border-box;}

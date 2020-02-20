@@ -9,34 +9,45 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade6" data-etapa="listening">
-				<h3 class="barlow">UNIT 01 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION</h3>
-                <h5 class="barlow">5 - LISTENING</h5>
-                <span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
-                </audio>
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen and write the words you hear on the lines.</h5>
-                <p>Graphic design is an important <b>tool</b> that enhances how you <b>communicate</b> with people. It is used to <b>transmit</b> ideas in an effective and beautiful way. Professionally designed graphics cause positive opinions about your <b>product</b> , service or <b>brand</b>.</p>
-                <h5 class="barlow" style="margin-top: 16px">B - List the professionals who use Photoshop.</h5>
-                <p>Photoshop is an important tool used by many professionals of different areas. It is extremely important for photographers, web designers, game designers, illustrators and many others.</p>
-                <span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/listining/listining_b.ogg') }}" type="audio/ogg">
-                </audio>
-                <div class="clear"></div>
-                <form id="unidade1listening4" method="post">
-                    <p>1 - <input type="text" name="listening4-1" required></p>
-                    <p>2 - <input type="text" name="listening4-2" required></p>
-                    <p>3 - <input type="text" name="listening4-3" required></p>
-                    <p>4 - <input type="text" name="listening4-4" required></p>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade12" data-etapa="understanding">
+				<h3 class="barlow">UNIT 11</h3>
+				<h5 class="barlow">6 - UNDERSTANDING</h5>                
+                <form id="unidade11understanding152" method="post">
+                    <p>
+                        1 - What’s Gleen’s opinion about Mr. Smith presentation?<br>
+                        <input type="text" name="understanding152-1" class="full left-align" required>
+                    </p>
+                    <p>
+                        2 - What is Laura doing at the moment?<br>
+                        <input type="text" name="understanding152-2" class="full left-align" required>
+                    </p>
+                    <p>
+                        3 - How many possible jobs Does Laura have?<br>
+                        <input type="text" name="understanding152-3" class="full left-align" required>
+                    </p>
+                    <p>
+                        4 - What are Akira’s plans?<br>
+                        <input type="text" name="understanding152-4" class="full left-align" required>
+                    </p>
+                    <p>
+                        5 - What is João’s personal opinion about Photoshop?<br>
+                        <input type="text" name="understanding152-5" class="full left-align" required>
+                    </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="4">
+                    <input type="hidden" name="unidade_id" value="11">
+                    <input type="hidden" name="atividade_id" value="152">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
+                <div class="metade esquerda">
+                    <figure>
+                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
+                    </figure>
+                </div>
+                <div class="metade direita">
+                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
+                </div>
+
 			</div>
 		</div>
     </main>
@@ -48,21 +59,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1listening4").submit(function(e){
+        $("#unidade11understanding152").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1listening4 input[type="text"]').each(function(index){
-                if(($('#unidade1listening4 input[type="text"]').length - 1) == index){
+            $('#unidade11understanding152 input[type="text"]').each(function(index){
+                if(($('#unidade11understanding152 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1listening4 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1listening4'), respostas);
+            if($('#unidade11understanding152 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade11understanding152'), respostas);
             }else{
-                enviarAtividade($('#unidade1listening4'), respostas);
+                enviarAtividade($('#unidade11understanding152'), respostas);
             }
         });
 
@@ -82,11 +93,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade11understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade11understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade11understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade11understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

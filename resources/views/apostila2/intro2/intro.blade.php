@@ -9,11 +9,11 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="bem-vindo" class="box">
+			<div id="bem-vindo" class="box" data-apostila="apostila2" data-unidade="intro2" data-etapa="intro">
 			<figure>
 					<img src="{{ asset('assets/img/playgo/intro/bg-intro.jpg') }}" alt="">
 				</figure>
-				<h3 class="barlow">Seja Bem Vindo Ao Play GO</h3>
+				<h3 class="barlow">Seja Bem Vindo Ao Dominating</h3>
 				<div class="bem-vindo-video">
 					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="{{ asset('assets/video/intro_playgo.mp4') }}" style="width:100%;"></video>
 				</div>
@@ -29,4 +29,8 @@
 
 	</main>
 
+	<script>
+        activeMenu();
+	</script>
+	
 @endsection
