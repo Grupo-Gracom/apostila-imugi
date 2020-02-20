@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 6 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -53,11 +53,7 @@
                         <input type="hidden" name="atividade_id" value="82">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                </div>                
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
                 </div>
-
 			</div>
 		</div>
     </main>

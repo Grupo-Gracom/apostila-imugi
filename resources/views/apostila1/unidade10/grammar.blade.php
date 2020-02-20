@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 10 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -16,7 +16,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <p>GERUND</p>
+                <h5 class="barlow">GERUND</h5>
                 <p>OBSERVE HOW WHEN AN ACTION IS REPRESENTED AS AN ACTIVITY, “ING” IS ADDED TO THE END OF IT.</p>
                 <ul class="lista-inline">
 					<li><b>SINGING</b></li>

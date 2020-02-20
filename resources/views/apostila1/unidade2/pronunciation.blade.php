@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 11 | Grammar')
+@section('titulo','Unit 2 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,44 +9,35 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade11" data-etapa="grammar">
-				<h3 class="barlow">UNIT 11 - COLOR TOOLS</h3>
-				<h5 class="barlow">3 - GRAMAR</h5>
+			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade2" data-etapa="pronunciation">
+				<h3 class="barlow">UNIT 02 - INTRODUCTION TO PHOTOSHOP</h3>
+				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit11/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit2/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                <ul>
-                   <p><b>PRESENT CONTINUOUS</b></p>
-                   <p>STRUCTURE</p>
-                   <p><b>AFFIRMATIVE:</b> SUBJECT + TO BE + VERB + ING</p>
-                   <p>EXAMPLE: I AM WORKING</p>
-                   <p><b>INTERROGATIVE:</b> TO BE + SUBJECT + VERB + ING</p>
-                   <p>EXAMPLE: ARE YOU STUDYING?</p>
-                   <p><b>NEGATIVE:</b> SUBJECT + TO BE + NOT + VERB + ING</p>
-                   <p>EXAMPLE: SHE IS NOT GOING.</p>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to your teacher and repeat the words to practice the pronunciation of words with the letter ‘R’.</h5>
+				<ul class="lista-inline">
+                    <li><b class="upper">For</b></li>
+                    <li><b class="upper">Designer</b></li>
+                    <li><b class="upper">Importance</b></li>
+                    <li><b class="upper">Photographer</b></li>
+                    <li><b class="upper">Great</b></li>
+                    <li><b class="upper">Brother</b></li>
                 </ul>
-                </div>
-                
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - USE THE VERBS IN PARENTHESIS IN THE PRESENT CONTINUOUS FORM TO COMPLETE THE SENTENCES.</h5>
-				<form id="unidade11grammar33" method="post">
-                        <p>1. ADAM <input type="text" name="grammar33-1" required/>  (develop) a birthday card for his friend. (affirmative)</p>
-                        <p>2. <input type="text" name="grammar33-2" required/> ADAM <input type="text" name="grammar33-3" required/> (create) a card for a friend? (interrogative)</p>
-                        <p>3. ADAM <input type="text" name="grammar33-4" required/>  (make) a birthday card for his friend. (negative)</p>
-                        <p>4. Bia <input type="text" name="grammar33-5" required/>  (teach) ADAM to use color tools. (affirmative)</p>
-                        <p>5. <input type="text" name="grammar33-6" required/> Bia <input type="text" name="grammar33-7" required/>  (help) ADAM with the birthday card? (interrogative)</p>
-                        <p>6. Bia <input type="text" name="grammar33-8" required/>   (talk) to ADAM about color tools. (negative)</p>
-                    
-                    <div class="clear"></div>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="11">
-                    <input type="hidden" name="atividade_id" value="33">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+                <h5 class="barlow" style="margin-top: 16px">B - Listen to your teacher and repeat the words to practice the pronunciation of words with the letter ‘P’.</h5>
+                <ul class="lista-inline">
+                    <li><b class="upper">Production</b></li>
+                    <li><b class="upper">Professional</b></li>
+                    <li><b class="upper">Professor</b></li>
+                    <li><b class="upper">Develop</b></li>
+                    <li><b class="upper">Photoshop</b></li>
+                    <li><b class="upper">Profession</b></li>
+                </ul>
+                <h5 class="barlow" style="margin-top: 16px">C - Now, read the sentence below to check your understanding.</h5>
+                <div class="espacamento">
+                    <p>“Photoshop, for professionals of graphic production, is of great importance.”</p>
                 </div>
 			</div>
 		</div>
@@ -59,25 +50,23 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade11grammar33").submit(function(e){
+        $("#unidade2listening9").submit(function(e){
             e.preventDefault();
-            $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade11grammar33 input[type="text"]').each(function(index){
-                if(($('#unidade11grammar33 input[type="text"]').length - 1) == index){
+            $('#unidade2listening9 input[type="text"]').each(function(index){
+                if(($('#unidade2listening9 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade11grammar33 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade11grammar33'), respostas);
+            if($('#unidade2listening9 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade2listening9'), respostas);
             }else{
-                enviarAtividade($('#unidade11grammar33'), respostas);
+                enviarAtividade($('#unidade2listening9'), respostas);
             }
         });
 
-        
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,
@@ -94,11 +83,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade11grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade11grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade2listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade2listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade11grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade11grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade2listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade2listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

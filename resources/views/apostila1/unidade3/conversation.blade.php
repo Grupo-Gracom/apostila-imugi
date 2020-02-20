@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 3 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -16,13 +16,15 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit3/conversation/uni3convers.ogg') }}" type="audio/ogg">
 				</audio>
-
-				<p style="margin-top: 16px"><b>Professor Sophia Jones :</b> Good morning Class! It is very nice to meet you all! I am Professor Sophia Jones, but please call me Sophia. I am originally from the United States. I’m 27 years old and I am a professional fashion photographer. My hobby is wildlife photography.</p>
-				<p><b>Professor Sophia Jones :</b> Do you know why a photographer is teaching you a Photoshop class?</p>
-				<p><b>Klaus :</b> Is it because you need Photoshop to edit your photos, teacher?</p>
-				<p><b>Professor Sophia Jones :</b> Exactly Klaus! My work is published in magazines and websites, so it is very important for me to know how to use tools for editing.</p>
-				<p><b>Katia :</b> Teacher, why do you prefer Photoshop to diff erent programs?</p>
-				<p><b>Professor Sophia Jones :</b> Good questi on, Kati a! I choose to use Photoshop because it off ers the most advanced and complete editi ng tools.</p>
+				<div class="clear"></div>
+				<div class="espacamento">
+					<p><b>Professor Sophia Jones :</b> Good morning Class! It is very nice to meet you all! I am Professor Sophia Jones, but please call me Sophia. I am originally from the United States. I’m 27 years old and I am a professional fashion photographer. My hobby is wildlife photography.</p>
+					<p><b>Professor Sophia Jones :</b> Do you know why a photographer is teaching you a Photoshop class?</p>
+					<p><b>Klaus :</b> Is it because you need Photoshop to edit your photos, teacher?</p>
+					<p><b>Professor Sophia Jones :</b> Exactly Klaus! My work is published in magazines and websites, so it is very important for me to know how to use tools for editing.</p>
+					<p><b>Katia :</b> Teacher, why do you prefer Photoshop to different programs?</p>
+					<p><b>Professor Sophia Jones :</b> Good question, Katia! I choose to use Photoshop because it offers the most advanced and complete editing tools.</p>
+				</div>
 				<figure class="full">
 					<img src="{{ asset('assets/img/playgo/unit3/ilust_03.jpg') }}" alt="Garotos festejando">
 				</figure>

@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 15 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -51,7 +51,6 @@
                             9 - Is Layout Development A Simple Process In Akira’s Opinion?<br>
                             <input type="text" name="understanding44-7" class="full left-align" required>
                         </p>
-                        
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="15">
@@ -60,9 +59,9 @@
                     </form>
                 </div>
                 <div class="metade" style="margin-top: 36px">
-                        <figure>
-                            <img src="{{ asset('assets/img/playgo/unit5/pagina-1.png') }}" alt="Garotos festejando">
-                        </figure>
+                    <figure>
+                        <img src="{{ asset('assets/img/playgo/unit5/pagina-1.png') }}" alt="Garotos festejando">
+                    </figure>
 				</div>
 			</div>
 		</div>

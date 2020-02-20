@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 4 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -18,26 +18,25 @@
                 </audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen and answer the questions.</h5>
-                <ul>
+                <div class="espacamento">
                     <p><b>Hello. My name is Pong. I am from Australia.</b></p>
                     <p><b>Hi. I am Jessica. I was born in the United States.</b></p>
                     <p><b>Hey there! My name is Nicolas, but my friends call me Nick. I’m from England.</b></p>
-                </ul>
+                </div>
                 <div class="metade">
                     <form id="unidade4listening16" method="post">
                         <p>
-                            1. What is Nicolas’ nationality?<br>
-                            <input type="text" name="listening16-1" class="full left-align" required>
+                            1 - What is Nicolas’ nationality?<br>
+                            <input type="text" name="listening16-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2. Where is Pong from?<br>
-                            <input type="text" name="listening16-2" class="full left-align" required>
+                            2 - Where is Pong from?<br>
+                            <input type="text" name="listening16-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3. Where was Jessica born?<br>
-                            <input type="text" name="listening16-3" class="full left-align" required>
+                            3 - Where was Jessica born?<br>
+                            <input type="text" name="listening16-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-            
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="4">

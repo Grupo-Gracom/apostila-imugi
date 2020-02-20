@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 31 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -43,7 +43,6 @@
                             7 - In Addition To Videos, What Else Can You Add This Effect To?<br>
                             <input type="text" name="understanding78-7" class="full left-align" required>
                         </p>
-                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="31">

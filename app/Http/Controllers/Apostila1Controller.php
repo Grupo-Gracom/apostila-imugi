@@ -45,8 +45,14 @@ class Apostila1Controller extends Controller
     public function unidade2Vocabulary(){
         return view('apostila1/unidade2/vocabulary');
     }
+    public function unidade2Conversation(){
+        return view('apostila1/unidade2/conversation');
+    }
     public function unidade2Grammar(){
         return view('apostila1/unidade2/grammar');
+    }
+    public function unidade2Pronunciation(){
+        return view('apostila1/unidade2/pronunciation');
     }
     public function unidade2Listening(){
         return view('apostila1/unidade2/listening');

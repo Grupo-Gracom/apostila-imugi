@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 14 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -25,9 +25,8 @@
                 <div class="clear"></div>
                 <h5 class="barlow upper" style="margin-top: 16px">1 - My Friend Is Great At Photoshopping. I’m Not Great At It.</h5>
 				<form id="unidade14grammar39" method="post">
-                    <p>A. <input type="radio" name="grammar-39-1" value="1" required/> FRIEND</P>
-                    <p>B. <input type="radio" name="grammar-39-1" value="2" required/> PHOTOSHOPPING</P>
-                    
+                    <p>A. <input type="radio" name="grammar-39-1" value="1" required/> FRIEND</p>
+                    <p>B. <input type="radio" name="grammar-39-1" value="2" required/> PHOTOSHOPPING</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -37,8 +36,8 @@
                 </form>
                 <h5 class="barlow" style="margin-top: 16px">2 - COLOR TOOLS AND TYPOGRAPHY TOOLS ARE IMPORTANT. BUT THE FIRST ARE MORE IMPORTANT TO ME.</h5>
                 <form id="unidade14grammar40" method="post">
-                    <p>A. <input type="radio" name="grammar40-1" value="1" required/> COLOR TOOLS</P>
-                    <p>B. <input type="radio" name="grammar40-1" value="2" required/> TYPOGRAPHY TOOLS</P>
+                    <p>A. <input type="radio" name="grammar40-1" value="1" required/> COLOR TOOLS</p>
+                    <p>B. <input type="radio" name="grammar40-1" value="2" required/> TYPOGRAPHY TOOLS</p>
                     
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">

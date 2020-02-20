@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 16 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -72,10 +72,6 @@
                         <img src="{{ asset('assets/img/playgo/unit16/U16.jpg') }}" alt="">
                     </figure>
                 </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
-
 			</div>
 		</div>
     </main>
