@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 3 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -20,7 +20,7 @@
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and complete the text with the missing words.</h5>
                 <div class="metade">
                     <form id="unidade3listening13" method="post">
-                        <textarea name="listening13-1">Photoshop is fundamental in photo editi ng because even with quality lenses, cameras and lighti ng, the pictures never represent the reality of the image. So, it is necessary to use editi ng soft ware to make photos more realisti c and att racti ve to people.</textarea>
+                        <textarea name="listening13-1">Photoshop is fundamental in photo editing because even with quality lenses, cameras and lighting, the pictures never represent the reality of the image. So, it is necessary to use editing software to make photos more realistic and attractive to people.</textarea>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="3">

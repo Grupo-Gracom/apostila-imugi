@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 19 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -18,7 +18,7 @@
                         <input type="text" name="understanding53-1" class="full left-align" required>
                     </p>
                     <p>
-                        2 - How Is Marciel Practi cing What He Is Studying In The Classes With Akira?<br>
+                        2 - How Is Marciel Practicing What He Is Studying In The Classes With Akira?<br>
                         <input type="text" name="understanding53-2" class="full left-align" required>
                     </p>
                     <p>

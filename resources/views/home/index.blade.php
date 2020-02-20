@@ -10,7 +10,7 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="bem-vindo" class="box">
-			<figure>
+				<figure>
 					<img src="{{ asset('assets/img/playgo/intro/bg-intro.jpg') }}" alt="">
 				</figure>
 				<h3 class="barlow">Seja Bem Vindo Ao Play GO</h3>

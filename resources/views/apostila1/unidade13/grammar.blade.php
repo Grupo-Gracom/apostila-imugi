@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 13 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -18,7 +18,6 @@
                 </audio>
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
-                <ul>
                    <p><b>SIMPLE PAST (REGULAR VERBS)</b></p>
                    <p>THE SIMPLE PAST IS USED TO TALK ABOUT AN ISOLATED ACTION IN THE PAST.</p>
                    <p>STRUCTURE</p>
@@ -28,10 +27,7 @@
                    <p>EXAMPLE: DID YOU CREATE A CUSTOM FONT?</p>
                    <p><b>(NEGATIVE):</b>  SUBJECT + DID + NOT + VERB</p>
                    <p>EXAMPLE: I DIDN’T CREATE A CUSTOM FONT.</p>
-                </ul>
                 </div>
-                
-                <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Change The Sentences To The Other Two Forms Not Given.</h5>
 				<form id="unidade13grammar37" method="post">
                     <p> 
@@ -48,7 +44,6 @@
                             </p>
                         </div>
                     </p>
-
                     <p style="margin-top: 36px"> 
                         <div class="metade">
                             <p>
@@ -65,7 +60,6 @@
                             </p>
                         </div>
                     </p>
-
                     <p style="margin-top: 36px"> 
                         <div class="metade">
                             <p>
@@ -80,7 +74,6 @@
                         <p><b>NEGATIVE:</b></p>
                         <p class="upper">We Didn’t Listen To The Teacher.</p>
                     </p>
-
                     <p style="margin-top: 36px"> 
                             <p>
                                 4. <b>AFFIRMATIVE:</b> 
@@ -97,7 +90,6 @@
                             <p><input type="text" name="grammar37-8" class="left-align full" required/></p>
                         </div>
                     </p>
-
                     <p style="margin-top: 36px"> 
                         <div class="metade">
                             <p>
@@ -114,7 +106,6 @@
                             <p><input type="text" name="grammar37-10" class="left-align full" required/></p>
                         </div>
                     </p>
-                    
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

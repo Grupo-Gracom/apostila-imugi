@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 27 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -47,7 +47,6 @@
                             8 - What Can You Change In The Video With Photoshop?<br>
                             <input type="text" name="understanding70-8" class="full left-align" required>
                         </p>
-                        
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="27">

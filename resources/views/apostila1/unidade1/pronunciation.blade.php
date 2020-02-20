@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 1 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -37,7 +37,9 @@
                     <li><b class="upper">Introduction</b></li>
                 </ul>
                 <h5 class="barlow" style="margin-top: 16px">C - Read the following sentence to practice pronunciation. Observe the underlined letters.</h5>
-                <p>Photoshop is for the edition of photos and other graphic designing production.</p>
+                <div class="espacamento">
+                    <p>Photoshop is for the edition of photos and other graphic designing production.</p>
+                </div>
 			</div>
 		</div>
     </main>

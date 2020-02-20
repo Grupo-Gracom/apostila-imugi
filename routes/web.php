@@ -32,7 +32,9 @@ Route::get('/apostila1/unidade1/understanding', 'Apostila1Controller@unidade1Und
 
 //UNIDADE 2
 Route::get('/apostila1/unidade2/vocabulary', 'Apostila1Controller@unidade2Vocabulary')->name('apostila1/unidade2/vocabulary');
+Route::get('/apostila1/unidade2/conversation', 'Apostila1Controller@unidade2Conversation')->name('apostila1/unidade2/conversation');
 Route::get('/apostila1/unidade2/grammar', 'Apostila1Controller@unidade2Grammar')->name('apostila1/unidade2/grammar');
+Route::get('/apostila1/unidade2/pronunciation', 'Apostila1Controller@unidade2Pronunciation')->name('apostila1/unidade2/pronunciation');
 Route::get('/apostila1/unidade2/listening', 'Apostila1Controller@unidade2Listening')->name('apostila1/unidade2/listening');
 Route::get('/apostila1/unidade2/understanding', 'Apostila1Controller@unidade2Understanding')->name('apostila1/unidade2/understanding');
 

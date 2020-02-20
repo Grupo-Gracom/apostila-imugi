@@ -19,45 +19,41 @@
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
                     <h5 class="barlow" style="margin-top: 16px">A - PRESENT CONTINUOUS</h5>
-                    <div class="center-align metade">
-                    <table>
-                            <tr>
-                                <th><b>Subject<b></th>
-                                <th><b>Am/are/is<b></th>
-                                <th><b>Verb<b></th>
-                                <th><b>Action in progress<b></th>
-                            </tr>
-                            <tr>
-                                <td>Akira</td>
-                                <td>is</td>
-                                <td>develop</td>
-                                <td>Akira <b>is</b> developing a new game.</td>
-                            </tr>
-                            <tr>
-                                <td>I</td>
-                                <td>am</td> 
-                                <td>design</td>
-                                <td>I am designing a new magazine.</td>
-                            </tr>
-                            <tr>
-                                <td>They</td>
-                                <td>are</td>
-                                <td>Watch</td>
-                                <td>They are watching tutorials on youtube</td>
-                            </tr>
-                            <tr>
-                                <td>She</td>
-                                <td>is</td>
-                                <td>Plan</td>
-                                <td>She is planning to take another course.</td>
-                            </tr>
-                        </tbody>
+                    <table class="metade center-align">
+                        <tr>
+                            <td><h5 class="barlow">Subject</h5></td>
+                            <td><h5 class="barlow">Am/are/is</h5></td>
+                            <td><h5 class="barlow">Verb</h5></td>
+                            <td><h5 class="barlow">Action in progress</h5></td>
+                        </tr>
+                        <tr>
+                            <td><p>Akira</p></td>
+                            <td><p>is</p></td>
+                            <td><p>develop</p></td>
+                            <td><p>Akira <b>is</b> developing a new game.</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>I</p></td>
+                            <td><p>am</p></td> 
+                            <td><p>design</p></td>
+                            <td><p>I am designing a new magazine.</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>They</p></td>
+                            <td><p>are</p></td>
+                            <td><p>Watch</p></td>
+                            <td><p>They are watching tutorials on youtube</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>She</p></td>
+                            <td><p>is</p></td>
+                            <td><p>Plan</p></td>
+                            <td><p>She is planning to take another course.</p></td>
+                        </tr>
                     </table> 
-                    </div>   
                     <h5 class="barlow" style="margin-top: 16px">B - YES/NO QUESTION – WH-QUESTIONS</h5>
-                    <table class="metade">
-                        <thead class="corpoTabela">
-                            <tr><th class="tituloTabela" colspan="3"><b>Verb to Be<b></th></tr>
+                    <table class="metade center-align">
+                            <tr><td class="tituloTabela" colspan="3"><b>Verb to Be<b></td></tr>
                             <tr>
                                 <td><b>What's</b> your favorite hobby?</td>
                                 <td><b>My favorite hobby</b> is drawing wizards</td>

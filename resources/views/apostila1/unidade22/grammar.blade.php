@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 22 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -16,7 +16,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <p>Simple Past X Used To</p>
+                <h5 class="barlow">Simple Past X Used To</h5>
                 <p>The Difference Between Simple Past And Used To Is That The First Refers To An Isolated Action In The Past, While The Second Refers To An Action
                      That Repeated Many Times In The Past.</p>                                              
                 
