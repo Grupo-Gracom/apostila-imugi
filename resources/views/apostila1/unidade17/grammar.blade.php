@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 17 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -17,29 +17,25 @@
 					<source src="{{ asset('assets/audio/unit17/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio> 
                 <div class="clear"></div> <br>
-				<p>Verb To Be (Past)</p>
+				<h5 class="barlow">Verb To Be (Past)</h5>
                 <p>The Verb To Be Is An Irregular Verb. In The Past, It Has Two Forms.</p>
-                <p>Conjugation:</p>
-                <ul class="lista-inline">
-                    <div class="gramar17Verde">
-                        <p>i</p>
-                        <p>he</p>
-                        <p>she</p>
-                        <p>it</p>
-                    </div>
-                    <div class="gramar17VerdeEscuro">
-                        <p>WAS</p>                        
-                    </div>
-                    <div class="gramar17Verde">
-                        <p>YOU</p>
-                        <p>WE</p>
-                        <p>THEY</p>
-                        <p></p>
-                    </div>
-                    <div class="gramar17VerdeEscuro">
-                        <p>WHERE</p>                        
-                    </div>
-                </ul>
+                <h5 class="barlow">Conjugation:</n5>
+                <table class="metade center-align">
+                    <tr>
+                        <td><p><b>I</b></p></td>
+                        <td rowspan="3" style="vertical-align: middle;"><p><b>WAS</b></p></td>
+                        <td><p><b>YOU</b></p></td>
+                        <td rowspan="3" style="vertical-align: middle;"><p><b>WHERE</b></p></td>
+                    </tr>
+                    <tr>
+                        <td><p><b>HE / SHE</b></p></td>
+                        <td><p><b>WE</b></p></td>
+                    </tr>
+                    <tr>
+                        <td><p><b>IT</b></p></td>
+                        <td><p><b>THEY</b></p></td>
+                    </tr>
+                </table>
                 <p style="margin-top:16px;">STRUCTURE:</p>
                 <p>AFFIRMATIVE: SUBJECT + WAS/WERE</p>
                 <p>EXAMPLE: SHE WAS A GREAT STUDENT.</p>

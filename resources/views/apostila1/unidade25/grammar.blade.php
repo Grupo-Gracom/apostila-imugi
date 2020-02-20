@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 25 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -18,13 +18,13 @@
                 </audio>
                 
                 <h5 class="barlow">Past Continuous</h5>
-                <h5 class="barlow">The Past Continuous Tense Is Applied When Expressing An Action In Progress In The Past.</h5>
-                <p>STRUCTURE:</p>
-                <p>• AFFIRMATIVE: SUBJECT+ WAS/WERE+ VERB-ING.</p>
+                <p>The Past Continuous Tense Is Applied When Expressing An Action In Progress In The Past.</p>
+                <h5 class="barlow">Structure:</h5>
+                <p><b>AFFIRMATIVE :</b> SUBJECT+ WAS/WERE+ VERB-ING.</p>
                 <p>SHE WAS WORKING ON SUNDAY MORNING.</p>
-                <p>• INTERROGATIVE: WAS/WERE+ SUBJECT+VERB-ING?</p>
+                <p><b>INTERROGATIVE :</b> WAS/WERE+ SUBJECT+VERB-ING?</p>
                 <p>WERE THEY STUDYING FOR THE TEST YESTERDAY?</p>
-                <p>•NEGATIVE: SUBJECT+ WAS/WERE+ NOT+ VERB-ING.</p>
+                <p><b>NEGATIVE :</b> SUBJECT+ WAS/WERE+ NOT+ VERB-ING.</p>
                 <p>SHE WASN’T LISTENING WHEN THE TEACHER WAS TALKING.</p>               
 			</div>
 		</div>

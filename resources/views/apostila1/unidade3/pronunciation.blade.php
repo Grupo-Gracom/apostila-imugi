@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 3 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/unit3/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to and repeat the pronunciati on of the following words. Observe the pronunciati on of the lett er ‘L’.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to and repeat the pronunciation of the following words. Observe the pronunciation of the letter ‘L’.</h5>
 				<ul class="lista-inline">
                     <li><b class="upper">Wildlife</b></li>
                     <li><b class="upper">Original</b></li>
@@ -27,7 +27,7 @@
                     <li><b class="upper">Professional</b></li>
                     <li><b class="upper">All</b></li>
                 </ul>
-                <h5 class="barlow" style="margin-top: 16px">B - Listen to and repeat the pronunciati on of the following words. Pay att enti on to the pronunciati on of “CH”.</h5>
+                <h5 class="barlow" style="margin-top: 16px">B - Listen to and repeat the pronunciation of the following words. Pay attention to the pronunciation of “CH”.</h5>
                 <ul class="lista-inline">
                     <li><b class="upper">Choose</b></li>
                     <li><b class="upper">Teach</b></li>
@@ -36,8 +36,10 @@
                     <li><b class="upper">Change</b></li>
                     <li><b class="upper">Chat</b></li>
                 </ul>
-                <h5 class="barlow" style="margin-top: 16px">C - Listen to your teacher read the sentence, and then repeat it aft er him.</h5>
-                <p>I teach children to use professional Photoshop tools.</p>
+                <h5 class="barlow" style="margin-top: 16px">C - Listen to your teacher read the sentence, and then repeat it after him.</h5>
+                <div class="espacamento">
+                    <p>I teach children to use professional Photoshop tools.</p>
+                </div>
 			</div>
 		</div>
     </main>

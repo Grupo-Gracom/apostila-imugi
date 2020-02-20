@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 30 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -47,7 +47,6 @@
                             8 - Where Can You Find Most Tools To Add Effects To Your Video?<br>
                             <input type="text" name="understanding76-8" class="full left-align" required>
                         </p>
-                        
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="30">

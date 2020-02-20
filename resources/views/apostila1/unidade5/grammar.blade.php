@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 5 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -17,30 +17,38 @@
 					<source src="{{ asset('assets/audio/Unit5/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p style="text-align:center; margin-top: 36px;"><strong>COMPARATIVE</strong></p>
-				<ul class="lista-vertical metade esquerda center-align">
-                    <li><h5 class="barlow">Short adjectives</h5></li>
-                    <li>Dark - darker</li>
-                    <li>Bright - brighter</li>
-                    <li>Big - bigger</li>
-                    <li>Small - smaller</li>
-                </ul>
-                
-                <ul class="lista-vertical metade direita center-align">
-                    <li><h5 class="barlow">Long adjectives</h5></li>
-                    <li>Interesting - more interesting</li>
-                    <li>Intelligent - more intelligent</li>
-                    <li>Creative - more creative</li>
-                    <li>Patient - more patient</li>
-                </ul>
-                <div class="clear"></div>
+                <table class="metade center-align">
+                    <tr>
+                        <td colspan="2"><p><b>Comparative</b></p></td>
+                    </tr>
+                    <tr>
+                        <td><h5 class="barlow">Short adjectives</h5></td>
+                        <td><h5 class="barlow">Long adjectives</h5></td>
+                    </tr>
+                    <tr>
+                        <td><p>Dark - darker</p></td>
+                        <td><p>Interesting - more interesting</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Bright - brighter</p></td>
+                        <td><p>Intelligent - more intelligent</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Big - bigger</p></td>
+                        <td><p>Creative - more creative</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Small - smaller</p></td>
+                        <td><p>Patient - more patient</p></td>
+                    </tr>
+                </table>
                 <h5 class="barlow" style="margin-top: 16px">A - Complete the sentences using the correct comparative form of the adjectives in parenthesis.</h5>
 				<form id="unidade5grammar18" method="post">
-                        <p>1. Photoshop CC is <input type="text" name="grammar18-1" required/> (new) than CS6.</p>
-                        <p>2. 12 pixels are <input type="text" name="grammar18-2" required/> (big) than 5 pixels.</p>
-                        <p>3. This image is <input type="text" name="grammar18-3" required/> (bright) than the other</p>
-                        <p>4. That picture is <input type="text" name="grammar18-4" required/> (dark) than this one.</p>
-                        <p>5. Kate is <input type="text" name="grammar18-5" required/> (patient) than Carlos.</p>
+                    <p>1 - Photoshop CC is <input type="text" name="grammar18-1" placeholder="Responda aqui" required/> (new) than CS6.</p>
+                    <p>2 - 12 pixels are <input type="text" name="grammar18-2" placeholder="Responda aqui" required/> (big) than 5 pixels.</p>
+                    <p>3 - This image is <input type="text" name="grammar18-3" placeholder="Responda aqui" required/> (bright) than the other</p>
+                    <p>4 - That picture is <input type="text" name="grammar18-4" placeholder="Responda aqui" required/> (dark) than this one.</p>
+                    <p>5 - Kate is <input type="text" name="grammar18-5" placeholder="Responda aqui" required/> (patient) than Carlos.</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -48,27 +56,25 @@
                     <input type="hidden" name="atividade_id" value="18">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                
                 <h5 class="barlow">B - Correct the comparatives in the sentences.</h5>
                 <div class="metade">
                     <form id="unidade5grammar19" method="post">
                         <p>
                             1. That car is expensiver than the other.
-                            <input type="text" name="grammar19-1" class="full left-align" required/> 
+                            <input type="text" name="grammar19-1" class="full left-align" placeholder="Responda aqui" required/> 
                         </p>
                         <p>
                             2. An apartment is more small than a house. 
-                            <input type="text" name="grammar19-2" class="full left-align" required/>
+                            <input type="text" name="grammar19-2" class="full left-align" placeholder="Responda aqui" required/>
                         </p>
                         <p>
                             3. Sophia is more old than Carlos. 
-                            <input type="text" name="grammar19-3" class="full left-align" required/> 
+                            <input type="text" name="grammar19-3" class="full left-align" placeholder="Responda aqui" required/> 
                         </p>
                         <p>
                             4. Photoshop is interestinger than other programs. 
-                            <input type="text" name="grammar19-4" class="full left-align" required/>  
+                            <input type="text" name="grammar19-4" class="full left-align" placeholder="Responda aqui" required/>  
                         </p>
-            
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="5">

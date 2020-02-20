@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 7 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -16,9 +16,9 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit7/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio> 
-                <div class="clear"></div> <br>
-				<div class="lista-vertical metade center-align tabelaVerde">
-                    <div class="metade esquerda">                   
+                <div class="clear"></div>
+                <div class="metade esquerda tabelaVerde">                   
+                    <ul class="lista-vertical metade esquerda center-align">
                         <li>I REMEMBER</li>
                         <li>YOU ULTILIZE</li>
                         <li>WE NEED</li>
@@ -27,16 +27,16 @@
                         <li>Do you ultilize?</li>
                         <li>Do we need?</li>
                         <li>Do they give?</li>
-                    </div>
-                    <div class="metade direita">
-                    <li>HE REMEMBERS</li>
+                    </ul>
+                    <ul class="lista-vertical metade direita center-align">
+                        <li>HE REMEMBERS</li>
                         <li>SHE UTILIZES</li>
                         <li>IT NEED</li>
                         <li>HE/SHE/IT GIVES</li>
                         <li>Does he remember?</li>
                         <li>Does she utilize?</li>
                         <li>Does it need?</li>
-                    </div>
+                    </ul>
                     <div class="clear"></div>
                 </div> <br>               
                 <div class="clear"></div>

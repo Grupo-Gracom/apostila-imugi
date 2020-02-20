@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 7 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -17,9 +17,9 @@
 					<source src="{{ asset('assets/audio/Unit7/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div> <br>
-                <p>PLURAL WORDS</p>
+                <h5 class="barlow">PLURAL WORDS</h5>
                 <div class="umterco">
-                    <p>“Z” SOUND</p>
+                    <p><b>“Z” SOUND</b></p>
                     <p>(voice)</p>
                     <p>SAYS</p>
                     <p>PHOTOS</p>
@@ -27,7 +27,7 @@
                     <p>GIVES</p>                    
                 </div>
                 <div class="umterco">
-                    <p>“S” SOUND</p>
+                    <p><b>“S” SOUND</b></p>
                     <p>(no voice)</p>
                     <p>EDITS</p>
                     <p>NEEDS</p>
@@ -35,8 +35,7 @@
                     <p>UNDERSTANDS</p>                    
                 </div>
                 <div class="umterco">
-                    <p>“IZ” SOUND</p>
-                    <br> <br>
+                    <p><b>“IZ” SOUND</b></p>
                     <p>USES</p>
                     <p>UTILIZES</p>
                     <p>WATCHES</p>                    

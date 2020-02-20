@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 13 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -24,42 +24,35 @@
 					much time on it).
 				</p>
                 <h5 class="barlow" style="margin-top: 16px">A. Observe That “Ed” Someti mes Sounds Like A “T”, “D”, Or Just “Ed”. It Depends On The Use Of Your Voice At The End Of The Verb.</h5>
-				<div class="metade">
+				<div class="metade espacamento">
 					<div class="umterco">
-						<ul>
-							<p>/T/</p>
-							<p>WORKED</p>
-							<p>LIKED</p>
-							<p>HELPED</p>
-						</ul>
-						</div>
-						<div class="umterco">
-						<ul>
-							<p>/D/</p>
-							<p>SHOWED</p>
-							<p>LEARNED</p>
-							<p>PLAYED</p>
-						</ul>
-						</div>
-						<div class="umterco">
-						<ul>
-							<p>/ED/</p>
-							<p>WAITED</p>
-							<p>DECIDED</p>
-							<p>WANTED</p>
-						</ul>
+						<p><b>/T/</b></p>
+						<p>WORKED</p>
+						<p>LIKED</p>
+						<p>HELPED</p>
+					</div>
+					<div class="umterco">
+						<p><b>/D/</b></p>
+						<p>SHOWED</p>
+						<p>LEARNED</p>
+						<p>PLAYED</p>
+					</div>
+					<div class="umterco">
+						<p><b>/ED/</b></p>
+						<p>WAITED</p>
+						<p>DECIDED</p>
+						<p>WANTED</p>
 					</div>
 				</div>
 				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">B. Practice By Reading The Following Sentences.</h5>
-				<ul>
+				<div class="espacamento">
 					<p class="lower">1. MY TEACHER SHOWED US HOW TO USE LAYER STYLE.</p>
 					<p class="lower">2. I DECIDED TO CREATE A COSTUMIZED TEXT.</p>
 					<p class="lower">3. HE WANTED TO USE PHOTOSHOP TO DEVELOP THE FLYER.</p>
 					<p class="lower">4. THEY LIKED THE PROJECT.</p>
 					<p class="lower">5. I HELPED HER WITH THE EXERCISE.</p>
-				</ul>
-				<div class="clear"></div>
+				</div>
 			</div>
 		</div>
     </main>
