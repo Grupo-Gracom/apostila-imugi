@@ -304,6 +304,14 @@ Route::get('/apostila2/unidade3/pronunciation', 'Apostila2Controller@unidade3Pro
 Route::get('/apostila2/unidade3/listening', 'Apostila2Controller@unidade3Listening')->name('apostila2/unidade3/listening');
 Route::get('/apostila2/unidade3/understanding', 'Apostila2Controller@unidade3Understanding')->name('apostila2/unidade3/understanding');
 
+//UNIDADE 4
+Route::get('/apostila2/unidade4/vocabulary', 'Apostila2Controller@unidade4Vocabulary')->name('apostila2/unidade4/vocabulary');
+Route::get('/apostila2/unidade4/conversation', 'Apostila2Controller@unidade4Conversation')->name('apostila2/unidade4/conversation');
+Route::get('/apostila2/unidade4/grammar', 'Apostila2Controller@unidade4Grammar')->name('apostila2/unidade4/grammar');
+Route::get('/apostila2/unidade4/pronunciation', 'Apostila2Controller@unidade4Pronunciation')->name('apostila2/unidade4/pronunciation');
+Route::get('/apostila2/unidade4/listening', 'Apostila2Controller@unidade4Listening')->name('apostila2/unidade4/listening');
+Route::get('/apostila2/unidade4/understanding', 'Apostila2Controller@unidade4Understanding')->name('apostila2/unidade4/understanding');
+
 //UNIDADE 6
 Route::get('/apostila2/unidade6/vocabulary', 'Apostila2Controller@unidade6Vocabulary')->name('apostila2/unidade6/vocabulary');
 Route::get('/apostila2/unidade6/conversation', 'Apostila2Controller@unidade6Conversation')->name('apostila2/unidade6/conversation');
@@ -664,6 +672,16 @@ Route::post('/apostila2/unidade3/listening/respostas', 'RespostaController@store
 Route::get('/apostila2/unidade3/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
 Route::post('/apostila2/unidade3/understanding/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidade3/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+
+//UNIDADE 4
+Route::post('/apostila2/unidade4/vocabulary/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade4/vocabulary/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade4/grammar/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade4/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade4/listening/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade4/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade4/understanding/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade4/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
 //UNIDADE 6
 Route::post('/apostila2/unidade6/grammar/respostas', 'RespostaController@store');
