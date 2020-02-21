@@ -9,42 +9,34 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade7" data-etapa="understanding">
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade8" data-etapa="listening">
 				<h3 class="barlow">UNIT 7</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
-                <div class="metade">
-                    <form id="unidade7understanding134" method="post">
+                <h5 class="barlow">5 - LISTENING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/Unit8/Listening/completo.ogg') }}" type="audio/ogg">
+                </audio>
+                <div class="clear"></div>
+                <h5 class="barlow">A -  Listen to the audio and answer the questions below.</h5>
+                <div class="metade" style="margin-top: 16px">
+                    <form id="unidade8listening137" method="post">
                         <p>
-                            1 -  What is John’s editor doing?<br>
-                            <input type="text" name="understanding134-1" class="full left-align" placeholder="Responda aqui" required>
+                            1 -   What does the speaker love about his work?<br>
+                            <input type="text" name="listening137-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 -  Is john designing a new games magazine at this time?<br>
-                            <input type="text" name="understanding134-2" class="full left-align" placeholder="Responda aqui" required>
+                            2 -  What adjectives he uses to talk about his job?<br>
+                            <input type="text" name="listening137-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-                        <p>
-                            3 -  What’s Laura’s friend doing?<br>
-                            <input type="text" name="understanding134-3" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            4 - Why isn’t Akira working?<br>
-                            <input type="text" name="understanding134-4" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            5 - What is Akira doing this week?<br>
-                            <input type="text" name="understanding134-5" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        
-                    
+
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="7">
-                        <input type="hidden" name="atividade_id" value="134">
+                        <input type="hidden" name="unidade_id" value="8">
+                        <input type="hidden" name="atividade_id" value="137">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-			</div>
+            </div>
 		</div>
     </main>
     <script>
@@ -55,21 +47,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade7understanding134").submit(function(e){
+        $("#unidade8listening137").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade7understanding134 input[type="text"]').each(function(index){
-                if(($('#unidade7understanding134 input[type="text"]').length - 1) == index){
+            $('#unidade8listening137 input[type="text"]').each(function(index){
+                if(($('#unidade8listening137 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade7understanding134 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade7understanding134'), respostas);
+            if($('#unidade8listening137 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade8listening137'), respostas);
             }else{
-                enviarAtividade($('#unidade7understanding134'), respostas);
+                enviarAtividade($('#unidade8listening137'), respostas);
             }
         });
 
@@ -89,11 +81,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade7understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade7understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade8listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade8listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade7understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade7understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade8listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade8listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
@@ -153,3 +145,4 @@
     </script>
 
 @endsection
+

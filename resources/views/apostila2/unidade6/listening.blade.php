@@ -21,7 +21,7 @@
                     <form id="unidade6listening128" method="post">
                         <p>
                             1 -  Listen to the audio and describe the 7 steps to making a comic book.<br>
-                            <input type="text" name="listening128-1" class="full left-align" required>
+                            <input type="text" name="listening128-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

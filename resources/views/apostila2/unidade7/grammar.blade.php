@@ -68,7 +68,7 @@
                         </tr>
                         <tr>
                             <td><p><b>Are they prepating</b> the presentation?</p></td>
-                            <td><p><b>Yes,</b> they are preparing te presentation/ Yes they are.</p></td>
+                            <td><p>Yes, they are preparing te presentation/ Yes they are.</p></td>
                         </tr>
                         <tr>
                             <td colspan="3"><h5 class="barlow">Wh-Questions</h5></td>
@@ -93,15 +93,15 @@
                     <form id="unidade7grammar130" method="post">
                         <div class="metade esquerda">
                             <p> 
-                                <p>1. He <input type="text" name="grammar130-1" required/> (tech) his son how to install an app in his cell phone.</p>
-                                <p>2. Why <input type="text" name="grammar130-2" required/> Laura <input type="text" name="grammar130-3" required/> (use) Sony Vegas to edit her videos?</p>
+                                <p>1. He <input type="text" name="grammar130-1" placeholder="Responda aqui" required/> (tech) his son how to install an app in his cell phone.</p>
+                                <p>2. Why <input type="text" name="grammar130-2" placeholder="Responda aqui" required/> Laura <input type="text" name="grammar130-3" placeholder="Responda aqui" required/> (use) Sony Vegas to edit her videos?</p>
                                 <p>R: Because she likes the tools.</p>
-                                <p>3. John usually studies in the evenings, but he <input type="text" name="grammar130-4" required/> (study) it today because he is busy with the new magazine.</p>
-                                <p>4. He <input type="text" name="grammar130-5" required/> (not / work), she <input type="text" name="grammar130-6" required/> (Relax).</p>
-                                <p>5. P: <input type="text" name="grammar130-7" required/> Gleen <input type="text" name="grammar130-8" required/> (teach) right now?</p>
-                                <p>R: No, he’s not. He <input type="text" name="grammar130-9" required/> (prepare) a presentation.</p>
+                                <p>3. John usually studies in the evenings, but he <input type="text" name="grammar130-4" placeholder="Responda aqui" required/> (study) it today because he is busy with the new magazine.</p>
+                                <p>4. He <input type="text" name="grammar130-5" placeholder="Responda aqui" required/> (not / work), she <input type="text" name="grammar130-6" placeholder="Responda aqui" required/> (Relax).</p>
+                                <p>5. P: <input type="text" name="grammar130-7" placeholder="Responda aqui" required/> Gleen <input type="text" name="grammar130-8" placeholder="Responda aqui" required/> (teach) right now?</p>
+                                <p>R: No, he’s not. He <input type="text" name="grammar130-9" placeholder="Responda aqui" required/> (prepare) a presentation.</p>
                                 <p>P: Where is his assistant?</p>
-                                <p>R: She is in the office, she <input type="text" name="grammar130-10" required/> (copy) some documents for him.</p>
+                                <p>R: She is in the office, she <input type="text" name="grammar130-10" placeholder="Responda aqui" required/> (copy) some documents for him.</p>
                             </p>
                         </div>
                         <div class="clear"></div>
@@ -117,25 +117,25 @@
                     <form id="unidade7grammar131" method="post">
                         <div class="metade">
                             <p>
-                                <p>1. <input type="text" name="grammar131-1" class="full left-align" required/>?</p>
+                                <p>1. <input type="text" name="grammar131-1" class="full left-align" placeholder="Responda aqui" required/>?</p>
                                 <p>Akira is studying <b>a new Programming language</b> this month.</p>
-                                <p>2. <input type="text" name="grammar131-2" class="full left-align" required/>?</p>
+                                <p>2. <input type="text" name="grammar131-2" class="full left-align" placeholder="Responda aqui" required/>?</p>
                                 <p>Yes, He is living in London this year.</p>
-                                <p>3. <input type="text" name="grammar131-3" class="full left-align" required/>?</p>
+                                <p>3. <input type="text" name="grammar131-3" class="full left-align" placeholder="Responda aqui" required/>?</p>
                                 <p>The teacher is writing some examples <b>on the board</b>.</p>
-                                <p>4. <input type="text" name="grammar131-4" class="full left-align" required/>?</p>
+                                <p>4. <input type="text" name="grammar131-4" class="full left-align" placeholder="Responda aqui" required/>?</p>
                                 <p>No, John is not watching the tutorial right now.</p>
-                                <p>5. <input type="text" name="grammar131-5" class="full left-align" required/>?</p>
+                                <p>5. <input type="text" name="grammar131-5" class="full left-align" placeholder="Responda aqui" required/>?</p>
                                 <p>Gleen <b>is preparing a class</b>.</p>
-                                <p>6. <input type="text" name="grammar131-6" class="full left-align" required/>?</p>
+                                <p>6. <input type="text" name="grammar131-6" class="full left-align" placeholder="Responda aqui" required/>?</p>
                                 <p>Because she needs to present to her client tomorrow</p>
-                                <p>7. <input type="text" name="grammar131-7" class="full left-align" required/>?</p>
+                                <p>7. <input type="text" name="grammar131-7" class="full left-align" placeholder="Responda aqui" required/>?</p>
                                 <p>Laura is doing her job <b>in her office</b>.</p>
-                                <p>8. <input type="text" name="grammar131-8" class="full left-align" required/>?</p>
+                                <p>8. <input type="text" name="grammar131-8" class="full left-align" placeholder="Responda aqui" required/>?</p>
                                 <p>No, I’m not taking any course this month.</p>
-                                <p>9. <input type="text" name="grammar131-9" class="full left-align" required/>?</p>
+                                <p>9. <input type="text" name="grammar131-9" class="full left-align" placeholder="Responda aqui" required/>?</p>
                                 <p>We’re brainstorming about a new game.</p>
-                                <p>10. <input type="text" name="grammar131-10" class="full left-align" required/>?</p>
+                                <p>10. <input type="text" name="grammar131-10" class="full left-align" placeholder="Responda aqui" required/>?</p>
                                 <p>He is analyzing the scope of the magazine.</p>
                             </p>
                         </div>
@@ -151,18 +151,11 @@
                     <form id="unidade7grammar132" method="post">
                         <div class="metade esquerda">
                             <p> 
-                                <p>1. <input type="text" name="grammar132-1" class="full left-align" required/></p>
-                                <p>2. <input type="text" name="grammar132-2" class="full left-align" required/></p>
-                                <p>3. <input type="text" name="grammar132-3" class="full left-align" required/></p>
-                                <p>4. <input type="text" name="grammar132-4" class="full left-align" required/></p>
-                                <p>5. <input type="text" name="grammar132-5" class="full left-align" required/></p>
-                                <p>6. <input type="text" name="grammar132-6" class="full left-align" required/></p>
-                                <p>7. <input type="text" name="grammar132-7" class="full left-align" required/></p>
-                                <p>8. <input type="text" name="grammar132-8" class="full left-align" required/></p>
-                                <p>9. <input type="text" name="grammar132-9" class="full left-align" required/></p>
-                                <p>10. <input type="text" name="grammar132-10" class="full left-align" required/></p>
-                                <p>11. <input type="text" name="grammar132-11" class="full left-align" required/></p>
-                                <p>12. <input type="text" name="grammar132-12" class="full left-align" required/></p>
+                                <p>1. <input type="text" name="grammar132-1" class="full left-align" placeholder="Responda aqui" required/></p>
+                                <p>2. <input type="text" name="grammar132-2" class="full left-align" placeholder="Responda aqui" required/></p>
+                                <p>3. <input type="text" name="grammar132-3" class="full left-align" placeholder="Responda aqui" required/></p>
+                                <p>4. <input type="text" name="grammar132-4" class="full left-align" placeholder="Responda aqui" required/></p>
+                                <p>5. <input type="text" name="grammar132-5" class="full left-align" placeholder="Responda aqui" required/></p>
                             </p>
                         </div>
                         <div class="clear"></div>
@@ -173,6 +166,11 @@
                         <input type="hidden" name="atividade_id" value="132">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
+                <div style="margin-top: 36px">
+					<figure>
+						<img src="{{ asset('assets/img/playgo/unit7/pagina-1.png') }}" alt="desenho">
+					</figure>
+				</div>
                 </div>
 			</div>
 		</div>
