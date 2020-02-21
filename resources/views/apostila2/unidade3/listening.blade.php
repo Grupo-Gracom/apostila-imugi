@@ -9,8 +9,8 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade2" data-etapa="listening">
-				<h3 class="barlow">UNIT 02</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade3" data-etapa="listening">
+				<h3 class="barlow">UNIT 03</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -19,36 +19,21 @@
                 <div class="clear"></div>
                 
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
-                <form id="unidade2listening109" method="post">
-                    <p>“My name is Joana Henly and I<input type="text" name="listening109-1" required> <input type="text" name="listening109-2" required> the name of Miss Led. I’ve been in London
-                        <input type="text" name="listening109-3" required>I live and work for Goodness<input type="text" name="listening109-4" required>years now. This is my fabulous
-                        <input type="text" name="listening109-5" required>. I work as an<input type="text" name="listening109-6" required>,<input type="text" name="listening109-7" required>
-                        and live<input type="text" name="listening109-8" required>."
-                    </p>
+                <form id="unidade3listening116" method="post">
+                    <p>“Hello,<input type="text" name="listening116-1" required> <input type="text" name="listening116-2" required>and<input type="text" name="listening116-3" required> here at Maxon
+                        <input type="text" name="listening116-4" required> on the IBC<input type="text" name="listening116-5" required>.We’ve got a
+                        <input type="text" name="listening116-6" required> <input type="text" name="listening116-7" required>up of presenters here. This one is not only a
+                        <input type="text" name="listening116-8" required> <input type="text" name="listening116-9" required>of mine, he’s also an <input type="text" name="listening116-10" required>
+                        <input type="text" name="listening116-11"> doing a lots of stuff for , for example for Apple, BMW, Wacom, He<input type="text" name="listening116-12" required> for many companies. He’s a
+                        <input type="text" name="listening116-13" required>working with three other guys I think.”</p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="2">
-                    <input type="hidden" name="atividade_id" value="109">
+                    <input type="hidden" name="unidade_id" value="3">
+                    <input type="hidden" name="atividade_id" value="116">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <h5 class="barlow">B – Think of a famous person you like and present him or her to your classmates. Tell them, full name, profession, nationality and age.</h5>
-                <form id="unidade2listening110" method="post">
-                    <div class="umterco">
-                        <p><input type="text" name="listening110-1" class="full" required></p>
-                        <p><input type="text" name="listening110-2" class="full" required></p>
-                        <p><input type="text" name="listening110-3" class="full" required></p>
-                        <p><input type="text" name="listening110-4" class="full" required></p>
-                    </div>
-
-                    <div class="clear"></div>
-                    
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="2">
-                    <input type="hidden" name="atividade_id" value="110">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 			</div>
 		</div>
@@ -61,39 +46,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade2listening109").submit(function(e){
+        $("#unidade3listening116").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade2listening109 input[type="text"]').each(function(index){
-                if(($('#unidade2listening109 input[type="text"]').length - 1) == index){
+            $('#unidade3listening116 input[type="text"]').each(function(index){
+                if(($('#unidade3listening116 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade2listening109 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade2listening109'), respostas);
+            if($('#unidade3listening116 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade3listening116'), respostas);
             }else{
-                enviarAtividade($('#unidade2listening109'), respostas);
-            }
-        });
-
-        $("#unidade2listening110").submit(function(e){
-            e.preventDefault();
-            $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade2listening110 input[type="text"]').each(function(index){
-                if(($('#unidade2listening110 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
-            if($('#unidade2listening110 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade2listening110'), respostas);
-            }else{
-                enviarAtividade($('#unidade2listening110'), respostas);
+                enviarAtividade($('#unidade3listening116'), respostas);
             }
         });
 
@@ -113,11 +80,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade2listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade2listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade3listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade3listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade2listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade2listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade3listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade3listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
@@ -129,6 +96,7 @@
                 "atividade_id" : formId.find('input[name="atividade_id"]').val(),
                 "unidade_id" : formId.find('input[name="unidade_id"]').val()
             };
+            console.log(resposta);
             request = $.ajax({
                 url: window.location.pathname+'/respostas',
                 data: resposta,

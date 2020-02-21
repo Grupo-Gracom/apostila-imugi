@@ -43,7 +43,7 @@
                         <td><p>Watches</p></td>
                     </tr>
                     <tr>
-                        <td colspan="2" class="barlow"><p>Has</p></td>
+                        <td colspan="2" class="barlow"><p>HAS</p></td>
                     </tr>
                     <tr>
                         <td colspan="2"><p>For (-) and (?) use DOES.</p></td>
@@ -62,234 +62,297 @@
                     </tr>         
                 </table>                
 
-                <h5 class="barlow" style="margin-top: 16px">A - SUBJECT PRONOUNS X POSSESSIVE ADJECTIVE.</h5>
+                <p><b>Verbs ended in: General letters</b> = verb <b>+ (s)</b></p>
+                <p><b>S,SH,CH,X,Z,O</b> = verb <b>+ (es)</b></p>
+                <p><b>Vowel + Y</b> = verb <b>+ (s)</b></p>
+                <p><b>Consonant + Y</b> = verb <b>+ (ies)</b></p>
 
-                <div class="center-align metade">
-                    <table class="tabelaVerdeEscuro tabelagrammar">
-                        <tr>
-                            <th><b>Subject Pronoun</b></th>
-                        </tr>
-                        <tr>
-                            <td >I</td>
-                        </tr>
-                        <tr>
-                            <td>You</td>
-                        </tr>
-                        <tr>
-                            <td>He</td>
-                        </tr>
-                        <tr>
-                            <td>She</td>
-                        </tr>
-                        <tr>
-                            <td>It</td>
-                        </tr>
-                        <tr>
-                            <td>We</td>
-                        </tr>
-                        <tr>
-                            <td>You</td>
-                        </tr>
-                        <tr>
-                            <td>They</td>
-                        </tr>
-                    </table>
-                    
-                    <table class="tabelaVerdeEscuro tabelagrammar">
-                        <tr>
-                            <th><b>Possessive Adjective</b></th>
-                        </tr>
-                        <tr>
-                            <td>My</td>
-                        </tr>
-                        <tr>
-                            <td>Your</td>
-                        </tr>
-                        <tr>
-                            <td>His</td>
-                        </tr>
-                        <tr>
-                            <td>Her</td>
-                        </tr>
-                        <tr>
-                            <td>Its</td>
-                        </tr>
-                        <tr>
-                            <td>Our</td>
-                        </tr>
-                        <tr>
-                            <td>Your</td>
-                        </tr>
-                        <tr>
-                            <td>Their</td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="clear"></div>
-                <br>
+                <h5 class="barlow" style="margin-top: 16px">B - WH QUESTIONS – WHEN – WHY – WHICH.</h5>
+
+                <p><b>When</b> – Used for <b>questions about time.</b></p>
+
                 <p><b>Examples:</b></p>
-                <p><b>Laura </b>works as a video Maker<b> Her </b>favorite software is Sony Vegas.</p>
-                <p><b>Akira and John </b>love super hero movies.<b> Their </b>favorite heroes are Batman and Super Man.</p>
-                <h5 class="barlow" style="margin-top: 16px">B - DEMONSTRATIVE PRONOUNS</h5>
+                <p><b>When</b> is your <b>birthday?</b> / My birthday is <b>in March 31st</b></p>
+                <p><b>When</b> do you like to travel? / I like to travel <b>in the summer.</b></p>
+                <p><b>Why</b> – Used for <b>questions about reason.</b></p>
 
-                <div class="center-align metade">
-                <table class="tabelaVerdeEscuro">
+                <p><b>Examples:</b></p>
+                <p><b>Why</b> does she play L.O.L.? / <b>Because</b> she likes the graphics.</p>
+                <p><b>Why</b> are you anxious? / <b>Because</b> I have many things to study.</p>
+                <p><b>Which</b> – Used for <b>questions about choices/options.</b></p>
+
+                <p><b>Examples:</b></p>
+                <p>Which color do they prefer? / They prefer black</p>
+                <p><b>Black or white?</b></p>
+                <p><b>Which</b> program is better? / In my opinion, Java is better. </p>
+                <p><b>Java or Python?</b></p>
+
+                <h5 class="barlow" style="margin-top: 16px">C - ARTICLES</h5>
+
+                <table class="metade center-align">
                     <tr>
-                        <th style="background-color:white"></th>
-                        <th><b>Near</b></th>
-                        <th><b>Far</b></th>
+                        <td></td>
+                        <td class="barlow"><p>BEFORE VOWEL SOUND</p></td>
+                        <td class="barlow"><p>BEFORE VOWEL SOUND</p></td>
                     </tr>
                     <tr>
-                        <th><b>Singular</b></th>
-                        <td>This</td>
-                        <td>That</td>
+                        <td class="barlow"><p>SINGULAR</p></td>
+                        <td><p>An</p></td>
+                        <td><p>A</p></td>                        
                     </tr>
                     <tr>
-                        <th><b>Plural</b></th>
-                        <td>These</td>
-                        <td>Those</td>
+                        <td class="barlow"><p>PLURAL</p></td>
+                        <td colspan="2"><p>The</p></td>                                               
                     </tr>
                 </table>
-                </div>
-                <br>
-                <div class="clear"></div>
 
                 <p><b>Examples:</b></p>
 
-                <div class="umterco esquerda">
-                    <p><b>This is</b> Mr. Antony, the Coordinator.</b></p>
-                    <p><b>These</b> new tools are fantastic.</b></p>
-                </div>
-                
-                <div class="umterco direita">
-                   <p><b>That</b> lady is the marketing manager.</p>
-                    <p><b>Those</b> Graffiti on the wall are great</p>
-                </div>
-                
+                <table class="umterco center-align">
+                    <tr>
+                        <td><p>an actor</p></td>
+                        <td><p>a doctor</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>an artist</p></td>
+                        <td><p>a web designer</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>an illustrator</p></td>
+                        <td><p>a photographer</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>the article</p></td>
+                        <td><p>the magazines</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>the eraser</p></td>
+                        <td><p>the brushes</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>the user</p></td>
+                        <td><p>the workshops</p></td>
+                    </tr>
+                </table>
+
                 <div class="clear"></div>
-                <p><b>EXERCISES:</b></p>
-                <h5 class="barlow">A - Build up questions for the answers.</h5>
-                <form id="unidade2grammar106" method="post">
-                    <p>E.g She’s Laura./ Who is she?</p>
-                    <div class="umterco esquerda">
-                        <p>1. He’s Akira <br> 
-                            <input type="text" name="grammar106-1" class="full" required>
-                        </p>
-                        <p>2. They are in New York <br> 
-                            <input type="text" name="grammar106-2" class="full" required>
-                        </p>
-                        <p>3. That is a new app <br> 
-                            <input type="text" name="grammar106-3" class="full" required>
-                        </p>
-                        <p>4. Gleen is the teacher <br> 
-                            <input type="text" name="grammar106-4" class="full" required>
-                        </p>
-                        <p>5. It’s in Brooklin <br> 
-                            <input type="text" name="grammar106-5" class="full" required>
-                        </p>
-                    </div>
-                    
-                    <div class="umterco direita">
-                        <p>6. I am the new manager <br> 
-                            <input type="text" name="grammar106-6" class="full" required>
-                        </p>
-                        <p>7. This is Carlos, an old student <br> 
-                            <input type="text" name="grammar106-7" class="full" required>
-                        </p>
-                        <p>8. It’s in the drawer <br> 
-                            <input type="text" name="grammar106-8" class="full" required>
-                        </p>
-                        <p>9. My favorite hero is Batman <br> 
-                            <input type="text" name="grammar106-9" class="full" required>
-                        </p>
-                        <p>10. This a new editing software <br> 
-                            <input type="text" name="grammar106-10" class="full" required>
-                        </p>
-                    </div>
-                    
-                    <div class="clear"></div>                                      
+
+                <p><b>EXCERCISES</b></p>
+
+                <p class="barlow">1) Fill in the chart for yourself. Then look at the example. Choose and write 8 sentences from the chart:</p>
+
+                <p class="center-align metade">Adverbs of frequency</p>
+                <table class="metade center-align barlow">
+                    <tr>
+                        <td></td>
+                        <td class="barlow" colspan="2"><p>Monday</p></td>
+                        <td class="barlow" colspan="2"><p>Tuesday</p></td>
+                        <td class="barlow" colspan="2"><p>Wednesday</p></td>
+                        <td class="barlow" colspan="2"><p>Thursday</p></td>
+                        <td class="barlow" colspan="2"><p>Friday</p></td>
+                    </tr>
+                    <tr>
+                        <td lass="barlow"><p>ACTIONS</p></td>
+                        <td><p>Tom</p></td>
+                        <td><p>You</p></td>
+                        <td><p>Tom</p></td>
+                        <td><p>You</p></td>
+                        <td><p>Tom</p></td>
+                        <td><p>You</p></td>
+                        <td><p>Tom</p></td>
+                        <td><p>You</p></td>
+                        <td><p>Tom</p></td>
+                        <td><p>You</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Watch anime</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p>*</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Read Comic Books</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p>*</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Play video games</p></td>
+                        <td><p>*</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Study new tool</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p>*</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Draw</p></td>
+                        <td><p>*</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Have English classes</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p>*</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Listen to music</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p>*</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Go to workshops</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p>*</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                </table>
+
+                <p><b>Examples: Tom Plays video game on Mondays.</b></p>
+        
+                <form id="unidade3grammar113" action="post" class="metade">
+                    <p>1.<input type="text" name="grammar113-1" class="full" required></p>
+                    <p>2.<input type="text" name="grammar113-2" class="full" required></p>
+                    <p>3.<input type="text" name="grammar113-3" class="full" required></p>
+                    <p>4.<input type="text" name="grammar113-4" class="full" required></p>
+                    <p>5.<input type="text" name="grammar113-5" class="full" required></p>
+                    <p>6.<input type="text" name="grammar113-6" class="full" required></p>
+                    <p>7.<input type="text" name="grammar113-7" class="full" required></p>
+                    <p>8.<input type="text" name="grammar113-8" class="full" required></p>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="2">
-                    <input type="hidden" name="atividade_id" value="106">
+                    <input type="hidden" name="unidade_id" value="3">
+                    <input type="hidden" name="atividade_id" value="113">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-
-
-                <h5 class="barlow">B - Rewrite these sentences using HE, SHE, IT, THEY, WE, HIS, HER, THEIR, OUR, ITS:</h5>
-				<form id="unidade2grammar107" method="post">
-
-                <div class="umterco esquerda">
-                        <p>1. Akira’s father is Japanese. <br> 
-                            <input type="text" name="grammar107-1" class="full" required>
-                        </p>
-                        <p>2. Editing softwares are very expensive. <br> 
-                            <input type="text" name="grammar107-2" class="full" required>
-                        </p>
-                        <p>3. John’s experience is very good. <br> 
-                            <input type="text" name="grammar107-3" class="full" required>
-                        </p>
-                        <p>4. Is your brother a businessman? <br> 
-                            <input type="text" name="grammar107-4" class="full" required>
-                        </p>
-                        <p>5. My friend and I love comic books. <br> 
-                            <input type="text" name="grammar107-5" class="full" required>
-                        </p>
-                    </div>
-                    
-                    <div class="umterco direita">
-                        <p>6. These are Laura’s and my books. <br> 
-                            <input type="text" name="grammar107-6" class="full" required>
-                        </p>
-                        <p>7. Where is Gleen’s marker? <br> 
-                            <input type="text" name="grammar107-7" class="full" required>
-                        </p>
-                        <p>8. My father’s favorite computer is Mac. <br> 
-                            <input type="text" name="grammar107-8" class="full" required>
-                        </p>
-                        <p>9. The students’ books are in the classroom. <br> 
-                            <input type="text" name="grammar107-9" class="full" required>
-                        </p>
-                        <p>10. This is Mrs. Brown’s coat, but these are the children’s coats. <br> 
-                            <input type="text" name="grammar107-10" class="full" required>
-                        </p>
-                    </div>
-                    
-                    <div class="clear"></div> 
-
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="2">
-                    <input type="hidden" name="atividade_id" value="107">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-
-                <h5 class="barlow">C - Complete the passage. Use these words.</h5>
-				<form id="unidade2grammar108" method="post">
-
-                    <div class="center-align metade">
-                        <table class="tabelaVerdeEscuro">
-                            <th>my - your - his - her - its - our - their - his</th>
-                        </table>
-                    </div>
-                    <br>
-                    <p>Hello<input type="text" name="grammar108-1" required>name is Patrick. I’m fourteen. I have a brother. His name is Andy and he’s ninenteen.
-                        We are on holiday in California. The hotel is very good and <input type="text" name="grammar108-2" required>swimming-pool is large.</p>
-                    <b><p>Andy and I have a sister<input type="text" name="grammar108-3" required>sname is Liz. She’s sixteen years old<input type="text" name="grammar108-4" required>
-                        smother and father are in the restaurant now. Their friends, Mr. and Mrs. Bolton, are in the restaurant, too<input type="text" name="grammar108-5" required>stwo sons are in the pool.</b></p>
-                    <p>Andy has a girl-friend<input type="text" name="grammar108-6" required>sgirl-friend’s name is Sandra. She’s in<input type="text" name="grammar108-7" required>sclass at school.</p>
-                    <p>Where is your family? Is<input type="text" name="grammar108-8" required>sfamily here, too?</p>
+                </form>             
                
-                    <div class="clear"></div> 
+               <div class="clear"></div>
+
+               <p class="barlow">2) Write the sentences from the previous exercise in negative and interrogative forms.</p>
+                 
+               <form id="unidade3grammar114" action="post" class="metade">
+                    <p>1.
+                        <input type="text" name="grammar114-1" class="full" required>(-)
+                        <input type="text" name="grammar114-2" class="full" required>(?)
+                    </p>
+                    <p>2.
+                        <input type="text" name="grammar114-3" class="full" required>(-)
+                        <input type="text" name="grammar114-4" class="full" required>(?)
+                    </p>
+                    <p>3.
+                        <input type="text" name="grammar114-5" class="full" required>(-)
+                        <input type="text" name="grammar114-6" class="full" required>(?)
+                    </p>
+                    <p>4.
+                        <input type="text" name="grammar114-7" class="full" required>(-)
+                        <input type="text" name="grammar114-8" class="full" required>(?)
+                    </p>
+                    <p>5.
+                        <input type="text" name="grammar114-9" class="full" required>(-)
+                        <input type="text" name="grammar114-10" class="full" required>(?)
+                    </p>
+                    <p>6.
+                        <input type="text" name="grammar114-11" class="full" required>(-)
+                        <input type="text" name="grammar114-12" class="full" required>(?)
+                    </p>
+                    <p>7.
+                        <input type="text" name="grammar114-13" class="full" required>(-)
+                        <input type="text" name="grammar114-14" class="full" required>(?)
+                    </p>
+                    <p>8.
+                        <input type="text" name="grammar114-15" class="full" required>(-)
+                        <input type="text" name="grammar114-16" class="full" required>(?)
+                    </p>                    
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="2">
-                    <input type="hidden" name="atividade_id" value="108">
+                    <input type="hidden" name="unidade_id" value="3">
+                    <input type="hidden" name="atividade_id" value="114">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+               </form>
+                
+               <div class="clear"></div>
+
+                <p class="barlow">3) Build up questions with WHEN, WHY AND WICH for the answers.</p>
+                <p>E.g We go to L.A next week. / <b>When</b> do you go to L.A.?</p>
+
+                <form id="unidade3grammar115" class="metade" action="post">
+                    <p>1. Her birthday is in May.<input type="text" name="grammar115-1" class="full" required></p>
+                    <p>2. I have classes on Saturdays.<input type="text" name="grammar115-2" class="full" required></p>
+                    <p>3. They like to play BF4<input type="text" name="grammar115-3" class="full" required></p>
+                    <p>4. Because python is better to program.<input type="text" name="grammar115-4" class="full" required></p>
+                    <p>5. She arrives tomorrow morning.<input type="text" name="grammar115-5" class="full" required></p>
+                    <p>6. Because I need for my career<input type="text" name="grammar115-6" class="full" required></p>
+                    
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="3">
+                    <input type="hidden" name="atividade_id" value="115">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+               </form>
                
 			</div>
 		</div>
@@ -302,57 +365,57 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade2grammar106").submit(function(e){
+        $("#unidade3grammar113").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade2grammar106 input[type="text"]').each(function(index){
-                if(($('#unidade2grammar106 input[type="text"]').length - 1) == index){
+            $('#unidade3grammar113 input[type="text"]').each(function(index){
+                if(($('#unidade3grammar113 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade2grammar106 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade2grammar106'), respostas);
+            if($('#unidade3grammar113 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade3grammar113'), respostas);
             }else{
-                enviarAtividade($('#unidade2grammar106'), respostas);
+                enviarAtividade($('#unidade3grammar113'), respostas);
             }
         });
 
-        $("#unidade2grammar107").submit(function(e){
+        $("#unidade3grammar114").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade2grammar107 input[type="text"]').each(function(index){
-                if(($('#unidade2grammar107 input[type="text"]').length - 1) == index){
+            $('#unidade3grammar114 input[type="text"]').each(function(index){
+                if(($('#unidade3grammar114 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade2grammar107 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade2grammar107'), respostas);
+            if($('#unidade3grammar114 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade3grammar114'), respostas);
             }else{
-                enviarAtividade($('#unidade2grammar107'), respostas);
+                enviarAtividade($('#unidade3grammar114'), respostas);
             }
         });
 
-        $("#unidade2grammar108").submit(function(e){
+        $("#unidade3grammar115").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade2grammar108 input[type="text"]').each(function(index){
-                if(($('#unidade2grammar108 input[type="text"]').length - 1) == index){
+            $('#unidade3grammar115 input[type="text"]').each(function(index){
+                if(($('#unidade3grammar115 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade2grammar108 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade2grammar108'), respostas);
+            if($('#unidade3grammar115 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade3grammar115'), respostas);
             }else{
-                enviarAtividade($('#unidade2grammar108'), respostas);
+                enviarAtividade($('#unidade3grammar115'), respostas);
             }
         });
 
@@ -373,11 +436,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade2grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade2grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade3grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade3grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade2grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade2grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade3grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade3grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
