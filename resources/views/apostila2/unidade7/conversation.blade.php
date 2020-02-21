@@ -22,7 +22,7 @@
 					Who wants to start?
 				</p>
 				<p>
-					<b>John :</b> : I can start teacher. Well, this month we are working on a new project. The editor is
+					<b>John :</b>  I can start teacher. Well, this month we are working on a new project. The editor is
 					preparing the briefing and the scope for this project. We are designing a summer fashion
 					magazine.
 				</p>

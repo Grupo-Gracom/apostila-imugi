@@ -9,25 +9,29 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade6" data-etapa="listening">
-				<h3 class="barlow">UNIT 6</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade7" data-etapa="listening">
+				<h3 class="barlow">UNIT 7</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Listening/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit7/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
+                <h5 class="barlow">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <div class="metade" style="margin-top: 16px">
-                    <form id="unidade6listening128" method="post">
+                    <form id="unidade7listening133" method="post">
                         <p>
-                            1 -  Listen to the audio and describe the 7 steps to making a comic book.<br>
-                            <input type="text" name="listening128-1" class="full left-align" required>
+                            “Cary, do you <input type="text" name="grammar133-1" placeholder="Responda aqui" required/>a second ?
+                            <input type="text" name="grammar133-2" placeholder="Responda aqui" required/>, What’s up? Are you                             
+                            <input type="text" name="grammar133-3" placeholder="Responda aqui" required/>  me? Am I tweeting about you? Are you upriser7? 
+                            What are you <input type="text" name="grammar133-4" placeholder="Responda aqui" required/>about?
+                            Someone is <input type="text" name="grammar133-5" placeholder="Responda aqui" required/> about me.”
                         </p>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="6">
-                        <input type="hidden" name="atividade_id" value="128">
+                        <input type="hidden" name="unidade_id" value="7">
+                        <input type="hidden" name="atividade_id" value="133">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -42,21 +46,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade6listening128").submit(function(e){
+        $("#unidade7listening133").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade6listening128 input[type="text"]').each(function(index){
-                if(($('#unidade6listening128 input[type="text"]').length - 1) == index){
+            $('#unidade7listening133 input[type="text"]').each(function(index){
+                if(($('#unidade7listening133 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade6listening128 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade6listening128'), respostas);
+            if($('#unidade7listening133 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade7listening133'), respostas);
             }else{
-                enviarAtividade($('#unidade6listening128'), respostas);
+                enviarAtividade($('#unidade7listening133'), respostas);
             }
         });
 
@@ -76,11 +80,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade6listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade6listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade7listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade7listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade6listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade6listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade7listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade7listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

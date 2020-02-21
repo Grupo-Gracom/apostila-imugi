@@ -19,6 +19,8 @@
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
                     <h5 class="barlow" style="margin-top: 16px">A - PRESENT CONTINUOUS</h5>
+                    <p><b>Present continuous</b> is used to express <b>actions in progress or a temporary situation</b>.</p>
+                    <p class="center-align caixa"><b>Present Continuous = Subject + am/are/is + verb(ing)</b></p>
                     <table class="metade center-align">
                         <tr>
                             <td><h5 class="barlow">Subject</h5></td>
@@ -30,179 +32,145 @@
                             <td><p>Akira</p></td>
                             <td><p>is</p></td>
                             <td><p>develop</p></td>
-                            <td><p>Akira <b>is</b> developing a new game.</p></td>
+                            <td><p>Akira <b>is</b> develop<b>ing</b> a new game.</p></td>
                         </tr>
                         <tr>
-                            <td><p>I</p></td>
+                            <td><p><b>I</b></p></td>
                             <td><p>am</p></td> 
                             <td><p>design</p></td>
-                            <td><p>I am designing a new magazine.</p></td>
+                            <td><p>I <b>am</b> designing a new magazine.</p></td>
                         </tr>
                         <tr>
                             <td><p>They</p></td>
                             <td><p>are</p></td>
                             <td><p>Watch</p></td>
-                            <td><p>They are watching tutorials on youtube</p></td>
+                            <td><p>They <b>are</b> watch<b>ing</b> tutorials on youtube.</p></td>
                         </tr>
                         <tr>
                             <td><p>She</p></td>
                             <td><p>is</p></td>
                             <td><p>Plan</p></td>
-                            <td><p>She is planning to take another course.</p></td>
+                            <td><p>She <b>is</b> plann<b>ing</b> to take another course.</p></td>
                         </tr>
                     </table> 
                     <h5 class="barlow" style="margin-top: 16px">B - YES/NO QUESTION – WH-QUESTIONS</h5>
                     <table class="metade center-align">
-                            <tr><td class="tituloTabela" colspan="3"><b>Verb to Be<b></td></tr>
-                            <tr>
-                                <td><b>What's</b> your favorite hobby?</td>
-                                <td><b>My favorite hobby</b> is drawing wizards</td>
-                            </tr>
-                            <tr>
-                                <td><b>Who</b> is the best Avengers Super hero</td>
-                                <td>I Guess <b>Thor</b> is the best.</td> 
-                            </tr>
-                            <tr>
-                                <td><b>When</b> is the special effects workshop?</td>
-                                <td><b>I believe it’s in the</b> end of July.</td>
-                            </tr>
-                        </thead>
-                        <tfoot class="corpoTabela"> 
-                            <tr><th class="tituloTabela" colspan="3"><b>Other Verbs<b></th></tr>
-                             <tr>
-                                <td><b>Where do you find</b> good study references?</td>
-                                <td><b>I</b> find very good tutorials <b>on youtube</b></td>
-                            </tr>
-                            <tr>
-                                <td><b>What do you do</b> before starting a project?</td>
-                                <td><b>We have a brainstorm</b> to debate it.</td> 
-                            </tr>
-                            <tr>
-                                <td><b>Which FPS do you</b> like to play? BF4 or CS Go</td>
-                                <td>I like to play <b>BF4</b>.</td>
-                            </tr>
-                        </tfoot>
+                        <tr>
+                            <td colspan="3"><h5 class="barlow">Yes/no Questions</h5></td>
+                        </tr>
+                        <tr>
+                            <td><p><b>Is Laura working</b> on a new video?</p></td>
+                            <td><p>Yes, Laura is working on a new video/ Yes She is.</p></td>
+                        </tr>
+                        <tr>
+                            <td><p><b>Are you searching</b> for new tools? </p></td>
+                            <td><p>No, I am not searching for new tool/ No I'm not.</p></td> 
+                        </tr>
+                        <tr>
+                            <td><p><b>Are they prepating</b> the presentation?</p></td>
+                            <td><p>Yes, they are preparing te presentation/ Yes they are.</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><h5 class="barlow">Wh-Questions</h5></td>
+                        </tr>
+                        <tr>
+                            <td><p><b>What are you doing </b> now?</p></td>
+                            <td><p>I am downloading pictures for my new job.</p></td>
+                        </tr>
+                        <tr>
+                            <td><p><b>Why are you studying</b> 3D modeling?</p></td>
+                            <td><p>Because I need for my career.</p></td>
+                        </tr>
+                        <tr>
+                            <td><p><b>Where is he working</b> this week?</p></td>
+                            <td><p>He is working in Rockstar.</p></td>
+                        </tr>
                     </table> 
-                    <div class="metade" style="margin-top: 36px">
-                        <figure>
-                            <img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="gamer">
-                        </figure>
-                    </div>
                     <div class="clear"></div>
+
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
-                    <h5 class="barlow">A - Read the questions & answers about LAURA and ask and answer about AKIRA.</h5>               
-                    <form id="unidade6grammar125" method="post">
+                    <h5 class="barlow">A - Supply PRESENT CONTINUOUS TENSE in the blanks:</h5>               
+                    <form id="unidade7grammar130" method="post">
                         <div class="metade esquerda">
-                            <h5>QUESTIONS:</h5>
                             <p> 
-                                <p>1. What does Laura do?</p>
-                                <p>2. How <input type="text" name="grammar125-1" required/> is Laura?</p>
-                                <p>3. <input type="text" name="grammar125-2" required/> a week does she work?</p>
-                                <p>4. What time does she get up?</p>
-                                <p>5. What <input type="text" name="grammar125-3" required/> for breakfast?</p>
-                                <p>6. <input type="text" name="grammar125-4" required/> does he drink?</p>
-                                <p>7. What <input type="text" name="grammar125-5" required/> she do after breakfast? </p>
-                                <p>8. What time <input type="text" name="grammar125-6" required/> for work? </p>
-                                <p>9. <input type="text" name="grammar125-7" required/> does She have lunch? </p>
-                                <p>10. What time does She come home? </p>
-                                <p>11. Where does she go in the evening?</p>
-                                <p>12. <input type="text" name="grammar125-8" required/> does he go to bed? </p>
-                            </p>
-                        </div>
-                        <div class="metade direita">
-                            <h5>LAURA:</h5>
-                            <p>
-                                <p>1. Laura is a <input type="text" name="grammar125-9" required/></p>
-                                <p>2. She’s nineteen years old.</p>
-                                <p>3. She works five days a week.</p>
-                                <p>4. She <input type="text" name="grammar125-10" required/>  at six o’clock every day.</p>
-                                <p>5. She eats an enormous breakfast.</p>
-                                <p>6. He drinks two cups of tea.</p>
-                                <p>7. Then she kisses her boyfriend.</p>
-                                <p>8. She leaves for work at half past six.</p>
-                                <p>9. She has lunch in a transport café.</p>
-                                <p>10. She <input type="text" name="grammar125-11" required/> home at five o’clock.</p>
-                                <p>11. In the evening <input type="text" name="grammar125-12" required/> to the pub.</p>
-                                <p>12. She goes to bed at ten o’clock.</p>
+                                <p>1. He <input type="text" name="grammar130-1" placeholder="Responda aqui" required/> (tech) his son how to install an app in his cell phone.</p>
+                                <p>2. Why <input type="text" name="grammar130-2" placeholder="Responda aqui" required/> Laura <input type="text" name="grammar130-3" placeholder="Responda aqui" required/> (use) Sony Vegas to edit her videos?</p>
+                                <p>R: Because she likes the tools.</p>
+                                <p>3. John usually studies in the evenings, but he <input type="text" name="grammar130-4" placeholder="Responda aqui" required/> (study) it today because he is busy with the new magazine.</p>
+                                <p>4. He <input type="text" name="grammar130-5" placeholder="Responda aqui" required/> (not / work), she <input type="text" name="grammar130-6" placeholder="Responda aqui" required/> (Relax).</p>
+                                <p>5. P: <input type="text" name="grammar130-7" placeholder="Responda aqui" required/> Gleen <input type="text" name="grammar130-8" placeholder="Responda aqui" required/> (teach) right now?</p>
+                                <p>R: No, he’s not. He <input type="text" name="grammar130-9" placeholder="Responda aqui" required/> (prepare) a presentation.</p>
+                                <p>P: Where is his assistant?</p>
+                                <p>R: She is in the office, she <input type="text" name="grammar130-10" placeholder="Responda aqui" required/> (copy) some documents for him.</p>
                             </p>
                         </div>
                         <div class="clear"></div>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="6">
-                        <input type="hidden" name="atividade_id" value="125">
+                        <input type="hidden" name="unidade_id" value="7">
+                        <input type="hidden" name="atividade_id" value="130">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                    <form id="unidade6grammar126" method="post">
+                    <h5 class="barlow" style="margin-top: 16px">B - Ask questions for the underlined words:</h5>   
+                    
+                    <form id="unidade7grammar131" method="post">
+                        <div class="metade">
+                            <p>
+                                <p>1. <input type="text" name="grammar131-1" class="full left-align" placeholder="Responda aqui" required/>?</p>
+                                <p>Akira is studying <b>a new Programming language</b> this month.</p>
+                                <p>2. <input type="text" name="grammar131-2" class="full left-align" placeholder="Responda aqui" required/>?</p>
+                                <p>Yes, He is living in London this year.</p>
+                                <p>3. <input type="text" name="grammar131-3" class="full left-align" placeholder="Responda aqui" required/>?</p>
+                                <p>The teacher is writing some examples <b>on the board</b>.</p>
+                                <p>4. <input type="text" name="grammar131-4" class="full left-align" placeholder="Responda aqui" required/>?</p>
+                                <p>No, John is not watching the tutorial right now.</p>
+                                <p>5. <input type="text" name="grammar131-5" class="full left-align" placeholder="Responda aqui" required/>?</p>
+                                <p>Gleen <b>is preparing a class</b>.</p>
+                                <p>6. <input type="text" name="grammar131-6" class="full left-align" placeholder="Responda aqui" required/>?</p>
+                                <p>Because she needs to present to her client tomorrow</p>
+                                <p>7. <input type="text" name="grammar131-7" class="full left-align" placeholder="Responda aqui" required/>?</p>
+                                <p>Laura is doing her job <b>in her office</b>.</p>
+                                <p>8. <input type="text" name="grammar131-8" class="full left-align" placeholder="Responda aqui" required/>?</p>
+                                <p>No, I’m not taking any course this month.</p>
+                                <p>9. <input type="text" name="grammar131-9" class="full left-align" placeholder="Responda aqui" required/>?</p>
+                                <p>We’re brainstorming about a new game.</p>
+                                <p>10. <input type="text" name="grammar131-10" class="full left-align" placeholder="Responda aqui" required/>?</p>
+                                <p>He is analyzing the scope of the magazine.</p>
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="7">
+                        <input type="hidden" name="atividade_id" value="131">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                    <h5 class="barlow" style="margin-top: 16px">C - Watch the video and write 5 sentences in the Present continuous.</h5> 
+                    <form id="unidade7grammar132" method="post">
                         <div class="metade esquerda">
-                            <h5>QUESTIONS:</h5>
                             <p> 
-                                <p>1. <input type="text" name="grammar126-1" class="full left-align" required/></p>
-                                <p>2. <input type="text" name="grammar126-2" class="full left-align" required/></p>
-                                <p>3. <input type="text" name="grammar126-3" class="full left-align" required/></p>
-                                <p>4. <input type="text" name="grammar126-4" class="full left-align" required/></p>
-                                <p>5. <input type="text" name="grammar126-5" class="full left-align" required/></p>
-                                <p>6. <input type="text" name="grammar126-6" class="full left-align" required/></p>
-                                <p>7. <input type="text" name="grammar126-7" class="full left-align" required/></p>
-                                <p>8. <input type="text" name="grammar126-8" class="full left-align" required/></p>
-                                <p>9. <input type="text" name="grammar126-9" class="full left-align" required/></p>
-                                <p>10. <input type="text" name="grammar126-10" class="full left-align" required/></p>
-                                <p>11. <input type="text" name="grammar126-11" class="full left-align" required/></p>
-                                <p>12. <input type="text" name="grammar126-12" class="full left-align" required/></p>
-                            </p>
-                        </div>
-                        <div class="metade direita">
-                            <h5>AKIRA:</h5>
-                            <p>
-                                <p>1. Game developer.</p>
-                                <p>2. 21.</p>
-                                <p>3. 4 days a week.</p>
-                                <p>4. 7.30 am.</p>
-                                <p>5. With a team of developers.</p>
-                                <p>6. He loves comic books.</p>
-                                <p>7. They are from Japan.</p>
-                                <p>8. He’s American.</p>
-                                <p>9. He listens to music.</p>
-                                <p>10. In California.</p>
-                                <p>11. He prefers Fifa 2016.</p>
-                                <p>12. Japanese food.</p>
+                                <p>1. <input type="text" name="grammar132-1" class="full left-align" placeholder="Responda aqui" required/></p>
+                                <p>2. <input type="text" name="grammar132-2" class="full left-align" placeholder="Responda aqui" required/></p>
+                                <p>3. <input type="text" name="grammar132-3" class="full left-align" placeholder="Responda aqui" required/></p>
+                                <p>4. <input type="text" name="grammar132-4" class="full left-align" placeholder="Responda aqui" required/></p>
+                                <p>5. <input type="text" name="grammar132-5" class="full left-align" placeholder="Responda aqui" required/></p>
                             </p>
                         </div>
                         <div class="clear"></div>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="6">
-                        <input type="hidden" name="atividade_id" value="126">
+                        <input type="hidden" name="unidade_id" value="7">
+                        <input type="hidden" name="atividade_id" value="132">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                    <h5 class="barlow" style="margin-top: 16px">B - Imagine you are a movie star. Are you ready to answer questions about the following topics on your interview for a famous movie blog.</h5> 
-                    <form id="unidade6grammar127" method="post">
-                            <div class="metade">
-                                <p> 
-                                    <p>1. Name <input type="text" name="grammar127-1" class="full left-align" required/></p>
-                                    <p>2. Profession <input type="text" name="grammar127-2" class="full left-align" required/></p>
-                                    <p>3. Likes and dislikes <input type="text" name="grammar127-3" class="full left-align" required/></p>
-                                    <p>4. Age <input type="text" name="grammar127-4" class="full left-align" required/></p>
-                                    <p>5. Marital Status <input type="text" name="grammar127-5" class="full left-align" required/></p>
-                                    <p>6. Favorites<input type="text" name="grammar127-6" class="full left-align" required/></p>
-                                </p>
-                            </div>
-                        
-                        <div class="clear"></div>
-
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="6">
-                        <input type="hidden" name="atividade_id" value="127">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                    <div class="metade" style="margin-top: 36px">
-                        <figure>
-                            <img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="rapper">
-                        </figure>
-                    </div>
+                <div style="margin-top: 36px">
+					<figure>
+						<img src="{{ asset('assets/img/playgo/unit7/pagina-1.png') }}" alt="desenho">
+					</figure>
+				</div>
                 </div>
 			</div>
 		</div>
@@ -215,57 +183,57 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade6grammar125").submit(function(e){
+        $("#unidade7grammar130").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade6grammar125 input[type="text"]').each(function(index){
-                if(($('#unidade6grammar125 input[type="text"]').length - 1) == index){
+            $('#unidade7grammar130 input[type="text"]').each(function(index){
+                if(($('#unidade7grammar130 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade6grammar125 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade6grammar125'), respostas);
+            if($('#unidade7grammar130 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade7grammar130'), respostas);
             }else{
-                enviarAtividade($('#unidade6grammar125'), respostas);
+                enviarAtividade($('#unidade7grammar130'), respostas);
             }
         });
 
-        $("#unidade6grammar126").submit(function(e){
+        $("#unidade7grammar131").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade6grammar126 input[type="text"]').each(function(index){
-                if(($('#unidade6grammar126 input[type="text"]').length - 1) == index){
+            $('#unidade7grammar131 input[type="text"]').each(function(index){
+                if(($('#unidade7grammar131 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade6grammar126 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade6grammar126'), respostas);
+            if($('#unidade7grammar131 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade7grammar131'), respostas);
             }else{
-                enviarAtividade($('#unidade6grammar126'), respostas);
+                enviarAtividade($('#unidade7grammar131'), respostas);
             }
         });
 
-        $("#unidade6grammar127").submit(function(e){
+        $("#unidade7grammar132").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade6grammar127 input[type="text"]').each(function(index){
-                if(($('#unidade6grammar127 input[type="text"]').length - 1) == index){
+            $('#unidade7grammar132 input[type="text"]').each(function(index){
+                if(($('#unidade7grammar132 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade6grammar127 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade6grammar127'), respostas);
+            if($('#unidade7grammar132 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade7grammar132'), respostas);
             }else{
-                enviarAtividade($('#unidade6grammar127'), respostas);
+                enviarAtividade($('#unidade7grammar132'), respostas);
             }
         });
 
@@ -286,11 +254,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade6grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade6grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade7grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade7grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade6grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade6grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade7grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade7grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

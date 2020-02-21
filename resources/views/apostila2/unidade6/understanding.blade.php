@@ -17,23 +17,23 @@
                     <form id="unidade6understanding129" method="post">
                         <p>
                             1 -  What’s the first step Laura follows is her job?<br>
-                            <input type="text" name="understanding129-1" class="full left-align" required>
+                            <input type="text" name="understanding129-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 -  What’s the last step of Laura’s Job?<br>
-                            <input type="text" name="understanding129-2" class="full left-align" required>
+                            <input type="text" name="understanding129-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 -  What does she do after the all the material is ready?<br>
-                            <input type="text" name="understanding129-3" class="full left-align" required>
+                            <input type="text" name="understanding129-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - According to Akira, what does a good game have behind it?<br>
-                            <input type="text" name="understanding129-4" class="full left-align" required>
+                            <input type="text" name="understanding129-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - When Does Akira start programming a game?<br>
-                            <input type="text" name="understanding129-5" class="full left-align" required>
+                            <input type="text" name="understanding129-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         
                     
