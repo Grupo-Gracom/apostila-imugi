@@ -17,9 +17,9 @@
 					<source src="{{ asset('assets/audio/Unit20/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p style="margin-top:16px;">Layers Is The Basic Tool To Create Anything On Photoshop. To Create More Complex Things, You Can Add Many Layers. This Way, When You Need To Make An
-                Alteration, Ou Can Edit By Part. Guides Help You Develop Your Project With More
-                Perfection Because It Helps You Align Everything On The Page. </p>
+                <div class="espacamento">
+                    <p>Layers Is The Basic Tool To Create Anything On Photoshop. To Create More Complex Things, You Can Add Many Layers. This Way, When You Need To Make An Alteration, Or Can Edit By Part. Guides Help You Develop Your Project With More Perfection Because It Helps You Align Everything On The Page.</p>
+                </div>
 			</div>
 		</div>
     </main>

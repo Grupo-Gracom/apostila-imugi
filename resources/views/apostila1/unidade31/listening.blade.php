@@ -17,14 +17,9 @@
 					<source src="{{ asset('assets/audio/Unit31/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 36px">
-                    <p>
-                        Photoshop Offers A <b>Tool</b> Called Video <b>Transition.</b> In It, You <b>Can</b> Find A Great Variety Of
-                        <b>Effects</b> For Slides And <b>Videos</b>. You Can <b>Add</b> A Transition Effect To The <b>Start</b>, Middle And
-                        End Of A Video/Slide.
-                    </p>
+                <div class="espacamento">
+                    <p>Photoshop Offers A <b>Tool</b> Called Video <b>Transition.</b> In It, You <b>Can</b> Find A Great Variety Of <b>Effects</b> For Slides And <b>Videos</b>. You Can <b>Add</b> A Transition Effect To The <b>Start</b>, Middle And End Of A Video/Slide.</p>
                 </div>
-				<div class="clear"></div>
             </div>
 		</div>
     </main>

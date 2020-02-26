@@ -17,35 +17,35 @@
                     <form id="unidade27understanding70" method="post">
                         <p>
                             1 -  What Is The Teacher’s Name?<br>
-                            <input type="text" name="understanding70-1" class="full left-align" required>
+                            <input type="text" name="understanding70-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 -  How Long Has Victor Worked As A Professional Video Editor?<br>
-                            <input type="text" name="understanding70-2" class="full left-align" required>
+                            <input type="text" name="understanding70-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 -  What Does He Work With?<br>
-                            <input type="text" name="understanding70-3" class="full left-align" required>
+                            <input type="text" name="understanding70-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - What Did Victor Study In College?<br>
-                            <input type="text" name="understanding70-4" class="full left-align" required>
+                            <input type="text" name="understanding70-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - Who Does He Edit Videos For?<br>
-                            <input type="text" name="understanding70-5" class="full left-align" required>
+                            <input type="text" name="understanding70-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - What Is He Going To Teach?<br>
-                            <input type="text" name="understanding70-6" class="full left-align" required>
+                            <input type="text" name="understanding70-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - Is It Possible To Edit Videos On Photoshop?<br>
-                            <input type="text" name="understanding70-7" class="full left-align" required>
+                            <input type="text" name="understanding70-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - What Can You Change In The Video With Photoshop?<br>
-                            <input type="text" name="understanding70-8" class="full left-align" required>
+                            <input type="text" name="understanding70-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">

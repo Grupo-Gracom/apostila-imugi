@@ -16,45 +16,80 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit18/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio> 
-                <div class="clear"></div> <br>
-				<p>Irregular Verbs</p>
-                <p>Irregular Verbs Differ From Regular Verbs Because Their Form In The Past Does Not Follow A Specific Rule.</p>
-                <p>Examples Of Common Irregular Verbs:</p>
-                <ul class="lista-inline">
-                    <div id="gramar18Verde">
-                        <p style="margin-bottom: 16px;"><b>PRESENT</b></p>
-                        <p>GO</p>
-                        <p>MAKE</p>
-                        <p>AM / ARE / IS</p>
-                        <p>THINK</p>
-                        <p>CHOOSE</p>
-                        <p>CUTE</p>
-                    </div>
-                    <div id="gramar18VerdeEscuro">
-                    <p style="margin-bottom: 16px;"><b>PASTE</b></p>
-                        <p>WENT</p>
-                        <p>MADE</p>
-                        <p>WAS / WHERE</p>
-                        <p>THOUGHT</p>
-                        <p>CHOSE</p>
-                        <p>CUT</p>                        
-                    </div>                    
-                </ul>                             
                 <div class="clear"></div>
-				<h5 class="barlow">A - Change The Sentence Into The Other Two Forms.</h5>
+                <div class="espacamento">
+                    <h5 class="barlow">Irregular verbs</h5>
+                    <p>Irregular Verbs Differ From Regular Verbs Because Their Form In The Past Does Not Follow A Specific Rule.</p>
+                    <h5 class="barlow">Examples of common irregular verbs:</h5>
+                </div>
+                <table class="metade center-align">
+                    <tr>
+                        <td><h5 class="barlow">Present</h5></td>
+                        <td><h5 class="barlow">Paste</h5></td>
+                    </tr>
+                    <tr>
+                        <td><p>GO</p></td>
+                        <td><p>WENT</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MAKE</p></td>
+                        <td><p>MADE</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>AM / ARE / IS</p></td>
+                        <td><p>WAS / WHERE</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>THINK</p></td>
+                        <td><p>THOUGHT</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>CHOOSE</p></td>
+                        <td><p>CHOSE</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>CUTE</p></td>
+                        <td><p>CUT</p> </td>
+                    </tr>
+                </table>
+				<h5 class="barlow">A - Change the sentence into the other two forms.</h5>
 				<form class="metade" id="unidade18grammar50" method="post">
-                    <p><b>1. Affirmative:</b> She Went To Class Yesterday.</p>
-                    <p><b>Interrogative:</b> <input class="full" type="text" name="grammar50-1" required></p>
-                    <p><b>negative:</b> <input class="full" type="text" name="grammar50-2" required></p>
-
-                    <p style="margin-top:40px;"><b>2. Affirmative:</b> <input class="full" type="text" name="grammar50-3" required></p>
-                    <p><b>Interrogative:</b>  Did He Choose The Color? </p>
-                    <p><b>negative:</b> <input class="full" type="text" name="grammar50-4" required></p>
-
-                    <p style="margin-top:40px;"><b>3. Affirmative:</b> <input class="full" type="text" name="grammar50-5" required></p>
-                    <p><b>Interrogative:</b> <input class="full" type="text" name="grammar50-6" required></p>
-                    <p><b>negative:</b> They Didn’t Make The Layout.</p>
-
+                    <p>
+                        <b>1 - Affirmative:</b><br>
+                        She went to class yesterday.
+                    </p>
+                    <p>
+                        <b>Interrogative:</b><br>
+                        <input class="full left-align" type="text" name="grammar50-1" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                        <b>Negative:</b><br>
+                        <input class="full left-align" type="text" name="grammar50-2" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                        <b>2 - Affirmative:</b><br>
+                        <input class="full left-align" type="text" name="grammar50-3" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                        <b>Interrogative:</b><br>
+                        Did he choose the color? 
+                    </p>
+                    <p>
+                        <b>Negative:</b><br>
+                        <input class="full left-align" type="text" name="grammar50-4" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                        <b>3 - Affirmative:</b><br>
+                        <input class="full left-align" type="text" name="grammar50-5" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                        <b>Interrogative:</b><br>
+                        <input class="full left-align" type="text" name="grammar50-6" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                        <b>Negative:</b><br>
+                        They didn’t make the layout.
+                    </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="18">

@@ -17,16 +17,14 @@
 					<source src="{{ asset('assets/audio29/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
-				
-                <h5 class="barlow" style="margin-top: 16px">A. notice How The Letter “H” Is Sillent In The Possessives After Words Ending In Consonant Sounds. The Connections Are In The Underlined Letters.</h5>
-				<ul>
-					<p>1.This Is For His Parents.</p>
-					<p>2.I Bought This Gift For Her.</p>
-					<p>3.I Helped Him Because His Car Broke Down.</p>
-					<p>4.I Need To Take Her Family To The Airport.</p>
-					<p>5.That’s His House.</p>
-               </ul>
-				<div class="clear"></div>
+                <h5 class="barlow" style="margin-top: 16px">A - Notice how the letter “H” is sillent in the possessives after words ending in consonant sounds. The connections are in the underlined letters.</h5>
+				<div class="espacamento">
+					<p>1 - This Is For His Parents.</p>
+					<p>2 - I Bought This Gift For Her.</p>
+					<p>3 - I Helped Him Because His Car Broke Down.</p>
+					<p>4 - I Need To Take Her Family To The Airport.</p>
+					<p>5 - That’s His House.</p>
+               	</div>
 			</div>
 		</div>
     </main>

@@ -17,11 +17,13 @@
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-				<h5 class="barlow" style="margin-top: 16px">A - LISTEN AND PRACTICE THE PRONOUNCIATION OF CAN AND CAN’T.</h5>
-				<p>• I CAN SWIM.</p>
-				<p>• SHE CAN’T PLAY THE GUITTAR</p>
-				<p>• HE CAN SPEAK ENGLISH.</p>
-				<p>• CAN THEY GO?</p>
+				<h5 class="barlow" style="margin-top: 16px">A - Listen and practice the pronounciation of "can" and "can´t".</h5>
+				<div class="espacamento">
+					<p>I <b>can</b> swim.</p>
+					<p>She <b>can’t</b> play the guittar</p>
+					<p>He <b>can</b> speak english.</p>
+					<p><b>Can</b> they go?</p>
+				</div>
 			</div>
 		</div>
     </main>

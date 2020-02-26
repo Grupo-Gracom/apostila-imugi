@@ -17,9 +17,9 @@
 					<source src="{{ asset('assets/audio/Unit19/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p style="margin-top:16px;">The Character Panel Is The Most Important Part Of Text Formating. It Is Used To Change A<br>
-                Variety Of Factors In The Text, Such As Size, Spacing, Font Style, Colors And More. You Can<br>
-                Change The Distance Between Paragraphs As Well.</p>
+                <div class="espacamento">
+                    <p>The Character Panel Is The Most Important Part Of Text Formating. It Is Used To Change A Variety Of Factors In The Text, Such As Size, Spacing, Font Style, Colors And More. You Can Change The Distance Between Paragraphs As Well.</p>
+                </div>
 			</div>
 		</div>
     </main>

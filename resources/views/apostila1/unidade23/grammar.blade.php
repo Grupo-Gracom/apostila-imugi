@@ -16,26 +16,25 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <p>Relative Pronouns</p>
-                <p>A Relative Pronoun Is Used To Connect A Clause Or Phrase To A Noun Or Pronoun. Who – Used When Speaking Of People.</p>
-                <p>Which- Used When Speaking About Things. (Relative Pronouns Are Not Necessary Before Subject Pronouns)</p>                                               
-                
-                <div class="metade">
                 <div class="clear"></div>
-                    <h5 class="barlow">A - complete The Sentences Using The Propper Relative Pronoun. Leave The Space In Blank If No Pronoun Is Necessary.</h5>
-                    <form id="unidade23grammar62" method="post">
-                    <p>1. She’s The Woman <input type="text" name="grammar62-1" required> Lives Next Door</p>
-                    <p>2. I Understand How To Use The Tool <input type="text" name="grammar62-2" required> Was Taught In Class.</p>
-                    <p>3. This Is The Cellphone <input type="text" name="grammar62-3" required> I Use For Work.</p>
-                    <p>4. He’s The One <input type="text" name="grammar62-4" required> Called You Yesterday.</p>
-                    <p>5. I Selected The Image <input type="text" name="grammar62-5" required> Was Going To Be Published.</p>
-                        
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="23">
-                        <input type="hidden" name="atividade_id" value="62">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
+                <div class="espacamento">
+                    <h5 class="barlow">Relative pronouns</h5>
+                    <p>A Relative Pronoun Is Used To Connect A Clause Or Phrase To A Noun Or Pronoun. Who – Used When Speaking Of People.</p>
+                    <p>Which- Used When Speaking About Things. (Relative Pronouns Are Not Necessary Before Subject Pronouns)</p>                                               
+                </div>
+                <h5 class="barlow">A - Complete the sentences using the propper relative pronoun. Leave the space in blank if no pronoun is necessary.</h5>
+                <form id="unidade23grammar62" method="post">
+                    <p>1 - She’s The Woman <input type="text" name="grammar62-1" placeholder="Responda aqui" required> Lives Next Door</p>
+                    <p>2 - I Understand How To Use The Tool <input type="text" name="grammar62-2" placeholder="Responda aqui" required> Was Taught In Class.</p>
+                    <p>3 - This Is The Cellphone <input type="text" name="grammar62-3" placeholder="Responda aqui" required> I Use For Work.</p>
+                    <p>4 - He’s The One <input type="text" name="grammar62-4" placeholder="Responda aqui" required> Called You Yesterday.</p>
+                    <p>5 - I Selected The Image <input type="text" name="grammar62-5" placeholder="Responda aqui" required> Was Going To Be Published.</p>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="23">
+                    <input type="hidden" name="atividade_id" value="62">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
                
 			</div>

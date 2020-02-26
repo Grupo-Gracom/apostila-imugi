@@ -17,16 +17,16 @@
 					<source src="{{ asset('assets/audio/Unit14/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                <p>
-                    Sometimes, To Avoid Repetition, We Use Cohesive Tools Like In The Examples Below. Complete The Exercise By Checking The Correct Answer That Best Represents The Underlined
-                    Cohesive Tool.
-                </p>
-                <div class="clear"></div>
-                <h5 class="barlow upper" style="margin-top: 16px">1 - My Friend Is Great At Photoshopping. I’m Not Great At It.</h5>
+                <div class="espacamento">
+                    <p>
+                        Sometimes, To Avoid Repetition, We Use Cohesive Tools Like In The Examples Below. Complete The Exercise By Checking The Correct Answer That Best Represents The Underlined
+                        Cohesive Tool.
+                    </p>
+                </div>
+                <h5 class="barlow" style="margin-top: 16px">A - My friend is great at photoshopping. I’m not great at it.</h5>
 				<form id="unidade14grammar39" method="post">
-                    <p>A. <input type="radio" name="grammar-39-1" value="1" required/> FRIEND</p>
-                    <p>B. <input type="radio" name="grammar-39-1" value="2" required/> PHOTOSHOPPING</p>
+                    <p>1 - <input type="radio" name="grammar-39-1" value="1" required/> FRIEND</p>
+                    <p>2 - <input type="radio" name="grammar-39-1" value="2" required/> PHOTOSHOPPING</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -34,11 +34,10 @@
                     <input type="hidden" name="atividade_id" value="39">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow" style="margin-top: 16px">2 - COLOR TOOLS AND TYPOGRAPHY TOOLS ARE IMPORTANT. BUT THE FIRST ARE MORE IMPORTANT TO ME.</h5>
+                <h5 class="barlow" style="margin-top: 16px">B - Color tools and typography tools are important. But the first are more important to me.</h5>
                 <form id="unidade14grammar40" method="post">
-                    <p>A. <input type="radio" name="grammar40-1" value="1" required/> COLOR TOOLS</p>
-                    <p>B. <input type="radio" name="grammar40-1" value="2" required/> TYPOGRAPHY TOOLS</p>
-                    
+                    <p>1 - <input type="radio" name="grammar40-1" value="1" required/> COLOR TOOLS</p>
+                    <p>2 - <input type="radio" name="grammar40-1" value="2" required/> TYPOGRAPHY TOOLS</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -46,7 +45,6 @@
                     <input type="hidden" name="atividade_id" value="40">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                </div>
 			</div>
 		</div>
     </main>

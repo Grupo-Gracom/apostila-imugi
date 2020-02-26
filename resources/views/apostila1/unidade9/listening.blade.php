@@ -17,9 +17,9 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p style="margin-top:16px;">Mr. and Mrs. Green are two famous graphic designers. They develop designs for big companies. They were born in Germany and are 63 and 56 years old, respectively. Mr. Green has great pleasure in helping smaller companies with his online blog. Mrs. Green loves to teach about Advertising. 
-</p>
-                
+                <div class="espacamento">
+                    <p>Mr. and Mrs. Green are two famous graphic designers. They develop designs for big companies. They were born in Germany and are 63 and 56 years old, respectively. Mr. Green has great pleasure in helping smaller companies with his online blog. Mrs. Green loves to teach about Advertising.</p>
+                </div>
 			</div>
 		</div>
     </main>

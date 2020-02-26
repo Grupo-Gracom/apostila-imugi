@@ -17,14 +17,9 @@
 					<source src="{{ asset('assets/audio/Unit29/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 36px">
-                    <p>
-                        A key frame in animation and filmmaking is a drawing that defines the starting and ending
-                        points of any smooth transition. The drawings are called “frames” because their position
-                        in time is measured in frames on a strip of film.
-                    </p>
+                <div class="espacamento">
+                    <p>A key frame in animation and filmmaking is a drawing that defines the starting and ending points of any smooth transition. The drawings are called “frames” because their position in time is measured in frames on a strip of film.</p>
                 </div>
-				<div class="clear"></div>
             </div>
 		</div>
     </main>

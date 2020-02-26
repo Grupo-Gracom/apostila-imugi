@@ -17,14 +17,9 @@
 					<source src="{{ asset('assets/audio/Unit32/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 36px">
-                    <p>
-                        Key Frame Is Used In Videos To Determine The Position And Duration Of Effects, While
-                        The Video Transition Is Applied When Moving From One Take To The Next, Or From Slide
-                        To Slide.
-                    </p>
+                <div class="espacamento">
+                    <p>Key Frame Is Used In Videos To Determine The Position And Duration Of Effects, While The Video Transition Is Applied When Moving From One Take To The Next, Or From Slide To Slide.</p>
                 </div>
-				<div class="clear"></div>
             </div>
 		</div>
     </main>

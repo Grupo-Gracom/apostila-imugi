@@ -16,31 +16,31 @@
                     <form id="unidade24understanding65" method="post">
                         <p>
                             1 - What’s Marcelo Trying To Draw?<br>
-                            <input type="text" name="understanding65-1" class="full left-align" required>
+                            <input type="text" name="understanding65-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 - What Is Wrong With Marcelo’s Drawing?<br>
-                            <input type="text" name="understanding65-2" class="full left-align" required>
+                            <input type="text" name="understanding65-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 - What Does Marcelo Need To Do To Fix The Errors In The Project?<br>
-                            <input type="text" name="understanding65-3" class="full left-align" required>
+                            <input type="text" name="understanding65-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - Why Does Marcelo Want To Keep The Original Mistakes?<br>
-                            <input type="text" name="understanding65-4" class="full left-align" required>
+                            <input type="text" name="understanding65-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - What Tool Does Sarah Recommend To Marcelo?<br>
-                            <input type="text" name="understanding65-5" class="full left-align" required>
+                            <input type="text" name="understanding65-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - In Marcelo’s Case, What Does He Need To Do First To Fix The Error?<br>
-                            <input type="text" name="understanding65-6" class="full left-align" required>
+                            <input type="text" name="understanding65-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - Why Should Marcelo Change The Opacity Of The Eraser? <br>
-                            <input type="text" name="understanding65-7" class="full left-align" required>
+                            <input type="text" name="understanding65-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>                       
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
@@ -48,11 +48,6 @@
                         <input type="hidden" name="atividade_id" value="65">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
                 </div>
 			</div>
 		</div>

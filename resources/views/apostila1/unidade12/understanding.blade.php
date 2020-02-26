@@ -17,46 +17,44 @@
                     <form id="unidade12understanding36" method="post">
                         <p>
                             1 -  How Is Medina?<br>
-                            <input type="text" name="understanding36-1" class="full left-align" required>
+                            <input type="text" name="understanding36-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 -  Why Does Nicolas Need To Make A Banner?<br>
-                            <input type="text" name="understanding36-2" class="full left-align" required>
+                            <input type="text" name="understanding36-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 -  Does Nicolas Like The Fonts Available On Photoshop?<br>
-                            <input type="text" name="understanding36-3" class="full left-align" required>
+                            <input type="text" name="understanding36-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - What Does Medina Recommend To Nicolas?<br>
-                            <input type="text" name="understanding36-4" class="full left-align" required>
+                            <input type="text" name="understanding36-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - Where Can Nicolas Download Fonts From?<br>
-                            <input type="text" name="understanding36-5" class="full left-align" required>
+                            <input type="text" name="understanding36-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - What Tool Do You Use To Select Fonts?<br>
-                            <input type="text" name="understanding36-6" class="full left-align" required>
+                            <input type="text" name="understanding36-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - What Does The Horizontal Type Tool Do?<br>
-                            <input type="text" name="understanding36-7" class="full left-align" required>
+                            <input type="text" name="understanding36-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - What Does Nicolas Want His Font To Have?<br>
-                            <input type="text" name="understanding36-8" class="full left-align" required>
+                            <input type="text" name="understanding36-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             9 - What Is The Name Of The Tool You Use To Stylize Your Text?<br>
-                            <input type="text" name="understanding36-9" class="full left-align" required>
+                            <input type="text" name="understanding36-9" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             10 - What Does The Style Panel Have?<br>
-                            <input type="text" name="understanding36-10" class="full left-align" required>
+                            <input type="text" name="understanding36-10" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-                    
-                        
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="12">
@@ -65,9 +63,9 @@
                     </form>
                 </div>
                 <div class="metade" style="margin-top: 36px">
-                        <figure>
-                            <img src="{{ asset('assets/img/playgo/unit5/pagina-1.png') }}" alt="Garotos festejando">
-                        </figure>
+                    <figure>
+                        <img src="{{ asset('assets/img/playgo/unit12/U12.jpg') }}" alt="Dica">
+                    </figure>
 				</div>
 			</div>
 		</div>

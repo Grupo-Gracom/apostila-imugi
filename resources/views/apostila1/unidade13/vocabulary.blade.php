@@ -17,14 +17,14 @@
 					<source src="{{ asset('assets/audio/Unit13/Vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>COOL</b></li>
-					<li><b>TALK</b></li>
-					<li><b>SOUND</b></li>
-					<li><b>VAST</b></li>
-					<li><b>YEAR</b></li>
-					<li><b>BUSINESS</b></li>
-					<li><b>JOB</b></li>
-					<li><b>BORDER</b></li>
+					<li><p><b>COOL</b></p></li>
+					<li><p><b>TALK</b></p></li>
+					<li><p><b>SOUND</b></p></li>
+					<li><p><b>VAST</b></p></li>
+					<li><p><b>YEAR</b></p></li>
+					<li><p><b>BUSINESS</b></p></li>
+					<li><p><b>JOB</b></p></li>
+					<li><p><b>BORDER</b></p></li>
 				</ul>
 			</div>
 		</div>

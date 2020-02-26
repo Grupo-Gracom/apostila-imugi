@@ -17,44 +17,38 @@
                     <form id="unidade9understanding30" method="post">
                         <p>
                             1 - What is the teacher’s name?<br>
-                            <input type="text" name="understanding30-1" class="full left-align" required>
+                            <input type="text" name="understanding30-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 - Where was Bia born?<br>
-                            <input type="text" name="understanding30-2" class="full left-align" required>
+                            <input type="text" name="understanding30-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 - What does Beatriz do for a living?<br>
-                            <input type="text" name="understanding30-3" class="full left-align" required>
+                            <input type="text" name="understanding30-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - What are Bia’s two hobbies?<br>
-                            <input type="text" name="understanding30-4" class="full left-align" required>
+                            <input type="text" name="understanding30-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - How old is she?<br>
-                            <input type="text" name="understanding30-5" class="full left-align" required>
+                            <input type="text" name="understanding30-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - How does Ana Beatriz like to be called?<br>
-                            <input type="text" name="understanding30-6" class="full left-align" required>
+                            <input type="text" name="understanding30-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - What does she do exactly?<br>
-                            <input type="text" name="understanding30-7" class="full left-align" required>
+                            <input type="text" name="understanding30-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="9">
                         <input type="hidden" name="atividade_id" value="30">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
                 </div>
 			</div>
 		</div>

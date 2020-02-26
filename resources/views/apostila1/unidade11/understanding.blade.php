@@ -17,35 +17,35 @@
                     <form id="unidade11understanding34" method="post">
                         <p>
                             1 -  What is ADAM doing?<br>
-                            <input type="text" name="understanding34-1" class="full left-align" required>
+                            <input type="text" name="understanding34-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 -  What does he need help with?<br>
-                            <input type="text" name="understanding34-2" class="full left-align" required>
+                            <input type="text" name="understanding34-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 -  What is the first thing Bia recommends?<br>
-                            <input type="text" name="understanding34-3" class="full left-align" required>
+                            <input type="text" name="understanding34-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - What software is ADAM using to make the birthday card?<br>
-                            <input type="text" name="understanding34-4" class="full left-align" required>
+                            <input type="text" name="understanding34-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - How can you choose the color you want to use?<br>
-                            <input type="text" name="understanding34-5" class="full left-align" required>
+                            <input type="text" name="understanding34-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - Where do you save the color you like?<br>
-                            <input type="text" name="understanding34-6" class="full left-align" required>
+                            <input type="text" name="understanding34-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - Where do you click to add a color to the swatches panel?<br>
-                            <input type="text" name="understanding34-7" class="full left-align" required>
+                            <input type="text" name="understanding34-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - Why is color picker important?<br>
-                            <input type="text" name="understanding34-8" class="full left-align" required>
+                            <input type="text" name="understanding34-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">

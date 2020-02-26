@@ -17,28 +17,25 @@
 					<source src="{{ asset('assets/audio/Unit32/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
+                <div class="espacamento">
                     <p>Object Pronouns/Subject Pronouns X Possessive Adjectives/Possessive Pronouns</p>
-                    
-                    <h5 class="barlow" style="margin-top: 16px">A - Complete The Sentences Using One Of The Forms Above For The Pronouns In Parenthesis</h5>
-                    <form id="unidade32grammar79" method="post">
-                        <p>1. She Told <input type="text" name="grammar79-1" required/> (I) She Sick.</p>
-                                <p>2. They Are <input type="text" name="grammar79-2" required/> (He) Friends.</p>
-                                <p>3. That Book Is <input type="text" name="grammar79-3" required/> (You).</p>
-                                <p>4. She Likes <input type="text" name="grammar79-4" required/> (You).</p>
-                                <p>5. They Work With <input type="text" name="grammar79-5" required/>  (We)</p>
-                                <p>6. He Travels With  <input type="text" name="grammar79-6" required/>   (She) Tomorrow.</p>
-                                <p>7. <input type="text" name="grammar79-7" required/>  (She) Car Is In The Garage.</p>
-                        </p>
-                        
-                        <div class="clear"></div>
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="32">
-                        <input type="hidden" name="atividade_id" value="79">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
                 </div>
+                <h5 class="barlow" style="margin-top: 16px">A - Complete the sentences using one of the forms above for the pronouns in parenthesis</h5>
+                <form id="unidade32grammar79" method="post">
+                    <p>1 - She Told <input type="text" name="grammar79-1" placeholder="Responda aqui" required/> (I) She Sick.</p>
+                    <p>2 - They Are <input type="text" name="grammar79-2" placeholder="Responda aqui" required/> (He) Friends.</p>
+                    <p>3 - That Book Is <input type="text" name="grammar79-3" placeholder="Responda aqui" required/> (You).</p>
+                    <p>4 - She Likes <input type="text" name="grammar79-4" placeholder="Responda aqui" required/> (You).</p>
+                    <p>5 - They Work With <input type="text" name="grammar79-5" placeholder="Responda aqui" required/>  (We)</p>
+                    <p>6 - He Travels With  <input type="text" name="grammar79-6" placeholder="Responda aqui" required/>   (She) Tomorrow.</p>
+                    <p>7 - <input type="text" name="grammar79-7" placeholder="Responda aqui" required/>  (She) Car Is In The Garage.</p>
+                    <div class="clear"></div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="32">
+                    <input type="hidden" name="atividade_id" value="79">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
 			</div>
 		</div>
     </main>

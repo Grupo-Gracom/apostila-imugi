@@ -16,13 +16,14 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit31/Vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
+				<div class="clear"></div>
 				<ul class="lista-inline">
-					<li><b>TRANSITION</b></li>
-					<li><b>TAKE</b></li>
-					<li><b>SUPPOSE</b></li>
-					<li><b>SHOULD</b></li>
-					<li><b>A BUNCH OF</b></li>
-					<li><b>LEFT</b></li>
+					<li><p><b>TRANSITION</b></p></li>
+					<li><p><b>TAKE</b></p></li>
+					<li><p><b>SUPPOSE</b></p></li>
+					<li><p><b>SHOULD</b></p></li>
+					<li><p><b>A BUNCH OF</b></p></li>
+					<li><p><b>LEFT</b></p></li>
 				</ul>
 			</div>
 		</div>

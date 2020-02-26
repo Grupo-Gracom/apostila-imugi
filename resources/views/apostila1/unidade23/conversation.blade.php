@@ -16,15 +16,17 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
 				</audio>
-				<p style="margin-top: 16px"><b>Sarah :</b> Hey everyone! Today we’re gonna talk about the brush tool and what you can do with it.</p>
-				<p><b>Sarah :</b> The brush is a very important tool in ilustration. It is like a pen or a pencil. Your creations are only limited by your creativity.</p>
-				<p><b>Rafael :</b> Sarah, that tool sounds very basic. How does an ilustrator use it?</p>
-				<p><b>Kylie :</b> Fael, it’s simple if you know it. But what many people who don’t use photoshop don’t know is that the brush
-								 has a variety of colors, textures, shapes, sizes and hardness.</p>
-				<p><b>Sarah :</b> Exactly Kylie. So, it is basic, but you can do a lot with it.</p>
-				<p><b>Rafael :</b> Got it! Thanks guys!</p>
+				<div class="clear"></div>
+				<div class="espacamento">
+					<p><b>Sarah :</b> Hey everyone! Today we’re gonna talk about the brush tool and what you can do with it.</p>
+					<p><b>Sarah :</b> The brush is a very important tool in ilustration. It is like a pen or a pencil. Your creations are only limited by your creativity.</p>
+					<p><b>Rafael :</b> Sarah, that tool sounds very basic. How does an ilustrator use it?</p>
+					<p><b>Kylie :</b> Fael, it’s simple if you know it. But what many people who don’t use photoshop don’t know is that the brush has a variety of colors, textures, shapes, sizes and hardness.</p>
+					<p><b>Sarah :</b> Exactly Kylie. So, it is basic, but you can do a lot with it.</p>
+					<p><b>Rafael :</b> Got it! Thanks guys!</p>
+				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit23/ilust_23.jpg') }}" alt="Sarah, Rafael and Kylie">
 				</figure>
 			</div>
 		</div>

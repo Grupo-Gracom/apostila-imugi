@@ -17,7 +17,9 @@
 					<source src="{{ asset('assets/audio/Unit7/Listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p style="margin-top:16px;">Carlos Utilizes The Adjustment Panel In Photoshop To Select The Black & White Tool In Order To Add Drama To His Photo. He Says He Uses It With Every Picture He Edits.</p>
+                <div class="espacamento">
+                    <p>Carlos Utilizes The Adjustment Panel In Photoshop To Select The Black & White Tool In Order To Add Drama To His Photo. He Says He Uses It With Every Picture He Edits.</p>
+                </div>
 			</div>
 		</div>
     </main>

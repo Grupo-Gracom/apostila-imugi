@@ -12,26 +12,32 @@
 			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade6" data-etapa="grammar">
 				<h3 class="barlow">UNIT 06 - Brush and Red Eye Correction</h3>
 				<h5 class="barlow">3 - GRAMMAR</h5>
-				<!-- <span class="play-audio">( Aperte o play )</span>
+				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit3/grammar/Page15Grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div> -->
-                <p><b>IMPERATIVE FORM</b></p>
-                <div class="metade esquerda">
-                    <p>Open your books.</p>
-                    <p>Edit the picture.</p>
-                    <p>Remove brightness.</p>
-                    <p>Add contrast </p>
-                </div>
-                <div class="metade direita">
-                    <p>Use the brush.</p>
-                    <p>Click on burn tool.</p>
-                    <p>Delete the photo.</p>
-                    <p>Touch up the imperfections.</p>
-                </div>
                 <div class="clear"></div>
-
+                <table class="metade center-align">
+                    <tr>
+                        <td colspan="2"><h5 class="barlow">Imperative form</h5></td>
+                    </tr>
+                    <tr>
+                        <td><p>Open your books.</p></td>
+                        <td><p>Use the brush.</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Edit the picture.</p></td>
+                        <td><p>Click on burn tool.</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Remove brightness.</p></td>
+                        <td><p>Delete the photo.</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Add contrast.</p></td>
+                        <td><p>Touch up the imperfections.</p></td>
+                    </tr>
+                </table>
 				<h5 class="barlow">A - Select the correct option of the underlined verbs.</h5>
 				<form id="unidade6grammar21" method="post">
                     <p>1 - <input type="radio" name="grammar-21-1" value="1" required> <b>Open</b> <input type="radio" name="grammar-21-1" value="2" required> <b>Edit</b> Photoshop.</p>

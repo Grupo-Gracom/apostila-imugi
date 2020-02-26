@@ -16,38 +16,39 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <h5 class="barlow">GERUND</h5>
-                <p>OBSERVE HOW WHEN AN ACTION IS REPRESENTED AS AN ACTIVITY, “ING” IS ADDED TO THE END OF IT.</p>
-                <ul class="lista-inline">
-					<li><b>SINGING</b></li>
-					<li><b>DANCING</b></li>
-					<li><b>COOKING</b></li>
-					<li><b>RUNNING</b></li>
-					<li><b>SWIMMING</b></li>
-				</ul>         
-                <p>Observation: There Are Two Rules You Need To Know When Using “Ing”.</p>
-                <p><b>1. IF THE ACTION ENDS WITH AN “E”, REMOVE THE “E” AND ADD “ING”</b></p>
-                <p>EXAMPLE: DANCE- DANCING</p>
-                <p><b>2. IF THE ACTION ENDS WITH A CONSONANT, VOWEL, CONSONANT, DOUBLE THE LAST CONSONANT AND ADD “ING”.</b></p>
-                <p>EXAMPLE: RUN- RUNNING; SWIM- SWIMMING</p>
+                <div class="clear"></div>
+                <div class="espacamento">
+                    <h5 class="barlow">Gerund</h5>
+                    <p>Observe how when an action is represented as an activity, "ing" is added to the end of it.</p>
+                    <ul class="lista-inline">
+                        <li><p><b>SINGING</b></p></li>
+                        <li><p><b>DANCING</b></p></li>
+                        <li><p><b>COOKING</b></p></li>
+                        <li><p><b>RUNNING</b></p></li>
+                        <li><p><b>SWIMMING</b></p></li>
+                    </ul>         
+                    <p>Observation: There are two rules you need to know when using “ing”.</p>
+                    <h5 class="barlow">If the action ends with an "e", remove the "e" and add "ing".</h5>
+                    <p>EXAMPLE: DANCE- DANCING</p>
+                    <h5 class="barlow">If the action ends with a consonant, vowel, consonant, double the last consonant and add "ing".</h5>
+                    <p>EXAMPLE: RUN- RUNNING; SWIM- SWIMMING</p>
+                </div>
                 <div class="metade">
                     <div class="clear"></div>
-                    <h5 class="barlow">A - complete The Exercise By Putti ng The Verbs In The Gerund Form</h5>
-                        <form id="unidade10grammar31" method="post">
-                        <p>1. She likes <input type="text" name="grammar31-1" required> (study) English.</p>
-                        <p>2. He loves <input type="text" name="grammar31-2" required> (take) pictures of animals.</p>
-                        <p>3. They enjoy <input type="text" name="grammar31-3" required> (dance).</p>
-                        <p>4. I don’t like <input type="text" name="grammar31-4" required> (swim).</p>
-                        <p>5. Does she like <input type="text" name="grammar31-5" required> (cook)?</p>
-                            
-                            <input type="hidden" name="_token" value="{{csrf_token()}}">
-                            <input type="hidden" name="resposta_id" value="0">
-                            <input type="hidden" name="unidade_id" value="10">
-                            <input type="hidden" name="atividade_id" value="31">
-                            <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                        </form>                                
+                    <h5 class="barlow">A - Complete the exercise by putting the verbs in the gerund form</h5>
+                    <form id="unidade10grammar31" method="post">
+                        <p>1. She likes <input type="text" name="grammar31-1" placeholder="Responda aqui" required> (study) English.</p>
+                        <p>2. He loves <input type="text" name="grammar31-2" placeholder="Responda aqui" required> (take) pictures of animals.</p>
+                        <p>3. They enjoy <input type="text" name="grammar31-3" placeholder="Responda aqui" required> (dance).</p>
+                        <p>4. I don’t like <input type="text" name="grammar31-4" placeholder="Responda aqui" required> (swim).</p>
+                        <p>5. Does she like <input type="text" name="grammar31-5" placeholder="Responda aqui" required> (cook)?</p>
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="10">
+                        <input type="hidden" name="atividade_id" value="31">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
                 </div>
-               
 			</div>
 		</div>
     </main>

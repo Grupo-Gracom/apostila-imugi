@@ -16,32 +16,32 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-
                 <div class="clear"></div>
-                <p>WH- QUESTIONS (WHAT; WHERE; HOW)</p>
-                <p>Where is used to make questions about place/location.</p>
-                <p>What is used to make questions about things.</p>
-                <p>How is used to make questions about the way something is done, or condition.</p>
-                <p><b>EXAMPLES:</b></p>
-                <p>Where are you from?</p>
-                <p>What is your profession?</p>
-                <p>How are you today?</p>
-				<h5 class="barlow">A - Complete The Questions Using The Appropriate Interrogative Pronoun.</h5>
+                <div class="espacamento">
+                    <h5 class="barlow">WH- QUESTIONS (WHAT; WHERE; HOW)</h5>
+                    <p><b>Where</b> is used to make questions about place/location.</p>
+                    <p><b>What</b> is used to make questions about things.</p>
+                    <p><b>How</b> is used to make questions about the way something is done, or condition.</p>
+                    <h5 class="barlow">Examples:</h5>
+                    <p>Where are you from?</p>
+                    <p>What is your profession?</p>
+                    <p>How are you today?</p>
+                </div>
+				<h5 class="barlow">A - Complete the questions using the appropriate interrogative pronoun.</h5>
 				<form id="unidade9grammar29" method="post">
-                    <p>1. <input type="text" name="grammar29-1" required> are Caio and Felipe from?</p>
-                    <p>2. <input type="text" name="grammar29-2" required> do you go to work?</p>
-                    <p>3. <input type="text" name="grammar29-3" required> is your favorite color?</p>
-                    <p>4. <input type="text" name="grammar29-4" required> are you today?</p>
-                    <p>5. <input type="text" name="grammar29-5" required> do you live?</p>
-                    <p>6. <input type="text" name="grammar29-6" required> does she work?</p>
-                    <p>7. <input type="text" name="grammar29-7" required> does he take beautiful photos?</p>
+                    <p>1 - <input type="text" name="grammar29-1" placeholder="Responda aqui" required> are Caio and Felipe from?</p>
+                    <p>2 - <input type="text" name="grammar29-2" placeholder="Responda aqui" required> do you go to work?</p>
+                    <p>3 - <input type="text" name="grammar29-3" placeholder="Responda aqui" required> is your favorite color?</p>
+                    <p>4 - <input type="text" name="grammar29-4" placeholder="Responda aqui" required> are you today?</p>
+                    <p>5 - <input type="text" name="grammar29-5" placeholder="Responda aqui" required> do you live?</p>
+                    <p>6 - <input type="text" name="grammar29-6" placeholder="Responda aqui" required> does she work?</p>
+                    <p>7 - <input type="text" name="grammar29-7" placeholder="Responda aqui" required> does he take beautiful photos?</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="9">
                     <input type="hidden" name="atividade_id" value="29">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-               
 			</div>
 		</div>
     </main>

@@ -17,9 +17,9 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p style="margin-top:16px;">In The Brush Tool Options Menu, You Can Find A Variety Of Predefined Brushes To Apply To Your Art.
-                                             You Can Even Define Your Own Settings, If You Want Something More Unique.</p>
-                
+                <div class="espacamento">
+                    <p>In The Brush Tool Options Menu, You Can Find A Variety Of Predefined Brushes To Apply To Your Art. You Can Even Define Your Own Settings, If You Want Something More Unique.</p>
+                </div>
 			</div>
 		</div>
     </main>

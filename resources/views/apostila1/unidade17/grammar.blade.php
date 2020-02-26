@@ -16,10 +16,12 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit17/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio> 
-                <div class="clear"></div> <br>
-				<h5 class="barlow">Verb To Be (Past)</h5>
-                <p>The Verb To Be Is An Irregular Verb. In The Past, It Has Two Forms.</p>
-                <h5 class="barlow">Conjugation:</n5>
+                <div class="clear"></div>
+                <div class="espacamento">
+                    <h5 class="barlow">Verb To Be (Past)</h5>
+                    <p>The Verb To Be Is An Irregular Verb. In The Past, It Has Two Forms.</p>
+                    <h5 class="barlow">Conjugation:</h5>
+                </div>
                 <table class="metade center-align">
                     <tr>
                         <td><p><b>I</b></p></td>
@@ -36,21 +38,22 @@
                         <td><p><b>THEY</b></p></td>
                     </tr>
                 </table>
-                <p style="margin-top:16px;">STRUCTURE:</p>
-                <p>AFFIRMATIVE: SUBJECT + WAS/WERE</p>
-                <p>EXAMPLE: SHE WAS A GREAT STUDENT.</p>
-                <p>INTERROGATIVE: WAS/WERE + SUBJECT</p>
-                <p>EXAMPLE: WERE YOU HOME LAST NIGHT?</p>
-                <p>NEGATIVE: SUBJECT + WAS/WERE + NOT</p>
-                <p>EXAMPLE: WE WERE NOT ON TIME FOR THE EVENT</p>             
-                <div class="clear"></div>
-				<h5 class="barlow">A - complete The Exercise With The Verb To Be In The Past.</h5>
+                <div class="espacamento">
+                    <p>Structure:</p>
+                    <p><b>Affirmative:</b> SUBJECT + WAS/WERE</p>
+                    <p>EXAMPLE: SHE WAS A GREAT STUDENT.</p>
+                    <p><b>Interrogative:</b> WAS/WERE + SUBJECT</p>
+                    <p>EXAMPLE: WERE YOU HOME LAST NIGHT?</p>
+                    <p><b>Negative:</b> SUBJECT + WAS/WERE + NOT</p>
+                    <p>EXAMPLE: WE WERE NOT ON TIME FOR THE EVENT</p>             
+                </div>
+				<h5 class="barlow">A - Complete the exercise with the verb to be in the past.</h5>
 				<form id="unidade17grammar48" method="post">
-                    <p><b>1.</b><input type="text" name="grammar48-1" required>You And Your Friend At The Party Yesterday?</p>
-                    <p><b>2.</b> I<input type="text" name="grammar48-2" required>Sick On The Day Of The Test.</p>
-                    <p><b>3.</b> SHE<input type="text" name="grammar48-3" required> (Not) There That Day.</p>
-                    <p><b>4.</b><input type="text" name="grammar48-4" required> He A Good Teacher?</p>
-                    <p><b>5.</b> WE<input type="text" name="grammar48-5" required>At The Mall On Sunday.</p>                    
+                    <p>1 - <input type="text" name="grammar48-1" placeholder="Responda aqui" required>You And Your Friend At The Party Yesterday?</p>
+                    <p>2 - I<input type="text" name="grammar48-2" placeholder="Responda aqui" required>Sick On The Day Of The Test.</p>
+                    <p>3 - SHE<input type="text" name="grammar48-3" placeholder="Responda aqui" required> (Not) There That Day.</p>
+                    <p>4 - <input type="text" name="grammar48-4" placeholder="Responda aqui" required> He A Good Teacher?</p>
+                    <p>5 - WE<input type="text" name="grammar48-5" placeholder="Responda aqui" required>At The Mall On Sunday.</p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="17">

@@ -25,6 +25,7 @@ body{background-color: rgba(125, 194, 66, 0.15);}
 .metade.direita{float: right;}
 .umterco{width: calc(33.333% - 11px);float:left;}
 .umterco:nth-child(2){margin:0 16px;}
+.doisterco{width: calc(66.666% - 11px);}
 .espacamentoWord{word-spacing: 34px;}
 
 figure{margin: 0;}
@@ -100,13 +101,16 @@ main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242
 #unidade .play-audio{width: 300px;text-align: center;display: block;font-size: 12px;color: #777;}
 #unidade .lista-inline{display: flex;list-style: none;margin: 16px;}
 #unidade .lista-inline li{flex: 1;text-align: center;}
+#unidade .lista-inline li h5,
+#unidade .lista-inline li p{margin: 0;}
 #unidade .lista-vertical{list-style: none;border-radius: 5px;margin-left: 0;margin-right: 0;font-size: 18px;}
 #unidade .tabelagrammar{background-color: #7dc242;width: 50%;border-collapse: collapse;}
 #unidade .tabelagrammar td {text-align: center; color:white; }
 #unidade .tabelagrammarSemlinha {width:50%;border-color:white;}
 #unidade #unidade1understanding5 p{max-width: 500px;}
 #unidade #unidade3listening13 textarea,
-#unidade #unidade6listening22 textarea{height: 150px}
+#unidade #unidade6listening22 textarea,
+#unidade #unidade8listening83 textarea{height: 150px}
 #unidade #joguin1{margin: 0 auto;margin-top: 50px;display: block;}
 #unidade .tituloTabela{position:relative;background-color: #15b449; color:white;text-align: center; font-size: large; padding-top:2%;}
 #unidade .corpoTabela{background-color: #8bce50; color:white; width: 50%}
@@ -131,6 +135,7 @@ main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242
     audio{width: 100%;}
 
     .umterco,
+    .doisterco,
     .metade{width: 100%;}
     .metade.esquerda,
     .metade.direita{float: none;}
@@ -149,6 +154,7 @@ main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242
     #unidade .bem-vindo-conteudo{padding: 0;}
     #unidade .bem-vindo-video{margin: 0;}
     #unidade .play-audio{width: 100%;}
+    #unidade .espacamento{margin: 0;padding: 16px;box-sizing: border-box;}
 
     #unidade .lista-inline{display: block;}
     #unidade .lista-inline li{flex: initial;text-align: initial;}

@@ -18,14 +18,14 @@
 					<source src="{{ asset('assets/audio/Unit18/vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>MADE</b></li>
-					<li><b>WAS</b></li>
-					<li><b>STEP</b></li>
-					<li><b>SOUND</b></li>
-					<li><b>KIND OF</b></li>					
-					<li><b>VARIETY</b></li>
-					<li><b>IMPLY</b></li>
-					<li><b>PALET</b></li>					
+					<li><p><b>MADE</b></p></li>
+					<li><p><b>WAS</b></p></li>
+					<li><p><b>STEP</b></p></li>
+					<li><p><b>SOUND</b></p></li>
+					<li><p><b>KIND OF</b></p></li>
+					<li><p><b>VARIETY</b></p></li>
+					<li><p><b>IMPLY</b></p></li>
+					<li><p><b>PALET</b></p></li>
 				</ul>
 			</div>
 		</div>

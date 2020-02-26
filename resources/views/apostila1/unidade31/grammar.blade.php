@@ -17,36 +17,34 @@
 					<source src="{{ asset('assets/audio/Unit31/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                    <p>Tag Questions</p>
+                <div class="espacamento">
+                    <h5 class="barlow">Tag Questions</h5>
                     <p>Tag Questions Are Used At The End Of Sentences To Express Doubt.</p>
-                
-
-                    <ul class="lista-vertical metade esquerda center-align">
-                        <li><h5 class="barlow">With To Be</h5></li>
-                        <li>You Are Brazilian, Aren’t You?</li>
-                        <li>(Affirmative); (Negative-Interrogative)?</li>
-                        <li>She Isn’t Your Sister, Is She?</li>
-                        <li>(Negative); (Interrogative)?</li>
-                    </ul>
-                    
-                    <ul class="lista-vertical metade direita center-align">
-                        <li><h5 class="barlow">With Other Verbs</h5></li>
-                        <li>You Live In Brazil, Don’t You?</li>
-                        <li>(Afirmative); (Negative-Int.)?</li>
-                        <li>She Doesn’t Work Here, Does She?</li>
-                        <li>(Negative); (Interrogative)?</li>
-                    </ul>
-                    <div class="clear"></div>
+                    <div class="doisterco">
+                        <div class="lista-vertical metade esquerda">
+                            <p><h5 class="barlow">With To Be</h5></p>
+                            <p>You Are Brazilian, Aren’t You?</p>
+                            <p><b>Affirmative</b>; <b>Negative-Interrogative?</b></p>
+                            <p>She Isn’t Your Sister, Is She?</p>
+                            <p><b>Negative</b>; <b>Interrogative?</b></p>
+                        </div>
+                        <div class="lista-vertical metade direita">
+                            <p><h5 class="barlow">With Other Verbs</h5></p>
+                            <p>You Live In Brazil, Don’t You?</p>
+                            <p><b>Afirmative</b>; <b>Negative-Int?</b></p>
+                            <p>She Doesn’t Work Here, Does She?</p>
+                            <p><b>Negative</b>; <b>Interrogative?</b></p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
                 <h5 class="barlow" style="margin-top: 16px">A - Complete the sentences with the correct tag question structure.</h5>
                 <form id="unidade31grammar77" method="post">
-                    <p>1. John is a teacher, <input type="text" name="grammar77-1" required/> ?</p>
-                            <p>2. Mike and gina are married, <input type="text" name="grammar77-2" required/> ?</p>
-                            <p>3. You work all day, <input type="text" name="grammar77-3" required/> ?</p>
-                            <p>4. She doesn’t like chocolate, <input type="text" name="grammar77-4" required/> ?</p>
-                            <p>5. They travel tomorrow, <input type="text" name="grammar77-5" required/> ?</p>
-                    </p>
-                    
+                    <p>1 - John is a teacher, <input type="text" name="grammar77-1" placeholder="Responda aqui" required/> ?</p>
+                    <p>2 - Mike and gina are married, <input type="text" name="grammar77-2" placeholder="Responda aqui" required/> ?</p>
+                    <p>3 - You work all day, <input type="text" name="grammar77-3" placeholder="Responda aqui" required/> ?</p>
+                    <p>4 - She doesn’t like chocolate, <input type="text" name="grammar77-4" placeholder="Responda aqui" required/> ?</p>
+                    <p>5 - They travel tomorrow, <input type="text" name="grammar77-5" placeholder="Responda aqui" required/> ?</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

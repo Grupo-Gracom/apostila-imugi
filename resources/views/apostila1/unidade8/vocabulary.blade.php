@@ -18,14 +18,14 @@
 					<source src="{{ asset('assets/audio/Unit8/Vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>LAST</b></li>
-					<li><b>WANT</b></li>
-					<li><b>DURING</b></li>
-					<li><b>TAKE</b></li>
-					<li><b>CAN</b></li>
-					<li><b>DO</b></li>
-					<li><b>MAKE</b></li>
-					<li><b>BETWEEN</b></li>
+					<li><p><b>LAST</b></p></li>
+					<li><p><b>WANT</b></p></li>
+					<li><p><b>DURING</b></p></li>
+					<li><p><b>TAKE</b></p></li>
+					<li><p><b>CAN</b></p></li>
+					<li><p><b>DO</b></p></li>
+					<li><p><b>MAKE</b></p></li>
+					<li><p><b>BETWEEN</b></p></li>
 				</ul>
 			</div>
 		</div>

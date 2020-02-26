@@ -17,47 +17,51 @@
 					<source src="{{ asset('assets/audio/Unit28/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                    <p><b>Object Pronouns X Subject Pronouns</b></p>
+                <div class="espacamento">
+                    <h5 class="barlow">Object Pronouns X Subject Pronouns</h5>
                     <p>Object Pronouns Are Used After Verbs And Prepositions. The Object Receives The Action, While The Subject Executes The Action.</p>
-                    <p>
-                        <div class="umterco">
-                            <ul>
-                                <p><b>SUBJECT PRONOUNS</b></p>
-                                <p>I</p>
-                                <p>YOU</p>
-                                <p>WE</p>
-                                <p>THEY</p>
-                                <p>HE</p>
-                                <p>SHE</p>
-                                <p>IT</p>
-                            </ul>
-                        </div>
-                        <div class="umterco">
-                            <ul>
-                                <p><b>OBJECT PRONOUNS</b></p>
-                                <p>ME</p>
-                                <p>YOU</p>
-                                <p>US</p>
-                                <p>THEM</p>
-                                <p>HIM</p>
-                                <p>HER</p>
-                                <p>IT</p>
-                            </ul>
-                        </div>
-                    </p>
+                    <table class="metade center-align">
+                        <tr>
+                            <td><h5 class="barlow">Subject pronouns</h5></td>
+                            <td><h5 class="barlow">Object pronouns</h5></td>
+                        </tr>
+                        <tr>
+                            <td><p>I</p></td>
+                            <td><p>ME</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>YOU</p></td>
+                            <td><p>YOU</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>WE</p></td>
+                            <td><p>US</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>THEY</p></td>
+                            <td><p>THEM</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>HE</p></td>
+                            <td><p>HIM</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>SHE</p></td>
+                            <td><p>HER</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>IT</p></td>
+                            <td><p>IT</p></td>
+                        </tr>
+                    </table>
                 </div>
-                
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Complete The Sentences Using Subject Pronouns Or Object Pronouns.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Complete the sentences using "subject pronouns" or "object pronouns".</h5>
 				<form id="unidade28grammar71" method="post">
-                    <p>1. She Loves <input type="text" name="grammar71-1" required/>  (He/Him).</p>
-                            <p>2. Give This To <input type="text" name="grammar71-2" required/> (She/Her).</p>
-                            <p>3. I Have Something For <input type="text" name="grammar71-3" required/>  (They/Them).</p>
-                            <p>4. Do You Need <input type="text" name="grammar71-4" required/> (I/Me)?</p>
-                            <p>5. Talk To <input type="text" name="grammar71-5" required/> (We/Us).</p>
-                    </p>
-                    
+                    <p>1 - She Loves <input type="text" name="grammar71-1" placeholder="Responda aqui" required/>  (He/Him).</p>
+                    <p>2 - Give This To <input type="text" name="grammar71-2" placeholder="Responda aqui" required/> (She/Her).</p>
+                    <p>3 - I Have Something For <input type="text" name="grammar71-3" placeholder="Responda aqui" required/>  (They/Them).</p>
+                    <p>4 - Do You Need <input type="text" name="grammar71-4" placeholder="Responda aqui" required/> (I/Me)?</p>
+                    <p>5 - Talk To <input type="text" name="grammar71-5" placeholder="Responda aqui" required/> (We/Us).</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -65,7 +69,6 @@
                     <input type="hidden" name="atividade_id" value="71">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                </div>
 			</div>
 		</div>
     </main>

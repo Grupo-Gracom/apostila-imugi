@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/Unit12/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 36px">
+                <div class="espacamento">
                     <p>
                         Typography Is An Important Aspect Of Graphic <b>Design</b>. It Is Crucial For The <b>Creation</b> Of
                         <b>Banners</b>, Flyers, Packages, Books And Sites. To <b>Select</b> The Typography You Want, You <b>Need</b>

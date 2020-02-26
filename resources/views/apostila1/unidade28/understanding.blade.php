@@ -17,35 +17,35 @@
                     <form id="unidade28understanding72" method="post">
                         <p>
                             1 -  Who’s Stefany’s Sister?<br>
-                            <input type="text" name="understanding72-1" class="full left-align" required>
+                            <input type="text" name="understanding72-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 -  How Old Is Stefany’s Sister?<br>
-                            <input type="text" name="understanding72-2" class="full left-align" required>
+                            <input type="text" name="understanding72-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 -  What Does Stefany’s Sister Do For Her?<br>
-                            <input type="text" name="understanding72-3" class="full left-align" required>
+                            <input type="text" name="understanding72-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - Where Does Laura Work With?<br>
-                            <input type="text" name="understanding72-4" class="full left-align" required>
+                            <input type="text" name="understanding72-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - What Is Leon’s Last Name?<br>
-                            <input type="text" name="understanding72-5" class="full left-align" required>
+                            <input type="text" name="understanding72-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - How Long Has Leon Lived Here For?<br>
-                            <input type="text" name="understanding72-6" class="full left-align" required>
+                            <input type="text" name="understanding72-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - Where Does Leon Study?<br>
-                            <input type="text" name="understanding72-7" class="full left-align" required>
+                            <input type="text" name="understanding72-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - What’s Marcelo’s Hobby?<br>
-                            <input type="text" name="understanding72-8" class="full left-align" required>
+                            <input type="text" name="understanding72-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">

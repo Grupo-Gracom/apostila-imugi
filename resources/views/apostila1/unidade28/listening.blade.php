@@ -17,13 +17,12 @@
 					<source src="{{ asset('assets/audio/Unit28/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 36px">
+                <div class="espacamento">
                     <p>
                         Photoshop Is Interesting For People Who Work With Images As Well As With Videos Because They Can Edit The Pictures And Videos All In The Same Program. They Don’t Need
                         To Learn How To Use More Complex Softwares. Photoshop Can Do Basic Video Editing.
                     </p>
                 </div>
-				<div class="clear"></div>
             </div>
 		</div>
     </main>

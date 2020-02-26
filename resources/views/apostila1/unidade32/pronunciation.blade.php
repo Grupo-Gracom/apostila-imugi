@@ -17,17 +17,15 @@
 					<source src="{{ asset('assets/audio32/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
-				
-                <h5 class="barlow" style="margin-top: 16px">A. Practice The Pronunciation Of The Letter D In The Beginning And Middle Of Words.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A. Practice the pronunciation of the letter "D" in the beginning and middle of words.</h5>
 				<ul class="lista-inline">
-					<li><b>DAY</b></li>
-					<li><b>WEDDING</b></li>	
-					<li><b>DATE</b></li>
-					<li><b>VIDEO</b></li>
-					<li><b>DOLL</b></li>
-					<li><b>DEDICATION</b></li>
+					<li><p><b>DAY</b></p></li>
+					<li><p><b>WEDDING</b></p></li>
+					<li><p><b>DATE</b></p></li>
+					<li><p><b>VIDEO</b></p></li>
+					<li><p><b>DOLL</b></p></li>
+					<li><p><b>DEDICATION</b></p></li>
 				</ul>
-				<div class="clear"></div>
 			</div>
 		</div>
     </main>

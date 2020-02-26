@@ -17,9 +17,10 @@
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Observe How The Pronounciation Of “Used To” And “Used To” Are Identical.</h5>
-				
-				<p>I Used To Go There Every Day, But I Didn’t Use To Stay For Very Long</p>
+                <h5 class="barlow" style="margin-top: 16px">A - Observe how the pronounciation of “Used To” and “Used To” are identical.</h5>
+				<div class="espacamento">	
+					<p>I Used To Go There Every Day, But I Didn’t Use To Stay For Very Long</p>
+				</div>
 			</div>
 		</div>
     </main>

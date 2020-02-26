@@ -11,20 +11,20 @@
 		<div class="dashboard">
 			<div id="unidade" class="box"  data-apostila="apostila1" data-unidade="unidade25" data-etapa="vocabulary">
 				<h3 class="barlow">UNIT 25 - PEN TOOLS</h3>
-				<p><b>Lesson goal:</b> COMPARE AND CONTRAST PEN TOOLS AND BRUSH TOOLS.</p>
+				<p><b>Lesson goal:</b> Compare and contrst pen tools and brush tools.</p>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>NOTICE</b></li>
-					<li><b>PRECISE</b></li>
-					<li><b>FIGURE</b></li>
-					<li><b>CHOICE</b></li>
-					<li><b>GREAT</b></li>
-					<li><b>EVEN</b></li>
-					<li><b>APPRECIATE</b></li>
+					<li><p><b>NOTICE</b></p></li>
+					<li><p><b>PRECISE</b></p></li>
+					<li><p><b>FIGURE</b></p></li>
+					<li><p><b>CHOICE</b></p></li>
+					<li><p><b>GREAT</b></p></li>
+					<li><p><b>EVEN</b></p></li>
+					<li><p><b>APPRECIATE</b></p></li>
 				</ul>
 			</div>
 		</div>

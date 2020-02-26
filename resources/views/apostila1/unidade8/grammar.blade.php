@@ -17,44 +17,34 @@
 					<source src="{{ asset('assets/audio/Unit8/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div class="metade esquerda" style="margin-top: 16px">
-                    <table>
-                           <p> NEGATIVE FORM OF THE SIMPLE PRESENT</p>
-                        <tr>
-                            <th>I DON’T</th>
-                            <th></th>
-                            <th>HE DOESN’T</th>
-                            <th></th>
-                        </tr>
-                        <tr>
-                            <th>YOU DON’T</th>
-                            <th>+ VERB</th>
-                            <th>SHE DOESN’T</th>
-                            <th>+VERB</th>
-                        </tr>
-                        <tr>
-                            <th>WE DON’T</th>
-                            <th></th>
-                            <th>IT DOESN’T</th>
-                            <th></th>
-                        </tr>
-                        <tr>
-                            <th>THEY DON’T</th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - COMPLETE THE SENTENCES WITH THE CORRECT HELPING VERB IN THE NEGATIVE FORM</h5>
+                <table class="metade center-align">
+                    <tr>
+                        <td colspan="4"><h5 class="barlow">Negative form of the simple present</h5></td>
+                    <tr>
+                        <td><p>I don´t</p></td>
+                        <td rowspan="4" style="vertical-align: middle;"><p>+ Verb</p></td>
+                        <td><p>He doesn´t</p></td>
+                        <td rowspan="4" style="vertical-align: middle;"><p>+Verb</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>You don´t</p></td>
+                        <td><p>She doesn´t</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>We don´t</p></td>
+                        <td><p>It doesn´t</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>They don´t</p></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <h5 class="barlow" style="margin-top: 16px">A - Complete the sentences with the correct helping verb in the negative form.</h5>
 				<form id="unidade8grammar26" method="post">
-                        <p>1. Sarah and Mike <input type="text" name="grammar26-1" required/> know how to use burn tool.</p>
-                        <p>2. John <input type="text" name="grammar26-2" required/> work with Photography.</p>
-                        <p>3. Nick and I <input type="text" name="grammar26-3" required/>  utilize Dodge tool.</p>
-                        <p>4. Brian <input type="text" name="grammar26-4" required/> need to use Spot Healing Brush on his photos.</p>
-                    
+                    <p>1 - Sarah and Mike <input type="text" name="grammar26-1" placeholder="Responda aqui" required/> know how to use burn tool.</p>
+                    <p>2 - John <input type="text" name="grammar26-2" placeholder="Responda aqui" required/> work with Photography.</p>
+                    <p>3 - Nick and I <input type="text" name="grammar26-3" placeholder="Responda aqui" required/>  utilize Dodge tool.</p>
+                    <p>4 - Brian <input type="text" name="grammar26-4" placeholder="Responda aqui" required/> need to use Spot Healing Brush on his photos.</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -63,55 +53,46 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 
-                <h5 class="barlow">B - TAKE THE GIVEN SENTENCES AND WRITE THEM IN THE OTHER TWO FORMS</h5>
-                <form id="unidade8grammar27" method="post">
-                    <p> 
-                        <p>1. <b>AFFIRMATIVE:</b></p>
-                        <p>SHE WORKS WITH PHOTOGRAPHY.</p>
+                <h5 class="barlow">B - Take the given sentences and write them in the other two forms.</h5>
+                    <form id="unidade8grammar27" method="post">
+                        <p>1 - <b>Affirmative:</b></p>
+                        <p>She works with photography.</p>
                         <div class="metade">
                             <p>
-                                <b>INTERROGATIVE:</b>
-                                <input type="text" name="grammar27-1" class="left-align full" required/>
+                                <b>Interrogative:</b>
+                                <input type="text" name="grammar27-1" class="left-align full" placeholder="Responda aqui" required/>
                             </p>
                             <p>
-                                <b>NEGATIVE:</b>
-                                <input type="text" name="grammar27-2" class="left-align full" required/>
+                                <b>Negative:</b>
+                                <input type="text" name="grammar27-2" class="left-align full" placeholder="Responda aqui" required/>
                             </p>
                         </div>
-                    </p>
-
-                    <p style="margin-top: 36px"> 
                         <div class="metade">
                             <p>
-                                2. <b>AFFIRMATIVE:</b> 
-                                <input type="text" name="grammar27-3" class="left-align full"  required/>
+                                2 - <b>Affirmative:</b> 
+                                <input type="text" name="grammar27-3" class="left-align full" placeholder="Responda aqui" required/>
                             </p>
                         </div>
-                        <p><b>INTERROGATIVE:</b></p>
-                        <p>DO CAIO AND SARAH HAVE AN EDITING SOFTWARE?</p>
+                        <p><b>Interrogative:</b></p>
+                        <p>Do Caio and Sarah have an editing software ?</p>
                         <div class="metade">
                             <p>
-                                <b>NEGATIVE:</b> 
-                                <input type="text" name="grammar27-4" class="left-align full"  required/>
+                                <b>Negative:</b> 
+                                <input type="text" name="grammar27-4" class="left-align full" placeholder="Responda aqui" required/>
                             </p>
                         </div>
-                    </p>
-
-                    <p style="margin-top: 36px"> 
                         <div class="metade">
                             <p>
-                                3. <b>AFFIRMATIVE:</b> 
-                                <p><input type="text" name="grammar27-5" class="left-align full" required/></p>
+                                3 - <b>Affirmative:</b> 
+                                <p><input type="text" name="grammar27-5" class="left-align full" placeholder="Responda aqui" required/></p>
                             </p>
                             <p>
-                                <b>INTERROGATIVE:</b> 
-                                <p><input type="text" name="grammar27-6" class="left-align full" required/></p>
+                                <b>Interrogative:</b> 
+                                <p><input type="text" name="grammar27-6" class="left-align full" placeholder="Responda aqui" required/></p>
                             </p>
                         </div>
-                        <p><b>NEGATIVE:</b></p>
-                        <p>THEY DON’T WANT TO STUDY.</p>
-                    </p>
-
+                        <p><b>Negative:</b></p>
+                        <p>They don´t want to study.</p>
                         <div class="clear"></div>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">

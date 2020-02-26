@@ -16,12 +16,15 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit6/Conversation/completo.ogg') }}" type="audio/ogg">
 				</audio>
-				<p style="margin-top: 16px"><b>Sophia :</b> Morning guys! Open your books and let’s talk about two new tools for touching up some details in your photos. They’re called Healing Brush and Red Eye Correction.</p>
-				<p><b>Sophia :</b> What can we use these tools for?</p>
-				<p><b>Kate :</b> Well, I don’t know about Healing Brush, but I imagine that Red Eye Correction tool is used to remove the red from your eyes in a picture. It is kind of obvious because of the name.</p>
-				<p><b>Sophia :</b> That’s it, Kate. Good answer. What about the Healing Brush, guys?</p>
-				<p><b>Carlos :</b> Sophia, I’m not exactly sure, but I think it is used for editing imperfections in the pictures. Am I right?</p>
-				<p><b>Sophia :</b> You’re absolutely correct, Carlos! It is a very common tool used by many people to edit imperfections like acne and scars.</p>
+				<div class="clear"></div>
+				<div class="espacamento">
+					<p><b>Sophia :</b> Morning guys! Open your books and let’s talk about two new tools for touching up some details in your photos. They’re called Healing Brush and Red Eye Correction.</p>
+					<p><b>Sophia :</b> What can we use these tools for?</p>
+					<p><b>Kate :</b> Well, I don’t know about Healing Brush, but I imagine that Red Eye Correction tool is used to remove the red from your eyes in a picture. It is kind of obvious because of the name.</p>
+					<p><b>Sophia :</b> That’s it, Kate. Good answer. What about the Healing Brush, guys?</p>
+					<p><b>Carlos :</b> Sophia, I’m not exactly sure, but I think it is used for editing imperfections in the pictures. Am I right?</p>
+					<p><b>Sophia :</b> You’re absolutely correct, Carlos! It is a very common tool used by many people to edit imperfections like acne and scars.</p>
+				</div>
 				<figure class="full">
 					<img src="{{ asset('assets/img/playgo/unit6/ilust_06.jpg') }}" alt="Garotos festejando">
 				</figure>

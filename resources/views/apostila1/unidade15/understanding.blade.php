@@ -17,39 +17,39 @@
                     <form id="unidade15understanding44" method="post">
                         <p>
                             1 -  Where Is Akira From?<br>
-                            <input type="text" name="understanding44-1" class="full left-align" required>
+                            <input type="text" name="understanding44-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 -  When Did Akira Start To Work As A Web Designer?<br>
-                            <input type="text" name="understanding44-2" class="full left-align" required>
+                            <input type="text" name="understanding44-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 -  How Old Was Akira When He Moved?<br>
-                            <input type="text" name="understanding44-3" class="full left-align" required>
+                            <input type="text" name="understanding44-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - How Long Has He Worked In Web Designing?<br>
-                            <input type="text" name="understanding44-4" class="full left-align" required>
+                            <input type="text" name="understanding44-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - How Long Did He Work As A Graphic Designer For?<br>
-                            <input type="text" name="understanding44-5" class="full left-align" required>
+                            <input type="text" name="understanding44-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - Why Did He Start Working As A Web Designer?<br>
-                            <input type="text" name="understanding44-6" class="full left-align" required>
+                            <input type="text" name="understanding44-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - Who Had A Small Company?<br>
-                            <input type="text" name="understanding44-7" class="full left-align" required>
+                            <input type="text" name="understanding44-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - How Is Photoshop Important In Web Designing?<br>
-                            <input type="text" name="understanding44-7" class="full left-align" required>
+                            <input type="text" name="understanding44-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             9 - Is Layout Development A Simple Process In Akira’s Opinion?<br>
-                            <input type="text" name="understanding44-7" class="full left-align" required>
+                            <input type="text" name="understanding44-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
@@ -60,7 +60,7 @@
                 </div>
                 <div class="metade" style="margin-top: 36px">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit5/pagina-1.png') }}" alt="Garotos festejando">
+                        <img src="{{ asset('assets/img/playgo/unit15/U15.jpg') }}" alt="Dica">
                     </figure>
 				</div>
 			</div>

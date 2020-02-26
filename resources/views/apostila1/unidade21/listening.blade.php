@@ -17,10 +17,9 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p style="margin-top:16px;">Illustration is the <b>art</b> of making <b>images</b> that work with something and add to it without needing direct
-                     attention <b>and</b> without distracting <b>from</b> the thing they illustrate. The other thing is the focus of the attention, and the <b>illustration’s</b>
-                      role is to <b>add</b> personality and <b>character</b> without competing with that other thing.</p>
-                
+                <div class="espacamento">
+                    <p>Illustration is the <b>art</b> of making <b>images</b> that work with something and add to it without needing direct attention <b>and</b> without distracting <b>from</b> the thing they illustrate. The other thing is the focus of the attention, and the <b>illustration’s</b> role is to <b>add</b> personality and <b>character</b> without competing with that other thing.</p>
+                </div>
 			</div>
 		</div>
     </main>

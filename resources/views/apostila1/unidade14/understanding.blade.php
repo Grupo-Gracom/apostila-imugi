@@ -17,38 +17,36 @@
                     <form id="unidade14understanding41" method="post">
                         <p>
                             1 -  Who Remembered The Color Tools?<br>
-                            <input type="text" name="understanding41-1" class="full left-align" required>
+                            <input type="text" name="understanding41-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 -  How Many Tools Does ADAM Remember?<br>
-                            <input type="text" name="understanding41-2" class="full left-align" required>
+                            <input type="text" name="understanding41-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 -  What Tool Do We Use To Save Colors Created In The Color Picker?<br>
-                            <input type="text" name="understanding41-3" class="full left-align" required>
+                            <input type="text" name="understanding41-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - What Is The Color Picker Used For?<br>
-                            <input type="text" name="understanding41-4" class="full left-align" required>
+                            <input type="text" name="understanding41-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - Did Medina Remember All Of The Typography Tools He Studied?<br>
-                            <input type="text" name="understanding41-5" class="full left-align" required>
+                            <input type="text" name="understanding41-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - What Is The Name Of The Tool Used To Select Fonts?<br>
-                            <input type="text" name="understanding41-6" class="full left-align" required>
+                            <input type="text" name="understanding41-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - What Can The Layer Panel Do?<br>
-                            <input type="text" name="understanding41-7" class="full left-align" required>
+                            <input type="text" name="understanding41-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - What Is The Difference Between The Style Panel And The Layer Panel?<br>
                             <input type="text" name="understanding41-8" class="full left-align" required>
                         </p>
-
-                        
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="14">

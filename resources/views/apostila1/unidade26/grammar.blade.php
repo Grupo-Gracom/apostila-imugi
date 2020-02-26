@@ -16,33 +16,29 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                
-                <p>Used To:</p>
-                <p>• To Talk About Routine Actions In The Past.</p>
-                <p>Simple Past</p>
-                <p>• To Talk About An Isolated Action In The Past.</p>
-                <p>Past Continuous</p>
-                <p>• To Talk About An Action That Was In Progress In The Past.</p>
-                
-                <div class="metade">
                 <div class="clear"></div>
-                    <h5 class="barlow">A - use The Simple Past, Past Continuous Or Used To To Complete The Sentences.</h5>
-                    <form id="unidade26grammar67" method="post">
-                    <p>1.I <input type="text" name="grammar67-1" required>   (Run) Every Day When I Was Young.</p>
-                    <p>2.<input type="text" name="grammar67-2" required> You <input type="text" name="grammar67-3" required> (Talk) On The Phone When I Called You?</p>
-                    <p>3.<input type="text" name="grammar67-4" required> She <input type="text" name="grammar67-5" required> (Tell) You I Called?</p>
-                    <p>4.I <input type="text" name="grammar67-6" required> (Work) There Many Years Ago.</p>
-                    <p>5.We <input type="text" name="grammar67-7" required> (Travel) To Mexico Last Year.</p>
-                    <p>6.They <input type="text" name="grammar67-8" required> (Study) When I Arrived.</p>
-                        
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="26">
-                        <input type="hidden" name="atividade_id" value="67">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
+                <div class="espacamento">
+                    <h5 class="barlow">Used To</h5>
+                    <p>To Talk About Routine Actions In The Past.</p>
+                    <h5 class="barlow">Simple Past</h5>
+                    <p>To Talk About An Isolated Action In The Past.</p>
+                    <h5 class="barlow">Past Continuous</h5>
+                    <p>To Talk About An Action That Was In Progress In The Past.</p>
                 </div>
-                             
+                <h5 class="barlow">A - Use the "simple past", "past continuous" or "used to" to complete the sentences.</h5>
+                <form id="unidade26grammar67" method="post">
+                    <p>1 - I <input type="text" name="grammar67-1" placeholder="Responda aqui" required>   (Run) Every Day When I Was Young.</p>
+                    <p>2 - <input type="text" name="grammar67-2" placeholder="Responda aqui" required> You <input type="text" name="grammar67-3" placeholder="Responda aqui" required> (Talk) On The Phone When I Called You?</p>
+                    <p>3 - <input type="text" name="grammar67-4" placeholder="Responda aqui" required> She <input type="text" name="grammar67-5" placeholder="Responda aqui" required> (Tell) You I Called?</p>
+                    <p>4 - I <input type="text" name="grammar67-6" placeholder="Responda aqui" required> (Work) There Many Years Ago.</p>
+                    <p>5 - We <input type="text" name="grammar67-7" placeholder="Responda aqui" required> (Travel) To Mexico Last Year.</p>
+                    <p>6 - They <input type="text" name="grammar67-8" placeholder="Responda aqui" required> (Study) When I Arrived.</p>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="26">
+                    <input type="hidden" name="atividade_id" value="67">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
 			</div>
 		</div>
     </main>

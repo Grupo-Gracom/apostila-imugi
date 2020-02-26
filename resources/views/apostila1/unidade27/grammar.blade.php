@@ -17,41 +17,39 @@
 					<source src="{{ asset('assets/audio/Unit27/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                <p><b>Countables And Uncountables</b></p>
-                <p>Some Objects Can Be Counted While Others Cannot. We Use “Many” To Refer To Countable Nouns And “Much” For Uncountable Nouns.</p>
-                    <p>
-                        <div class="umterco">
-                            <ul>
-                                <p><b>Countable Nouns</b></p>
-                                <p>Cups</p>
-                                <p>Hours</p>
-                                <p>Books</p>
-                                <p>Chairs</p>
-                            </ul>
-                            </div>
-                        <div class="umterco">
-                            <ul>
-                                <p><b>Uncountable Nouns</b></p>
-                                <p>Water</p>
-                                <p>Time</p>
-                                <p>Information</p>
-                                <p>Furniture</p>
-                            </ul>
-                        </div>
-                    </p>
+                <div class="espacamento">
+                    <h5 class="barlow">Countables And Uncountables</h5>
+                    <p>Some Objects Can Be Counted While Others Cannot. We Use “Many” To Refer To Countable Nouns And “Much” For Uncountable Nouns.</p>
                 </div>
-                
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Complete The Sentences Using Much Or Many.</h5>
+                <table class="metade center-align">
+                    <tr>
+                        <td><h5 class="barlow">Countable Nouns</h5></td>
+                        <td><h5 class="barlow">Uncountable Nouns</h5></td>
+                    </tr>
+                    <tr>
+                        <td><p>Cups</p></td>
+                        <td><p>Water</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Hours</p></td>
+                        <td><p>Time</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Books</p></td>
+                        <td><p>Information</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Chairs</p></td>
+                        <td><p>Furniture</p></td>
+                    </tr>
+                </table>
+                <h5 class="barlow" style="margin-top: 16px">A - Complete the sentences using "Much" or "Many".</h5>
 				<form id="unidade27grammar69" method="post">
-                    <p>1. There Is <input type="text" name="grammar69-1" required/> Food On The Plate.</p>
-                            <p>2. We Have <input type="text" name="grammar69-2" required/> Information About The Program.</p>
-                            <p>3. I Work For <input type="text" name="grammar69-3" required/>  Hours A Day.</p>
-                            <p>4. You Need To Drink <input type="text" name="grammar69-4" required/> Glasses Of Water Every Day.</p>
-                            <p>5. He Has <input type="text" name="grammar69-5" required/> Work To Don.</p>
-                    </p>
-                    
+                    <p>1 - There Is <input type="text" name="grammar69-1" placeholder="Responda aqui" required/> Food On The Plate.</p>
+                    <p>2 - We Have <input type="text" name="grammar69-2" placeholder="Responda aqui" required/> Information About The Program.</p>
+                    <p>3 - I Work For <input type="text" name="grammar69-3" placeholder="Responda aqui" required/>  Hours A Day.</p>
+                    <p>4 - You Need To Drink <input type="text" name="grammar69-4" placeholder="Responda aqui" required/> Glasses Of Water Every Day.</p>
+                    <p>5 - He Has <input type="text" name="grammar69-5" placeholder="Responda aqui" required/> Work To Don.</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -59,7 +57,6 @@
                     <input type="hidden" name="atividade_id" value="69">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                </div>
 			</div>
 		</div>
     </main>

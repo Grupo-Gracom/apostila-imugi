@@ -17,10 +17,9 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p>The <b>Brush tool</b> is a basic painting tool. It <b>works</b> like a traditional drawing tool by applying
-                    the <b>color</b> using strokes. The standard Pen tool draws with the greatest precision; the Freeform Pen tool draws
-                    paths as if you were drawing with pencil on paper. The eraser is basically a brush which erases <b>pixels</b> as you drag it across the <b>image</b>. Pixels
-                    are erased to transparency, or the background color if the <b>layer</b> is locked.</p>
+                <div class="espacamento">
+                    <p>The <b>Brush tool</b> is a basic painting tool. It <b>works</b> like a traditional drawing tool by applying the <b>color</b> using strokes. The standard Pen tool draws with the greatest precision; the Freeform Pen tool draws paths as if you were drawing with pencil on paper. The eraser is basically a brush which erases <b>pixels</b> as you drag it across the <b>image</b>. Pixels are erased to transparency, or the background color if the <b>layer</b> is locked.</p>
+                </div>
 			</div>
 		</div>
     </main>

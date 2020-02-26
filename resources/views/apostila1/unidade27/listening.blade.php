@@ -17,38 +17,32 @@
 					<source src="{{ asset('assets/audio/Unit27/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 36px">
-                    <p>
-                        Although Video Editors Work Mainly Work With Other Programs Besides Photoshop, It Is
-                        Useful For Beginners Because Photoshop Offers Some Tools That Allow You To Edit Basic
-                        Video Content Such As Contrast, Brightness, Curves, Levels And Much More.
-                    </p>
+                <div class="espacamento">
+                    <p>Although Video Editors Work Mainly Work With Other Programs Besides Photoshop, It Is Useful For Beginners Because Photoshop Offers Some Tools That Allow You To Edit Basic Video Content Such As Contrast, Brightness, Curves, Levels And Much More.</p>
                 </div>
-                <h5 class="barlow" style="margin-top: 16px">A - Focus On The Pronunciation Difference Between The Lett ers “A” And “E”.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Focus on the pronunciation difference between the letters “A” and “E”.</h5>
                 <ul class="lista-inline">
-					<li><b>BED</b></li>
-					<li><b>SET</b></li>
-					<li><b>LED</b></li>
-					<li><b>MED</b></li>
-                    <li><b>RED</b></li>
+					<li><p><b>BED</b></p></li>
+					<li><p><b>SET</b></p></li>
+					<li><p><b>LED</b></p></li>
+					<li><p><b>MED</b></p></li>
+                    <li><p><b>RED</b></p></li>
 				</ul>
 				<ul class="lista-inline">
-					<li><b>BAD</b></li>
-					<li><b>SAT</b></li>
-					<li><b>LAD</b></li>
-					<li><b>MAD</b></li>
-                    <li><b>RAD</b></li>
+					<li><p><b>BAD</b></p></li>
+					<li><p><b>SAT</b></p></li>
+					<li><p><b>LAD</b></p></li>
+					<li><p><b>MAD</b></p></li>
+                    <li><p><b>RAD</b></p></li>
 				</ul>
-				<div class="clear"></div>
-
-                <h5 class="barlow" style="margin-top: 16px">B - Now Practice By Reading The Sentences.</h5>
-                <ul>
-                    <p>1.The Bad Boy Is A Tad Sad And Is In Bed.<p>
-                    <p>2.Ted Has Ten Cats.</p>
-                    <p>3.Karl Had Apples In His Car.</p>
-                    <p>4.Pat Wants To Have Pets To Care For.</p>
-                    <p>5.Ned Met Ralph Aft er The Event.</p>
-                </ul>
+                <h5 class="barlow" style="margin-top: 16px">B - Now practice by reading the sentences.</h5>
+                <div class="espacamento">
+                    <p>1 - The Bad Boy Is A Tad Sad And Is In Bed.<p>
+                    <p>2 - Ted Has Ten Cats.</p>
+                    <p>3 - Karl Had Apples In His Car.</p>
+                    <p>4 - Pat Wants To Have Pets To Care For.</p>
+                    <p>5 - Ned Met Ralph Aft er The Event.</p>
+                </div>
             </div>
 		</div>
     </main>

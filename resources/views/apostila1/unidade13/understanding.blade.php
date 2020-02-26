@@ -17,31 +17,31 @@
                     <form id="unidade13understanding38" method="post">
                         <p>
                             1 -  What Does Beatriz Think About The Name Of The Tool?<br>
-                            <input type="text" name="understanding38-1" class="full left-align" required>
+                            <input type="text" name="understanding38-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 -  What Is The Name Of The Tool Beatriz Is Teaching?<br>
-                            <input type="text" name="understanding38-2" class="full left-align" required>
+                            <input type="text" name="understanding38-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 -  Does Lucy Know How To Use Layer Style?<br>
-                            <input type="text" name="understanding38-3" class="full left-align" required>
+                            <input type="text" name="understanding38-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - When Did Lucy Create The Flyer For Her Friend?<br>
-                            <input type="text" name="understanding38-4" class="full left-align" required>
+                            <input type="text" name="understanding38-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - What Did Lucy’s Friend Think About The Flyer?<br>
-                            <input type="text" name="understanding38-5" class="full left-align" required>
+                            <input type="text" name="understanding38-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - What Did Lucy Think About Layer Style?<br>
-                            <input type="text" name="understanding38-6" class="full left-align" required>
+                            <input type="text" name="understanding38-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - What Can Layer Style Do?<br>
-                            <input type="text" name="understanding38-7" class="full left-align" required>
+                            <input type="text" name="understanding38-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
@@ -52,7 +52,7 @@
                 </div>
                 <div class="metade" style="margin-top: 36px">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit5/pagina-1.png') }}" alt="Garotos festejando">
+                        <img src="{{ asset('assets/img/playgo/unit13/U13.jpg') }}" alt="Dica">
                     </figure>
 				</div>
 			</div>

@@ -17,14 +17,15 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit28/Vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
+				<div class="clear"></div>
 				<ul class="lista-inline">
-					<li><b>AS</b></li>
-					<li><b>SAY</b></li>
-					<li><b>ACTUALLY</b></li>
-					<li><b>JOURNALIST</b></li>
-					<li><b>EDITOR</b></li>
-					<li><b>YOU ALL</b></li>
-					<li><b>SHOULD</b></li>
+					<li><p><b>AS</b></p></li>
+					<li><p><b>SAY</b></p></li>
+					<li><p><b>ACTUALLY</b></p></li>
+					<li><p><b>JOURNALIST</b></p></li>
+					<li><p><b>EDITOR</b></p></li>
+					<li><p><b>YOU ALL</b></p></li>
+					<li><p><b>SHOULD</b></p></li>
 				</ul>
 			</div>
 		</div>

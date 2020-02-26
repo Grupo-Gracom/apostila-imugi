@@ -17,9 +17,9 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p style="margin-top:16px;">Beatriz’s students are from different origins. They are from <b>Germany</b>, <b>Denmark</b>, <b>Costa</b> Rica andthe UK.
-                 They all need Photoshop for graphic designing, be it a <b>hobby</b> or a <b>profession</b>. </p>
-                
+                <div class="espacamento">
+                    <p>Beatriz’s students are from different origins. They are from <b>Germany</b>, <b>Denmark</b>, <b>Costa</b> Rica and the UK. They all need Photoshop for graphic designing, be it a <b>hobby</b> or a <b>profession</b>.</p>
+                </div>
 			</div>
 		</div>
     </main>

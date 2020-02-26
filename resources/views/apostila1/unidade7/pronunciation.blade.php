@@ -16,35 +16,41 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit7/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div> <br>
-                <h5 class="barlow">PLURAL WORDS</h5>
-                <div class="umterco">
-                    <p><b>“Z” SOUND</b></p>
-                    <p>(voice)</p>
-                    <p>SAYS</p>
-                    <p>PHOTOS</p>
-                    <p>REMEMBERS</p>                    
-                    <p>GIVES</p>                    
-                </div>
-                <div class="umterco">
-                    <p><b>“S” SOUND</b></p>
-                    <p>(no voice)</p>
-                    <p>EDITS</p>
-                    <p>NEEDS</p>
-                    <p>LIKES</p>                    
-                    <p>UNDERSTANDS</p>                    
-                </div>
-                <div class="umterco">
-                    <p><b>“IZ” SOUND</b></p>
-                    <p>USES</p>
-                    <p>UTILIZES</p>
-                    <p>WATCHES</p>                    
-                    <p>WASHES</p>                    
-                </div>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - LISTEN TO YOUR TEACHER READ THE FOLLOWING SENTENCES AND REPEAT AFTER HE IS FINISHED.</h5>
-                <p>“He says she edits photos and uti lizes Photoshop for it.”</p>
-                <p>“Lee uses the Adjustment Panel, and he uti lizes the Black &White tool because it is his favorite.”</p>                
+                <div class="metade espacamento">
+                    <h5 class="barlow center-align">Plural words</h5>
+                </div>
+                <div class="metade espacamento">
+                    <div class="umterco center-align">
+                        <p><b>“Z” SOUND</b></p>
+                        <p>(voice)</p>
+                        <p>Says</p>
+                        <p>Photos</p>
+                        <p>Remenbers</p>                    
+                        <p>Gives</p>                    
+                    </div>
+                    <div class="umterco center-align">
+                        <p><b>“S” SOUND</b></p>
+                        <p>(no voice)</p>
+                        <p>Edits</p>
+                        <p>Needs</p>
+                        <p>Likes</p>                    
+                        <p>Understands</p>                    
+                    </div>
+                    <div class="umterco center-align">
+                        <p><b>“IZ” SOUND</b></p>
+                        <p>Uses</p>
+                        <p>Utilizes</p>
+                        <p>Watches</p>                    
+                        <p>Washes</p>                    
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to your teacher read the following sentences and repeat after he is finished.</h5>
+                <div class="espacamento">
+                    <p>“He says she edits photos and uti lizes Photoshop for it.”</p>
+                    <p>“Lee uses the Adjustment Panel, and he utilizes the Black &White tool because it is his favorite.”</p>
+                </div>
 			</div>
 		</div>
     </main>

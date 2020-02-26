@@ -17,11 +17,9 @@
 					<source src="{{ asset('assets/audio/Unit17/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p style="margin-top:16px;">Layers And Guides Are Two <b>Necessary</b> Tools In Photoshop To Better <b>Organize</b> The Layout</p>
-                <p>And Editing Of Content. Layers Are Used To Separate The Tasks, In Order To Avoid Applying</p>
-                <p>The Same Changes To All Of The <b>Items</b>. This Way, You Can Direct The <b>Alteration</b> To One</p>
-                <p>Item At A Time. As For The <b>Guides</b>, They Are Simply <b>Lines</b> That Help You <b>Align</b> The Items</p>
-                <p>Better. They Are Necessary To Have <b>Precision</b> In The Organization.</p>
+                <div class="espacamento">
+                    <p>Layers And Guides Are Two <b>Necessary</b> Tools In Photoshop To Better <b>Organize</b> The Layout And Editing Of Content. Layers Are Used To Separate The Tasks, In Order To Avoid Applying The Same Changes To All Of The <b>Items</b>. This Way, You Can Direct The <b>Alteration</b> To One Item At A Time. As For The <b>Guides</b>, They Are Simply <b>Lines</b> That Help You <b>Align</b> The Items Better. They Are Necessary To Have <b>Precision</b> In The Organization.</p>
+                </div>
 			</div>
 		</div>
     </main>

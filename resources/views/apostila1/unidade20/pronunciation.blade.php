@@ -16,26 +16,25 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit20/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div> <br>                
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Practice The Pronounciation Of The Contractions Of The Verb To Be.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Practice the pronounciation of the contractions of the verb to be.</h5>
 				<ul class="lista-inline">
-					<li><b>I AM</b></li>
-					<li><b>YOU ARE</b></li>
-					<li><b>WE ARE</b></li>
-					<li><b>THEY ARE</b></li>
-					<li><b>HE IS</b></li>		                    										
-					<li><b>SHE IS</b></li>		                    										
-					<li><b>IT IS</b></li>	                    										
+					<li><p><b>I AM</b></p></li>
+					<li><p><b>YOU ARE</b></p></li>
+					<li><p><b>WE ARE</b></p></li>
+					<li><p><b>THEY ARE</b></p></li>
+					<li><p><b>HE IS</b></p></li>
+					<li><p><b>SHE IS</b></p></li>
+					<li><p><b>IT IS</b></p></li>
 				</ul>
 				<ul class="lista-inline">
-					<li><b>I’M</b></li>
-					<li><b>YOU’RE</b></li>
-					<li><b>WE’RE</b></li>
-					<li><b>THEY’RE</b></li>
-					<li><b>HE’S</b></li>		                    										
-					<li><b>SHE’S</b></li>		                    										
-					<li><b>IT’S</b></li>	                    										
+					<li><p><b>I’M</b></p></li>
+					<li><p><b>YOU’RE</b></p></li>
+					<li><p><b>WE’RE</b></p></li>
+					<li><p><b>THEY’RE</b></p></li>
+					<li><p><b>HE’S</b></p></li>
+					<li><p><b>SHE’S</b></p></li>
+					<li><p><b>IT’S</b></p></li>
 				</ul>												                
 			</div>
 		</div>

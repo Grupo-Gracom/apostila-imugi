@@ -16,60 +16,58 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <h5 class="barlow">Used To</h5>
-                <p>Used To Is Utilized To Reffer To An Action That Happened At A Certain Frequency But Doesn’t Occur Any Longer.</p>
-                <h5 class="barlow">Structure</h5>
-
-               
-                <p><b>AFFIRMATIVE :</b> SUBJECT + USED TO + VERB I USED TO WORK ON SATURDAYS.</p>
-                <p><b>INTERROGATIVE :</b> DID + SUBJECT + USED TO + VERB DID YOU USED TO TRAVEL EVERY WEEKEND?</p>
-                <p><b>NEGATIVE :</b> SUBJECT + DID + NOT + USED TO + VERBSHE DIDN’T USED TO PAY ATTENTION TO THE CLASS, BUT NOW SHE DOES.</p>
-                                    
-                
-                <div class="metade">
                 <div class="clear"></div>
-                    <h5 class="barlow">A - Fill In The Blanks With The Verbs In Parenthesis Using Used To.</h5>
-                    <form id="unidade21grammar57" method="post">
-                    <p>1.<input type="text" name="grammar57-1" required> You <input type="text" name="grammar57-2" required> (Draw) For The School Paper?</p>
-                    <p>2. They <input type="text" name="grammar57-3" required>  (Not Go) To The Meetings, But Now They Do</p>
-                    <p>3. We <input type="text" name="grammar57-4" required>  (Talk) Every Day.</p>
-                    <p>4.<input type="text" name="grammar57-5" required> She <input type="text" name="grammar57-6" required>  (Produce) Ilustrations For Magazines?</p>
-                    <p>5.<input type="text" name="grammar57-7" required>  (Not Work) In The Evenings.</p>
-                        
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="21">
-                        <input type="hidden" name="atividade_id" value="57">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form> 
-                    
-                    <h5 class="barlow">B - Answer The Questions About Yourself.</h5>
-                    <form id="unidade21grammar58" method="post">
-                    <p>1. Did You Use To Play Sports?</BR>
-                        <input type="text" name="grammar58-1" class="full left-align" required>
-                    </p>
-                    <p>2. Did You Use To Have Pets?</BR>
-                        <input type="text" name="grammar58-2" class="full left-align" required>
-                    </p>
-                    <p>3. Did You Use To Be A Good Student?</BR>
-                        <input type="text" name="grammar58-3" class="full left-align" required>
-                    </p>
-                    <p>4. Did You Use To Live In A Different City?</BR>
-                        <input type="text" name="grammar58-4" class="full left-align" required>
-                    </p>
-                    <p>5. Did You Use To Work In Another Area?</BR>
-                        <input type="text" name="grammar58-5" class="full left-align" required>
-                    </p>
-                    
+                <div class="espacamento">
+                    <h5 class="barlow">Used To</h5>
+                    <p>Used To Is Utilized To Reffer To An Action That Happened At A Certain Frequency But Doesn’t Occur Any Longer.</p>
+                    <h5 class="barlow">Structure</h5>
+                    <p><b>Affirmative :</b> SUBJECT + USED TO + VERB I USED TO WORK ON SATURDAYS.</p>
+                    <p><b>Interrogative :</b> DID + SUBJECT + USED TO + VERB DID YOU USED TO TRAVEL EVERY WEEKEND?</p>
+                    <p><b>Negative :</b> SUBJECT + DID + NOT + USED TO + VERBSHE DIDN’T USED TO PAY ATTENTION TO THE CLASS, BUT NOW SHE DOES.</p>
+                </div>
+                <h5 class="barlow">A - Fill in the blanks with the verbs in parenthesis using "used to".</h5>
+                <form id="unidade21grammar57" method="post">
+                    <p>1 - <input type="text" name="grammar57-1" placeholder="Responda aqui" required> You <input type="text" name="grammar57-2" placeholder="Responda aqui" required> (Draw) For The School Paper?</p>
+                    <p>2 - They <input type="text" name="grammar57-3" placeholder="Responda aqui" required>  (Not Go) To The Meetings, But Now They Do</p>
+                    <p>3 - We <input type="text" name="grammar57-4" placeholder="Responda aqui" required>  (Talk) Every Day.</p>
+                    <p>4 - <input type="text" name="grammar57-5" placeholder="Responda aqui" required> She <input type="text" name="grammar57-6" placeholder="Responda aqui" required>  (Produce) Ilustrations For Magazines?</p>
+                    <p>5 - <input type="text" name="grammar57-7" placeholder="Responda aqui" required>  (Not Work) In The Evenings.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="21">
-                    <input type="hidden" name="atividade_id" value="58">
+                    <input type="hidden" name="atividade_id" value="57">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+                <h5 class="barlow">B - Answer the questions about yourself.</h5>
+                <form id="unidade21grammar58" method="post">
+                <div class="metade">
+                    <p>
+                        1 - Did you use to play sports?</br>
+                        <input type="text" name="grammar58-1" class="full left-align" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                        2 - Did you use to have pets?</br>
+                        <input type="text" name="grammar58-2" class="full left-align" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                        3 - Did you use to be a good student?</br>
+                        <input type="text" name="grammar58-3" class="full left-align" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                        4 - Did you use to live in a different city?</br>
+                        <input type="text" name="grammar58-4" class="full left-align" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                        5 - Did you use to work in another area?</br>
+                        <input type="text" name="grammar58-5" class="full left-align" placeholder="Responda aqui" required>
+                    </p>
+                </div>
+                <input type="hidden" name="_token" value="{{csrf_token()}}">
+                <input type="hidden" name="resposta_id" value="0">
+                <input type="hidden" name="unidade_id" value="21">
+                <input type="hidden" name="atividade_id" value="58">
+                <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            </div>
-               
-			</div>
 		</div>
     </main>
     <script>

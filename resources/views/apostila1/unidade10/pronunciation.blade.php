@@ -17,17 +17,19 @@
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - listen To Your Teacher As He Reads The Following Words, And Then Repeat Them. Observe The Underlined Lett ers.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to your teacher as he reads the following words, and then repeat them. Observe the underlined letters.</h5>
 				<ul class="lista-inline">
-                    <li><b class="upper">GO</b></li>
-                    <li><b class="upper">LOVE</b></li>
-                    <li><b class="upper">SHOW</b></li>
-                    <li><b class="upper">FROM</b></li>
-                    <li><b class="upper">WORK</b></li>
-                    <li><b class="upper">NICOLAS</b></li>
+                    <li><p><b>GO</b></p></li>
+                    <li><p><b>LOVE</b></p></li>
+                    <li><p><b>SHOW</b></p></li>
+                    <li><p><b>FROM</b></p></li>
+                    <li><p><b>WORK</b></p></li>
+                    <li><p><b>NICOLAS</b></p></li>
                 </ul>
-				<h5 class="barlow" style="margin-top: 16px">B - Read The Sentence Aft er Your Teacher</h5>
-				<p>“I Love Going To Shows With Nicolas”</p>
+                <h5 class="barlow" style="margin-top: 16px">B - Read the sentence after your teacher</h5>
+                <div class="espacamento">
+                    <p>“I Love Going To Shows With Nicolas”</p>
+                </div>
 			</div>
 		</div>
     </main>

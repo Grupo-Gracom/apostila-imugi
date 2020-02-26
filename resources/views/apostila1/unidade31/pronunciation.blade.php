@@ -17,18 +17,15 @@
 					<source src="{{ asset('assets/audio31/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
-				
-                <h5 class="barlow" style="margin-top: 16px">A. Notice The Contractions In The Tag Questions.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Notice the contractions in the tag questions.</h5>
 				<ul class="lista-inline">
-					<li><b>ISN’T HE?</b></li>
-					<li><b>DOESN’T SHE?</b></li>
+					<li><p><b>ISN’T HE?</b></p></li>
+					<li><p><b>DOESN’T SHE?</b></p></li>
 				</ul>
-				
 				<ul class="lista-inline">
-					<li><b>AREN’T THEY?</b></li>
-					<li><b>DOESN’T HE?</b></li>
+					<li><p><b>AREN’T THEY?</b></p></li>
+					<li><p><b>DOESN’T HE?</b></p></li>
 				</ul>
-				<div class="clear"></div>
 			</div>
 		</div>
     </main>

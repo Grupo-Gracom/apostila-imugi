@@ -17,13 +17,13 @@
 					<source src="{{ asset('assets/audio/unit6/vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>OPEN</b></li>
-					<li><b>TOUCH UP</b></li>
-					<li><b>CAN</b></li>
-					<li><b>REMOVE</b></li>
-					<li><b>BRUSH</b></li>
-					<li><b>SOME</b></li>
-					<li><b>ANSWER</b></li>
+					<li><p><b>OPEN</b></p></li>
+					<li><p><b>TOUCH UP</b></p></li>
+					<li><p><b>CAN</b></p></li>
+					<li><p><b>REMOVE</b></p></li>
+					<li><p><b>BRUSH</b></p></li>
+					<li><p><b>SOME</b></p></li>
+					<li><p><b>ANSWER</b></p></li>
 				</ul>
 			</div>
 		</div>

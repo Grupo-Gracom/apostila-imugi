@@ -17,12 +17,12 @@
 					<source src="{{ asset('assets/audio/Unit11/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A. listen To Your Teacher Read The Words Below, Repeat After Him/Her. Observe The Pronunciation Of The Underlined Letters. Notice That The Letter ‘G’ At The End Is Not Pronounced.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A. Listen to your teacher read the words below, repeat after Him/Her. Observe the pronunciation of the underlined letters. Notice that the letter ‘G’ at the end is not pronounced.</h5>
                 <ul class="lista-inline">
-					<li><b>STUDYING</b></li>
-					<li><b>CREATING</b></li>
-					<li><b>DEVELOPING</b></li>
-					<li><b>TRYING</b></li>
+					<li><p><b>STUDYING</b></p></li>
+					<li><p><b>CREATING</b></p></li>
+					<li><p><b>DEVELOPING</b></p></li>
+					<li><p><b>TRYING</b></p></li>
 				</ul>
 			</div>
 		</div>

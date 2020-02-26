@@ -17,11 +17,8 @@
 					<source src="{{ asset('assets/audio/Unit8/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 36px">
-                    <p>Color <b>Picker</b> Is A Tool Used To <b>Choose</b> The Color You Want To Use To <b>Create</b> Anything From
-                        Flyers To Company <b>Logos</b>. In The Color Picker <b>Option</b>, You Can <b>Click</b> To <b>Add</b> The Color To
-                        The Swatches Panel. This <b>Panel</b> Is Where You Can Store The <b>Colors</b> You Saved To Use During The Project.
-                    </p>
+                <div class="espacamento">
+                    <p>Color <b>Picker</b> Is A Tool Used To <b>Choose</b> The Color You Want To Use To <b>Create</b> Anything From Flyers To Company <b>Logos</b>. In The Color Picker <b>Option</b>, You Can <b>Click</b> To <b>Add</b> The Color To The Swatches Panel. This <b>Panel</b> Is Where You Can Store The <b>Colors</b> You Saved To Use During The Project.</p>
                 </div>
 			</div>
 		</div>

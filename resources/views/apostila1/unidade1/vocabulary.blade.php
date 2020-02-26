@@ -18,14 +18,14 @@
 					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>WELCOME</b></li>
-					<li><b>WORK</b></li>
-					<li><b>MOVE</b></li>
-					<li><b>INCLUDE</b></li>
-					<li><b>HAVE</b></li>
-					<li><b>GROW</b></li>
-					<li><b>NEED</b></li>
-					<li><b>USE</b></li>
+					<li><p><b>WELCOME</b></p></li>
+					<li><p><b>WORK</b></p></li>
+					<li><p><b>MOVE</b></p></li>
+					<li><p><b>INCLUDE</b></p></li>
+					<li><p><b>HAVE</b></p></li>
+					<li><p><b>GROW</b></p></li>
+					<li><p><b>NEED</b></p></li>
+					<li><p><b>USE</b></p></li>
 				</ul>
 			</div>
 		</div>

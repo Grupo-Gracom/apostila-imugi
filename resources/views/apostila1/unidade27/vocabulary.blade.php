@@ -18,13 +18,13 @@
 					<source src="{{ asset('assets/audio/Unit27/Vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>ABOUT</b></li>
-					<li><b>GRADUATE</b></li>
-					<li><b>WELL-KNOWN</b></li>
-					<li><b>USEFUL</b></li>
-					<li><b>SETTING</b></li>
-					<li><b>LEARN</b></li>
-					<li><b>SHOW</b></li>
+					<li><p><b>ABOUT</b></p></li>
+					<li><p><b>GRADUATE</b></p></li>
+					<li><p><b>WELL-KNOWN</b></p></li>
+					<li><p><b>USEFUL</b></p></li>
+					<li><p><b>SETTING</b></p></li>
+					<li><p><b>LEARN</b></p></li>
+					<li><p><b>SHOW</b></p></li>
 				</ul>
 			</div>
 		</div>

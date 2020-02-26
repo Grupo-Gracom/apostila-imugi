@@ -26,7 +26,9 @@
                     <li><b class="upper">Adding</b></li>
                 </ul>
                 <h5 class="barlow" style="margin-top: 16px">B - Read the sentence out loud to practice pronunciation.</h5>
-                <p>"Touching up personal photos by adding healing brush effects is common."</p>
+                <div class="espacamento">
+                    <p>"Touching up personal photos by adding healing brush effects is common."</p>
+                </div>
 			</div>
 		</div>
     </main>
