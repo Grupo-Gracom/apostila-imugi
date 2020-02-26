@@ -312,6 +312,14 @@ Route::get('/apostila2/unidade4/pronunciation', 'Apostila2Controller@unidade4Pro
 Route::get('/apostila2/unidade4/listening', 'Apostila2Controller@unidade4Listening')->name('apostila2/unidade4/listening');
 Route::get('/apostila2/unidade4/understanding', 'Apostila2Controller@unidade4Understanding')->name('apostila2/unidade4/understanding');
 
+//UNIDADE 5
+Route::get('/apostila2/unidade5/vocabulary', 'Apostila2Controller@unidade5Vocabulary')->name('apostila2/unidade5/vocabulary');
+Route::get('/apostila2/unidade5/conversation', 'Apostila2Controller@unidade5Conversation')->name('apostila2/unidade5/conversation');
+Route::get('/apostila2/unidade5/grammar', 'Apostila2Controller@unidade5Grammar')->name('apostila2/unidade5/grammar');
+Route::get('/apostila2/unidade5/pronunciation', 'Apostila2Controller@unidade5Pronunciation')->name('apostila2/unidade5/pronunciation');
+Route::get('/apostila2/unidade5/listening', 'Apostila2Controller@unidade5Listening')->name('apostila2/unidade5/listening');
+Route::get('/apostila2/unidade5/understanding', 'Apostila2Controller@unidade5Understanding')->name('apostila2/unidade5/understanding');
+
 //UNIDADE 6
 Route::get('/apostila2/unidade6/vocabulary', 'Apostila2Controller@unidade6Vocabulary')->name('apostila2/unidade6/vocabulary');
 Route::get('/apostila2/unidade6/conversation', 'Apostila2Controller@unidade6Conversation')->name('apostila2/unidade6/conversation');

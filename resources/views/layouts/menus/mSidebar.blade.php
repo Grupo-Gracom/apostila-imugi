@@ -613,6 +613,22 @@
                         </li>
                     </ul>
                 </li>
+                <!--UNIDADE 5-->
+                <li class="item" data-unidade="unidade5">
+                    <a class="click submenu">
+                        <i class="material-icons">folder</i> UNIT 5
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{ route('apostila2/unidade5/vocabulary') }}" data-etapa="vocabulary"><i class="material-icons suave">format_size</i> Vocabulary</a>
+                            <a href="{{ route('apostila2/unidade5/conversation') }}" data-etapa="conversation"><i class="material-icons suave">forum</i> Conversation</a>
+                            <a href="{{ route('apostila2/unidade5/grammar') }}" data-etapa="grammar"><i class="material-icons suave">edit</i> Grammar</a>
+                            <a href="{{ route('apostila2/unidade5/pronunciation') }}" data-etapa="pronunciation"><i class="material-icons suave">record_voice_over</i> Pronunciation</a>
+                            <a href="{{ route('apostila2/unidade5/listening') }}" data-etapa="listening"><i class="material-icons suave">hearing</i> Listening</a>
+                            <a href="{{ route('apostila2/unidade5/understanding') }}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
+                        </li>
+                    </ul>
+                </li>
                 <!--UNIDADE 6-->
                 <li class="item" data-unidade="unidade6">
                     <a class="click submenu">
