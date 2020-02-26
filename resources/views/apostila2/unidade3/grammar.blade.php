@@ -273,14 +273,14 @@
                 <p><b>Examples: Tom Plays video game on Mondays.</b></p>
         
                 <form id="unidade3grammar113" action="post" class="metade">
-                    <p>1.<input type="text" name="grammar113-1" class="full" required></p>
-                    <p>2.<input type="text" name="grammar113-2" class="full" required></p>
-                    <p>3.<input type="text" name="grammar113-3" class="full" required></p>
-                    <p>4.<input type="text" name="grammar113-4" class="full" required></p>
-                    <p>5.<input type="text" name="grammar113-5" class="full" required></p>
-                    <p>6.<input type="text" name="grammar113-6" class="full" required></p>
-                    <p>7.<input type="text" name="grammar113-7" class="full" required></p>
-                    <p>8.<input type="text" name="grammar113-8" class="full" required></p>
+                    <p>1.<input type="text" name="grammar113-1" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>2.<input type="text" name="grammar113-2" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>3.<input type="text" name="grammar113-3" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>4.<input type="text" name="grammar113-4" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>5.<input type="text" name="grammar113-5" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>6.<input type="text" name="grammar113-6" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>7.<input type="text" name="grammar113-7" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>8.<input type="text" name="grammar113-8" placeholder="Responda aqui" class="full left-align" required></p>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -295,36 +295,36 @@
                  
                <form id="unidade3grammar114" action="post" class="metade">
                     <p>1.
-                        <input type="text" name="grammar114-1" class="full" required>(-)
-                        <input type="text" name="grammar114-2" class="full" required>(?)
+                        <input type="text" name="grammar114-1" placeholder="Responda aqui" class="full left-align" required>(-)
+                        <input type="text" name="grammar114-2" placeholder="Responda aqui" class="full left-align" required>(?)
                     </p>
                     <p>2.
-                        <input type="text" name="grammar114-3" class="full" required>(-)
-                        <input type="text" name="grammar114-4" class="full" required>(?)
+                        <input type="text" name="grammar114-3" placeholder="Responda aqui" class="full left-align" required>(-)
+                        <input type="text" name="grammar114-4" placeholder="Responda aqui" class="full left-align" required>(?)
                     </p>
                     <p>3.
-                        <input type="text" name="grammar114-5" class="full" required>(-)
-                        <input type="text" name="grammar114-6" class="full" required>(?)
+                        <input type="text" name="grammar114-5" placeholder="Responda aqui" class="full left-align" required>(-)
+                        <input type="text" name="grammar114-6" placeholder="Responda aqui" class="full left-align" required>(?)
                     </p>
                     <p>4.
-                        <input type="text" name="grammar114-7" class="full" required>(-)
-                        <input type="text" name="grammar114-8" class="full" required>(?)
+                        <input type="text" name="grammar114-7" placeholder="Responda aqui" class="full left-align" required>(-)
+                        <input type="text" name="grammar114-8" placeholder="Responda aqui" class="full left-align" required>(?)
                     </p>
                     <p>5.
-                        <input type="text" name="grammar114-9" class="full" required>(-)
-                        <input type="text" name="grammar114-10" class="full" required>(?)
+                        <input type="text" name="grammar114-9" placeholder="Responda aqui" class="full left-align" required>(-)
+                        <input type="text" name="grammar114-10" placeholder="Responda aqui" class="full left-align" required>(?)
                     </p>
                     <p>6.
-                        <input type="text" name="grammar114-11" class="full" required>(-)
-                        <input type="text" name="grammar114-12" class="full" required>(?)
+                        <input type="text" name="grammar114-11" placeholder="Responda aqui" class="full left-align" required>(-)
+                        <input type="text" name="grammar114-12" placeholder="Responda aqui" class="full left-align" required>(?)
                     </p>
                     <p>7.
-                        <input type="text" name="grammar114-13" class="full" required>(-)
-                        <input type="text" name="grammar114-14" class="full" required>(?)
+                        <input type="text" name="grammar114-13" placeholder="Responda aqui" class="full left-align" required>(-)
+                        <input type="text" name="grammar114-14" placeholder="Responda aqui" class="full left-align" required>(?)
                     </p>
                     <p>8.
-                        <input type="text" name="grammar114-15" class="full" required>(-)
-                        <input type="text" name="grammar114-16" class="full" required>(?)
+                        <input type="text" name="grammar114-15" placeholder="Responda aqui" class="full left-align" required>(-)
+                        <input type="text" name="grammar114-16"  placeholder="Responda aqui" class="full left-align" required>(?)
                     </p>                    
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -340,12 +340,12 @@
                 <p>E.g We go to L.A next week. / <b>When</b> do you go to L.A.?</p>
 
                 <form id="unidade3grammar115" class="metade" action="post">
-                    <p>1. Her birthday is in May.<input type="text" name="grammar115-1" class="full" required></p>
-                    <p>2. I have classes on Saturdays.<input type="text" name="grammar115-2" class="full" required></p>
-                    <p>3. They like to play BF4<input type="text" name="grammar115-3" class="full" required></p>
-                    <p>4. Because python is better to program.<input type="text" name="grammar115-4" class="full" required></p>
-                    <p>5. She arrives tomorrow morning.<input type="text" name="grammar115-5" class="full" required></p>
-                    <p>6. Because I need for my career<input type="text" name="grammar115-6" class="full" required></p>
+                    <p>1. Her birthday is in May.<input type="text" name="grammar115-1" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>2. I have classes on Saturdays.<input type="text" name="grammar115-2" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>3. They like to play BF4<input type="text" name="grammar115-3" class="full left-align" placeholder="Responda aqui" required></p>
+                    <p>4. Because python is better to program.<input type="text" name="grammar115-4" class="full left-align" placeholder="Responda aqui" required></p>
+                    <p>5. She arrives tomorrow morning.<input type="text" name="grammar115-5" class="full left-align" placeholder="Responda aqui" required></p>
+                    <p>6. Because I need for my career<input type="text" name="grammar115-6" class="full left-align" placeholder="Responda aqui" required></p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

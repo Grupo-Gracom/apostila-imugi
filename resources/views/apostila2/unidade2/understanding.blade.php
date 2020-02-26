@@ -16,23 +16,23 @@
                     <form id="unidade2understanding111" method="post">
                         <p>
                             1. Who is Gleen?<br>
-                            <input type="text" name="understanding111-1" class="full left-align" required>
+                            <input type="text" name="understanding111-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             2. Where is Gleen from?<br>
-                            <input type="text" name="understanding111-2" class="full left-align" required>
+                            <input type="text" name="understanding111-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             3 - What’s his profession? / What does he do?<br>
-                            <input type="text" name="understanding111-3" class="full left-align" required>
+                            <input type="text" name="understanding111-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             4 - What’s Laura’s full name?<br>
-                            <input type="text" name="understanding111-4" class="full left-align" required>
+                            <input type="text" name="understanding111-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             5 - What’s Akira’s nationality?<br>
-                            <input type="text" name="understanding111-5" class="full left-align" required>
+                            <input type="text" name="understanding111-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

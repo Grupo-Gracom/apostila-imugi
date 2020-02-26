@@ -16,23 +16,23 @@
                     <form id="unidade4understanding122" method="post">
                         <p>
                             1. What does Gleen recommend students to do to learn more?<br>
-                            <input type="text" name="understanding122-1" class="full left-align" required>
+                            <input type="text" name="understanding122-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             2. What does Akira like to do to improve his knowledge?<br>
-                            <input type="text" name="understanding122-2" class="full left-align" required>
+                            <input type="text" name="understanding122-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             3 - How many forums does Laura participate of?<br>
-                            <input type="text" name="understanding122-3" class="full left-align" required>
+                            <input type="text" name="understanding122-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             4 - How often does she participate of special events?<br>
-                            <input type="text" name="understanding122-4" class="full left-align" required>
+                            <input type="text" name="understanding122-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             5 - What’s Johns favorite way to study?<br>
-                            <input type="text" name="understanding122-5" class="full left-align" required>
+                            <input type="text" name="understanding122-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

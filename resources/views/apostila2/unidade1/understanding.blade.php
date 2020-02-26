@@ -16,23 +16,23 @@
                     <form id="unidade1understanding105" method="post">
                         <p>
                             1. Who is Gleen?<br>
-                            <input type="text" name="understanding105-1" class="full left-align" required>
+                            <input type="text" name="understanding105-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             2. What’s the Challenge of the course?<br>
-                            <input type="text" name="understanding105-2" class="full left-align" required>
+                            <input type="text" name="understanding105-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             3 - Why is it important to dedicate yourself during the course?<br>
-                            <input type="text" name="understanding105-3" class="full left-align" required>
+                            <input type="text" name="understanding105-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             4 - What’s the objective of the second part of the course?<br>
-                            <input type="text" name="understanding105-4" class="full left-align" required>
+                            <input type="text" name="understanding105-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             5 - What companies use the softwares learned in the course?<br>
-                            <input type="text" name="understanding105-5" class="full left-align" required>
+                            <input type="text" name="understanding105-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

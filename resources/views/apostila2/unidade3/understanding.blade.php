@@ -16,23 +16,23 @@
                     <form id="unidade3understanding117" method="post">
                         <p>
                             1. What does Laura do?<br>
-                            <input type="text" name="understanding117-1" class="full left-align" required>
+                            <input type="text" name="understanding117-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             2. Why does she like her job?<br>
-                            <input type="text" name="understanding117-2" class="full left-align" required>
+                            <input type="text" name="understanding117-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             3 - Where does john work<br>
-                            <input type="text" name="understanding117-3" class="full left-align" required>
+                            <input type="text" name="understanding117-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             4 - What doesn’t John like about his job?<br>
-                            <input type="text" name="understanding117-4" class="full left-align" required>
+                            <input type="text" name="understanding117-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
                             5 - In Akira’s opinion Why is it important to finish his job on time?<br>
-                            <input type="text" name="understanding117-5" class="full left-align" required>
+                            <input type="text" name="understanding117-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

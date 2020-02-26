@@ -122,37 +122,37 @@
                     <p>E.g She’s Laura./ Who is she?</p>
                     <div class="umterco esquerda">
                         <p>1. He’s Akira <br> 
-                            <input type="text" name="grammar106-1" class="full" required>
+                            <input type="text" name="grammar106-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>2. They are in New York <br> 
-                            <input type="text" name="grammar106-2" class="full" required>
+                            <input type="text" name="grammar106-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>3. That is a new app <br> 
-                            <input type="text" name="grammar106-3" class="full" required>
+                            <input type="text" name="grammar106-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>4. Gleen is the teacher <br> 
-                            <input type="text" name="grammar106-4" class="full" required>
+                            <input type="text" name="grammar106-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>5. It’s in Brooklin <br> 
-                            <input type="text" name="grammar106-5" class="full" required>
+                            <input type="text" name="grammar106-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                     </div>
                     
                     <div class="umterco direita">
                         <p>6. I am the new manager <br> 
-                            <input type="text" name="grammar106-6" class="full" required>
+                            <input type="text" name="grammar106-6" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>7. This is Carlos, an old student <br> 
-                            <input type="text" name="grammar106-7" class="full" required>
+                            <input type="text" name="grammar106-7" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>8. It’s in the drawer <br> 
-                            <input type="text" name="grammar106-8" class="full" required>
+                            <input type="text" name="grammar106-8" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>9. My favorite hero is Batman <br> 
-                            <input type="text" name="grammar106-9" class="full" required>
+                            <input type="text" name="grammar106-9" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>10. This a new editing software <br> 
-                            <input type="text" name="grammar106-10" class="full" required>
+                            <input type="text" name="grammar106-10"placeholder="Responda aqui" class="full left-align"" required>
                         </p>
                     </div>
                     
@@ -171,37 +171,37 @@
 
                 <div class="umterco esquerda">
                         <p>1. Akira’s father is Japanese. <br> 
-                            <input type="text" name="grammar107-1" class="full" required>
+                            <input type="text" name="grammar107-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>2. Editing softwares are very expensive. <br> 
-                            <input type="text" name="grammar107-2" class="full" required>
+                            <input type="text" name="grammar107-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>3. John’s experience is very good. <br> 
-                            <input type="text" name="grammar107-3" class="full" required>
+                            <input type="text" name="grammar107-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>4. Is your brother a businessman? <br> 
-                            <input type="text" name="grammar107-4" class="full" required>
+                            <input type="text" name="grammar107-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>5. My friend and I love comic books. <br> 
-                            <input type="text" name="grammar107-5" class="full" required>
+                            <input type="text" name="grammar107-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                     </div>
                     
                     <div class="umterco direita">
                         <p>6. These are Laura’s and my books. <br> 
-                            <input type="text" name="grammar107-6" class="full" required>
+                            <input type="text" name="grammar107-6" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>7. Where is Gleen’s marker? <br> 
-                            <input type="text" name="grammar107-7" class="full" required>
+                            <input type="text" name="grammar107-7" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>8. My father’s favorite computer is Mac. <br> 
-                            <input type="text" name="grammar107-8" class="full" required>
+                            <input type="text" name="grammar107-8" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>9. The students’ books are in the classroom. <br> 
-                            <input type="text" name="grammar107-9" class="full" required>
+                            <input type="text" name="grammar107-9" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>10. This is Mrs. Brown’s coat, but these are the children’s coats. <br> 
-                            <input type="text" name="grammar107-10" class="full" required>
+                            <input type="text" name="grammar107-10" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                     </div>
                     
@@ -223,12 +223,15 @@
                         </table>
                     </div>
                     <br>
-                    <p>Hello<input type="text" name="grammar108-1" required>name is Patrick. I’m fourteen. I have a brother. His name is Andy and he’s ninenteen.
-                        We are on holiday in California. The hotel is very good and <input type="text" name="grammar108-2" required>swimming-pool is large.</p>
-                    <b><p>Andy and I have a sister<input type="text" name="grammar108-3" required>sname is Liz. She’s sixteen years old<input type="text" name="grammar108-4" required>
-                        smother and father are in the restaurant now. Their friends, Mr. and Mrs. Bolton, are in the restaurant, too<input type="text" name="grammar108-5" required>stwo sons are in the pool.</b></p>
-                    <p>Andy has a girl-friend<input type="text" name="grammar108-6" required>sgirl-friend’s name is Sandra. She’s in<input type="text" name="grammar108-7" required>sclass at school.</p>
-                    <p>Where is your family? Is<input type="text" name="grammar108-8" required>sfamily here, too?</p>
+                    <p>Hello<input type="text" name="grammar108-1" placeholder="Responda aqui" required>name is Patrick. I’m fourteen. I have a brother. His name is Andy and he’s ninenteen.
+                        We are on holiday in California. The hotel is very good and <input type="text" name="grammar108-2" placeholder="Responda aqui" required>swimming-pool is large.</p>
+                    <b><p>Andy and I have a sister<input type="text" name="grammar108-3" placeholder="Responda aqui" required>sname is Liz. She’s sixteen years old
+                    <input type="text" name="grammar108-4" placeholder="Responda aqui" required>
+                        smother and father are in the restaurant now. Their friends, Mr. and Mrs. Bolton, are in the restaurant, too
+                        <input type="text" name="grammar108-5" placeholder="Responda aqui" required>stwo sons are in the pool.</b></p>
+                    <p>Andy has a girl-friend<input type="text" name="grammar108-6" placeholder="Responda aqui" required>sgirl-friend’s name is Sandra. She’s in
+                    <input type="text" name="grammar108-7" placeholder="Responda aqui" required>sclass at school.</p>
+                    <p>Where is your family? Is<input type="text" name="grammar108-8" placeholder="Responda aqui" required>sfamily here, too?</p>
                
                     <div class="clear"></div> 
 

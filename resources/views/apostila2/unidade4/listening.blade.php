@@ -20,10 +20,10 @@
                 
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade4listening121" method="post">
-                    <p>“My name is Joana Henley. I work as an illustrator, painter and live artist.<input type="text" name="listening121-1" required>the
-                        <input type="text" name="listening121-2" required>you<input type="text" name="listening121-3" required>how to
-                        <input type="text" name="listening121-4" required> portraits,<input type="text" name="listening121-5" required>, color and organic
-                        <input type="text" name="listening121-6" required>to create a<input type="text" name="listening121-7" required>."</p>
+                    <p>“My name is Joana Henley. I work as an illustrator, painter and live artist.<input type="text" name="listening121-1" placeholder="Responda aqui" required>the
+                        <input type="text" name="listening121-2" placeholder="Responda aqui" required>you<input type="text" name="listening121-3" placeholder="Responda aqui" required>how to
+                        <input type="text" name="listening121-4" placeholder="Responda aqui" required> portraits,<input type="text" name="listening121-5" placeholder="Responda aqui" required>, color and organic
+                        <input type="text" name="listening121-6" placeholder="Responda aqui" required>to create a<input type="text" name="listening121-7" placeholder="Responda aqui" required>."</p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

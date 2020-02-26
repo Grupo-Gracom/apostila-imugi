@@ -20,12 +20,12 @@
                 
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade3listening116" method="post">
-                    <p>“Hello,<input type="text" name="listening116-1" required> <input type="text" name="listening116-2" required>and<input type="text" name="listening116-3" required> here at Maxon
-                        <input type="text" name="listening116-4" required> on the IBC<input type="text" name="listening116-5" required>.We’ve got a
-                        <input type="text" name="listening116-6" required> <input type="text" name="listening116-7" required>up of presenters here. This one is not only a
-                        <input type="text" name="listening116-8" required> <input type="text" name="listening116-9" required>of mine, he’s also an <input type="text" name="listening116-10" required>
-                        <input type="text" name="listening116-11"> doing a lots of stuff for , for example for Apple, BMW, Wacom, He<input type="text" name="listening116-12" required> for many companies. He’s a
-                        <input type="text" name="listening116-13" required>working with three other guys I think.”</p>
+                    <p>“Hello,<input type="text" name="listening116-1" placeholder="Responda aqui" required> <input type="text" name="listening116-2" placeholder="Responda aqui" required>and<input type="text" name="listening116-3" placeholder="Responda aqui" required> here at Maxon
+                        <input type="text" name="listening116-4" placeholder="Responda aqui" required> on the IBC<input type="text" name="listening116-5" placeholder="Responda aqui" required>.We’ve got a
+                        <input type="text" name="listening116-6" placeholder="Responda aqui" required> <input type="text" name="listening116-7" placeholder="Responda aqui" required>up of presenters here. This one is not only a
+                        <input type="text" name="listening116-8" placeholder="Responda aqui" required> <input type="text" name="listening116-9" placeholder="Responda aqui" required>of mine, he’s also an <input type="text" name="listening116-10" placeholder="Responda aqui" required>
+                        <input type="text" name="listening116-11" placeholder="Responda aqui" required> doing a lots of stuff for , for example for Apple, BMW, Wacom, He<input type="text" name="listening116-12" placeholder="Responda aqui" required> for many companies. He’s a
+                        <input type="text" name="listening116-13" placeholder="Responda aqui" required>working with three other guys I think.”</p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

@@ -109,14 +109,14 @@
                 <p class="barlow">1) Fill in the blanks with ME, YOU, HIM, HER, THEM, US, IT:</p>
 
                 <form id="unidade4grammar118" action="post" class="metade">
-                    <p>1. We are watching tutorials and Jim is watching with<input type="text" name="grammar118-1" required></p>
-                    <p>2. Are the lights on? Turn<input type="text" name="grammar118-2" required>off!</p>
-                    <p>3. Where is my book? I’m looking for<input type="text" name="grammar118-3" required></p>
-                    <p>4. She is very tired. Help<input type="text" name="grammar118-4" required></p>
-                    <p>5. I’m very thirsty. Give<input type="text" name="grammar118-5" required>a glass of water</p>
-                    <p>6. This is Laura’s pen. Give it to<input type="text" name="grammar118-6" required></p>
-                    <p>7. Look at<input type="text" name="grammar118-7" required>Are they your friends?</p>
-                    <p>8. Are you John Myer? There is a letter for<input type="text" name="grammar118-8" required></p>
+                    <p>1. We are watching tutorials and Jim is watching with<input type="text" name="grammar118-1" placeholder="Responda aqui" required></p>
+                    <p>2. Are the lights on? Turn<input type="text" name="grammar118-2" placeholder="Responda aqui" required>off!</p>
+                    <p>3. Where is my book? I’m looking for<input type="text" name="grammar118-3" placeholder="Responda aqui" required></p>
+                    <p>4. She is very tired. Help<input type="text" name="grammar118-4" placeholder="Responda aqui" required></p>
+                    <p>5. I’m very thirsty. Give<input type="text" name="grammar118-5" placeholder="Responda aqui" required>a glass of water</p>
+                    <p>6. This is Laura’s pen. Give it to<input type="text" name="grammar118-6" placeholder="Responda aqui" required></p>
+                    <p>7. Look at<input type="text" name="grammar118-7" placeholder="Responda aqui" required>Are they your friends?</p>
+                    <p>8. Are you John Myer? There is a letter for<input type="text" name="grammar118-8" placeholder="Responda aqui" required></p>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -129,12 +129,12 @@
                 <p>E.g How are you?/ <b>I’m fine thanks.</b></p>
 
                 <form id="unidade4grammar119" action="post" class="metade">
-                    <p>1. I follow three youtube channels.<input type="text" name="grammar119-1" class="full" required></p>
-                    <p>2. She studies three hours a day.<input type="text" name="grammar119-2" class="full" required></p>
-                    <p>3. Two classes. On Wednesdays and Fridays.<input type="text" name="grammar119-3" class="full" required></p>
-                    <p>4. He’s ok. Thank you.<input type="text" name="grammar119-4" class="full" required></p>
-                    <p>5. They have three days to finish the project.<input type="text" name="grammar119-5" class="full" required></p>
-                    <p>6. I have only some minutes before the class.<input type="text" name="grammar119-6" class="full" required></p>
+                    <p>1. I follow three youtube channels.<input type="text" name="grammar119-1" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>2. She studies three hours a day.<input type="text" name="grammar119-2" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>3. Two classes. On Wednesdays and Fridays.<input type="text" name="grammar119-3" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>4. He’s ok. Thank you.<input type="text" name="grammar119-4" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>5. They have three days to finish the project.<input type="text" name="grammar119-5" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>6. I have only some minutes before the class.<input type="text" name="grammar119-6" placeholder="Responda aqui" class="full left-align" required></p>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -146,9 +146,9 @@
                 <p class="barlow">3) Prepare 3 questions and interview a classmate. Be ready to share with your friends.</p>
                 
                 <form id="unidade4grammar120" action="post" class="metade">
-                    <p><input type="text" name="grammar120-1" class="full" required></p>
-                    <p><input type="text" name="grammar120-2" class="full" required></p>
-                    <p><input type="text" name="grammar120-3" class="full" required></p>
+                    <p><input type="text" name="grammar120-1" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p><input type="text" name="grammar120-2" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p><input type="text" name="grammar120-3" placeholder="Responda aqui" class="full left-align" required></p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
