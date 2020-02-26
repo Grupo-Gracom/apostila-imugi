@@ -9,8 +9,8 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade1" data-etapa="listening">
-				<h3 class="barlow">UNIT 01</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade2" data-etapa="listening">
+				<h3 class="barlow">UNIT 02</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -19,16 +19,35 @@
                 <div class="clear"></div>
                 
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
-                <form id="unidade1listening104" method="post">
-                    <p>“Ok. My name is Lars Scholten. I’m a<input type="text" name="listening104-1" required>from 
-                    <input type="text" name="listening104-2" required>an also a<input type="text" name="listening104-3" required>
-                    at college of<input type="text" name="listening104-4" required>in<input type="text" name="listening104-5" required>.<input type="text" name="listening104-6" required>
-                    I want to<input type="text" name="listening104-7" required>you some new features of Cinema 4D R16.”</p>
+                <form id="unidade2listening109" method="post">
+                    <p>“My name is Joana Henly and I<input type="text" name="listening109-1" required> <input type="text" name="listening109-2" required> the name of Miss Led. I’ve been in London
+                        <input type="text" name="listening109-3" required>I live and work for Goodness<input type="text" name="listening109-4" required>years now. This is my fabulous
+                        <input type="text" name="listening109-5" required>. I work as an<input type="text" name="listening109-6" required>,<input type="text" name="listening109-7" required>
+                        and live<input type="text" name="listening109-8" required>."
+                    </p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="104">
+                    <input type="hidden" name="unidade_id" value="2">
+                    <input type="hidden" name="atividade_id" value="109">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+
+                <h5 class="barlow">B – Think of a famous person you like and present him or her to your classmates. Tell them, full name, profession, nationality and age.</h5>
+                <form id="unidade2listening110" method="post">
+                    <div class="umterco">
+                        <p><input type="text" name="listening110-1" class="full" required></p>
+                        <p><input type="text" name="listening110-2" class="full" required></p>
+                        <p><input type="text" name="listening110-3" class="full" required></p>
+                        <p><input type="text" name="listening110-4" class="full" required></p>
+                    </div>
+
+                    <div class="clear"></div>
+                    
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="2">
+                    <input type="hidden" name="atividade_id" value="110">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 			</div>
@@ -42,21 +61,39 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1listening104").submit(function(e){
+        $("#unidade2listening109").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1listening104 input[type="text"]').each(function(index){
-                if(($('#unidade1listening104 input[type="text"]').length - 1) == index){
+            $('#unidade2listening109 input[type="text"]').each(function(index){
+                if(($('#unidade2listening109 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1listening104 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1listening104'), respostas);
+            if($('#unidade2listening109 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade2listening109'), respostas);
             }else{
-                enviarAtividade($('#unidade1listening104'), respostas);
+                enviarAtividade($('#unidade2listening109'), respostas);
+            }
+        });
+
+        $("#unidade2listening110").submit(function(e){
+            e.preventDefault();
+            $(this).find('button').prop('disabled', true);
+            var respostas = '{';
+            $('#unidade2listening110 input[type="text"]').each(function(index){
+                if(($('#unidade2listening110 input[type="text"]').length - 1) == index){
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
+                }else{
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
+                }
+            });
+            if($('#unidade2listening110 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade2listening110'), respostas);
+            }else{
+                enviarAtividade($('#unidade2listening110'), respostas);
             }
         });
 
@@ -76,11 +113,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade2listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade2listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade2listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade2listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

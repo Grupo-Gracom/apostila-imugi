@@ -9,37 +9,39 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade1" data-etapa="understanding">
-				<h3 class="barlow">UNIT 01</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade2" data-etapa="understanding">
+				<h3 class="barlow">UNIT 02</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <form id="unidade1understanding105" method="post">
-                    <p>
-                        1. Who is Gleen?<br>
-                        <input type="text" name="understanding105-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        2. What’s the Challenge of the course?<br>
-                        <input type="text" name="understanding105-2" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 - Why is it important to dedicate yourself during the course?<br>
-                        <input type="text" name="understanding105-3" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - What’s the objective of the second part of the course?<br>
-                        <input type="text" name="understanding105-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - What companies use the softwares learned in the course?<br>
-                        <input type="text" name="understanding105-5" class="full left-align" required>
-                    </p>
-                    
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="105">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+                <div class="metade">
+                    <form id="unidade2understanding111" method="post">
+                        <p>
+                            1. Who is Gleen?<br>
+                            <input type="text" name="understanding111-1" class="full left-align" required>
+                        </p>
+                        <p>
+                            2. Where is Gleen from?<br>
+                            <input type="text" name="understanding111-2" class="full left-align" required>
+                        </p>
+                        <p>
+                            3 - What’s his profession? / What does he do?<br>
+                            <input type="text" name="understanding111-3" class="full left-align" required>
+                        </p>
+                        <p>
+                            4 - What’s Laura’s full name?<br>
+                            <input type="text" name="understanding111-4" class="full left-align" required>
+                        </p>
+                        <p>
+                            5 - What’s Akira’s nationality?<br>
+                            <input type="text" name="understanding111-5" class="full left-align" required>
+                        </p>
+                        
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="2">
+                        <input type="hidden" name="atividade_id" value="111">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>
                 <div class="metade esquerda">
                     <figure>
                         <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
@@ -60,21 +62,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1understanding105").submit(function(e){
+        $("#unidade2understanding111").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1understanding105 input[type="text"]').each(function(index){
-                if(($('#unidade1understanding105 input[type="text"]').length - 1) == index){
+            $('#unidade2understanding111 input[type="text"]').each(function(index){
+                if(($('#unidade2understanding111 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1understanding105 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1understanding105'), respostas);
+            if($('#unidade2understanding111 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade2understanding111'), respostas);
             }else{
-                enviarAtividade($('#unidade1understanding105'), respostas);
+                enviarAtividade($('#unidade2understanding111'), respostas);
             }
         });
 
@@ -94,11 +96,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade1understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade1understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade2understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade2understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade1understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade2understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade2understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
