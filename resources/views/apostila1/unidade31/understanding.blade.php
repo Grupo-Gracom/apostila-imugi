@@ -17,31 +17,31 @@
                     <form id="unidade31understanding78" method="post">
                         <p>
                             1 -  Who Knew The Answer To Victor’s First Question?<br>
-                            <input type="text" name="understanding78-1" class="full left-align" required>
+                            <input type="text" name="understanding78-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 -  What Does Victor Think About The Name Of The Tool?<br>
-                            <input type="text" name="understanding78-2" class="full left-align" required>
+                            <input type="text" name="understanding78-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 -  Why Does Laura Consider It To Be A Great Tool?<br>
-                            <input type="text" name="understanding78-3" class="full left-align" required>
+                            <input type="text" name="understanding78-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - Where Is It Located?<br>
-                            <input type="text" name="understanding78-4" class="full left-align" required>
+                            <input type="text" name="understanding78-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - What Is The Tool Used For?<br>
-                            <input type="text" name="understanding78-5" class="full left-align" required>
+                            <input type="text" name="understanding78-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - Where Can You Add A Transition Effect?<br>
-                            <input type="text" name="understanding78-6" class="full left-align" required>
+                            <input type="text" name="understanding78-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - In Addition To Videos, What Else Can You Add This Effect To?<br>
-                            <input type="text" name="understanding78-7" class="full left-align" required>
+                            <input type="text" name="understanding78-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">

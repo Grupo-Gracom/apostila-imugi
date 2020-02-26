@@ -16,43 +16,43 @@
                     <form id="unidade26understanding68" method="post">
                         <p>
                             1 - What Three Tools Is The Review About?<br>
-                            <input type="text" name="understanding68-1" class="full left-align" required>
+                            <input type="text" name="understanding68-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 - When Was Sarah Thinking About What To Teach In The Review?<br>
-                            <input type="text" name="understanding68-2" class="full left-align" required>
+                            <input type="text" name="understanding68-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 - What Did Sarah Use To Do When She Was Young?<br>
-                            <input type="text" name="understanding68-3" class="full left-align" required>
+                            <input type="text" name="understanding68-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - When Did Sarah Use To Make Paintings?<br>
-                            <input type="text" name="understanding68-4" class="full left-align" required>
+                            <input type="text" name="understanding68-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - What Does Sarah Want The Students To Do?<br>
-                            <input type="text" name="understanding68-5" class="full left-align" required>
+                            <input type="text" name="understanding68-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - Who Recommends The Brush Tool?<br>
-                            <input type="text" name="understanding68-6" class="full left-align" required>
+                            <input type="text" name="understanding68-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - Why Does Marcelo Think Brush Tool Is The Best For The Sky?<br>
-                            <input type="text" name="understanding68-7" class="full left-align" required>
+                            <input type="text" name="understanding68-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - How Does Kylie Think The Sky Should Be Detailed?<br>
-                            <input type="text" name="understanding68-8" class="full left-align" required>
+                            <input type="text" name="understanding68-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>   
                         <p>
                             9 - Where Does Mariana Want To Draw A Line In The Painting?<br>
-                            <input type="text" name="understanding68-9" class="full left-align" required>
+                            <input type="text" name="understanding68-9" class="full left-align" placeholder="Responda aqui" required>
                         </p>   
                         <p>
                             10 - Why Does Mariana Think Pen Tool Is Ideal For The Horizon?<br>
-                            <input type="text" name="understanding68-10" class="full left-align" required>
+                            <input type="text" name="understanding68-10" class="full left-align" placeholder="Responda aqui" required>
                         </p>                  
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
@@ -63,7 +63,7 @@
                 </div>
                 <div class="metade esquerda">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
+                        <img src="{{ asset('assets/img/playgo/unit26/U26.jpg') }}" alt="Dica">
                     </figure>
                 </div>
 			</div>

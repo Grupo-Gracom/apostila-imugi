@@ -11,39 +11,41 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade7" data-etapa="understanding">
 				<h3 class="barlow">UNIT 07 - Adjustment Panel</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>                
-                <form id="unidade7understanding25" method="post">
-                    <p>
-                        1 - Does Carlos know how to use the Adjustment Panel?<br>
-                        <input type="text" name="understanding25-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        2 - What does Sophia think about the students’ comments?<br>
-                        <input type="text" name="understanding25-2" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 - Who does Beatriz know that uses the Adjustment Panel?<br>
-                        <input type="text" name="understanding25-3" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - Why does Beatriz’s friend use the Adjustment Panel?<br>
-                        <input type="text" name="understanding25-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - What does Lee especially like about the Panel?<br>
-                        <input type="text" name="understanding25-5" class="full left-align" required>
-                    </p>
-                    <p>
-                        6 - What does Carlos’ friend use the Panel for?<br>
-                        <input type="text" name="understanding25-6" class="full left-align" required>
-                    </p>                    
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="7">
-                    <input type="hidden" name="atividade_id" value="25">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-                <div class="metade esquerda">
+                <h5 class="barlow">6 - UNDERSTANDING</h5>  
+                <div class="metade">
+                    <form id="unidade7understanding25" method="post">
+                        <p>
+                            1 - Does Carlos know how to use the Adjustment Panel?<br>
+                            <input type="text" name="understanding25-1" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            2 - What does Sophia think about the students’ comments?<br>
+                            <input type="text" name="understanding25-2" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            3 - Who does Beatriz know that uses the Adjustment Panel?<br>
+                            <input type="text" name="understanding25-3" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            4 - Why does Beatriz’s friend use the Adjustment Panel?<br>
+                            <input type="text" name="understanding25-4" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            5 - What does Lee especially like about the Panel?<br>
+                            <input type="text" name="understanding25-5" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            6 - What does Carlos’ friend use the Panel for?<br>
+                            <input type="text" name="understanding25-6" class="full left-align" placeholder="Responda aqui" required>
+                        </p>                    
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="7">
+                        <input type="hidden" name="atividade_id" value="25">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>              
+                <div class="metade">
                     <figure>
                         <img src="{{ asset('assets/img/playgo/unit7/U7.jpg') }}" alt="">
                     </figure>

@@ -16,35 +16,35 @@
                     <form id="unidade22understanding61" method="post">
                         <p>
                             1 - Why Didn’t Mariana Thin She’d Be In The Class?<br>
-                            <input type="text" name="understanding61-1" class="full left-align" required>
+                            <input type="text" name="understanding61-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 - What Did Mariana Decide To Do?<br>
-                            <input type="text" name="understanding61-2" class="full left-align" required>
+                            <input type="text" name="understanding61-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 - How Does Rafael Like To Be Called?<br>
-                            <input type="text" name="understanding61-3" class="full left-align" required>
+                            <input type="text" name="understanding61-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - Why Is Rafael Taking The Course?<br>
-                            <input type="text" name="understanding61-4" class="full left-align" required>
+                            <input type="text" name="understanding61-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - What Does Marcelo Study?<br>
-                            <input type="text" name="understanding61-5" class="full left-align" required>
+                            <input type="text" name="understanding61-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - Why Is Marcelo In The Course?<br>
-                            <input type="text" name="understanding61-6" class="full left-align" required>
+                            <input type="text" name="understanding61-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - Why Is Kylie In The Class?<br>
-                            <input type="text" name="understanding61-7" class="full left-align" required>
+                            <input type="text" name="understanding61-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - How Old Is Kylie?<br>
-                            <input type="text" name="understanding61-8" class="full left-align" required>
+                            <input type="text" name="understanding61-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
@@ -52,11 +52,6 @@
                         <input type="hidden" name="atividade_id" value="61">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
                 </div>
 			</div>
 		</div>

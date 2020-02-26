@@ -17,23 +17,23 @@
 					<source src="{{ asset('assets/audio/unit2/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to your teacher and repeat the words to practice the pronunciation of words with the letter ‘R’.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to your teacher and repeat the words to practice the pronunciation of words with the letter "R".</h5>
 				<ul class="lista-inline">
-                    <li><b class="upper">For</b></li>
-                    <li><b class="upper">Designer</b></li>
-                    <li><b class="upper">Importance</b></li>
-                    <li><b class="upper">Photographer</b></li>
-                    <li><b class="upper">Great</b></li>
-                    <li><b class="upper">Brother</b></li>
+                    <li><p><b class="upper">For</b></p></li>
+                    <li><p><b class="upper">Designer</b></p></li>
+                    <li><p><b class="upper">Importance</b></p></li>
+                    <li><p><b class="upper">Photographer</b></p></li>
+                    <li><p><b class="upper">Great</b></p></li>
+                    <li><p><b class="upper">Brother</b></p></li>
                 </ul>
-                <h5 class="barlow" style="margin-top: 16px">B - Listen to your teacher and repeat the words to practice the pronunciation of words with the letter ‘P’.</h5>
+                <h5 class="barlow" style="margin-top: 16px">B - Listen to your teacher and repeat the words to practice the pronunciation of words with the letter "P".</h5>
                 <ul class="lista-inline">
-                    <li><b class="upper">Production</b></li>
-                    <li><b class="upper">Professional</b></li>
-                    <li><b class="upper">Professor</b></li>
-                    <li><b class="upper">Develop</b></li>
-                    <li><b class="upper">Photoshop</b></li>
-                    <li><b class="upper">Profession</b></li>
+                    <li><p><b class="upper">Production</b></p></li>
+                    <li><p><b class="upper">Professional</b></p></li>
+                    <li><p><b class="upper">Professor</b></p></li>
+                    <li><p><b class="upper">Develop</b></p></li>
+                    <li><p><b class="upper">Photoshop</b></p></li>
+                    <li><p><b class="upper">Profession</b></p></li>
                 </ul>
                 <h5 class="barlow" style="margin-top: 16px">C - Now, read the sentence below to check your understanding.</h5>
                 <div class="espacamento">

@@ -14,39 +14,39 @@
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit30/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit30/grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                    <p>Word Order</p>
+                <div class="espacamento">
+                    <h5 class="barlow">Word Order</h5>
                     <p>Notice How, In Questions, The Preposition Usually Goes To The End Of The Sentence.</p>
                     <p><b>Question:</b> Where Are You From?</p>
                     <p><b>Answer:</b> I Am From Brazil</p>
-                <h5 class="barlow" style="margin-top: 16px">A - Create Questions For The Answers.</h5>
+                </div>
+                <h5 class="barlow" style="margin-top: 16px">A - Create questions for the answers.</h5>
                 <form id="unidade30grammar75" method="post">
                     <div class="metade">
                         <p> 
-                            <p>1. <b>Question:</b> <input type="text" name="grammar75-1" class="left-align full"  required/></p>
+                            <p>1. <b>Question:</b> <input type="text" name="grammar75-1" class="left-align full" placeholder="Responda aqui" required/></p>
                             <p><b>Answer:</b> I Am Afraid Of Spiders.</p>
                         </p>
                         <p> 
-                            <p>2. <b>Question:</b> <input type="text" name="grammar75-2" class="left-align full"  required/></p>
+                            <p>2. <b>Question:</b> <input type="text" name="grammar75-2" class="left-align full" placeholder="Responda aqui" required/></p>
                             <p><b>Answer:</b>  I Live With My Family.</p>
                         </p>
                         <p> 
-                            <p>3. <b>Question:</b> <input type="text" name="grammar75-3" class="left-align full"  required/></p>
+                            <p>3. <b>Question:</b> <input type="text" name="grammar75-3" class="left-align full" placeholder="Responda aqui" required/></p>
                             <p><b>Answer:</b>  I Work For Myself.</p>
                         </p>
                         <p> 
-                            <p>4. <b>Question:</b> <input type="text" name="grammar75-4" class="left-align full"  required/></p>
+                            <p>4. <b>Question:</b> <input type="text" name="grammar75-4" class="left-align full" placeholder="Responda aqui" required/></p>
                             <p><b>Answer:</b> I’m Looking At The Bird.</p>
                         </p>
                         <p> 
-                            <p>5. <b>Question:</b> <input type="text" name="grammar75-5" class="left-align full"  required/></p>
+                            <p>5. <b>Question:</b> <input type="text" name="grammar75-5" class="left-align full" placeholder="Responda aqui" required/></p>
                             <p><b>Answer:</b>  She’s Waiti ng For Her Friend To Arrive.</p>
                         </p>
                     </div>
-                    
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

@@ -17,35 +17,35 @@
                     <form id="unidade30understanding76" method="post">
                         <p>
                             1 -  What Does Victor Want To Talk About Today?<br>
-                            <input type="text" name="understanding76-1" class="full left-align" required>
+                            <input type="text" name="understanding76-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 -  What Does Victor Think About Video Effects?<br>
-                            <input type="text" name="understanding76-2" class="full left-align" required>
+                            <input type="text" name="understanding76-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 - Who Has Previous Knowledge About Effects?<br>
-                            <input type="text" name="understanding76-3" class="full left-align" required>
+                            <input type="text" name="understanding76-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - What Is Marcelo’s Hobby?<br>
-                            <input type="text" name="understanding76-4" class="full left-align" required>
+                            <input type="text" name="understanding76-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - How Does Marcelo Feel About Editing Videos With Effects?<br>
-                            <input type="text" name="understanding76-5" class="full left-align" required>
+                            <input type="text" name="understanding76-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - What Is One Thing You Can Change In Videos Using Effects?<br>
-                            <input type="text" name="understanding76-6" class="full left-align" required>
+                            <input type="text" name="understanding76-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - Where Can You Find The Black & White Tool?<br>
-                            <input type="text" name="understanding76-7" class="full left-align" required>
+                            <input type="text" name="understanding76-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - Where Can You Find Most Tools To Add Effects To Your Video?<br>
-                            <input type="text" name="understanding76-8" class="full left-align" required>
+                            <input type="text" name="understanding76-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">

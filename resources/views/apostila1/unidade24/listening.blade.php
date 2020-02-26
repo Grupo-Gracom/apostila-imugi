@@ -14,12 +14,12 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit24/listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p style="margin-top:16px;">The <b>Eraser</b> Is Used To <b>Delete</b> An Entire Project Or Just A Part Of It. It Can Also Be Used To Superficially Erase Traces Or <b> Colors.</b>
-                                         Use The Eraser And Its <b>Variety</b> Of Functions In The Options <b>Panel</b> And Create New <b>Effects.</b></p>
-                
+                <div class="espacamento">
+                    <p>The <b>Eraser</b> Is Used To <b>Delete</b> An Entire Project Or Just A Part Of It. It Can Also Be Used To Superficially Erase Traces Or <b> Colors.</b> Use The Eraser And Its <b>Variety</b> Of Functions In The Options <b>Panel</b> And Create New <b>Effects.</b></p>
+                </div>
 			</div>
 		</div>
     </main>

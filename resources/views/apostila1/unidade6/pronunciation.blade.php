@@ -14,7 +14,7 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Pronuciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit6/pronuciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Observe how in the suffix “ing” the letter “g” is not pronounced.</h5>
@@ -26,7 +26,9 @@
                     <li><b class="upper">Adding</b></li>
                 </ul>
                 <h5 class="barlow" style="margin-top: 16px">B - Read the sentence out loud to practice pronunciation.</h5>
-                <p>"Touching up personal photos by adding healing brush effects is common."</p>
+                <div class="espacamento">
+                    <p>"Touching up personal photos by adding healing brush effects is common."</p>
+                </div>
 			</div>
 		</div>
     </main>

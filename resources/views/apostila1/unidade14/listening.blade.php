@@ -14,12 +14,12 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit14/Listening/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit14/listening/listening.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 36px">
+                <div class="espacamento">
                     <p>
-                        <b>Typography</b> Tools Are Used To <b>Select</b> Fonts And Change Font <b>Size</b>, Whereas Color Tools
+                        <b>Typography</b> Tools Are Used To <b>Select</b> Fonts And Change Font <b>Size</b>, Where as Color Tools
                         Are Mainly Used To <b>Choose</b>, Modify Or <b>Create</b> Colors. All Of These Tools Are <b>Fundamental</b>
                         In Graphic <b>Design</b> Production.
                     </p>

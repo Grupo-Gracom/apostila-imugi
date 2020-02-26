@@ -15,31 +15,31 @@
                 <form id="unidade19understanding53" method="post" class="metade">
                     <p>
                         1 - What Does Marciel Need Help With?<br>
-                        <input type="text" name="understanding53-1" class="full left-align" required>
+                        <input type="text" name="understanding53-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         2 - How Is Marciel Practicing What He Is Studying In The Classes With Akira?<br>
-                        <input type="text" name="understanding53-2" class="full left-align" required>
+                        <input type="text" name="understanding53-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         3 - What Does Roberto Suggest Marciel To Use?<br>
-                        <input type="text" name="understanding53-3" class="full left-align" required>
+                        <input type="text" name="understanding53-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         4 - What Do You Need To Do First To Access The Panel?<br>
-                        <input type="text" name="understanding53-4" class="full left-align" required>
+                        <input type="text" name="understanding53-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         5 - Where Is The Panel Exactly?<br>
-                        <input type="text" name="understanding53-5" class="full left-align" required>
+                        <input type="text" name="understanding53-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         6 - What Do You Use The Change The Size Of The Text?<br>
-                        <input type="text" name="understanding53-6" class="full left-align" required>
+                        <input type="text" name="understanding53-6" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         7 - What Can The Character Panel Do?<br>
-                        <input type="text" name="understanding53-7" class="full left-align" required>
+                        <input type="text" name="understanding53-7" class="full left-align" placeholder="Responda aqui" required>
                     </p>                                                          
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

@@ -14,12 +14,12 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit16/Listening/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit16/listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p style="margin-top:16px;">Adobe prefers people to use the term “photoshopping” when referring to photo editing to</p>                
-                <p>prevent its trademark from becoming generalized. Howver, it’s never caught on as much</p>
-                <p>as they had hoped, and today we regularly use “photoshop” as a verb.</p>
+                <div class="espacamento">
+                    <p>Adobe prefers people to use the term “photoshopping” when referring to photo editing to prevent its trademark from becoming generalized. Howver, it’s never caught on as much as they had hoped, and today we regularly use “photoshop” as a verb.</p>
+                </div>
 			</div>
 		</div>
     </main>

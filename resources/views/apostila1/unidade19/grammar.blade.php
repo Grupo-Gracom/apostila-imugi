@@ -14,27 +14,29 @@
 				<h5 class="barlow">3 - GRAMMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit19/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit19/grammar/completo.ogg') }}" type="audio/ogg">
                 </audio> 
-                <div class="clear"></div> <br>
-				<h5 class="barlow">Prepositions of place</h5>
+                <div class="clear"></div>
+                <div class="espacamento">
+				    <h5 class="barlow">Prepositions of place</h5>
+                </div>
                 <ul class="lista-inline">
-					<li><b>IN</b></li>
-					<li><b>ON</b></li>
-					<li><b>BETWEEN</b></li>
-					<li><b>UNDER</b></li>
-					<li><b>BEHIND</b></li>					
-					<li><b>NEXT</b></li>
-                    <li><b>TO</b></li>
-                    <li><b>IN FRONT OF</b></li>                    										
+					<li><p><b>IN</b></p></li>
+					<li><p><b>ON</b></p></li>
+					<li><p><b>BETWEEN</b></p></li>
+					<li><p><b>UNDER</b></p></li>
+					<li><p><b>BEHIND</b></p></li>
+					<li><p><b>NEXT</b></p></li>
+                    <li><p><b>TO</b></p></li>
+                    <li><p><b>IN FRONT OF</b></p></li>
 				</ul>
-				<h5 class="barlow">A - Complete The Sentences With The Proper Preposition.</h5>
+				<h5 class="barlow">A - Complete the sentences with the proper preposition.</h5>
 				<form id="unidade19grammar52" method="post">
-                    <p><b>1. The Books Are</b> <input type="text" name="grammar52-1" required> The Table.</p>
-                    <p><b>2. The Cat Is</b> <input type="text" name="grammar52-2" required> The Sofa.</p>
-                    <p><b>3. The Chair Is</b> <input type="text" name="grammar52-3" required> The Door And The Sofa.</p>
-                    <p><b>4. The Door Is</b> <input type="text" name="grammar52-4" required> The Chair.</p>
-                    <p><b>5. The Wastebasket Is</b> <input type="text" name="grammar52-5" required> The Table.</p>
+                    <p>1 - The Books Are <input type="text" name="grammar52-1" placeholder="Responda aqui" required> The Table.</p>
+                    <p>2 - The Cat Is <input type="text" name="grammar52-2" placeholder="Responda aqui" required> The Sofa.</p>
+                    <p>3 - The Chair Is <input type="text" name="grammar52-3" placeholder="Responda aqui" required> The Door And The Sofa.</p>
+                    <p>4 - The Door Is <input type="text" name="grammar52-4" placeholder="Responda aqui" required> The Chair.</p>
+                    <p>5 - The Wastebasket Is <input type="text" name="grammar52-5" placeholder="Responda aqui" required> The Table.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="19">

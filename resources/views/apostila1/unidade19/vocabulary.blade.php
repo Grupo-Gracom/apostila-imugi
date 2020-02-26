@@ -15,16 +15,16 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit19/vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit19/vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>DOUBT</b></li>
-					<li><b>PRACTICE</b></li>
-					<li><b>NOTICE</b></li>
-					<li><b>BETWEEN</b></li>
-					<li><b>FIX</b></li>					
-					<li><b>MENTION</b></li>
-					<li><b>ON TOP OF</b></li>										
+					<li><p><b>DOUBT</b></p></li>
+					<li><p><b>PRACTICE</b></p></li>
+					<li><p><b>NOTICE</b></p></li>
+					<li><p><b>BETWEEN</b></p></li>
+					<li><p><b>FIX</b></p></li>
+					<li><p><b>MENTION</b></p></li>
+					<li><p><b>ON TOP OF</b></p></li>
 				</ul>
 			</div>
 		</div>

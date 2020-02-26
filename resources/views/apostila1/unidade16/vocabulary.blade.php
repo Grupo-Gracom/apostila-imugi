@@ -15,16 +15,16 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit16/vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit16/vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>DEAR </b></li>
-					<li><b>WOULD </b></li>
-					<li><b>EACH </b></li>
-					<li><b>ADVERTISE </b></li>
-					<li><b>IMPROVE </b></li>
-					<li><b>SHARE </b></li>
-					<li><b>POST</b></li>					
+					<li><p><b>DEAR </b></p></li>
+					<li><p><b>WOULD </b></p></li>
+					<li><p><b>EACH </b></p></li>
+					<li><p><b>ADVERTISE </b></p></li>
+					<li><p><b>IMPROVE </b></p></li>
+					<li><p><b>SHARE </b></p></li>
+					<li><p><b>POST</b></p></li>
 				</ul>
 			</div>
 		</div>

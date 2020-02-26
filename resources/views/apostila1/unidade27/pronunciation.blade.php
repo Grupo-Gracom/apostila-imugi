@@ -12,13 +12,13 @@
 			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade27" data-etapa="pronunciation">
 				<h3 class="barlow">UNIT 27 - PROFESSOR VICTOR</h3>
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
-				<span class="play-audio">( Aperte o play )</span>
+				<!-- <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio27/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
-				<div class="clear"></div>
+				<div class="clear"></div> -->
 				<p style="margin-top: 16px">
-					<strong class="upper">Falta texto!</strong>
+					<strong class="upper">Em breve!</strong>
 				</p>
                 <!-- <h5 class="barlow" style="margin-top: 16px">A. Observe That “Ed” Someti mes Sounds Like A “T”, “D”, Or Just “Ed”. It Depends On The Use Of Your Voice At The End Of The Verb.</h5>
 				<div class="metade">

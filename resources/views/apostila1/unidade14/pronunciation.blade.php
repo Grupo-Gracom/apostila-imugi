@@ -14,24 +14,19 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit14/Pronunciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit14/pronunciation/pronunciation.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A. Observe The Difference In Pronounciation Between The Letters “Oo” And “U”.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Observe the difference in pronounciation between the letters “Oo” and “U”.</h5>
 				<ul class="lista-inline">
-					<li><b>BOOT</b></li>
-					<li><b>MOOD</b></li>
-					<li><b>HOOT</b></li>
+					<li><p><b>BOOT</b></p></li>
+					<li><p><b>MOOD</b></p></li>
+					<li><p><b>HOOT</b></p></li>
+					<li><p><b>X</b></p></li>
+					<li><p><b>BUT</b></p></li>
+					<li><p><b>MUD</b></p></li>
+					<li><p><b>HUT</b></p></li>
 				</ul>
-				<ul class="lista-inline">
-					<li><b>X</b></li>
-				</ul>
-				<ul class="lista-inline">
-					<li><b>BUT</b></li>
-					<li><b>MUD</b></li>
-					<li><b>HUT</b></li>
-				</ul>
-				<div class="clear"></div>
 			</div>
 		</div>
     </main>

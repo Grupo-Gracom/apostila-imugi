@@ -16,18 +16,17 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit20/conversation/completo.ogg') }}" type="audio/ogg">
 				</audio>
-				<p style="margin-top: 16px"><b>Akira :</b> Hello everybody. We’re coming to an end in our lessons. Today, we have some time
-				to review the photoshop topics we talked about in our last classes. Please, ask me your questions.</p>
-				<p><b>Marciel :</b>   Professor, I study and review the lessons basically every day. But, I didn’t understand what shape tool can be used for, exactly. To be honest, I didn’t have enough time to
-				review that part.</p>
-				<p><b>Akira :</b>  No problem, Marciel. It’s quite simple actually. Let’s imagine a situation. You’re creating a website for your company. You’re going to need to develop the layout of the
-				webpage. Probably, the most important tool is the shape tool. </p>
-				<p><b>Akira :</b>    It’s used to create the header, menu bar, text boxes, etc. In addition to that, you can use layers to focus on editing one part at a time. Don’t forget to costumize the text
-				by using adobe kuler to use pre-defined colors to add to the background of the site, texts and more.</p>
-				<p><b>Marciel :</b>   Great, professor! Thank you very much.</p>
-				<p><b>Akira :</b>   My pleasure!</p>												
+				<div class="clear"></div>
+				<div class="espacamento">
+					<p><b>Akira :</b> Hello everybody. We’re coming to an end in our lessons. Today, we have some time to review the photoshop topics we talked about in our last classes. Please, ask me your questions.</p>
+					<p><b>Marciel :</b> Professor, I study and review the lessons basically every day. But, I didn’t understand what shape tool can be used for, exactly. To be honest, I didn’t have enough time to review that part.</p>
+					<p><b>Akira :</b> No problem, Marciel. It’s quite simple actually. Let’s imagine a situation. You’re creating a website for your company. You’re going to need to develop the layout of the webpage. Probably, the most important tool is the shape tool. </p>
+					<p><b>Akira :</b> It’s used to create the header, menu bar, text boxes, etc. In addition to that, you can use layers to focus on editing one part at a time. Don’t forget to costumize the text by using adobe kuler to use pre-defined colors to add to the background of the site, texts and more.</p>
+					<p><b>Marciel :</b> Great, professor! Thank you very much.</p>
+					<p><b>Akira :</b> My pleasure!</p>												
+				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit20/ilust_20.jpg') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit20/ilust_20.jpg') }}" alt="Akira and Maciel">
 				</figure>
 			</div>
 		</div>

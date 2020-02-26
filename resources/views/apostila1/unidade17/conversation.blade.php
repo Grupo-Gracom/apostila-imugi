@@ -16,17 +16,18 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit17/conversation/completo.ogg') }}" type="audio/ogg">
 				</audio>
-				<p style="margin-top: 16px"><b>Angelique :</b> Professor Akira, I told my youtube viewers last week that I would start the website soon. But, the problem is I am having some trouble organizing the layout of the page.</p>
-				<p><b>Akira :</b>  I see. What is the problem you’re having, exactly?</p>
-				<p><b>Angelique :</b> Well, first, the editing is consuming a lot of my time because, to me, it looks very disorganized. Second, I try to position everything in the same level, but they’re never precicely in the 
-				right place.</p>
-				<p><b>Akira :</b>  I think I understand the problem. There are two tools I think can help you. The first tool is called layers. We use layers to separate every item on the page. This permits you to focus on editing 
-				each part at a time.</p>
-				<p><b>Akira :</b>  The name of the second tool is guides. Guides are lines that you can use to organize level of the items on the page. This way, everything can be perfectly aligned.</p>
-				<p><b>Akira :</b>  Try these two tools and see if they help.</p>
-				<p><b>Angelique :</b>  Great! Thank you so much professor! You were a great help!</p>				
+				<div class="clear"></div>
+				<div class="espacamento">
+					<p><b>Angelique :</b> Professor Akira, I told my youtube viewers last week that I would start the website soon. But, the problem is I am having some trouble organizing the layout of the page.</p>
+					<p><b>Akira :</b>  I see. What is the problem you’re having, exactly?</p>
+					<p><b>Angelique :</b> Well, first, the editing is consuming a lot of my time because, to me, it looks very disorganized. Second, I try to position everything in the same level, but they’re never precicely in the right place.</p>
+					<p><b>Akira :</b>  I think I understand the problem. There are two tools I think can help you. The first tool is called layers. We use layers to separate every item on the page. This permits you to focus on editing each part at a time.</p>
+					<p><b>Akira :</b>  The name of the second tool is guides. Guides are lines that you can use to organize level of the items on the page. This way, everything can be perfectly aligned.</p>
+					<p><b>Akira :</b>  Try these two tools and see if they help.</p>
+					<p><b>Angelique :</b>  Great! Thank you so much professor! You were a great help!</p>				
+				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit17/ilust_17.jpg') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit17/ilust_17.jpg') }}" alt="Akira and Angelique">
 				</figure>
 			</div>
 		</div>

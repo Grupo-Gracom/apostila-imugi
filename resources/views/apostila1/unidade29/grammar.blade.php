@@ -14,69 +14,65 @@
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit29/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit29/grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                    <p><b>Possessive Adjectives X Possessive Pronouns</b></p>
-                    <ul>
-                        <li><p>Possessive Adjectives: Used Before Nouns.</p></li>
-                        <li><p>Possessive Pronoun: Used To Express Possession While Substituting The Noun/ Or At The End Of Sentences To Give Enphasis To The Possession.</p></li>
-                    </ul>
-                    <div class="umterco" >
-                        <p><b>POSSESSIVE ADJECTIVES</b></p>
-                        <div class="metade esquerda">
-                            <ul>
-                                <p>I</p>
-                                <p>YOU</p>
-                                <p>WE</p>
-                                <p>THEY</p>
-                                <p>HE</p>
-                                <p>SHE</p>
-                                <p>IT</p>
-                            </ul>
-                        </div>
-                        <div class="metade direita">
-                            <ul>
-                                <p>MY</p>
-                                <p>YOUR</p>
-                                <p>OUR</p>
-                                <p>THEIR</p>
-                                <p>HIS</p>
-                                <p>HER</p>
-                                <p>ITS</p>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="umterco">
-                    <p><b>POSSESSIVE PRONOUNS</b></p>
-                        <div class="metade direita">
-                            <ul>
-                                <p>MINE</p>
-                                <p>YOURS</p>
-                                <p>OURS</p>
-                                <p>THEIRS</p>
-                                <p>HIS</p>
-                                <p>HERS</p>
-                                <p>X</p>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="espacamento">
+                    <h5 class="barlow">Possessive Adjectives X Possessive Pronouns</h5>
+                    <p>Possessive Adjectives: Used Before Nouns.</p>
+                    <p>Possessive Pronoun: Used To Express Possession While Substituting The Noun/ Or At The End Of Sentences To Give Enphasis To The Possession.</p>
                 </div>
-                <div class="clear"></div>
-                
-                <h5 class="barlow" style="margin-top: 16px">A - Complete The Sentences Using Possessive Adjectives Or Possessive Pronouns.</h5>
+                <table class="metade center-align">
+                    <tr>
+                        <td colspan="2"><h5 class="barlow">Possessive adjectives</h5></td>
+                        <td><h5 class="barlow">Possessive pronouns</h5></td>
+                    </tr>
+                    <tr>
+                        <td><p>I</p></td>
+                        <td><p>MY</p></td>
+                        <td><p>MINE</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>YOU</p></td>
+                        <td><p>YOUR</p></td>
+                        <td><p>YOURS</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>WE</p></td>
+                        <td><p>OUR</p></td>
+                        <td><p>OURS</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>THEY</p></td>
+                        <td><p>THEIR</p></td>
+                        <td><p>THEIRS</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>HE</p></td>
+                        <td><p>HIS</p></td>
+                        <td><p>HIS</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>SHE</p></td>
+                        <td><p>HER</p></td>
+                        <td><p>HERS</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>IT</p></td>
+                        <td><p>ITS</p></td>
+                        <td><p>X</p></td>
+                    </tr>
+                </table>
+                <h5 class="barlow" style="margin-top: 16px">A - Complete the sentences using possessive adjectives or possessive pronouns.</h5>
 				<form id="unidade29grammar73" method="post">
-                    <p>1. These Are Not <input type="text" name="grammar73-1" required/>  (My/Mine) Books, <input type="text" name="grammar73-2" required/> (My/Mine) Are Over There.</p>
-                            <p>2. That Pen Is <input type="text" name="grammar73-3" required/> (My/Mine).</p>
-                            <p>3. Is This Car <input type="text" name="grammar73-4" required/>  (Your/Yours)?</p>
-                            <p>4. Where Are <input type="text" name="grammar73-5" required/> (My/Mine) Car Keys?</p>
-                            <p>5. Are They <input type="text" name="grammar73-6" required/> (Her/Hers) Friends?</p>
-                            <p>6. This Money Isn’t <input type="text" name="grammar73-7" required/> (My/Mine), It’s <input type="text" name="grammar73-8" required/> (Their/Theirs).</p>
-                            <p>7. She Needs <input type="text" name="grammar73-9" required/> (Your/Yours) Help.</p>
-                            <p>8. That Is Not <input type="text" name="grammar73-10" required/> (Our/Ours) Because <input type="text" name="grammar73-11" required/>  (Our/Ours) Car Is In The Garage.</p>
-                    </p>
-                    
+                    <p>1. These Are Not <input type="text" name="grammar73-1" placeholder="Responda aqui" required/>  (My/Mine) Books, <input type="text" name="grammar73-2" placeholder="Responda aqui" required/> (My/Mine) Are Over There.</p>
+                    <p>2. That Pen Is <input type="text" name="grammar73-3" placeholder="Responda aqui" required/> (My/Mine).</p>
+                    <p>3. Is This Car <input type="text" name="grammar73-4" placeholder="Responda aqui" required/>  (Your/Yours)?</p>
+                    <p>4. Where Are <input type="text" name="grammar73-5" placeholder="Responda aqui" required/> (My/Mine) Car Keys?</p>
+                    <p>5. Are They <input type="text" name="grammar73-6" placeholder="Responda aqui" required/> (Her/Hers) Friends?</p>
+                    <p>6. This Money Isn’t <input type="text" name="grammar73-7" placeholder="Responda aqui" required/> (My/Mine), It’s <input type="text" name="grammar73-8" placeholder="Responda aqui" required/> (Their/Theirs).</p>
+                    <p>7. She Needs <input type="text" name="grammar73-9" placeholder="Responda aqui" required/> (Your/Yours) Help.</p>
+                    <p>8. That Is Not <input type="text" name="grammar73-10" placeholder="Responda aqui" required/> (Our/Ours) Because <input type="text" name="grammar73-11" placeholder="Responda aqui" required/>  (Our/Ours) Car Is In The Garage.</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

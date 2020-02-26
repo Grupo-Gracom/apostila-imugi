@@ -14,32 +14,27 @@
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit11/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit11/grammar/grammar.wav') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                <ul>
-                   <p><b>PRESENT CONTINUOUS</b></p>
-                   <p>STRUCTURE</p>
-                   <p><b>AFFIRMATIVE:</b> SUBJECT + TO BE + VERB + ING</p>
+                <div class="espacamento">
+                   <h5 class="barlow">Present continuos</h5>
+                   <p>Structure</p>
+                   <p><b>Affirmative:</b> SUBJECT + TO BE + VERB + ING</p>
                    <p>EXAMPLE: I AM WORKING</p>
-                   <p><b>INTERROGATIVE:</b> TO BE + SUBJECT + VERB + ING</p>
+                   <p><b>Interrogative:</b> TO BE + SUBJECT + VERB + ING</p>
                    <p>EXAMPLE: ARE YOU STUDYING?</p>
-                   <p><b>NEGATIVE:</b> SUBJECT + TO BE + NOT + VERB + ING</p>
+                   <p><b>Negative:</b> SUBJECT + TO BE + NOT + VERB + ING</p>
                    <p>EXAMPLE: SHE IS NOT GOING.</p>
-                </ul>
                 </div>
-                
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - USE THE VERBS IN PARENTHESIS IN THE PRESENT CONTINUOUS FORM TO COMPLETE THE SENTENCES.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Use the verbs in parenthesis in the present continuos form to complete the sentences.</h5>
 				<form id="unidade11grammar33" method="post">
-                        <p>1. ADAM <input type="text" name="grammar33-1" required/>  (develop) a birthday card for his friend. (affirmative)</p>
-                        <p>2. <input type="text" name="grammar33-2" required/> ADAM <input type="text" name="grammar33-3" required/> (create) a card for a friend? (interrogative)</p>
-                        <p>3. ADAM <input type="text" name="grammar33-4" required/>  (make) a birthday card for his friend. (negative)</p>
-                        <p>4. Bia <input type="text" name="grammar33-5" required/>  (teach) ADAM to use color tools. (affirmative)</p>
-                        <p>5. <input type="text" name="grammar33-6" required/> Bia <input type="text" name="grammar33-7" required/>  (help) ADAM with the birthday card? (interrogative)</p>
-                        <p>6. Bia <input type="text" name="grammar33-8" required/>   (talk) to ADAM about color tools. (negative)</p>
-                    
+                    <p>1 - ADAM <input type="text" name="grammar33-1" placeholder="Responda aqui" required/>  (develop) a birthday card for his friend. <b>(Affirmative)</b></p>
+                    <p>2 - <input type="text" name="grammar33-2" placeholder="Responda aqui" required/> ADAM <input type="text" name="grammar33-3" placeholder="Responda aqui" required/> (create) a card for a friend? <b>(Interrogative)</b></p>
+                    <p>3 - ADAM <input type="text" name="grammar33-4" placeholder="Responda aqui" required/>  (make) a birthday card for his friend. <b>(Negative)</b></p>
+                    <p>4 - Bia <input type="text" name="grammar33-5" placeholder="Responda aqui" required/>  (teach) ADAM to use color tools. <b>(Affirmative)</b></p>
+                    <p>5 - <input type="text" name="grammar33-6" placeholder="Responda aqui" required/> Bia <input type="text" name="grammar33-7" placeholder="Responda aqui" required/>  (help) ADAM with the birthday card? <b>(Interrogative)</b></p>
+                    <p>6 - Bia <input type="text" name="grammar33-8" placeholder="Responda aqui" required/>   (talk) to ADAM about color tools. <b>(Negative)</b></p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -47,7 +42,6 @@
                     <input type="hidden" name="atividade_id" value="33">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                </div>
 			</div>
 		</div>
     </main>

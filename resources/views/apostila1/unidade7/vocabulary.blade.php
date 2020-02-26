@@ -18,12 +18,12 @@
 					<source src="{{ asset('assets/audio/unit7/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>SAY</b></li>
-					<li><b>REMEMBER</b></li>
-					<li><b>ADJUSTMENT</b></li>
-					<li><b>UTILIZE</b></li>
-					<li><b>GIVE</b></li>
-					<li><b>EFFECT</b></li>					
+					<li><p><b>SAY</b></p></li>
+					<li><p><b>REMEMBER</b></p></li>
+					<li><p><b>ADJUSTMENT</b></p></li>
+					<li><p><b>UTILIZE</b></p></li>
+					<li><p><b>GIVE</b></p></li>
+					<li><p><b>EFFECT</b></p></li>
 				</ul>
 			</div>
 		</div>

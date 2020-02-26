@@ -17,47 +17,57 @@
 					<source src="{{ asset('assets/audio/unit7/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio> 
                 <div class="clear"></div>
-                <div class="metade esquerda tabelaVerde">                   
-                    <ul class="lista-vertical metade esquerda center-align">
-                        <li>I REMEMBER</li>
-                        <li>YOU ULTILIZE</li>
-                        <li>WE NEED</li>
-                        <li>THEY GIVE</li>
-                        <li>Do i remember?</li>
-                        <li>Do you ultilize?</li>
-                        <li>Do we need?</li>
-                        <li>Do they give?</li>
-                    </ul>
-                    <ul class="lista-vertical metade direita center-align">
-                        <li>HE REMEMBERS</li>
-                        <li>SHE UTILIZES</li>
-                        <li>IT NEED</li>
-                        <li>HE/SHE/IT GIVES</li>
-                        <li>Does he remember?</li>
-                        <li>Does she utilize?</li>
-                        <li>Does it need?</li>
-                    </ul>
-                    <div class="clear"></div>
-                </div> <br>               
-                <div class="clear"></div>
-				<h5 class="barlow">A - COMPLETE THE SENTENCES USING THE CORRECT VERB FORM.</h5>
+                <table class="metade center-align">
+                    <tr>
+                        <td><p>I remenber</p></td>
+                        <td><p>He remenbers</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>You utilize</p></td>
+                        <td><p>She utilizes</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>We need</p></td>
+                        <td><p>It need</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>They give</p></td>
+                        <td><p>He/She/It gives</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Do i remember ?</p></td>
+                        <td><p>Does he remember ?</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Do you ultilize ?</p></td>
+                        <td><p>Does she utilize ?</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Do we need ?</p></td>
+                        <td><p>Does it need ?</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Do they give ?</p></td>
+                    </tr>
+                </table>
+				<h5 class="barlow">A - Complete the sentences using the correct verb form.</h5>
 				<form id="unidade7grammar23" method="post">
-                    <p><b>1. </b>Carlos <input type="text" name="grammar23-1" required>  (use/uses) the Adjustment Panel for his pictures.</p>
-                    <p><b>2. </b>My friend and I <input type="text" name="grammar23-2" required>   (need/needs) it to edit our photos.</p>
-                    <p><b>3. </b>I <input type="text" name="grammar23-3" required>   (remember/remembers) the name of the tool.</p>
-                    <p><b>4. </b>The teacher <input type="text" name="grammar23-4" required>   (say/says) the Adjustment Panel is crucial for photographers.</p>
+                    <p><b>1 - </b>Carlos <input type="text" name="grammar23-1" placeholder="Responda aqui" required>  (use/uses) the Adjustment Panel for his pictures.</p>
+                    <p><b>2 - </b>My friend and I <input type="text" name="grammar23-2" placeholder="Responda aqui" required>   (need/needs) it to edit our photos.</p>
+                    <p><b>3 - </b>I <input type="text" name="grammar23-3" placeholder="Responda aqui" required>   (remember/remembers) the name of the tool.</p>
+                    <p><b>4 - </b>The teacher <input type="text" name="grammar23-4" placeholder="Responda aqui" required>   (say/says) the Adjustment Panel is crucial for photographers.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="7">
                     <input type="hidden" name="atividade_id" value="23">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow">B - CHOOSE THE CORRECT HELPING VERB FOR EACH SENTENCE.</h5>
+                <h5 class="barlow">B - Choose the correct helping verb for each sentence.</h5>
 				<form id="unidade7grammar24" method="post">
-                    <p><b>1. </b><input type="radio" name="grammar24-1" value="1" required><b>DO</b></input> <input type="radio" name="grammar24-1" value="2" required><b>Does</b></input>  Lee know how to use the Black & White effect?</p>
-                    <p><b>2. </b><input type="radio" name="grammar24-2" value="1" required><b>DO</b></input> <input type="radio" name="grammar24-2" value="2" required><b>Does</b></input>  you remember how to edit the contrast with the Adjustment Panel?</p>
-                    <p><b>3. </b><input type="radio" name="grammar24-3" value="1" required><b>DO</b></input> <input type="radio" name="grammar24-3" value="2" required><b>Does</b></input>  Beatriz remember the name of the panel?</p>
-                    <p><b>4. </b><input type="radio" name="grammar24-4" value="1" required><b>DO</b></input> <input type="radio" name="grammar24-4" value="2" required><b>Does</b></input>  Lee and Sophia use Photoshop?</p>
+                    <p><b>1 - </b><input type="radio" name="grammar24-1" value="1" required><b>DO</b></input> <input type="radio" name="grammar24-1" value="2" required><b>Does</b></input>  Lee know how to use the Black & White effect?</p>
+                    <p><b>2 - </b><input type="radio" name="grammar24-2" value="1" required><b>DO</b></input> <input type="radio" name="grammar24-2" value="2" required><b>Does</b></input>  you remember how to edit the contrast with the Adjustment Panel?</p>
+                    <p><b>3 - </b><input type="radio" name="grammar24-3" value="1" required><b>DO</b></input> <input type="radio" name="grammar24-3" value="2" required><b>Does</b></input>  Beatriz remember the name of the panel?</p>
+                    <p><b>4 - </b><input type="radio" name="grammar24-4" value="1" required><b>DO</b></input> <input type="radio" name="grammar24-4" value="2" required><b>Does</b></input>  Lee and Sophia use Photoshop?</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="7">

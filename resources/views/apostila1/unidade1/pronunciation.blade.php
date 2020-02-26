@@ -19,22 +19,22 @@
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Observe how the sound of the letters “PH” resembles an “F”. Practice by repeating the words below.</h5>
 				<ul class="lista-inline">
-                    <li><b class="upper">Photo</b></li>
-                    <li><b class="upper">Graph</b></li>
-                    <li><b class="upper">Phone</b></li>
-                    <li><b class="upper">Laugh</b></li>
-                    <li><b class="upper">Pharmacy</b></li>
-                    <li><b class="upper">Alphabet</b></li>
-                    <li><b class="upper">Pamphlet</b></li>
+                    <li><p><b class="upper">Photo</b></p></li>
+                    <li><p><b class="upper">Graph</b></p></li>
+                    <li><p><b class="upper">Phone</b></p></li>
+                    <li><p><b class="upper">Laugh</b></p></li>
+                    <li><p><b class="upper">Pharmacy</b></p></li>
+                    <li><p><b class="upper">Alphabet</b></p></li>
+                    <li><p><b class="upper">Pamphlet</b></p></li>
                 </ul>
                 <h5 class="barlow" style="margin-top: 16px">B - Listen to your teacher say the words bellow and repeat after him. Observe the pronunciation of the suffixtion.</h5>
                 <ul class="lista-inline">
-                    <li><b class="upper">Production</b></li>
-                    <li><b class="upper">Edition</b></li>
-                    <li><b class="upper">Solution</b></li>
-                    <li><b class="upper">Position</b></li>
-                    <li><b class="upper">Option</b></li>
-                    <li><b class="upper">Introduction</b></li>
+                    <li><p><b class="upper">Production</b></p></li>
+                    <li><p><b class="upper">Edition</b></p></li>
+                    <li><p><b class="upper">Solution</b></p></li>
+                    <li><p><b class="upper">Position</b></p></li>
+                    <li><p><b class="upper">Option</b></p></li>
+                    <li><p><b class="upper">Introduction</b></p></li>
                 </ul>
                 <h5 class="barlow" style="margin-top: 16px">C - Read the following sentence to practice pronunciation. Observe the underlined letters.</h5>
                 <div class="espacamento">

@@ -14,25 +14,23 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit12/Pronunciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit12/pronunciation/pronunciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A. Listen To Your Teacher And Repeat The Words. Notice The Difference In The Pronunciation Of Theunderlined Letters Between The Two Word Groups.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to your teacher and repeat the words. Notice the difference in the pronunciation of the underlined letters between the two word groups.</h5>
 					<ul class="lista-inline">
-						<li><b>THANKS</b></li>
-						<li><b>WITH</b></li>
-						<li><b>THINK</b></li>
+						<li><p><b>THANKS</b></p></li>
+						<li><p><b>WITH</b></p></li>
+						<li><p><b>THINK</b></p></li>
+						<li><p><b>X</b></p></li>
+						<li><p><b>THAT</b></p></li>
+						<li><p><b>THEY</b></p></li>
+						<li><p><b>THIS</b></p></li>
 					</ul>
-					<ul class="lista-inline">
-						<li><b>X</b></li>
-					</ul>
-					<ul class="lista-inline">
-						<li><b>THAT</b></li>
-						<li><b>THEY</b></li>
-						<li><b>THIS</b></li>
-					</ul>
-				<h5 class="barlow" style="margin-top: 16px">B. Read The Sentence To Practice Pronunciation</h5>
-				<p class="lower">“I think that they have this font with custom style.”</p>
+				<h5 class="barlow" style="margin-top: 16px">B - Read the sentence to practice pronunciation</h5>
+				<div class="espacamento">
+					<p>“I think that they have this font with custom style.”</p>
+				</div>
 			</div>
 		</div>
     </main>

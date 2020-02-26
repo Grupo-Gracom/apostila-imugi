@@ -16,43 +16,43 @@
                     <form id="unidade25understanding66" method="post">
                         <p>
                             1 - What Was Marcelo Doing?<br>
-                            <input type="text" name="understanding66-1" class="full left-align" required>
+                            <input type="text" name="understanding66-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 - Who Was He Doing A Drawing For?<br>
-                            <input type="text" name="understanding66-2" class="full left-align" required>
+                            <input type="text" name="understanding66-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 - What Is The Drawing Of?<br>
-                            <input type="text" name="understanding66-3" class="full left-align" required>
+                            <input type="text" name="understanding66-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - Where Was He Making The Drawing?<br>
-                            <input type="text" name="understanding66-4" class="full left-align" required>
+                            <input type="text" name="understanding66-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - What Did He Notice?<br>
-                            <input type="text" name="understanding66-5" class="full left-align" required>
+                            <input type="text" name="understanding66-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - What Is The Problem With His Drawing?<br>
-                            <input type="text" name="understanding66-6" class="full left-align" required>
+                            <input type="text" name="understanding66-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - What Was He Using To Make The Drawings?<br>
-                            <input type="text" name="understanding66-7" class="full left-align" required>
+                            <input type="text" name="understanding66-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - According To Sarah, What Does He Need?<br>
-                            <input type="text" name="understanding66-8" class="full left-align" required>
+                            <input type="text" name="understanding66-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>   
                         <p>
                             9 - What Tool Did Kylie Recommend To Marcelo?<br>
-                            <input type="text" name="understanding66-9" class="full left-align" required>
+                            <input type="text" name="understanding66-9" class="full left-align" placeholder="Responda aqui" required>
                         </p>   
                         <p>
                             10 - What Can You Use Pen Tool For?<br>
-                            <input type="text" name="understanding66-10" class="full left-align" required>
+                            <input type="text" name="understanding66-10" class="full left-align" placeholder="Responda aqui" required>
                         </p>                  
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
@@ -60,11 +60,6 @@
                         <input type="hidden" name="atividade_id" value="66">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
                 </div>
 			</div>
 		</div>
