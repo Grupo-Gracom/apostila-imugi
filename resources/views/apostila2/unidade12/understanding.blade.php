@@ -10,45 +10,36 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade12" data-etapa="understanding">
-				<h3 class="barlow">UNIT 11</h3>
+				<h3 class="barlow">UNIT 12</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>                
-                <form id="unidade11understanding152" method="post">
+                <form class="metade" id="unidade12understanding156" method="post">
                     <p>
-                        1 - What’s Gleen’s opinion about Mr. Smith presentation?<br>
-                        <input type="text" name="understanding152-1" class="full left-align" required>
+                        1 - What’s gonna happen 30 days from the date of the class?<br>                        
+                        <input type="text" name="understanding156-1" class="full left-align" required>
+                    </p>
+                    <p>                    
+                        2 - What does Gleen think it’s gonna happen in the event?<br>
+                        <input type="text" name="understanding156-2" class="full left-align" required>
                     </p>
                     <p>
-                        2 - What is Laura doing at the moment?<br>
-                        <input type="text" name="understanding152-2" class="full left-align" required>
+                        3 - Is Akira going to participate of the event? If so, for how many days?<br>
+                        <input type="text" name="understanding156-3" class="full left-align" required>
                     </p>
                     <p>
-                        3 - How many possible jobs Does Laura have?<br>
-                        <input type="text" name="understanding152-3" class="full left-align" required>
+                        4 - Who’s gonna be the special guest for this event?<br>
+                        <input type="text" name="understanding156-4" class="full left-align" required>
                     </p>
                     <p>
-                        4 - What are Akira’s plans?<br>
-                        <input type="text" name="understanding152-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - What is João’s personal opinion about Photoshop?<br>
-                        <input type="text" name="understanding152-5" class="full left-align" required>
+                        5 - Give us some information about the guest?<br>
+                        <input type="text" name="understanding156-5" class="full left-align" required>
                     </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="11">
-                    <input type="hidden" name="atividade_id" value="152">
+                    <input type="hidden" name="unidade_id" value="12">
+                    <input type="hidden" name="atividade_id" value="156">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
-
-			</div>
+            </div>
 		</div>
     </main>
     <script>
@@ -59,21 +50,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade11understanding152").submit(function(e){
+        $("#unidade12understanding156").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade11understanding152 input[type="text"]').each(function(index){
-                if(($('#unidade11understanding152 input[type="text"]').length - 1) == index){
+            $('#unidade12understanding156 input[type="text"]').each(function(index){
+                if(($('#unidade12understanding156 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade11understanding152 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade11understanding152'), respostas);
+            if($('#unidade12understanding156 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade12understanding156'), respostas);
             }else{
-                enviarAtividade($('#unidade11understanding152'), respostas);
+                enviarAtividade($('#unidade12understanding156'), respostas);
             }
         });
 
@@ -93,11 +84,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade11understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade11understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade12understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade12understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade11understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade11understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade12understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade12understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

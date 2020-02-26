@@ -9,26 +9,37 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade12" data-etapa="listening">
-				<h3 class="barlow">UNIT 12</h3>
-                <h5 class="barlow">5 - LISTENING</h5>
-                <span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
-                </audio>
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                
-                <form id="unidade12listening155" method="post">                    
-                    <p>I<input type="text" name="listening151-1" required>to<input type="text" name="listening151-2" required> to school <input type="text" name="listening151-3" required>. It takes more time because I have to</p>
-                    <p>go <input type="text" name="listening151-4" required> the hill before getting there. <input type="text" name="listening151-5" required>it is more fun. On my way, I listen to some</p>
-                    <p>podcasts<input type="text" name="listening151-6" required>and <input type="text" name="listening151-7" required>.</p>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade13" data-etapa="understanding">
+				<h3 class="barlow">UNIT 13</h3>
+				<h5 class="barlow">6 - UNDERSTANDING</h5>                
+                <form class="metade" id="unidade13understanding160" method="post">                    
+                    <p>
+                        1 - What Happened to Gleen?<br>                        
+                        <input type="text" name="understanding160-1" class="full left-align" required>
+                    </p>
+                    <p>                    
+                        2 - When is John starting the new magazine?<br>
+                        <input type="text" name="understanding160-2" class="full left-align" required>
+                    </p>
+                    <p>
+                        3 - Where is John travelling to?br>
+                        <input type="text" name="understanding160-3" class="full left-align" required>
+                    </p>
+                    <p>
+                        4 - Why is he travelling?<br>
+                        <input type="text" name="understanding160-4" class="full left-align" required>
+                    </p>
+                    <p>
+                        5 - How will Akira help John?<br>
+                        <input type="text" name="understanding160-5" class="full left-align" required>
+                    </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="12">
-                    <input type="hidden" name="atividade_id" value="155">
+                    <input type="hidden" name="unidade_id" value="13">
+                    <input type="hidden" name="atividade_id" value="160">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-			</div>
+            </div>
 		</div>
     </main>
     <script>
@@ -39,21 +50,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade12listening155").submit(function(e){
+        $("#unidade13understanding160").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade12listening155 input[type="text"]').each(function(index){
-                if(($('#unidade12listening155 input[type="text"]').length - 1) == index){
+            $('#unidade13understanding160 input[type="text"]').each(function(index){
+                if(($('#unidade13understanding160 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade12listening155 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade12listening155'), respostas);
+            if($('#unidade13understanding160 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade13understanding160'), respostas);
             }else{
-                enviarAtividade($('#unidade12listening155'), respostas);
+                enviarAtividade($('#unidade13understanding160'), respostas);
             }
         });
 
@@ -73,11 +84,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade12listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade12listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade13understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade13understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade12listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade12listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade13understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade13understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

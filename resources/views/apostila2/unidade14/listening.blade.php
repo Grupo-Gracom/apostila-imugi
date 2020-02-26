@@ -9,23 +9,28 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade12" data-etapa="listening">
-				<h3 class="barlow">UNIT 12</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade14" data-etapa="listening">
+				<h3 class="barlow">UNIT 14</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                
-                <form id="unidade12listening155" method="post">                    
-                    <p>I<input type="text" name="listening151-1" required>to<input type="text" name="listening151-2" required> to school <input type="text" name="listening151-3" required>. It takes more time because I have to</p>
-                    <p>go <input type="text" name="listening151-4" required> the hill before getting there. <input type="text" name="listening151-5" required>it is more fun. On my way, I listen to some</p>
-                    <p>podcasts<input type="text" name="listening151-6" required>and <input type="text" name="listening151-7" required>.</p>
+                <div class="clear"></div>                               
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the passage and answer the questions.</h5>                
+                <form class="metade" id="unidade14listening163" method="post">                   
+                    <p>
+                        1 - What’s Laura’s problem?<br>                        
+                        <input type="text" placeholder="responda aqui !" name="listening163-1" class="full left-align" required>
+                    </p>
+                    <p>                    
+                        2 - What was her friend’s conclusion?<br>
+                        <input type="text" placeholder="responda aqui !" name="listening163-2" class="full left-align" required>
+                    </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="12">
-                    <input type="hidden" name="atividade_id" value="155">
+                    <input type="hidden" name="unidade_id" value="14">
+                    <input type="hidden" name="atividade_id" value="163">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 			</div>
@@ -39,21 +44,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade12listening155").submit(function(e){
+        $("#unidade14listening163").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade12listening155 input[type="text"]').each(function(index){
-                if(($('#unidade12listening155 input[type="text"]').length - 1) == index){
+            $('#unidade14listening163 input[type="text"]').each(function(index){
+                if(($('#unidade14listening163 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade12listening155 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade12listening155'), respostas);
+            if($('#unidade14listening163 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade14listening163'), respostas);
             }else{
-                enviarAtividade($('#unidade12listening155'), respostas);
+                enviarAtividade($('#unidade14listening163'), respostas);
             }
         });
 
@@ -73,11 +78,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade12listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade12listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade14listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade14listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade12listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade12listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade14listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade14listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

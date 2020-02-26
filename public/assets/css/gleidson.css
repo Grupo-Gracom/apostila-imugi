@@ -91,6 +91,8 @@ main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242
 #unidade audio:hover{box-shadow: 0px 5px 8px rgba(0, 0, 0, .15);}
 #unidade form {padding-left: 16px;box-sizing: border-box;margin-bottom: 26px;}
 #unidade form input[type="text"]{width: 150px;background-color: white;outline: none;border: 0;border-bottom: 1px solid #333;text-align: center;font-size: 18px;font-family: Arial, Helvetica, sans-serif !important;color: #7dc242;}
+#unidade form p .inputMedio{width: 500px;}
+#unidade form p .inputpequeno{width: 250px;}
 #unidade form input[type="text"]:focus{border-bottom: 1px solid #7dc242;}
 #unidade form input[type="text"].full{width: 100%;}
 #unidade form textarea{border: 1px solid #777;border-radius: 10px;padding: 10px 16px;box-sizing: border-box;font-size: 18px;font-family: Arial, Helvetica, sans-serif !important;outline: 0;}
@@ -118,8 +120,10 @@ main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242
 .versus{text-align: center; margin: 50% ; background-color: #dddddd; }
 #unidade20understanding56 form {padding-right: 26px;}
 .bordaSilples{border: solid 2px black; position: 16px; width: 55%; padding: 5px;}
+.bordaVerde{border: solid 2px #7dc242; position: 16px; width: 55%; padding: 10px;}
 .marginCustomizada{margin-bottom: 3px;}
 .tabelaGramar11 {width: 60%;}
+
 /* #tabelaGramar12 {width: 80%;} */
 
 
