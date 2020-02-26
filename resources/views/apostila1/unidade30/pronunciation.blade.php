@@ -14,7 +14,7 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio30/Pronunciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit30/pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A. Observe the difference in pronunciation between the sounds of “M” and “N”. Touch your lips to pronounce “M”.</h5>

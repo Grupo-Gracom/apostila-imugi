@@ -14,7 +14,7 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit14/Pronunciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit14/pronunciation/pronunciation.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Observe the difference in pronounciation between the letters “Oo” and “U”.</h5>

@@ -12,11 +12,11 @@
 			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade14" data-etapa="conversation">
 				<h3 class="barlow">UNIT 14 - COLOR TOOLS & TYPOGRAPHY TOOLS REVIEW</h3>
 				<h5 class="barlow">2 - CONVERSATION</h5>
-				<span class="play-audio">( Aperte o play )</span>
+				<!-- <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit14/Conversation/completo.ogg') }}" type="audio/ogg">
 				</audio>
-				<div class="clear"></div>
+				<div class="clear"></div> -->
 				<div class="espacamento">
 					<p><b>Beatriz :</b> What’s up everyone! We studied a little about color tools and typography tools. Today, we are going to review some of the content we talked about.</p>
 					<p><b>Beatriz :</b> First, Do You Remember A Color Tool?</p>

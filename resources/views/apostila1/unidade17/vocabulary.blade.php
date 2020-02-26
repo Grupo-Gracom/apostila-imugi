@@ -15,7 +15,7 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit17/vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit17/vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
 					<li><p><b>TELL</b></p></li>

@@ -14,7 +14,7 @@
 				<h5 class="barlow">2 - CONVERSATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit11/Conversation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit11/conversation/conversation.wav') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
 				<div class="espacamento">

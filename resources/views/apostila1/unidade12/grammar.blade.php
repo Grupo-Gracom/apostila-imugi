@@ -14,7 +14,7 @@
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit12/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit12/grammar/grammar.wav') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <div class="espacamento">

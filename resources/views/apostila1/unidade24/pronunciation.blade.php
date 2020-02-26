@@ -14,7 +14,7 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit24/pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A - Notice how the verb to be is contracted in the pronounced form of the verb there to be.</h5>

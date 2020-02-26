@@ -12,11 +12,11 @@
 			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade14" data-etapa="grammar">
 				<h3 class="barlow">UNIT 14 - COLOR TOOLS & TYPOGRAPHY TOOLS REVIEW</h3>
 				<h5 class="barlow">3 - GRAMAR</h5>
-				<span class="play-audio">( Aperte o play )</span>
+				<!-- <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit14/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>
+                <div class="clear"></div> -->
                 <div class="espacamento">
                     <p>
                         Sometimes, To Avoid Repetition, We Use Cohesive Tools Like In The Examples Below. Complete The Exercise By Checking The Correct Answer That Best Represents The Underlined
