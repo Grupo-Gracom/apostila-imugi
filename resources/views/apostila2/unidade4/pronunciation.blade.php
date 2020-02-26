@@ -17,20 +17,18 @@
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p>There are 6 <b>STOP CONSIONANTS</b> in English: <b>P,T,K,B,D,G.</b></p>
+                <p><b>long a /eɪ/</b></p>
                 
                 <ul class="lista-inline">
-                    <li><p>PHOTO SHO<b><u>P</u></b></p></li>
-                    <li><p>NO<b><u>T</u></b></p></li>
-                    <li><p>SPEN<b><u>T</u></b></p></li>
-                    <li><p>WOR<b><u>K</u></b></p></li>
-                    <li><p>BO<b><u>B</u></b></p></li>
-                    <li><p>SECON<b><u>D</u></b></p></li>
-                    <li><p>AN<b><u>D</u></b></p></li>
-                    <li><p>BU<b><u>G</u></b></p></li>
+                    <li><p>GATE</p></li>
+                    <li><p>LATE</p></li>
+                    <li><p>FAIL</p></li>
+                    <li><p>PLACE</p></li>
+                    <li><p>WAIT</p></li>
+                    <li><p>GREAT</p></li>
                 </ul>
 
-                <p>I <b>spent</b> two hours to set up my photo <b>shop</b> in my computer. It’s the <b>second</b> time <b>Bob</b> installs it for me but it doesn’t <b>work</b>. I <b>think</b> it’s a <b>bug</b>.</p>
+                <P>J<b>a</b>ne’s f<b>a</b>ce looks gre<b>a</b>t while she w<b>a</b>its in the gre<b>a</b>t g<b>a</b>te</P>
 
 			</div>
 		</div>

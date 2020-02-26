@@ -18,18 +18,29 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Hello guys. How’s everything today? Well I want to start this class talking a little bit about the market and its challenges. Please, I need your help. Tell us about your job,
-								what you like about it and what your main challenge is.</p>
-				<p><b>Gleen:</b> You Laura; Do you want to start?</p>
-				<p><b>Laura:</b> Yes, that’s ok for me. Well, I’m a freelancer video maker. I produce videos for many different things. Marketing campaigns, Youtubers, sites, musicians and many other
-								things. I love what I do. Every day is a different day. I’m never bored. My challenge is to learn all the new tools to make my work better. But I like to study and take courses.
-								I always meet new friends in my courses around the World.</p>
-				<p><b>Gleen:</b> You John, tell us about yourself.</p>
-				<p><b>John:</b> I’m a graphic designer teacher. I work for a magazine. I like to use different softwares to produce nice photos for the magazine articles. One thing that is difficult for
-								me is to participate of the meetings with the editor. Many times he asks me to change details and this annoys me a little bit. But in the end the result is always very good.</p>
-				<p><b>Gleen:</b> And you Akira, it’s your turn now.</p>
-				<p><b>Akira:</b> Hi guys, I’m Akira and I work as a game developer. I don’t work by myself. I work with an incredible team of game developers. The best part is that we have a lot of fun and
-								we are very creative together. My biggest challenge is to finish my work on time. It’s very important because other people depend on my work to continue producing the game.</p>
+				<p><b>Gleen:</b> Hey you guys. How are things? What about the studies? Well, last class we talked
+								a bit about things you like and things that you consider difficult in your areas. Let’s talk
+								about new ways to learn and improve our knowledge ok. The first thing I recommend
+								is to review the topics of every class. It’s important to study and practice the tools you
+								learn. More than once. You learn much more when you see the same thing from
+								different perspectives. And you guys, where do you search for information? What
+								do you do to memorize all the things you learn?</p>
+				<p><b>Akira:</b> Can I start Gleen?</p>
+				<p><b>Gleen:</b> Of course, go ahead.</p>
+				<p><b>Akira:</b> I like to take courses related to my area. For me it’s the best way to learn things
+								about game development. I also like to participate of developers forums. We always
+								learn something new. We post our doubts and people from all over the world give us
+								suggestions on how to solve an specific problem.</p>
+				<p><b>Gleen:</b> And you Laura ?</p>
+				<p><b>Laura:</b> I also like the forums. I’m a member of 3 that are very good. Another thing that I
+								love is to participate of workshops of the softwares I like to use. Frequently, I go to many
+								events like Comic.com, Sana and usually the companies have stands there.</p>
+				<p><b>John:</b> My favorite way to study is to use tutorials. I think it’s very effective to learn how
+								to use one specific tool. For example , I visit Cienema 4D and Blender every day to learn
+								things that are difficult for me like navigation and orientation. In Ps I don’t use these
+								concepts so it’s difficult for me to understand them.</p>
+				<p><b>Glenn:</b> ok guys, that’s it for today.</p>
+
 				<figure>
 					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
 				</figure>
