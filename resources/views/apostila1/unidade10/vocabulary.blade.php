@@ -14,17 +14,17 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit10/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>TELL</b></li>
-					<li><b>LAST</b></li>
-					<li><b>DANCE</b></li>
-					<li><b>SING</b></li>
-					<li><b>FOOD</b></li>
-					<li><b>COOK</b></li>
-					<li><b>CLASS</b></li>
-					<li><b>GO</b></li>
+					<li><p><b>TELL</b></p></li>
+					<li><p><b>LAST</b></p></li>
+					<li><p><b>DANCE</b></p></li>
+					<li><p><b>SING</b></p></li>
+					<li><p><b>FOOD</b></p></li>
+					<li><p><b>COOK</b></p></li>
+					<li><p><b>CLASS</b></p></li>
+					<li><p><b>GO</b></p></li>
 				</ul>
 			</div>
 		</div>

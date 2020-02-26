@@ -18,20 +18,18 @@
                 </audio>
 				<div class="clear"></div>
 				
-                <h5 class="barlow" style="margin-top: 16px">A. Practice The Pronunciation Of The Letter D In The Beginning And Middle Of Words.</h5>
 				<div class="metade">
 					<ul class="lista-inline">
-						<li><b>long e</b></li>
-						<li>/i/</li>	
-						<li>Read</li>
-						<li>Meat</li>
-						<li>Seat</li>
-						<li>Seen</li>
-						<li>Feet</li>
-						<li>deep</li>
+						<li><b>short e /ɛ/</b></li>
+						<li>Let</li>	
+						<li>Get</li>
+						<li>End</li>
+						<li>Any</li>
+						<li>Fell</li>
+						<li>Bread</li>
 					</ul>
 					<ul class="lista-inline">
-						<ol>Pl<b>ea</b>se eat the m<b>ea</b>t and the ch<b>ee</b>se before you l<b>ea</b>ve.</ol>
+						<ol>L<b>e</b>t me get some br<b>e</b>ad in the <b>e</b>nd of the day.</ol>
 					</ul>
 				</div>
 				<div class="clear"></div>

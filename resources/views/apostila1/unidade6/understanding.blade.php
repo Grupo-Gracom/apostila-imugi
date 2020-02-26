@@ -17,35 +17,35 @@
                     <form id="unidade6understanding82" method="post">
                         <p>
                             1 - How many tools does Sophia have to teach the class?<br>
-                            <input type="text" name="understanding82-1" class="full left-align" required>
+                            <input type="text" name="understanding82-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 - What are the names of the two tools studied in this unit?<br>
-                            <input type="text" name="understanding82-2" class="full left-align" required>
+                            <input type="text" name="understanding82-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 - Which tool is used to touch up imperfections in a picture?<br>
-                            <input type="text" name="understanding82-3" class="full left-align" required>
+                            <input type="text" name="understanding82-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - Does Kate know what the Healing Brush is?<br>
-                            <input type="text" name="understanding82-4" class="full left-align" required>
+                            <input type="text" name="understanding82-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - What is the tool that removes the red from your eyes called?<br>
-                            <input type="text" name="understanding82-5" class="full left-align" required>
+                            <input type="text" name="understanding82-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - Who uses Healing Brush?<br>
-                            <input type="text" name="understanding82-6" class="full left-align" required>
+                            <input type="text" name="understanding82-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - Why is it obvious to Kate that Red Eye Correction removes the red from your eyes in pictures?<br>
-                            <input type="text" name="understanding82-7" class="full left-align" required>
+                            <input type="text" name="understanding82-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - Is Carlos sure about his answer?<br>
-                            <input type="text" name="understanding82-8" class="full left-align" required>
+                            <input type="text" name="understanding82-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">

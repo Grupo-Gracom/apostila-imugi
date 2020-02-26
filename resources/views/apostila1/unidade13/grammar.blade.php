@@ -14,98 +14,98 @@
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit13/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit13/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                   <p><b>SIMPLE PAST (REGULAR VERBS)</b></p>
-                   <p>THE SIMPLE PAST IS USED TO TALK ABOUT AN ISOLATED ACTION IN THE PAST.</p>
-                   <p>STRUCTURE</p>
-                   <p><b>(AFFIRMATIVE):</b>  SUBJECT + VERB – ED</p>
+                <div class="espacamento">
+                   <h5 class="barlow">Simple past (REGULAR VERBS)</h5>
+                   <p>The simple past is used to talk about an isolated action in the past.</p>
+                   <p>Structure</p>
+                   <p><b>Affirmative:</b>  SUBJECT + VERB – ED</p>
                    <p>EXAMPLE: I CREATED A CUSTOM FONT</p>
-                   <p><b>(INTERROGATIVE):</b> DID + SUBJECT + VERB</p>
+                   <p><b>Interrogative:</b> DID + SUBJECT + VERB</p>
                    <p>EXAMPLE: DID YOU CREATE A CUSTOM FONT?</p>
-                   <p><b>(NEGATIVE):</b>  SUBJECT + DID + NOT + VERB</p>
+                   <p><b>Negative:</b>  SUBJECT + DID + NOT + VERB</p>
                    <p>EXAMPLE: I DIDN’T CREATE A CUSTOM FONT.</p>
                 </div>
-                <h5 class="barlow" style="margin-top: 16px">A - Change The Sentences To The Other Two Forms Not Given.</h5>
-				<form id="unidade13grammar37" method="post">
-                    <p> 
-                        <p>1. <b>AFFIRMATIVE:</b></p>
-                        <p class="upper">She Worked Yesterday.</p>
-                        <div class="metade">
-                            <p>
-                                <b>INTERROGATIVE:</b>
-                                <input type="text" name="grammar37-1" class="left-align full" required/>
-                            </p>
-                            <p>
-                                <b>NEGATIVE:</b>
-                                <input type="text" name="grammar37-2" class="left-align full" required/>
-                            </p>
-                        </div>
+                <h5 class="barlow" style="margin-top: 16px">A - Change the sentences to the other two forms not given.</h5>
+                <form id="unidade13grammar37" method="post">
+                    <p>
+                        1 - <b>Affirmative:</b><br>
+                        She worked yesterday.
                     </p>
-                    <p style="margin-top: 36px"> 
-                        <div class="metade">
-                            <p>
-                                2. <b>AFFIRMATIVE:</b> 
-                                <input type="text" name="grammar37-3" class="left-align full"  required/>
-                            </p>
-                        </div>
-                        <p><b>INTERROGATIVE:</b></p>
-                        <p class="upper">Did You Call Me?</p>
-                        <div class="metade">
-                            <p>
-                                <b>NEGATIVE:</b> 
-                                <input type="text" name="grammar37-4" class="left-align full"  required/>
-                            </p>
-                        </div>
+                    <div class="metade">
+                        <p>
+                            <b>Interrogative:</b><br>
+                            <input type="text" name="grammar37-1" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                        <p>
+                            <b>Negative:</b><br>
+                            <input type="text" name="grammar37-2" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <div class="metade">
+                        <p>
+                            2 - <b>Affirmative:</b><br>
+                            <input type="text" name="grammar37-3" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <p>
+                        <b>Interrogative:</b><br>
+                        Did you call me?
                     </p>
-                    <p style="margin-top: 36px"> 
-                        <div class="metade">
-                            <p>
-                                3. <b>AFFIRMATIVE:</b> 
-                                <p><input type="text" name="grammar37-5" class="left-align full" required/></p>
-                            </p>
-                            <p>
-                                <b>INTERROGATIVE:</b> 
-                                <p><input type="text" name="grammar37-6" class="left-align full" required/></p>
-                            </p>
-                        </div>
-                        <p><b>NEGATIVE:</b></p>
-                        <p class="upper">We Didn’t Listen To The Teacher.</p>
+                    <div class="metade">
+                        <p>
+                            <b>Negative:</b><br> 
+                            <input type="text" name="grammar37-4" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <div class="metade">
+                        <p>
+                            3 - <b>Affirmative:</b><br>
+                            <input type="text" name="grammar37-5" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                        <p>
+                            <b>Interrogative:</b><br>
+                            <input type="text" name="grammar37-6" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <p>
+                        <b>Negative:</b><br>
+                        We didn’t listen to the teacher.
                     </p>
-                    <p style="margin-top: 36px"> 
-                            <p>
-                                4. <b>AFFIRMATIVE:</b> 
-                                <p class="upper">They Used Photoshop To Make The Banner.</p>
-                            </p>
-                        <div class="metade">
-                            <p>
-                                <b>INTERROGATIVE:</b> 
-                                <p><input type="text" name="grammar37-7" class="left-align full" required/></p>
-                            </p>
-                        </div>
-                        <div class="metade">
-                            <p><b>NEGATIVE:</b></p>
-                            <p><input type="text" name="grammar37-8" class="left-align full" required/></p>
-                        </div>
+                    <p>
+                        4 - <b>Affirmative:</b><br>
+                        They used photoshop to make the banner.
                     </p>
-                    <p style="margin-top: 36px"> 
-                        <div class="metade">
-                            <p>
-                                5. <b>AFFIRMATIVE:</b> 
-                                <p><input type="text" name="grammar37-9" class="left-align full" required/></p>
-                            </p>
-                        </div>
-                            <p>
-                                <b>INTERROGATIVE:</b> 
-                                <p class="upper">Did You Need Help With The Editing?</p>
-                            </p>
-                        <div class="metade">
-                            <p><b>NEGATIVE:</b></p>
-                            <p><input type="text" name="grammar37-10" class="left-align full" required/></p>
-                        </div>
+                    <div class="metade">
+                        <p>
+                            <b>Interrogative:</b><br>
+                            <input type="text" name="grammar37-7" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <div class="metade">
+                        <p>
+                            <b>Negative:</b><br>
+                            <input type="text" name="grammar37-8" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <div class="metade">
+                        <p>
+                            5 - <b>Affirmative:</b><br>
+                            <input type="text" name="grammar37-9" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <p>
+                        <b>Interrogative:</b><br>
+                        Did you need help with the editing?
                     </p>
+                    <div class="metade">
+                        <p>
+                            <b>Negative:</b><br>
+                            <input type="text" name="grammar37-10" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

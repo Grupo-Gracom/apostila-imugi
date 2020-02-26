@@ -14,37 +14,37 @@
 				<h5 class="barlow">3 - GRAMMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit20/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit20/grammar/completo.ogg') }}" type="audio/ogg">
                 </audio> 
-                <div class="clear"></div> <br>
-				<p>Simple Present Vs. Present Continuous</p>
-                <p>The Simple Present Is Used To Talk About Routi ne Actions, To Describe, Or To Express
-                Facts.<br> The Present Continuous Is Used When The Action Is Temporary Or Isolated. Look At
-                The Two Following Examples:</p>
-                <ul>
-					<li><b>I EXERCISE (EVERY DAY)</b></li>
-					<li><b>I’M EXERCISING (NOW/ THIS WEEK)</b></li>					                    										
-				</ul>
-				<h5 class="barlow">A - Complete The Exercise Using The Verbs In The Simple Present Or Present Continuous. </h5>
+                <div class="clear"></div>
+                <div class="espacamento">
+                    <h5 class="barlow">Simple Present Vs. Present Continuous</h5>
+                    <p>The Simple Present Is Used To Talk About Routi ne Actions, To Describe, Or To Express Facts.</p>
+                    <p>The Present Continuous Is Used When The Action Is Temporary Or Isolated. Look At The Two Following Examples:</p>
+                    <h5 class="barlow">Exemple:</h5>
+                    <p>I EXERCISE (EVERY DAY)</p>
+                    <p>I’M EXERCISING (NOW/ THIS WEEK)</p>
+                </div>
+				<h5 class="barlow">A - Complete the exercise using the verbs in the simple present or present continuous.</h5>
 				<form id="unidade20grammar54" method="post">
-                    <p><b>I</b> <input type="text" name="grammar54-1" required> (Work) Right Now.</p>
-                    <p><b>SHE</b> <input type="text" name="grammar54-2" required> The Sofa.</p>
-                    <p><input type="text" name="grammar54-3" required> They<input type="text" name="grammar54-4" required>(Talk) On The Phone Now?</p>
-                    <p><b>HE</b> <input type="text" name="grammar54-5" required>  (Study) At Night.</p>
-                    <p><b>I</b><input type="text" name="grammar54-6" required> (Not Watch) T.v. In The Morning. </p>
+                    <p>1 - I <input type="text" name="grammar54-1" placeholder="Responda aqui" required> (Work) Right Now.</p>
+                    <p>2 - She <input type="text" name="grammar54-2" placeholder="Responda aqui" required> The Sofa.</p>
+                    <p>3 - <input type="text" name="grammar54-3" placeholder="Responda aqui" required> They<input type="text" name="grammar54-4" placeholder="Responda aqui" required>(Talk) On The Phone Now?</p>
+                    <p>4 - He <input type="text" name="grammar54-5" placeholder="Responda aqui" required>  (Study) At Night.</p>
+                    <p>5 - I <input type="text" name="grammar54-6" placeholder="Responda aqui" required> (Not Watch) T.v. In The Morning. </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="20">
                     <input type="hidden" name="atividade_id" value="54">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow">B - Use The Verb To Be To Complete The Sentences. Abreviate Where Possible.</h5>
+                <h5 class="barlow">B - Use the verb to be to complete the sentences. Abreviate where possible.</h5>
 				<form id="unidade20grammar55" method="post">
-                    <p><b>I</b> <input type="text" name="grammar55-1" required> Working For An International Company.</p>
-                    <p><b>SHE</b> <input type="text" name="grammar55-2" required> Traveling For Christmas This Year.</p>
-                    <p><b>WE</b><input type="text" name="grammar55-3" required> Going To School.</p>
-                    <p><b>THEY</b> <input type="text" name="grammar55-4" required>  Not Studying For The Test.</p>
-                    <p><input type="text" name="grammar55-5" required>  He American?</p>
+                    <p>1 - I <input type="text" name="grammar55-1" placeholder="Responda aqui" required> Working For An International Company.</p>
+                    <p>2 - She <input type="text" name="grammar55-2" placeholder="Responda aqui" required> Traveling For Christmas This Year.</p>
+                    <p>3 - We <input type="text" name="grammar55-3" placeholder="Responda aqui" required> Going To School.</p>
+                    <p>4 - They <input type="text" name="grammar55-4" placeholder="Responda aqui" required>  Not Studying For The Test.</p>
+                    <p>5 - <input type="text" name="grammar55-5" placeholder="Responda aqui" required>  He American?</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="20">

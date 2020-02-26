@@ -14,30 +14,25 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit15/Pronunciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit15/pronunciation/pronunciation.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A. Notice How The Sound Of “U” And “W” Are Totally Different. Listen And Repeat.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Notice how the sound of “U” and “W” are totally different. Listen and repeat.</h5>
 				<ul class="lista-inline">
-					<li><b>WHAT</b></li>
-					<li><b>WET</b></li>
-					<li><b>WACK</b></li>
-					<li><b>WONDER</b></li>
+					<li><p><b>WHAT</b></p></li>
+					<li><p><b>WET</b></p></li>
+					<li><p><b>WACK</b></p></li>
+					<li><p><b>WONDER</b></p></li>
+					<li><p><b>X</b></p></li>
+					<li><p><b>UPSET</b></p></li>
+					<li><p><b>UPLOAD</b></p></li>
+					<li><p><b>UTTER</b></p></li>
+					<li><p><b>UPTIGHT</b></p></li>
 				</ul>
-				<ul class="lista-inline">
-					<li><b>X</b></li>
-				</ul>
-				<ul class="lista-inline">
-					<li><b>UPSET</b></li>
-					<li><b>UPLOAD</b></li>
-					<li><b>UTTER</b></li>
-					<li><b>UPTIGHT</b></li>
-				</ul>
-				<div class="clear"></div>
-				<div class="clear"></div>
-				<h5 class="barlow" style="margin-top: 16px">B. Read The Sentence And Practice Pronounciation.</h5>
-				<p>The Usher Was Waiting For The Wedding Guests To Arrive When An Upset Woman Started Crying.</p>
-				<div class="clear"></div>
+				<h5 class="barlow" style="margin-top: 16px">B - Read the sentence and practice pronounciation.</h5>
+				<div class="espacamento">
+					<p>The Usher Was Waiting For The Wedding Guests To Arrive When An Upset Woman Started Crying.</p>
+				</div>
 			</div>
 		</div>
     </main>

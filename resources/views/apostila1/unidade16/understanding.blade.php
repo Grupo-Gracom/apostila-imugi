@@ -15,51 +15,51 @@
                 <form id="unidade16understanding47" method="post" class="metade">
                     <p>
                         1 - Where Was Lara Born?<br>
-                        <input type="text" name="understanding47-1" class="full left-align" required>
+                        <input type="text" name="understanding47-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         2 - What Does Lara Like To Do?<br>
-                        <input type="text" name="understanding47-2" class="full left-align" required>
+                        <input type="text" name="understanding47-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        3 - How Oft en Does Lara Use Her Blog?<br>
-                        <input type="text" name="understanding47-3" class="full left-align" required>
+                        3 - How Often Does Lara Use Her Blog?<br>
+                        <input type="text" name="understanding47-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         4 - What Is Roberto’s Full Name?<br>
-                        <input type="text" name="understanding47-4" class="full left-align" required>
+                        <input type="text" name="understanding47-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         5 - What Is Roberto’s Nickname?<br>
-                        <input type="text" name="understanding47-5" class="full left-align" required>
+                        <input type="text" name="understanding47-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         6 - Where Is Roberto From?<br>
-                        <input type="text" name="understanding47-6" class="full left-align" required>
+                        <input type="text" name="understanding47-6" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         7 - What Does Beto Do For A Living?<br>
-                        <input type="text" name="understanding47-7" class="full left-align" required>
+                        <input type="text" name="understanding47-7" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        8 - What Is Angelique’s Nati onality?<br>
-                        <input type="text" name="understanding47-8" class="full left-align" required>
+                        8 - What Is Angelique’s Nationality?<br>
+                        <input type="text" name="understanding47-8" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         9 - What Is Angelique’s Hobby?<br>
-                        <input type="text" name="understanding47-9" class="full left-align" required>
+                        <input type="text" name="understanding47-9" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         10 - Why Is Angelique Studying Photoshop?<br>
-                        <input type="text" name="understanding47-10" class="full left-align" required>
+                        <input type="text" name="understanding47-10" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         11 - What Does Marciel Like To Do?<br>
-                        <input type="text" name="understanding47-11" class="full left-align" required>
+                        <input type="text" name="understanding47-11" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         12 - How Old Is Marciel?<br>
-                        <input type="text" name="understanding47-12" class="full left-align" required>
+                        <input type="text" name="understanding47-12" class="full left-align" placeholder="Responda aqui" required>
                     </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -69,7 +69,7 @@
                 </form>
                 <div class="metade esquerda">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit16/U16.jpg') }}" alt="">
+                        <img src="{{ asset('assets/img/playgo/unit16/U16.jpg') }}" alt="Dica">
                     </figure>
                 </div>
 			</div>

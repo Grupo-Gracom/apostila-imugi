@@ -14,13 +14,12 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit18/Listening/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit18/listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p style="margin-top:16px;">Shape Tool And Adobe Kuler Are Basic, Yet Extremely Important <b>Website</b> Development
-                Tools. <b>Shape</b> Tool Allows You To <b>Select</b> A Pre-Existing Shape, Or Even <b>Create</b> A New One.
-                These Shapes <b>Format</b> The General <b>Layout</b> Of The Page. Adobe <b>Kuler</b> Is A Color <b>Palet</b> App
-                Which Permits You To Select Pre-Defined <b>Colors</b> Without Having The Create Them.</p>
+                <div class="espacamento">
+                    <p>Shape Tool And Adobe Kuler Are Basic, Yet Extremely Important <b>Website</b> Development Tools. <b>Shape</b> Tool Allows You To <b>Select</b> A Pre-Existing Shape, Or Even <b>Create</b> A New One. These Shapes <b>Format</b> The General <b>Layout</b> Of The Page. Adobe <b>Kuler</b> Is A Color <b>Palet</b> App Which Permits You To Select Pre-Defined <b>Colors</b> Without Having The Create Them.</p>
+                </div>
 			</div>
 		</div>
     </main>

@@ -17,26 +17,24 @@
                     <form id="unidade32understanding80" method="post">
                         <p>
                             1 -  What Is The Professor’s Personal Opinion About His Students?<br>
-                            <input type="text" name="understanding80-1" class="full left-align" required>
+                            <input type="text" name="understanding80-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 -  What Does Victor Think The Students Need To Achieve Success?<br>
-                            <input type="text" name="understanding80-2" class="full left-align" required>
+                            <input type="text" name="understanding80-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 -  What Tool Do You Use To Add Anitamted Effects To The Video?<br>
-                            <input type="text" name="understanding80-3" class="full left-align" required>
+                            <input type="text" name="understanding80-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - What Does The Key Frame Do?<br>
-                            <input type="text" name="understanding80-4" class="full left-align" required>
+                            <input type="text" name="understanding80-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - Is It Possible To Create Effects For Videos? How?<br>
-                            <input type="text" name="understanding80-5" class="full left-align" required>
+                            <input type="text" name="understanding80-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-                        
-                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="32">

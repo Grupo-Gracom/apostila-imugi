@@ -14,24 +14,24 @@
 				<h5 class="barlow">6 - UNDERSTANDING</h5>                
                 <form id="unidade18understanding51" method="post" class="metade">
                     <p>
-                        1 - What Was Angelique’s Questi on About Last Class?<br>
-                        <input type="text" name="understanding51-1" class="full left-align" required>
+                        1 - What Was Angelique’s Question About Last Class?<br>
+                        <input type="text" name="understanding51-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         2 - What Does The Word Kuler Sound Like?<br>
-                        <input type="text" name="understanding51-2" class="full left-align" required>
+                        <input type="text" name="understanding51-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         3 - Explain What Adobe Kuler Is.<br>
-                        <input type="text" name="understanding51-3" class="full left-align" required>
+                        <input type="text" name="understanding51-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         4 - How Did Angelique Use Shape Tool For Her Website?<br>
-                        <input type="text" name="understanding51-4" class="full left-align" required>
+                        <input type="text" name="understanding51-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         5 - What Is Shape Tool?<br>
-                        <input type="text" name="understanding51-5" class="full left-align" required>
+                        <input type="text" name="understanding51-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         6 - Which Is Not An Extension For Photoshop: Shape Tool Or Adobe Kuler?<br>
@@ -39,11 +39,11 @@
                     </p>
                     <p>
                         7 - What Shapes Can Shape Tool Create?<br>
-                        <input type="text" name="understanding51-7" class="full left-align" required>
+                        <input type="text" name="understanding51-7" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         8 - Can You Create Colors With Adobe Kuler?<br>
-                        <input type="text" name="understanding51-8" class="full left-align" required>
+                        <input type="text" name="understanding51-8" class="full left-align" placeholder="Responda aqui" required>
                     </p>                                        
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

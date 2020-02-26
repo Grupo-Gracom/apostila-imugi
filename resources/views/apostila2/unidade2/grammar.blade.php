@@ -33,97 +33,73 @@
                 <p><b>Who</b> is your favorite illustrator? / My favorite illustrator is<b> Paul.</b></p>
                 <p><b>Who</b>are you? / I am<b> Akira</b> The<b> new game Developer.</b></p>
 
-                <h5 class="barlow" style="margin-top: 16px">A - SUBJECT PRONOUNS X POSSESSIVE ADJECTIVE.</h5>
-
-
-                <div class="center-align metade">
-                    <table class="tabelaVerdeEscuro tabelagrammar">
-                        <tr>
-                            <th><b>Subject Pronoun</b></th>
-                        </tr>
-                        <tr>
-                            <td >I</td>
-                        </tr>
-                        <tr>
-                            <td>You</td>
-                        </tr>
-                        <tr>
-                            <td>He</td>
-                        </tr>
-                        <tr>
-                            <td>She</td>
-                        </tr>
-                        <tr>
-                            <td>It</td>
-                        </tr>
-                        <tr>
-                            <td>We</td>
-                        </tr>
-                        <tr>
-                            <td>You</td>
-                        </tr>
-                        <tr>
-                            <td>They</td>
-                        </tr>
-                    </table>
-                    
-                    <table class="tabelaVerdeEscuro tabelagrammar">
-                        <tr>
-                            <th><b>Possessive Adjective</b></th>
-                        </tr>
-                        <tr>
-                            <td>My</td>
-                        </tr>
-                        <tr>
-                            <td>Your</td>
-                        </tr>
-                        <tr>
-                            <td>His</td>
-                        </tr>
-                        <tr>
-                            <td>Her</td>
-                        </tr>
-                        <tr>
-                            <td>Its</td>
-                        </tr>
-                        <tr>
-                            <td>Our</td>
-                        </tr>
-                        <tr>
-                            <td>Your</td>
-                        </tr>
-                        <tr>
-                            <td>Their</td>
-                        </tr>
-                    </table>
-                </div>
+                <h5 class="barlow" style="margin-top: 16px">B - SUBJECT PRONOUNS X POSSESSIVE ADJECTIVE.</h5>
+                
+                <table class="center-align metade">
+                    <tr>
+                        <td class="barlow upper"><p>Subject Pronoun</p></td>
+                        <td class="barlow upper"><p>Possessive Adjective</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>I</p></td>
+                        <td><p>My</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>You</p></td>
+                        <td><p>Your</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>He</p></td>
+                        <td><p>His</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>She</p></td>
+                        <td><p>His</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>It</p></td>
+                        <td><p>Its</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>We</p></td>
+                        <td><p>Our</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>You</p></td>
+                        <td><p>Your</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>They</p></td>
+                        <td><p>Their</p></td>
+                    </tr>
+                </table>              
                 
                 <div class="clear"></div>
                 <br>
                 <p><b>Examples:</b></p>
                 <p><b>Laura </b>works as a video Maker<b> Her </b>favorite software is Sony Vegas.</p>
                 <p><b>Akira and John </b>love super hero movies.<b> Their </b>favorite heroes are Batman and Super Man.</p>
-                <h5 class="barlow" style="margin-top: 16px">B - DEMONSTRATIVE PRONOUNS</h5>
+                <h5 class="barlow" style="margin-top: 16px">C - DEMONSTRATIVE PRONOUNS</h5>
 
-                <div class="center-align metade">
-                <table class="tabelaVerdeEscuro">
+                
+                <table class="center-align metade">
                     <tr>
-                        <th style="background-color:white"></th>
-                        <th><b>Near</b></th>
-                        <th><b>Far</b></th>
+                        <td></td>
+                        <td class="barlow upper"><p>Near</p></td>
+                        <td class="barlow upper"><p>Far</p></td>
                     </tr>
                     <tr>
-                        <th><b>Singular</b></th>
-                        <td>This</td>
-                        <td>That</td>
+                        <td class="barlow upper"><p>Singular</p></td>
+                        <td><p>This</p></td>
+                        <td><p>That</p></td>
                     </tr>
                     <tr>
-                        <th><b>Plural</b></th>
-                        <td>These</td>
-                        <td>Those</td>
+                        <td class="barlow upper"><p>Plural</p></td>
+                        <td><p>These</p></td>
+                        <td><p>Those</p></td>
                     </tr>
                 </table>
-                </div>
+                
                 <br>
                 <div class="clear"></div>
 
@@ -141,7 +117,7 @@
                 
                 <div class="clear"></div>
                 <p><b>EXERCISES:</b></p>
-                <h5 class="barlow">A - Build up questions for the answers.</h5>
+                <p class="barlow">1 - Build up questions for the answers.</p>
                 <form id="unidade2grammar106" method="post">
                     <p>E.g She’s Laura./ Who is she?</p>
                     <div class="umterco esquerda">
@@ -190,7 +166,7 @@
                 </form>
 
 
-                <h5 class="barlow">B - Rewrite these sentences using HE, SHE, IT, THEY, WE, HIS, HER, THEIR, OUR, ITS:</h5>
+                <p class="barlow">2 - Rewrite these sentences using HE, SHE, IT, THEY, WE, HIS, HER, THEIR, OUR, ITS:</p>
 				<form id="unidade2grammar107" method="post">
 
                 <div class="umterco esquerda">
@@ -238,7 +214,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <h5 class="barlow">C - Complete the passage. Use these words.</h5>
+                <p class="barlow">3 - Complete the passage. Use these words.</p>
 				<form id="unidade2grammar108" method="post">
 
                     <div class="center-align metade">

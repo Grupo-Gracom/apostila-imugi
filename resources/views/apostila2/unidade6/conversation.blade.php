@@ -25,7 +25,8 @@
 				<p><b>Laura :</b> Thank you Akira. You are very smart but no problem teacher, I’m ready.</p>
 				<p><b>Gleen :</b> Great Laura. Go ahead.</p>
 				<p>
-					<b>Laura :</b> Guys, the first thing I do is to decide with my client what type of video he needs. Second,I prepare a story board and discuss the details with the client. Then we list everything
+					<b>Laura :</b> Guys, the first thing I do is to decide with my client what type of video he needs. Second, 
+					I prepare a story board and discuss the details with the client. Then we list everything
 					we need. The takes, the scenarios, the people involved, material, scripts and etc. When
 					the material is ready, it’s time to plan how we are going to work on the video. I decide what
 					softwares and effects I want to use. Zooming, Fading, Rotating, special effects like shades,
@@ -47,7 +48,7 @@
 					current jobs. Things that you are producing, creating or developing ok. See you
 					tomorrow folks.
 				</p>
-				<div class="metade" style="margin-top: 36px">
+				<div style="margin-top: 36px">
 					<figure>
 						<img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="Toy Story">
 					</figure>

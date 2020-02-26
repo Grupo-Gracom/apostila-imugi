@@ -15,15 +15,15 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit32/Vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit32/vocabulary/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<ul class="lista-inline">
-					<li><b>WONDERFUL</b></li>
-					<li><b>FAR</b></li>
-					<li><b>WRAP UP</b></li>
-					<li><b>ADJUSTMENT</b></li>
-					<li><b>BRILLIANT</b></li>
-					<li><b>LITTLE</b></li>
+					<li><p><b>WONDERFUL</b></p></li>
+					<li><p><b>FAR</b></p></li>
+					<li><p><b>WRAP UP</b></p></li>
+					<li><p><b>ADJUSTMENT</b></p></li>
+					<li><p><b>BRILLIANT</b></p></li>
+					<li><p><b>LITTLE</b></p></li>
 				</ul>
 			</div>
 		</div>

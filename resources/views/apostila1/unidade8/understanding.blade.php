@@ -16,39 +16,37 @@
                 <div class="metade">
                     <form id="unidade8understanding28" method="post">
                         <p>
-                            1 -  Why is the class today special?<br>
-                            <input type="text" name="understanding28-1" class="full left-align" required>
+                            1 - Why is the class today special?<br>
+                            <input type="text" name="understanding28-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 -  What doesn’t Carlos understand?<br>
-                            <input type="text" name="understanding28-2" class="full left-align" required>
+                            2 - What doesn’t Carlos understand?<br>
+                            <input type="text" name="understanding28-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 -  In what practical situation can you use burn tool?<br>
-                            <input type="text" name="understanding28-3" class="full left-align" required>
+                            3 - In what practical situation can you use burn tool?<br>
+                            <input type="text" name="understanding28-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - What does Burn Tool balance?<br>
-                            <input type="text" name="understanding28-4" class="full left-align" required>
+                            <input type="text" name="understanding28-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - What two problems can Spot Healing Brush fix?<br>
-                            <input type="text" name="understanding28-5" class="full left-align" required>
+                            <input type="text" name="understanding28-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - What is the name of the tool that can remove imperfections from a photo?<br>
-                            <input type="text" name="understanding28-6" class="full left-align" required>
+                            <input type="text" name="understanding28-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - In case of red eyes in a photo, what can you use?<br>
-                            <input type="text" name="understanding28-7" class="full left-align" required>
+                            <input type="text" name="understanding28-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - What’s the difference between Dodge Tool and Burn Tool?<br>
-                            <input type="text" name="understanding28-8" class="full left-align" required>
+                            <input type="text" name="understanding28-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-                    
-                        
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="8">

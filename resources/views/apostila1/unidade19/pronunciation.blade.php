@@ -14,23 +14,21 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit19/Pronunciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit19/pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div> <br>                
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Notice How The Letters “Ch” Sometimes Has Two Different Pronounciations.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Notice how the letters “Ch” sometimes has two different pronounciations.</h5>
 				<ul class="lista-inline">
-					<li><b>CHAT </b></li>
-					<li><b>CHIP </b></li>
-					<li><b>RICH </b></li>
-					<li><b>BEACH </b></li>
-					<li><b>PITCH</b></li>		                    										
-				</ul>
-				<p><b class="versus">X</b></p>
-				<ul class="lista-inline">
-					<li><b>CHARACTER</b></li>
-					<li><b>MECHANIC</b></li>
-					<li><b>CHEMISTRY</b></li>	                    										
+					<li><p><b>CHAT</b></p></li>
+					<li><p><b>CHIP</b></p></li>
+					<li><p><b>RICH</b></p></li>
+					<li><p><b>BEACH</b></p></li>
+					<li><p><b>PITCH</b></p></li>
+					<li><h5 class="barlow">X</h5></li>
+					<li><p><b>CHARACTER</b></p></li>
+					<li><p><b>MECHANIC</b></p></li>
+					<li><p><b>CHEMISTRY</b></p></li>
 				</ul>												                
 			</div>
 		</div>

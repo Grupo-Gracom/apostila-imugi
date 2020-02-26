@@ -15,8 +15,8 @@
                 <table class="metade center-align">
                     <tr>
                         <td></td>
-                        <td class="upper"><p><b>Close</b></p></td>
-                        <td class="upper"><p><b>far</b></p></td>
+                        <td><h5 class="barlow">Close</h5></td>
+                        <td><h5 class="barlow">far</h5></td>
                         <td></td>
                     </tr>
                     <tr>
@@ -34,7 +34,7 @@
                 </table>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit4/Grammar/gramar.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit4/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Complete the exercise with the correct demonstrative pronouns in the questions and personal pronouns in the answers.</h5>

@@ -20,40 +20,40 @@
 				<h5 class="barlow" style="margin-top: 16px">A - NATIONALITIES</h5>
 
 				<ul class="lista-inline">
-					<li><b>Brazilian</b></li>
-					<li><b>American</b></li>
-					<li><b>Canadian</b></li>
-					<li><b>Chinese</b></li>
-					<li><b>Japanese</b></li>
-					<li><b>French</b></li>
-					<li><b>Spanish</b></li>
-					<li><b>Colombian</b></li>
+					<li ><b>BRASILIAN</b></li>
+					<li><b>AMERICAN</b></li>
+					<li><b>CANADIAN</b></li>
+					<li><b>CHINESE</b></li>
+					<li><b>JAPANESE</b></li>
+					<li><b>FRENCH</b></li>
+					<li><b>SPANISH</b></li>
+					<li><b>COLOMBIAN</b></li>
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">B - PROFESSIONS</h5>
 				
 				<ul class="lista-inline">
-					<li><b>Web designer</b></li>
-					<li><b>Youtuber</b></li>
-					<li><b>Teacher</b></li>
-					<li><b>Editor</b></li>
-					<li><b>Video Maker</b></li>
-					<li><b>Illustrator</b></li>
-					<li><b>programmer</b></li>
-					<li><b>drawer</b></li>
+					<li><b>WEB DESIGNER</b></li>
+					<li><b>YOUTUBER</b></li>
+					<li><b>TEACHER</b></li>
+					<li><b>EDITOR</b></li>
+					<li><b>VIDEO MAKER</b></li>
+					<li><b>ILLUSTRATOR</b></li>
+					<li><b>PROGRAMMER</b></li>
+					<li><b>DRAWER</b></li>
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT</h5>
 				
 				<ul class="lista-inline">
-					<li><b>Introduce</b></li>
-					<li><b>Interview</b></li>
-					<li><b>Full Name</b></li>
-					<li><b>Guys</b></li>
-					<li><b>Turn</b></li>
-					<li><b>Tell</b></li>
-					<li><b>Feel</b></li>
-					<li><b>know</b></li>
+					<li><b>INTRODUCE</b></li>
+					<li><b>INTERVIEW</b></li>
+					<li><b>FULL NAME</b></li>
+					<li><b>GUYS</b></li>
+					<li><b>TURN</b></li>
+					<li><b>TELL</b></li>
+					<li><b>FEEL</b></li>
+					<li><b>KNOW</b></li>
 				</ul>
 				
 			</div>

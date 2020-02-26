@@ -17,24 +17,24 @@
 					<source src="{{ asset('assets/audio/unit3/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to and repeat the pronunciation of the following words. Observe the pronunciation of the letter ‘L’.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to and repeat the pronunciation of the following words. Observe the pronunciation of the letter "L".</h5>
 				<ul class="lista-inline">
-                    <li><b class="upper">Wildlife</b></li>
-                    <li><b class="upper">Original</b></li>
-                    <li><b class="upper">Old</b></li>
-                    <li><b class="upper">Tool</b></li>
-                    <li><b class="upper">Call</b></li>
-                    <li><b class="upper">Professional</b></li>
-                    <li><b class="upper">All</b></li>
+                    <li><p><b class="upper">Wildlife</b></p></li>
+                    <li><p><b class="upper">Original</b></p></li>
+                    <li><p><b class="upper">Old</b></p></li>
+                    <li><p><b class="upper">Tool</b></p></li>
+                    <li><p><b class="upper">Call</b></p></li>
+                    <li><p><b class="upper">Professional</b></p></li>
+                    <li><p><b class="upper">All</b></p></li>
                 </ul>
                 <h5 class="barlow" style="margin-top: 16px">B - Listen to and repeat the pronunciation of the following words. Pay attention to the pronunciation of “CH”.</h5>
                 <ul class="lista-inline">
-                    <li><b class="upper">Choose</b></li>
-                    <li><b class="upper">Teach</b></li>
-                    <li><b class="upper">Check</b></li>
-                    <li><b class="upper">Touch</b></li>
-                    <li><b class="upper">Change</b></li>
-                    <li><b class="upper">Chat</b></li>
+                    <li><p><b class="upper">Choose</b></p></li>
+                    <li><p><b class="upper">Teach</b></p></li>
+                    <li><p><b class="upper">Check</b></p></li>
+                    <li><p><b class="upper">Touch</b></p></li>
+                    <li><p><b class="upper">Change</b></p></li>
+                    <li><p><b class="upper">Chat</b></p></li>
                 </ul>
                 <h5 class="barlow" style="margin-top: 16px">C - Listen to your teacher read the sentence, and then repeat it after him.</h5>
                 <div class="espacamento">

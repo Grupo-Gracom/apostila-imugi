@@ -17,29 +17,28 @@
                     <form id="unidade29understanding74" method="post">
                         <p>
                             1 -  Who was Leon practicing with?<br>
-                            <input type="text" name="understanding74-1" class="full left-align" required>
+                            <input type="text" name="understanding74-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 -  What was the problem with Leon’s video?<br>
-                            <input type="text" name="understanding74-2" class="full left-align" required>
+                            <input type="text" name="understanding74-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 -  What was the problem with Leon’s video?<br>
-                            <input type="text" name="understanding74-3" class="full left-align" required>
+                            <input type="text" name="understanding74-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - Which of the students knows what a key frame is?<br>
-                            <input type="text" name="understanding74-4" class="full left-align" required>
+                            <input type="text" name="understanding74-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - What can you use a key frame for?<br>
-                            <input type="text" name="understanding74-5" class="full left-align" required>
+                            <input type="text" name="understanding74-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 -What were Leon and his brother doing?<br>
-                            <input type="text" name="understanding74-6" class="full left-align" required>
+                            <input type="text" name="understanding74-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-                        
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="29">
@@ -49,7 +48,7 @@
                 </div>
                 <div class="metade" style="margin-top: 36px">
                         <figure>
-                            <img src="{{ asset('assets/img/playgo/unit5/pagina-1.png') }}" alt="Garotos festejando">
+                            <img src="{{ asset('assets/img/playgo/unit29/U29.jpg') }}" alt="Dica">
                         </figure>
 				</div>
 			</div>

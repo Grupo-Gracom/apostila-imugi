@@ -20,15 +20,15 @@
 				<h5 class="barlow" style="margin-top: 16px">A - ROUTINE VERBS</h5>
 
 				<ul class="lista-inline">
-					<li><b>Work</b></li>
-					<li><b>Go</b></li>
-					<li><b>Do</b></li>
-					<li><b>Wake up </b></li>
-					<li><b>Send</b></li>
-					<li><b>Answer</b></li>
-					<li><b>Ask</b></li>
-					<li><b>Use</b></li>
-					<li><b>Finish</b></li>
+					<li><b>WORK</b></li>
+					<li><b>GO</b></li>
+					<li><b>DO</b></li>
+					<li><b>WAKE UP</b></li>
+					<li><b>SEND</b></li>
+					<li><b>ANSWER</b></li>
+					<li><b>ASK</b></li>
+					<li><b>USE</b></li>
+					<li><b>FINISH</b></li>
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">B - LIKES AND DISLIKES</h5>
@@ -37,14 +37,15 @@
 				<p class="espacamentoWord"><b>THINGS > </b>games sports English Books Hip Hop Heroes Warriors</p>
 				
 				<div class="metade">
-					<form id="unidade2vocabulary112" method="post">
+					<form id="unidade3vocabulary112" method="post">
 						<p><input type="text" name="vocabulary112-1" class="full" required></p>
 						<p><input type="text" name="vocabulary112-2" class="full" required></p>
-						<input type="hidden" name="_token" value="{{csrf_token()}}">
-						<input type="hidden" name="resposta_id" value="0">
-						<input type="hidden" name="unidade_id" value="2">
-						<input type="hidden" name="atividade_id" value="112">
-						<button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                        
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="3">
+                        <input type="hidden" name="atividade_id" value="112">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
 					</form>
 				</div>
 				
@@ -52,14 +53,14 @@
 				<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT</h5>
 				
 				<ul class="lista-inline">
-					<li><b>Annoy</b></li>
-					<li><b>Challenge</b></li>
-					<li><b>Many</b></li>
-					<li><b>Every</b></li>
-					<li><b>Bored</b></li>
-					<li><b>Meet</b></li>
-					<li><b>Change</b></li>
-					<li><b>Always</b></li>
+					<li><b>ANNOY</b></li>
+					<li><b>CHALLENGE</b></li>
+					<li><b>MANY</b></li>
+					<li><b>EVERY</b></li>
+					<li><b>BORED</b></li>
+					<li><b>MEET</b></li>
+					<li><b>CHANGE</b></li>
+					<li><b>ALWAYS</b></li>
 				</ul>
 				
 			</div>
@@ -73,21 +74,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade2vocabulary112").submit(function(e){
+        $("#unidade3vocabulary112").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade2vocabulary112 input[type="text"]').each(function(index){
-                if(($('#unidade2vocabulary112 input[type="text"]').length - 1) == index){
+            $('#unidade3vocabulary112 input[type="text"]').each(function(index){
+                if(($('#unidade3vocabulary112 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade2vocabulary112 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade2vocabulary112'), respostas);
+            if($('#unidade3vocabulary112 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade3vocabulary112'), respostas);
             }else{
-                enviarAtividade($('#unidade2vocabulary112'), respostas);
+                enviarAtividade($('#unidade3vocabulary112'), respostas);
             }
         });
 
@@ -107,11 +108,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade2vocabulary'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade2vocabulary'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade3vocabulary'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade3vocabulary'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade2vocabulary'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade2vocabulary'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade3vocabulary'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade3vocabulary'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

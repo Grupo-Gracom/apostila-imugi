@@ -11,46 +11,48 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila1" data-unidade="unidade20" data-etapa="understanding">
 				<h3 class="barlow">UNIT 20 - Akira’S REVIEW</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>                
-                <form id="unidade20understanding56" method="post">
-                    <p>
-                        1 - What Is The Subject Of Today’s Class?<br>
-                        <input type="text" name="understanding56-1" class="full left-align " required>
-                    </p>
-                    <p>
-                        2 - How Oft en Does Marciel Study?<br>
-                        <input type="text" name="understanding56-2" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 - What Didn’t Marciel Understand?<br>
-                        <input type="text" name="understanding56-3" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - Why Didn’t Marciel Study About Shape Tool?<br>
-                        <input type="text" name="understanding56-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - In Akira’s Opinion, What Is Probably The Most Important Tool In The Development Of The Layout Of A Website?<br>
-                        <input type="text" name="understanding56-5" class="full left-align" required>
-                    </p>
-                    <p>
-                        6 - What Is Shape Tool Used For?<br>
-                        <input type="text" name="understanding56-6" class="full left-align" required>
-                    </p>
-                    <p>
-                        7 - Why Does Akira Recommend Marciel To Use Layers? <br>
-                        <input type="text" name="understanding56-7" class="full left-align" required>
-                    </p>
-                    <p>
-                        8 - How Can You Costumize The Text On The Website? <br>
-                        <input type="text" name="understanding56-8" class="full left-align" required>
-                    </p>                                                          
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="20">
-                    <input type="hidden" name="atividade_id" value="56">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <div class="metade">
+                    <form id="unidade20understanding56" method="post">
+                        <p>
+                            1 - What Is The Subject Of Today’s Class?<br>
+                            <input type="text" name="understanding56-1" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            2 - How Often Does Marciel Study?<br>
+                            <input type="text" name="understanding56-2" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            3 - What Didn’t Marciel Understand?<br>
+                            <input type="text" name="understanding56-3" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            4 - Why Didn’t Marciel Study About Shape Tool?<br>
+                            <input type="text" name="understanding56-4" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            5 - In Akira’s Opinion, What Is Probably The Most Important Tool In The Development Of The Layout Of A Website?<br>
+                            <input type="text" name="understanding56-5" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            6 - What Is Shape Tool Used For?<br>
+                            <input type="text" name="understanding56-6" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            7 - Why Does Akira Recommend Marciel To Use Layers? <br>
+                            <input type="text" name="understanding56-7" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            8 - How Can You Costumize The Text On The Website? <br>
+                            <input type="text" name="understanding56-8" class="full left-align" placeholder="Responda aqui" required>
+                        </p>                                                          
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="20">
+                        <input type="hidden" name="atividade_id" value="56">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>
 			</div>
 		</div>
     </main>

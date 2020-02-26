@@ -15,35 +15,35 @@
                 <form id="unidade17understanding49" method="post" class="metade">
                     <p>
                         1 - What Did Angelique Tell Her Viewers?<br>
-                        <input type="text" name="understanding49-1" class="full left-align" required>
+                        <input type="text" name="understanding49-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         2 - What Is Angelique Having Difficulty With?<br>
-                        <input type="text" name="understanding49-2" class="full left-align" required>
+                        <input type="text" name="understanding49-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         3 - What Is Consuming Much Of Angelique’s Time?<br>
-                        <input type="text" name="understanding49-3" class="full left-align" required>
+                        <input type="text" name="understanding49-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         4 - How Many Tools Does Akira Recommend To Angelique?<br>
-                        <input type="text" name="understanding49-4" class="full left-align" required>
+                        <input type="text" name="understanding49-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         5 - What Is The First Tool Akira Talks About Called?<br>
-                        <input type="text" name="understanding49-5" class="full left-align" required>
+                        <input type="text" name="understanding49-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         6 - What Can Guides Be Used For?<br>
-                        <input type="text" name="understanding49-6" class="full left-align" required>
+                        <input type="text" name="understanding49-6" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         7 - What Allows You To Focus On Editing Each Item At A Time?<br>
-                        <input type="text" name="understanding49-7" class="full left-align" required>
+                        <input type="text" name="understanding49-7" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         8 - Did Angelique Already Try To Organize The Layout?<br>
-                        <input type="text" name="understanding49-8" class="full left-align" required>
+                        <input type="text" name="understanding49-8" class="full left-align" placeholder="Responda aqui" required>
                     </p>                                        
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -53,7 +53,7 @@
                 </form>
                 <div class="metade esquerda">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit17/U17.jpg') }}" alt="">
+                        <img src="{{ asset('assets/img/playgo/unit17/U17.jpg') }}" alt="Dica">
                     </figure>
                 </div>
 			</div>

@@ -14,106 +14,97 @@
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit12/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit12/grammar/grammar.wav') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                <ul>
-                   <p><b>FUTURE WITH “GOING TO”</b></p>
-                   <p>STRUCTURE</p>
-                   <p><b>AFFIRMATIVE:</b> SUBJECT + TO BE + GOING TO + VERB</p>
-                   <p>EXAMPLE:  I AM GOING TO HAVE A PARTY TOMORROW</p>
-                   <p><b>INTERROGATIVE:</b> TO BE + SUBJECT + GOING TO + VERB</p>
-                   <p>EXAMPLE: ARE YOU GOING TO GO TO CLASS NEXT WEEK?</p>
-                   <p><b>NEGATIVE:</b> SUBJECT + TO BE + NOT + GOING TO + VERB</p>
-                   <p>EXAMPLE: SHE IS NOT GOING TO CHOOSE THE FONT.</p>
-                </ul>
+                <div class="espacamento">
+                    <h5 class="barlow">Future with “GOING TO”</h5>
+                    <p>Structure</p>
+                    <p><b>Affirmative:</b> SUBJECT + TO BE + GOING TO + VERB</p>
+                    <p>EXAMPLE:  I AM GOING TO HAVE A PARTY TOMORROW</p>
+                    <p><b>Interrogative:</b> TO BE + SUBJECT + GOING TO + VERB</p>
+                    <p>EXAMPLE: ARE YOU GOING TO GO TO CLASS NEXT WEEK?</p>
+                    <p><b>Negative:</b> SUBJECT + TO BE + NOT + GOING TO + VERB</p>
+                    <p>EXAMPLE: SHE IS NOT GOING TO CHOOSE THE FONT.</p>
                 </div>
-                
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Change The Sentences To The Other Two Structures Not Given.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Change the sentences to the other two structures not given.</h5>
 				<form id="unidade12grammar35" method="post">
-                    <p> 
-                        <p>1. <b>AFFIRMATIVE:</b></p>
-                        <p class="upper">We Are Going To Travel Next Week.</p>
-                        <div class="metade">
-                            <p>
-                                <b>INTERROGATIVE:</b>
-                                <input type="text" name="grammar35-1" class="left-align full" required/>
-                            </p>
-                            <p>
-                                <b>NEGATIVE:</b>
-                                <input type="text" name="grammar35-2" class="left-align full" required/>
-                            </p>
-                        </div>
+                    <p>
+                        1 - <b>Affirmative:</b><br>
+                        We are going to travel next week.
                     </p>
-
-                    <p style="margin-top: 36px"> 
-                        <div class="metade">
-                            <p>
-                                2. <b>AFFIRMATIVE:</b> 
-                                <input type="text" name="grammar35-3" class="left-align full"  required/>
-                            </p>
-                        </div>
-                        <p><b>INTERROGATIVE:</b></p>
-                        <p class="upper">Are You Going To Study Tomorrow Night?</p>
-                        <div class="metade">
-                            <p>
-                                <b>NEGATIVE:</b> 
-                                <input type="text" name="grammar35-4" class="left-align full"  required/>
-                            </p>
-                        </div>
+                    <div class="metade">
+                        <p>
+                            <b>Interrogative:</b><br>
+                            <input type="text" name="grammar35-1" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                        <p>
+                            <b>Negative:</b><br>
+                            <input type="text" name="grammar35-2" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <div class="metade">
+                        <p>
+                            2 - <b>Affirmative:</b><br>
+                            <input type="text" name="grammar35-3" class="left-align full" placeholder="Responda aqui" required/>
+                        <p>
+                    </div>
+                    <p>
+                        <b>Interrogative:</b><br>
+                        Are you going to study tomorrow night?
                     </p>
-
-                    <p style="margin-top: 36px"> 
-                        <div class="metade">
-                            <p>
-                                3. <b>AFFIRMATIVE:</b> 
-                                <p><input type="text" name="grammar35-5" class="left-align full" required/></p>
-                            </p>
-                            <p>
-                                <b>INTERROGATIVE:</b> 
-                                <p><input type="text" name="grammar35-6" class="left-align full" required/></p>
-                            </p>
-                        </div>
-                        <p><b>NEGATIVE:</b></p>
-                        <p class="upper">She Is Not Going To Help You.</p>
+                    <div class="metade">
+                        <p>
+                            <b>Negative:</b><br>
+                            <input type="text" name="grammar35-4" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <div class="metade">
+                        <p>
+                            3 - <b>Affirmative:</b><br>
+                            <input type="text" name="grammar35-5" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                        <p>
+                            <b>Interrogative:</b><br>
+                            <input type="text" name="grammar35-6" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <p>
+                        <b>Negative:</b><br>
+                        She is not going to help you.
                     </p>
-
-                    <p style="margin-top: 36px"> 
-                            <p>
-                                4. <b>AFFIRMATIVE:</b> 
-                                <p class="upper">I Am Going To Work Tonight.</p>
-                            </p>
-                        <div class="metade">
-                            <p>
-                                <b>INTERROGATIVE:</b> 
-                                <p><input type="text" name="grammar35-7" class="left-align full" required/></p>
-                            </p>
-                        </div>
-                        <div class="metade">
-                            <p><b>NEGATIVE:</b></p>
-                            <p><input type="text" name="grammar35-8" class="left-align full" required/></p>
-                        </div>
+                    <p>
+                        4 - <b>Affirmative:</b><br>
+                        I am going to work tonight.
                     </p>
-
-                    <p style="margin-top: 36px"> 
-                        <div class="metade">
-                            <p>
-                                5. <b>AFFIRMATIVE:</b> 
-                                <p><input type="text" name="grammar35-9" class="left-align full" required/></p>
-                            </p>
-                        </div>
-                            <p>
-                                <b>INTERROGATIVE:</b> 
-                                <p class="upper">Are They Going To Use Custom Font?</p>
-                            </p>
-                        <div class="metade">
-                            <p><b>NEGATIVE:</b></p>
-                            <p><input type="text" name="grammar35-10" class="left-align full" required/></p>
-                        </div>
+                    <div class="metade">
+                        <p>
+                            <b>Interrogative:</b><br>
+                            <input type="text" name="grammar35-7" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <div class="metade">
+                        <p>
+                            <b>Negative:</b><br>
+                            <input type="text" name="grammar35-8" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <div class="metade">
+                        <p>
+                            5. <b>Affirmative:</b><br>
+                            <input type="text" name="grammar35-9" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
+                    <p>
+                        <b>Interrogative:</b> 
+                        <p>Are they going to use custom font?</p>
                     </p>
-                    
+                    <div class="metade">
+                        <p>
+                            <b>Negative:</b><br>
+                            <input type="text" name="grammar35-10" class="left-align full" placeholder="Responda aqui" required/>
+                        </p>
+                    </div>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -121,7 +112,6 @@
                     <input type="hidden" name="atividade_id" value="35">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                </div>
 			</div>
 		</div>
     </main>

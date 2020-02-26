@@ -16,35 +16,35 @@
                     <form id="unidade21understanding59" method="post">
                         <p>
                             1 - Where Was Sarah Originally Born?<br>
-                            <input type="text" name="understanding59-1" class="full left-align" required>
+                            <input type="text" name="understanding59-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 - What Does Sarah Do Nowadays?<br>
-                            <input type="text" name="understanding59-2" class="full left-align" required>
+                            <input type="text" name="understanding59-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 - What Kind Of Companies Does She Work For?<br>
-                            <input type="text" name="understanding59-3" class="full left-align" required>
+                            <input type="text" name="understanding59-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - What Will Sarah’s Classes Be About?<br>
-                            <input type="text" name="understanding59-4" class="full left-align" required>
+                            <input type="text" name="understanding59-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - When Did She Use To Draw?<br>
-                            <input type="text" name="understanding59-5" class="full left-align" required>
+                            <input type="text" name="understanding59-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - What Did She Use To Draw For? <br>
-                            <input type="text" name="understanding59-6" class="full left-align" required>
+                            <input type="text" name="understanding59-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - When Did She Move To The U.s. And Why?<br>
-                            <input type="text" name="understanding59-7" class="full left-align" required>
+                            <input type="text" name="understanding59-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - How Old Is Sarah?<br>
-                            <input type="text" name="understanding59-8" class="full left-align" required>
+                            <input type="text" name="understanding59-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
@@ -55,7 +55,7 @@
                 </div>
                 <div class="metade esquerda">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
+                        <img src="{{ asset('assets/img/playgo/unit21/U21.jpg') }}" alt="Dica">
                     </figure>
                 </div>
 			</div>

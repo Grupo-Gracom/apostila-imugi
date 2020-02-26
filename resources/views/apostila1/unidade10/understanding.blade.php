@@ -17,48 +17,42 @@
                     <form id="unidade10understanding32" method="post">
                         <p>
                             1 - Where is ADAM from?<br>
-                            <input type="text" name="understanding32-1" class="full left-align" required>
+                            <input type="text" name="understanding32-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 - How old is Dulce?<br>
-                            <input type="text" name="understanding32-2" class="full left-align" required>
+                            <input type="text" name="understanding32-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 - How does Dulce like to be called?<br>
-                            <input type="text" name="understanding32-3" class="full left-align" required>
+                            <input type="text" name="understanding32-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             4 - What does Lucy do for a hobby?<br>
-                            <input type="text" name="understanding32-4" class="full left-align" required>
+                            <input type="text" name="understanding32-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - What is Nicolas nickname?<br>
-                            <input type="text" name="understanding32-5" class="full left-align" required>
+                            <input type="text" name="understanding32-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             6 - Where was Nick born?<br>
-                            <input type="text" name="understanding32-6" class="full left-align" required>
+                            <input type="text" name="understanding32-6" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             7 - What is ADAM’s profession?<br>
-                            <input type="text" name="understanding32-7" class="full left-align" required>
+                            <input type="text" name="understanding32-7" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             8 - What does Lucy do for a living?<br>
-                            <input type="text" name="understanding32-8" class="full left-align" required>
+                            <input type="text" name="understanding32-8" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="10">
                         <input type="hidden" name="atividade_id" value="32">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
                 </div>
 			</div>
 		</div>

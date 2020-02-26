@@ -14,33 +14,31 @@
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit15/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit15/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <div class="espacamento">
-                    <h6><b>FUTURE WITH WILL vs. FUTURE WITH GOING TO</b></h6>
+                    <h5 class="barlow">Future with will vs. Future with going to</h5>
                     <p>
                         When you want to express a decision use will; use going to after the decision has been
                         made. When we want to talk about future facts or things we believe to be true about the
                         future, we use will.
                     </p>
-                
-                   <p>STRUCTURE</p>
-                   <p><b>(AFFIRMATIVE):</b>  SUBJECT + WILL + VERB</p>
+                   <p>Structure</p>
+                   <p><b>Affirmative:</b>  SUBJECT + WILL + VERB</p>
                    <p>EXAMPLE: I WILL BE HOME AT NIGHT</p>
-                   <p><b>(INTERROGATIVE):</b> WILL + SUBJECT + VERB</p>
+                   <p><b>Interrogative:</b> WILL + SUBJECT + VERB</p>
                    <p>EXAMPLE: WILL YOU BE HOME AT NIGHT?</p>
-                   <p><b>(NEGATIVE):</b>  SUBJECT + WILL + NOT + VERB</p>
+                   <p><b>Negative:</b>  SUBJECT + WILL + NOT + VERB</p>
                    <p>EXAMPLE:  I WILL NOT BE HOME AT NIGHT.</p>
                 </div>
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Complete The Sentences With The Verbs In Parenthesis Using Will.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Complete the sentences with the verbs in parenthesis using "will".</h5>
 				<form id="unidade15grammar42" method="post">
-                    <p>1. EVA <input type="text" name="grammar42-1" required/> ( NOT TRAVEL) TO JAPAN.</p>
-                    <p>2. <input type="text" name="grammar42-2" required/> ROBERTA <input type="text" name="grammar42-3" required/> (HELP) YOU WITH THE EXERCISE?</p>
-                    <p>3. JOHN <input type="text" name="grammar42-4" required/>  (BE) HERE IN 10 MINUTES.</p>
-                    <p>4. THEY <input type="text" name="grammar42-5" required/> (NOT GO) TO THE PARTY.</p>
-                    <p>5. <input type="text" name="grammar42-6" required/> HE <input type="text" name="grammar26-4" required/> (CALL) ME TOMORROW.</p>
+                    <p>1 - EVA <input type="text" name="grammar42-1" placeholder="Responda aqui" required/> ( NOT TRAVEL) TO JAPAN.</p>
+                    <p>2 - <input type="text" name="grammar42-2" placeholder="Responda aqui" required/> ROBERTA <input type="text" name="grammar42-3" placeholder="Responda aqui" required/> (HELP) YOU WITH THE EXERCISE?</p>
+                    <p>3 - JOHN <input type="text" name="grammar42-4" placeholder="Responda aqui" required/>  (BE) HERE IN 10 MINUTES.</p>
+                    <p>4 - THEY <input type="text" name="grammar42-5" placeholder="Responda aqui" required/> (NOT GO) TO THE PARTY.</p>
+                    <p>5 - <input type="text" name="grammar42-6" placeholder="Responda aqui" required/> HE <input type="text" name="grammar26-4" placeholder="Responda aqui" required/> (CALL) ME TOMORROW.</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -48,15 +46,13 @@
                     <input type="hidden" name="atividade_id" value="42">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
-                <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">B - Use Will Or Going To To Complete The Sentences.</h5>
+                <h5 class="barlow" style="margin-top: 16px">B - Use "will" or "going to" to complete the sentences.</h5>
 				<form id="unidade15grammar43" method="post">
-                    <p>1. THE GAME <input type="text" name="grammar43-1" required/> (BE) GREAT!</p>
-                    <p>2. I PLANNED A PARTY FOR MY BIRTHDAY. I <input type="text" name="grammar43-2" required/> (TRAVEL) TO VISIT MY OLD FRIENDS IN THE UNITED STATES.</p>
-                    <p>3. SHE <input type="text" name="grammar43-3" required/>  (MAKE) A GREAT WEB DESIGNER.</p>
-                    <p>4. WE <input type="text" name="grammar43-4" required/>  (BE) LATE. WE NEED TO GO NOW.</p>
-                    <p>5. YOU <input type="text" name="grammar43-5" required/> (NEED) TO STUDY A LOT TO PASS THE TEST.</p>
+                    <p>1 - THE GAME <input type="text" name="grammar43-1" placeholder="Responda aqui" required/> (BE) GREAT!</p>
+                    <p>2 - I PLANNED A PARTY FOR MY BIRTHDAY. I <input type="text" name="grammar43-2" placeholder="Responda aqui" required/> (TRAVEL) TO VISIT MY OLD FRIENDS IN THE UNITED STATES.</p>
+                    <p>3 - SHE <input type="text" name="grammar43-3" placeholder="Responda aqui" required/>  (MAKE) A GREAT WEB DESIGNER.</p>
+                    <p>4 - WE <input type="text" name="grammar43-4" placeholder="Responda aqui" required/>  (BE) LATE. WE NEED TO GO NOW.</p>
+                    <p>5 - YOU <input type="text" name="grammar43-5" placeholder="Responda aqui" required/> (NEED) TO STUDY A LOT TO PASS THE TEST.</p>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

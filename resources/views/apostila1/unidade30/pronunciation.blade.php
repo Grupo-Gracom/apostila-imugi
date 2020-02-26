@@ -14,22 +14,20 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio30/Pronunciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit30/pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
-				
-                <h5 class="barlow" style="margin-top: 16px">A. Observe The Difference In Pronunciation Between The Sounds Of “M” And “N”. Touch Your Lips To Pronounce “M”.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A. Observe the difference in pronunciation between the sounds of “M” and “N”. Touch your lips to pronounce “M”.</h5>
 				<ul class="lista-inline">
-					<li><b>MAN</b></li>
-					<li><b>GUN</b></li>
-					<li><b>SUN</b></li>
+					<li><p><b>MAN</b></p></li>
+					<li><p><b>GUN</b></p></li>
+					<li><p><b>SUN</b></p></li>
 				</ul>
 				<ul class="lista-inline">
-					<li><b>MA’AM</b></li>
-					<li><b>GUM</b></li>
-					<li><b>SUM</b></li>
+					<li><p><b>MA’AM</b></p></li>
+					<li><p><b>GUM</b></p></li>
+					<li><p><b>SUM</b></p></li>
 				</ul>
-				<div class="clear"></div>
 			</div>
 		</div>
     </main>

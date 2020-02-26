@@ -14,26 +14,25 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit16/Pronunciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit16/pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div> <br>                
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - OBSERVE THE DIFFERENCE IN THE PRONOUNCIATION OF LETTERS “P” AND “B”.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Observe the difference in the pronounciation of letters “P” and “B”.</h5>
 				<ul class="lista-inline">
-					<li><b>PUT</b></li>
-					<li><b>UP</b></li>
-					<li><b>PAIN</b></li>
-					<li><b>LAP</b></li>
-					<li><b>PEN</b></li>
-					<li><b>TAP</b></li>					
+					<li><p><b>PUT</b></p></li>
+					<li><p><b>UP</b></p></li>
+					<li><p><b>PAIN</b></p></li>
+					<li><p><b>LAP</b></p></li>
+					<li><p><b>PEN</b></p></li>
+					<li><p><b>TAP</b></p></li>
 				</ul>
 				<ul class="lista-inline">					
-					<li><b>BUT</b></li>
-					<li><b>JOB</b></li>
-					<li><b>BALL</b></li>
-					<li><b>RUB</b></li>
-					<li><b>BURN</b></li>
-					<li><b>CURB</b></li>
+					<li><p><b>BUT</b></p></li>
+					<li><p><b>JOB</b></p></li>
+					<li><p><b>BALL</b></p></li>
+					<li><p><b>RUB</b></p></li>
+					<li><p><b>BURN</b></p></li>
+					<li><p><b>CURB</b></p></li>
 				</ul>                
 			</div>
 		</div>
