@@ -17,18 +17,18 @@
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p><b>long a /eɪ/</b></p>
+                <p><b>short a /æ/</b></p>
                 
                 <ul class="lista-inline">
-                    <li><p>GATE</p></li>
-                    <li><p>LATE</p></li>
-                    <li><p>FAIL</p></li>
-                    <li><p>PLACE</p></li>
-                    <li><p>WAIT</p></li>
-                    <li><p>GREAT</p></li>
+                    <li><p>LAST</p></li>
+                    <li><p>APPLE</p></li>
+                    <li><p>ADD</p></li>
+                    <li><p>CAN</p></li>
+                    <li><p>ASWER</p></li>
+                    <li><p>CLASS</p></li>
                 </ul>
 
-                <P>J<b>a</b>ne’s f<b>a</b>ce looks gre<b>a</b>t while she w<b>a</b>its in the gre<b>a</b>t g<b>a</b>te</P>
+                <P>You c<b>a</b>n <b>a</b>dd a picture of an <b>a</b>pple in your l<b>a</b>st cl<b>a</b>ss.</P>
 
 			</div>
 		</div>
