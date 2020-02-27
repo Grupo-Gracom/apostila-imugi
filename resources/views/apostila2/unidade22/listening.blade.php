@@ -9,8 +9,8 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade21" data-etapa="listening">
-				<h3 class="barlow">UNIT 21</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade22" data-etapa="listening">
+				<h3 class="barlow">UNIT 22</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -19,21 +19,26 @@
                 <div class="clear"></div>
                 
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
-                <form id="unidade21listening195" method="post">
-                    <p>Hey Ricky. We<input type="text" name="listening195-1" placeholder="Responda aqui" required>about the
-                    <input type="text" name="listening195-2" placeholder="Responda aqui" required>good times. Tell us a bit about yours. Well guys, my childhood was very
-                    <input type="text" name="listening195-3" placeholder="Responda aqui" required>. When Iwas a kid I 
-                    <input type="text" name="listening195-4" placeholder="Responda aqui" required>to
-                    <input type="text" name="listening195-5" placeholder="Responda aqui" required>a lot of my time doing things I liked.
-                    I used to play PS with my brother and we had a nice time together. My family and I 
-                    <input type="text" name="listening195-6" placeholder="Responda aqui" required>to
-                    <input type="text" name="listening195-7" placeholder="Responda aqui" required>to
-                    <input type="text" name="listening195-8" placeholder="Responda aqui" required>on holidays. It was awesome.</p>
+                <form id="unidade22listening200" method="post">
+                    <p><input type="text" name="listening200-1" placeholder="Responda aqui" required>you
+                    <input type="text" name="listening200-2" placeholder="Responda aqui" required>any musical instrument? Yes, I
+                    <input type="text" name="listening200-3" placeholder="Responda aqui" required>play the clarinet. Yes, I can play.
+                    <input type="text" name="listening200-4" placeholder="Responda aqui" required>Can you play any musical instruments? I can play the
+                    <input type="text" name="listening200-5" placeholder="Responda aqui" required>and the piano. Can you play any musical instrument No, I
+                    <input type="text" name="listening200-6" placeholder="Responda aqui" required>. No I can’t, but my love can. The
+                    <input type="text" name="listening200-7" placeholder="Responda aqui" required>What Can
+                    <input type="text" name="listening200-8" placeholder="Responda aqui" required>play?
+                    <input type="text" name="listening200-9" placeholder="Responda aqui" required>play guitar. Can he play
+                    <input type="text" name="listening200-10" placeholder="Responda aqui" required>. Very well. Can you play any musical instrument? The
+                    <input type="text" name="listening200-11" placeholder="Responda aqui" required>can. Can you play a musical instrument? No, and I
+                    <input type="text" name="listening200-12" placeholder="Responda aqui" required>. I’m
+                    <input type="text" name="listening200-13" placeholder="Responda aqui" required>
+                    </p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="21">
-                    <input type="hidden" name="atividade_id" value="195">
+                    <input type="hidden" name="unidade_id" value="22">
+                    <input type="hidden" name="atividade_id" value="200">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
@@ -49,21 +54,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade21listening195").submit(function(e){
+        $("#unidade22listening200").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade21listening195 input[type="text"]').each(function(index){
-                if(($('#unidade21listening195 input[type="text"]').length - 1) == index){
+            $('#unidade22listening200 input[type="text"]').each(function(index){
+                if(($('#unidade22listening200 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade21listening195 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade21listening195'), respostas);
+            if($('#unidade22listening200 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade22listening200'), respostas);
             }else{
-                enviarAtividade($('#unidade21listening195'), respostas);
+                enviarAtividade($('#unidade22listening200'), respostas);
             }
         });
 
@@ -83,11 +88,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade21listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade21listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade22listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade22listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade21listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade21listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade22listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade22listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

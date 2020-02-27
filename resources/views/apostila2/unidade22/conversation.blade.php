@@ -10,25 +10,29 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade21" data-etapa="conversation">
-				<h3 class="barlow">UNIT 21</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade22" data-etapa="conversation">
+				<h3 class="barlow">UNIT 22</h3>
 				<h5 class="barlow">2 - CONVERSATION</h5>
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Hey you guys. What’s up? How was the weekend?</p>
-				<p><b>Students:</b> Great teacher. And yours?</p>
-				<p><b>Gleen:</b> It was great guys. My brother came to visit me and we had a nice time talking
-								about our childhood. We used to play a lot together. And you guys,
-								What did you use to do when you were younger.</p>
-				<p><b>John:</b> Teacher, I used to watch Dragon balls all day long. My mother was mad with me all he time.</p>
-				<p><b>Akira:</b> I got involved in the Games World because of Super Mario teacher. I used to play
-								every single day. Because of that I looked for courses on how to create games.</p>
-				<p><b>Laura:</b> Teacher, I was kind of nerd. I loved to study Physics and I used to watch The Big
-								Bang theory. It was my favorite sitcom.</p>
-				<p><b>Gleen:</b> Cool guys. Nice to now about your childhood.</p>
+				<p><b>Gleen:</b>  Guys, talking about the best time of our lives, our childhood, what else could you
+				guys do by then.</p>
+				<p><b>Students:</b> What do you wanna mean teacher?</p>
+				<p><b>Gleen:</b> Things that you had the ability to do. For example: I could draw super heroes
+					very well but I couldn’t use any software to digitize the drawings.</p>
+				<p><b>Laura:</b> Teacher, I feel in love with cameras when I was a teenager. That’s why a love
+					making videos today. I started as a photographer. I could add special effects to pictures.
+					I could not treat them in the beginning but I took some courses and I improved a lot. I
+					can do may things today because of this courses.</p>
+				<p><b>Akira:</b> Teacher, I was very clumsy. I couldn’t do anything well. So, most of the times I
+					stayed in my bedroom playing. There, I could play, read my comic books and nobody
+					bothered me.</p>
+				<p><b>Gleen:</b>  Great guys. Next class I have to change the organization of the class ok. I’ll need
+					some help.</p>
+					<p><b>Students:</b> ok teacher, you can count on us.</p>
 				<figure>
 					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
 				</figure>

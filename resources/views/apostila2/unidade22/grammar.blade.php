@@ -9,8 +9,8 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade21" data-etapa="grammar">
-				<h3 class="barlow">UNIT 21</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade22" data-etapa="grammar">
+				<h3 class="barlow">UNIT 22</h3>
 				<h5 class="barlow">3 – GRAMMAR</h5>
 
 				<span class="play-audio">( Aperte o play )</span>
@@ -19,103 +19,94 @@
                 </audio>
                 <div class="clear"></div>     
                 
-                <h5 class="barlow" style="margin-top: 16px">A - USED TO – PAST HABIT Used to is used to express a past habit.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - MODAL VERB CAN / COULD for ABILITY AND POSSIBILITY</h5>
 
                 <table class="metade left-align">
                     <tr>
-                        <td><p>Affirmative</p></td>
-                        <td><p>Negative</p></td>
-                        <td><p>Interrogative</p></td>
+                        <td><p>CAN</p></td>
+                        <td><p>Used to express the general idea of <b>possibility and present ability</b></p></td>
                     </tr>
                     <tr>
-                        <td><p><b>I used to play</b> super Mario</p></td>
-                        <td><p><b> I didn´t use to play</b> Super Mario</p></td>
-                        <td><p><b> Did you use</b> to play super Mario ?</p></td>
+                        <td><p>COULD</p></td>
+                        <td><p>Used to express the idea of <b>remote possibility and ability in the past.</b></b></p></td>
+                    </tr>
+                </table>
+
+                <table class="metade center-align">
+                    <tr>
+                        <td><p>CAN</p></td>
+                        <td><p>COULD</p></td>
                     </tr>
                     <tr>
-                        <td><p>She <b>used to spend</b> hours reading</p></td>
-                        <td><p>She <b>used not to</b> spend hours reading</p></td>
-                        <td><p><b>Did she use </b>to spend hours reading ?</p></td>
-                    </tr>     
+                        <td><p>I<b> can draw</b> very well</p></td>
+                        <td><p>I<b> could sing</b> when I was younger.</p></td>
+                    </tr>
                     <tr>
-                        <td><p>They<b> used to visit</b> my friends</p></td>
-                        <td><p><b>They never used to visit</b> my friends</p></td>
-                        <td><p><b>Did they used </b>to visit their friends ?</p></td>
-                    </tr>            
+                        <td><p>In NY<b> you can go</b> to central park.</p></td>
+                        <td><p>You<b> could visit</b> many good friends.</p></td>
+                    </tr>       
                 </table>           
 
-                <p><b>EXERCISES</b></p>
-                <p class="barlow">1) Rewrite the sentences using USED TO:</p>
-                <form id="unidade21grammar191" action="post" class="metade">
-                    <p>1. When she was a child, she lived in a small village.
-                        <input type="text" name="grammar191-1" placeholder="Responda aqui" required>When she was a child, she used to live in a small village.
-                        <input type="text" name="grammar191-2" placeholder="Responda aqui" required></p>
-                    <p>2. When Gleen was a young man, he enjoyed playing packman.<input type="text" name="grammar191-3" placeholder="Responda aqui"  class="full left-align" required></p>
-                    <p>3. In the past, gamers programmed using C++.<input type="text" name="grammar191-4" placeholder="Responda aqui"  class="full left-align" required></p>
-                    <p>4. Before I learned to draw, I read a lot of comic books.<input type="text" name="grammar191-5" placeholder="Responda aqui"  class="full left-align" required></p>
-                    <p>5. Before she went to pixar, she was a freelancer for dreamworks.<input type="text" name="grammar191-6" placeholder="Responda aqui"  class="full left-align" required></p>
-                    <p>6. Akira spoke Japanese at school, but he has now forgotten.<input type="text" name="grammar191-7" placeholder="Responda aqui"  class="full left-align" required></p>
-                    <p>7. Laura was a photographer before she started making videos.<input type="text" name="grammar191-8" placeholder="Responda aqui"  class="full left-align" required></p>
-                    <p>8. John watched cartoons when he was younger, but he prefers animes now.<input type="text" name="grammar191-9" placeholder="Responda aqui"  class="full left-align" required></p>
-                    <p>9. Before he bought mac, he used windows.<input type="text" name="grammar191-10" placeholder="Responda aqui"  class="full left-align" required></p>
-                    <p>10. While he was going to university, he worked for a small fashion magazine<input type="text" name="grammar191-11" placeholder="Responda aqui" class="full left-align"  required></p>
-                        
+                 <p><b>EXERCISES</b></p>
+                <p class="barlow">1) Fill in the blanks with CAN or CAN’T:</p>
+                <form id="unidade22grammar197" action="post" class="metade">
+                    <p>1. Java is difficult for me. I<input type="text" name="grammar197-1" placeholder="Responda aqui" required>use it, but I
+                        <input type="text" name="grammar197-2" placeholder="Responda aqui" required>code with Python.</p>
+                    <p>2. We don’t have enough time for that. We<input type="text" name="grammar197-3" placeholder="Responda aqui" required>finish it.</p>
+                    <p>3. A IBM server<input type="text" name="grammar197-4" placeholder="Responda aqui" required>
+                        store a lot of files. A pen drive<input type="text" name="grammar197-5" placeholder="Responda aqui" required>.</p>
+                    <p>4. I’m very tired today. I<input type="text" name="grammar197-6" placeholder="Responda aqui" required>prepare the story board for tomorrow.</p>
+                    <p>5. John is very creative. He<input type="text" name="grammar197-7" placeholder="Responda aqui" required>treat the pictures for the magazine.</p>
+                    <p>6. We are behind schedulle, so we<input type="text" name="grammar197-8" placeholder="Responda aqui"  required>leave early today.</p>
+                    <p>7. Cinema 4D is very fast. It<input type="text" name="grammar197-9" placeholder="Responda aqui" required>render a file in half of the time.</p>
+                    <p>8. We<input type="text" name="grammar197-10" placeholder="Responda aqui" required>use this machine but we
+                        <input type="text" name="grammar197-11" placeholder="Responda aqui" required> use the other one</p>
+                                            
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="21">
-                    <input type="hidden" name="atividade_id" value="191">
+                    <input type="hidden" name="unidade_id" value="22">
+                    <input type="hidden" name="atividade_id" value="197">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">2) Complete the text about John when she was a child using USED TO / DIDN’T
-                                    USE TO and the verbs in brackets:</p>
-                <form id="unidade21grammar192" action="post" >
-                   
-                    <p>I <b>didn’t use to have</b> (not have) many friends when I was a child so I
-                    <input type="text" name="grammar192-1" placeholder="Responda aqui" required>(play) with my toys all day. I
-                    <input type="text" name="grammar192-2" placeholder="Responda aqui" required>(worry) about things a lot but I 
-                    <input type="text" name="grammar192-3" placeholder="Responda aqui" required>(not bite) my nails or suck my thumb. I remember that I 
-                    <input type="text" name="grammar192-4" placeholder="Responda aqui" required>(cry) a lot and I
-                    <input type="text" name="grammar192-5" placeholder="Responda aqui" required>(be) really afraid of the dark.</p>
-                
-                    <div class="clear"></div> 
+                <p class="barlow">2)  Fill in the blanks below to complete the sentences. Use Can, can’t, Could and Couldn’t.</p>
+                <form id="unidade22grammar198" action="post">
+                    <p>1. I<input type="text" name="grammar198-1" placeholder="Responda aqui" required> go to the party last night because I was sick                
+                    <p>2. A:<input type="text" name="grammar198-2" placeholder="Responda aqui" required>Noel cook Italian food?
+                        B: Yes, he<input type="text" name="grammar198-3" placeholder="Responda aqui" required>.</p>
+                    <p>3. My sister<input type="text" name="grammar198-4" placeholder="Responda aqui" required>
+                        swim last year, but now she<input type="text" name="grammar198-5" placeholder="Responda aqui" required>.</p>
+                    <p>4. They<input type="text" name="grammar198-6" placeholder="Responda aqui" required>go shopping yesterday because the store was closed.</p>
+                    <p>5. A:<input type="text" name="grammar198-7" placeholder="Responda aqui" required> you read when you were four years old?
+                        B: Yes, I<input type="text" name="grammar198-8" placeholder="Responda aqui" required>.</p>
+                    <p>6. Ellie<input type="text" name="grammar198-9" placeholder="Responda aqui"  required> ride a bicycle. She rides it to school every day</p>
+                    <p>7. I’m very tired, so I<input type="text" name="grammar198-10" placeholder="Responda aqui" required> go out to the park to play.</p>
+                    <p>8. A:<input type="text" name="grammar198-11" placeholder="Responda aqui" required>you see the moon last night?
+                        B: No, I <input type="text" name="grammar198-12" placeholder="Responda aqui" required>.</p>
+                    <p>9. When<input type="text" name="grammar198-13" placeholder="Responda aqui"  required> I talk to you about the company report?</p>
+                    <p>10. Most dinosaurs walked on land, but some<input type="text" name="grammar198-14" placeholder="Responda aqui"  required> fly or even swim.</p>
+                    <p>11. Excuse me, I<input type="text" name="grammar198-15" placeholder="Responda aqui"  required> hear you right now. The music is too loud.</p>
+                    <p>12. I<input type="text" name="grammar198-16" placeholder="Responda aqui"  required> drive a truck when I was only sixteen years old.</p>
+                    <p>13. Douglas hit the tree because he<input type="text" name="grammar198-17" placeholder="Responda aqui"  required> stop his car. </p>
+                    <p>14. How many hot dogs<input type="text" name="grammar198-18" placeholder="Responda aqui"  required> you eat at one time?</p>
+                    <p>15. I<input type="text" name="grammar198-19" placeholder="Responda aqui"  required> read without my reading glasses. Where are they?</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="21">
-                    <input type="hidden" name="atividade_id" value="192">
+                    <input type="hidden" name="unidade_id" value="22">
+                    <input type="hidden" name="atividade_id" value="198">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">3) Complete the text using USED TO and the verbs in the box:</p>
-                <form id="unidade21grammar193" action="post" >
-                   
-                    <p>School has changed since I was a student. We used to wear school uniform and I didn’t like that very much. We
-                    <input type="text" name="grammar193-1" placeholder="Responda aqui" required>a lot of lessons and most of them
-                    were difficult. We
-                    <input type="text" name="grammar193-2" placeholder="Responda aqui" required>homework every day. We
-                    <input type="text" name="grammar193-3" placeholder="Responda aqui" required>lots of books and we
-                    <input type="text" name="grammar193-4" placeholder="Responda aqui" required>everything by heart. And our teachers 
-                    <input type="text" name="grammar193-5" placeholder="Responda aqui" required>us a lot of tests and examinations. Some of them were
-                    impossible! I think school is easier now than it was 50 years ago.</p>
-                
-                    <div class="clear"></div> 
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="21">
-                    <input type="hidden" name="atividade_id" value="193">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-
-                <form id="unidade21grammar194"  action="post">                  
-                    <p class="barlow">4) Prepare a narration about your childhood. Be prepared to present to your classmates.</p>
+                <form id="unidade22grammar199"  action="post">                  
+                    <p class="barlow">3) In groups, compare teenage lives of today and of 20 years ago</p>
                     <p>
-                        <input type="text" name="grammar194-1" placeholder="Responda aqui" class="full left-align" required>
+                        <input type="text" name="grammar199-1" placeholder="Responda aqui" class="full left-align" required>
                     </p>                
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="21">
-                    <input type="hidden" name="atividade_id" value="194">
+                    <input type="hidden" name="unidade_id" value="22">
+                    <input type="hidden" name="atividade_id" value="199">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
@@ -130,78 +121,59 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade21grammar191").submit(function(e){
+        $("#unidade22grammar197").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade21grammar191 input[type="text"]').each(function(index){
-                if(($('#unidade21grammar191 input[type="text"]').length - 1) == index){
+            $('#unidade22grammar197 input[type="text"]').each(function(index){
+                if(($('#unidade22grammar197 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade21grammar191 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade21grammar191'), respostas);
+            if($('#unidade22grammar197 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade22grammar197'), respostas);
             }else{
-                enviarAtividade($('#unidade21grammar191'), respostas);
+                enviarAtividade($('#unidade22grammar197'), respostas);
             }
         });
 
-        $("#unidade21grammar192").submit(function(e){
+        $("#unidade22grammar198").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade21grammar192 input[type="text"]').each(function(index){
-                if(($('#unidade21grammar192 input[type="text"]').length - 1) == index){
+            $('#unidade22grammar198 input[type="text"]').each(function(index){
+                if(($('#unidade22grammar198 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade21grammar192 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade21grammar192'), respostas);
+            if($('#unidade22grammar198 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade22grammar198'), respostas);
             }else{
-                enviarAtividade($('#unidade21grammar192'), respostas);
+                enviarAtividade($('#unidade22grammar198'), respostas);
             }
         });
 
-        $("#unidade21grammar193").submit(function(e){
+        $("#unidade22grammar199").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade21grammar193 input[type="text"]').each(function(index){
-                if(($('#unidade21grammar193 input[type="text"]').length - 1) == index){
+            $('#unidade22grammar199 input[type="text"]').each(function(index){
+                if(($('#unidade22grammar199 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade21grammar193 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade21grammar193'), respostas);
+            if($('#unidade22grammar199 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade22grammar199'), respostas);
             }else{
-                enviarAtividade($('#unidade21grammar193'), respostas);
+                enviarAtividade($('#unidade22grammar199'), respostas);
             }
         });
-
-        $("#unidade21grammar194").submit(function(e){
-            e.preventDefault();
-            $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade21grammar194 input[type="text"]').each(function(index){
-                if(($('#unidade21grammar194 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
-            if($('#unidade21grammar194 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade21grammar194'), respostas);
-            }else{
-                enviarAtividade($('#unidade21grammar194'), respostas);
-            }
-        });
-
         
         function checkAtividade(atividade_id){
             request = $.ajax({
@@ -219,11 +191,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade21grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade21grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade22grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade22grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade21grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade21grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade22grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade22grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
