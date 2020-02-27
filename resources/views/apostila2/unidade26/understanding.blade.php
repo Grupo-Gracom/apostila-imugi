@@ -9,38 +9,37 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade9" data-etapa="understanding">
-				<h3 class="barlow">UNIT 9</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade26" data-etapa="understanding">
+				<h3 class="barlow">UNIT 26</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade9understanding142" method="post">
+                    <form id="unidade26understanding224" method="post">
                         <p>
-                            1 -  Does John have any favorite software?<br>
-                            <input type="text" name="understanding142-1" class="full left-align" placeholder="Responda aqui" required>
+                            1 -  Why was Glenn researching some cameras?<br>
+                            <input type="text" name="understanding224-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 -  Why does he know better these softwares?<br>
-                            <input type="text" name="understanding142-2" class="full left-align" placeholder="Responda aqui" required>
+                            2 -  Who wants to start a new youtube channel?<br>
+                            <input type="text" name="understanding224-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 -  What are the positive characteristics of his favorite softaware?<br>
-                            <input type="text" name="understanding142-3" class="full left-align" placeholder="Responda aqui" required>
+                            3 -  What is the youtube channel all about?<br>
+                            <input type="text" name="understanding224-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 - What are negative characteristics of it ?<br>
-                            <input type="text" name="understanding142-4" class="full left-align" placeholder="Responda aqui" required>
+                            4 - What does Laura suggest?<br>
+                            <input type="text" name="understanding224-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 - What’s your favorite image editing software, and why?<br>
-                            <input type="text" name="understanding142-5" class="full left-align" placeholder="Responda aqui" required>
+                            5 - What else must he have to improve the audio quality?<br>
+                            <input type="text" name="understanding224-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-                        
                     
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="9">
-                        <input type="hidden" name="atividade_id" value="142">
+                        <input type="hidden" name="unidade_id" value="26">
+                        <input type="hidden" name="atividade_id" value="224">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -55,21 +54,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade9understanding142").submit(function(e){
+        $("#unidade26understanding224").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade9understanding142 input[type="text"]').each(function(index){
-                if(($('#unidade9understanding142 input[type="text"]').length - 1) == index){
+            $('#unidade26understanding224 input[type="text"]').each(function(index){
+                if(($('#unidade26understanding224 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade9understanding142 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade9understanding142'), respostas);
+            if($('#unidade26understanding224 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade26understanding224'), respostas);
             }else{
-                enviarAtividade($('#unidade9understanding142'), respostas);
+                enviarAtividade($('#unidade26understanding224'), respostas);
             }
         });
 
@@ -89,11 +88,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade9understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade9understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade26understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade26understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade9understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade9understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade26understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade26understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

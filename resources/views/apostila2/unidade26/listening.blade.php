@@ -9,42 +9,43 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade9" data-etapa="understanding">
-				<h3 class="barlow">UNIT 9</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
-                <div class="metade">
-                    <form id="unidade9understanding142" method="post">
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade26" data-etapa="listening">
+				<h3 class="barlow">UNIT 26</h3>
+                <h5 class="barlow">5 - LISTENING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/Unit26/Listening/completo.ogg') }}" type="audio/ogg">
+                </audio>
+                <div class="clear"></div>
+                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <div class="metade" style="margin-top: 16px">
+                    <form id="unidade26listening223" method="post">
                         <p>
-                            1 -  Does John have any favorite software?<br>
-                            <input type="text" name="understanding142-1" class="full left-align" placeholder="Responda aqui" required>
+                            Well, if you <input type="text" name="listening223-1"  placeholder="Responda aqui" required> 
+                            to visit the USA the first thing you <input type="text" name="listening223-2"  placeholder="Responda aqui" required> do is to get your
+                            Visa. I recommend you to find <input type="text" name="listening223-3"  placeholder="Responda aqui" required> to fill out the forms in the immigration site.
+                            You must <input type="text" name="listening223-4"  placeholder="Responda aqui" required> attention to every single detail they 
+                            <input type="text" name="listening223-5"  placeholder="Responda aqui" required> you. Any mistake can
+                            cause <input type="text" name="listening223-6"  placeholder="Responda aqui" required> . Another important 
+                            <input type="text" name="listening223-7"  placeholder="Responda aqui" required> is that you must prove you have
+                            enough funds to <input type="text" name="listening223-8"  placeholder="Responda aqui" required> you while you are there otherwise, they won’t allow to
+                            <input type="text" name="listening223-9"  placeholder="Responda aqui" required> the country.
                         </p>
-                        <p>
-                            2 -  Why does he know better these softwares?<br>
-                            <input type="text" name="understanding142-2" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            3 -  What are the positive characteristics of his favorite softaware?<br>
-                            <input type="text" name="understanding142-3" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            4 - What are negative characteristics of it ?<br>
-                            <input type="text" name="understanding142-4" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            5 - What’s your favorite image editing software, and why?<br>
-                            <input type="text" name="understanding142-5" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        
-                    
+
+
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="9">
-                        <input type="hidden" name="atividade_id" value="142">
+                        <input type="hidden" name="unidade_id" value="26">
+                        <input type="hidden" name="atividade_id" value="223">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-			</div>
+                <div style="margin-top: 36px">
+					<figure>
+						<img src="{{ asset('assets/img/playgo/unit26/pagina-1.png') }}" alt="ctps">
+					</figure>
+				</div>
+            </div>
 		</div>
     </main>
     <script>
@@ -55,21 +56,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade9understanding142").submit(function(e){
+        $("#unidade26listening223").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade9understanding142 input[type="text"]').each(function(index){
-                if(($('#unidade9understanding142 input[type="text"]').length - 1) == index){
+            $('#unidade26listening223 input[type="text"]').each(function(index){
+                if(($('#unidade26listening223 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade9understanding142 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade9understanding142'), respostas);
+            if($('#unidade26listening223 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade26listening223'), respostas);
             }else{
-                enviarAtividade($('#unidade9understanding142'), respostas);
+                enviarAtividade($('#unidade26listening223'), respostas);
             }
         });
 
@@ -89,11 +90,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade9understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade9understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade26listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade26listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade9understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade9understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade26listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade26listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
@@ -153,3 +154,4 @@
     </script>
 
 @endsection
+
