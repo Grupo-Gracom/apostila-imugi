@@ -9,42 +9,34 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade9" data-etapa="understanding">
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade10" data-etapa="listening">
 				<h3 class="barlow">UNIT 9</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
-                <div class="metade">
-                    <form id="unidade9understanding142" method="post">
+                <h5 class="barlow">5 - LISTENING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/Unit10/Listening/completo.ogg') }}" type="audio/ogg">
+                </audio>
+                <div class="clear"></div>
+                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <div class="metade" style="margin-top: 16px">
+                    <form id="unidade10listening146" method="post">
                         <p>
-                            1 -  Does John have any favorite software?<br>
-                            <input type="text" name="understanding142-1" class="full left-align" placeholder="Responda aqui" required>
+                            “Yes, I’m so happy to be <input type="text" name="listening146-1"  placeholder="Responda aqui" required> on the IBC 2014. <input type="text" name="listening146-2"  placeholder="Responda aqui" required> greetings to
+                            <input type="text" name="listening146-3"  placeholder="Responda aqui" required> that made it to our booth here, and <input type="text" name="listening146-4"  placeholder="Responda aqui" required> the guys in the
+                            internet, thanks for <input type="text" name="listening146-5"  placeholder="Responda aqui" required>, thanks for <input type="text" name="listening146-6"  placeholder="Responda aqui" required>. There’s a lot of 
+                            <input type="text" name="listening146-7"  placeholder="Responda aqui" required> I’m <input type="text" name="listening146-8"  placeholder="Responda aqui" required> you and what I’m going to show you is the features, 
+                            the new features of Cinema 4D R 16.”
                         </p>
-                        <p>
-                            2 -  Why does he know better these softwares?<br>
-                            <input type="text" name="understanding142-2" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            3 -  What are the positive characteristics of his favorite softaware?<br>
-                            <input type="text" name="understanding142-3" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            4 - What are negative characteristics of it ?<br>
-                            <input type="text" name="understanding142-4" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            5 - What’s your favorite image editing software, and why?<br>
-                            <input type="text" name="understanding142-5" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        
-                    
+
+
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="9">
-                        <input type="hidden" name="atividade_id" value="142">
+                        <input type="hidden" name="unidade_id" value="10">
+                        <input type="hidden" name="atividade_id" value="146">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-			</div>
+            </div>
 		</div>
     </main>
     <script>
@@ -55,21 +47,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade9understanding142").submit(function(e){
+        $("#unidade10listening146").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade9understanding142 input[type="text"]').each(function(index){
-                if(($('#unidade9understanding142 input[type="text"]').length - 1) == index){
+            $('#unidade10listening146 input[type="text"]').each(function(index){
+                if(($('#unidade10listening146 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade9understanding142 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade9understanding142'), respostas);
+            if($('#unidade10listening146 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade10listening146'), respostas);
             }else{
-                enviarAtividade($('#unidade9understanding142'), respostas);
+                enviarAtividade($('#unidade10listening146'), respostas);
             }
         });
 
@@ -89,11 +81,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade9understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade9understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade10listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade10listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade9understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade9understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade10listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade10listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
@@ -153,3 +145,4 @@
     </script>
 
 @endsection
+
