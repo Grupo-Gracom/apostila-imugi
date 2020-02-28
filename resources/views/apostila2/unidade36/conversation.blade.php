@@ -9,30 +9,36 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade30" data-etapa="conversation">
-				<h3 class="barlow">UNIT 30</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade36" data-etapa="conversation">
+				<h3 class="barlow">UNIT 36</h3>
 				<h5 class="barlow">2 - CONVERSATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit30/Conversation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit36/Conversation/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<p style="margin-top: 16px">
-					<b>Gleen :</b>  Hey you guys, what’s up? Is everything ok today? Today we are gonna continue
-					the conversation we started last class ok. Would you like to start John.
+					<b>Gleen :</b>  Hey you guys. What’s up? How’s everything? Did you have time to start the project?
 				</p>
 				<p>
-					<b>John :</b>  Yes, for sure teacher. I would like to say that I’m in love with the new magazine.
-					After Comic Con things got clearer for me. Our editor prepared the briefing and I started
-					working on it; The trip to new York was awesome. I have to say that it would be great to
-					live and work in New York. The city is fantastic. 
+					<b>Laura :</b>  Yes teacher. We agreed that it would be a nice idea to watch the animations first.
+					I’m not used to watching them but it was great. I loved them all. 
 				</p>
 				<p>
-					<b>Gleen :</b>  Great John. I agree with you. New York is a great place. For both professional
-					and personal life. I also like San Francisco, but for sure I’d spend some time in NY. Spider man City. (to be continued) 
+					<b>Akira :</b>  I watched some animations too. I saw some Japanese ones. But I’m not used to
+					watching them without subtitles. The problem is that it’s not very common to have
+					Japanese animation with English subtitles. Even though, it was a nice experience. 
+				</p>
+				<p>
+					<b>John :</b>  Guys, I couldn’t watch 4. I watched just 2. We had a problem in the office and I
+					had to work late every single day. Everything is under control but I’m worn out. I’m not
+					used to working this much. 
+				</p>
+				<p>
+					<b>Gleen :</b>  That’s ok John. Get together and start pointing out ideas that may be relevant for you ok. Let’s go. (to be continued) 
 				</p>
 				<div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit30/pagina-1.png') }}" alt="revista">
+						<img src="{{ asset('assets/img/playgo/unit30/pagina-1.png') }}" alt="estudante">
 					</figure>
 				</div>
 			</div>
