@@ -9,36 +9,36 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade22" data-etapa="understanding">
-				<h3 class="barlow">UNIT 22</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade23" data-etapa="understanding">
+				<h3 class="barlow">UNIT 23</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <div class="metade">
-                    <form id="unidade22understanding201" method="post">
+                    <form id="unidade23understanding207" method="post">
                         <p>
-                            1. What couldn’t Gleen do when he was younger?<br>
-                            <input type="text" name="understanding201-1" placeholder="Responda aqui" class="full left-align" required>
+                            1. What does Gleen need?<br>
+                            <input type="text" name="understanding207-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            2. Why does Laura love making videos?<br>
-                            <input type="text" name="understanding201-2" placeholder="Responda aqui" class="full left-align" required>
+                            2. Who does Gleen ask help from, for moving a table?<br>
+                            <input type="text" name="understanding207-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            3 - How did Laura start her career?<br>
-                            <input type="text" name="understanding201-3" placeholder="Responda aqui" class="full left-align" required>
+                            3 - Why do they need more space?<br>
+                            <input type="text" name="understanding207-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            4 - What could Laura do when she was younger?<br>
-                            <input type="text" name="understanding201-4" placeholder="Responda aqui" class="full left-align" required>
+                            4 - What does Gleen ask Laura to do ?<br>
+                            <input type="text" name="understanding207-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            5 - Why did Akira stayed in his bedroom?<br>
-                            <input type="text" name="understanding201-5" placeholder="Responda aqui" class="full left-align" required>
+                            5 - What does Laura need to set up the mailbox?<br>
+                            <input type="text" name="understanding207-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="22">
-                        <input type="hidden" name="atividade_id" value="201">
+                        <input type="hidden" name="unidade_id" value="23">
+                        <input type="hidden" name="atividade_id" value="207">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -62,21 +62,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade22understanding201").submit(function(e){
+        $("#unidade23understanding207").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade22understanding201 input[type="text"]').each(function(index){
-                if(($('#unidade22understanding201 input[type="text"]').length - 1) == index){
+            $('#unidade23understanding207 input[type="text"]').each(function(index){
+                if(($('#unidade23understanding207 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade22understanding201 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade22understanding201'), respostas);
+            if($('#unidade23understanding207 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade23understanding207'), respostas);
             }else{
-                enviarAtividade($('#unidade22understanding201'), respostas);
+                enviarAtividade($('#unidade23understanding207'), respostas);
             }
         });
 
@@ -96,11 +96,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade22understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade22understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade23understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade23understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade22understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade22understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade23understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade23understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

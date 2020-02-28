@@ -9,48 +9,37 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade22" data-etapa="understanding">
-				<h3 class="barlow">UNIT 22</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <div class="metade">
-                    <form id="unidade22understanding201" method="post">
-                        <p>
-                            1. What couldn’t Gleen do when he was younger?<br>
-                            <input type="text" name="understanding201-1" placeholder="Responda aqui" class="full left-align" required>
-                        </p>
-                        <p>
-                            2. Why does Laura love making videos?<br>
-                            <input type="text" name="understanding201-2" placeholder="Responda aqui" class="full left-align" required>
-                        </p>
-                        <p>
-                            3 - How did Laura start her career?<br>
-                            <input type="text" name="understanding201-3" placeholder="Responda aqui" class="full left-align" required>
-                        </p>
-                        <p>
-                            4 - What could Laura do when she was younger?<br>
-                            <input type="text" name="understanding201-4" placeholder="Responda aqui" class="full left-align" required>
-                        </p>
-                        <p>
-                            5 - Why did Akira stayed in his bedroom?<br>
-                            <input type="text" name="understanding201-5" placeholder="Responda aqui" class="full left-align" required>
-                        </p>
-                        
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="22">
-                        <input type="hidden" name="atividade_id" value="201">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade23" data-etapa="listening">
+				<h3 class="barlow">UNIT 23</h3>
+                <h5 class="barlow">5 - LISTENING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
+                </audio>
+                <div class="clear"></div>
+                
+                <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade23listening206" method="post">
+                    <p><input type="text" name="listening206-1" placeholder="Responda aqui" required>can you do? I can direct
+                    <input type="text" name="listening206-2" placeholder="Responda aqui" required>. What else can you do?
+                    <input type="text" name="listening206-3" placeholder="Responda aqui" required>use my brain, I can play bridge. What else can you do? What else can I do?
+                    <input type="text" name="listening206-4" placeholder="Responda aqui" required>
+                    <input type="text" name="listening206-5" placeholder="Responda aqui" required> of things. I can 
+                    <input type="text" name="listening206-6" placeholder="Responda aqui" required> , I can play a piano. What else can you do? I can sing, I can
+                    <input type="text" name="listening206-7" placeholder="Responda aqui" required>, I can act. What else can you do? I can juggle, play the piano. What else can you do? I can do a lot of things? I don’t know. I can
+                    <input type="text" name="listening206-8" placeholder="Responda aqui" required>, I can
+                    <input type="text" name="listening206-9" placeholder="Responda aqui" required>, I can
+                    <input type="text" name="listening206-10" placeholder="Responda aqui" required>
+                    </p>
+                    
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="23">
+                    <input type="hidden" name="atividade_id" value="206">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
 
+                </form>
 			</div>
 		</div>
     </main>
@@ -62,21 +51,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade22understanding201").submit(function(e){
+        $("#unidade23listening206").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade22understanding201 input[type="text"]').each(function(index){
-                if(($('#unidade22understanding201 input[type="text"]').length - 1) == index){
+            $('#unidade23listening206 input[type="text"]').each(function(index){
+                if(($('#unidade23listening206 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade22understanding201 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade22understanding201'), respostas);
+            if($('#unidade23listening206 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade23listening206'), respostas);
             }else{
-                enviarAtividade($('#unidade22understanding201'), respostas);
+                enviarAtividade($('#unidade23listening206'), respostas);
             }
         });
 
@@ -96,11 +85,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade22understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade22understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade23listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade23listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade22understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade22understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade23listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade23listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
@@ -112,6 +101,7 @@
                 "atividade_id" : formId.find('input[name="atividade_id"]').val(),
                 "unidade_id" : formId.find('input[name="unidade_id"]').val()
             };
+            console.log(resposta);
             request = $.ajax({
                 url: window.location.pathname+'/respostas',
                 data: resposta,
