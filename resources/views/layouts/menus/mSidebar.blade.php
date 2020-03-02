@@ -949,7 +949,6 @@
                         </li>
                     </ul>
                 </li>
-<<<<<<< HEAD
                 <!--UNIDADE 31-->
                 <li class="item" data-unidade="unidade31">
                     <a class="click submenu">
@@ -1030,8 +1029,6 @@
                         </li>
                     </ul>
                 </li>
-=======
->>>>>>> c63def622c6f531482b1c36edcf8c0dec240ecae
                 <!--UNIDADE 36-->
                 <li class="item" data-unidade="unidade36">
                     <a class="click submenu">
