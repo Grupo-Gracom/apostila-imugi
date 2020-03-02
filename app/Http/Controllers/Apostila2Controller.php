@@ -821,4 +821,405 @@ class Apostila2Controller extends Controller
     public function unidade40Understanding(){
         return view('apostila2/unidade40/understanding');
     }
+
+    //UNIDADE 41
+    public function unidade41Vocabulary(){
+        return view('apostila2/unidade41/vocabulary');
+    }
+    public function unidade41Conversation(){
+        return view('apostila2/unidade41/conversation');
+    }
+    public function unidade41Grammar(){
+        return view('apostila2/unidade41/grammar');
+    }
+    public function unidade41Pronunciation(){
+        return view('apostila2/unidade41/pronunciation');
+    }
+    public function unidade41Listening(){
+        return view('apostila2/unidade41/listening');
+    }
+    public function unidade41Understanding(){
+        return view('apostila2/unidade41/understanding');
+    }
+
+    //UNIDADE 42
+    public function unidade42Vocabulary(){
+        return view('apostila2/unidade42/vocabulary');
+    }
+    public function unidade42Conversation(){
+        return view('apostila2/unidade42/conversation');
+    }
+    public function unidade42Grammar(){
+        return view('apostila2/unidade42/grammar');
+    }
+    public function unidade42Pronunciation(){
+        return view('apostila2/unidade42/pronunciation');
+    }
+    public function unidade42Listening(){
+        return view('apostila2/unidade42/listening');
+    }
+    public function unidade42Understanding(){
+        return view('apostila2/unidade42/understanding');
+    }
+
+    //UNIDADE 43
+    public function unidade43Vocabulary(){
+        return view('apostila2/unidade43/vocabulary');
+    }
+    public function unidade43Conversation(){
+        return view('apostila2/unidade43/conversation');
+    }
+    public function unidade43Grammar(){
+        return view('apostila2/unidade43/grammar');
+    }
+    public function unidade43Pronunciation(){
+        return view('apostila2/unidade43/pronunciation');
+    }
+    public function unidade43Listening(){
+        return view('apostila2/unidade43/listening');
+    }
+    public function unidade43Understanding(){
+        return view('apostila2/unidade43/understanding');
+    }
+
+    //UNIDADE 44
+    public function unidade44Vocabulary(){
+        return view('apostila2/unidade44/vocabulary');
+    }
+    public function unidade44Conversation(){
+        return view('apostila2/unidade44/conversation');
+    }
+    public function unidade44Grammar(){
+        return view('apostila2/unidade44/grammar');
+    }
+    public function unidade44Pronunciation(){
+        return view('apostila2/unidade44/pronunciation');
+    }
+    public function unidade44Listening(){
+        return view('apostila2/unidade44/listening');
+    }
+    public function unidade44Understanding(){
+        return view('apostila2/unidade44/understanding');
+    }
+
+    //UNIDADE 45
+    public function unidade45Vocabulary(){
+        return view('apostila2/unidade45/vocabulary');
+    }
+    public function unidade45Conversation(){
+        return view('apostila2/unidade45/conversation');
+    }
+    public function unidade45Grammar(){
+        return view('apostila2/unidade45/grammar');
+    }
+    public function unidade45Pronunciation(){
+        return view('apostila2/unidade45/pronunciation');
+    }
+    public function unidade45Listening(){
+        return view('apostila2/unidade45/listening');
+    }
+    public function unidade45Understanding(){
+        return view('apostila2/unidade45/understanding');
+    }
+
+    //UNIDADE 46
+    public function unidade46Vocabulary(){
+        return view('apostila2/unidade46/vocabulary');
+    }
+    public function unidade46Conversation(){
+        return view('apostila2/unidade46/conversation');
+    }
+    public function unidade46Grammar(){
+        return view('apostila2/unidade46/grammar');
+    }
+    public function unidade46Pronunciation(){
+        return view('apostila2/unidade46/pronunciation');
+    }
+    public function unidade46Listening(){
+        return view('apostila2/unidade46/listening');
+    }
+    public function unidade46Understanding(){
+        return view('apostila2/unidade46/understanding');
+    }
+
+    //UNIDADE 47
+    public function unidade47Vocabulary(){
+        return view('apostila2/unidade47/vocabulary');
+    }
+    public function unidade47Conversation(){
+        return view('apostila2/unidade47/conversation');
+    }
+    public function unidade47Grammar(){
+        return view('apostila2/unidade47/grammar');
+    }
+    public function unidade47Pronunciation(){
+        return view('apostila2/unidade47/pronunciation');
+    }
+    public function unidade47Listening(){
+        return view('apostila2/unidade47/listening');
+    }
+    public function unidade47Understanding(){
+        return view('apostila2/unidade47/understanding');
+    }
+
+    //UNIDADE 48
+    public function unidade48Vocabulary(){
+        return view('apostila2/unidade48/vocabulary');
+    }
+    public function unidade48Conversation(){
+        return view('apostila2/unidade48/conversation');
+    }
+    public function unidade48Grammar(){
+        return view('apostila2/unidade48/grammar');
+    }
+    public function unidade48Pronunciation(){
+        return view('apostila2/unidade48/pronunciation');
+    }
+    public function unidade48Listening(){
+        return view('apostila2/unidade48/listening');
+    }
+    public function unidade48Understanding(){
+        return view('apostila2/unidade48/understanding');
+    }
+
+    //UNIDADE 49
+    public function unidade49Vocabulary(){
+        return view('apostila2/unidade49/vocabulary');
+    }
+    public function unidade49Conversation(){
+        return view('apostila2/unidade49/conversation');
+    }
+    public function unidade49Grammar(){
+        return view('apostila2/unidade49/grammar');
+    }
+    public function unidade49Pronunciation(){
+        return view('apostila2/unidade49/pronunciation');
+    }
+    public function unidade49Listening(){
+        return view('apostila2/unidade49/listening');
+    }
+    public function unidade49Understanding(){
+        return view('apostila2/unidade49/understanding');
+    }
+
+    //UNIDADE 50
+    public function unidade50Vocabulary(){
+        return view('apostila2/unidade50/vocabulary');
+    }
+    public function unidade50Conversation(){
+        return view('apostila2/unidade50/conversation');
+    }
+    public function unidade50Grammar(){
+        return view('apostila2/unidade50/grammar');
+    }
+    public function unidade50Pronunciation(){
+        return view('apostila2/unidade50/pronunciation');
+    }
+    public function unidade50Listening(){
+        return view('apostila2/unidade50/listening');
+    }
+    public function unidade50Understanding(){
+        return view('apostila2/unidade50/understanding');
+    }
+
+    //UNIDADE 51
+    public function unidade51Vocabulary(){
+        return view('apostila2/unidade51/vocabulary');
+    }
+    public function unidade51Conversation(){
+        return view('apostila2/unidade51/conversation');
+    }
+    public function unidade51Grammar(){
+        return view('apostila2/unidade51/grammar');
+    }
+    public function unidade51Pronunciation(){
+        return view('apostila2/unidade51/pronunciation');
+    }
+    public function unidade51Listening(){
+        return view('apostila2/unidade51/listening');
+    }
+    public function unidade51Understanding(){
+        return view('apostila2/unidade51/understanding');
+    }
+
+    //UNIDADE 52
+    public function unidade52Vocabulary(){
+        return view('apostila2/unidade52/vocabulary');
+    }
+    public function unidade52Conversation(){
+        return view('apostila2/unidade52/conversation');
+    }
+    public function unidade52Grammar(){
+        return view('apostila2/unidade52/grammar');
+    }
+    public function unidade52Pronunciation(){
+        return view('apostila2/unidade52/pronunciation');
+    }
+    public function unidade52Listening(){
+        return view('apostila2/unidade52/listening');
+    }
+    public function unidade52Understanding(){
+        return view('apostila2/unidade52/understanding');
+    }
+
+    //UNIDADE 53
+    public function unidade53Vocabulary(){
+        return view('apostila2/unidade53/vocabulary');
+    }
+    public function unidade53Conversation(){
+        return view('apostila2/unidade53/conversation');
+    }
+    public function unidade53Grammar(){
+        return view('apostila2/unidade53/grammar');
+    }
+    public function unidade53Pronunciation(){
+        return view('apostila2/unidade53/pronunciation');
+    }
+    public function unidade53Listening(){
+        return view('apostila2/unidade53/listening');
+    }
+    public function unidade53Understanding(){
+        return view('apostila2/unidade53/understanding');
+    }
+
+    //UNIDADE 54
+    public function unidade54Vocabulary(){
+        return view('apostila2/unidade54/vocabulary');
+    }
+    public function unidade54Conversation(){
+        return view('apostila2/unidade54/conversation');
+    }
+    public function unidade54Grammar(){
+        return view('apostila2/unidade54/grammar');
+    }
+    public function unidade54Pronunciation(){
+        return view('apostila2/unidade54/pronunciation');
+    }
+    public function unidade54Listening(){
+        return view('apostila2/unidade54/listening');
+    }
+    public function unidade54Understanding(){
+        return view('apostila2/unidade54/understanding');
+    }
+
+    //UNIDADE 55
+    public function unidade55Vocabulary(){
+        return view('apostila2/unidade55/vocabulary');
+    }
+    public function unidade55Conversation(){
+        return view('apostila2/unidade55/conversation');
+    }
+    public function unidade55Grammar(){
+        return view('apostila2/unidade55/grammar');
+    }
+    public function unidade55Pronunciation(){
+        return view('apostila2/unidade55/pronunciation');
+    }
+    public function unidade55Listening(){
+        return view('apostila2/unidade55/listening');
+    }
+    public function unidade55Understanding(){
+        return view('apostila2/unidade55/understanding');
+    }
+
+    //UNIDADE 56
+    public function unidade56Vocabulary(){
+        return view('apostila2/unidade56/vocabulary');
+    }
+    public function unidade56Conversation(){
+        return view('apostila2/unidade56/conversation');
+    }
+    public function unidade56Grammar(){
+        return view('apostila2/unidade56/grammar');
+    }
+    public function unidade56Pronunciation(){
+        return view('apostila2/unidade56/pronunciation');
+    }
+    public function unidade56Listening(){
+        return view('apostila2/unidade56/listening');
+    }
+    public function unidade56Understanding(){
+        return view('apostila2/unidade56/understanding');
+    }
+
+    //UNIDADE 57
+    public function unidade57Vocabulary(){
+        return view('apostila2/unidade57/vocabulary');
+    }
+    public function unidade57Conversation(){
+        return view('apostila2/unidade57/conversation');
+    }
+    public function unidade57Grammar(){
+        return view('apostila2/unidade57/grammar');
+    }
+    public function unidade57Pronunciation(){
+        return view('apostila2/unidade57/pronunciation');
+    }
+    public function unidad570Listening(){
+        return view('apostila2/unidade57/listening');
+    }
+    public function unidade57Understanding(){
+        return view('apostila2/unidade57/understanding');
+    }
+
+    //UNIDADE 58
+    public function unidade58Vocabulary(){
+        return view('apostila2/unidade58/vocabulary');
+    }
+    public function unidade58Conversation(){
+        return view('apostila2/unidade58/conversation');
+    }
+    public function unidade58Grammar(){
+        return view('apostila2/unidade58/grammar');
+    }
+    public function unidade58Pronunciation(){
+        return view('apostila2/unidade58/pronunciation');
+    }
+    public function unidade58Listening(){
+        return view('apostila2/unidade58/listening');
+    }
+    public function unidade58Understanding(){
+        return view('apostila2/unidade58/understanding');
+    }
+
+    //UNIDADE 59
+    public function unidade59Vocabulary(){
+        return view('apostila2/unidade59/vocabulary');
+    }
+    public function unidade59Conversation(){
+        return view('apostila2/unidade59/conversation');
+    }
+    public function unidade59Grammar(){
+        return view('apostila2/unidade59/grammar');
+    }
+    public function unidade59Pronunciation(){
+        return view('apostila2/unidade59/pronunciation');
+    }
+    public function unidade59Listening(){
+        return view('apostila2/unidade59/listening');
+    }
+    public function unidade59Understanding(){
+        return view('apostila2/unidade59/understanding');
+    }
+
+    //UNIDADE 60
+    public function unidade60Vocabulary(){
+        return view('apostila2/unidade60/vocabulary');
+    }
+    public function unidade60Conversation(){
+        return view('apostila2/unidade60/conversation');
+    }
+    public function unidade60Grammar(){
+        return view('apostila2/unidade60/grammar');
+    }
+    public function unidade60Pronunciation(){
+        return view('apostila2/unidade60/pronunciation');
+    }
+    public function unidade60Listening(){
+        return view('apostila2/unidade60/listening');
+    }
+    public function unidade60Understanding(){
+        return view('apostila2/unidade60/understanding');
+    }
+
 }
