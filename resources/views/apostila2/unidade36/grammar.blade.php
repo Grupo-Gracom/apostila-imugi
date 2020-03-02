@@ -9,100 +9,89 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade30" data-etapa="grammar">
-				<h3 class="barlow">UNIT 30 </h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade36" data-etapa="grammar">
+				<h3 class="barlow">UNIT 36 </h3>
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit30/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit36/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
-                    <h5 class="barlow" style="margin-top: 16px">A - MODAL VERB WOULD </h5>
-                    <p>The modal verb <b>Would</b> is used to express <b>hypothetical ideas</b>. It is also used <b>to make offers?</b>.</p>
+                    <h5 class="barlow" style="margin-top: 16px">A - TO BE USED TO </h5>
+                    <p><b>To be used to</b> is used to express a <b>present habit</b>. Some action or fact that <b>happens on a frequent basis</b>.</p>
                     <table class="metade center-align">
                         <tr>
-                            <td><h5 class="barlow">Hypothetical ideas - WOULD</h5></td>
+                            <td><h5 class="barlow">TO BE USED TO + VERB(ING)</h5></td>
                         </tr>
                         <tr>
-                            <td><p>(+) <b>I would love</b> to live in New York.</p></td>
+                            <td><p><b>I’m used to</b> watch<b>ing</b> animes before going to bed.</p></td>
                         </tr>
                         <tr>
-                            <td><p>(-) <b>I wouldn't love</b> to live in New York.</p></td>
+                            <td><p><b>I’m not used to</b> spend<b>ing</b> so much time reading comic books.</p></td>
                         </tr>
                         <tr>
-                            <td><p>(?) <b>Would you love</b> to live in New York?</p></td>
+                            <td><p>Are you used to hav<b>ing</b> a back up of your computer weekly?</p></td>
                         </tr>
                         <tr>
-                            <td><h5 class="barlow">Making offerings - WOULD</h5></td>
+                            <td><h5 class="barlow">TO BE USED TO + GENERAL INFO</h5></td>
                         </tr>
                         <tr>
-                            <td><p><b>Would you like</b> something to drink?</p></td>
+                            <td><p><b>I’m not used</b> to log meetings.</p></td>
                         </tr>
                         <tr>
-                            <td><p><b>Would you like</b> some coffee?</p></td>
+                            <td><p><b>She’s used to</b> stressful situations.</p></td>
+                        </tr>
+                        <tr>
+                            <td><p><b>Are</b> they <b>used to</b> NY October weather? They had better take some sweater.</p></td>
                         </tr>
                     </table> 
 
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
-                    <h5 class="barlow">1 - Complete the dialogue using appropriate sentences.</h5>  
-                    <p class="barlow">At a restaurant</p>            
-                    <form id="unidade30grammar238" method="post">
+                    <h5 class="barlow">1 - Rewrite each sentence. Use “(BE) USED TO” and a gerund for each sentence.</h5>  
+                    <p>Example: He didn’t know how to drive a car until last year. Now, he <b>is used to driving</b> a car</p>            
+                    <form id="unidade36grammar270" style="margin-top:32px" method="post">
                         <div class="metade">
                             <p>
                                 <p>
-                                    P: What <input type="text" name="grammar238-1" placeholder="Responda aqui" required/> order?
+                                    1. She <b>saw</b> snow for the first time when she moved to Minnesota.<br>
+                                    Now, she  <input type="text" name="grammar270-1" placeholder="Responda aqui" required/> snow in the winter.
                                 </p>
                                 <p>
-                                    R: I <input type="text" name="grammar238-2" placeholder="Responda aqui" required/> the fried chicken.
+                                    2. Thomas had never <b>worked</b> early in the morning until he began his new job.<br>
+                                    Now, he <input type="text" name="grammar270-2" placeholder="Responda aqui" required/> in the morning.
                                 </p>
                                 <p>
-                                    P: <input type="text" name="grammar238-3" placeholder="Responda aqui" required/> rice or potatoes?
+                                    3. The students didn’t <b>speak</b> English on their first day of class.<br>
+                                    Now, they <input type="text" name="grammar270-3" placeholder="Responda aqui" required/> every day in class.
                                 </p>
                                 <p>
-                                    R: Potatoes, please.
+                                    4. Jerry didn’t <b>walk</b> very much before he moved to Jamaica.<br>
+                                    Now, he <input type="text" name="grammar270-4" placeholder="Responda aqui" required/> everywhere he goes.
                                 </p>
                                 <p>
-                                    P: What kind of potatoes <input type="text" name="grammar238-4" placeholder="Responda aqui" required/> ? Baked or French fries?
+                                    5. I didn’t <b>take</b> the bus very often before I moved to Chicago.<br>
+                                    Nowadays, I <input type="text" name="grammar270-5" placeholder="Responda aqui" required/> the bus all over the city.
                                 </p>
                                 <p>
-                                    R: I <input type="text" name="grammar238-5" placeholder="Responda aqui" required/> French fries.
+                                    6. Bill and Linda <b>are</b> parents. They started having kids ten years ago.<br>
+                                    They <input type="text" name="grammar270-6" placeholder="Responda aqui" required/> parents.
                                 </p>
                                 <p>
-                                    P: OK. And what <input type="text" name="grammar238-6" placeholder="Responda aqui" required/> drink?
+                                    7. Belinda rarely <b>shopped</b> after midnight before she got her new job.<br>
+                                    Now, she <input type="text" name="grammar270-7" placeholder="Responda aqui" required/> after midnight.
                                 </p>
                                 <p>
-                                    R: I guess I <input type="text" name="grammar238-7" placeholder="Responda aqui" required/> a cup of coffee.
+                                    8. We <b>do</b> our own housework.<br>
+                                    We <input type="text" name="grammar270-8" placeholder="Responda aqui" required/> our cleaning ourselves
                                 </p>
                                 <p>
-                                    P: <input type="text" name="grammar238-8" placeholder="Responda aqui" required/> anything else?
+                                    9. The police <b>go</b> to the house across the street all the time.<br>
+                                    The police <input type="text" name="grammar270-9" placeholder="Responda aqui" required/> there for all kinds of problems.
                                 </p>
                                 <p>
-                                    R: No, that is all for now, thanks.
-                                </p>
-
-                                <p style="margin-top:16px">
-                                    1. What <input type="text" name="grammar238-9" placeholder="Responda aqui" required/> order? (would you like to / you would like / you would like to)  
-                                </p>                              <p>
-                                    2. I <input type="text" name="grammar238-10"  placeholder="Responda aqui" required/> the fried chicken. (wouldn’t like / ‘d like / ‘d not like)
-                                </p>
-                                <p>
-                                    3. <input type="text" name="grammar238-11"  placeholder="Responda aqui" required/>  rice or potatoes? (You would like / Would you like / Would you like to)
-                                </p>
-                                <p>
-                                    4. What kind of potatoes <input type="text" name="grammar238-12"  placeholder="Responda aqui" required/> ? (you would like / you’d like to / would you like)
-                                </p>
-                                <p>     
-                                    5. I <input type="text" name="grammar238-13"  placeholder="Responda aqui" required/> French fries. (‘d like / would like / would like to)
-                                </p>
-                                <p>
-                                    6. OK. And what <input type="text" name="grammar238-14"  placeholder="Responda aqui" required/> drink? (would you like / you would like to / would you like to).
-                                </p>
-                                <p>   
-                                    7. I guess I <input type="text" name="grammar238-15"  placeholder="Responda aqui" required/>  a cup of coffee. (would like to / ‘d like / ‘d like to) 
-                                </p>
-                                <p>
-                                    8. <input type="text" name="grammar238-16"  placeholder="Responda aqui" required/>  anything else? (You would like / Would you like / Would you like to)  
+                                    10. I <b>read</b> the newspaper online every day, but ten years ago I rarely did that.<br>
+                                    Now, I <input type="text" name="grammar270-10" placeholder="Responda aqui" required/> the paper online.
                                 </p>
                             </p>
                         </div>
@@ -110,58 +99,62 @@
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="30">
-                        <input type="hidden" name="atividade_id" value="238">
+                        <input type="hidden" name="unidade_id" value="36">
+                        <input type="hidden" name="atividade_id" value="270">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                </div>
-                <div style="margin-top: 36px">
-					<figure>
-						<img src="{{ asset('assets/img/playgo/unit28/pagina-1.png') }}" alt="restaurante">
-					</figure>
-				</div>
-
-                <h5 class="barlow metade" style="margin-top: 36px">2 - What would you say in this situations?</h5>
-                <form id="unidade30grammar239" method="post">
-                    <div class="metade">
-                        <p>
+                    <div style="margin-top: 36px">
+                        <figure>
+                            <img src="{{ asset('assets/img/playgo/unit28/pagina-1.png') }}" alt="restaurante">
+                        </figure>
+				    </div>
+                    <h5 class="barlow" style="margin-top:16px">2 - Rewrite each sentence with “BE USED TO” in the negative form. Do not use a gerund.</h5>  
+                    <p>Example: Maria doesn’t like this hot weather. She <b>isn’t used to</b> the heat.</p>            
+                    <form id="unidade36grammar271" method="post">
+                        <div class="metade">
                             <p>
-                                1. John is visiting you in your apartment. You offer him something to drink.<br>
-                                You: <input type="text" name="grammar239-1" placeholder="Responda aqui" required/> <br>  
-                                John: Yes, thank you. A soda is ok for me.
-                            </p>                              
-                            <p>
-                                2. You need help to do a backup of your computer. You ask Akira.<br>
-                                You <input type="text" name="grammar239-2"  placeholder="Responda aqui" required/> <br>
-                                Akira : Sure . It’s easy. All you have to do is this.
+                                <p>
+                                    1. Terry doesn’t like her new job.<br>
+                                    She <input type="text" name="grammar271-1" placeholder="Responda aqui" required/> the schedule.
+                                </p>
+                                <p>
+                                    2. Sam hates driving to work because it takes so long to get there.<br>
+                                    He <input type="text" name="grammar271-2" placeholder="Responda aqui" required/> a long drive every day.
+                                </p>
+                                <p>
+                                    3. I don’t want to go into the water just yet.<br>
+                                    I <input type="text" name="grammar271-3" placeholder="Responda aqui" required/> the cold temperature of the water.
+                                </p>
+                                <p>
+                                    4. The children seem kind of tired this afternoon.<br>
+                                    They <input type="text" name="grammar271-4" placeholder="Responda aqui" required/> a long day of school after three months of summer vacation.
+                                </p>
+                                <p>
+                                    5. You don’t like to drive a car with a stick shift.<br>
+                                    You <input type="text" name="grammar271-5" placeholder="Responda aqui" required/> a manual transmission.
+                                </p>
                             </p>
-                            <p>
-                                3. A friend of yours is interested in one of your books. You invite him to borrow it.<br>
-                                Friend: This book is very interesting.<br>
-                                You : Yes, it’s very good.  <input type="text" name="grammar239-3"  placeholder="Responda aqui" required/>  rice or potatoes? (You would like / Would you like / Would you like to)
-                            </p>
-                        </p>
+                        </div>
                         <div class="clear"></div>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="30">
-                        <input type="hidden" name="atividade_id" value="239">
+                        <input type="hidden" name="unidade_id" value="36">
+                        <input type="hidden" name="atividade_id" value="271">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </div>
-                </form>
+                    </form>
+                </div>
 
-                <h5 class="barlow metade" style="margin-top: 36px">3 - You are a Tv host and you have to interview a famous actor to get to know his
-                expectations about his/her next movie. Prepare 5 questions using WOULD to ask him/her. Be ready to role play the interview with your classmates.</h5>    
-                <form id="unidade30grammar240" method="post">
-                    <textarea name="grammar240-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+                <h5 class="barlow metade" style="margin-top: 36px">3 - Write about things that you are used to doing and things that you aren’t used to doing currently</h5>    
+                <form id="unidade36grammar272" method="post">
+                    <textarea name="grammar272-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                     <div class="clear"></div>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="30">
-                    <input type="hidden" name="atividade_id" value="240">
+                    <input type="hidden" name="unidade_id" value="36">
+                    <input type="hidden" name="atividade_id" value="272">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 			</div>
@@ -175,51 +168,51 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade30grammar238").submit(function(e){
+        $("#unidade36grammar270").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade30grammar238 input[type="text"]').each(function(index){
-                if(($('#unidade30grammar238 input[type="text"]').length - 1) == index){
+            $('#unidade36grammar270 input[type="text"]').each(function(index){
+                if(($('#unidade36grammar270 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade30grammar238 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade30grammar238'), respostas);
+            if($('#unidade36grammar270 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade36grammar270'), respostas);
             }else{
-                enviarAtividade($('#unidade30grammar238'), respostas);
+                enviarAtividade($('#unidade36grammar270'), respostas);
             }
         });
 
-        $("#unidade30grammar239").submit(function(e){
+        $("#unidade36grammar271").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade30grammar239 input[type="text"]').each(function(index){
-                if(($('#unidade30grammar239 input[type="text"]').length - 1) == index){
+            $('#unidade36grammar271 input[type="text"]').each(function(index){
+                if(($('#unidade36grammar271 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade30grammar239 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade30grammar239'), respostas);
+            if($('#unidade36grammar271 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade36grammar271'), respostas);
             }else{
-                enviarAtividade($('#unidade30grammar239'), respostas);
+                enviarAtividade($('#unidade36grammar271'), respostas);
             }
         });
 
 
-        $("#unidade30grammar240").submit(function(e){
+        $("#unidade36grammar272").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade30grammar240 textarea').attr("name")+'":"'+$('#unidade30grammar240 textarea').val()+'"}';
-            if($('#unidade30grammar240 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade30grammar240'), respostas);
+            var respostas = '{"'+$('#unidade36grammar272 textarea').attr("name")+'":"'+$('#unidade36grammar272 textarea').val()+'"}';
+            if($('#unidade36grammar272 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade36grammar272'), respostas);
             }else{
-                enviarAtividade($('#unidade30grammar240'), respostas);
+                enviarAtividade($('#unidade36grammar272'), respostas);
             }
         });
         
@@ -240,13 +233,13 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade30grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade30grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade30grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade30grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade36grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade36grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade36grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade36grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade30grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade30grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade36grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade36grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
