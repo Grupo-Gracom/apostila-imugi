@@ -13,32 +13,32 @@
 				<h3 class="barlow">UNIT 25</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <div class="metade">
-                    <form id="unidade24understanding212" method="post">
+                    <form id="unidade25understanding217" method="post">
                         <p>
-                            1. Did Akira like the changes?<br>
-                            <input type="text" name="understanding212-1" placeholder="Responda aqui" class="full left-align" required>
+                            1. Why does Gleen propose an agreement with the students?<br>
+                            <input type="text" name="understanding217-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            2. What’s the problem with the new position of the table?<br>
-                            <input type="text" name="understanding212-2" placeholder="Responda aqui" class="full left-align" required>
+                            2. What may happen in the next class?<br>
+                            <input type="text" name="understanding217-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            3 - What does Laura say about the computer set up?<br>
-                            <input type="text" name="understanding212-3" placeholder="Responda aqui" class="full left-align" required>
+                            3 - What do the students say about the situation?<br>
+                            <input type="text" name="understanding217-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            4 - What happened to the installation CD?<br>
-                            <input type="text" name="understanding212-4" placeholder="Responda aqui" class="full left-align" required>
+                            4 - What will students do if the teacher doesn’t arrive?<br>
+                            <input type="text" name="understanding217-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            5 - What will happen by the end of the class?<br>
-                            <input type="text" name="understanding212-5" placeholder="Responda aqui" class="full left-align" required>
+                            5 - Who is aware of what is happening?<br>
+                            <input type="text" name="understanding217-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="24">
-                        <input type="hidden" name="atividade_id" value="212">
+                        <input type="hidden" name="unidade_id" value="25">
+                        <input type="hidden" name="atividade_id" value="217">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -62,21 +62,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade24understanding212").submit(function(e){
+        $("#unidade25understanding217").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade24understanding212 input[type="text"]').each(function(index){
-                if(($('#unidade24understanding212 input[type="text"]').length - 1) == index){
+            $('#unidade25understanding217 input[type="text"]').each(function(index){
+                if(($('#unidade25understanding217 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade24understanding212 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade24understanding212'), respostas);
+            if($('#unidade25understanding217 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade25understanding217'), respostas);
             }else{
-                enviarAtividade($('#unidade24understanding212'), respostas);
+                enviarAtividade($('#unidade25understanding217'), respostas);
             }
         });
 
@@ -96,11 +96,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade24understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade24understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade25understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade25understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade24understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade24understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade25understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade25understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
