@@ -9,160 +9,74 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade38" data-etapa="grammar">
-				<h3 class="barlow">UNIT 38 </h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade39" data-etapa="grammar">
+				<h3 class="barlow">UNIT 39 </h3>
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit38/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit39/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
-                    <h5 class="barlow" style="margin-top: 16px">A - INFINITIVES</h5>
-                    <p>We use <b>infinitives</b> after some specific verbs. Take a look at the examples below.</p>
+                    <h5 class="barlow" style="margin-top: 16px">A - RELATIVE PRONOUNS – WHO, WHOM, THAT</h5>
+                    <p>We use <b>relative pronouns (who, whom, that)</b> to avoid repetitions and connect sentences.</p>
                     <table class="metade espacamento center-align">
                         <tr>
-                            <td><h5 class="barlow">VERB</h5></td>
+                            <td><h5 class="barlow">RELATIVE PRONOUNS</h5></td>
                             <td><h5 class="barlow">EXAMPPLES</h5></td>
                         </tr>
                         <tr>
-                            <td><h5 class="barlow">Decide</h5></td>
-                            <td><p>She <b>decided to accept</b> the NGO job.</p></td>
-                        </tr>
-                        <tr>
-                            <td><h5 class="barlow">Help</h5></td>
-                            <td><p>You <b>helped to set up</b> the new computer.</p></td>
-                        </tr>
-                        <tr>
-                            <td><h5 class="barlow">Prefer</h5></td>
-                            <td><p>We prefer to meet after break.</p></td>
-                        </tr>
-                        <tr>
-                            <td><h5 class="barlow">Want</h5></td>
-                            <td><p>He wants to live in Singapore.</p></td>
-                        </tr>
-                        <tr>
-                            <td><h5 class="barlow">Promise</h5></td>
-                            <td><p>They promised to finish in time.</p></td>
-                        </tr>
-                    </table> 
-
-                    <table class="metade espacamento center-align">
-                        <tr>
-                            <td><h5 class="barlow">Other Verbs</h5></td>
-                        </tr>
-                        <tr>
+                            <td ><h5 class="barlow">WHO (Used for people)</h5></td>
                             <td>
+                                <p>A: I saw a new person in the school yesterday.</p>  
+                                <p>B: He was in Gleen's classroom.</p>
+                                <p>A+B= He is the new person who was in Akira's classroom. (Defining sentence)</p><br>
+                                <p>A: Paul works till late</p>
+                                <p>B: Paul is a web designer.</p>
+                                <p>A+B= Paul, who is a web designer, works till late. (extra information)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><h5 class="barlow">WHOM (Used for people - Formal)</h5></td>
+                            <td>
+                                <p>A: I talked to my client yesterday.</p>  
+                                <p>B: My client works in NY.</p>
+                                <p>A+B= My client, to whom I talked yesterday, works in NY.</p><br>
                                 <p>
-                                    Afford, agree, appear, arrange, ask, attempt, beg, care, choose, consent, dare,
-                                    decide, determine, expect, fail, forget, happen, hesitate, intend, learn, manage,
-                                    mean, neglect, offer, prepare, pretend, promise, refuse, remember, wish.
+                                    Whom, in general, is introduced by a preposition
+                                    (to, for, with …). It’s not very used in everyday
+                                    conversations. It’s usually replaced by Who. 
                                 </p>
                             </td>
                         </tr>
-                    </table>
-                    <p style="margin-top:16px">
-                        Some verbs may be followed <b>by either gerund or infinitive</b>. The meaning of the
-                        sentences are going to be different though. Take a look at the examples.
-                    </p>
-                    <table class="metade espacamento center-align">
                         <tr>
-                            <td><h5 class="barlow">Gerund</h5></td>
-                            <td><h5 class="barlow">Infinitive</h5></td>
-                        </tr>
-                        <tr>
-                            <td><p>I <b>stopped studying</b> last year.</p></td>
-                            <td><p>I <b>stopped to study</b> last year.</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>I <b>remembered telling</b> you about the project.</p></td>
-                            <td><p>I <b>remembered to tell</b> you about the project.</p></td>
-                        </tr>
-                        <tr>
-                            <td><p><b>I stopped smoking</b>.</p></td>
-                            <td><p><b>I stopped to smoke</b>.</p></td>
+                            <td><h5 class="barlow">THAT (Used for people and things)</h5></td>
+                            <td>
+                                <p>He is the new person who/that was in Gleen's classroom. (Defining sentense)</p><br>
+                                <p>That is used only in defining sentences. We don't use it in extra information sentences.<p>
+                            </td>
                         </tr>
                     </table> 
 
                     <h5 class="barlow" style="margin-top: 32px">EXERCISES</h5>
-                    <h5 class="barlow">1 - Complete the with the INFINITIVE.</h5>            
-                    <form id="unidade38grammar279" style="margin-top:32px" method="post">
+                    <h5 class="barlow">1 - Complete with WHO.</h5>            
+                    <form id="unidade39grammar285" style="margin-top:32px" method="post">
                         <div class="metade">
                             <p>
                                 <p>
-                                    1. He agreed <input type="text" name="grammar279-1" placeholder="Responda aqui" required/> (see) me at ten o’clock .
+                                    1. I met a woman <input type="text" name="grammar285-1" placeholder="Responda aqui" required/> who<input type="text" name="grammar285-2" placeholder="Responda aqui" required/> can speak six languages.
                                 </p>
                                 <p>
-                                    2. He offered <input type="text" name="grammar279-2" placeholder="Responda aqui" required/> (make) dinner for us.
+                                    2. What’s the name of the man <input type="text" name="grammar285-3" placeholder="Responda aqui" required/> lives next door?
                                 </p>
                                 <p>
-                                    3. Do you feel like <input type="text" name="grammar279-3" placeholder="Responda aqui" required/> (go) to the theatre on Friday?
+                                    3. Everybody <input type="text" name="grammar285-4" placeholder="Responda aqui" required/> went to the party enjoyed it very much.
                                 </p>
                                 <p>
-                                    4. I spent a lot of time <input type="text" name="grammar279-4" placeholder="Responda aqui" required/> (make) a birthday cake for him.
+                                    4. Do you know anybody  <input type="text" name="grammar285-5" placeholder="Responda aqui" required/> want to buy a car?
                                 </p>
                                 <p>
-                                    5. I suggest <input type="text" name="grammar279-5" placeholder="Responda aqui" required/> (pay) by check, it’s safer than cash.
-                                </p>
-                                <p>
-                                    6. He put of <input type="text" name="grammar279-6" placeholder="Responda aqui" required/> (see) her until very late in the afternoon.
-                                </p>
-                                <p>
-                                    7. I’ve finished <input type="text" name="grammar279-7" placeholder="Responda aqui" required/> (read) that book at last!
-                                </p>
-                                <p>
-                                    8. Please, remember <input type="text" name="grammar279-8" placeholder="Responda aqui" required/> (feed) the dog while I’m away.
-                                </p>
-                                <p>
-                                    9. Don’t forget  <input type="text" name="grammar279-9" placeholder="Responda aqui" required/> (post) my letters, please.
-                                </p>
-                                <p>
-                                    10. We regret <input type="text" name="grammar279-10" placeholder="Responda aqui" required/> (inform) you that your application has been refused. 
-                                </p>
-                                <p>
-                                    11. You are not allowed  <input type="text" name="grammar279-11" placeholder="Responda aqui" required/> on the airplane. (smoke) 
-                                </p>
-                                <p>
-                                    12. She agreed <input type="text" name="grammar279-12" placeholder="Responda aqui" required/> (pay) the electricity bill the following week. 
-                                </p>
-                                <p>
-                                    13. Elizabeth didn’t need <input type="text" name="grammar279-13" placeholder="Responda aqui" required/> (do) the final exams). 
-                                </p>
-                                <p>
-                                    14. Your aunt wished <input type="text" name="grammar279-14" placeholder="Responda aqui" required/> (visit) Australia in summer. 
-                                </p>
-                                <p>
-                                    15. Your friend seems <input type="text" name="grammar279-15" placeholder="Responda aqui" required/> (be) very busy today. 
-                                </p>
-                                <p>
-                                    16. I’m amazed because you didn’t hesitate <input type="text" name="grammar279-16" placeholder="Responda aqui" required/> (accept) the job. 
-                                </p>
-                                <p>
-                                    17. The policeman pretended <input type="text" name="grammar279-17" placeholder="Responda aqui" required/> (keep) my identity card. 
-                                </p>
-                                <p>
-                                    18. The car is too expensive, so I can’t afford <input type="text" name="grammar279-18" placeholder="Responda aqui" required/> (buy) it. 
-                                </p>
-                                <p>
-                                    19. The couple chose <input type="text" name="grammar279-19" placeholder="Responda aqui" required/> Spend their honeymoon in Canada. 
-                                </p>
-                                <p>
-                                    20. You hate <input type="text" name="grammar279-20" placeholder="Responda aqui" required/> (wait) for your girlfriend. 
-                                </p>
-                                <p>
-                                    21. George’s father learned  <input type="text" name="grammar279-21" placeholder="Responda aqui" required/> (play) the guitar in five years. 
-                                </p>
-                                <p>
-                                    22. My aunt claimed <input type="text" name="grammar279-22" placeholder="Responda aqui" required/> (be) the owner of the red suitcase. 
-                                </p>
-                                <p>
-                                    23.  Tina intended <input type="text" name="grammar279-23" placeholder="Responda aqui" required/> (borrow) my computer. 
-                                </p>
-                                <p>
-                                    24. All my friends wanted  <input type="text" name="grammar279-24" placeholder="Responda aqui" required/> (go) to the zoo in the afternoon. 
-                                </p>
-                                <p>
-                                    25.  I’d like <input type="text" name="grammar279-25" placeholder="Responda aqui" required/> (fly) to the moon soon. 
+                                    5. I have a friend <input type="text" name="grammar285-6" placeholder="Responda aqui" required/> is very good at repairing cars.
                                 </p>
                             </p>
                         </div>
@@ -171,73 +85,103 @@
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="38">
-                        <input type="hidden" name="atividade_id" value="279">
+                        <input type="hidden" name="unidade_id" value="39">
+                        <input type="hidden" name="atividade_id" value="285">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
 
-                <h5 class="barlow">2 - Use the GERUND or INFINITIVE forms of the verbs in brackets:</h5>            
-                    <form id="unidade38grammar280" style="margin-top:32px" method="post">
-                        <div class="metade">
+                <h5 class="barlow">2 - Make one sentence from two. Use WHO / THAT:</h5>            
+                <form id="unidade39grammar286" style="margin-top:32px" method="post">
+                    <div class="metade">
+                        <p>
                             <p>
-                                <p>
-                                    1. After she had decided <input type="text" name="grammar280-1" placeholder="Responda aqui" required/> (stay) in Turkey, she got used to <input type="text" name="grammar280-2" placeholder="Responda aqui" required/> (eat) Turkish foods.
-                                </p>
-                                <p>
-                                    2. They seem <input type="text" name="grammar280-3" placeholder="Responda aqui" required/> (have) plenty of money.
-                                </p>
-                                <p>
-                                    3. I’m sorry sir, I’m late, but I promise <input type="text" name="grammar280-4" placeholder="Responda aqui" required/> (not / be) late again.
-                                </p>
-                                <p>
-                                    4. I remember <input type="text" name="grammar280-5" placeholder="Responda aqui" required/> (go) to the cinema with my girl friend when I was a teenager.
-                                </p>
-                                <p>
-                                    5. He is ashamed of <input type="text" name="grammar280-6" placeholder="Responda aqui" required/> (steal) that money.
-                                </p>
-                                <p>
-                                    6. I think we’d better <input type="text" name="grammar280-7" placeholder="Responda aqui" required/> (exchange) names and addresses.
-                                </p>
-                                <p>
-                                    7. Would you mind <input type="text" name="grammar280-8" placeholder="Responda aqui" required/> (show) me how <input type="text" name="grammar280-9" placeholder="Responda aqui" required/> (work) the new machine? 
-                                </p>
-                                <p>
-                                    8. She warned her child <input type="text" name="grammar280-10" placeholder="Responda aqui" required/> (not / touch) the wire. 
-                                </p>
-                                <p>
-                                    9. Can you manage <input type="text" name="grammar280-11" placeholder="Responda aqui" required/> (finish) <input type="text" name="grammar280-12" placeholder="Responda aqui" required/> (pack) these parcels alone?
-                                </p>
-                                <p>
-                                    10. His doctor advised him <input type="text" name="grammar280-13" placeholder="Responda aqui" required/> (give up) <input type="text" name="grammar280-14" placeholder="Responda aqui" required/> (sit) up late at night?
-                                </p>
+                                1 -  A girl is now in hospital. She was injured in the accident.<br>
+                                Ex: <b>A girl who was injured in the accident is now in hospital</b>
                             </p>
-                        </div>
-
-                        <div class="clear"></div>
-
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="38">
-                        <input type="hidden" name="atividade_id" value="280">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                <div style="margin-top: 36px">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit38/pagina-1.png') }}" alt="bandeiras">
-                    </figure>
-                </div>
-
-                <h5 class="barlow metade" style="margin-top: 36px">3 - Using INFINITIVE write some tips for a person who is traveling abroad for the first time.</h5>    
-                <form id="unidade38grammar281" method="post">
-                    <textarea name="grammar281-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+                            <p>
+                                2 -  A man told me you were away. He answered the phone.<br>
+                                <input type="text" name="grammar286-1" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                3 -  A waitress was very impolite and impatient. She served us.<br>
+                                <input type="text" name="grammar286-2" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                4 -  I saw the man. He closed the door.<br>
+                                <input type="text" name="grammar286-3" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                5 -  The girl is happy. She won the race.<br>
+                                <input type="text" name="grammar286-4" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                6 -  The student is from China. He sits next to me.<br>
+                                <input type="text" name="grammar286-5" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                7 -  The taxi driver was friendly. He took me to the airport.<br>
+                                <input type="text" name="grammar286-6" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                8 -  The woman was polite. She answered the phone.<br>
+                                <input type="text" name="grammar286-8" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                9 -  The man has a good voice. He sang at the concert.<br>
+                                <input type="text" name="grammar286-9" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                10 -  We enjoyed the actors. They played the leading roles.<br>
+                                <input type="text" name="grammar286-10" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                11 -  The girl is hurt. She fell down the stairs.<br>
+                                <input type="text" name="grammar286-11" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                12 -  The student is in my class. He is walking with Ann.<br>
+                                <input type="text" name="grammar286-12" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                13 -  The police caught the thief. He stole the money.<br>
+                                <input type="text" name="grammar286-13" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                14 -  The man is at the bus stop. He fixed our refrigerator.<br>
+                                <input type="text" name="grammar286-14" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                            <p>
+                                15 -  Who are those students? They are talking to Mrs. Hinton.<br>
+                                <input type="text" name="grammar286-15" class="full left-align" placeholder="Responda aqui" required/>
+                            </p>
+                        </p>
+                    </div>
 
                     <div class="clear"></div>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="38">
-                    <input type="hidden" name="atividade_id" value="281">
+                    <input type="hidden" name="unidade_id" value="39">
+                    <input type="hidden" name="atividade_id" value="286">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+                <div style="margin-top: 36px">
+                    <figure>
+                        <img src="{{ asset('assets/img/playgo/unit38/pagina-1.png') }}" alt="carro policia">
+                    </figure>
+                </div>
+
+                <h5 class="barlow metade" style="margin-top: 36px">3 - Write about a famous actor or actress. Use WHO/THAT to give information about him/her.</h5>    
+                <form id="unidade39grammar287" method="post">
+                    <textarea name="grammar287-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+
+                    <div class="clear"></div>
+
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="39">
+                    <input type="hidden" name="atividade_id" value="287">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 			</div>
@@ -251,50 +195,50 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade38grammar279").submit(function(e){
+        $("#unidade39grammar285").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade38grammar279 input[type="text"]').each(function(index){
-                if(($('#unidade38grammar279 input[type="text"]').length - 1) == index){
+            $('#unidade39grammar285 input[type="text"]').each(function(index){
+                if(($('#unidade39grammar285 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade38grammar279 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade38grammar279'), respostas);
+            if($('#unidade39grammar285 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade39grammar285'), respostas);
             }else{
-                enviarAtividade($('#unidade38grammar279'), respostas);
+                enviarAtividade($('#unidade39grammar285'), respostas);
             }
         });
 
-        $("#unidade38grammar280").submit(function(e){
+        $("#unidade39grammar286").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade38grammar280 input[type="text"]').each(function(index){
-                if(($('#unidade38grammar280 input[type="text"]').length - 1) == index){
+            $('#unidade39grammar286 input[type="text"]').each(function(index){
+                if(($('#unidade39grammar286 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade38grammar280 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade38grammar280'), respostas);
+            if($('#unidade39grammar286 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade39grammar286'), respostas);
             }else{
-                enviarAtividade($('#unidade38grammar280'), respostas);
+                enviarAtividade($('#unidade39grammar286'), respostas);
             }
         });
 
-        $("#unidade38grammar281").submit(function(e){
+        $("#unidade39grammar287").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade38grammar281 textarea').attr("name")+'":"'+$('#unidade38grammar281 textarea').val()+'"}';
-            if($('#unidade38grammar281 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade38grammar281'), respostas);
+            var respostas = '{"'+$('#unidade39grammar287 textarea').attr("name")+'":"'+$('#unidade39grammar287 textarea').val()+'"}';
+            if($('#unidade39grammar287 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade39grammar287'), respostas);
             }else{
-                enviarAtividade($('#unidade38grammar281'), respostas);
+                enviarAtividade($('#unidade39grammar287'), respostas);
             }
         });
         
@@ -315,13 +259,13 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade38grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade38grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade38grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade38grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade39grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade39grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade39grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade39grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade38grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade38grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade39grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade39grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

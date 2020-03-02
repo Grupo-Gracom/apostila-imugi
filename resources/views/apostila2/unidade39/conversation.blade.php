@@ -9,31 +9,34 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade38" data-etapa="conversation">
-				<h3 class="barlow">UNIT 38</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade39" data-etapa="conversation">
+				<h3 class="barlow">UNIT 39</h3>
 				<h5 class="barlow">2 - CONVERSATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit38/Conversation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit39/Conversation/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<p style="margin-top: 16px">
-					<b>Glenn :</b>  Guys , great conclusions. Let me add some comments that may be important for
-					you. Usually, in the beginning of any project, we tend to have very good ideas and this is
-					awesome. The pitfall is that we have to be very conscious of our skills at that moment.
-					We plan to do many things and sometimes we are not ready for that. So, think of every
-					single step and reflect upon your skills. Do you consider that what you are planning to
-					do is feasible? Do you have the appropriate tools? Can you find the tools in case you
-					don’t have them or don’t know how to use them? Have in mind that a professional is
-					very critical during the planning moment. When you don’t act intentionally this way,
-					you may fail to accomplish your ultimate goal.
+					<b>Glenn :</b>  Hello guys. How are things? How was the weekend?
 				</p>
 				<p>
-					<b>Students :</b>  Wow, great teacher. We’re going to be very detail oriented in this project.
+					<b>John :</b>  It was great teacher. I rested a lot. I also watched some more videos to help with
+					our project. I watched videos of a guy who gives ideas on how to create games, videos
+					and etc. It was very interesting.
 				</p>
 				<p>
-					<b>Gleen :</b>  Ok guys. So far, so good. I’ll see you in the next class ok.
+					<b>Laura :</b>  Ops!!! Then I think we watched the same youtube channel John. With a guy that
+					has a strange voice. He uses some simple animations in his videos to explain things. It’s very simple and didactic. I liked a lot.
 				</p>
-
+				<p>
+					<b>Akira :</b>  Guys, I just slept this weekend. Sorry. I was extremely tired. I had to help my
+					parents to move. The guy with whom they agreed to come to help them, simply didn’t
+					show up and they called me. I was not expecting that.
+				</p>
+				<p>
+					<b>Laura and John :</b>   That’s too bad. Out of the blue something happens and your
+					weekend is gone. (to be continued)
+				</p>
 				<div style="margin-top: 36px">
 					<figure>
 						<img src="{{ asset('assets/img/playgo/unit38/pagina-1.png') }}" alt="estudando">

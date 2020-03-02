@@ -9,36 +9,32 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade39" data-etapa="listening">
-				<h3 class="barlow">UNIT 39</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade40" data-etapa="listening">
+				<h3 class="barlow">UNIT 40</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit39/Listening/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit40/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <h5 class="barlow">A -   Listen to the audio and answer the questions below.</h5>
                 <div class="metade" style="margin-top: 16px">
-                    <form id="unidade39listening288" method="post">
+                    <form id="unidade40listening294" method="post">
                         <p> 
                             <p>
-                                1 -  Where can you get info on how to organize your life?<br>
-                                <input type="text" name="understanding288-1" class="full left-align" placeholder="Responda aqui" required>
+                                1 -  What did the speaker see this week?<br>
+                                <input type="text" name="understanding294-1" class="full left-align" placeholder="Responda aqui" required>
                             </p>
                             <p>
-                                2 -  According to the audio, what can you learn online.<br>
-                                <input type="text" name="understanding288-2" class="full left-align" placeholder="Responda aqui" required>
-                            </p>
-                            <p>
-                                3 -  What’s the speaker’s opinion about the specialist?<br>
-                                <input type="text" name="understanding288-3" class="full left-align" placeholder="Responda aqui" required>
+                                2 -  Why did the speaker decide to use only the cell phone?<br>
+                                <input type="text" name="understanding294-2" class="full left-align" placeholder="Responda aqui" required>
                             </p>
                         </p>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="39">
-                        <input type="hidden" name="atividade_id" value="288">
+                        <input type="hidden" name="unidade_id" value="40">
+                        <input type="hidden" name="atividade_id" value="294">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -53,21 +49,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade39listening288").submit(function(e){
+        $("#unidade40listening294").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade39listening288 input[type="text"]').each(function(index){
-                if(($('#unidade39listening288 input[type="text"]').length - 1) == index){
+            $('#unidade40listening294 input[type="text"]').each(function(index){
+                if(($('#unidade40listening294 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade39listening288 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade39listening288'), respostas);
+            if($('#unidade40listening294 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade40listening294'), respostas);
             }else{
-                enviarAtividade($('#unidade39listening288'), respostas);
+                enviarAtividade($('#unidade40listening294'), respostas);
             }
         });
 
@@ -87,11 +83,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade39listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade39listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade40listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade40listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade39listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade39listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade40listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade40listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

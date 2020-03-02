@@ -9,40 +9,41 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade39" data-etapa="listening">
-				<h3 class="barlow">UNIT 39</h3>
-                <h5 class="barlow">5 - LISTENING</h5>
-                <span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit39/Listening/completo.ogg') }}" type="audio/ogg">
-                </audio>
-                <div class="clear"></div>
-                <h5 class="barlow">A -   Listen to the audio and answer the questions below.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade39listening288" method="post">
-                        <p> 
-                            <p>
-                                1 -  Where can you get info on how to organize your life?<br>
-                                <input type="text" name="understanding288-1" class="full left-align" placeholder="Responda aqui" required>
-                            </p>
-                            <p>
-                                2 -  According to the audio, what can you learn online.<br>
-                                <input type="text" name="understanding288-2" class="full left-align" placeholder="Responda aqui" required>
-                            </p>
-                            <p>
-                                3 -  What’s the speaker’s opinion about the specialist?<br>
-                                <input type="text" name="understanding288-3" class="full left-align" placeholder="Responda aqui" required>
-                            </p>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade40" data-etapa="understanding">
+				<h3 class="barlow">UNIT 40</h3>
+				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
+                <div class="metade">
+                    <form id="unidade40understanding296" method="post">
+                        <p>
+                            1 -  What does Gleen say about an animation he saw?<br>
+                            <input type="text" name="understanding296-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-
+                        <p>
+                            2 -  What’s the animation all about?<br>
+                            <input type="text" name="understanding296-2" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            3 -  What’s funny about it?<br>
+                            <input type="text" name="understanding296-3" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            4 -  What does he say about the movie?<br>
+                            <input type="text" name="understanding296-4" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            5 -  What does John say about it?<br>
+                            <input type="text" name="understanding296-5" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="39">
-                        <input type="hidden" name="atividade_id" value="288">
+                        <input type="hidden" name="unidade_id" value="40">
+                        <input type="hidden" name="atividade_id" value="296">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-            </div>
+			</div>
 		</div>
     </main>
     <script>
@@ -53,21 +54,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade39listening288").submit(function(e){
+        $("#unidade40understanding296").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade39listening288 input[type="text"]').each(function(index){
-                if(($('#unidade39listening288 input[type="text"]').length - 1) == index){
+            $('#unidade40understanding296 input[type="text"]').each(function(index){
+                if(($('#unidade40understanding296 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade39listening288 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade39listening288'), respostas);
+            if($('#unidade40understanding296 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade40understanding296'), respostas);
             }else{
-                enviarAtividade($('#unidade39listening288'), respostas);
+                enviarAtividade($('#unidade40understanding296'), respostas);
             }
         });
 
@@ -87,11 +88,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade39listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade39listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade40understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade40understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade39listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade39listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade40understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade40understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
@@ -151,4 +152,3 @@
     </script>
 
 @endsection
-
