@@ -198,31 +198,6 @@
                 enviarAtividade($('#unidade23grammar205'), respostas);
             }
         });
-        
-        /* function checkAtividade(atividade_id){
-            request = $.ajax({
-                url: window.location.pathname+'/respostasCheck/'+atividade_id,
-                type: 'get',
-                error: function(){
-                    console.log("Erro de retorno de dados.");
-                }
-            });
-            request.done(function(response){
-                if(response == 0){
-                    console.log("não veio nada");
-                }else{
-                    var objeto = JSON.parse(response[0].resposta_respostas);
-                    var chaves = Object.keys(objeto);
-                    var respostas = Object.values(objeto);
-                    for(j = 0; j < respostas.length; j++){
-                        $('#unidade23grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade23grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                    }
-                    $('#unidade23grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade23grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
-                }
-            });
-        } */
 
         function checkAtividade(atividade_id){
             request = $.ajax({
