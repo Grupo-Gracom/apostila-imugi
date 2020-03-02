@@ -9,12 +9,12 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade36" data-etapa="conversation">
-				<h3 class="barlow">UNIT 36</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade37" data-etapa="conversation">
+				<h3 class="barlow">UNIT 37</h3>
 				<h5 class="barlow">2 - CONVERSATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit36/Conversation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit37/Conversation/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<p style="margin-top: 16px">
 					<b>Akira :</b>  Well guys. Let me tell you what I could get from the animations I watched. The first
@@ -34,7 +34,7 @@
 				</p>
 				<div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit30/pagina-1.png') }}" alt="estudando">
+						<img src="{{ asset('assets/img/playgo/unit37/pagina-1.png') }}" alt="estudando">
 					</figure>
 				</div>
 			</div>

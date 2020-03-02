@@ -9,39 +9,26 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade36" data-etapa="pronunciation">
-				<h3 class="barlow">UNIT 36</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade37" data-etapa="pronunciation">
+				<h3 class="barlow">UNIT 37</h3>
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio36/Pronunciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio37/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
-				<table class="metade center-align" style="margin-top:16px">
-					<tr>
-						<td colspan="2"><h5>Improving pronunciation - / teen / / ty /</h5></td>
-					</tr>
-					<tr>
-						<td><p>Thir<b>teen</b></p></td>
-						<td><p>Thir<b>ty</b></p></td>
-					</tr>
-					<tr>
-						<td><p>Four<b>teen</b></p></td>
-						<td><p>For<b>ty</b></p></td>
-					</tr>
-					<tr>
-						<td><p>Fif<b>teen</b></p></td>
-						<td><p>Fif<b>ty</b></p></td>
-					</tr>
-					<tr>
-						<td><p>Six<b>teen</b></p></td>
-						<td><p>Six<b>ty</b></p></td>
-					</tr>
-					<tr>
-						<td><p>Seven<b>teen</b></p></td>
-						<td><p>Seven<b>ty</b></p></td>
-					</tr>
-                </table>
+				<ul class="lista-inline">
+					<li><b>g sound /g/ </b></li>        
+					<li>Glad</li>	
+					<li>Garden</li>
+					<li>Agree</li>
+					<li>Ago</li>
+					<li>Dog</li>
+					<li>Drag</li>
+				</ul>
+				<ul class="lista-inline">
+					<ol>I’m <b>g</b>lad you a<b>g</b>reed that the do<b>g</b> would dra<b>g</b> the ra<b>g</b> all over the <b>g</b>arden.</ol>
+				</ul>
 				<div class="clear"></div>
 			</div>
 		</div>

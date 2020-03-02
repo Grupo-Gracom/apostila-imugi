@@ -776,7 +776,7 @@ class Apostila2Controller extends Controller
         return view('apostila2/unidade38/pronunciation');
     }
     public function unidade38Listening(){
-        return view('apostila2/unidade82/listening');
+        return view('apostila2/unidade38/listening');
     }
     public function unidade38Understanding(){
         return view('apostila2/unidade38/understanding');

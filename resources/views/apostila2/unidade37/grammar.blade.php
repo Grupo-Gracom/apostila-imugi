@@ -20,30 +20,30 @@
                 <div style="margin-top: 16px">
                     <h5 class="barlow" style="margin-top: 16px">A - GERUNDS</h5>
                     <p>We use <b>gerunds (verb+ing)</b> after some specific verbs. Take a look at the examples below.</p>
-                    <table class="metade center-align">
+                    <table class="metade espacamento center-align">
                         <tr>
                             <td><h5 class="barlow">VERB</h5></td>
                             <td><h5 class="barlow">EXAMPPLES</h5></td>
                         </tr>
                         <tr>
                             <td><p>Enjoy</p></td>
-                            <td><p>My friemd enjoys travelling to take specialization courses.</p></td>
+                            <td><p>My friend <b>enjoys</b> travell<b>ing</b> to take specialization courses.</p></td>
                         </tr>
                         <tr>
                             <td><p>Miss</p></td>
-                            <td><p>I miss spending time around the pool just to relax.</p></td>
+                            <td><p><b>I miss</b> spend<b>ing</b> time around the pool just to relax.</p></td>
                         </tr>
                         <tr>
                             <td><p>Imagine</p></td>
-                            <td><p>Can you imagine youself preparing a whole project? From A to Z?</p></td>
+                            <td><p>Can you <b>imagine</b> youself prepar<b>ing</b> a whole project? From A to Z?</p></td>
                         </tr>
                         <tr>
                             <td><p>Appreciate</p></td>
-                            <td><p>I really appreciate having some time at home to study</p></td>
+                            <td><p>I really <b>appreciate</b> having some time at home to study</p></td>
                         </tr>
                         <tr>
                             <td><p>Suggest</p></td>
-                            <td><p>Glenn suggested watching more animations.</p></td>
+                            <td><p>Glenn <b>suggested</b> watch<b>ing</b> more animations.</p></td>
                         </tr>
                         <tr>
                             <td colspan="2"><h5 class="barlow">Other Verbs</h5></td>
@@ -59,90 +59,90 @@
                     </table> 
 
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
-                    <h5 class="barlow">1 - Complete with a gerund.</p>            
+                    <h5 class="barlow">1 - Complete with a gerund.</h5>            
                     <form id="unidade37grammar275" style="margin-top:32px" method="post">
                         <div class="metade">
                             <p>
                                 <p>
-                                    1. Hector dislikes <input type="text" name="grammar275-1" placeholder="Responda aqui" required/> (play) Xbox games.<br>
+                                    1. Hector dislikes <input type="text" name="grammar275-1" placeholder="Responda aqui" required/> (play) Xbox games.
                                 </p>
                                 <p>
-                                    2. Martin admitted <input type="text" name="grammar275-2" placeholder="Responda aqui" required/> (steal) the money from the safe.<br>
+                                    2. Martin admitted <input type="text" name="grammar275-2" placeholder="Responda aqui" required/> (steal) the money from the safe.
                                 </p>
                                 <p>
                                     3.  I regretted <input type="text" name="grammar275-3" placeholder="Responda aqui" required/>(forget) to call my grandfather for his birthday.
                                 </p>
                                 <p>
-                                    4. Please, avoid <input type="text" name="grammar275-4" placeholder="Responda aqui" required/> (touch)the wire with wet hands
+                                    4. Please, avoid <input type="text" name="grammar275-4" placeholder="Responda aqui" required/> (touch)the wire with wet hands.
                                 </p>
                                 <p>
-                                    5. We suggested <input type="text" name="grammar275-5" placeholder="Responda aqui" required/> (sell) our apartment at the sea side.<br>
+                                    5. We suggested <input type="text" name="grammar275-5" placeholder="Responda aqui" required/> (sell) our apartment at the sea side.
                                 </p>
                                 <p>
-                                    6. She postponed <input type="text" name="grammar275-6" placeholder="Responda aqui" required/> (make) a decision for the new shop.<br>
+                                    6. She postponed <input type="text" name="grammar275-6" placeholder="Responda aqui" required/> (make) a decision for the new shop.
                                 </p>
                                 <p>
-                                    7. Excuse me, do you mind <input type="text" name="grammar275-7" placeholder="Responda aqui" required/> (clean) the table please<br>
+                                    7. Excuse me, do you mind <input type="text" name="grammar275-7" placeholder="Responda aqui" required/> (clean) the table please.
                                 </p>
                                 <p>
                                     8. It was difficult to climb up the mountain but we kept <input type="text" name="grammar275-8" placeholder="Responda aqui" required/> (go).
                                 </p>
                                 <p>
-                                    9. Robert denied <input type="text" name="grammar275-9" placeholder="Responda aqui" required/> (kidnap) the child.<br>
+                                    9. Robert denied <input type="text" name="grammar275-9" placeholder="Responda aqui" required/> (kidnap) the child.
                                 </p>
                                 <p>
-                                    10. Sonia didn’t tolerate <input type="text" name="grammar275-10" placeholder="Responda aqui" required/> (share)the bedroom with John. <br>
+                                    10. Sonia didn’t tolerate <input type="text" name="grammar275-10" placeholder="Responda aqui" required/> (share)the bedroom with John. 
                                 </p>
                                 <p>
-                                    11. Barbara celebrated <input type="text" name="grammar275-11" placeholder="Responda aqui" required/> (win) the TV contest. <br>
+                                    11. Barbara celebrated <input type="text" name="grammar275-11" placeholder="Responda aqui" required/> (win) the TV contest. 
                                 </p>
                                 <p>
-                                    12. Miriam omitted <input type="text" name="grammar275-12" placeholder="Responda aqui" required/> (invite) her old university colleagues. <br>
+                                    12. Miriam omitted <input type="text" name="grammar275-12" placeholder="Responda aqui" required/> (invite) her old university colleagues. 
                                 </p>
                                 <p>
-                                    13. It was late so we hurried <input type="text" name="grammar275-13" placeholder="Responda aqui" required/> (catch) the last bus. <br>
+                                    13. It was late so we hurried <input type="text" name="grammar275-13" placeholder="Responda aqui" required/> (catch) the last bus. 
                                 </p>
                                 <p>
-                                    14.  I can still remember <input type="text" name="grammar275-14" placeholder="Responda aqui" required/> (visit) my grandparents fifty years ago. <br>
+                                    14.  I can still remember <input type="text" name="grammar275-14" placeholder="Responda aqui" required/> (visit) my grandparents fifty years ago. 
                                 </p>
                                 <p>
-                                    15. I’ll never forget <input type="text" name="grammar275-15" placeholder="Responda aqui" required/> (see) that van Gogh exhibition in New York <br>
+                                    15. I’ll never forget <input type="text" name="grammar275-15" placeholder="Responda aqui" required/> (see) that van Gogh exhibition in New York. 
                                 </p>
                                 <p>
-                                    16. I regret <input type="text" name="grammar275-16" placeholder="Responda aqui" required/> (lend) him the money. He never paid it back. <br>
+                                    16. I regret <input type="text" name="grammar275-16" placeholder="Responda aqui" required/> (lend) him the money. He never paid it back. 
                                 </p>
                                 <p>
-                                    17. I’ll just finish <input type="text" name="grammar275-17" placeholder="Responda aqui" required/> (clean) the kitchen then I’ll stop. <br>
+                                    17. I’ll just finish <input type="text" name="grammar275-17" placeholder="Responda aqui" required/> (clean) the kitchen then I’ll stop. 
                                 </p>
                                 <p>
-                                    18. She suggested <input type="text" name="grammar275-18" placeholder="Responda aqui" required/> (have) dinner at her house. <br>
+                                    18. She suggested <input type="text" name="grammar275-18" placeholder="Responda aqui" required/> (have) dinner at her house. 
                                 </p>
                                 <p>
-                                    19.  She doesn’t mind <input type="text" name="grammar275-19" placeholder="Responda aqui" required/> (do) the boring jobs. <br>
+                                    19.  She doesn’t mind <input type="text" name="grammar275-19" placeholder="Responda aqui" required/> (do) the boring jobs. 
                                 </p>
                                 <p>
-                                    20. He keeps <input type="text" name="grammar275-20" placeholder="Responda aqui" required/> (ask) me to go out with him <br>
+                                    20. He keeps <input type="text" name="grammar275-20" placeholder="Responda aqui" required/> (ask) me to go out with him. 
                                 </p>
                                 <p>
-                                    21. He has given up <input type="text" name="grammar275-21" placeholder="Responda aqui" required/> (smoke). <br>
+                                    21. He has given up <input type="text" name="grammar275-21" placeholder="Responda aqui" required/> (smoke). 
                                 </p>
                                 <p>
-                                    22. My remote control doesn’t work. Try <input type="text" name="grammar275-22" placeholder="Responda aqui" required/> (change) the batteries. <br>
+                                    22. My remote control doesn’t work. Try <input type="text" name="grammar275-22" placeholder="Responda aqui" required/> (change) the batteries. 
                                 </p>
                                 <p>
-                                    23.  Would you mind <input type="text" name="grammar275-23" placeholder="Responda aqui" required/> (open) the window? It’s very hot in here. <br>
+                                    23.  Would you mind <input type="text" name="grammar275-23" placeholder="Responda aqui" required/> (open) the window? It’s very hot in here. 
                                 </p>
                                 <p>
-                                    24. I couldn’t help <input type="text" name="grammar275-24" placeholder="Responda aqui" required/> (laugh)when he tripped! <br>
+                                    24. I couldn’t help <input type="text" name="grammar275-24" placeholder="Responda aqui" required/> (laugh)when he tripped! 
                                 </p>
                                 <p>
-                                    25.  I enjoy <input type="text" name="grammar275-25" placeholder="Responda aqui" required/> (go) to clubs. <br>
+                                    25.  I enjoy <input type="text" name="grammar275-25" placeholder="Responda aqui" required/> (go) to clubs. 
                                 </p>
                                 <p>
-                                    26. My doctor advised me <input type="text" name="grammar275-26" placeholder="Responda aqui" required/> (quit) smoking.  <br>
+                                    26. My doctor advised me <input type="text" name="grammar275-26" placeholder="Responda aqui" required/> (quit) smoking.  
                                 </p>
                                 <p>
-                                    27. Please stop <input type="text" name="grammar275-27" placeholder="Responda aqui" required/> (shout) I can hear you fine! <br>
+                                    27. Please stop <input type="text" name="grammar275-27" placeholder="Responda aqui" required/> (shout) I can hear you fine! 
                                 </p>
                                 
                             </p>
@@ -155,11 +155,11 @@
                         <input type="hidden" name="atividade_id" value="275">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                    <div style="margin-top: 36px">
-                        <figure>
-                            <img src="{{ asset('assets/img/playgo/unit37/pagina-1.png') }}" alt="games">
-                        </figure>
-				    </div>
+                <div style="margin-top: 36px">
+                    <figure>
+                        <img src="{{ asset('assets/img/playgo/unit37/pagina-1.png') }}" alt="games">
+                    </figure>
+                </div>
                 </div>
 
                 <h5 class="barlow metade" style="margin-top: 36px">2 - Think of suggestions for a new employee of a game development company. Write 5
@@ -203,9 +203,6 @@
                 enviarAtividade($('#unidade37grammar275'), respostas);
             }
         });
-
-       
-
 
         $("#unidade37grammar276").submit(function(e){
             e.preventDefault();
