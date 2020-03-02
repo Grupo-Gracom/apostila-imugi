@@ -130,7 +130,8 @@
 
         $("form").each(function(){
             var atividade_id = $(this).find('input[name="atividade_id"]').val();
-            checkAtividade(atividade_id);
+            var inputType = $(this).find('input').attr('type');
+            checkAtividade(atividade_id, inputType);
         });
 
         $("#unidade25grammar213").submit(function(e){
@@ -140,10 +141,8 @@
             $('#unidade25grammar213 input[type="radio"]:checked').each(function(index){
                 if(($('#unidade25grammar213 input[type="radio"]:checked').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                    console.log(respostas);
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                    console.log(respostas);
                 }
             });
             if($('#unidade25grammar213 input[name="resposta_id"').val() != 0){
@@ -189,7 +188,7 @@
             }
         });
 
-        /* function checkAtividade(atividade_id){
+        function checkAtividade(atividade_id, inputType){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,
                 type: 'get',
@@ -204,39 +203,18 @@
                     var objeto = JSON.parse(response[0].resposta_respostas);
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
-                    for(j = 0; j < respostas.length; j++){
-                        $('#unidade6grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
-                    }
-                    $('#unidade6grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade6grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
-                }
-            });
-        } */
-
-        function checkAtividade(atividade_id){
-            request = $.ajax({
-                url: window.location.pathname+'/respostasCheck/'+atividade_id,
-                type: 'get',
-                error: function(){
-                    console.log("Erro de retorno de dados.");
-                }
-            });
-            request.done(function(response){
-                if(response == 0){
-                    console.log("não veio nada");
-                }else{
-                    var objeto = JSON.parse(response[0].resposta_respostas);
-                    var chaves = Object.keys(objeto);
-                    var respostas = Object.values(objeto);
-                    console.log(objeto);
-                    console.log(chaves);
-                    console.log(respostas);
-                    for(j = 0; j < respostas.length; j++){
-                        console.log(respostas[j]);
-                        $('#unidade25grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
-                        //$('#unidade25grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        //$('#unidade25grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                    }
+                    
+                    console.log('tipo input -> ' + inputType);
+                    if(inputType === 'radio'){
+                        for(j = 0; j < respostas.length; j++){
+                            $('#unidade25grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);                    
+                        }
+                    }else{
+                        for(j = 0; j < respostas.length; j++){
+                            $('#unidade25grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                            $('#unidade25grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        }
+                    }                    
                     $('#unidade25grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade25grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }

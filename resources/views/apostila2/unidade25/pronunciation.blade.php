@@ -17,18 +17,18 @@
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p><b>or sound /ɔr/</b></p>
+                <p><b>air sound /ɛr/</b></p>
                 
                 <ul class="lista-inline">
-                    <li><p>SUPPORT</p></li>
-                    <li><p>ORDER</p></li>
-                    <li><p>ORGANIZE</p></li>
-                    <li><p>IMPORTANT</p></li>
-                    <li><p>STORE</p></li>
-                    <li><p>BEFORE</p></li>
+                    <li><p>SECRETARY</p></li>
+                    <li><p>PREPARE</p></li>
+                    <li><p>CAREFUL</p></li>
+                    <li><p>AREA</p></li>
+                    <li><p>VERY</p></li>
+                    <li><p>NECESSARY</p></li>
                 </ul>
 
-                <p>I need some supp<b>or</b>t to <b>or</b>ganize the imp<b>or</b>tant <b>or</b>ders bef<b>or</b>e the st<b>or</b>e opens.</p>
+                <p>The secret<b>ar</b>y was v<b>er</b>y c<b>ar</b>eful to prep<b>ar</b>e what is necess<b>ar</b>y for the general meeting of her <b>ar</b>ea.</p>
 
 			</div>
 		</div>
