@@ -9,38 +9,29 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade51" data-etapa="listening">
-				<h3 class="barlow">UNIT 51</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade16" data-etapa="listening">
+				<h3 class="barlow">UNIT 16</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit51/Listening/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>
-                <h5 class="barlow">A -   Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade51listening352" method="post">
-                        <p> 
-                            Civil War is a <input type="text" name="listening352-1"  placeholder="Responda aqui" required> 
-                            movie because It’s the first time Spider man <input type="text" name="listening52-2"  placeholder="Responda aqui" required> 
-                            fighting <input type="text" name="listening352-3"  placeholder="Responda aqui" required> 
-                            with <input type="text" name="listening352-4"  placeholder="Responda aqui" required> other super-heroes like American
-                            Captain and Iron Man. Tom Holland <input type="text" name="listening352-5"  placeholder="Responda aqui" required> 
-                            been considered a <input type="text" name="listening352-6"  placeholder="Responda aqui" required>
-                            as the new Spider man. He hasn’t <input type="text" name="listening352-7"  placeholder="Responda aqui" required> 
-                            his success <input type="text" name="listening352-8"  placeholder="Responda aqui" required> and he
-                            has never accepted the title of <input type="text" name="listening352-9"  placeholder="Responda aqui" required>. 
-                            So far, it’s the best movie <input type="text" name="listening352-10"  placeholder="Responda aqui" required> seen.
-                        </p>
-
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="51">
-                        <input type="hidden" name="atividade_id" value="352">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
-            </div>
+                <div class="clear"></div>               
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                
+                <form class="full" id="unidade16listening171" method="post">                   
+                    <p>Where <input type="text" placeholder="responda aqui !" name="listening171-1" class="inputmedio left-align" required> 
+                    the candidates for the position ? For <input type="text" placeholder="responda aqui !" name="listening171-2" class="inputmedio left-align" required>, 
+                    your sister was the best movie maker to <input type="text" placeholder="responda aqui !" name="listening171-3" class="inputmedio left-align" required>
+                    in this project. She knows a lot. She was the <input type="text" placeholder="responda aqui !" name="listening171-4" class="inputmedio left-align" required> 
+                    video maker to use Sony Vegas . I get <input type="text" placeholder="responda aqui !" name="listening171-5" class="inputmedio left-align" required> 
+                    with her <input type="text" placeholder="responda aqui !" name="listening171-6" class="inputmedio left-align" required>.</p>                                      
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="16">
+                    <input type="hidden" name="atividade_id" value="171">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+			</div>
 		</div>
     </main>
     <script>
@@ -51,21 +42,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade51listening352").submit(function(e){
+        $("#unidade16listening171").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade51listening352 input[type="text"]').each(function(index){
-                if(($('#unidade51listening352 input[type="text"]').length - 1) == index){
+            $('#unidade16listening171 input[type="text"]').each(function(index){
+                if(($('#unidade16listening171 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade51listening352 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade51listening352'), respostas);
+            if($('#unidade16listening171 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade16listening171'), respostas);
             }else{
-                enviarAtividade($('#unidade51listening352'), respostas);
+                enviarAtividade($('#unidade16listening171'), respostas);
             }
         });
 
@@ -85,11 +76,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade51listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade51listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade16listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade16listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade51listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade51listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade16listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade16listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
@@ -148,4 +139,3 @@
     </script>
 
 @endsection
-
