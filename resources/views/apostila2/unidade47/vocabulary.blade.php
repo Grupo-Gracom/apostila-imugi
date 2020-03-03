@@ -9,9 +9,9 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade46"  data-etapa="vocabulary">
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade47"  data-etapa="vocabulary">
 
-				<h3 class="barlow">UNIT 46</h3>
+				<h3 class="barlow">UNIT 47</h3>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -19,21 +19,21 @@
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
 
-				<p>TO HATE / people / things / to do things</p>
-				<p>TO IGNORE / a person / an idea</p>
-				<p>TO LOSE / control / a bag / my mind / my life</p>
+				<p>TO LOVE / people / things / to do things</p>
+				<p>TO MAKE / a request / noise / a fuss / friends / a cake</p>
+				<p>TO PREFER / salmon to tuna / reading books to watching movies</p>
 
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
 
 				<ul class="lista-inline">
-					<li><b>DEVELOPMENT</b></li>
-					<li><b>SO FAR</b></li>
-					<li><b>SO GOOD</b></li>
-					<li><b>READY</b></li>
-					<li><b>TOGETHER</b></li>
-					<li><b>MINDS</b></li>
-					<li><b>TELLING</b></li>
-					<li><b>CHALLENGING</li>
+					<li><b>GOTTA</b></li>
+					<li><b>CAREFUL</b></li>
+					<li><b>LINEAR</b></li>
+					<li><b>RIGHT</b></li>
+					<li><b>FORGOT</b></li>
+					<li><b>SOLVE</b></li>
+					<li><b>BELIEVE</b></li>
+					<li><b>SURE</li>
 				</ul>							
 				
 			</div>

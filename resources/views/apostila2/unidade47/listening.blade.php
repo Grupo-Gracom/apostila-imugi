@@ -9,8 +9,8 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade46" data-etapa="listening">
-				<h3 class="barlow">UNIT 46</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade47" data-etapa="listening">
+				<h3 class="barlow">UNIT 47</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -18,19 +18,23 @@
                 </audio>
                 <div class="clear"></div>
                 
-                <h5 class="barlow">A – Listen to the audio and answer the questions below.</h5>
-                <form id="unidade46listening326" class="metade" method="post">
-                    <p>1. What does the speaker speak about recognition?
-                        <input type="text" name="listening326-1" placeholder="Responda aqui" class="full left-align" required>
-                    </p>
-                    <p>2. What can you do to improve your visibility for the market?
-                        <input type="text" name="listening326-2" placeholder="Responda aqui" class="full left-align" required>
-                    </p>
-                                        
+                <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade47listening330" class="metade" method="post">
+                    <p>1.In a
+                    <input type="text" name="listening330-1" placeholder="Responda aqui" required>interview,
+                    <input type="text" name="listening330-2" placeholder="Responda aqui" required>to much nor
+                    <input type="text" name="listening330-3" placeholder="Responda aqui" required>too little about yourself. Interviewers, usually like
+                    <input type="text" name="listening330-4" placeholder="Responda aqui" required>who are
+                    <input type="text" name="listening330-5" placeholder="Responda aqui" required>and well
+                    <input type="text" name="listening330-6" placeholder="Responda aqui" required>. Answer the questions he/she asks you accordingly. Be friendly and r
+                    <input type="text" name="listening330-7" placeholder="Responda aqui" required>with him or her. Personal issues mustn’t be addressed. Neither you, nor the interviewer
+                    <input type="text" name="listening330-8" placeholder="Responda aqui" required>bring such issues to the
+                    <input type="text" name="listening330-9" placeholder="Responda aqui" required>.</p>
+                                                            
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="46">
-                    <input type="hidden" name="atividade_id" value="326">
+                    <input type="hidden" name="unidade_id" value="47">
+                    <input type="hidden" name="atividade_id" value="330">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 			</div>
@@ -44,21 +48,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade46listening326").submit(function(e){
+        $("#unidade47listening330").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade46listening326 input[type="text"]').each(function(index){
-                if(($('#unidade46listening326 input[type="text"]').length - 1) == index){
+            $('#unidade47listening330 input[type="text"]').each(function(index){
+                if(($('#unidade47listening330 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade46listening326 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade46listening326'), respostas);
+            if($('#unidade47listening330 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade47listening330'), respostas);
             }else{
-                enviarAtividade($('#unidade46listening326'), respostas);
+                enviarAtividade($('#unidade47listening330'), respostas);
             }
         });
 
@@ -78,11 +82,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade46listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade46listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade47listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade47listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade46listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade46listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade47listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade47listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
