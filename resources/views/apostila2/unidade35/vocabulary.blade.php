@@ -9,9 +9,9 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade34"  data-etapa="vocabulary">
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade35"  data-etapa="vocabulary">
 
-				<h3 class="barlow">UNIT 34</h3>
+				<h3 class="barlow">UNIT 35</h3>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -19,21 +19,21 @@
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
 
-				<p>TO SWIM / well / in the lake / in a swimming pool / in the sea</p>
-				<p>TO TIE / the shoes / the knot</p>
-				<p>TO TRAIN / a group of people / someone / staff / a team</p>
+				<p>TO TRAVEL / alone / by yourself / with friends / abroad</p>
+				<p>TO VISIT / a friend / a city / a place</p>
+				<p>TO VOTE / in the elections / for a person / for an idea</p>
 
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
 
 				<ul class="lista-inline">
-					<li><b>HOPE</b></li>
-					<li><b>SAW</b></li>
-					<li><b>TAKE</b></li>
-					<li><b>ADVANTAGE</b></li>
-					<li><b>SKILLS</b></li>
-					<li><b>TO BE IN</b></li>
-					<li><b>WORRY</b></li>
-					<li><b>DEAL</li>
+					<li><b>PRETEND</b></li>
+					<li><b>IN ORDER</b></li>
+					<li><b>GO FOR</b></li>
+					<li><b>GATHERING</b></li>
+					<li><b>BRAINSTORMING</b></li>
+					<li><b>AT LEAST</b></li>
+					<li><b>TO BE IN TOUCH</b></li>
+					<li><b>INSPIRE</li>
 				</ul>							
 				
 			</div>

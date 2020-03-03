@@ -9,48 +9,34 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade35" data-etapa="understanding">
-				<h3 class="barlow">UNIT 35</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <div class="metade">
-                    <form id="unidade35understanding268" method="post">
-                        <p>
-                            1. What are students supposed to do from now on?<br>
-                            <input type="text" name="understanding268-1" placeholder="Responda aqui" class="full left-align" required>
-                        </p>
-                        <p>
-                            2. What’s Akira’s suggestion?<br>
-                            <input type="text" name="understanding268-2" placeholder="Responda aqui" class="full left-align" required>
-                        </p>
-                        <p>
-                            3. Before starting a project , what do professional usually do?<br>
-                            <input type="text" name="understanding268-3" placeholder="Responda aqui" class="full left-align" required>
-                        </p>
-                        <p>
-                            4. How many animations does John suggest form them to watch?<br>
-                            <input type="text" name="understanding268-4" placeholder="Responda aqui" class="full left-align" required>
-                        </p>
-                        <p>
-                            5. Why do they suggest watching animations?<br>
-                            <input type="text" name="understanding268-5" placeholder="Responda aqui" class="full left-align" required>
-                        </p>
-                        
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="35">
-                        <input type="hidden" name="atividade_id" value="268">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
-
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade17" data-etapa="listening">
+				<h3 class="barlow">UNIT 17</h3>
+                <h5 class="barlow">5 - LISTENING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
+                </audio>
+                <div class="clear"></div>                
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the passage and answer the questions.</h5>                
+                <form class="metade" id="unidade17listening176" method="post">                  
+                    <p>
+                        1 - Who is getting excited?                        
+                        <input type="text" placeholder="responda aqui !" name="listening176-1" class="full left-align" required>
+                    </p>
+                    <p>                    
+                        2 - What called their attention.
+                        <input type="text" placeholder="responda aqui !" name="listening176-2" class="full left-align" required>
+                    </p>
+                    <p>
+                        3 - How many companies are involved in the competition.
+                        <input type="text" placeholder="responda aqui !" name="listening176-3" class="full left-align" required>
+                    </p>                                                   
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="17">
+                    <input type="hidden" name="atividade_id" value="176">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
 			</div>
 		</div>
     </main>
@@ -62,21 +48,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade35understanding268").submit(function(e){
+        $("#unidade17listening176").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade35understanding268 input[type="text"]').each(function(index){
-                if(($('#unidade35understanding268 input[type="text"]').length - 1) == index){
+            $('#unidade17listening176 input[type="text"]').each(function(index){
+                if(($('#unidade17listening176 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade35understanding268 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade35understanding268'), respostas);
+            if($('#unidade17listening176 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade17listening176'), respostas);
             }else{
-                enviarAtividade($('#unidade35understanding268'), respostas);
+                enviarAtividade($('#unidade17listening176'), respostas);
             }
         });
 
@@ -96,11 +82,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade35understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade35understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade17listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade17listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade35understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade35understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade17listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade17listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

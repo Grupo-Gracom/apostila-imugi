@@ -9,8 +9,8 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade34" data-etapa="listening">
-				<h3 class="barlow">UNIT 34</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade35" data-etapa="listening">
+				<h3 class="barlow">UNIT 35</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -18,24 +18,22 @@
                 </audio>
                 <div class="clear"></div>
                 
-                <h5 class="barlow">A –  Listen to the audio and fill in the blanks with the missing words.</h5>
-                <form id="unidade34listening262" class="metade" method="post">
-                    <p>1. would you<input type="text" name="listening262-1" placeholder="Responda aqui" required>me a hand this weekend with my New York
-                    <input type="text" name="listening262-2" placeholder="Responda aqui" required>plan. Since you lived there you
-                    <input type="text" name="listening262-3" placeholder="Responda aqui" required>much more than me about the city. 
+                <h5 class="barlow">A – Listen to the audio and answer the questions below.</h5>
+                <form id="unidade35listening267" class="metade" method="post">
+                    <p>1. What is she supposed to know to start her plan?
+                        <input type="text" name="listening267-1" placeholder="Responda aqui" class="full left-align" required>
                     </p>
-                    <p>2. No problem. Just one thing. Would you
-                    <input type="text" name="listening262-4" placeholder="Responda aqui" required>if a
-                    <input type="text" name="listening262-5" placeholder="Responda aqui" required>my puppy with me.
-                    My wife is gonna be travelling and I have
-                    <input type="text" name="listening262-6" placeholder="Responda aqui" required>to take care of
-                    <input type="text" name="listening262-7" placeholder="Responda aqui" required>.
+                    <p>2. What’s the recommendation in case of emergencies?
+                        <input type="text" name="listening267-2" placeholder="Responda aqui" class="full left-align" required>
+                    </p>
+                    <p>3. Why thinking about all these topics is important?
+                        <input type="text" name="listening267-3" placeholder="Responda aqui" class="full left-align" required>
                     </p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="34">
-                    <input type="hidden" name="atividade_id" value="262">
+                    <input type="hidden" name="unidade_id" value="35">
+                    <input type="hidden" name="atividade_id" value="267">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
@@ -51,21 +49,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade34listening262").submit(function(e){
+        $("#unidade35listening267").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade34listening262 input[type="text"]').each(function(index){
-                if(($('#unidade34listening262 input[type="text"]').length - 1) == index){
+            $('#unidade35listening267 input[type="text"]').each(function(index){
+                if(($('#unidade35listening267 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade34listening262 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade34listening262'), respostas);
+            if($('#unidade35listening267 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade35listening267'), respostas);
             }else{
-                enviarAtividade($('#unidade34listening262'), respostas);
+                enviarAtividade($('#unidade35listening267'), respostas);
             }
         });
 
@@ -85,11 +83,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade34listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade34listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade35listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade35listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade34listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade34listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade35listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade35listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

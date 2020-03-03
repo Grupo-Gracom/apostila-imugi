@@ -9,8 +9,8 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade34" data-etapa="grammar">
-				<h3 class="barlow">UNIT 34</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade35" data-etapa="grammar">
+				<h3 class="barlow">UNIT 35</h3>
 				<h5 class="barlow">3 – GRAMMAR</h5>
 
 				<span class="play-audio">( Aperte o play )</span>
@@ -19,127 +19,146 @@
                 </audio>
                 <div class="clear"></div>     
                 
-                <h5 class="barlow" style="margin-top: 16px">A - WOULD YOU MIND / WOULD YOU MIND IF</h5>
-                <p>We use <b>Would you mind/if</b> to <b>politely</b> ask both <b>favors and permissions</b>. There’s a
-                    difference in the structure of both types of sentences. Take a look at the examples. </p>
+                <h5 class="barlow" style="margin-top: 16px">A - TO BE SUPPOSED TO</h5>
+                <p><b>To be supposed</b> to is used to say that someone is <b>expected (or not) to do something.</b></p>
                 <br>
                 <table class="metade center-align">
                     <tr>
-                        <td><p>Asking for favors - WOULD YOU MIND + VERB (ING)</p></td>
+                        <td><p><b>TO BE SUPPOSED TO</b></p></td>
                     </tr>
                     <tr>
-                        <td><p>Would you mind helping me tomorrow morning?</p></td>
+                        <td><p>Doctors <b>are supposed to</b> take care of their patients</p></td>
                     </tr>
                     <tr>
-                        <td><p>Would you mind sending me the file?</p></td>
+                        <td><p><b>I´m supposed to be</b> in the client´s office before 10 am.</p></td>
                     </tr>
                     <tr>
-                        <td><p>Asking for Permission - WOULD YOU MIND IF + SUBJECT + VERB IN THE PAST</p></td>
+                        <td><p>Cinema 4D <b>is supposed to be</b> very efficient for making animations.</p></td>
                     </tr>
                     <tr>
-                        <td><p>Would you mind if l left earlier today?</p></td>
+                        <td><p><b>(+), (-), (?)</b></p></td>
                     </tr>
                     <tr>
-                        <td><p>Would you mind If l called you tomorrow morning?</p></td>
+                        <td><p>(+) We <b>are supposed to</b> watch as many animations as we can</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>(-) We <b>are not supposed to watch</b> as many animations as we can.</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>(?) <b>Are</b> we <b>supposed to watch</b> as many animations as we can?</p></td>
                     </tr>
                 </table>
                 <br>
-                 <form id="unidade34grammar259" action="post">                    
+                <p class="barlow">1) Complete each statement or question with “(BE) AUPPOSED TO” in the present tense.
+                    Use the main verb provided.</p>
+                <form id="unidade35grammar264" action="post">                    
                     <p>
-                        1. Excuse me. Would you mind (put out)<input type="text" name="grammar259-1" placeholder="Responda aqui" required>
-                        your cigarette? It’s non-smoking area here. Oh I’m sorry, I didn’t know.
+                       1. The flight<input type="text" name="grammar264-1" placeholder="Responda aqui" required>at 10:00 this morning. (leave)
                     </p>                    
                     <p>
-                        2. Ma’am, would you mind (open)<input type="text" name="grammar259-2" placeholder="Responda aqui" required>up your luggage? I need to look inside. 
+                       2. I<input type="text" name="grammar264-2" placeholder="Responda aqui" required>some email to my students today. (send out)
                     </p>
                     <p>
-                        3. Would you mind (postpone)<input type="text" name="grammar259-3" placeholder="Responda aqui" required>the exam? No, it’s fine, I want everybody to be well prepared. 
+                       3. The garbage<input type="text" name="grammar264-3" placeholder="Responda aqui" required>today. (collect)
                     </p>
                     <p>
-                        4. Would you mind if I (use)<input type="text" name="grammar259-4" placeholder="Responda aqui" required>your phone to make a call. Not at all. Go ahead. 
+                       4.<input type="text" name="grammar264-4" placeholder="Responda aqui" required>these packages<input type="text" name="grammar264-5" placeholder="Responda aqui" required>to the post office? (go)
                     </p>
                     <p>
-                        5. While we are away, would you mind if you (take care)<input type="text" name="grammar259-5" placeholder="Responda aqui" required>of the cat? 
-                        I actually can’t because I will be out of town.
+                       5. We<input type="text" name="grammar264-6" placeholder="Responda aqui" required>in this classroom. We have to go next door. (meet - negative)
                     </p>
                     <p>
-                        6.  Would you mind If I (close)<input type="text" name="grammar259-6" placeholder="Responda aqui" required>the back door. I am freezing. No, you can close it. 
+                        6. What<input type="text" name="grammar264-7" placeholder="Responda aqui" required>they<input type="text" name="grammar264-8" placeholder="Responda aqui" required>with their unused notebooks? Save them? (do)
                     </p>
                     <p>
-                        7. Would you mind (turn up)<input type="text" name="grammar259-7" placeholder="Responda aqui" required>the volume? I can’t hear anything. No, not at all.
+                        7. Hurry! You<input type="text" name="grammar264-9" placeholder="Responda aqui" required>at work by 9:00. (be)
                     </p>
                     <p>
-                        8.  I can’t figure out how to solve this problem. Would you mind (help)<input type="text" name="grammar259-8" placeholder="Responda aqui" required>me?  
+                        8. My wife<input type="text" name="grammar264-10" placeholder="Responda aqui" required>dinner tonight. (make)
                     </p>
                     <p>
-                        9. Would you mind if I (sit)<input type="text" name="grammar259-9" placeholder="Responda aqui" required>down? No, go ahead.  
+                        9. That business<input type="text" name="grammar264-11" placeholder="Responda aqui" required>its doors this week because it isn’t making any money. (close)
                     </p>
                     <p>
-                        10. I am not ready for my presentation yet. Would you mind If I (present)<input type="text" name="grammar259-10" placeholder="Responda aqui" required>next week?
-                        That’s OK. I will give you another week.
+                        10.<input type="text" name="grammar264-12" placeholder="Responda aqui" required>you<input type="text" name="grammar264-13" placeholder="Responda aqui" required>this homework before you go to sleep? (finish – negative)
                     </p>
-                    <p>
-                        11. Would you mind (open)<input type="text" name="grammar259-11" placeholder="Responda aqui" required>a window, please? 
-                    </p>
-                    <p>
-                        12. Would you mind (help)<input type="text" name="grammar259-12" placeholder="Responda aqui" required>me carry my bag, please? 
-                    </p>
-                    <p>
-                        13. Would you mind if I (come)<input type="text" name="grammar259-13" placeholder="Responda aqui" required>with you? 
-                    </p>
-                    <p>
-                        14. Would you mind if he (become)<input type="text" name="grammar259-14" placeholder="Responda aqui" required>your cigarette, please? 
-                    </p>
-                    <p>
-                        15. Would you mind (call)<input type="text" name="grammar259-15" placeholder="Responda aqui" required>me five minutes later? 
-                    </p>
-                    <p>
-                        16. Would you mind if they (join)<input type="text" name="grammar259-16" placeholder="Responda aqui" required>us for dinner? 
-                    </p>
-                    <p>
-                        17. Would you mind if I (sit)<input type="text" name="grammar259-17" placeholder="Responda aqui" required>here 
-                    </p>
-                    <p>
-                        18. Would you mind (clean)<input type="text" name="grammar259-18" placeholder="Responda aqui" required>up your mess? 
-                    </p>
-                    <p>
-                        19. Would you mind if I (borrow)<input type="text" name="grammar259-19" placeholder="Responda aqui" required>your car tonight? 
-                    </p>
-                    <p>
-                        20. Would you mind (open)<input type="text" name="grammar259-20" placeholder="Responda aqui" required>(open) the door for me, please? 
-                    </p>
+                    
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="34">
-                    <input type="hidden" name="atividade_id" value="259">
+                    <input type="hidden" name="unidade_id" value="35">
+                    <input type="hidden" name="atividade_id" value="264">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 <br>
+                <p class="barlow">2) Complete each statement or question with “(BE) SUPPOSED TO” in the past tense. Use
+                    the main verb provided.</p>
+                <form id="unidade35grammar265" action="post">                    
+                    <p>
+                       1. She<input type="text" name="grammar265-1" placeholder="Responda aqui" required>me here at 12:30. Where is she? (meet)
+                    </p>                    
+                    <p>
+                       2. His car<input type="text" name="grammar265-2" placeholder="Responda aqui" required>by now, but it’s still in the garage. (fix - passive)
+                    </p>
+                    <p>
+                       3. <input type="text" name="grammar265-3" placeholder="Responda aqui" required>you<input type="text" name="grammar265-4" placeholder="Responda aqui" required> to that meeting? (go - negative)
 
-                <p class="barlow">2) Write a six-line dialogue with the following situation.</p>
-                <form id="unidade34grammar260" class="metade" action="post">
-                    <p>a. A client is complaining about the colors of his pictures.</p>
-                    <textarea name="grammar260-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
-                        
-                        <div class="clear"></div>
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="34">
-                        <input type="hidden" name="atividade_id" value="260">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>       
-                <form id="unidade34grammar261" class="metade" action="post">
-                    <p>b. The illustrator is proposing some ideas to solve the problem.</p>               
-                    <textarea name="grammar261-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
-                        
-                        <div class="clear"></div>
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="34">
-                        <input type="hidden" name="atividade_id" value="261">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                 
+                    </p>
+                    <p>
+                       4. I<input type="text" name="grammar265-5" placeholder="Responda aqui" required>my brother yesterday, but then he called and said he didn’t need it. (help)
+                    </p>
+                    <p>
+                       5. We<input type="text" name="grammar265-6" placeholder="Responda aqui" required>a baseball game today, but it rained and the game got called off. (see)
+                    </p>
+                    <p>
+                        6. This chicken<input type="text" name="grammar265-7" placeholder="Responda aqui" required>, but it was left out too long and now it’s spoiled. (refrigerate - passive)
+                    </p>
+                    <p>
+                        7. It<input type="text" name="grammar265-8" placeholder="Responda aqui" required>, last night. (rain - negative)
+                    </p>
+                    <p>
+                        8. What<input type="text" name="grammar265-9" placeholder="Responda aqui" required>I<input type="text" name="grammar265-10" placeholder="Responda aqui" required>today? I can’t remember. (do)
+                    </p>
+                    <p>
+                        9. The newspaper<input type="text" name="grammar265-11" placeholder="Responda aqui" required>before 7:00. Where is it? (deliver - passive)
+                    </p>
+                    <p>
+                        10.The baby<input type="text" name="grammar265-12" placeholder="Responda aqui" required>a couple of days ago. (bear - passive)
+                    </p>
+                    
+                    <div class="clear"></div> 
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="35">
+                    <input type="hidden" name="atividade_id" value="265">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+
+                <p class="barlow">3) Think about the professions below. What ARE THEY SUPPOSED TO DO.</p>
+                <form id="unidade35grammar266" class="metade" action="post">
+                    
+                    <ol>
+                        <li><p>Web designer</p></li>
+                        <li><p>Movie director.</p></li>
+                        <li><p>Story board creator</p></li>
+                        <li><p>Magazine editor.</p></li>
+                        <li><p>Art finisher.</p></li>
+                    </ol>
+
+                    <p>1.<input type="text" name="grammar266-1" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>2.<input type="text" name="grammar266-2" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>3.<input type="text" name="grammar266-3" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>4.<input type="text" name="grammar266-4" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p>5.<input type="text" name="grammar266-5" placeholder="Responda aqui" class="full left-align" required></p>                    
+                                        
+                    <div class="clear"></div> 
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="35">
+                    <input type="hidden" name="atividade_id" value="266">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+                  
 			</div>
 		</div>
     </main>
@@ -152,45 +171,60 @@
             checkAtividade(atividade_id, inputType);
         });
 
-        $("#unidade34grammar259").submit(function(e){
+        $("#unidade35grammar264").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade34grammar259 input[type="text"]').each(function(index){
-                if(($('#unidade34grammar259 input[type="text"]').length - 1) == index){
+            $('#unidade35grammar264 input[type="text"]').each(function(index){
+                if(($('#unidade35grammar264 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade34grammar259 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade34grammar259'), respostas);
+            if($('#unidade35grammar264 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade35grammar264'), respostas);
             }else{
-                enviarAtividade($('#unidade34grammar259'), respostas);
+                enviarAtividade($('#unidade35grammar264'), respostas);
             }
         });
 
-        $("#unidade34grammar260").submit(function(e){
+        $("#unidade35grammar265").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade34grammar260 textarea').attr("name")+'":"'+$('#unidade34grammar260 textarea').val()+'"}';
-            if($('#unidade34grammar260 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade34grammar260'), respostas);
+            var respostas = '{';
+            $('#unidade35grammar265 input[type="text"]').each(function(index){
+                if(($('#unidade35grammar265 input[type="text"]').length - 1) == index){
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
+                }else{
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
+                }
+            });
+            if($('#unidade35grammar265 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade35grammar265'), respostas);
             }else{
-                enviarAtividade($('#unidade34grammar260'), respostas);
+                enviarAtividade($('#unidade35grammar265'), respostas);
             }
         });
 
-        $("#unidade34grammar261").submit(function(e){
+        $("#unidade35grammar266").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade34grammar261 textarea').attr("name")+'":"'+$('#unidade34grammar261 textarea').val()+'"}';
-            if($('#unidade34grammar261 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade34grammar261'), respostas);
+            var respostas = '{';
+            $('#unidade35grammar266 input[type="text"]').each(function(index){
+                if(($('#unidade35grammar266 input[type="text"]').length - 1) == index){
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
+                }else{
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
+                }
+            });
+            if($('#unidade35grammar266 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade35grammar266'), respostas);
             }else{
-                enviarAtividade($('#unidade34grammar261'), respostas);
+                enviarAtividade($('#unidade35grammar266'), respostas);
             }
         });
+        
 
         function checkAtividade(atividade_id){
             request = $.ajax({
@@ -208,13 +242,13 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade34grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade34grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade34grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade34grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade35grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade35grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade35grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade35grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade34grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade34grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade35grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade35grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
