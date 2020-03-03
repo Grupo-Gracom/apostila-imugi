@@ -9,37 +9,37 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade52" data-etapa="understanding">
-				<h3 class="barlow">UNIT 52</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade53" data-etapa="understanding">
+				<h3 class="barlow">UNIT 53</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade52understanding360" method="post">
+                    <form id="unidade53understanding366" method="post">
                         <p>
-                            1 -  What happened after Matrix release ?
-                            <input type="text" name="understanding360-1" class="full left-align" placeholder="Responda aqui" required>
+                            1 -  Did Akira and John like justice league?
+                            <input type="text" name="understanding366-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 -  How does Gleen see matrix?
-                            <input type="text" name="understanding360-2" class="full left-align" placeholder="Responda aqui" required>
+                            2 -  What did they read about the movie?
+                            <input type="text" name="understanding366-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 -  What is important for Gleen’s career?
-                            <input type="text" name="understanding360-3" class="full left-align" placeholder="Responda aqui" required>
+                            3 -  What has the movie industry done to produce better movies?
+                            <input type="text" name="understanding366-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 -  What does Akira do to be informed about the movie productions?
-                            <input type="text" name="understanding360-4" class="full left-align" placeholder="Responda aqui" required>
+                            4 -  What does Gleen say about the fortunes of the actors and actresses?
+                            <input type="text" name="understanding366-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 -  When was Akira born ?
-                            <input type="text" name="understanding360-5" class="full left-align" placeholder="Responda aqui" required>
+                            5 -  What does he say about anonymous actors and actresses?
+                            <input type="text" name="understanding366-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                     
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="52">
-                        <input type="hidden" name="atividade_id" value="360">
+                        <input type="hidden" name="unidade_id" value="53">
+                        <input type="hidden" name="atividade_id" value="366">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -54,21 +54,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade52understanding360").submit(function(e){
+        $("#unidade53understanding366").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade52understanding360 input[type="text"]').each(function(index){
-                if(($('#unidade52understanding360 input[type="text"]').length - 1) == index){
+            $('#unidade53understanding366 input[type="text"]').each(function(index){
+                if(($('#unidade53understanding366 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade52understanding360 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade52understanding360'), respostas);
+            if($('#unidade53understanding366 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade53understanding366'), respostas);
             }else{
-                enviarAtividade($('#unidade52understanding360'), respostas);
+                enviarAtividade($('#unidade53understanding366'), respostas);
             }
         });
 
@@ -88,11 +88,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade52understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade52understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade53understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade53understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade52understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade52understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade53understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade53understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
