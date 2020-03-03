@@ -19,18 +19,16 @@
                 <div class="clear"></div>
                 
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
-                <form id="unidade3listening116" method="post">
-                    <p>“Hello,<input type="text" name="listening116-1" required> <input type="text" name="listening116-2" required>and<input type="text" name="listening116-3" required> here at Maxon
-                        <input type="text" name="listening116-4" required> on the IBC<input type="text" name="listening116-5" required>.We’ve got a
-                        <input type="text" name="listening116-6" required> <input type="text" name="listening116-7" required>up of presenters here. This one is not only a
-                        <input type="text" name="listening116-8" required> <input type="text" name="listening116-9" required>of mine, he’s also an <input type="text" name="listening116-10" required>
-                        <input type="text" name="listening116-11"> doing a lots of stuff for , for example for Apple, BMW, Wacom, He<input type="text" name="listening116-12" required> for many companies. He’s a
-                        <input type="text" name="listening116-13" required>working with three other guys I think.”</p>
+                <form id="unidade4listening121" method="post">
+                    <p>“My name is Joana Henley. I work as an illustrator, painter and live artist.<input type="text" name="listening121-1" placeholder="Responda aqui" required>the
+                        <input type="text" name="listening121-2" placeholder="Responda aqui" required>you<input type="text" name="listening121-3" placeholder="Responda aqui" required>how to
+                        <input type="text" name="listening121-4" placeholder="Responda aqui" required> portraits,<input type="text" name="listening121-5" placeholder="Responda aqui" required>, color and organic
+                        <input type="text" name="listening121-6" placeholder="Responda aqui" required>to create a<input type="text" name="listening121-7" placeholder="Responda aqui" required>."</p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="3">
-                    <input type="hidden" name="atividade_id" value="116">
+                    <input type="hidden" name="unidade_id" value="4">
+                    <input type="hidden" name="atividade_id" value="121">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
@@ -46,21 +44,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade3listening116").submit(function(e){
+        $("#unidade4listening121").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade3listening116 input[type="text"]').each(function(index){
-                if(($('#unidade3listening116 input[type="text"]').length - 1) == index){
+            $('#unidade4listening121 input[type="text"]').each(function(index){
+                if(($('#unidade4listening121 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade3listening116 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade3listening116'), respostas);
+            if($('#unidade4listening121 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade4listening121'), respostas);
             }else{
-                enviarAtividade($('#unidade3listening116'), respostas);
+                enviarAtividade($('#unidade4listening121'), respostas);
             }
         });
 
@@ -80,11 +78,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade3listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade3listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade4listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade4listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade3listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade3listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade4listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade4listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

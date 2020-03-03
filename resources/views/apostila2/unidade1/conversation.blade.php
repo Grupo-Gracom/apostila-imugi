@@ -28,8 +28,8 @@
 							learn how to use Cinema 4D, Unity, Blender and Cryengine. Many famous movie, illustration and game
 							creation companies like, Pixar, Dc comics, Marvel, Rockstar and others use these programs. So guys,
 							are you ready to start the game?</p>
-				<p>Grammar: Review of Verb to be, </p>
-				<p>Vocabulary: Greetings, Cardinal numbers, Ordinal numbers,</p>
+				<p><b>Grammar:</b> Review of Verb to be, </p>
+				<p><b>Vocabulary:</b> Greetings, Cardinal numbers, Ordinal numbers,</p>
 				<figure>
 					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
 				</figure>

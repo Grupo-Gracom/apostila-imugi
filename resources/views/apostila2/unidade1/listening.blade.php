@@ -20,10 +20,10 @@
                 
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade1listening104" method="post">
-                    <p>“Ok. My name is Lars Scholten. I’m a<input type="text" name="listening104-1" required>from 
-                    <input type="text" name="listening104-2" required>an also a<input type="text" name="listening104-3" required>
-                    at college of<input type="text" name="listening104-4" required>in<input type="text" name="listening104-5" required>.<input type="text" name="listening104-6" required>
-                    I want to<input type="text" name="listening104-7" required>you some new features of Cinema 4D R16.”</p>
+                    <p>“Ok. My name is Lars Scholten. I’m a<input type="text" name="listening104-1" placeholder="Responda aqui" required>from 
+                    <input type="text" name="listening104-2" placeholder="Responda aqui" required>an also a<input type="text" name="listening104-3" placeholder="Responda aqui" required>
+                    at college of<input type="text" name="listening104-4" placeholder="Responda aqui" required>in<input type="text" name="listening104-5" placeholder="Responda aqui" required>.<input type="text" name="listening104-6" placeholder="Responda aqui" required>
+                    I want to<input type="text" name="listening104-7" placeholder="Responda aqui" required>you some new features of Cinema 4D R16.”</p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

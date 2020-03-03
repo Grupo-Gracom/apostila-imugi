@@ -105,15 +105,15 @@
                 <p><b>EXERCISES:</b></p>
                 <h5 class="barlow">A - Choose the best answer:</h5>
                 <form id="unidade1grammar100" method="post">
-                    <p>1. Maggie and Carol <input type="text" name="grammar100-1" required> designers.</p>
+                    <p>1. Maggie and Carol <input type="text" name="grammar100-1" placeholder="Responda aqui" required> designers.</p>
                     <p class="espacamentoWord">a)am - b)are - c)is - d)isn’t</p>
-                    <p>2. Sue <input type="text" name="grammar100-2" required> a Youtuber.</p>
+                    <p>2. Sue <input type="text" name="grammar100-2" placeholder="Responda aqui" required> a Youtuber.</p>
                     <p class="espacamentoWord">a)are not  - b)is - c)are - d)am</p>
-                    <p>3. Mark Steven <input type="text" name="grammar100-3" required> a student at Gracon. It <input type="text" name="grammar100-4" required>a Visual Art school.</p>
+                    <p>3. Mark Steven <input type="text" name="grammar100-3" placeholder="Responda aqui" required> a student at Gracon. It <input type="text" name="grammar100-4" placeholder="Responda aqui" required>a Visual Art school.</p>
                     <p class="espacamentoWord">a)am/is - b)are/is - c)is/am - d)is/is</p>
-                    <p>4. James <input type="text" name="grammar100-5" required> from Spain. I <input type="text" name="grammar100-6" required> from Turkey.</p>
+                    <p>4. James <input type="text" name="grammar100-5" placeholder="Responda aqui" required> from Spain. I <input type="text" name="grammar100-6" placeholder="Responda aqui" required> from Turkey.</p>
                     <p class="espacamentoWord">a)is/am - b)are/is - c)am/is - d)is/are</p>
-                    <p>5. You and I <input type="text" name="grammar100-7" required> at the same age.</p>
+                    <p>5. You and I <input type="text" name="grammar100-7" placeholder="Responda aqui" required> at the same age.</p>
                     <p class="espacamentoWord">a)am - b)isn’t - c)are - d)is</p>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -127,10 +127,14 @@
                 <h5 class="barlow">B - Complete this card by using “AM, IS, ARE, AM NOT , ISN’T,AREN’T”:</h5>
 				<form id="unidade1grammar101" method="post">
                     <p>Hello!</p>
-                    <p>My name <input type="text" name="grammar101-1" required>is<input type="text" name="grammar101-2" required>Gleen, and this<input type="text" name="grammar101-3" required>is<input type="text" name="grammar101-4" required>Carlos.</p>
-                    <p>He <input type="text" name="grammar101-5" required>my friend. Carlos<input type="text" name="grammar101-6" required>twenty four years old and I<input type="text" name="grammar101-7" required>32 years old.</p>
-                    <p>I <input type="text" name="grammar101-8" required>A teacher an he<input type="text" name="grammar101-9" required>a designer. We<input type="text" name="grammar101-10" required>Canadians. We<input type="text" name="grammar101-11" required>Americans.</p>
-                    <p>We <input type="text" name="grammar101-12" required>from Chicago. Chicago<input type="text" name="grammar101-13" required>in the United States.</p>
+                    <p>My name <input type="text" name="grammar101-1" placeholder="Responda aqui" required>is<input type="text" name="grammar101-2" placeholder="Responda aqui" required>
+                    Gleen, and this<input type="text" name="grammar101-3" placeholder="Responda aqui" required>is<input type="text" name="grammar101-4" placeholder="Responda aqui" required>Carlos.</p>
+                    <p>He <input type="text" name="grammar101-5" placeholder="Responda aqui" required>my friend. Carlos<input type="text" name="grammar101-6" placeholder="Responda aqui" required>
+                    twenty four years old and I<input type="text" name="grammar101-7" placeholder="Responda aqui" required>32 years old.</p>
+                    <p>I <input type="text" name="grammar101-8" placeholder="Responda aqui" required>A teacher an he<input type="text" name="grammar101-9" placeholder="Responda aqui" required>
+                    a designer. We<input type="text" name="grammar101-10" placeholder="Responda aqui" required>
+                    Canadians. We<input type="text" name="grammar101-11" placeholder="Responda aqui" required>Americans.</p>
+                    <p>We <input type="text" name="grammar101-12" placeholder="Responda aqui" required>from Chicago. Chicago<input type="text" name="grammar101-13" placeholder="Responda aqui" required>in the United States.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
@@ -140,12 +144,13 @@
 
                 <h5 class="barlow">C - Build up good sentences.</h5>
 				<form id="unidade1grammar102" method="post">
-                    <p>1. Mike / photographer (-) <input type="text" name="grammar102-1" required>Mike isn’t a photographer<input type="text" name="grammar102-2" required></p>
+                    <p>1. Mike / photographer (-) <input type="text" name="grammar102-1" placeholder="Responda aqui" required>
+                    Mike isn’t a photographer<input type="text" name="grammar102-2" placeholder="Responda aqui" required></p>
                     <div class="metade">
-                        <p>2. Charlie and Chris / policemen(+) <input type="text" name="grammar102-3" class="full left-align" required></p>
-                        <p>3. Danny and Rick / singers (-) <input type="text" name="grammar102-4" class="full left-align" required></p>
-                        <p>4. Salem and Lucky / friends (+) <input type="text" name="grammar102-5" class="full left-align" required></p>
-                        <p>5. Rome / London / cities (+) <input type="text" name="grammar102-6" class="full left-align" required></p>
+                        <p>2. Charlie and Chris / policemen(+) <input type="text" name="grammar102-3" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>3. Danny and Rick / singers (-) <input type="text" name="grammar102-4" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>4. Salem and Lucky / friends (+) <input type="text" name="grammar102-5" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>5. Rome / London / cities (+) <input type="text" name="grammar102-6" placeholder="Responda aqui" class="full left-align" required></p>
                     </div>
                                         
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -158,17 +163,14 @@
                 <h5 class="barlow">D - Prepare your personal presentation. Tell us your name, age, profession, nationality and any other thing you want to share.</h5>
 				<form id="unidade1grammar103" method="post">
                     <div class="metade">
-                        <p><input type="text" name="grammar103-1" class="full left-align" required></p>
+                        <p><input type="text" name="grammar103-1" placeholder="Responda aqui" class="full left-align" required></p>
                     </div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
                     <input type="hidden" name="atividade_id" value="103">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-
-
-                
+                </form>                
 			</div>
 		</div>
     </main>

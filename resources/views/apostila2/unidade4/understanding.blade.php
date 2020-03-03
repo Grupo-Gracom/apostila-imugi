@@ -13,32 +13,32 @@
 				<h3 class="barlow">UNIT 04</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <div class="metade">
-                    <form id="unidade3understanding117" method="post">
+                    <form id="unidade4understanding122" method="post">
                         <p>
-                            1. What does Laura do?<br>
-                            <input type="text" name="understanding117-1" class="full left-align" required>
+                            1. What does Gleen recommend students to do to learn more?<br>
+                            <input type="text" name="understanding122-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            2. Why does she like her job?<br>
-                            <input type="text" name="understanding117-2" class="full left-align" required>
+                            2. What does Akira like to do to improve his knowledge?<br>
+                            <input type="text" name="understanding122-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            3 - Where does john work<br>
-                            <input type="text" name="understanding117-3" class="full left-align" required>
+                            3 - How many forums does Laura participate of?<br>
+                            <input type="text" name="understanding122-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            4 - What doesn’t John like about his job?<br>
-                            <input type="text" name="understanding117-4" class="full left-align" required>
+                            4 - How often does she participate of special events?<br>
+                            <input type="text" name="understanding122-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            5 - In Akira’s opinion Why is it important to finish his job on time?<br>
-                            <input type="text" name="understanding117-5" class="full left-align" required>
+                            5 - What’s Johns favorite way to study?<br>
+                            <input type="text" name="understanding122-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="3">
-                        <input type="hidden" name="atividade_id" value="117">
+                        <input type="hidden" name="unidade_id" value="4">
+                        <input type="hidden" name="atividade_id" value="122">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -62,21 +62,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade3understanding117").submit(function(e){
+        $("#unidade4understanding122").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade3understanding117 input[type="text"]').each(function(index){
-                if(($('#unidade3understanding117 input[type="text"]').length - 1) == index){
+            $('#unidade4understanding122 input[type="text"]').each(function(index){
+                if(($('#unidade4understanding122 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade3understanding117 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade3understanding117'), respostas);
+            if($('#unidade4understanding122 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade4understanding122'), respostas);
             }else{
-                enviarAtividade($('#unidade3understanding117'), respostas);
+                enviarAtividade($('#unidade4understanding122'), respostas);
             }
         });
 
@@ -96,11 +96,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade3understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade3understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade4understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade4understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade3understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade3understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade4understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade4understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

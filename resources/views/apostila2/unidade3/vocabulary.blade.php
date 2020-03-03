@@ -38,8 +38,8 @@
 				
 				<div class="metade">
 					<form id="unidade3vocabulary112" method="post">
-						<p><input type="text" name="vocabulary112-1" class="full" required></p>
-						<p><input type="text" name="vocabulary112-2" class="full" required></p>
+						<p><input type="text" name="vocabulary112-1" placeholder="Responda aqui" class="full left-align" required></p>
+						<p><input type="text" name="vocabulary112-2" placeholder="Responda aqui" class="full left-align" required></p>
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
