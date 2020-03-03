@@ -5,6 +5,7 @@
 *::-webkit-scrollbar-track {background-color: #333;}
 *::-webkit-scrollbar-thumb {background: #999;}
 *::-webkit-scrollbar-button{background-color: #999;}
+a{display: block; color: #7dc242;} /* reseta links para display block */
 body{background-color: rgba(125, 194, 66, 0.15);}
 .mini-title{font-size: 14px;letter-spacing: 1px;font-weight: bold;}
 .marcador{outline: 1px solid red;outline-offset: -1px;}
@@ -22,8 +23,11 @@ body{background-color: rgba(125, 194, 66, 0.15);}
 .right-align{text-align: right !important;}
 .metade{width: calc(50% - 8px);}
 .metade.esquerda{float: left;}
+.esquerda{float: left;}
 .metade.direita{float: right;}
+.direita{float: right;}
 .umterco{width: calc(33.333% - 11px);float:left;}
+figure.umterco{margin: 5px;} /*joao */
 .umterco:nth-child(2){margin:0 16px;}
 .doisterco{width: calc(66.666% - 11px);}
 .espacamentoWord{word-spacing: 34px;}
@@ -128,9 +132,10 @@ main .capas li.deactive img{filter: grayscale(1);}
 .versus{text-align: center; margin: 50% ; background-color: #dddddd; }
 #unidade20understanding56 form {padding-right: 26px;}
 .bordaSilples{border: solid 2px black; position: 16px; width: 55%; padding: 5px;}
-.bordaVerde{border: solid 2px #7dc242; position: 16px; width: 55%; padding: 10px;}
+.bordaVerde{border: solid 2px #7dc242; position: 16px; display: inline-block; padding: 10px;}
 .marginCustomizada{margin-bottom: 3px;}
 .tabelaGramar11 {width: 60%;}
+.quadradoVerdeGrande p{background-color: #3bac44; color: black; display: inline-block; padding: 16px; font-size: 80px; width: 240px;} /* (joao) quadrado unidade 17 gramar apostila 2 */
 
 /* #tabelaGramar12 {width: 80%;} */
 

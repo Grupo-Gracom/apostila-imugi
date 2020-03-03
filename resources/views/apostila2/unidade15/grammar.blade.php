@@ -246,7 +246,7 @@
                 if(response == 0){
                     console.log("não veio nada");
                 }else{
-                    var objeto = JSON.parse(response[0].resposta_respostas);<b>
+                    var objeto = JSON.parse(response[0].resposta_respostas);
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){

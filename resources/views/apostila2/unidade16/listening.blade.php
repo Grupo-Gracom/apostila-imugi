@@ -9,37 +9,29 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade14" data-etapa="understanding">
-                <h3 class="barlow">UNIT 14</h3>
-                <h5 class="barlow">6 - UNDERSTANDING</h5>                               
-                <form class="metade" id="unidade14understanding164" method="post">                    
-                    <p>
-                        1 - What does Gleen say about the physiotherapy?<br>                        
-                        <input type="text" placeholder="responda aqui !" name="understanding164-1" class="full left-align" required>
-                    </p>
-                    <p>                    
-                        2 - Who took care of him?<br>
-                        <input type="text" placeholder="responda aqui !" name="understanding164-2" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 - What happened to Laura in the previous week?<br>
-                        <input type="text" placeholder="responda aqui !" name="understanding164-3" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - What was the reaction of the clients?<br>
-                        <input type="text" placeholder="responda aqui !" name="understanding164-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - How did Laura and her team felt in the beginning of the presentation?<br>
-                        <input type="text" placeholder="responda aqui !" name="understanding164-5" class="full left-align" required>
-                    </p>                    
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade16" data-etapa="listening">
+				<h3 class="barlow">UNIT 16</h3>
+                <h5 class="barlow">5 - LISTENING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
+                </audio>
+                <div class="clear"></div>               
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                
+                <form class="full" id="unidade16listening171" method="post">                   
+                    <p>Where <input type="text" placeholder="responda aqui !" name="listening171-1" class="inputmedio left-align" required> 
+                    the candidates for the position ? For <input type="text" placeholder="responda aqui !" name="listening171-2" class="inputmedio left-align" required>, 
+                    your sister was the best movie maker to <input type="text" placeholder="responda aqui !" name="listening171-3" class="inputmedio left-align" required>
+                    in this project. She knows a lot. She was the <input type="text" placeholder="responda aqui !" name="listening171-4" class="inputmedio left-align" required> 
+                    video maker to use Sony Vegas . I get <input type="text" placeholder="responda aqui !" name="listening171-5" class="inputmedio left-align" required> 
+                    with her <input type="text" placeholder="responda aqui !" name="listening171-6" class="inputmedio left-align" required>.</p>                                      
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="14">
-                    <input type="hidden" name="atividade_id" value="164">
+                    <input type="hidden" name="unidade_id" value="16">
+                    <input type="hidden" name="atividade_id" value="171">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-            </div>
+			</div>
 		</div>
     </main>
     <script>
@@ -50,21 +42,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade14understanding164").submit(function(e){
+        $("#unidade16listening171").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade14understanding164 input[type="text"]').each(function(index){
-                if(($('#unidade14understanding164 input[type="text"]').length - 1) == index){
+            $('#unidade16listening171 input[type="text"]').each(function(index){
+                if(($('#unidade16listening171 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade14understanding164 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade14understanding164'), respostas);
+            if($('#unidade16listening171 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade16listening171'), respostas);
             }else{
-                enviarAtividade($('#unidade14understanding164'), respostas);
+                enviarAtividade($('#unidade16listening171'), respostas);
             }
         });
 
@@ -84,11 +76,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade14understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade14understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade16listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade16listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade14understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade14understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade16listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade16listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
