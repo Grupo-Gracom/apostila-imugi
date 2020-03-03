@@ -25,22 +25,22 @@
                 <br>
                 <table class="metade center-align">
                     <tr>
-                        <td><p>Asking for favors - WOULD YOU MIND + VERB (ING)</p></td>
+                        <td><p><b>Asking for favors - WOULD YOU MIND + VERB (ING)</b></p></td>
                     </tr>
                     <tr>
-                        <td><p>Would you mind helping me tomorrow morning?</p></td>
+                        <td><p><b>Would</b> you <b>mind helping</b> me tomorrow morning?</p></td>
                     </tr>
                     <tr>
-                        <td><p>Would you mind sending me the file?</p></td>
+                        <td><p><b>Would</b> you <b>mind sending</b> me the file?</p></td>
                     </tr>
                     <tr>
-                        <td><p>Asking for Permission - WOULD YOU MIND IF + SUBJECT + VERB IN THE PAST</p></td>
+                        <td><p><b>Asking for Permission - WOULD YOU MIND IF + SUBJECT + VERB IN THE PAST</b></p></td>
                     </tr>
                     <tr>
-                        <td><p>Would you mind if l left earlier today?</p></td>
+                        <td><p><b>Would</b> you <b>mind if l left</b> earlier today?</p></td>
                     </tr>
                     <tr>
-                        <td><p>Would you mind If l called you tomorrow morning?</p></td>
+                        <td><p><b>Would</b> you <b>mind If l called</b> you tomorrow morning?</p></td>
                     </tr>
                 </table>
                 <br>

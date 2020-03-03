@@ -123,6 +123,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade table,
 #unidade table tr,
 #unidade table td{border: none;}
+#unidade table .vertical-align {vertical-align: middle;}
 #unidade table h5,
 #unidade table p{margin: 0;}
 .versus{text-align: center; margin: 50% ; background-color: #dddddd; }

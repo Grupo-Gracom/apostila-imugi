@@ -10,32 +10,26 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade34" data-etapa="conversation">
-				<h3 class="barlow">UNIT 34</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade35" data-etapa="conversation">
+				<h3 class="barlow">UNIT 35</h3>
 				<h5 class="barlow">2 - CONVERSATION</h5>
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Hello guys, how’s it going? I hope you are prepared for the second part of our
-					course. We’ll have the chance to debate about movie making and etc. We saw the
-					functions of cinema 4D. Some details about Unity and something about blender.
-					Actually, I saw some animations with them and they are awesome. Ok, let’s start.
-					Would you mid if I asked you something?</p>
-				<p><b>Students:</b> Of course not, teacher</p>
-				<p><b>Gleen:</b> Ok, what do you think about starting a project following all the steps from the
-					beginning to the end to create a 2 minutes animation.</p>
-				<p><b>Laura:</b> Wow. It would be fantastic. We could take advantage of our specific skills to start
-						the project. Great idea teacher. I’m in.</p>
-				<p><b>John:</b> Me too teacher.</p>
-				<p><b>Akira:</b> Awesome teacher. But, Would you mind helping me with the creation of the story.
-					I’m not that creative.</p>
-				<p><b>Laura and John:</b> Don’t worry Akira, we help you with the story and you help us with
-					Drawings.</p>
-				<p><b>Akira:</b> Deal guys.</p>
-				<p><b>Gleen:</b> Ok, then let’s get down to business.</p>
-				<p> (to be continued…)</p>
+				<p><b>Gleen:</b> Guys, I’ll give you some time to talk about the project ok. 15 minutes. Pretend
+					this is a real project. You’re supposed to act as professional movie makers from now on,
+					all right? Stt Great teacher. Ok. Let’s start.</p>
+				<p><b>Akira:</b> Guys , in order to start, we could search for some references. Since we’re supposed to act as professionals, I believe that this would be the first step. Usually, when
+					they want to start a project they go for information and later, after gathering as much as
+					they can, they start brainstorming what to do. What do you think about it?</p>
+				<p><b>John:</b> Awesome. What if we start watching at least 4 different animations. We would be
+					in touch with real productions that could inspire us.
+					tLaura: That’s it. So let’s start ok. For the next week, we should watch at least 4 different
+					animations and bring as many notes as we can.</p>
+				<p><b>Gleen:</b> Great guys. See you I the next class ok.</p>
+				
 				<figure>
 					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
 				</figure>
