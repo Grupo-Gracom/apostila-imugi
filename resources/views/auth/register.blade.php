@@ -12,6 +12,19 @@
                         @csrf
 
                         <div class="form-group row">
+                            <label for="matricula" class="col-md-4 col-form-label text-md-right">{{ __('Matricula') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="matricula" type="text" class="form-control @error('matricula') is-invalid @enderror" name="matricula" value="{{ old('matricula') }}" required autocomplete="matricula" autofocus>
+
+                                @error('matricula')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
                             <div class="col-md-6">
