@@ -9,37 +9,37 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade53" data-etapa="understanding">
-				<h3 class="barlow">UNIT 53</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade54" data-etapa="understanding">
+				<h3 class="barlow">UNIT 54</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade53understanding366" method="post">
+                    <form id="unidade54understanding372" method="post">
                         <p>
-                            1 -  Did Akira and John like justice league?
-                            <input type="text" name="understanding366-1" class="full left-align" placeholder="Responda aqui" required>
+                            1 -  What happened to some Hollywood actors ?
+                            <input type="text" name="understanding372-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 -  What did they read about the movie?
-                            <input type="text" name="understanding366-2" class="full left-align" placeholder="Responda aqui" required>
+                            2 -  How did Stalone, Jackie Chang and Will Smith start?
+                            <input type="text" name="understanding372-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 -  What has the movie industry done to produce better movies?
-                            <input type="text" name="understanding366-3" class="full left-align" placeholder="Responda aqui" required>
+                            3 -  What behavior did they have to become successful?
+                            <input type="text" name="understanding372-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 -  What does Gleen say about the fortunes of the actors and actresses?
-                            <input type="text" name="understanding366-4" class="full left-align" placeholder="Responda aqui" required>
+                            4 -  According to Gleen, what’s necessary to be successful?
+                            <input type="text" name="understanding372-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 -  What does he say about anonymous actors and actresses?
-                            <input type="text" name="understanding366-5" class="full left-align" placeholder="Responda aqui" required>
+                            5 -  What does Laura say about Will Smith ?
+                            <input type="text" name="understanding372-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                     
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="53">
-                        <input type="hidden" name="atividade_id" value="366">
+                        <input type="hidden" name="unidade_id" value="54">
+                        <input type="hidden" name="atividade_id" value="372">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -54,21 +54,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade53understanding366").submit(function(e){
+        $("#unidade54understanding372").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade53understanding366 input[type="text"]').each(function(index){
-                if(($('#unidade53understanding366 input[type="text"]').length - 1) == index){
+            $('#unidade54understanding372 input[type="text"]').each(function(index){
+                if(($('#unidade54understanding372 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade53understanding366 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade53understanding366'), respostas);
+            if($('#unidade54understanding372 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade54understanding372'), respostas);
             }else{
-                enviarAtividade($('#unidade53understanding366'), respostas);
+                enviarAtividade($('#unidade54understanding372'), respostas);
             }
         });
 
@@ -88,11 +88,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade53understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade53understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade54understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade54understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade53understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade53understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade54understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade54understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

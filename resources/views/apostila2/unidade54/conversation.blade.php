@@ -22,10 +22,10 @@
 					budget movies. But they persisted and got their chances to star blockbusters and became very famous and rich.  
 				</p>
 				<p>
-					<b>Gleen :</b>  Hard working and persistence are key elements to be successful in any career
+					<b>Gleen :</b>  Hard working and persistence are key elements to be successful in any career.
 				</p>
 				<p>
-					<b>Laura :</b>  I love Will Smith . He has stared unforgettable movies. From the famous comedy
+					<b>Laura :</b>  I love Will Smith. He has stared unforgettable movies. From the famous comedy
 					“The fresh prince of Bel-Air” to the touching Drama “The pursuit of happiness”. He has
 					worked in many other famous movies as well. He is awesome.
 				</p>
