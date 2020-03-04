@@ -125,12 +125,15 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade .caixa{border: 1px solid #333;width: 50%;}
 
 #unidade .espacamento{margin: 16px;}
+#unidade table{ width: unset;}
 #unidade table,
 #unidade table tr,
 #unidade table td{border: none;}
 #unidade table .vertical-align {vertical-align: middle;}
 #unidade table h5,
 #unidade table p{margin: 0;}
+#unidade .bordered{border: 1px solid #eee;}
+#unidade .centralizap{margin-top: 30%;}
 .versus{text-align: center; margin: 50% ; background-color: #dddddd; }
 #unidade20understanding56 form {padding-right: 26px;}
 .bordaSilples{border: solid 2px black; position: 16px; width: 55%; padding: 5px;}
