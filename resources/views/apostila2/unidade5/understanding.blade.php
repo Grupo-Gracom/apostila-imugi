@@ -13,32 +13,32 @@
 				<h3 class="barlow">UNIT 05</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <div class="metade">
-                    <form id="unidade4understanding122" method="post">
+                    <form id="unidade5understanding433" method="post">
                         <p>
-                            1. What does Gleen recommend students to do to learn more?<br>
-                            <input type="text" name="understanding122-1" placeholder="Responda aqui" class="full left-align" required>
+                            1. What’s the topic of the class today?<br>
+                            <input type="text" name="understanding433-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            2. What does Akira like to do to improve his knowledge?<br>
-                            <input type="text" name="understanding122-2" placeholder="Responda aqui" class="full left-align" required>
+                            2. Does John understand Gleen’s question?<br>
+                            <input type="text" name="understanding433-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            3 - How many forums does Laura participate of?<br>
-                            <input type="text" name="understanding122-3" placeholder="Responda aqui" class="full left-align" required>
+                            3 - What’s John’s opinion about planning and organization?<br>
+                            <input type="text" name="understanding433-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            4 - How often does she participate of special events?<br>
-                            <input type="text" name="understanding122-4" placeholder="Responda aqui" class="full left-align" required>
+                            4 - How many steps does John follow in his job? Name them<br>
+                            <input type="text" name="understanding433-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            5 - What’s Johns favorite way to study?<br>
-                            <input type="text" name="understanding122-5" placeholder="Responda aqui" class="full left-align" required>
+                            5 - What’s your opinion about the importance of planning<br>
+                            <input type="text" name="understanding433-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="4">
-                        <input type="hidden" name="atividade_id" value="122">
+                        <input type="hidden" name="unidade_id" value="5">
+                        <input type="hidden" name="atividade_id" value="433">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -62,21 +62,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade4understanding122").submit(function(e){
+        $("#unidade5understanding433").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade4understanding122 input[type="text"]').each(function(index){
-                if(($('#unidade4understanding122 input[type="text"]').length - 1) == index){
+            $('#unidade5understanding433 input[type="text"]').each(function(index){
+                if(($('#unidade5understanding433 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade4understanding122 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade4understanding122'), respostas);
+            if($('#unidade5understanding433 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade5understanding433'), respostas);
             }else{
-                enviarAtividade($('#unidade4understanding122'), respostas);
+                enviarAtividade($('#unidade5understanding433'), respostas);
             }
         });
 
@@ -96,11 +96,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade4understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade4understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade5understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade5understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade4understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade4understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade5understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade5understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

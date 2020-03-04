@@ -19,141 +19,124 @@
                 </audio>
                 <div class="clear"></div>     
                 
-                <h5 class="barlow" style="margin-top: 16px">A - WH QUESTIONS – HOW – HOW MANY – HOW MUCH</h5>
-                
-                <p><b>How -</b> Used for <b>questions about manner/status.</b></p>  
-                <p><b>Examples:</b></p>
-                <p><b>How</b> is your family? / They are <b>ok. </b>Thanks for asking.</p>
-                <p><b>How</b> do you come to school? / I come <b>by bus.</b></p>              
-                
-                <p><b>How many -</b> Used for <b>questions about COUNTABLE quantities.</b></p>
-                <p><b>Examples:</b></p>
-                <p><b>How many</b> certificates do you have ? / I have <b>3 certificates</b></p>
-                <p><b>How many</b> channels does he follow? / He follows <b>2 channels.</b></p>   
-                
-                <p><b>How much -</b> Used for <b>questions about UNCOUNTABLE quantities.</b></p> 
-                <p><b>Examples:</b></p>
-                <p><b>How much</b> time do we have? / we have <b>3 hours a day</b></p>
-                <p><b>How much</b> money does she have? / She has <b>U$ 1000,00.</b></p>               
+                <h5 class="barlow" style="margin-top: 16px">A - YES/NO QUESTIONS</h5>
 
-                <h5 class="barlow" style="margin-top: 16px">B - SUBJECT PRONOUN X OBJECT PRONOUN.</h5>
+                <table class="metade center-align">
+                    <tr>
+                        <td colspan="2"><p>Verb to Be</p></td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Are you</b> an illustrator?</p></td>
+                        <td><p><b>Yes, I am</b> an illustrator./ Yes, I am.</p></td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Is She</b> in San Diego right now?</p></td>
+                        <td><p><b>No, She’s not</b> in San Diego. / No, She’s not.</p></td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Is it</b> a nice software for videos editing?</p></td>
+                        <td><p><b>Yes, It’s</b>  nice for editing./ Yes, It is.</p></td>                        
+                    </tr>
+                    <tr>
+                        <td colspan="2"><p>Other Verbs</p></td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Do we have</b> class tomorrow?</p></td>
+                        <td><p><b>Yes, we have</b> class tomorrow./ <b>Yes, we do.</b></p></td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Does he speak</b> Chinese?</p></td>
+                        <td><p><b>No, he doesn’ts</b> speak Chinese./ <b>No, he doesn’t.</b></p></td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Do the clients need</b> a video?</p></td>
+                        <td><p><b>Yes, they</b> need a video./ <b>Yes, they do.</b></p></td>                        
+                    </tr>
+                </table>           
 
-                <table class="center-align metade">
-                    <tr>
-                        <td class="barlow upper"><p>Subject Pronoun</p></td>
-                        <td class="barlow upper"><p>Object Pronoun</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>I</p></td>
-                        <td><p>Me</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>You</p></td>
-                        <td><p>You</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>He</p></td>
-                        <td><p>Him</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>She</p></td>
-                        <td><p>Her</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>It</p></td>
-                        <td><p>It</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>We</p></td>
-                        <td><p>Us</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>You</p></td>
-                        <td><p>You</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>They</p></td>
-                        <td><p>Them</p></td>
-                    </tr>
-                </table>
-                 
-                <p><b>Examples:</b></p>
-                <p>Gleen asks Akira, Laura and john to share their challenges.</p>
-                <p><b>He</b> asks <b>them</b> to share their challenges.</p>
-                <p>John visits <u>Cinema 4D and Blender tutorials</u> every day.</p>
-                <p>John uses <u>Cinema 4D and blender tutorials</u> to study.</p>
-                <p><b>He</b> uses <b>them</b> to study.</p>
-
-                <h5 class="barlow" style="margin-top: 16px">C - IMPERATIVES</h5>
-
-                <table class="center-align metade">
-                    <tr>
-                        <td class="barlow upper"><p>Affirmative</p></td>
-                        <td class="barlow upper"><p>Negative</p></td>
-                    </tr>
-                    <tr>
-                        <td><p><b>Turn on</b> the computer.</p></td>
-                        <td><p><b>Don´t Turn on</b> the computer.</p></td>
-                    </tr>
-                    <tr>
-                        <td><p><b>Changer</b> the font.</p></td>
-                        <td><p><b>Don´t Changer</b> the font.</p></td>
-                    </tr>
-                    <tr>
-                        <td><p><b>Open</b> the file.</p></td>
-                        <td><p><b>Don´t open</b> the file.</p></td>
-                    </tr>
+                <p><b>EXERCISES</b></p>
+                <p class="barlow">1) Build up questions and give answers:</p>
+                <p><b>Example:</b> engineer / William Is William an engineer? Yes, he is an engineer. (+)</p>
+                <form id="unidade5grammar123" action="post" class="metade">
+                    <p>1. Good designer / Steve<input type="text" name="grammar123-1" placeholder="Responda aqui" required>?<input type="text" name="grammar123-2" placeholder="Responda aqui" required>(+)</p>
+                    <p>2. lazy students / Mark and Lucy<input type="text" name="grammar123-3" placeholder="Responda aqui" required>?<input type="text" name="grammar123-4" placeholder="Responda aqui" required>(-)</p>
+                    <p>3. App / good<input type="text" name="grammar123-5" placeholder="Responda aqui" required>?<input type="text" name="grammar123-6" placeholder="Responda aqui" required>(+)</p>
+                    <p>4. the class / nice<input type="text" name="grammar123-7" placeholder="Responda aqui" required>?<input type="text" name="grammar123-8" placeholder="Responda aqui" required>(-)</p>
+                    <p>5. CS go / good game<input type="text" name="grammar123-9" placeholder="Responda aqui" required>?<input type="text" name="grammar123-10" placeholder="Responda aqui" required>(+)</p>
+                    <p>6. Akira / study Ps<input type="text" name="grammar123-11" placeholder="Responda aqui" required>?<input type="text" name="grammar123-12" placeholder="Responda aqui" required>(-)</p>
+                    <p>7. Glee / Live in NY<input type="text" name="grammar123-13" placeholder="Responda aqui" required>?<input type="text" name="grammar123-14" placeholder="Responda aqui" required>(+)</p>
+                    <p>8. You / need help<input type="text" name="grammar123-15" placeholder="Responda aqui" required>?<input type="text" name="grammar123-16" placeholder="Responda aqui" required>(-)</p>
+                    <p>9. They /go to school<input type="text" name="grammar123-17" placeholder="Responda aqui" required>?<input type="text" name="grammar123-18" placeholder="Responda aqui" required>(+)</p>
+                    <p>10. You / play BF4<input type="text" name="grammar123-19" placeholder="Responda aqui" required>?<input type="text" name="grammar123-20" placeholder="Responda aqui" required>(-)</p>
                     
-                </table>
-
-                <p class="barlow">1) Fill in the blanks with ME, YOU, HIM, HER, THEM, US, IT:</p>
-
-                <form id="unidade4grammar118" action="post" class="metade">
-                    <p>1. We are watching tutorials and Jim is watching with<input type="text" name="grammar118-1" placeholder="Responda aqui" required></p>
-                    <p>2. Are the lights on? Turn<input type="text" name="grammar118-2" placeholder="Responda aqui" required>off!</p>
-                    <p>3. Where is my book? I’m looking for<input type="text" name="grammar118-3" placeholder="Responda aqui" required></p>
-                    <p>4. She is very tired. Help<input type="text" name="grammar118-4" placeholder="Responda aqui" required></p>
-                    <p>5. I’m very thirsty. Give<input type="text" name="grammar118-5" placeholder="Responda aqui" required>a glass of water</p>
-                    <p>6. This is Laura’s pen. Give it to<input type="text" name="grammar118-6" placeholder="Responda aqui" required></p>
-                    <p>7. Look at<input type="text" name="grammar118-7" placeholder="Responda aqui" required>Are they your friends?</p>
-                    <p>8. Are you John Myer? There is a letter for<input type="text" name="grammar118-8" placeholder="Responda aqui" required></p>
-
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="4">
-                    <input type="hidden" name="atividade_id" value="118">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form> 
-
-                <p class="barlow">2) Build up questions for the answers. Use how, how many, how much</p> 
-                <p>E.g How are you?/ <b>I’m fine thanks.</b></p>
-
-                <form id="unidade4grammar119" action="post" class="metade">
-                    <p>1. I follow three youtube channels.<input type="text" name="grammar119-1" placeholder="Responda aqui" class="full left-align" required></p>
-                    <p>2. She studies three hours a day.<input type="text" name="grammar119-2" placeholder="Responda aqui" class="full left-align" required></p>
-                    <p>3. Two classes. On Wednesdays and Fridays.<input type="text" name="grammar119-3" placeholder="Responda aqui" class="full left-align" required></p>
-                    <p>4. He’s ok. Thank you.<input type="text" name="grammar119-4" placeholder="Responda aqui" class="full left-align" required></p>
-                    <p>5. They have three days to finish the project.<input type="text" name="grammar119-5" placeholder="Responda aqui" class="full left-align" required></p>
-                    <p>6. I have only some minutes before the class.<input type="text" name="grammar119-6" placeholder="Responda aqui" class="full left-align" required></p>
-
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="4">
-                    <input type="hidden" name="atividade_id" value="119">
+                    <input type="hidden" name="unidade_id" value="5">
+                    <input type="hidden" name="atividade_id" value="123">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">3) Prepare 3 questions and interview a classmate. Be ready to share with your friends.</p>
+
+                <p class="barlow">2) Using the verbs below ,create questions to ask your friend.</p> 
                 
-                <form id="unidade4grammar120" action="post" class="metade">
-                    <p><input type="text" name="grammar120-1" placeholder="Responda aqui" class="full left-align" required></p>
-                    <p><input type="text" name="grammar120-2" placeholder="Responda aqui" class="full left-align" required></p>
-                    <p><input type="text" name="grammar120-3" placeholder="Responda aqui" class="full left-align" required></p>
+                <ul class="lista-inline">
+                    <li><p>Study</p></li>
+                    <li><p>Play</p></li>
+                    <li><p>Work</p></li>
+                    <li><p>Draw</p></li>
+                    <li><p>Speak</p></li>
+                    <li><p>Plan</p></li>
+                    <li><p>Read</p></li>
+                    <li><p>Write</p></li>
+                    <li><p>Code</p></li>
+                    <li><p>Open</p></li>
+                    <li><p>Live</p></li>
+                    <li><p>Close</p></li>
+                    <li><p>Help</p></li>
+                </ul>
+
+                <form id="unidade5grammar124" action="post" >
+                    <div class="metade umterco">
+                        <p>1.<input type="text" name="grammar124-1" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>2.<input type="text" name="grammar124-2" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>3.<input type="text" name="grammar124-3" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>4.<input type="text" name="grammar124-4" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>5.<input type="text" name="grammar124-5" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>6.<input type="text" name="grammar124-6" placeholder="Responda aqui" class="full left-align" required></p>                      
+                    </div>
+                    <div class="metade umterco">
+                        <p>7.<input type="text" name="grammar124-7" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>8.<input type="text" name="grammar124-8" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>9.<input type="text" name="grammar124-9" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>10.<input type="text" name="grammar124-10" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>11.<input type="text" name="grammar124-11" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p>12.<input type="text" name="grammar124-12" placeholder="Responda aqui" class="full left-align" required></p>
+                    </div>
+                    <div class="clear"></div> 
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="5">
+                    <input type="hidden" name="atividade_id" value="124">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+
+                <p class="barlow">3) Describe the Sequence you follow to do the following tasks.</p>
+                <ul>
+                    <li><p>Install an app in your cell phone.</p></li>
+                    <li><p>Eliminate the red eyes of pictures.</p></li>
+                    <li><p>Create a Photo Shop work.</p></li>
+                    <li><p>Install a game in your computer.</p></li>
+                </ul>
+                <form id="unidade5grammar431" action="post" class="metade">
+                    <p><input type="text" name="grammar431-1" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p><input type="text" name="grammar431-2" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p><input type="text" name="grammar431-3" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p><input type="text" name="grammar431-4" placeholder="Responda aqui" class="full left-align" required></p>
                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="4">
-                    <input type="hidden" name="atividade_id" value="120">
+                    <input type="hidden" name="unidade_id" value="5">
+                    <input type="hidden" name="atividade_id" value="431">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>               
 			</div>
@@ -167,57 +150,57 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade4grammar118").submit(function(e){
+        $("#unidade5grammar123").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade4grammar118 input[type="text"]').each(function(index){
-                if(($('#unidade4grammar118 input[type="text"]').length - 1) == index){
+            $('#unidade5grammar123 input[type="text"]').each(function(index){
+                if(($('#unidade5grammar123 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade4grammar118 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade4grammar118'), respostas);
+            if($('#unidade5grammar123 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade5grammar123'), respostas);
             }else{
-                enviarAtividade($('#unidade4grammar118'), respostas);
+                enviarAtividade($('#unidade5grammar123'), respostas);
             }
         });
 
-        $("#unidade4grammar119").submit(function(e){
+        $("#unidade5grammar124").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade4grammar119 input[type="text"]').each(function(index){
-                if(($('#unidade4grammar119 input[type="text"]').length - 1) == index){
+            $('#unidade5grammar124 input[type="text"]').each(function(index){
+                if(($('#unidade5grammar124 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade4grammar119 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade4grammar119'), respostas);
+            if($('#unidade5grammar124 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade5grammar124'), respostas);
             }else{
-                enviarAtividade($('#unidade4grammar119'), respostas);
+                enviarAtividade($('#unidade5grammar124'), respostas);
             }
         });
 
-        $("#unidade4grammar120").submit(function(e){
+        $("#unidade5grammar431").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade4grammar120 input[type="text"]').each(function(index){
-                if(($('#unidade4grammar120 input[type="text"]').length - 1) == index){
+            $('#unidade5grammar431 input[type="text"]').each(function(index){
+                if(($('#unidade5grammar431 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade4grammar120 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade4grammar120'), respostas);
+            if($('#unidade5grammar431 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade5grammar431'), respostas);
             }else{
-                enviarAtividade($('#unidade4grammar120'), respostas);
+                enviarAtividade($('#unidade5grammar431'), respostas);
             }
         });
 
@@ -238,11 +221,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade4grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade4grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade5grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade5grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade4grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade4grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade5grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade5grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
