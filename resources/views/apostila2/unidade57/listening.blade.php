@@ -9,41 +9,30 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade56" data-etapa="understanding">
-				<h3 class="barlow">UNIT 56</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
-                <div class="metade">
-                    <form id="unidade56understanding384" method="post">
-                        <p>
-                            1 -  What does John consider a big challenge ?
-                            <input type="text" name="understanding384-1" class="full left-align" placeholder="Responda aqui" required>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade57" data-etapa="listening">
+				<h3 class="barlow">UNIT 57</h3>
+                <h5 class="barlow">5 - LISTENING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/Unit57/Listening/completo.ogg') }}" type="audio/ogg">
+                </audio>
+                <div class="clear"></div>
+                <h5 class="barlow">A -  Listen to the audio and answer the questions below.</h5>
+                <div class="metade" style="margin-top: 16px">
+                    <form id="unidade56listening383" method="post">
+                        <p> 
+                            <p>1 - What have movie makers been doing to produce blockbusters? <input type="text" name="listening383-1" class="full left-align" placeholder="Responda aqui" required></p>
+                            <p>2 - Where have they been investing their money? <input type="text" name="listening383-2" class="full left-align" placeholder="Responda aqui" required></p>
                         </p>
-                        <p>
-                            2 -  What is important to know when you are producing a movie?
-                            <input type="text" name="understanding384-2" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            3 -  What would have happened if Gleen hadn’t guided the students?
-                            <input type="text" name="understanding384-3" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            4 -  How long did they spend on the characters’ creation?
-                            <input type="text" name="understanding384-4" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            5 - What does Laura say about the movie production ?
-                            <input type="text" name="understanding384-5" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                    
+
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="56">
-                        <input type="hidden" name="atividade_id" value="384">
+                        <input type="hidden" name="atividade_id" value="383">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-			</div>
+            </div>
 		</div>
     </main>
     <script>
@@ -54,21 +43,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade56understanding384").submit(function(e){
+        $("#unidade56listening383").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade56understanding384 input[type="text"]').each(function(index){
-                if(($('#unidade56understanding384 input[type="text"]').length - 1) == index){
+            $('#unidade56listening383 input[type="text"]').each(function(index){
+                if(($('#unidade56listening383 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade56understanding384 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade56understanding384'), respostas);
+            if($('#unidade56listening383 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade56listening383'), respostas);
             }else{
-                enviarAtividade($('#unidade56understanding384'), respostas);
+                enviarAtividade($('#unidade56listening383'), respostas);
             }
         });
 
@@ -88,15 +77,14 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade56understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade56understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade56listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade56listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade56understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade56understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade56listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade56listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
-
 
         function enviarAtividade(formId, respostas){
             var resposta = {
@@ -152,3 +140,4 @@
     </script>
 
 @endsection
+
