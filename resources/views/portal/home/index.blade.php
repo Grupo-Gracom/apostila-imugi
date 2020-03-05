@@ -8,7 +8,7 @@
         
         @include('layouts.portal.header')
         
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel slide">
 			<div class="carousel-inner">
 				<div class="item active">
 					<a href="http://futuronopresente.com.br/cadastro-escola-parceira/" target="_blank">
@@ -137,8 +137,5 @@
             </div>
             <a href="#" id="back-to-top"><i class="font-icon icon-up-open-big"></i></a>
         </div>
-	</div>
-    </div>
-</div>
  
  @endsection

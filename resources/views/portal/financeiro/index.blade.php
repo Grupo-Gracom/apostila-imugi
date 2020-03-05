@@ -5,7 +5,7 @@
 <div id="main-wrapper">
 	<div id="main" class="ajaxable layout-wide">
     @include('layouts.portal.header')
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<div class="carousel slide">
 					  <div class="carousel-inner">
 					    <div class="item active">
 					    <a href="http://futuronopresente.com.br/" target="_blank">
@@ -19,7 +19,7 @@
 
 <div class="header-hero-section">
 </div>
-<section id="content" class="no-sidebar-page">
+<div id="content" class="no-sidebar-page">
 <div id="content-wrap" class="page-builder">
 	<section id="page-content">
 	<div class="clearfix">
@@ -100,18 +100,10 @@
 
 			         </div>
 
-	</section>
+	</div>
 	@include('layouts.portal.footer')
-</div>
-</section>
-      
 </div>
 
 <a href="" id="back-to-top"><i class="font-icon icon-up-open-big"></i></a>
-</div>      
-      </div>
-    </div>
-  </div>
-  
 </div>
  @endsection
