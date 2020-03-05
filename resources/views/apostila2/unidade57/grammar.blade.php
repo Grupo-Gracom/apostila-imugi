@@ -1,4 +1,4 @@
-7@extends('layouts.template')
+@extends('layouts.template')
 @section('titulo','UNIMUGI | Home')
 @section('conteudo')
 <!-- WRAPPER ALL -->
@@ -23,30 +23,16 @@
                         We use the Past Perfect Continuous to show that something started in the past and continued up until another time in the past. “For five minutes” and “for two weeks” are both
                         durations which can be used with the Past Perfect Continuous. Notice that this is related to
                         the Present Perfect Continuous; however, the duration does not continue until now, it stops
-                        before something else in the past.
+                        before something else in the past. 
                     </p>
-                    <p class="center-align caixa"><b>Past Perfect = Subject + Had + BEEN + verb(ing)</b></p>
-                    <table class="metade espacamento center-align">
-                        <tr>
-                            <td>
-                                <h5 class="barlow">
-                                    <b>PAST PERFECT</b> 
-                                </h5>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>(+) Gleen had teaching over an hour when Akira arrived.</p>
-                                <p>(-) Gleen hadn't been teaching over an hour when Akira arrived.</p>
-                                <p>(?) Had Gleen been teaching over an hour when Akira Arrived?</p><br>
-                            
-                                <p>(+) Laura had already been using different cameras when she fell in love with videos.</p>
-                                <p>(-) Laura hadn't been using different cameras yet when she fell in love with videos.</p>
-                                <p>(?) Had Laura been using different Cameras when she fell in love with videos?</p><br>
-                            </td>
-                        </tr>
-                    </table> 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                    <div style="margin-top: 36px">
+                        <figure>
+                            <img src="{{ asset('assets/img/playgo/unit56/pagina-1.png') }}" alt="crianças">
+                        </figure>
+                    </div>
+                    <!-- (↓↓ OS MESMOS FORM'S ABAIXO ESTÁ SE REPETINDO NA UNIDADE ANTERIOR ↓↓) -->
+
+                    <!-- <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
                     <h5 class="barlow">1 - Fill in the following sentences by using PAST PERFECT CONTINUOUS TENSE:</h5>
                     <form id="unidade56grammar380" style="margin-top:32px" method="post">
                         <div class="metade">
@@ -98,6 +84,11 @@
                     <input type="hidden" name="atividade_id" value="381">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
+                <div style="margin-top: 36px">
+                    <figure>
+                        <img src="{{ asset('assets/img/playgo/unit57/pagina-1.png') }}" alt="espera hospital">
+                    </figure>
+                </div>
 
                 <h5 class="barlow metade" style="margin-top: 36px">
                     3 - Before you started your course, certainly you were involved in some activities. What
@@ -113,12 +104,8 @@
                     <input type="hidden" name="unidade_id" value="56">
                     <input type="hidden" name="atividade_id" value="382">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-                <div style="margin-top: 36px">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit56/pagina-1.png') }}" alt="sobrepeso">
-                    </figure>
-                </div>
+                </form> -->
+                
 			</div>
 		</div>
     </main>
@@ -130,50 +117,50 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade56grammar380").submit(function(e){
+        $("#unidade57grammar385").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade56grammar380 input[type="text"]').each(function(index){
-                if(($('#unidade56grammar380 input[type="text"]').length - 1) == index){
+            $('#unidade57grammar385 input[type="text"]').each(function(index){
+                if(($('#unidade57grammar385 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade56grammar380 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade56grammar380'), respostas);
+            if($('#unidade57grammar385 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade57grammar385'), respostas);
             }else{
-                enviarAtividade($('#unidade56grammar380'), respostas);
+                enviarAtividade($('#unidade57grammar385'), respostas);
             }
         });
 
-        $("#unidade56grammar381").submit(function(e){
+        $("#unidade57grammar386").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade56grammar381 input[type="text"]').each(function(index){
-                if(($('#unidade56grammar381 input[type="text"]').length - 1) == index){
+            $('#unidade57grammar386 input[type="text"]').each(function(index){
+                if(($('#unidade57grammar386 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade56grammar381 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade56grammar381'), respostas);
+            if($('#unidade57grammar386 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade57grammar386'), respostas);
             }else{
-                enviarAtividade($('#unidade56grammar381'), respostas);
+                enviarAtividade($('#unidade57grammar386'), respostas);
             }
         });
 
-        $("#unidade56grammar382").submit(function(e){
+        $("#unidade57grammar387").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade56grammar382 textarea').attr("name")+'":"'+$('#unidade56grammar382 textarea').val()+'"}';
-            if($('#unidade56grammar382 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade56grammar382'), respostas);
+            var respostas = '{"'+$('#unidade57grammar387 textarea').attr("name")+'":"'+$('#unidade57grammar387 textarea').val()+'"}';
+            if($('#unidade57grammar387 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade57grammar387'), respostas);
             }else{
-                enviarAtividade($('#unidade56grammar382'), respostas);
+                enviarAtividade($('#unidade57grammar387'), respostas);
             }
         });
         
@@ -194,13 +181,13 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade56grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade56grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade56grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade56grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade57grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade57grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade57grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade57grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade56grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade56grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade57grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade57grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

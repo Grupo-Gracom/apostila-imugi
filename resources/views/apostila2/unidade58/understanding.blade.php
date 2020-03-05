@@ -9,37 +9,41 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade57" data-etapa="listening">
-				<h3 class="barlow">UNIT 57</h3>
-                <h5 class="barlow">5 - LISTENING</h5>
-                <span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit57/Listening/completo.ogg') }}" type="audio/ogg">
-                </audio>
-                <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade57listening388" method="post">
-                        <p> 
-                            <input type="text" name="listening388-1" placeholder="Responda aqui" required> about the future of Hollywood 
-                            <input type="text" name="listening388-2" placeholder="Responda aqui" required> , we can say that, the 
-                            <input type="text" name="listening388-3" placeholder="Responda aqui" required> will have produced many 
-                            <input type="text" name="listening388-4" placeholder="Responda aqui" required> movies before the end of the next
-                            year. <input type="text" name="listening388-5" placeholder="Responda aqui" required> , they will 
-                            <input type="text" name="listening388-6" placeholder="Responda aqui" required> released at least 3 more 
-                            <input type="text" name="listening388-7" placeholder="Responda aqui" required>. The
-                            market will <input type="text" name="listening388-8" placeholder="Responda aqui" required> the new moment for super-hero movies and will have reacted
-                            positively. 
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade58" data-etapa="understanding">
+				<h3 class="barlow">UNIT 58</h3>
+				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
+                <div class="metade">
+                    <form id="unidade58understanding392" method="post">
+                        <p>
+                            1 -  What does Gleen do to help the students?
+                            <input type="text" name="understanding392-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-
+                        <p>
+                            2 -  What is John doing?
+                            <input type="text" name="understanding392-2" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            3 -  How long has John working on the lighting?
+                            <input type="text" name="understanding392-3" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            4 -  What does Gleen suggest John to do?
+                            <input type="text" name="understanding392-4" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                        <p>
+                            5 - What are the last two steps they will have to do?
+                            <input type="text" name="understanding392-5" class="full left-align" placeholder="Responda aqui" required>
+                        </p>
+                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="57">
-                        <input type="hidden" name="atividade_id" value="388">
+                        <input type="hidden" name="unidade_id" value="58">
+                        <input type="hidden" name="atividade_id" value="392">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-            </div>
+			</div>
 		</div>
     </main>
     <script>
@@ -50,21 +54,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade57listening388").submit(function(e){
+        $("#unidade58understanding392").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade57listening388 input[type="text"]').each(function(index){
-                if(($('#unidade57listening388 input[type="text"]').length - 1) == index){
+            $('#unidade58understanding392 input[type="text"]').each(function(index){
+                if(($('#unidade58understanding392 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade57listening388 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade57listening388'), respostas);
+            if($('#unidade58understanding392 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade58understanding392'), respostas);
             }else{
-                enviarAtividade($('#unidade57listening388'), respostas);
+                enviarAtividade($('#unidade58understanding392'), respostas);
             }
         });
 
@@ -84,14 +88,15 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade57listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade57listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade58understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade58understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade57listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade57listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade58understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade58understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
+
 
         function enviarAtividade(formId, respostas){
             var resposta = {
@@ -147,4 +152,3 @@
     </script>
 
 @endsection
-
