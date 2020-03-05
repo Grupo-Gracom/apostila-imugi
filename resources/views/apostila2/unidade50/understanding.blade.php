@@ -9,36 +9,36 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade49" data-etapa="understanding">
-				<h3 class="barlow">UNIT 49</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade50" data-etapa="understanding">
+				<h3 class="barlow">UNIT 50</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <div class="metade">
-                    <form id="unidade49understanding335" method="post">
+                    <form id="unidade50understanding345" method="post">
                         <p>
-                            1. What was fantastic about the animation Gleen recommended to students to see ?<br>
-                            <input type="text" name="understanding335-1" placeholder="Responda aqui" class="full left-align" required>
+                            1. How was the students’ weekend ?<br>
+                            <input type="text" name="understanding345-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            2. Why does he use it as an example of good movie ?<br>
-                            <input type="text" name="understanding335-2" placeholder="Responda aqui" class="full left-align" required>
+                            2. What did Akira do during the weekend ?<br>
+                            <input type="text" name="understanding345-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            3. What does he say about the movie outcome ?<br>
-                            <input type="text" name="understanding335-3" placeholder="Responda aqui" class="full left-align" required>
+                            3. What does Akira say about Dc comics and Marvel ?<br>
+                            <input type="text" name="understanding345-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            4. What do remarkable movies do with their viewers ?<br>
-                            <input type="text" name="understanding335-4" placeholder="Responda aqui" class="full left-align" required>
+                            4. What’s his opinion about their movies ?<br>
+                            <input type="text" name="understanding345-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            5. What example does John remember ?<br>
-                            <input type="text" name="understanding335-5" placeholder="Responda aqui" class="full left-align" required>
+                            5. What does Laura say about the movies ?<br>
+                            <input type="text" name="understanding345-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="49">
-                        <input type="hidden" name="atividade_id" value="335">
+                        <input type="hidden" name="unidade_id" value="50">
+                        <input type="hidden" name="atividade_id" value="345">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -48,9 +48,8 @@
                     </figure>
                 </div>
                 <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2049-master/2049-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
+                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
                 </div>
-
 			</div>
 		</div>
     </main>
@@ -62,21 +61,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade49understanding335").submit(function(e){
+        $("#unidade50understanding345").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade49understanding335 input[type="text"]').each(function(index){
-                if(($('#unidade49understanding335 input[type="text"]').length - 1) == index){
+            $('#unidade50understanding345 input[type="text"]').each(function(index){
+                if(($('#unidade50understanding345 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade49understanding335 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade49understanding335'), respostas);
+            if($('#unidade50understanding345 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade50understanding345'), respostas);
             }else{
-                enviarAtividade($('#unidade49understanding335'), respostas);
+                enviarAtividade($('#unidade50understanding345'), respostas);
             }
         });
 
@@ -96,11 +95,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade49understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade49understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade50understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade50understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade49understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade49understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade50understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade50understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

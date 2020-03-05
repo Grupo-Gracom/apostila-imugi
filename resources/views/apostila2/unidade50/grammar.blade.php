@@ -9,8 +9,8 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade49" data-etapa="grammar">
-				<h3 class="barlow">UNIT 49</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade50" data-etapa="grammar">
+				<h3 class="barlow">UNIT 50</h3>
 				<h5 class="barlow">3 – GRAMMAR</h5>
 
 				<span class="play-audio">( Aperte o play )</span>
@@ -19,175 +19,217 @@
                 </audio>
                 <div class="clear"></div>     
                 
-                <h5 class="barlow" style="margin-top: 16px">A - PAIRED CONJUNCTIONS – BOTH / AND</h5>
-                <p>We use <b>paired conjunction</b> to connect a pair of ideas of two different sentences. Both
-                    sentences usually have similar length and grammar structure.</p>
-                <br>
-                <p>Both ____ and.</p>
+                <h5 class="barlow" style="margin-top: 16px">A - PRESENT PERFECT (1)</h5>
+                <p>WWe use the Present Perfect to refer to an action that happened in the past and reflects
+                    in the present moment. It may be something that happened but is a relevant fact to the
+                    present moment (Relevance) or something that stills happen. A fact that started there
+                    in the past but continues to happen up to the present moment. (continuity).</p>
                 <br>
 
-                <table class="left-align">
+                <table>
+                    <tr><td><p>Present Perfect = Subject + Have / Has + Past participle of main verb</p></td></tr>
+                </table>
+                
+                <table>
                     <tr>
-                        <td><p><b>Sentences / information</b></p></td>
-                        <td><p><b>Connected sentences</b></p></td>
+                        <td><p><b>PRESENT PERFECT</b></p></td>
                     </tr>
-                    <tr>
-                        <td><p>a. <b>New York</b> is a modern city.</p></td>
-                        <td class="vertical-align" rowspan="2"><p><b>Both</b> <u>New York <b>and</b> San Francisco</u> are modern cities. </p></td>                   
-                    </tr>
-                    <tr>
-                        <td><p>b. <b>San Francisco</b> is also modern.</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>a. <b>Laura</b> plays CS go.</p></td> 
-                        <td class="vertical-align" rowspan="2"><p><b>Both</b> <u>Laura <b>and</b> John <b>like</b></u> to play FPS games.</p></td>                    
-                    </tr>
-                    <tr>
-                        <td><p>b. <b>John</b> plays BF 4.</p></td>
-                        
-                    </tr>
-                    <tr>
-                        <td><p>a. <b>Akira</b> is addicted to comic books.</b></p></td>
-                        <td class="vertical-align" rowspan="2"><p><b>Both</b> <u>Akira <b>and</b> John</u> <b>love</b> comic books.</td>                  
-                    </tr>
-                    <tr>
-                        <td><p>b. <b>John</b> is crazy about comic books.</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>a. <b>The manager</b> is not in the store today.</b></p></td>
-                        <td class="vertical-align" rowspan="2"><p><b>Both</b> <b>the manager <b>and</b> his assistants</b> <b>aren’t</b> in the store today.</td>                      
-                    </tr>
-                    <tr>
-                        <td><p>b. <b>His two assistants</b> are also absent.</b></p></td>
-                    </tr>
+                    <tr><td> <p>(+) Gleen <b>has twisted</b> his ankle. (<b>Relevance</b>)</p></td></tr>
+                    <tr><td> <p>(-) Gleen <b>has not twisted</b> his ankle.</p></td></tr>
+                    <tr><td> <p>(?) Has Gleen <b>twisted</b> his ankle?</p></td></tr>
+                    <tr><td> <p></td></tr>
+                    <tr><td> <p>(+) We <b>have talked</b> about movie production. (<b>Continuity</b>)</p></td></tr>
+                    <tr><td> <p>(-) We <b>have not talked</b> about movie production.</p></td></tr>
+                    <tr><td> <p>(?) Have we talked about movie production?</p></td></tr>
+                    <tr><td> <p></td></tr>
+                    <tr><td> <p>(+) Kris Costa <b>has been</b> to Comic Con. (<b>Relevance</b>)</p></td></tr>
+                    <tr><td> <p>(-) Kris Costa <b>has not been</b> to Comic Con.</p></td></tr>
+                    <tr><td> <p>(?) Has Kris Costa <b>been</b> to Comic Con?</p></td></tr>
+                    <tr><td> <p></td></tr>
+                    <tr><td> <p>(+) They <b>have spent</b> much money on professional courses. (continuity)</p></td></tr>
+                    <tr><td> <p>(-) They <b>have not</b> spent much money on professional courses.</p></td></tr>
+                    <tr><td> <p>(?) Have <b>they spent</b> much money on professional courses?</p></td></tr>
                 </table>
 
-                <p>For sentences with <b>Both / and</b>, verbs take a plural conjugation.
-                 Take a look at the examples and at the different verb conjugations of <b>Either/or, Neither/nor and Not only / but also.</b></p>
-
+                <p>1. Has/have are the auxiliary verbs of present perfect.</p>
+                <p>2. The time is not specific. We don’t have any information about when the action happened.
+                 We only know that it happened and is relevant or continues up to today.</p>
+            
+               <br>
                <p><b>EXERCISES</b></p>
 
-               <p class="barlow">1) Answer the questions. Use paired conjunctions.</p>
-                <form id="unidade49grammar336" class="metade" action="post">
-                    <p>Use BOTH ________ AND ________</p>
+               <p class="barlow">1) Write a suitable sentence using the PRESENT PERFECT TENSE :</p>
+                <form id="unidade50grammar341" class="metade" action="post">
                     
                     <p>
-                        1. You have met his father. Have you met his mother ?
-                    </p>
-                    <p><b>Yes, I have met both his father and his mother.</b></p>
-                    
-                    <p>
-                       2. The driver was injured in the accident. Was the passenger injured in the accident ?
-                       <input type="text" name="grammar336-1" class="full left-align" placeholder="Responda aqui" required>
+                        1. Ann’s hair was dirty. Now it’s clean. (wash)
+                        <input type="text" name="grammar341-1" placeholder="Responda aqui" required>
+                        Ann has washed her hair
+                        <input type="text" name="grammar341-2" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       3. Wheat is grown in Kansas. Is corn grown in Kansas ?
-                       <input type="text" name="grammar336-2" class="full left-align" placeholder="Responda aqui" required>
+                        2. Tom was 80 kg. Now he’s 70. (lose weight) 
+                        <input type="text" name="grammar341-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       4. He buys used cars. Does he sell used cars ?
-                       <input type="text" name="grammar336-3" class="full left-align" placeholder="Responda aqui" required>
+                        3. Bill played football yesterday. Now he can’t walk; his leg is in plaster. (break) 
+                        <input type="text" name="grammar341-4" class="full left-align" required>
                     </p>
                     <p>
-                       5. You had lunch with your friends. Did you have dinner with them ?
-                       <input type="text" name="grammar336-4" class="full left-align" placeholder="Responda aqui" required>
+                        4. My sister is looking for her pen. (lose) 
+                        <input type="text" name="grammar341-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       6. The city suffers from air pollution. Does it suffer from water pollution ?
-                       <input type="text" name="grammar336-5" class="full left-align" placeholder="Responda aqui" required>
+                        5. Mary is on holiday in France. (go) 
+                        <input type="text" name="grammar341-6" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       7. My grandparents have got a flat in the city. They have also got a house in the country
-                       <input type="text" name="grammar336-6" class="full left-align" placeholder="Responda aqui" required>
+                        6. Mr. Hill was in Canada last week. He’s back in London now. (be) 
+                        <input type="text" name="grammar341-7" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       8. The new shopping center has got a cinema. It has also got a health club. 
-                       <input type="text" name="grammar336-7" class="full left-align" placeholder="Responda aqui" required>
+                        7. Look! Mrs. Smith has got a lot of packages. (buy) 
+                        <input type="text" name="grammar341-8" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       9. Fred likes helping friends. So does linda.
-                       <input type="text" name="grammar336-8" class="full left-align" placeholder="Responda aqui" required>
+                        8. I can’t eat anything now. (eat too much) 
+                        <input type="text" name="grammar341-9" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       10. He felt disappointed . He felt misunderstood.
-                       <input type="text" name="grammar336-9" class="full left-align" placeholder="Responda aqui" required>
+                        9. Mrs. Jenkins is very tired. (clean / house) 
+                        <input type="text" name="grammar341-10" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       11. A true friend is someone who is caring and loving.
-                       <input type="text" name="grammar336-10" class="full left-align" placeholder="Responda aqui" required>
+                        10. Tony needs a holiday. (work / hard / this year) 
+                        <input type="text" name="grammar341-11" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       12. Ryan and Susie disappointed me. They didn’t come to my birthday party.
-                       <input type="text" name="grammar336-11" class="full left-align" placeholder="Responda aqui" required>
+                        11. I
+                        <input type="text" name="grammar341-12" placeholder="Responda aqui" required>
+                        in this country all my life. (live)
                     </p>
+                    <p>
+                        12. She
+                        <input type="text" name="grammar341-13" placeholder="Responda aqui" required>
+                        her homework. (do)
+                    </p>
+                    <p>
+                        13. All of my friends
+                        <input type="text" name="grammar341-14" placeholder="Responda aqui" required>
+                        away on vacation this week. (be)
+                    </p>
+                    <p>
+                        14. It
+                        <input type="text" name="grammar341-15" placeholder="Responda aqui" required>
+                        the entire week. (rain)
+                    </p>
+                    <p>
+                        15. We
+                        <input type="text" name="grammar341-16" placeholder="Responda aqui" required>
+                        a lot of grammar in this class. (study)
+                    </p>
+                    <p>
+                        16. John
+                        <input type="text" name="grammar341-17" placeholder="Responda aqui" required>
+                        in the hospital for five days. (be)
+                    </p>
+                    <p>
+                        17. I
+                        <input type="text" name="grammar341-18" placeholder="Responda aqui" required>
+                        as a teacher since 1989. (work)
+                    </p>
+                    <p>
+                        18. Jennifer knows everyone in her town because she
+                        <input type="text" name="grammar341-19" placeholder="Responda aqui" required>
+                        there since she was a baby. (live)
+                    </p>
+                    <p>
+                        19. Mark and Louise
+                        <input type="text" name="grammar341-20" placeholder="Responda aqui" required>
+                        about getting married. (talk)
+                    </p>
+                    <p>
+                        20. A friend of mine
+                        <input type="text" name="grammar341-21" placeholder="Responda aqui" required>
+                        $20,000 in the bank to buy a house. (save)
+                    </p>
+
                     
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="49">
-                    <input type="hidden" name="atividade_id" value="336">
+                    <input type="hidden" name="unidade_id" value="50">
+                    <input type="hidden" name="atividade_id" value="341">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
-                <p class="barlow">2) Make sentences BOTH ___AND ____ / EITHER ___ OR ___ / NEITHER ___ NOR ___: </p>
-                <form id="unidade49grammar337" class="metade" action="post">
+                
+                
+                <p class="barlow">2) PRESENT PERFECT TENSE after BECAUSE:</p>
+                <form id="unidade50grammar342" class="metade" action="post">
                     <p>Examples:</p>
-                    <p> * Tom was late. So was Ann. Both Tom and Ann were late.</p>
-                    <p>* He didn’t write. He didn’t telephone. He neither wrote nor telephoned.</p>
+                    <p> She can’t go to the party. (catch a cold)</p>
+                    <p> She can’t go to the party because she has caught a cold.</p>
 
                     <p>
-                        1. The hotel wasn’t clean. And it wasn’t comfortable. The hotel was
-                        <input type="text" name="grammar337-1" class="full left-align" placeholder="Responda aqui" required>
-                    </p>
-                    
+                        1. He can’t walk very fast. (hurt / leg)
+                        <input type="text" name="grammar342-1" class="full left-align" placeholder="Responda aqui" required>
+                    </p>                    
                     <p>
-                       2. . It was a very boring movie. It was very long too. The movie was
-                       <input type="text" name="grammar337-2" class="full left-align" placeholder="Responda aqui" required>
-                    </p>
-                    <p>
-                       3. Is that man’s name Richard? Or is it Robert? It’s one of the two. That man’s name
-                       <input type="text" name="grammar337-3" class="full left-align" placeholder="Responda aqui" required>
+                       2. I can’t get in. (lose / key)
+                       <input type="text" name="grammar342-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       4. I don’t have the time to take a vacation. And I don’t have the money. I have
-                       <input type="text" name="grammar337-4" class="full left-align" placeholder="Responda aqui" required>
+                       3. I know this story very well. (see the film)
+                       <input type="text" name="grammar342-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       5. We can leave today or we can leave tomorrow- whichever you prefer. We
-                       <input type="text" name="grammar337-5" class="full left-align" placeholder="Responda aqui" required>
+                       4. I can’t post the letter. (not put / stamp / on it)
+                       <input type="text" name="grammar342-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       6. He gave up his job because he needed a change. Also because the pay was low. He gave up his job both
-                       <input type="text" name="grammar337-6" class="full left-align" placeholder="Responda aqui" required>
+                       5. He can’t stand up. (eat too much)
+                       <input type="text" name="grammar342-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       7. Laura doesn’t smoke. And she doesn’t eat meat.
-                       <input type="text" name="grammar337-7" class="full left-align" placeholder="Responda aqui" required>
+                       6. They can’t go on holiday. (not save / money)
+                       <input type="text" name="grammar342-6" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       8. The front of the house needs painting. The back needs painting too.
-                       <input type="text" name="grammar337-8" class="full left-align" placeholder="Responda aqui" required>
+                       7. I know him. (meet him before)
+                       <input type="text" name="grammar342-7" class="full left-align" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                       8. We don’t know how he is. (not hear from him)
+                       <input type="text" name="grammar342-8" class="full left-align" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                       9. He won’t take a cigarette. (give up smoking)
+                       <input type="text" name="grammar342-9" class="full left-align" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                       10. She can’t get in. (he / lock the door)
+                       <input type="text" name="grammar342-10" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                    
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="49">
-                    <input type="hidden" name="atividade_id" value="337">
+                    <input type="hidden" name="unidade_id" value="50">
+                    <input type="hidden" name="atividade_id" value="342">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>               
-                 
+                </form>                                 
                 <br>
-                <p class="barlow">3) Think of super heroes that have similar characteristics. Write 5 sentences using BOTH/AND.</p>
-                <form id="unidade49grammar338" class="metade" action="post">       
+                <p class="barlow">3) Think about your life and write 5 sentences about relevant facts that happened to you
+                    or about things that you started in the past and keep doing up to today</p>
+                <form id="unidade50grammar343" class="metade" action="post">       
 
-                    <textarea name="grammar338-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
+                    <textarea name="grammar343-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
                                         
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="49">
-                    <input type="hidden" name="atividade_id" value="338">
+                    <input type="hidden" name="unidade_id" value="50">
+                    <input type="hidden" name="atividade_id" value="343">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                                   
@@ -203,50 +245,50 @@
             checkAtividade(atividade_id, inputType);
         });
 
-        $("#unidade49grammar336").submit(function(e){
+        $("#unidade50grammar341").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade49grammar336 input[type="text"]').each(function(index){
-                if(($('#unidade49grammar336 input[type="text"]').length - 1) == index){
+            $('#unidade50grammar341 input[type="text"]').each(function(index){
+                if(($('#unidade50grammar341 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade49grammar336 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade49grammar336'), respostas);
+            if($('#unidade50grammar341 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade50grammar341'), respostas);
             }else{
-                enviarAtividade($('#unidade49grammar336'), respostas);
+                enviarAtividade($('#unidade50grammar341'), respostas);
             }
         });
 
-        $("#unidade49grammar337").submit(function(e){
+        $("#unidade50grammar342").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade49grammar337 input[type="text"]').each(function(index){
-                if(($('#unidade49grammar337 input[type="text"]').length - 1) == index){
+            $('#unidade50grammar342 input[type="text"]').each(function(index){
+                if(($('#unidade50grammar342 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade49grammar337 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade49grammar337'), respostas);
+            if($('#unidade50grammar342 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade50grammar342'), respostas);
             }else{
-                enviarAtividade($('#unidade49grammar337'), respostas);
+                enviarAtividade($('#unidade50grammar342'), respostas);
             }
         });
 
-        $("#unidade49grammar338").submit(function(e){
+        $("#unidade50grammar343").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade49grammar338 textarea').attr("name")+'":"'+$('#unidade49grammar338 textarea').val()+'"}';
-            if($('#unidade49grammar338 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade49grammar338'), respostas);
+            var respostas = '{"'+$('#unidade50grammar343 textarea').attr("name")+'":"'+$('#unidade50grammar343 textarea').val()+'"}';
+            if($('#unidade50grammar343 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade50grammar343'), respostas);
             }else{
-                enviarAtividade($('#unidade49grammar338'), respostas);
+                enviarAtividade($('#unidade50grammar343'), respostas);
             }
         });
         
@@ -267,13 +309,13 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade49grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade49grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade49grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade49grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade50grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade50grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade50grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade50grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade49grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade49grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade50grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade50grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

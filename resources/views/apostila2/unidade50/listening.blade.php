@@ -9,8 +9,8 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade49" data-etapa="listening">
-				<h3 class="barlow">UNIT 49</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade50" data-etapa="listening">
+				<h3 class="barlow">UNIT 50</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -18,23 +18,19 @@
                 </audio>
                 <div class="clear"></div>
                 
-                <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
-                <form id="unidade49listening340" method="post">
-                    <p>1. Both Dc Comics and Marvel
-                        <input type="text" name="listening340-1" placeholder="Responda aqui" required>huge money in their
-                        <input type="text" name="listening340-2" placeholder="Responda aqui" required>. A whole movie
-                        <input type="text" name="listening340-3" placeholder="Responda aqui" required>from two to three years to be
-                        <input type="text" name="listening340-4" placeholder="Responda aqui" required>. Usually, the success is
-                        <input type="text" name="listening340-5" placeholder="Responda aqui" required>. Both the public and the critics
-                        <input type="text" name="listening340-6" placeholder="Responda aqui" required>their movies.
-                        <input type="text" name="listening340-7" placeholder="Responda aqui" required>, in every release there’s something new to
-                        <input type="text" name="listening340-8" placeholder="Responda aqui" required>the public.
+                <h5 class="barlow">A – Listen to the audio and answer the questions below.</h5>
+                <form id="unidade50listening344" class="metade" method="post">
+                    <p>1. Why the companies have invested a lot of money? 
+                        <input type="text" name="listening344-1" class="full left-align" placeholder="Responda aqui" required>
+                    </p>
+                    <p>2. What have they done to make movies memorable? 
+                        <input type="text" name="listening344-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                                   
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="49">
-                    <input type="hidden" name="atividade_id" value="340">
+                    <input type="hidden" name="unidade_id" value="50">
+                    <input type="hidden" name="atividade_id" value="344">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 			</div>
@@ -48,21 +44,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade49listening340").submit(function(e){
+        $("#unidade50listening344").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade49listening340 input[type="text"]').each(function(index){
-                if(($('#unidade49listening340 input[type="text"]').length - 1) == index){
+            $('#unidade50listening344 input[type="text"]').each(function(index){
+                if(($('#unidade50listening344 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade49listening340 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade49listening340'), respostas);
+            if($('#unidade50listening344 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade50listening344'), respostas);
             }else{
-                enviarAtividade($('#unidade49listening340'), respostas);
+                enviarAtividade($('#unidade50listening344'), respostas);
             }
         });
 
@@ -82,11 +78,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade49listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade49listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade50listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade50listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade49listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade49listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade50listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade50listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

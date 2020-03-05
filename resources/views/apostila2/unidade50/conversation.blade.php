@@ -10,26 +10,25 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade49" data-etapa="conversation">
-				<h3 class="barlow">UNIT 49</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade50" data-etapa="conversation">
+				<h3 class="barlow">UNIT 50</h3>
 				<h5 class="barlow">2 - CONVERSATION</h5>
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Do you remember the animation I asked you to see. The one with the mouse
-					reciting the bible. Both the animation itself and the emotion transmitted by the mouse
-					were fantastic. The idealization of the scenario, the story, the voice synchronization as
-					we said and ultimately, the unexpected outcome. I’m sure that nobody expected the
-					mouse to preach to the cat. That was both surprising and funny.</p>
-				<p><b>John:</b> Everything was thought beforehand to produce such effect. People in general are
-					guided buy common sense and when something breaks this rule, we feel that something different was added to our lives.
-					Remarkable movies do this with us. For example, nobody expected Spider man to appear in Civil War and take American Captain’s shield.
-					That was unexpected and remarkable.</p>
-				<p><b>Gleen:</b> Awesome guys. Fantastic observations and conclusions. Guys, that’s it for today.
-					I see you guys in the next class ok.</p>
-					
+				<p><b>Gleen:</b>Hello guys . How are you? What about your weekend ?</p>
+				<p><b>Students:</b> We are ok teacher. It was just a regular weekend. Resting, watching something
+					on <b>Tv</b>. Listening to music, well. We had a good time. </p>
+				<p><b>Gleen:</b> Great guys! Anything called your attention from what you saw ?</p>
+				<p><b>Akira:</b> Teacher, I watched Civil War again. You mentioned the movie in the last class, then
+					I decided to see it again. I have followed both Dc Comics and marvel productions and
+					they have improved year after year. I believe that, in every movie they release they bring
+					an unexpected feature that makes the movie remarkable.</p>
+				<p><b>Laura:</b>It’s mind-blowing teacher. You believe that they have already invented everything,
+					and then, they come up with something new and we get crazy</p>
+				<p>(to be continued)</p>
 				<figure>
 					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
 				</figure>

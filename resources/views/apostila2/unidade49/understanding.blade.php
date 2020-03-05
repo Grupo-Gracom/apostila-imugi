@@ -48,9 +48,8 @@
                     </figure>
                 </div>
                 <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2049-master/2049-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
+                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
                 </div>
-
 			</div>
 		</div>
     </main>
