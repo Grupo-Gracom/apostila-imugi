@@ -1381,6 +1381,7 @@
                         </li>
                     </ul>
                 </li>
+                <!--UNIDADE 58-->
                 <li class="item" data-unidade="unidade58">
                     <a class="click submenu">
                         <i class="material-icons">folder</i> UNIT 58
@@ -1396,6 +1397,7 @@
                         </li>
                     </ul>
                 </li>
+                <!--UNIDADE 59-->
                 <li class="item" data-unidade="unidade59">
                     <a class="click submenu">
                         <i class="material-icons">folder</i> UNIT 59
@@ -1408,6 +1410,22 @@
                             <a href="{{ route('apostila2/unidade59/pronunciation') }}" data-etapa="pronunciation"><i class="material-icons suave">record_voice_over</i> Pronunciation</a>
                             <a href="{{ route('apostila2/unidade59/listening') }}" data-etapa="listening"><i class="material-icons suave">hearing</i> Listening</a>
                             <a href="{{ route('apostila2/unidade59/understanding') }}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 60-->
+                <li class="item" data-unidade="unidade60">
+                    <a class="click submenu">
+                        <i class="material-icons">folder</i> UNIT 60
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{ route('apostila2/unidade60/vocabulary') }}" data-etapa="vocabulary"><i class="material-icons suave">format_size</i> Vocabulary</a>
+                            <a href="{{ route('apostila2/unidade60/conversation') }}" data-etapa="conversation"><i class="material-icons suave">forum</i> Conversation</a>
+                            <a href="{{ route('apostila2/unidade60/grammar') }}" data-etapa="grammar"><i class="material-icons suave">edit</i> Grammar</a>
+                            <a href="{{ route('apostila2/unidade60/pronunciation') }}" data-etapa="pronunciation"><i class="material-icons suave">record_voice_over</i> Pronunciation</a>
+                            <a href="{{ route('apostila2/unidade60/listening') }}" data-etapa="listening"><i class="material-icons suave">hearing</i> Listening</a>
+                            <a href="{{ route('apostila2/unidade60/understanding') }}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
                         </li>
                     </ul>
                 </li>
