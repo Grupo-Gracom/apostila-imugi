@@ -14,32 +14,32 @@
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade56understanding384" method="post">
+                    <form id="unidade57understanding389" method="post">
                         <p>
-                            1 -  What does John consider a big challenge ?
-                            <input type="text" name="understanding384-1" class="full left-align" placeholder="Responda aqui" required>
+                            1 -  Why are the students worried with the project ?
+                            <input type="text" name="understanding389-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 -  What is important to know when you are producing a movie?
-                            <input type="text" name="understanding384-2" class="full left-align" placeholder="Responda aqui" required>
+                            2 -  What point will be considered for the evaluation of the project?
+                            <input type="text" name="understanding389-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 -  What would have happened if Gleen hadn’t guided the students?
-                            <input type="text" name="understanding384-3" class="full left-align" placeholder="Responda aqui" required>
+                            3 -  What has Laura already done?
+                            <input type="text" name="understanding389-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 -  How long did they spend on the characters’ creation?
-                            <input type="text" name="understanding384-4" class="full left-align" placeholder="Responda aqui" required>
+                            4 -  What is John doing?
+                            <input type="text" name="understanding389-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 - What does Laura say about the movie production ?
-                            <input type="text" name="understanding384-5" class="full left-align" placeholder="Responda aqui" required>
+                            5 - When is Akira finishing drawing?
+                            <input type="text" name="understanding389-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                     
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="56">
-                        <input type="hidden" name="atividade_id" value="384">
+                        <input type="hidden" name="unidade_id" value="57">
+                        <input type="hidden" name="atividade_id" value="389">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -54,21 +54,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade56understanding384").submit(function(e){
+        $("#unidade57understanding389").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade56understanding384 input[type="text"]').each(function(index){
-                if(($('#unidade56understanding384 input[type="text"]').length - 1) == index){
+            $('#unidade57understanding389 input[type="text"]').each(function(index){
+                if(($('#unidade57understanding389 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade56understanding384 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade56understanding384'), respostas);
+            if($('#unidade57understanding389 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade57understanding389'), respostas);
             }else{
-                enviarAtividade($('#unidade56understanding384'), respostas);
+                enviarAtividade($('#unidade57understanding389'), respostas);
             }
         });
 
@@ -88,11 +88,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade56understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade56understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade57understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade57understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade56understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade56understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade57understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade57understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

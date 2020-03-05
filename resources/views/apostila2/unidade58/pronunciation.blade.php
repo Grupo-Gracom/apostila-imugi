@@ -9,24 +9,24 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade57" data-etapa="pronunciation">
-				<h3 class="barlow">UNIT 57</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade58" data-etapa="pronunciation">
+				<h3 class="barlow">UNIT 58</h3>
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio57/Pronunciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio58/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
 				<ul class="lista-inline">
-					<li><b>y sound</b> /y/ </li>        
-					<li>Yesterday</li>	
-					<li>Yellow Year</li>
-					<li>Beyond</li>
-					<li>Behavior</li>
+					<li><b>z sound</b> /z/ </li>        
+					<li>Zoom</li>	
+					<li>Zone</li>
+					<li>Busy</li>
+					<li>Visit</li>
+					<li>Cause</li>
+					<li>Because</li>
 				</ul>
-				<p style="margin-top:32px">
-					Yesterday I read about the behavior of the market. Specialists say the consumption is beyond the limit. They turned on yellow lights last year. This year, it is almost red.
-				</p>
+				<p style="margin-top:32px">Because of the zoom zone, people are busy visiting the galleries.</p>
 				<div class="clear"></div>
 			</div>
 		</div>

@@ -1,4 +1,4 @@
-7@extends('layouts.template')
+@extends('layouts.template')
 @section('titulo','UNIMUGI | Home')
 @section('conteudo')
 <!-- WRAPPER ALL -->
@@ -17,28 +17,27 @@
 					<source src="{{ asset('assets/audio/Unit57/Conversation/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<p style="margin-top: 16px">
-					<b>Gleen :</b>  Guys, what did you find difficult so far?  
+					<b>Gleen :</b>  Hey you guys, What’s up?  
 				</p>
 				<p>
-					<b>John :</b>  Teacher, I believe that being concise and objective is a big challenge. When you start
-					creating the movie, you have a lot of crazy ideas and it’s important to be aware of the constraints you have to decide what fits into the project.
+					<b>Students :</b>  Everything is ok teacher, but we are a bit worried with the project. We are behind
+					schedule and now we have to hurry up to finish on time. One of the points that will be considered, is the punctuality to hand in the project.
 				</p>
 				<p>
-					<b>Akira :</b>  Yes, we would have made a lot of mistakes without your guidance. Just for you to have
-					an idea, we were so excited with the characters that we had been working on their creation
-					for almost two weeks when you called our attention to the idea of linearity and all that stuff
-					related to sequencing, script and etc.
+					<b>Gleen :</b>  Ok, maybe I can help you with some ideas. Tell me how’s everything so far. What you
+					have already done and what is still missing.
 				</p>
 				<p>
-					<b>Laura :</b>  Yes teacher, but everything is going right now. We have already started creating the
-					characters and the scenarios in Cinema 4D.
+					<b>Akira :</b>  Ok teacher. The script is finished. Laura has already checked it. John is preparing the
+					scenarios. He will finish them until the next week. By then, I’ll have finished drawing the
+					characters and I’ll also have tested them .
 				</p>
 				<p>
-					<b>Gleen :</b>  Cool guys. That’s great. Ok. I’ll see you in the next class ok.
+					<b>Gleen :</b>  Guys , it’s not that bad (to be continued)
 				</p>
 				<div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit56/pagina-1.png') }}" alt="estudos">
+						<img src="{{ asset('assets/img/playgo/unit57/pagina-1.png') }}" alt="naruto">
 					</figure>
 				</div>
 			</div>
