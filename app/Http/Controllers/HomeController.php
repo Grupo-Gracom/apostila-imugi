@@ -6,6 +6,7 @@ use App\User;
 use App\Resposta;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\O_Turma;
 
 class HomeController extends Controller
 {
@@ -29,7 +30,9 @@ class HomeController extends Controller
     public function index()
     {
         //$ultimasNoticias = Noticia::orderBy('noticia_id', 'desc')->simplePaginate(10);
-        return view('home/index');
+        $aluno = User::find(811);
+
+        return view('home/index',compact('aluno'));
     }
 
     public function apostila1Intro()
