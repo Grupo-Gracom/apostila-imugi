@@ -16,34 +16,42 @@
 					<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
 				@else
 					<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
-				@endif			
+				@endif	
 				<ul class="capas">
+					<!-- PLAYGO -->
 					<li class="deactive playgo">
 						<figure>
 							<a href="apostila1/intro1/intro"><img src="{{ asset('assets/img/playgo.png') }}" alt="Play Go"></a>
 						</figure>
 					</li>
+					<!-- PHOTOSHOP -->
 					<li class="deactive photoshop">
 						<figure>
 							<img src="{{ asset('assets/img/photoshop.png') }}" alt="Photoshop">
 						</figure>
 					</li>
+					<!-- DOMINATING -->
 					<li class="deactive dominating">
 						<figure>
 							<a href="apostila2/intro2/intro"> <img src="{{ asset('assets/img/dominating.png') }}" alt="Dominating"></a>
 						</figure>
 					</li>
-					<li class="deactive master">
-						<figure>
-							<img src="{{ asset('assets/img/masteroflanguage.png') }}" alt="Master">
-						</figure>
-					</li>
-					
+				</ul>
+				<ul class="capas">
+					<!-- GAMES AND ANIMATION -->
 					<li class="deactive games">
 						<figure>
 							<img src="{{ asset('assets/img/gamesandanimation.png') }}" alt="Games">
 						</figure>
 					</li>
+					
+					<!-- MASTER OF LANGUAGE -->
+					<li class="deactive master">
+						<figure>
+							<img src="{{ asset('assets/img/masteroflanguage.png') }}" alt="Master">
+						</figure>
+					</li>
+					<!-- VIDEO EDITION -->
 					<li class="deactive video">
 						<figure>
 							<img src="{{ asset('assets/img/videoedition.png') }}" alt="Video Edition">
