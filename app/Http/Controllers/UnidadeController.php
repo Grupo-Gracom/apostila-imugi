@@ -111,7 +111,6 @@ class UnidadeController extends Controller
 
     public function carregarLista(){
         $unidades = Unidade::simplePaginate(10);
-        //dd($unidades);
         return view("admin/unidades-lista", compact('unidades'));
     }
 }

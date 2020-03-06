@@ -17,19 +17,10 @@
 					<source src="{{ asset('assets/audio60/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>zh sound</b> /ʒ/ </li>        
-					<li>measure</li>	
-					<li>Pleasure</li>
-					<li>Version</li>
-					<li>Massage</li>
-					<li>Garage</li>
-					<li>Beige</li>
-				</ul>
+				
 				<p style="margin-top:32px">
-					It was nice to visit the garage sale. I found an awesome beige massage table. Besides that,
-					it was a pleasure to talk to the owners of the house. I also bought a collector’s version of a
-					marvel comic book.
+					<p>Tongue twisters</p>
+					<p>“She sells sea shells by the sea shore.”</p>
 				</p>
 				<div class="clear"></div>
 			</div>
