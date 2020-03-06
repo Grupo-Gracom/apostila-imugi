@@ -1222,4 +1222,24 @@ class Apostila2Controller extends Controller
         return view('apostila2/unidade60/understanding');
     }
 
+    //UNIDADE 61
+    public function unidade61Vocabulary(){
+        return view('apostila2/unidade61/vocabulary');
+    }
+    public function unidade61Conversation(){
+        return view('apostila2/unidade61/conversation');
+    }
+    public function unidade61Grammar(){
+        return view('apostila2/unidade61/grammar');
+    }
+    public function unidade61Pronunciation(){
+        return view('apostila2/unidade61/pronunciation');
+    }
+    public function unidade61Listening(){
+        return view('apostila2/unidade61/listening');
+    }
+    public function unidade61Understanding(){
+        return view('apostila2/unidade61/understanding');
+    }
+
 }
