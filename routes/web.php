@@ -1230,10 +1230,10 @@ Route::get('/nota', 'NotaController@index')->name('nota');
 Route::get('/frequencia', 'FrequenciaController@index')->name('frequencia');
 Route::get('/financeiro', 'FinanceiroController@index')->name('financeiro');
 Route::get('/contato', 'ContatoController@index')->name('contato');
-Route::get('/perfil', 'PerfilController@index')->name('perfil');
+Route::get('/perfil', 'UserController@edit')->name('perfil');
 Route::post('/enviar-email', 'ContatoController@enviar');
 Route::post('/enviar-frequencia', 'FrequenciaController@enviar');
-Route::post('/atualizar-perfil/{id}', 'PerfilController@update');
+Route::post('/atualizar-perfil/{id}', 'UserController@update');
 
 Route::get('/atualiza-senha','UserController@atualizaSenha');
 //UNIDADE 25
