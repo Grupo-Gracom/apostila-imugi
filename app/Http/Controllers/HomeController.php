@@ -30,25 +30,39 @@ class HomeController extends Controller
     public function index()
     {
         //$ultimasNoticias = Noticia::orderBy('noticia_id', 'desc')->simplePaginate(10);
-        $matricula = Auth::user()->id;
-        $aluno = User::find($matricula);
-
-        return view('home/index',compact('aluno'));
+        if(Auth::check()){
+            $matricula = Auth::user()->id;
+            $aluno = User::find($matricula);
+            return view('home/index',compact('aluno'));
+        }else{
+            return redirect('/');
+        }
     }
 
     public function apostila1Intro()
     {
-        return view('apostila1/intro1/intro');
+        if(Auth::check()){
+            $matricula = Auth::user()->id;
+            $aluno = User::find($matricula);
+    
+            return view('apostila1/intro1/intro',compact('aluno'));
+        }
     }
 
     public function apostila2Intro()
     {
-        return view('apostila2/intro2/intro');
+        $aluno = User::find(request()->user()->matricula);
+
+        return view('apostila2/intro2/intro',compact('aluno'));
     }
 
     public function homePortal()
     {
-        return view('portal/home/index');
+        if(Auth::check()){
+            return view('portal/home/index');
+        }else{
+            return redirect('/');
+        }
     }
 
     public function materialDidatico(){

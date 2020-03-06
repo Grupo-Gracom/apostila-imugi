@@ -1546,7 +1546,7 @@ Route::get('/apostila2/unidade60/understanding/respostasCheck/{atividade_id}', '
 //     Route::get('/destroy{categoria_id}', 'CategoriaController@destroy')->name('destroy');
 // });
 
-
+Route::get('/apostila/{apostila}/{unidade}/{item}', "Apostila1Controller@material")->name('apostila');
 
 
 

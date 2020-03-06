@@ -1,12 +1,13 @@
 <!-- DASHBOARD MENU -->
-<!-- verificar tipo da unidade e modulo doaluno -->
-        @if($aluno->turma->tipo->tipo_unidade == 0)
+<nav class="suave">
+    <!-- verificar tipo da unidade e modulo doaluno -->
+    @if($aluno->turma->tipo->tipo_unidade == 0)
 			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
 		@else
 			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
 		@endif		
 
-<nav class="suave">
+
     <div class="logo">
         <a href="{{route('home')}}">
             <figure>
@@ -29,7 +30,7 @@
             <ul>
                 <!-- INTRO 1 -->
                 <li class="item" data-unidade="intro1">
-                    <a href="{{ route('apostila1/intro1/intro') }}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRODUCTION</a>
+                    <a href="{{}}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRODUCTION</a>
                 </li>
                 <!--UNIDADE 1-->
                 <li class="item" data-unidade="unidade1">
@@ -546,14 +547,14 @@
             </ul>
         </li>
          <!-- APOSTILA PHOTOSHOP -->
-         <li class="item apostila-photoshop" data-apostila="apostila4">
-            <a class="click submenu">
+         <li class="item apostila-photoshop" data-apostila="apostila2">
+            <a href="https://imugi.com.br/portaldoaluno/demo/imugi/photoshop.html" target="_blank">
                 <i class="material-icons">flag</i> PHOTOSHOP
             </a>
         </li>
 
         <!--APOSTILA DOMINATING-->
-        <li class="item apostila-dominating" data-apostila="apostila2">
+        <li class="item apostila-dominating" data-apostila="apostila3">
             <a class="click submenu">
                 <i class="material-icons">flag</i> DOMINATING
             </a>
@@ -1446,20 +1447,20 @@
         </li>
        
         <!-- APOSTILA GAMES AND ANIMATION -->
-        <li class="item apostila-games" data-apostila="apostila5">
-            <a class="click submenu">
+        <li class="item apostila-games" data-apostila="apostila4">
+            <a  href="https://imugi.com.br/portaldoaluno/demo/imugi/cinema4d.html" target="_blank">
                 <i class="material-icons">flag</i> GAMES AND ANIMATION
             </a>
         </li>
         <!-- APOSTILA MASTER OF LANGUAGE -->
-        <li class="item apostila-master" data-apostila="apostila3">
-            <a class="click submenu">
+        <li class="item apostila-master" data-apostila="apostila5">
+            <a href="https://imugi.com.br/portaldoaluno/demo/imugi/masteroflanguage.html" target="_blank">
                 <i class="material-icons">flag</i> MASTER OF LANGUAGE
             </a>
         </li>
         <!-- APOSTILA VIDEO EDITION -->
         <li class="item apostila-video" data-apostila="apostila6">
-            <a class="click submenu">
+            <a href="https://imugi.com.br/portaldoaluno/demo/imugi/video_edition.html" target="_blank">
                 <i class="material-icons">flag</i> VIDEO EDITION
             </a>
         </li>
@@ -1470,8 +1471,17 @@
     $(document).ready(function(){
         var material = $('input[name="liberaMaterial"]').attr("data-material");
         var tipo = $('input[name="liberaMaterial"]').attr("data-tipo");
-        
+        console.log(material);
         if(tipo == 0){
+            if(material == "PLAY GO + PHOTOSHOP"){
+                $(".apostila-master").addClass("menu-hidden");
+                $(".apostila-dominating").addClass("menu-hidden");
+                $(".apostila-games").addClass("menu-hidden");
+                $(".apostila-video").addClass("menu-hidden");
+            }else if(material == "CG FLY"){
+                $(".apostila-master").addClass("menu-hidden");
+                $(".apostila-video").addClass("menu-hidden");
+            }
         }else{
             if(material == 1){
                 $(".apostila-master").addClass("menu-hidden");

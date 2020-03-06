@@ -21,8 +21,14 @@ class Apostila1Controller extends Controller
         });
     }
 
+    public function material($apostila,$unidade,$item){
+        $id = Auth::user()->id;
+        $aluno = User::find($id);
+        return view($apostila.'/'.'/'.$unidade.'/'.$item.'', compact('aluno'));
+    }
+
 //UNIDADE 1
-    public function unidade1Vocabulary(){
+    /* public function unidade1Vocabulary(){
         return view('apostila1/unidade1/vocabulary');
     }
     public function unidade1Conversation(){
@@ -660,5 +666,5 @@ class Apostila1Controller extends Controller
     }
     public function unidade32Understanding(){
         return view('apostila1/unidade32/understanding');
-    }
+    } */
 }
