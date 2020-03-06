@@ -34,6 +34,31 @@ Route::post('/enviar-email', 'ContatoController@enviar');
 Route::post('/enviar-frequencia', 'FrequenciaController@enviar');
 Route::post('/atualizar-perfil/{id}', 'UserController@update');
 Route::get('/atualiza-senha','UserController@atualizaSenha');
+Route::get('menus', 'HomeController@menusLista')->name('menus');
+Route::resource('empresas', 'EmpresaController');
+Route::get('empresas-lista', 'EmpresaController@carregarLista')->name('empresas-lista');
+Route::resource('unidades', 'UnidadeController');
+Route::get('unidades-lista', 'UnidadeController@carregarLista')->name('unidades-lista');
+Route::resource('clientes', 'ClienteController');
+Route::get('clientes-lista', 'ClienteController@carregarLista')->name('clientes-lista');
+Route::get('clientes-busca/{busca}/{unidade}', 'ClienteController@buscar')->name('clientes-busca');
+Route::resource('cargos', 'CargoController');
+Route::get('cargos-lista', 'CargoController@carregarLista')->name('cargos-lista');
+Route::resource('colaboradores', 'UserController');
+Route::get('users-lista', 'UserController@carregarLista')->name('users-lista');
+Route::resource('cursos', 'CursoController');
+Route::get('cursos-lista', 'CursoController@carregarLista')->name('cursos-lista');
+Route::post('cursoCarregarImagem', 'CursoController@carregarImagem')->name('cursoCarregarImagem');
+Route::resource('turmas', 'TurmaController');
+Route::get('turmas-lista', 'TurmaController@carregarLista')->name('turmas-lista');
+Route::get('turma-lista/{turma_id}', 'TurmaController@alunos')->name('turma-lista');
+Route::post('turmaCarregarImagem', 'TurmaController@carregarImagem')->name('turmaCarregarImagem');
+Route::delete('aluno/{aluno}/{turma}', 'TurmaController@removerAluno')->name('aluno');
+Route::resource('horarios', 'HorarioController');
+Route::get('horarios-lista', 'HorarioController@carregarLista')->name('horario-lista');
+Route::get('login-usuario', function(){
+    return view('auth/login-usuario');
+});
 
 //UNIDADE 1
 Route::get('/apostila1/unidade1/vocabulary', 'Apostila1Controller@unidade1Vocabulary')->name('apostila1/unidade1/vocabulary');
