@@ -30,7 +30,8 @@ class HomeController extends Controller
     public function index()
     {
         //$ultimasNoticias = Noticia::orderBy('noticia_id', 'desc')->simplePaginate(10);
-        $aluno = User::find(811);
+        $matricula = Auth::user()->id;
+        $aluno = User::find($matricula);
 
         return view('home/index',compact('aluno'));
     }

@@ -1,4 +1,11 @@
 <!-- DASHBOARD MENU -->
+<!-- verificar tipo da unidade e modulo doaluno -->
+        @if($aluno->turma->tipo->tipo_unidade == 0)
+			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
+		@else
+			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
+		@endif		
+
 <nav class="suave">
     <div class="logo">
         <a href="{{route('home')}}">
@@ -15,7 +22,7 @@
         </li>
 
         <!--APOSTILA PLAY GO-->
-        <li class="item" data-apostila="apostila1">
+        <li class="item apostila-playgo" data-apostila="apostila1">
             <a class="click submenu">
                 <i class="material-icons">flag</i> PLAY GO
             </a>
@@ -538,9 +545,15 @@
                 </li>
             </ul>
         </li>
+         <!-- APOSTILA PHOTOSHOP -->
+         <li class="item apostila-photoshop" data-apostila="apostila4">
+            <a class="click submenu">
+                <i class="material-icons">flag</i> PHOTOSHOP
+            </a>
+        </li>
 
         <!--APOSTILA DOMINATING-->
-        <li class="item" data-apostila="apostila2">
+        <li class="item apostila-dominating" data-apostila="apostila2">
             <a class="click submenu">
                 <i class="material-icons">flag</i> DOMINATING
             </a>
@@ -1431,6 +1444,44 @@
                 </li>
             </ul>
         </li>
+       
+        <!-- APOSTILA GAMES AND ANIMATION -->
+        <li class="item apostila-games" data-apostila="apostila5">
+            <a class="click submenu">
+                <i class="material-icons">flag</i> GAMES AND ANIMATION
+            </a>
+        </li>
+        <!-- APOSTILA MASTER OF LANGUAGE -->
+        <li class="item apostila-master" data-apostila="apostila3">
+            <a class="click submenu">
+                <i class="material-icons">flag</i> MASTER OF LANGUAGE
+            </a>
+        </li>
+        <!-- APOSTILA VIDEO EDITION -->
+        <li class="item apostila-video" data-apostila="apostila6">
+            <a class="click submenu">
+                <i class="material-icons">flag</i> VIDEO EDITION
+            </a>
+        </li>
     </ul>
 </nav>
-<!-- /DASHBOARD MENU -->		
+<!-- /DASHBOARD MENU -->	
+<script>
+    $(document).ready(function(){
+        var material = $('input[name="liberaMaterial"]').attr("data-material");
+        var tipo = $('input[name="liberaMaterial"]').attr("data-tipo");
+        
+        if(tipo == 0){
+        }else{
+            if(material == 1){
+                $(".apostila-master").addClass("menu-hidden");
+                $(".apostila-dominating").addClass("menu-hidden");
+                $(".apostila-games").addClass("menu-hidden");
+                $(".apostila-video").addClass("menu-hidden");
+            }else if(material == 2){
+                $(".apostila-master").addClass("menu-hidden");
+                $(".apostila-video").addClass("menu-hidden");
+            }
+        }
+    });
+</script>	
