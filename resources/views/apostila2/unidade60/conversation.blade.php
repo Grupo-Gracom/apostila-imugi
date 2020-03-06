@@ -17,23 +17,22 @@
 					<source src="{{ asset('assets/audio/Unit60/Conversation/completo.ogg') }}" type="audio/ogg">
 				</audio>
 				<p style="margin-top: 16px">
-					<b>Gleen :</b>  What’s up guys. How’s it going? Everything ok? Are you calmer today?  
+					<b>Akira :</b>  Teacher, I get desperate very easily. Deadlines are a kind of pressure over me. I have to learn how to deal with this factor.
 				</p>
 				<p>
-					<b>Laura :</b>  Yes teacher. John and Akira were freaking out last week. But after you talked to us, we
-					managed to organize everything and we are again on track.
+					<b>Gleen :</b>  You’re not used to it yet, Don’t worry, you’ll get to manage everything. Just be open
+					to understand that it is something extremely necessary if you want to have success in any
+					area. If I had the chance to give an advice for all my students I would advise them to be prepared to deal with pressure for the rest of their lives.
 				</p>
 				<p>
-					<b>Gleen :</b>  That’s ok guys. This is a normal situation in any project. You plan and something goes wrong 
-					and we have to reorganize everything. Have in mind one thing. If you get desperate because something is out of place, you will go crazy and won’t do anything. The best
-					thing to do is to stop, evaluate the whole process and decide what’s priority at that specific moment.
+					<b>Akira :</b>   I’ll learn teacher. I believe that if worked closer to the panning department of my company I could learn to deal better with deadlines.
 				</p>
 				<p>
-					<b>Laura :</b>  Good hint teacher. (to be continued)
+					<b>Gleen :</b>  That’s a good idea to be in touch with this universe. (to be continued).
 				</p>
 				<div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit59/pagina-1.png') }}" alt="ioga e desenhando">
+						<img src="{{ asset('assets/img/playgo/unit60/pagina-1.png') }}" alt="trabalho equipe">
 					</figure>
 				</div>
 			</div>

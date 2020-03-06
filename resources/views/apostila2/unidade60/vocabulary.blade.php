@@ -18,26 +18,26 @@
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
 				<ul class="lista-inline">
-					<ol><b>TO YELL / at somebody / out in surprise-pain / </b></ol>
+					<ol><b>TO JUMP / up and down / for joy</b></ol>
 				</ul>
 				<ul class="lista-inline">
-					<ol><b>TO BAKE / a cake / a pie</b></ol>
+					<ol><b>TO NOTICE / a problem / somebody-something doing something</b></ol>
 				</ul>
 				<ul class="lista-inline">
-					<ol><b>TO DATE / a girl / a boy</b></ol>
+					<ol><b>TO RELAX / in the swimming pool / all day</b></ol>
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 32px">B -  WORDS IN CONTEXT</h5>
 				<div style="margin-top: 36px">
 					<ul class="lista-inline">
-						<li><b>Calmer </b></li>
-						<li><b>Freaking </b></li>
-						<li><b>out</b></li>
-						<li><b>Managed</b></li>
-						<li><b>Wrong</b></li>
 						<li><b>Desperate</b></li>
-						<li><b>Evaluate</b></li>
-						<li><b>Decide Hint</b></li>
+						<li><b>Easily </b></li>
+						<li><b>Deadlines</b></li>
+						<li><b>Kind</b></li>
+						<li><b>Deal</b></li>
+						<li><b>Advice</b></li>
+						<li><b>Advise</b></li>
+						<li><b>Pressure</b></li>
 					</ul>
 				</div>
 			</div>
