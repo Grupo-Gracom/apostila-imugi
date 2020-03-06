@@ -19,85 +19,69 @@
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
                     <h5 class="barlow">A - CONDITIONAL II – PRESENT UNREAL CONDITIONAL</h5>
-                    <p>
-                        The If-clause can be at the beginning or at the end of the sentence. When it comes at the
-                        beginning, the sentences are separated by a comma (,).
-                    </p>
                     <table class="metade espacamento center-align">
                         <tr>
                             <td>
                                 <h5 class="barlow"><b>Conditional sentence (If-Clause)</b></h5>
                             </td>
-                        </tr>
-                        <tr>
                             <td>
-                                <h5 class="barlow">Simple Present</h5>
+                                <h5 class="barlow"><b>Main Sentence</b></h5>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <p><b>If he finishes</b> the class in time, <b>he will send</b> it to the client tomorrow.</p>
-                                <p><b>If they arrive</b> tomorrow, <b>we can</b> start the new project.</p>
-                                <p><b>If you need</b> any help, <b>I'm gonna be</b> here the whole afternoon. Just give a call.</p><br>
-                            
-                                <p>My preoject <b>will be approved if i send</b> the draft today.</p>
-                                <p>The video is <b>gonna be accepted if the quality</b> is good.</p>
-                                <p><b>She can visit?</b> her friend <b>if she travels</b> to New York.</p><br>
+                                <h5 class="barlow">Simple Past</h5>
+                            </td>
+                            <td>
+                                <h5 class="barlow">Would + infinitive /Could + infinitive/ might + infinitive</h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p><b>If we arrived</b> home early, <b>we cold watch </b>the last episode of the Big Bang Theory.</p>
+                                <p><b>If the company had</b> enough money to invest in technology, <b>they would buy</b> the last version of blender.</p>
+                                <p><b>I would live</b> in New York <b>if i had</b> a job there.</p>>
+                                <p><b>I wouln't present</b> the last briefing <b>if i were you</b>.(*)</p>
                             </td>
                         </tr>
                     </table> 
 
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
-                    <h5 class="barlow">1 - Use the correct tense:</h5>
-                    <form id="unidade59grammar393" style="margin-top:32px" method="post">
+                    <h5 class="barlow">1 - Complete the Conditional Sentences (Type II) by putting the verbs into the correct form.
+                    Use conditional I with would in the main clause.</h5>
+                    <form id="unidade60grammar399" style="margin-top:32px" method="post">
                         <div class="metade">
                             <p>
                                 <p>
-                                    1. He <input type="text" name="grammar393-1"  placeholder="Responda aqui" required/> (not / live) in İstanbul if he <input type="text" name="grammar393-2"  placeholder="Responda aqui" required/> (hate) it.
+                                    1. If we <input type="text" name="grammar399-1"  placeholder="Responda aqui" required/> (have) a yacht, we <input type="text" name="grammar399-2"  placeholder="Responda aqui" required/> (sail) the seven seas.
                                 </p>
                                 <p>
-                                    2. If you <input type="text" name="grammar393-3"  placeholder="Responda aqui" required/> (write) the letters, I <input type="text" name="grammar393-4"  placeholder="Responda aqui" required/>(post) them.
+                                    2. If he <input type="text" name="grammar399-3"  placeholder="Responda aqui" required/>(have) more time, he <input type="text" name="grammar399-4"  placeholder="Responda aqui" required/> (learn) karate.
                                 </p>
                                 <p>
-                                    3. If you <input type="text" name="grammar393-5"  placeholder="Responda aqui" required/> (not / leave) immediately, I <input type="text" name="grammar393-6"  placeholder="Responda aqui" required/> (call) the police.
+                                    3. If they <input type="text" name="grammar399-5"  placeholder="Responda aqui" required/> (tell) their father, he <input type="text" name="grammar399-6"  placeholder="Responda aqui" required/> (be) very angry.
                                 </p>
                                 <p>
-                                    4. If he <input type="text" name="grammar393-7"  placeholder="Responda aqui" required/> (not / arrive) soon, we <input type="text" name="grammar393-8"  placeholder="Responda aqui" required/> (have to) have dinner without him.
+                                    4. She <input type="text" name="grammar399-7"  placeholder="Responda aqui" required/> (spend) a year in the USA if it <input type="text" name="grammar399-8"  placeholder="Responda aqui" required/> (be) easier to get a green card.
                                 </p>
                                 <p>
-                                    5. I <input type="text" name="grammar393-9"  placeholder="Responda aqui" required/> (not / have to) borrow any money from you if I <input type="text" name="grammar393-10"  placeholder="Responda aqui" required/> (get) my salary tomorrow.
+                                    5. If I <input type="text" name="grammar399-9"  placeholder="Responda aqui" required/>  (live) on a lonely island, I <input type="text" name="grammar399-10"  placeholder="Responda aqui" required/>  (run) around naked all day.
                                 </p>
                                 <p>
-                                    6. If you <input type="text" name="grammar393-11"  placeholder="Responda aqui" required/> (invite) her to the dance, she <input type="text" name="grammar393-12"  placeholder="Responda aqui" required/> (be) very pleased.
+                                    6. We <input type="text" name="grammar399-11"  placeholder="Responda aqui" required/>  (help) you if we <input type="text" name="grammar399-12"  placeholder="Responda aqui" required/>  (know) how.
                                 </p>
                                 <p>
-                                    7. If you <input type="text" name="grammar393-13"  placeholder="Responda aqui" required/> (retire) soon, you <input type="text" name="grammar393-14"  placeholder="Responda aqui" required/> (make yourself ill.
+                                    7. My brother <input type="text" name="grammar399-13"  placeholder="Responda aqui" required/>  (buy) a sports car if he <input type="text" name="grammar399-14"  placeholder="Responda aqui" required/>  (have) the money.
                                 </p>
                                 <p>
-                                    8. If you <input type="text" name="grammar393-15"  placeholder="Responda aqui" required/> (write) him a letter, he <input type="text" name="grammar393-16"  placeholder="Responda aqui" required/> (know) our address.
+                                    8. If I <input type="text" name="grammar399-15"  placeholder="Responda aqui" required/>  (feel) better, I <input type="text" name="grammar399-16"  placeholder="Responda aqui" required/>  (go) to the cinema with you.
                                 </p>
                                 <p>
-                                    9. If the policeman had seen the thief, he <input type="text" name="grammar393-17"  placeholder="Responda aqui" required/> (arrest) him.
+                                    9. If you <input type="text" name="grammar399-17"  placeholder="Responda aqui" required/>  (go) by bike more often, you <input type="text" name="grammar399-18"  placeholder="Responda aqui" required/> (be) so flabby.
                                 </p>
                                 <p>
-                                    10. The buildings wouldn’t have burned to ashes if the firemen <input type="text" name="grammar393-18"  placeholder="Responda aqui" required/> (come) in time.
+                                    10. She <input type="text" name="grammar399-19"  placeholder="Responda aqui" required/> (talk) to you if she <input type="text" name="grammar399-20"  placeholder="Responda aqui" required/>  (be) mad at you. 
                                 </p>
-                                <p>
-                                    11. People wouldn’t cross the rivers, if they <input type="text" name="grammar393-19"  placeholder="Responda aqui" required/> (not / build) those bridges.
-                                </p>
-                                <p>
-                                    12. If the family had saved enough money, they <input type="text" name="grammar393-20"  placeholder="Responda aqui" required/> (buy) a new flat.
-                                </p>
-                                <p>
-                                    13. If I had known that he was sleeping, I <input type="text" name="grammar393-21"  placeholder="Responda aqui" required/> (not / disturb) him.
-                                </p>
-                                <p>
-                                    14. If I had lost all my money, I <input type="text" name="grammar393-22"  placeholder="Responda aqui" required/> . (be) very unhappy.
-                                </p>
-                                <p>
-                                    15. If you had phoned me before you came, you <input type="text" name="grammar393-23"  placeholder="Responda aqui" required/> (find) me at home.
-                                </p>
-                                
                             </p>
                         </div>
 
@@ -105,123 +89,55 @@
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="59">
-                        <input type="hidden" name="atividade_id" value="393">
+                        <input type="hidden" name="unidade_id" value="60">
+                        <input type="hidden" name="atividade_id" value="399">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
 
-                <h5 class="barlow">2 - Complete the following sentences in column A using the correct choice in column B. Select a letter for each item.</h5>               
-                    <form id="unidade59grammar394" method="post">
-                        <div class="metade esquerda" >
-                            <h5>A</h5>
+                <h5 class="barlow">2 - Complete these second conditional sentences with your own words.</h5>               
+                    <form id="unidade60grammar400" method="post">
+                        <div class="metade" >
                             <p> 
-                                <p>1. You’ll get tired <select class="example-select"  name="grammar394-1" required><option placeholder=" "></option></select></p>
-                                <p>2. If you go to a football match, <select class="example-select" name="grammar394-2" required><option placeholder=" "></option></select></p>
-                                <p>3. You can’t hear the teacher <select class="example-select"  name="grammar394-3" required><option placeholder=" "></option></select></p>
-                                <p>4. I’ll help you with your lesson, <select class="example-select"  name="grammar394-4" required><option placeholder=" "></option></select></p>
-                                <p>5. If the soup is too hot, <select class="example-select"  name="grammar394-5" required><option placeholder=" "></option></select></p>
-                                <p>6. If it rains, <select class="example-select"  name="grammar394-6" required><option placeholder=" "></option></select></p>
-                                <p>7. His family may go on holiday <select class="example-select"  name="grammar394-7" required><option placeholder=" "></option></select></p>
-                                <p>8. A man can’t buy what he needs <select class="example-select"  name="grammar394-8" required><option placeholder=" "></option></select></p>
-                                <p>9. If you’re on a crowded bus, <select class="example-select"  name="grammar394-9" required><option placeholder=" "></option></select></p>
-                                <p>10. We’ll come to visit you <select class="example-select"  name="grammar394-10" required><option placeholder=" "></option></select></p>
-                                <p>11. If they haven’t seen Topkapý Palace, <select class="example-select"  name="grammar394-11" required><option placeholder=" "></option></select></p>
-                                <p>12. If I get a driving license, <select class="example-select"  name="grammar394-12" required><option placeholder=" "></option></select></p>
+                                <p>1. If I won the lottery <input type="text" name="grammar400-1" class="full left-align"  placeholder="Responda aqui" required/></p>
+                                <p>2. If I had only one day to live, <input type="text" name="grammar400-2" class="full left-align"  placeholder="Responda aqui" required/></p>
+                                <p>3. If I were famous <input type="text" name="grammar400-3" class="full left-align"  placeholder="Responda aqui" required/></p>
+                                <p>4. If I were the president, <input type="text" name="grammar400-4" class="full left-align"  placeholder="Responda aqui" required/></p>
+                                <p>5. If I were an animal, <input type="text" name="grammar400-5" class="full left-align"  placeholder="Responda aqui" required/></p>
+                                <p>6. If I couldn’t speak, <input type="text" name="grammar400-6" class="full left-align"  placeholder="Responda aqui" required/></p>
+                                <p>7. If I lived in a big city like London <input type="text" name="grammar400-7" class="full left-align"  placeholder="Responda aqui" required/></p>
+                                <p>8. If I had an accident <input type="text" name="grammar400-8" class="full left-align"  placeholder="Responda aqui" required/></p>
                             </p>
                         </div>
-                        <div class="metade direita">
-                            <h5>B</h5>
-                            <p>
-                                <p>A. If you can’t have it.</p>
-                                <p>B. If students make a lot of noise.</p>
-                                <p>C. you must take your umbrella with you.</p>
-                                <p>D. If you stand up for a long time.</p>
-                                <p>E. If you’re at home tonight.</p>
-                                <p>F. If you want to study.</p>
-                                <p>G. you won’t find a seat.</p>
-                                <p>H. If they save enough money.</p>
-                                <p>I. If he doesn’t have enough money</p>
-                                <p>J. I’ll buy a car.</p>
-                                <p>K. we’d better go there this afternoon.</p>
-                                <p>L. I’ll come with you.</p>
-                            </p>
-                        </div>
+                        
                         <div class="clear"></div>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="59">
-                        <input type="hidden" name="atividade_id" value="394">
+                        <input type="hidden" name="unidade_id" value="60">
+                        <input type="hidden" name="atividade_id" value="400">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-
-                    <h5 class="barlow">3 - Complete the following sentences:</h5>
-                    <form id="unidade59grammar395" style="margin-top:32px" method="post">
-                        <div class="metade">
-                            <p>
-                                <p>
-                                    1. If you write me from England, <input type="text" name="grammar395-1"  placeholder="Responda aqui" required/>
-                                </p>
-                                <p>
-                                    2. She can learn English if <input type="text" name="grammar395-2"  placeholder="Responda aqui" required/>
-                                </p>
-                                <p>
-                                    3. We can catch the bus if <input type="text" name="grammar395-3"  placeholder="Responda aqui" required/>
-                                </p>
-                                <p>
-                                    4. If it doesn’t rain this afternoon, <input type="text" name="grammar395-4"  placeholder="Responda aqui" required/>
-                                </p>
-                                <p>
-                                    5. His family will be hungry if <input type="text" name="grammar395-5"  placeholder="Responda aqui" required/>
-                                </p>
-                                <p>
-                                    6. Your room will become untidy if <input type="text" name="grammar395-6"  placeholder="Responda aqui" required/>
-                                </p>
-                                <p>
-                                    7. A baby cries if <input type="text" name="grammar395-7"  placeholder="Responda aqui" required/>
-                                </p>
-                                <p>
-                                    8. If my girlfriend comes early, <input type="text" name="grammar395-8"  placeholder="Responda aqui" required/>
-                                </p>
-                                <p>
-                                    9. If he doesn’t smoke, <input type="text" name="grammar395-9"  placeholder="Responda aqui" required/>
-                                </p>
-                                <p>
-                                    10. You can’t sleep well if  <input type="text" name="grammar395-10"  placeholder="Responda aqui" required/>
-                                </p>
-                            </p>
-                        </div>
-
-                        <div class="clear"></div>
-
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="59">
-                        <input type="hidden" name="atividade_id" value="395">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-
+                <div style="margin-top: 36px">
+                    <figure>
+                        <img src="{{ asset('assets/img/playgo/unit60/pagina-1.png') }}" alt="brasilia">
+                    </figure>
+                </div>
                 <h5 class="barlow metade" style="margin-top: 36px">
-                    4 -  You have studied for such a nice period of time, and we are about to finish the second part of your course. Share with your classmates what is gonna happen if you have the
-                    opportunity to get a job in your area. Write at least 5 sentences using the FIRST CONDITIONAL.
+                    3 -  What would you do if you had the chance to be an intern in a big company like Rockstar,
+                    Warner Bross or Google? Write at least 5 sentences using the SECOND CONDITIONAL.
                 </h5>    
-                <form id="unidade59grammar396" method="post">
-                    <textarea name="grammar396-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+                <form id="unidade60grammar401" method="post">
+                    <textarea name="grammar401-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                     <div class="clear"></div>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="59">
-                    <input type="hidden" name="atividade_id" value="396">
+                    <input type="hidden" name="unidade_id" value="60">
+                    <input type="hidden" name="atividade_id" value="401">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <div style="margin-top: 36px">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit58/pagina-1.png') }}" alt="bebê">
-                    </figure>
-                </div>
 			</div>
 		</div>
     </main>
@@ -233,82 +149,53 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade59grammar393").submit(function(e){
+        $("#unidade60grammar399").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade59grammar393 input[type="text"]').each(function(index){
-                if(($('#unidade59grammar393 input[type="text"]').length - 1) == index){
+            $('#unidade60grammar399 input[type="text"]').each(function(index){
+                if(($('#unidade60grammar399 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade59grammar393 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade59grammar393'), respostas);
+            if($('#unidade60grammar399 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade60grammar399'), respostas);
             }else{
-                enviarAtividade($('#unidade59grammar393'), respostas);
+                enviarAtividade($('#unidade60grammar399'), respostas);
             }
         });
 
-        // $("#unidade59grammar394").submit(function(e){
-        //     e.preventDefault();
-        //     $(this).find('button').prop('disabled', true);
-        //     var respostas = '{';
-        //     $('#unidade59grammar394 input[type="select"]').each(function(index){
-        //         if(($('#unidade59grammar394 input[type="select"]').length - 1) == index){
-        //             respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-        //         }else{
-        //             respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-        //         }
-        //     });
-        //     if($('#unidade59grammar394 input[name="resposta_id"').val() != 0){
-        //         atualizarAtividade($('#unidade59grammar394'), respostas);
-        //     }else{
-        //         enviarAtividade($('#unidade59grammar394'), respostas);
-        //     }
-        // });
-        
-        $("#unidade59grammar394").submit(function(e){
-            e.preventDefault();
-            $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade59grammar394 select').attr("name")+'":"'+$('#unidade59grammar394 select').val()+'"}';
-            if($('#unidade59grammar394 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade59grammar394'), respostas);
-            }else{
-                enviarAtividade($('#unidade59grammar394'), respostas);
-            }
-        });
-
-        $("#unidade59grammar395").submit(function(e){
+        $("#unidade60grammar400").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade59grammar395 input[type="text"]').each(function(index){
-                if(($('#unidade59grammar395 input[type="text"]').length - 1) == index){
+            $('#unidade60grammar400 input[type="text"]').each(function(index){
+                if(($('#unidade60grammar400 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade59grammar395 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade59grammar395'), respostas);
+            if($('#unidade60grammar400 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade60grammar400'), respostas);
             }else{
-                enviarAtividade($('#unidade59grammar395'), respostas);
-            }
-        });
-
-        $("#unidade59grammar396").submit(function(e){
-            e.preventDefault();
-            $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade59grammar396 textarea').attr("name")+'":"'+$('#unidade59grammar396 textarea').val()+'"}';
-            if($('#unidade59grammar396 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade59grammar396'), respostas);
-            }else{
-                enviarAtividade($('#unidade59grammar396'), respostas);
+                enviarAtividade($('#unidade60grammar400'), respostas);
             }
         });
         
+        $("#unidade60grammar401").submit(function(e){
+            e.preventDefault();
+            $(this).find('button').prop('disabled', true);
+            var respostas = '{"'+$('#unidade60grammar401 select').attr("name")+'":"'+$('#unidade60grammar401 select').val()+'"}';
+            if($('#unidade60grammar401 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade60grammar401'), respostas);
+            }else{
+                enviarAtividade($('#unidade60grammar401'), respostas);
+            }
+        });
+
 
         function checkAtividade(atividade_id){
             request = $.ajax({
@@ -326,15 +213,13 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade59grammar'+atividade_id+' select[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade59grammar'+atividade_id+' select[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade59grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade59grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade59grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade59grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade60grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade60grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade60grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade60grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade59grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade59grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade60grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade60grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
@@ -389,19 +274,6 @@
                 }
             });
         }
-
-        var example_array = ['A','B','C','D','E','F','G','H','I','J','K','L'];
-        console.log(example_array);
-        var select = $(".example-select");
-        example_array.forEach( o => {
-            var option = document.createElement('option');
-            option.setAttribute("value", o);
-            option.setAttribute("name", "Value"+o);
-            option.innerHTML = o;
-            select.append(option);
-            console.log(option);
-            
-        })
         
     </script>
 

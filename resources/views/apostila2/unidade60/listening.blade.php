@@ -17,23 +17,15 @@
 					<source src="{{ asset('assets/audio/Unit60/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -   Listen to the audio and fill in the blanks with the missing words.</h5>
+                <h5 class="barlow">A -  Listen to the audio and answer the questions below.</h5>
                 <div class="metade" style="margin-top: 16px">
-                    <form id="unidade59listening397" method="post">
-                        <p> 
-                            My friend is <input type="text" name="listening397-1" placeholder="Responda aqui" required> of a hiring 
-                            <input type="text" name="listening397-2" placeholder="Responda aqui" required> for a big movie making company. He
-                            <input type="text" name="listening397-3" placeholder="Responda aqui" required> that if he has that chance to 
-                            <input type="text" name="listening397-4" placeholder="Responda aqui" required> there, he will learn a lot. If he 
-                            <input type="text" name="listening397-5" placeholder="Responda aqui" required>
-                            himself, he can get a promotion and he may be <input type="text" name="listening397-6" placeholder="Responda aqui" required> to New York to work in the
-                            <input type="text" name="listening397-7" placeholder="Responda aqui" required>. 
-                        </p> 
+                    <form id="unidade60listening402" method="post">
+                        <p>1 - What things would the speaker do if he had the chance to work for a big company? <input type="text" name="listening402-1" class="full left-align" placeholder="Responda aqui" required></p> 
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="59">
-                        <input type="hidden" name="atividade_id" value="397">
+                        <input type="hidden" name="unidade_id" value="60">
+                        <input type="hidden" name="atividade_id" value="402">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -48,21 +40,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade59listening397").submit(function(e){
+        $("#unidade60listening402").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade59listening397 input[type="text"]').each(function(index){
-                if(($('#unidade59listening397 input[type="text"]').length - 1) == index){
+            $('#unidade60listening402 input[type="text"]').each(function(index){
+                if(($('#unidade60listening402 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade59listening397 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade59listening397'), respostas);
+            if($('#unidade60listening402 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade60listening402'), respostas);
             }else{
-                enviarAtividade($('#unidade59listening397'), respostas);
+                enviarAtividade($('#unidade60listening402'), respostas);
             }
         });
 
@@ -82,11 +74,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade59listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade59listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade60listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade60listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade59listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade59listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade60listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade60listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

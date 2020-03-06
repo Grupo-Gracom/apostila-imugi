@@ -14,32 +14,32 @@
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade60understanding398" method="post">
+                    <form id="unidade60understanding403" method="post">
                         <p>
-                            1 -  What was happening to John and Akira?
-                            <input type="text" name="understanding398-1" class="full left-align" placeholder="Responda aqui" required>
+                            1 -  What does Akira say about deadlines?
+                            <input type="text" name="understanding403-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 -  What happened after they talked to Gleen?
-                            <input type="text" name="understanding398-2" class="full left-align" placeholder="Responda aqui" required>
+                            2 -  How does he deal with everything?
+                            <input type="text" name="understanding403-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 -  What does Gleen say about facing problems in a project?
-                            <input type="text" name="understanding398-3" class="full left-align" placeholder="Responda aqui" required>
+                            3 -  What’s Gleen’s opinion about working under pressure?
+                            <input type="text" name="understanding403-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 -  What do you have to do in a hard moment?
-                            <input type="text" name="understanding398-4" class="full left-align" placeholder="Responda aqui" required>
+                            4 -  What’s Akira reaction to Gleen’s observation?
+                            <input type="text" name="understanding403-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 - What can happen if you get desperate?
-                            <input type="text" name="understanding398-5" class="full left-align" placeholder="Responda aqui" required>
+                            5 - What is Akira gonna do to improve his skills in this area ?
+                            <input type="text" name="understanding403-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                     
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="59">
-                        <input type="hidden" name="atividade_id" value="398">
+                        <input type="hidden" name="unidade_id" value="60">
+                        <input type="hidden" name="atividade_id" value="403">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -54,21 +54,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade59understanding398").submit(function(e){
+        $("#unidade59understanding403").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade59understanding398 input[type="text"]').each(function(index){
-                if(($('#unidade59understanding398 input[type="text"]').length - 1) == index){
+            $('#unidade59understanding403 input[type="text"]').each(function(index){
+                if(($('#unidade59understanding403 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade59understanding398 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade59understanding398'), respostas);
+            if($('#unidade59understanding403 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade59understanding403'), respostas);
             }else{
-                enviarAtividade($('#unidade59understanding398'), respostas);
+                enviarAtividade($('#unidade59understanding403'), respostas);
             }
         });
 

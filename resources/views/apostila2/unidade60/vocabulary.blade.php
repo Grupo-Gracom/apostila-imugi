@@ -35,7 +35,6 @@
 						<li><b>Deadlines</b></li>
 						<li><b>Kind</b></li>
 						<li><b>Deal</b></li>
-						<li><b>Advice</b></li>
 						<li><b>Advise</b></li>
 						<li><b>Pressure</b></li>
 					</ul>
