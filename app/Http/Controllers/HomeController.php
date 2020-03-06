@@ -50,4 +50,8 @@ class HomeController extends Controller
         return view('portal/home/index');
     }
 
+    public function materialDidatico(){
+        return view('portal/material/index');
+    }
+
 }

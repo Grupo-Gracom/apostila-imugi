@@ -1225,7 +1225,7 @@ Route::get('/apostila2/unidade24/understanding/respostasCheck/{atividade_id}', '
 
 //Rotas para o Portal do Aluno
 Route::get('/portal', 'HomeController@homePortal')->name('portal');
-Route::get('/material', 'MaterialDidaticoController@index')->name('material');
+Route::get('/material', 'HomeController@materialDidatico')->name('material');
 Route::get('/nota', 'NotaController@index')->name('nota');
 Route::get('/frequencia', 'FrequenciaController@index')->name('frequencia');
 Route::get('/financeiro', 'FinanceiroController@index')->name('financeiro');
