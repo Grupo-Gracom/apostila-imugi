@@ -773,7 +773,7 @@ Route::get('/apostila2/unidade58/listening', 'Apostila2Controller@unidade58Liste
 Route::get('/apostila2/unidade58/understanding', 'Apostila2Controller@unidade58Understanding')->name('apostila2/unidade58/understanding');
 
 //UNIDADE 59
-Route::get('/apostila2/unidade59/vocabulary', 'Apostila2Controller@unidad590Vocabulary')->name('apostila2/unidade59/vocabulary');
+Route::get('/apostila2/unidade59/vocabulary', 'Apostila2Controller@unidade59Vocabulary')->name('apostila2/unidade59/vocabulary');
 Route::get('/apostila2/unidade59/conversation', 'Apostila2Controller@unidade59Conversation')->name('apostila2/unidade59/conversation');
 Route::get('/apostila2/unidade59/grammar', 'Apostila2Controller@unidade59Grammar')->name('apostila2/unidade59/grammar');
 Route::get('/apostila2/unidade59/pronunciation', 'Apostila2Controller@unidade59Pronunciation')->name('apostila2/unidade59/pronunciation');
@@ -1251,15 +1251,15 @@ Route::get('/apostila2/unidade24/understanding/respostasCheck/{atividade_id}', '
 
 //Rotas para o Portal do Aluno
 Route::get('/portal', 'HomeController@homePortal')->name('portal');
-Route::get('/material', 'MaterialDidaticoController@index')->name('material');
+Route::get('/material', 'HomeController@materialDidatico')->name('material');
 Route::get('/nota', 'NotaController@index')->name('nota');
 Route::get('/frequencia', 'FrequenciaController@index')->name('frequencia');
 Route::get('/financeiro', 'FinanceiroController@index')->name('financeiro');
 Route::get('/contato', 'ContatoController@index')->name('contato');
-Route::get('/perfil', 'PerfilController@index')->name('perfil');
+Route::get('/perfil', 'UserController@edit')->name('perfil');
 Route::post('/enviar-email', 'ContatoController@enviar');
 Route::post('/enviar-frequencia', 'FrequenciaController@enviar');
-Route::post('/atualizar-perfil/{id}', 'PerfilController@update');
+Route::post('/atualizar-perfil/{id}', 'UserController@update');
 
 Route::get('/atualiza-senha','UserController@atualizaSenha');
 //UNIDADE 25

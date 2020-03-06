@@ -36,7 +36,7 @@
                                 <td><p><b>I believe it’s in the</b> end of July.</p></td>
                             </tr>
                             <tr><td colspan="3"><h5 class="barlow">Other Verbs</h5></td></tr>
-                             <tr>
+                            <tr>
                                 <td><p><b>Where do you find</b> good study references?</p></td>
                                 <td><p><b>I</b> find very good tutorials <b>on youtube</b></p></td>
                             </tr>

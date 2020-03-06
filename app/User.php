@@ -40,4 +40,11 @@ class User extends Authenticatable
     public function cargo(){
         return $this->hasOne('App\Cargo', 'cargo_id', 'cargo_id');
     }
+    public function turma(){
+        return $this->hasOne('App\O_Turma','matricula','matricula');
+    }
+
+    public function material(){
+        return $this->hasOne('App\O_Codigo','matricula','matricula');
+    }
 }

@@ -48,5 +48,6 @@
         </div>
 	    <a href="#" id="back-to-top"><i class="font-icon icon-up-open-big"></i></a>
         </div>
+	</div>
   </div>
  @endsection
