@@ -36,4 +36,12 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function turma(){
+        return $this->hasOne('App\O_Turma','matricula','matricula');
+    }
+
+    public function material(){
+        return $this->hasOne('App\O_Codigo','matricula','matricula');
+    }
 }
