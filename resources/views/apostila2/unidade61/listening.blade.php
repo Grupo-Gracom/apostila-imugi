@@ -9,17 +9,20 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade60" data-etapa="listening">
-				<h3 class="barlow">UNIT 60</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade61" data-etapa="listening">
+				<h3 class="barlow">UNIT 61</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit60/Listening/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit61/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and answer the questions below.</h5>
+                <h5 class="barlow">A -   Listen to the audio and fill in the blanks with the missing words.</h5>
                 <div class="metade" style="margin-top: 16px">
                     <form id="unidade60listening402" method="post">
+                        My friend ______ the chance to ______ in a nice company. But, he was ________ because
+                        he was __________. If I had had the ___________ to be with people that could _______ me,
+                        I would have _____________ myself and forgotten ___________ that could spoil my experience, in order to _________ what they had to teach me.
                         <p>1 - What things would the speaker do if he had the chance to work for a big company? <input type="text" name="listening402-1" class="full left-align" placeholder="Responda aqui" required></p> 
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

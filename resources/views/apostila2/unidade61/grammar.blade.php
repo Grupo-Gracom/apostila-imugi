@@ -126,22 +126,22 @@
                     </form>
                 <div style="margin-top: 36px">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit60/pagina-1.png') }}" alt="brasilia">
+                        <img src="{{ asset('assets/img/playgo/unit60/pagina-1.png') }}" alt="pensando na festa">
                     </figure>
                 </div>
                 <h5 class="barlow metade" style="margin-top: 36px">
-                    3 -  What would you do if you had the chance to be an intern in a big company like Rockstar,
-                    Warner Bross or Google? Write at least 5 sentences using the SECOND CONDITIONAL.
+                    3 -  What would you have done if you had been born during the sixties? Write at least 5
+                    sentences using the THIRD CONDITIONAL.
                 </h5>    
-                <form id="unidade61grammar401" method="post">
-                    <textarea name="grammar401-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+                <form id="unidade61grammar406" method="post">
+                    <textarea name="grammar406-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                     <div class="clear"></div>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="60">
-                    <input type="hidden" name="atividade_id" value="401">
+                    <input type="hidden" name="unidade_id" value="61">
+                    <input type="hidden" name="atividade_id" value="406">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 			</div>
@@ -191,14 +191,14 @@
             }
         });
         
-        $("#unidade61grammar401").submit(function(e){
+        $("#unidade61grammar406").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade61grammar401 select').attr("name")+'":"'+$('#unidade61grammar401 select').val()+'"}';
-            if($('#unidade61grammar401 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade61grammar401'), respostas);
+            var respostas = '{"'+$('#unidade61grammar406 select').attr("name")+'":"'+$('#unidade61grammar406 select').val()+'"}';
+            if($('#unidade61grammar406 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade61grammar406'), respostas);
             }else{
-                enviarAtividade($('#unidade61grammar401'), respostas);
+                enviarAtividade($('#unidade61grammar406'), respostas);
             }
         });
 
