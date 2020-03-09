@@ -98,21 +98,21 @@
                     <form id="unidade61grammar405" method="post">
                         <div class="metade" >
                             <p> 
-                                <p>1. I won’t finish it on time unless you <input type="text" name="grammar405-1" class="full left-align"  placeholder="Responda aqui" required/>(help) me.</p>
-                                <p>2. If I had another puncture, I <input type="text" name="grammar405-2" class="full left-align"  placeholder="Responda aqui" required/>(repair) it.</p>
-                                <p>3. If they were Japanese, they <input type="text" name="grammar405-3" class="full left-align"  placeholder="Responda aqui" required/>(not speak) Chinese.</p>
-                                <p>4. If I saw a big spider in my house, I <input type="text" name="grammar405-4" class="full left-align"  placeholder="Responda aqui" required/>(scream) loudly.</p>
-                                <p>5. The hijackers would threaten us if they <input type="text" name="grammar405-5" class="full left-align"  placeholder="Responda aqui" required/>(have) a bomb.</p>
-                                <p>6. You would have arrived earlier if you <input type="text" name="grammar405-6" class="full left-align"  placeholder="Responda aqui" required/>(catch) a taxi.</p>
-                                <p>7. Eric <input type="text" name="grammar405-7" class="full left-align"  placeholder="Responda aqui" required/>(win) the race if he had trained better.</p>
-                                <p>8. Kevin will return to the office if his boss <input type="text" name="grammar405-8" class="full left-align"  placeholder="Responda aqui" required/>(tell) him so.</p>
-                                <p>9. His mother would let him go to the party if he <input type="text" name="grammar405-8" class="full left-align"  placeholder="Responda aqui" required/>_(get) good marks at the exam.</p>
-                                <p>10. Yoana’s friend would have enjoyed the concert if she <input type="text" name="grammar405-8" class="full left-align"  placeholder="Responda aqui" required/>(go).</p>
-                                <p>11. If you see John at the pub, <input type="text" name="grammar405-8" class="full left-align"  placeholder="Responda aqui" required/>(remind) him to call me.</p>
-                                <p>12. The government will increase the taxes if they <input type="text" name="grammar405-8" class="full left-align"  placeholder="Responda aqui" required/>(think) it is necessary.</p>
-                                <p>13. Bernard won’t cross the road until it <input type="text" name="grammar405-8" class="full left-align"  placeholder="Responda aqui" required/>(get) green.</p>
-                                <p>14. Helen <input type="text" name="grammar405-8" class="full left-align"  placeholder="Responda aqui" required/>(catch) a cold if she doesn’t wear a coat.</p>
-                                <p>15. If the pain returned, you <input type="text" name="grammar405-8" class="full left-align"  placeholder="Responda aqui" required/>(phone) the doctor.</p>
+                                <p>1. I won’t finish it on time unless you <input type="text" name="grammar405-1"  placeholder="Responda aqui" required/>(help) me.</p>
+                                <p>2. If I had another puncture, I <input type="text" name="grammar405-2"  placeholder="Responda aqui" required/>(repair) it.</p>
+                                <p>3. If they were Japanese, they <input type="text" name="grammar405-3"  placeholder="Responda aqui" required/>(not speak) Chinese.</p>
+                                <p>4. If I saw a big spider in my house, I <input type="text" name="grammar405-4"  placeholder="Responda aqui" required/>(scream) loudly.</p>
+                                <p>5. The hijackers would threaten us if they <input type="text" name="grammar405-5"  placeholder="Responda aqui" required/>(have) a bomb.</p>
+                                <p>6. You would have arrived earlier if you <input type="text" name="grammar405-6"  placeholder="Responda aqui" required/>(catch) a taxi.</p>
+                                <p>7. Eric <input type="text" name="grammar405-7"  placeholder="Responda aqui" required/>(win) the race if he had trained better.</p>
+                                <p>8. Kevin will return to the office if his boss <input type="text" name="grammar405-8"  placeholder="Responda aqui" required/>(tell) him so.</p>
+                                <p>9. His mother would let him go to the party if he <input type="text" name="grammar405-9"  placeholder="Responda aqui" required/>(get) good marks at the exam.</p>
+                                <p>10. Yoana’s friend would have enjoyed the concert if she <input type="text" name="grammar405-10"  placeholder="Responda aqui" required/>(go).</p>
+                                <p>11. If you see John at the pub, <input type="text" name="grammar405-11"  placeholder="Responda aqui" required/>(remind) him to call me.</p>
+                                <p>12. The government will increase the taxes if they <input type="text" name="grammar405-12"  placeholder="Responda aqui" required/>(think) it is necessary.</p>
+                                <p>13. Bernard won’t cross the road until it <input type="text" name="grammar405-13"  placeholder="Responda aqui" required/>(get) green.</p>
+                                <p>14. Helen <input type="text" name="grammar405-14"  placeholder="Responda aqui" required/>(catch) a cold if she doesn’t wear a coat.</p>
+                                <p>15. If the pain returned, you <input type="text" name="grammar405-15"  placeholder="Responda aqui" required/>(phone) the doctor.</p>
                             </p>
                         </div>
                         
@@ -134,7 +134,7 @@
                     sentences using the THIRD CONDITIONAL.
                 </h5>    
                 <form id="unidade61grammar406" method="post">
-                    <textarea name="grammar406-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+                    <textarea name="grammar406-1" class="metade left-align" placeholder="Responda aqui"  required></textarea>
 
                     <div class="clear"></div>
 
@@ -189,12 +189,13 @@
             }else{
                 enviarAtividade($('#unidade61grammar405'), respostas);
             }
+            console.log(respostas)
         });
         
         $("#unidade61grammar406").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade61grammar406 select').attr("name")+'":"'+$('#unidade61grammar406 select').val()+'"}';
+            var respostas = '{"'+$('#unidade61grammar406 textarea').attr("name")+'":"'+$('#unidade61grammar406 textarea').val()+'"}';
             if($('#unidade61grammar406 input[name="resposta_id"').val() != 0){
                 atualizarAtividade($('#unidade61grammar406'), respostas);
             }else{

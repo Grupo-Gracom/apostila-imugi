@@ -40,7 +40,7 @@
                             <td colspan="2">
                                 <p><b>If we arrived</b> home early, <b>we cold watch </b>the last episode of the Big Bang Theory.</p>
                                 <p><b>If the company had</b> enough money to invest in technology, <b>they would buy</b> the last version of blender.</p>
-                                <p><b>I would live</b> in New York <b>if i had</b> a job there.</p>>
+                                <p><b>I would live</b> in New York <b>if i had</b> a job there.</p>
                                 <p><b>I wouln't present</b> the last briefing <b>if i were you</b>.(*)</p>
                             </td>
                         </tr>
@@ -188,7 +188,7 @@
         $("#unidade60grammar401").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade60grammar401 select').attr("name")+'":"'+$('#unidade60grammar401 select').val()+'"}';
+            var respostas = '{"'+$('#unidade60grammar401 textarea').attr("name")+'":"'+$('#unidade60grammar401 textarea').val()+'"}';
             if($('#unidade60grammar401 input[name="resposta_id"').val() != 0){
                 atualizarAtividade($('#unidade60grammar401'), respostas);
             }else{
