@@ -21,6 +21,12 @@ class Apostila1Controller extends Controller
         });
     }
 
+    public function apostila1($unidade,$item){
+        $id = Auth::user()->id;
+        $aluno = User::find($id);
+        return view('apostila1'.'/'.'/'.$unidade.'/'.$item.'', compact('aluno'));
+    }
+
 //UNIDADE 1
     public function unidade1Vocabulary(){
         return view('apostila1/unidade1/vocabulary');
