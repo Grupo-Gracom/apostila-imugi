@@ -97,6 +97,7 @@ class RespostaController extends Controller
     public function check($atividade_id)
     {
         $id = request()->user()->id;
+        
         $count = Resposta::where('usuario_id', $id)->where('atividade_id', $atividade_id)->count();
         if($count > 0){
             $respostas = Resposta::where('usuario_id', $id)->where('atividade_id', $atividade_id)->get();
