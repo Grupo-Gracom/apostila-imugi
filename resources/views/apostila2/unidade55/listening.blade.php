@@ -9,35 +9,32 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade53" data-etapa="listening">
-				<h3 class="barlow">UNIT 53</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade55" data-etapa="listening">
+				<h3 class="barlow">UNIT 55</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit53/Listening/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit55/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
                 <div class="metade" style="margin-top: 16px">
-                    <form id="unidade53listening365" method="post">
+                    <form id="unidade55listening378" method="post">
                         <p> 
-                            <p>
-                                They <input type="text" name="listening365-1"  placeholder="Responda aqui" required> in a very beautiful 
-                                <input type="text" name="listening365-2"  placeholder="Responda aqui" required> for almost three days.
-                            </p>
-                            <p>
-                                The <input type="text" name="listening365-3"  placeholder="Responda aqui" required> scenes always 
-                                <input type="text" name="listening365-4"  placeholder="Responda aqui" required> a 
-                                <input type="text" name="listening365-5"  placeholder="Responda aqui" required> team and this is a not a
-                                problem for them. They <input type="text" name="listening365-6"  placeholder="Responda aqui" required> together since the first movie was
-                                <input type="text" name="listening365-7"  placeholder="Responda aqui" required> in 2002.
-                            </p>
+                            <input type="text" name="listening378-1"  placeholder="Responda aqui" required> the release of Civil War in 2016, the market 
+                            <input type="text" name="listening378-2"  placeholder="Responda aqui" required> great
+                            productions. Marvel , Dc comics and Sony productions <input type="text" name="listening378-3"  placeholder="Responda aqui" required> 
+                            always been <input type="text" name="listening378-4"  placeholder="Responda aqui" required> 
+                            . They had <input type="text" name="listening378-5"  placeholder="Responda aqui" required> 
+                            to keep their <input type="text" name="listening378-6"  placeholder="Responda aqui" required> of the market and hadn’t
+                            <input type="text" name="listening378-7"  placeholder="Responda aqui" required> that they could work <input type="text" name="listening378-8"  placeholder="Responda aqui" required> 
+                            and start a new <input type="text" name="listening378-9"  placeholder="Responda aqui" required> in Hollywood.
                         </p>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="53">
-                        <input type="hidden" name="atividade_id" value="365">
+                        <input type="hidden" name="unidade_id" value="55">
+                        <input type="hidden" name="atividade_id" value="378">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -52,21 +49,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade53listening365").submit(function(e){
+        $("#unidade55listening378").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade53listening365 input[type="text"]').each(function(index){
-                if(($('#unidade53listening365 input[type="text"]').length - 1) == index){
+            $('#unidade55listening378 input[type="text"]').each(function(index){
+                if(($('#unidade55listening378 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade53listening365 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade53listening365'), respostas);
+            if($('#unidade55listening378 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade55listening378'), respostas);
             }else{
-                enviarAtividade($('#unidade53listening365'), respostas);
+                enviarAtividade($('#unidade55listening378'), respostas);
             }
         });
 
@@ -86,11 +83,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade53listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade53listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade55listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade55listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade53listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade53listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade55listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade55listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

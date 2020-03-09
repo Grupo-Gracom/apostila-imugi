@@ -9,68 +9,54 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade53" data-etapa="grammar">
-				<h3 class="barlow">UNIT 53 </h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade55" data-etapa="grammar">
+				<h3 class="barlow">UNIT 55 </h3>
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit53/Grammar/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/Unit55/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
                     <h5 class="barlow">A - PRESENT PERFECT CONTINUOUS</h5>
                     <p>
-                        We use the Present Perfect Continuous to show that something started in the past and
-                        has continued up until now. “For five minutes,” “for two weeks,” and “since Tuesday”
-                        are all durations which can be used with the Present Perfect Continuous. You can also
-                        use the Present Perfect Continuous WITHOUT a duration such as “for two weeks.” Without the duration, the tense has a more general meaning of “lately.” We often use the
-                        words “lately” or “recently” to this meaning. emphasize
+                        The Past Perfect expresses the idea that something occurred before another action in the
+                        past. It can also show that something happened before a specific time in the past.
                     </p>
-
-                    <p class="center-align caixa"><b>Present Perfect Continuous = Subject + Have / Has + BEEN + Verb(ing)</b></p>
+                    <p class="center-align caixa"><b>Past Perfect = Subject + Had + verb in the past participle</b></p>
                     <table class="metade espacamento center-align">
                         <tr>
                             <td>
                                 <h5 class="barlow">
-                                    <b>PRESENT PERFECT</b> 
+                                    <b>PAST PERFECT</b> 
                                 </h5>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <p>(+) They <b>have been talking</b> for three hours.</p>
-                                <p>(-) They haven’t <b>been talking</b> for three hours.</p>
-                                <p>(?) <b>Have</b> they <b>been talking</b> for three hours?</p><br>
+                                <p>(+) Gleen <b>had started</b> the class when Akira arrived.</p>
+                                <p>(-) Gleen <b>hadn't started</b> the class when Akira arrived.</p>
+                                <p>(?) <b>Had</b> Gleen <b>started</b> the Class when Akira Arrived?</p><br>
                             
-                                <p>(+) James <b>has been studying</b> Unity since June.</p>
-                                <p>(-) James <b>hasn’t been teaching</b> since June.</p>
-                                <p>(?) Has James <b>been teaching</b> since June?</p><br>
+                                <p>(+) Laura <b>had already</b> used different cameras when she fell in love with videos.</p>
+                                <p>(-) Laura <b>hadn't used</b> different cameras yet when she fell in love with videos.</p>
+                                <p>(?) <b>Had</b> Laura <b>ever used</b> different Cameras when she fell in love with videos?</p><br>
                             
-                                <p>(+) We <b>have been taking</b> about animation lately.</p>
-                                <p>(-) We <b>haven’t been talking</b> about animation lately.</p>
-                                <p>(?) <b>Have</b> we <b>been talking</b> about animation lately?</p><br>
-
-                                <p>(+) Dc Comics <b>has been working</b> on its new release recently.</p>
-                                <p>(-) DC Comics <b>hasn’t been working</b> on its new release recently.<p>
-                                <p>(?) <b>Has</b> Dc Comics <b>been working</b> on its new release recently?</p>
+                                <p>P: <b>Had</b> you <b>ever visited</b> the US before your trip to New York last month.</p>
+                                <p>B: Yes, <b>I had been</b> to the US once before.</p>
                             </td>
                         </tr>
                     </table> 
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
-                    <h5 class="barlow">1 - Use PRESENT PERFECT CONTINUOUS TENSE to fill in the blanks:</h5>
-                    <form id="unidade53grammar361" style="margin-top:32px" method="post">
+                    <h5 class="barlow">1 - Complete the sentences in PAST PERFECT. (affirmative form.)</h5>
+                    <form id="unidade55grammar373" style="margin-top:32px" method="post">
                         <div class="metade">
                             <p>
-                                <p>1. I’m tired, because I <input type="text" name="grammar361-1"  placeholder="Responda aqui" required/> have been working <input type="text" name="grammar361-2"  placeholder="Responda aqui" required/> (work) very hard.</p>
-                                <p>2. He <input type="text" name="grammar361-3"  placeholder="Responda aqui" required/> (write) letters all morning.</p>
-                                <p>3. Catherina is getting fatter because she <input type="text" name="grammar361-4"  placeholder="Responda aqui" required/> (eat) too much.</p>
-                                <p>4. My mother <input type="text" name="grammar361-5"  placeholder="Responda aqui" required/> (peel) the potatoes all afternoon.</p>
-                                <p>5. Cathy <input type="text" name="grammar361-6"  placeholder="Responda aqui" required/> (attend) a cookery course since March.</p>
-                                <p>6. How long <input type="text" name="grammar361-7"  placeholder="Responda aqui" required/> you <input type="text" name="grammar361-8" placeholder="Responda aqui" required/> (learn) English?</p>
-                                <p>7. Where are my eye-glasses? I <input type="text" name="grammar361-9"  placeholder="Responda aqui" required/> (look) for them for an hour.</p>
-                                <p>8. Charles <input type="text" name="grammar361-10"  placeholder="Responda aqui" required/> (escape) from the police for years.</p>
-                                <p>9. How long <input type="text" name="grammar361-11"  placeholder="Responda aqui" required/> you <input type="text" name="grammar361-12" placeholder="Responda aqui" required/> (use) a computer?</p>
-                                <p>10. Elizabeth <input type="text" name="grammar361-13"  placeholder="Responda aqui" required/> (live) with Mike for three years.</p>
+                                <p>1. I lost the key that he (give) <input type="text" name="grammar373-1"  placeholder="Responda aqui" required/> to me.</p>
+                                <p>2. He told me that he (see) <input type="text" name="grammar373-2"  placeholder="Responda aqui" required/> the film.</p>
+                                <p>3. I went outside as I (hear) <input type="text" name="grammar373-3"  placeholder="Responda aqui" required/> a noise.</p>
+                                <p>4. When they came home, Liza (cook) <input type="text" name="grammar373-4"  placeholder="Responda aqui" required/> dinner.</p>
+                                <p>5. We could not send you a postcard because we (lose) <input type="text" name="grammar373-5"  placeholder="Responda aqui" required/> your address.</p>
                             </p>
                         </div>
 
@@ -78,25 +64,20 @@
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="53">
-                        <input type="hidden" name="atividade_id" value="361">
+                        <input type="hidden" name="unidade_id" value="55">
+                        <input type="hidden" name="atividade_id" value="373">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-                <h5 class="barlow">2 - Directions: Complete each sentence or question with the present perfect continuous tense</h5>
-                <form id="unidade53grammar362" style="margin-top:32px" method="post">
+                <h5 class="barlow">2 - Complete the sentences in PAST PERFECT (negative).</h5>
+                <form id="unidade55grammar374" style="margin-top:32px" method="post">
                     <div class="metade">
                         <p>
-                            <p>1. She <input type="text" name="grammar362-1"  placeholder="Responda aqui" required/> at that company for three years. (work)</p>
-                            <p>2. The students <input type="text" name="grammar362-2"  placeholder="Responda aqui" required/> a new textbook this year. (use)</p>
-                            <p>3. Barry <input type="text" name="grammar362-3"  placeholder="Responda aqui" required/> very well lately. (feel -- negative)</p>
-                            <p>4. We <input type="text" name="grammar362-4"  placeholder="Responda aqui" required/> a lot about perfect tenses. (learn)</p>
-                            <p>5. <input type="text" name="grammar362-5"  placeholder="Responda aqui" required/> all day? (rain)</p>
-                            <p>6. My sister <input type="text" name="grammar362-6"  placeholder="Responda aqui" required/> on her cell phone for the last hour. (talk)</p>
-                            <p>7. My car <input type="text" name="grammar362-7"  placeholder="Responda aqui" required/> .very well lately. (run--negative)</p>
-                            <p>8. How <input type="text" name="grammar362-8"  placeholder="Responda aqui" required/> you <input type="text" name="grammar354-1"  placeholder="Responda aqui" required/> in school? (do)</p>
-                            <p>9. How long <input type="text" name="grammar362-9"  placeholder="Responda aqui" required/> her? (see*)</p>
-                            <p>10. I <input type="text" name="grammar362-10"  placeholder="Responda aqui" required/> very hard on my English. (work) * see = go out with; have a relationship with someone</p>
+                            <p>1. The waiter served something that we (not / order) <input type="text" name="grammar374-1"  placeholder="Responda aqui" required/></p>
+                            <p>2. He went to the country which he (not / visit) <input type="text" name="grammar374-2"  placeholder="Responda aqui" required/> before.</p>
+                            <p>3. She picked out the red dress, which she (not / wear) <input type="text" name="grammar374-3"  placeholder="Responda aqui" required/> for ages.</p>
+                            <p>4. He (not / swim) <input type="text" name="grammar374-4"  placeholder="Responda aqui" required/> in the beach before that day.</p>
+                            <p>5. His mother was angry because he (not / do) <input type="text" name="grammar374-5"  placeholder="Responda aqui" required/> the shopping for her.</p>
                         </p>
                     </div>
 
@@ -104,74 +85,29 @@
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="53">
-                    <input type="hidden" name="atividade_id" value="362">
+                    <input type="hidden" name="unidade_id" value="55">
+                    <input type="hidden" name="atividade_id" value="374">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 
-                <h5 class="barlow">3 - Use PRESENT PERFECT TENSE or PRESENT PERFECT CONTINUOUS to fill in the blanks:</h5>
-                <form id="unidade53grammar363" style="margin-top:32px" method="post">
+                <h5 class="barlow">3 - Complete the questions in PAST PERFECT.</h5>
+                <form id="unidade55grammar375" style="margin-top:32px" method="post">
                     <div class="metade">
                         <p>
                             <p>
-                                1. I’m trying to study. I <input type="text" name="grammar363-1"  placeholder="Responda aqui" required/> (try) to study for the last hour, but
-                                something always seems to interrupt me. I think I’d better go to the library.
+                                1. (you / finish)  <input type="text" name="grammar375-1"  placeholder="Responda aqui" required/> your homework before you went to the cinema?
                             </p>
                             <p>
-                                2. The children are playing basketball right now. They <input type="text" name="grammar363-2"  placeholder="Responda aqui" required/> (play)
-                                for almost two hours. They must be getting tired.
+                                2. Why (you / not /clean) <input type="text" name="grammar375-2"  placeholder="Responda aqui" required/> the bathroom before you took a bath?
                             </p>
                             <p>
-                                3. The telephone <input type="text" name="grammar363-3"  placeholder="Responda aqui" required/> (ring) four times in the last hour, and
-                                each time it has been for my roommate.
+                                3. (you / have) <input type="text" name="grammar375-3"  placeholder="Responda aqui" required/> breakfast before you left the house?
                             </p>
                             <p>
-                                4. The telephone <input type="text" name="grammar363-4"  placeholder="Responda aqui" required/> (ring) for almost a minute. Why doesn’t
-                                someone answer it?
+                                4. (she / manage) <input type="text" name="grammar375-4"  placeholder="Responda aqui" required/> to find a place to stay when she went to London?
                             </p>
                             <p>
-                                5. It <input type="text" name="grammar363-5"  placeholder="Responda aqui" required/> (rain) all day. I wonder when it will stop.
-                            </p>
-                            <p>
-                                6. We <input type="text" name="grammar363-6"  placeholder="Responda aqui" required/> (have) three accidents so far this week. I wonder
-                                how many more we will have if you keep using the tools carelessly.
-                            </p>
-                            <p>
-                                7. We <input type="text" name="grammar363-7"  placeholder="Responda aqui" required/> (live) here since last June.
-                            </p>
-                            <p>
-                                8. My little son is dirty from head to foot because he <input type="text" name="grammar363-8"  placeholder="Responda aqui" required/> (play)
-                                in the mud.
-                            </p>
-                            <p>
-                                9. What’s the matter? Your eyes are red and puffy. I hope you <input type="text" name="grammar363-9"  placeholder="Responda aqui" required/> (not / cry).
-                                Oh, now I understand. You <input type="text" name="grammar363-10"  placeholder="Responda aqui" required/> (peel) some onions.
-                            </p>
-                            <p>
-                                10. Hello, Rob. I’m happy to see you again. I <input type="text" name="grammar363-11"  placeholder="Responda aqui" required/> (not / see)
-                                you for weeks. What <input type="text" name="grammar363-12"  placeholder="Responda aqui" required/> you <input type="text" name="grammar363-13"  placeholder="Responda aqui" required/> (do) lately?
-                            </p>
-                            <p>
-                                11. I <input type="text" name="grammar363-14"  placeholder="Responda aqui" required/> (not / be) able to reach my boss on the phone
-                                yet. I <input type="text" name="grammar363-15"  placeholder="Responda aqui" required/> (try) for the last twenty minutes, but the line
-                                <input type="text" name="grammar363-16"  placeholder="Responda aqui" required/> busy.
-                            </p>
-                            <p>
-                                12. We <input type="text" name="grammar363-17"  placeholder="Responda aqui" required/> (have) three major snowstorms so far this winter. I
-                                wonder how many more we will have.
-                            </p>
-                            <p>
-                                13. I <input type="text" name="grammar363-18"  placeholder="Responda aqui" required/> (write) them three times, but I still haven’t received a
-                                reply.
-                            </p>
-                            <p>
-                                14. <b>P:</b> Dr. Harrison is a good teacher. How long <input type="text" name="grammar363-19"  placeholder="Responda aqui" required/> he <input type="text" name="grammar354-20"  placeholder="Responda aqui" required/> (be) at the
-                                university?
-                                <b>R:</b> He <input type="text" name="grammar363-21"  placeholder="Responda aqui" required/> (teach) here for almost 25 years.
-                            </p>
-                            <p>
-                                15. <b>P:</b> What are you going to order for dinner?
-                                <b>R:</b> Well, I <input type="text" name="grammar363-22"  placeholder="Responda aqui" required/> (have / have) pizza. So I think, I’ll order that.
+                                5. Where (she / stay) <input type="text" name="grammar375-5"  placeholder="Responda aqui" required/> before she moved to live with her friend?
                             </p>
                         </p>
                     </div>
@@ -180,28 +116,89 @@
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="53">
-                    <input type="hidden" name="atividade_id" value="363">
+                    <input type="hidden" name="unidade_id" value="55">
+                    <input type="hidden" name="atividade_id" value="375">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+
+                <h5 class="barlow">4 - Supply a suitable SIMPLE PAST or PAST PERFECT TENSE:</h5>
+                <form id="unidade55grammar376" style="margin-top:32px" method="post">
+                    <div class="metade">
+                        <p>
+                            <p>
+                                1. <input type="text" name="grammar376-1"  placeholder="Responda aqui" required/> he <input type="text" name="grammar376-2"  placeholder="Responda aqui" required/> 
+                                (know) her for a long time before they <input type="text" name="grammar376-3"  placeholder="Responda aqui" required/> (get) married?
+                            </p>
+                            <p>
+                                2. He <input type="text" name="grammar376-4"  placeholder="Responda aqui" required/> (drive) down the hotel where they 
+                                <input type="text" name="grammar363-1"  placeholder="Responda aqui" required/> (spend) their honeymoon years ago.
+                            </p>
+                            <p>
+                                3. When we <input type="text" name="grammar376-5"  placeholder="Responda aqui" required/> (get) to the station the train 
+                                <input type="text" name="grammar376-6"  placeholder="Responda aqui" required/> (already / leave).
+                            </p>
+                            <p>
+                                4. He <input type="text" name="grammar376-7"  placeholder="Responda aqui" required/> (sit) at a table by the window where he 
+                                <input type="text" name="grammar376-8"  placeholder="Responda aqui" required/> (have) a meal with Jane.
+                            </p>
+                            <p>
+                                5. Why <input type="text" name="grammar376-9"  placeholder="Responda aqui" required/> he <input type="text" name="grammar363-10"  placeholder="Responda aqui" required/> 
+                                (not / ask) her to wait and think again before she <input type="text" name="grammar376-11"  placeholder="Responda aqui" required/> (leave) Paris.
+                            </p>
+                            <p>
+                                6. He was wondering why he <input type="text" name="grammar376-12"  placeholder="Responda aqui" required/> (let) her leave so easily.
+                            </p>
+                            <p>
+                                7. He knew he <input type="text" name="grammar376-13"  placeholder="Responda aqui" required/> (earn) that money with a great difficulty.
+                            </p>
+                            <p>
+                                8. After they <input type="text" name="grammar376-14"  placeholder="Responda aqui" required/>(go), he <input type="text" name="grammar376-15"  placeholder="Responda aqui" required/> (sit) down and <input type="text" name="grammar376-16"  placeholder="Responda aqui" required/>
+                                (light) a cigarette.
+                            </p>
+                            <p>
+                                9. He <input type="text" name="grammar376-17"  placeholder="Responda aqui" required/> (have to) go to work by bus because his car 
+                                <input type="text" name="grammar376-18"  placeholder="Responda aqui" required/> (break) down.
+                            </p>
+                            <p>
+                                10. He <input type="text" name="grammar376-20"  placeholder="Responda aqui" required/> 
+                                (angry) before he <input type="text" name="grammar376-21"  placeholder="Responda aqui" required/> (hear) my offer.
+                            </p>
+                        </p>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="55">
+                    <input type="hidden" name="atividade_id" value="376">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+
+                <h5 class="barlow metade" style="margin-top: 36px">
+                    5 - The movie Spider Man, was considered one of the most successful super-hero movies in
+                    the world. Tobey Maguire was the first actor to play Spider man in 2002. 3 other actors came
+                    after him. The last one, Tom Holland, an English actor appeared for the first time in Civil War
+                    in 2016. Before him , many interesting things happened in the movie. Think of interesting
+                    facts about the movies that happened before Civil War and write a 5-lines text about it.
+                    Make sure to use PAST PERFECT in your text.
+                </h5>    
+                <form id="unidade55grammar377" method="post">
+                    <textarea name="grammar377-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+
+                    <div class="clear"></div>
+
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="55">
+                    <input type="hidden" name="atividade_id" value="377">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 <div style="margin-top: 36px">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit53/pagina-1.png') }}" alt="basquete">
+                        <img src="{{ asset('assets/img/playgo/unit55/pagina-1.png') }}" alt="spider-man">
                     </figure>
                 </div>
-
-                <h5 class="barlow metade" style="margin-top: 36px">4 - The biggest movie makers in the world are preparing their new releases for the next year. Write about what they have been doing lately.</h5>    
-                <form id="unidade53grammar364" method="post">
-                    <textarea name="grammar364-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-
-                    <div class="clear"></div>
-
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="53">
-                    <input type="hidden" name="atividade_id" value="364">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
 			</div>
 		</div>
     </main>
@@ -213,68 +210,86 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade53grammar361").submit(function(e){
+        $("#unidade55grammar373").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade53grammar361 input[type="text"]').each(function(index){
-                if(($('#unidade53grammar361 input[type="text"]').length - 1) == index){
+            $('#unidade55grammar373 input[type="text"]').each(function(index){
+                if(($('#unidade55grammar373 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade53grammar361 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade53grammar361'), respostas);
+            if($('#unidade55grammar373 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade55grammar373'), respostas);
             }else{
-                enviarAtividade($('#unidade53grammar361'), respostas);
+                enviarAtividade($('#unidade55grammar373'), respostas);
             }
         });
 
-        $("#unidade53grammar362").submit(function(e){
+        $("#unidade55grammar374").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade53grammar362 input[type="text"]').each(function(index){
-                if(($('#unidade53grammar362 input[type="text"]').length - 1) == index){
+            $('#unidade55grammar374 input[type="text"]').each(function(index){
+                if(($('#unidade55grammar374 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade53grammar362 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade53grammar362'), respostas);
+            if($('#unidade55grammar374 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade55grammar374'), respostas);
             }else{
-                enviarAtividade($('#unidade53grammar362'), respostas);
+                enviarAtividade($('#unidade55grammar374'), respostas);
             }
         });
 
-        $("#unidade53grammar363").submit(function(e){
+        $("#unidade55grammar375").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade53grammar363 input[type="text"]').each(function(index){
-                if(($('#unidade53grammar363 input[type="text"]').length - 1) == index){
+            $('#unidade55grammar375 input[type="text"]').each(function(index){
+                if(($('#unidade55grammar375 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade53grammar363 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade53grammar363'), respostas);
+            if($('#unidade55grammar375 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade55grammar375'), respostas);
             }else{
-                enviarAtividade($('#unidade53grammar363'), respostas);
+                enviarAtividade($('#unidade55grammar375'), respostas);
             }
         });
 
-        $("#unidade53grammar364").submit(function(e){
+        $("#unidade55grammar376").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade53grammar364 textarea').attr("name")+'":"'+$('#unidade53grammar364 textarea').val()+'"}';
-            if($('#unidade53grammar364 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade53grammar364'), respostas);
+            var respostas = '{';
+            $('#unidade55grammar376 input[type="text"]').each(function(index){
+                if(($('#unidade55grammar376 input[type="text"]').length - 1) == index){
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
+                }else{
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
+                }
+            });
+            if($('#unidade55grammar376 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade55grammar376'), respostas);
             }else{
-                enviarAtividade($('#unidade53grammar364'), respostas);
+                enviarAtividade($('#unidade55grammar376'), respostas);
+            }
+        });
+
+        $("#unidade55grammar377").submit(function(e){
+            e.preventDefault();
+            $(this).find('button').prop('disabled', true);
+            var respostas = '{"'+$('#unidade55grammar377 textarea').attr("name")+'":"'+$('#unidade55grammar377 textarea').val()+'"}';
+            if($('#unidade55grammar377 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade55grammar377'), respostas);
+            }else{
+                enviarAtividade($('#unidade55grammar377'), respostas);
             }
         });
         
@@ -295,13 +310,13 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade53grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade53grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade53grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade53grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade55grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade55grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade55grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade55grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade53grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade53grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade55grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade55grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

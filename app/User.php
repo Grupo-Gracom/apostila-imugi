@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'matricula', 'password', 'nivel', 'status'
+        'name', 'email', 'matricula', 'password', 'nivel', 'status', 'cargo_id', 'unidade_id'
     ];
 
     /**
@@ -36,4 +36,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function cargo(){
+        return $this->hasOne('App\Cargo', 'cargo_id', 'cargo_id');
+    }
+    public function turma(){
+        return $this->hasOne('App\O_Turma','matricula','matricula');
+    }
+
+    public function material(){
+        return $this->hasOne('App\O_Codigo','matricula','matricula');
+    }
 }

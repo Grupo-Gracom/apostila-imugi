@@ -9,25 +9,24 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade53" data-etapa="pronunciation">
-				<h3 class="barlow">UNIT 53</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade55" data-etapa="pronunciation">
+				<h3 class="barlow">UNIT 55</h3>
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio53/Pronunciation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio55/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
 				<ul class="lista-inline">
-					<li><b>ng sound</b> /ŋ/ </li>        
-					<li>Single</li>	
-					<li>Distinguish</li>
-					<li>HungerBring</li>
-					<li>Long</li>
-					<li>Wrong</li>
+					<li><b>v sound</b> /v/ </li>        
+					<li>Version</li>	
+					<li>Video Develop</li>
+					<li>Deliver Creative</li>
+					<li>Improve</li>
 				</ul>
 				<p style="margin-top:32px">
-					They can’t distinguish a single problem. There’s a hunger to bring a new illustrator, but
-					this is a long process. We gotta find out what’s wrong first. 
+					The agency developed a new version of the video to be delivered next week.
+					It’s more creative. They improved it a lot. 
 				</p>
 				<div class="clear"></div>
 			</div>

@@ -9,7 +9,7 @@
 
 <div class="header-hero-section">
 </div>
-<section id="content" class="no-sidebar-page">
+<div id="content" class="no-sidebar-page">
 <div id="content-wrap" class="page-builder">
 	<section id="page-content">
 	<div class="clearfix">
@@ -94,17 +94,8 @@
 			            </div>
                         @include('layouts.portal.footer')
 			         </div>
-	</section>
+	</div>
 </div>
-</section>
-
-</div>
-
 <a href="#" id="back-to-top"><i class="font-icon icon-up-open-big"></i></a>
-</div>
-      </div>
-    </div>
-  </div>
-  
 </div>
  @endsection

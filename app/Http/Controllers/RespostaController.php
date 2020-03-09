@@ -49,7 +49,7 @@ class RespostaController extends Controller
         // }
         // return $noticia;
     }
-    
+
     /**
      * Store a newly created resource in storage.
      *
@@ -60,7 +60,7 @@ class RespostaController extends Controller
     {
         $id = request()->user()->id;
         $data = $request->all();
-        
+
         if($request->has('resposta_id')){
             $resposta = Resposta::find($data['resposta_id']);
             $resposta->resposta_respostas = $data['resposta_respostas'];
@@ -97,6 +97,7 @@ class RespostaController extends Controller
     public function check($atividade_id)
     {
         $id = request()->user()->id;
+        
         $count = Resposta::where('usuario_id', $id)->where('atividade_id', $atividade_id)->count();
         if($count > 0){
             $respostas = Resposta::where('usuario_id', $id)->where('atividade_id', $atividade_id)->get();
