@@ -1,7 +1,6 @@
  <!-- HEADER -->
  <i class="material-icons menu-btn">menu</i>
  <header>
-     <a href="" class="mini-title">Versão Anterior</a>
      <a href="" class="mini-title"><i class="material-icons">arrow_back</i> Voltar</a>
 </header>
 <!-- /HEADER -->
