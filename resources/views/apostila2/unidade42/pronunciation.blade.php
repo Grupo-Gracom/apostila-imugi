@@ -27,12 +27,7 @@
                     <li><b>Unique</b></li>                                   
                 </ul>           
                 <div class="clear"></div>
-                <p><b>G</b>eorge <b>g</b>oes to the <b>g</b>ym by jeep.
-                Jane <b>g</b>enerally jo<b>g</b>s in January with <b>G</b>eena and <b>G</b>ary.
-                Joanna enjoys Jazz at <b>G</b>utemberg’s club.
-                Jelly, <b>g</b>ooseberry jam and juice is Jim and <b>G</b>eorge’s favorite breakfast.
-                <b>G</b>ee, Jim <b>G</b>oldber<b>g</b>, the Jewish <b>g</b>uy, jumps just like a ja<b>g</b>uar.
-                <b>J</b>ames is <b>j</b>olly <b>g</b>ood at <b>G</b>ymnastics.</p>
+                <p>The <b>c</b>lient wants to <b>k</b>eep his se<b>c</b>ond a<b>cc</b>ount in the ban<b>k</b> as his uni<b>que</b> investment.</p>
 			</div>
 		</div>
     </main>

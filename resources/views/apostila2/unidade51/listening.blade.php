@@ -21,16 +21,16 @@
                 <div class="metade" style="margin-top: 16px">
                     <form id="unidade51listening352" method="post">
                         <p> 
-                            Civil War is a <input type="text" name="understanding352-1" class="full left-align" placeholder="Responda aqui" required> 
-                            movie because It’s the first time Spider man <input type="text" name="understanding352-2" class="full left-align" placeholder="Responda aqui" required> 
-                            fighting <input type="text" name="understanding352-3" class="full left-align" placeholder="Responda aqui" required> 
-                            with <input type="text" name="understanding352-4" class="full left-align" placeholder="Responda aqui" required> other super-heroes like American
-                            Captain and Iron Man. Tom Holland <input type="text" name="understanding352-5" class="full left-align" placeholder="Responda aqui" required> 
-                            been considered a <input type="text" name="understanding352-6" class="full left-align" placeholder="Responda aqui" required>
-                            as the new Spider man. He hasn’t <input type="text" name="understanding352-7" class="full left-align" placeholder="Responda aqui" required> 
-                            his success <input type="text" name="understanding352-8" class="full left-align" placeholder="Responda aqui" required> and he
-                            has never accepted the title of <input type="text" name="understanding352-9" class="full left-align" placeholder="Responda aqui" required>. 
-                            So far, it’s the best movie <input type="text" name="understanding352-10" class="full left-align" placeholder="Responda aqui" required> seen.
+                            Civil War is a <input type="text" name="listening352-1"  placeholder="Responda aqui" required> 
+                            movie because It’s the first time Spider man <input type="text" name="listening52-2"  placeholder="Responda aqui" required> 
+                            fighting <input type="text" name="listening352-3"  placeholder="Responda aqui" required> 
+                            with <input type="text" name="listening352-4"  placeholder="Responda aqui" required> other super-heroes like American
+                            Captain and Iron Man. Tom Holland <input type="text" name="listening352-5"  placeholder="Responda aqui" required> 
+                            been considered a <input type="text" name="listening352-6"  placeholder="Responda aqui" required>
+                            as the new Spider man. He hasn’t <input type="text" name="listening352-7"  placeholder="Responda aqui" required> 
+                            his success <input type="text" name="listening352-8"  placeholder="Responda aqui" required> and he
+                            has never accepted the title of <input type="text" name="listening352-9"  placeholder="Responda aqui" required>. 
+                            So far, it’s the best movie <input type="text" name="listening352-10"  placeholder="Responda aqui" required> seen.
                         </p>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -93,7 +93,6 @@
                 }
             });
         }
-
 
         function enviarAtividade(formId, respostas){
             var resposta = {

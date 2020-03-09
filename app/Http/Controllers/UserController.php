@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use DB;
 use App\User;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -89,6 +90,15 @@ class UserController extends Controller
         $usuario->delete();
         return "1";
     }
+    /* atualizar criptografia de senha */
+   /*  public function atualizaSenha(){
+        $users = User::All();
+
+        foreach($users as $user){
+            $user->password = Hash::make($user->password);
+            $user->save();
+        }
+    } */
 
 }
 

@@ -17,21 +17,24 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                                
-                <form id="unidade41listening300" method="post">
-                    <p>Yesterday I had the <input type="text" placeholder="responda aqui !" name="listening300-1" class="inputpequeno left-align" required>
-                    to meet Jane . It was a <input type="text" placeholder="responda aqui !" name="listening300-2" class="inputpequeno left-align" required> meeting,
-                    They are very happy with the final <input type="text" placeholder="responda aqui !" name="listening300-3" class="inputpequeno left-align" required>
-                    of the magazine. The magazine holding, <input type="text" placeholder="responda aqui !" name="listening300-4" class="inputpequeno left-align" required>
-                    <input type="text" placeholder="responda aqui !" name="listening300-5" class="inputpequeno left-align" required>
-                    is in San Francisco, asked us to have a meeting with their 
-                    <input type="text" placeholder="responda aqui !" name="listening300-6" class="inputpequeno left-align" required>. 
-                    He is the guy <input type="text" placeholder="responda aqui !" name="listening300-7" class="inputpequeno left-align" required> jobs were exposed in the last
-                    <input type="text" placeholder="responda aqui !" name="listening300-8" class="inputpequeno left-align" required> fair in London.</p>               
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and answer the questions below.</h5>                                
+                <form class="metade" id="unidade42listening306" method="post">
+                    <p>
+                        1 - Where is the meeting gonna happen?                        
+                        <input type="text" placeholder="responda aqui !" name="listening306-1" class="full left-align" required>
+                    </p>
+                    <p>                    
+                        2 - What does the speaker say about London?
+                        <input type="text" placeholder="responda aqui !" name="listening306-2" class="full left-align" required>
+                    </p>
+                    <p>
+                        3 - What famous person he mentions and what happened with him?
+                        <input type="text" placeholder="responda aqui !" name="listening306-3" class="full left-align" required>
+                    </p>               
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="41">
-                    <input type="hidden" name="atividade_id" value="300">
+                    <input type="hidden" name="unidade_id" value="42">
+                    <input type="hidden" name="atividade_id" value="306">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 			</div>
@@ -45,21 +48,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade41listening300").submit(function(e){
+        $("#unidade42listening306").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade41listening300 input[type="text"]').each(function(index){
-                if(($('#unidade41listening300 input[type="text"]').length - 1) == index){
+            $('#unidade42listening306 input[type="text"]').each(function(index){
+                if(($('#unidade42listening306 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade41listening300 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade41listening300'), respostas);
+            if($('#unidade42listening306 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade42listening306'), respostas);
             }else{
-                enviarAtividade($('#unidade41listening300'), respostas);
+                enviarAtividade($('#unidade42listening306'), respostas);
             }
         });
 
@@ -78,15 +81,12 @@
                     var objeto = JSON.parse(response[0].resposta_respostas);
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
-                    for(j = 0; j < respostas.length; j++){
-                        $('#unidade41listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade41listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade41listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade41listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                    for(j = 0; j < respostas.length; j++){                        
+                        $('#unidade42listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade42listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade41listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade41listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
-                    
+                    $('#unidade42listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade42listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);                    
                 }
             });
         }

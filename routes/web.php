@@ -1216,6 +1216,19 @@ Route::get('/apostila2/unidade24/listening/respostasCheck/{atividade_id}', 'Resp
 Route::post('/apostila2/unidade24/understanding/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidade24/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
+//Rotas para o Portal do Aluno
+Route::get('/portal', 'HomeController@homePortal')->name('portal');
+Route::get('/material', 'MaterialDidaticoController@index')->name('material');
+Route::get('/nota', 'NotaController@index')->name('nota');
+Route::get('/frequencia', 'FrequenciaController@index')->name('frequencia');
+Route::get('/financeiro', 'FinanceiroController@index')->name('financeiro');
+Route::get('/contato', 'ContatoController@index')->name('contato');
+Route::get('/perfil', 'PerfilController@index')->name('perfil');
+Route::post('/enviar-email', 'ContatoController@enviar');
+Route::post('/enviar-frequencia', 'FrequenciaController@enviar');
+Route::post('/atualizar-perfil/{id}', 'PerfilController@update');
+
+Route::get('/atualiza-senha','UserController@atualizaSenha');
 //UNIDADE 25
 Route::post('/apostila2/unidade25/vocabulary/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidad25/vocabulary/respostasCheck/{atividade_id}', 'RespostaController@check');

@@ -12,31 +12,31 @@
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade42" data-etapa="understanding">
                 <h3 class="barlow">UNIT 42</h3>
                 <h5 class="barlow">6 - UNDERSTANDING</h5>                               
-                <form class="metade" id="unidade41understanding301" method="post">                                   
+                <form class="metade" id="unidade42understanding307" method="post">                                                   
                     <p>
-                        1 - What did Gleen ask the students to do?                        
-                        <input type="text" placeholder="responda aqui !" name="understanding189-1" class="full left-align" required>
+                        1 - What happened with the students after they watched the animations?                        
+                        <input type="text" placeholder="responda aqui !" name="understanding307-1" class="full left-align" required>
                     </p>
                     <p>                    
-                        2 - What did Akira say about the video?
-                        <input type="text" placeholder="responda aqui !" name="understanding189-2" class="full left-align" required>
+                        2 - What does John say about Gleen’s advice?
+                        <input type="text" placeholder="responda aqui !" name="understanding307-2" class="full left-align" required>
                     </p>
                     <p>
-                        3 - What did John see?
-                        <input type="text" placeholder="responda aqui !" name="understanding189-3" class="full left-align" required>
+                        3 - What did the students want to do at first?
+                        <input type="text" placeholder="responda aqui !" name="understanding307-3" class="full left-align" required>
                     </p>
                     <p>
-                        4 - What does John speak about what he saw?
-                        <input type="text" placeholder="responda aqui !" name="understanding189-4" class="full left-align" required>
+                        4 - Where does the story take place?
+                        <input type="text" placeholder="responda aqui !" name="understanding307-4" class="full left-align" required>
                     </p>
                     <p>
-                        5 - What does Gleen say about acting?
-                        <input type="text" placeholder="responda aqui !" name="understanding189-5" class="full left-align" required>
+                        5 - What do they say about the characters ?
+                        <input type="text" placeholder="responda aqui !" name="understanding307-5" class="full left-align" required>
                     </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="41">
-                    <input type="hidden" name="atividade_id" value="301">
+                    <input type="hidden" name="unidade_id" value="42">
+                    <input type="hidden" name="atividade_id" value="307">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
             </div>
@@ -50,21 +50,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade41understanding301").submit(function(e){
+        $("#unidade42understanding307").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade41understanding301 input[type="text"]').each(function(index){
-                if(($('#unidade41understanding301 input[type="text"]').length - 1) == index){
+            $('#unidade42understanding307 input[type="text"]').each(function(index){
+                if(($('#unidade42understanding307 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade41understanding301 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade41understanding301'), respostas);
+            if($('#unidade42understanding307 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade42understanding307'), respostas);
             }else{
-                enviarAtividade($('#unidade41understanding301'), respostas);
+                enviarAtividade($('#unidade42understanding307'), respostas);
             }
         });
 
@@ -84,11 +84,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade41understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade41understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade42understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade42understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade41understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade41understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade42understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade42understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
