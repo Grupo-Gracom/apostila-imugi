@@ -38,9 +38,9 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <p><b><b>If she had stayed in</b> the class, <b>he wouldn't have missed</b> an important explanation.</p>
-                                <p><b><b>If had</b>  more time, <b>I could have visited</b> more places in New York.</p>>
-                                <p><b><b>We might have finished</b> the document <b>if the computer had been fixed.</b></p>
+                                <p><b>If she had stayed in</b> the class, <b>he wouldn't have missed</b> an important explanation.</p>
+                                <p><b>If had</b>  more time, <b>I could have visited</b> more places in New York.</p>
+                                <p><b>We might have finished</b> the document <b>if the computer had been fixed.</b></p>
                             </td>
                         </tr>
                     </table> 
@@ -58,7 +58,7 @@
                                     2. If you <input type="text" name="grammar404-3"  placeholder="Responda aqui" required/> (ask) me, I  <input type="text" name="grammar404-4"  placeholder="Responda aqui" required/> (help) you.
                                 </p>
                                 <p>
-                                    3. If we <input type="text" name="grammar404-5"  placeholder="Responda aqui" required/> (go) to the cinema, we <input type="text" name="grammar404-6"  placeholder="Responda aqui" required/> (see) my friend Jacob
+                                    3. If we <input type="text" name="grammar404-5"  placeholder="Responda aqui" required/> (go) to the cinema, we <input type="text" name="grammar404-6"  placeholder="Responda aqui" required/> (see) my friend Jacob.
                                 </p>
                                 <p>
                                     4. If you <input type="text" name="grammar404-7"  placeholder="Responda aqui" required/> (speak) English, she <input type="text" name="grammar404-8"  placeholder="Responda aqui" required/> (understood).

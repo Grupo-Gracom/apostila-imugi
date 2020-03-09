@@ -22,14 +22,11 @@
 					the company. It took me some time to understand the whole process of the company,
 					and because of that, I missed some opportunities to grow in the company. There was an
 					open manager position, I wanted it but I was not prepared for it. My systemic view was
-					very superficial and then my friend got the position. If I had realized before how important was to be in touch with the other areas, I would have done differently
+					very superficial and then my friend got the position. If I had realized before how important was to be in touch with the other areas, I would have done differently.
 				</p>
 				<p>
 					<b>Akira :</b>  Really teacher? Thanks for sharing. I’ll pay attention to this advice, I promise you
 					I’ll be the best profession ever in this requisite.
-				</p>
-				<p>
-					<b>Gleen :</b>   I’ll learn teacher. I believe that if worked closer to the panning department of my company I could learn to deal better with deadlines.
 				</p>
 				<p>
 					<b>Gleen :</b>  Your’re welcome. Well guys, we’re about to finish our course. In two more weeks
