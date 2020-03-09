@@ -7,7 +7,7 @@ use App\Resposta;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class Apostila1Controller extends Controller
+class ApostilaController extends Controller
 {
     
     protected $usuario;
@@ -25,6 +25,12 @@ class Apostila1Controller extends Controller
         $id = Auth::user()->id;
         $aluno = User::find($id);
         return view('apostila1'.'/'.$unidade.'/'.$item.'', compact('aluno'));
+    }
+
+    public function apostila2($unidade,$item){
+        $id = Auth::user()->id;
+        $aluno = User::find($id);
+        return view('apostila2'.'/'.$unidade.'/'.$item.'', compact('aluno'));
     }
 
 
