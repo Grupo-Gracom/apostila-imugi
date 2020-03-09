@@ -74,6 +74,65 @@
 		var tipo = $('input[name="liberaMaterial"]').attr("data-tipo");
 		console.log(tipo);
 		$(document).ready(function(){
+			// switch (tipo) {
+			// 	case 0 :
+			// 		switch (material){
+			// 			case "PLAY GO + PHOTOSHOP":
+			// 				$(".playgo").removeClass("deactive");
+			// 				$(".photoshop").removeClass("deactive");
+			// 				$('.dominating a').removeAttr('href');
+			// 				$('.games a').removeAttr('href');
+			// 				$('.master a').removeAttr('href');
+			// 				$('.video a').removeAttr('href');
+			// 			break;
+			// 			case "CGFLY":
+			// 				$(".playgo").removeClass("deactive");
+			// 				$(".photoshop").removeClass("deactive");
+			// 				$(".dominating").removeClass("deactive");
+			// 				$(".games").removeClass("deactive");
+			// 				$('.master a').removeAttr('href');
+			// 				$('.video a').removeAttr('href');
+			// 			break;
+			// 			default:
+			// 				$(".playgo").removeClass("deactive");
+			// 				$(".photoshop").removeClass("deactive");
+			// 				$(".dominating").removeClass("deactive");
+			// 				$(".master").removeClass("deactive");
+			// 				$(".games").removeClass("deactive");
+			// 				$(".video").removeClass("deactive");
+			// 			break;
+						
+			// 		}
+			// 	break;
+			// 	case 1 :
+			// 		switch (material){
+			// 			case 1:
+			// 				$(".playgo").removeClass("deactive");
+			// 				$(".photoshop").removeClass("deactive");
+			// 				$('.dominating a').removeAttr('href');
+			// 				$('.games a').removeAttr('href');
+			// 				$('.master a').removeAttr('href');
+			// 				$('.video a').removeAttr('href');
+			// 			break;
+			// 			case 2:
+			// 				$(".playgo").removeClass("deactive");
+			// 				$(".photoshop").removeClass("deactive");
+			// 				$(".dominating").removeClass("deactive");
+			// 				$(".games").removeClass("deactive");
+			// 				$('.master a').removeAttr('href');
+			// 				$('.video a').removeAttr('href');
+			// 			break;	
+			// 			default:
+			// 				$(".playgo").removeClass("deactive");
+			// 				$(".photoshop").removeClass("deactive");
+			// 				$(".dominating").removeClass("deactive");
+			// 				$(".master").removeClass("deactive");
+			// 				$(".games").removeClass("deactive");
+			// 				$(".video").removeClass("deactive");
+			// 			break;
+			// 		}
+			// 	break;
+			// }
 
 			if(tipo == 0){
 				if(material == "PLAY GO + PHOTOSHOP"){
@@ -122,7 +181,7 @@
 					$(".video").removeClass("deactive");
 				}
 			}
-			
+
         });
 	</script>
 
