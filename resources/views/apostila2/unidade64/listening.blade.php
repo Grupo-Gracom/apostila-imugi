@@ -9,66 +9,55 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade61" data-etapa="understanding">
-				<h3 class="barlow">UNIT 61</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade64" data-etapa="listening">
+				<h3 class="barlow">UNIT 64</h3>
+                <h5 class="barlow">5 - LISTENING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/Unit64/Listening/completo.ogg') }}" type="audio/ogg">
+                </audio>
+                <div class="clear"></div>
+                <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the questions below.</h5>
                 <div class="metade">
-                    <form id="unidade61understanding408" method="post">
-                        <p>
-                            1 -  Where did Gleen work in the past?
-                            <input type="text" name="understanding408-1" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            2 -  What did he do in this company?
-                            <input type="text" name="understanding408-2" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            3 -  What happened to Gleens career in this company
-                            <input type="text" name="understanding408-3" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            4 -  What would have he done differently?
-                            <input type="text" name="understanding408-4" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            5 - What’s gonna happen in two weeks?
-                            <input type="text" name="understanding408-5" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                    
+                    <form id="unidade62listening411" method="post">
+                    <p>
+                        1. Describe a successful person according to the text. <input type="text" name="listening407-9" class="full left-align" placeholder="Responda aqui" required>
+                    </p>
+
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="61">
-                        <input type="hidden" name="atividade_id" value="408">
+                        <input type="hidden" name="unidade_id" value="62">
+                        <input type="hidden" name="atividade_id" value="411">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-			</div>
+            </div>
 		</div>
     </main>
     <script>
         activeMenu();
+        console.log(window.location.pathname);
 
         $("form").each(function(){
             var atividade_id = $(this).find('input[name="atividade_id"]').val();
             checkAtividade(atividade_id);
         });
 
-        $("#unidade61understanding408").submit(function(e){
+        $("#unidade62listening411").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade61understanding408 input[type="text"]').each(function(index){
-                if(($('#unidade61understanding408 input[type="text"]').length - 1) == index){
+            $('#unidade62listening411 input[type="text"]').each(function(index){
+                if(($('#unidade62listening411 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade61understanding408 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade61understanding408'), respostas);
+            if($('#unidade62listening411 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade62listening411'), respostas);
             }else{
-                enviarAtividade($('#unidade61understanding408'), respostas);
+                enviarAtividade($('#unidade62listening411'), respostas);
             }
         });
 
@@ -88,15 +77,14 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade61understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade61understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade62listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade62listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade61understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade61understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade62listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade62listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
-
 
         function enviarAtividade(formId, respostas){
             var resposta = {
@@ -152,3 +140,4 @@
     </script>
 
 @endsection
+

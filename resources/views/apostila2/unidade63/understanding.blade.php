@@ -9,37 +9,25 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade61" data-etapa="understanding">
-				<h3 class="barlow">UNIT 61</h3>
+			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade63" data-etapa="understanding">
+				<h3 class="barlow">UNIT 63</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade61understanding408" method="post">
+                    <form id="unidade63understanding415" method="post">
                         <p>
-                            1 -  Where did Gleen work in the past?
-                            <input type="text" name="understanding408-1" class="full left-align" placeholder="Responda aqui" required>
+                            1 -  Why is Gleen happy ?
+                            <input type="text" name="understanding415-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 -  What did he do in this company?
-                            <input type="text" name="understanding408-2" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            3 -  What happened to Gleens career in this company
-                            <input type="text" name="understanding408-3" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            4 -  What would have he done differently?
-                            <input type="text" name="understanding408-4" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            5 - What’s gonna happen in two weeks?
-                            <input type="text" name="understanding408-5" class="full left-align" placeholder="Responda aqui" required>
+                            2 -   According to Gleen, what is necessary to make a difference in the market?
+                            <input type="text" name="understanding415-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                     
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="61">
-                        <input type="hidden" name="atividade_id" value="408">
+                        <input type="hidden" name="unidade_id" value="63">
+                        <input type="hidden" name="atividade_id" value="415">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -54,21 +42,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade61understanding408").submit(function(e){
+        $("#unidade63understanding415").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade61understanding408 input[type="text"]').each(function(index){
-                if(($('#unidade61understanding408 input[type="text"]').length - 1) == index){
+            $('#unidade63understanding415 input[type="text"]').each(function(index){
+                if(($('#unidade63understanding415 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade61understanding408 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade61understanding408'), respostas);
+            if($('#unidade63understanding415 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade63understanding415'), respostas);
             }else{
-                enviarAtividade($('#unidade61understanding408'), respostas);
+                enviarAtividade($('#unidade63understanding415'), respostas);
             }
         });
 
@@ -88,11 +76,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade61understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade61understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade63understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade63understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade61understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade61understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade63understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade63understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

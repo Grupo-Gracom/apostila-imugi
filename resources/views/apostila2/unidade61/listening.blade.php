@@ -17,18 +17,25 @@
 					<source src="{{ asset('assets/audio/Unit61/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -   Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade60listening402" method="post">
-                        My friend ______ the chance to ______ in a nice company. But, he was ________ because
-                        he was __________. If I had had the ___________ to be with people that could _______ me,
-                        I would have _____________ myself and forgotten ___________ that could spoil my experience, in order to _________ what they had to teach me.
-                        <p>1 - What things would the speaker do if he had the chance to work for a big company? <input type="text" name="listening402-1" class="full left-align" placeholder="Responda aqui" required></p> 
+                <h5 class="barlow" style="margin-top:16px">A -   Listen to the audio and fill in the blanks with the missing words.</h5>
+                <div class="metade">
+                    <form id="unidade61listening407" method="post">
+                    <p>
+                        My friend <input type="text" name="listening407-1" placeholder="Responda aqui" required> the chance to 
+                        <input type="text" name="listening407-2" placeholder="Responda aqui" required> 
+                        in a nice company. But, he was <input type="text" name="listening407-3" placeholder="Responda aqui" required> because
+                        he was <input type="text" name="listening407-4" placeholder="Responda aqui" required>. If I had had the 
+                        <input type="text" name="listening407-5" placeholder="Responda aqui" required> to be with people that could 
+                        <input type="text" name="listening407-6" placeholder="Responda aqui" required> me,
+                        I would have <input type="text" name="listening407-7" placeholder="Responda aqui" required> myself and forgotten 
+                        <input type="text" name="listening407-8" placeholder="Responda aqui" required> that could spoil my experience, in order to 
+                        <input type="text" name="listening407-9" placeholder="Responda aqui" required> what they had to teach me.
+                    </p>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="60">
-                        <input type="hidden" name="atividade_id" value="402">
+                        <input type="hidden" name="unidade_id" value="61">
+                        <input type="hidden" name="atividade_id" value="407">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -44,21 +51,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade60listening402").submit(function(e){
+        $("#unidade61listening407").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade60listening402 input[type="text"]').each(function(index){
-                if(($('#unidade60listening402 input[type="text"]').length - 1) == index){
+            $('#unidade61listening407 input[type="text"]').each(function(index){
+                if(($('#unidade61listening407 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade60listening402 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade60listening402'), respostas);
+            if($('#unidade61listening407 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade61listening407'), respostas);
             }else{
-                enviarAtividade($('#unidade60listening402'), respostas);
+                enviarAtividade($('#unidade61listening407'), respostas);
             }
         });
 
@@ -78,11 +85,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade60listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade60listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade61listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade61listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade60listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade60listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade61listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade61listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
