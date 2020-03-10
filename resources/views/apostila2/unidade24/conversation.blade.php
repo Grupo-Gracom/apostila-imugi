@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 24 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -27,8 +27,8 @@
 								yesterday because the Installing CD was locked in the drawer. But don’t worry, I’ll be able
 								to finish everything up to the end of the class.</p>
 				<p><b>Gleen:</b> Ok guys, thanks for your help</p>
-				
-					
+
+
 				<figure>
 					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
 				</figure>

@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 4 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,14 +17,14 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                
+
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade4listening121" method="post">
                     <p>“My name is Joana Henley. I work as an illustrator, painter and live artist.<input type="text" name="listening121-1" placeholder="Responda aqui" required>the
                         <input type="text" name="listening121-2" placeholder="Responda aqui" required>you<input type="text" name="listening121-3" placeholder="Responda aqui" required>how to
                         <input type="text" name="listening121-4" placeholder="Responda aqui" required> portraits,<input type="text" name="listening121-5" placeholder="Responda aqui" required>, color and organic
                         <input type="text" name="listening121-6" placeholder="Responda aqui" required>to create a<input type="text" name="listening121-7" placeholder="Responda aqui" required>."</p>
-                    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="4">

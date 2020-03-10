@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 20 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -16,64 +16,64 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>                
+                <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px;">SIMPLE PRESENT X SIMPLE PAST</h5>
-                <div class="espacamento">                                
-                    <table class="metade esquerda">           
+                <div class="espacamento">
+                    <table class="metade esquerda">
                         <tr>
-                            <td><h5 class="barlow">Simple Present ( Facts / Repeated action)</h5></td>                    														
-                        </tr>                                                    										
+                            <td><h5 class="barlow">Simple Present ( Facts / Repeated action)</h5></td>
+                        </tr>
                         <tr>
                             <td><p>Gleen <b>works</b> as a teacher.<p></td>
-                        </tr>                                                    										
+                        </tr>
                         <tr>
                             <td><p>Akira and John <b>love</b> Comic books.<p></td>
-                        </tr>                                                    										
+                        </tr>
                         <tr>
                             <td><p>“Back to the future” <b>is</b> a famous old movie.<p></td>
-                        </tr>                                                    										
-                    </table>                
-                    <table class="metade direita">                                  
+                        </tr>
+                    </table>
+                    <table class="metade direita">
                         <tr>
-                            <td><h5 class="barlow">Future (Will / Going to/Present cont.)</h5></td>                    														
-                        </tr>                                                    										
+                            <td><h5 class="barlow">Future (Will / Going to/Present cont.)</h5></td>
+                        </tr>
                         <tr>
                             <td><p>I’ll search for some new images for the blog.<p></td>
-                        </tr>                                                    										
+                        </tr>
                         <tr>
                             <td><p>We’re gonna take the pictures next week.<p></td>
-                        </tr>                                                    										
+                        </tr>
                         <tr>
                             <td><p>We’re closing the magazine in 10 days.<p></td>
-                        </tr>                                                    										
+                        </tr>
                     </table>
                 </div>
-                <div class="clear"></div>                
-                <h5 class="barlow">EXERCISES</h5>                
+                <div class="clear"></div>
+                <h5 class="barlow">EXERCISES</h5>
                 <h5 class="barlow">A - Think of your life now and 10 years from now. Write about it using present and future
-                tenses. Be ready to present to your classmates.</h5>                
-				<form id="unidade20grammar186" method="post">                                                                                           
+                tenses. Be ready to present to your classmates.</h5>
+				<form id="unidade20grammar186" method="post">
                     <p><textarea  class="full" name="grammar186-1" required></textarea></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="20">
                     <input type="hidden" name="atividade_id" value="186">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
                 <h5 class="barlow">B -  Give your opinion about one of the next movie releases for the next months. Justify
                 your answer using future tenses.</h5>
-				<form id="unidade20grammar187" method="post">                                                                                           
+				<form id="unidade20grammar187" method="post">
                     <p><textarea  class="full" name="grammar187-1" required></textarea></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="20">
                     <input type="hidden" name="atividade_id" value="187">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>         
+                </form>
                 <figure>
 					<img src="{{ asset('assets/img/dominating/unit20/grammar.png') }}" alt="Garotos festejando">
-				</figure>                                
-                <div class="clear"></div>        
+				</figure>
+                <div class="clear"></div>
 			</div>
 		</div>
     </main>
@@ -105,8 +105,8 @@
             }else{
                 enviarAtividade($('#unidade20grammar187'), respostas);
             }
-        });        
-        
+        });
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,
@@ -130,7 +130,7 @@
                     }
                     $('#unidade20grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade20grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
-                    
+
                 }
             });
         }

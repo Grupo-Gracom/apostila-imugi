@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 24 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,8 +17,8 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>     
-                
+                <div class="clear"></div>
+
                 <h5 class="barlow" style="margin-top: 16px">A - TO BE ABLE TO</h5>
 
                 <table class="metade center-align">
@@ -33,11 +33,11 @@
                     <tr>
                         <td><p>I <b>was not able to draw</b> …</td>
                         <td><p>We <b>aren’t able to code</b> in java.</p></td>
-                    </tr>  
+                    </tr>
                     <tr>
                         <td><p><b>Were</b> you <b>able to draw</b> …?</td>
                         <td><p><b>Are</b> you <b>able to code</b> in java?</td>
-                    </tr>       
+                    </tr>
                 </table>
 
                 <table class="metade center-align">
@@ -45,49 +45,49 @@
                         <td><p>Present</p></td>
                     </tr>
                     <tr>
-                        <td><p>she <b>will be able to speak</b> 4 languages.</td>                        
+                        <td><p>she <b>will be able to speak</b> 4 languages.</td>
                     </tr>
                     <tr>
-                        <td><p>She <b>won’t be able to speak</b> 4 languages.</td>                        
-                    </tr>  
+                        <td><p>She <b>won’t be able to speak</b> 4 languages.</td>
+                    </tr>
                     <tr>
-                        <td><p><b>Will</b> she <b>be able to speak</b> 4 languages?</td>                        
-                    </tr>       
-                </table> 
+                        <td><p><b>Will</b> she <b>be able to speak</b> 4 languages?</td>
+                    </tr>
+                </table>
 
                 <p class="barlow">1) Rewrite the sentences using BE ABLE TO:</p>
                 <form id="unidade24grammar208" class="metade" action="post">
                     <p>1. I can be here tomorrow at ten o’clock. (future)
                         <input type="text" name="grammar208-1" placeholder="Responda aqui" class="full left-align" required>
                     </p>
-                    <p>2. Mark can speak three languages. (Present) 
+                    <p>2. Mark can speak three languages. (Present)
                         <input type="text" name="grammar208-2" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
+                    </p>
                     <p>3. Two students could not finish the test. (past)
                         <input type="text" name="grammar208-3" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
+                    </p>
                     <p>4. Animals can’t speak. (present)
                         <input type="text" name="grammar208-4" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
-                    <p>5. Can you touch your toes? (present) 
+                    </p>
+                    <p>5. Can you touch your toes? (present)
                         <input type="text" name="grammar208-5" placeholder="Responda aqui" class="full left-align" required>
-                    </p>    
-                    <p>6. Sue can get her own apartment next year. (future) 
+                    </p>
+                    <p>6. Sue can get her own apartment next year. (future)
                         <input type="text" name="grammar208-6" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
-                    <p>7. Could you do the homework yesterday? (past)  
+                    </p>
+                    <p>7. Could you do the homework yesterday? (past)
                         <input type="text" name="grammar208-7" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
-                    <p>8. I am sorry that I couldn’t call you last night. (past)  
+                    </p>
+                    <p>8. I am sorry that I couldn’t call you last night. (past)
                         <input type="text" name="grammar208-8" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
-                    <p>9. Can we take vacations on the moon in about 10 years from now? (future)  
+                    </p>
+                    <p>9. Can we take vacations on the moon in about 10 years from now? (future)
                         <input type="text" name="grammar208-9" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
-                    <p>10. I’m sorry, but I can’t come to your party next week. (future) 
+                    </p>
+                    <p>10. I’m sorry, but I can’t come to your party next week. (future)
                         <input type="text" name="grammar208-10" placeholder="Responda aqui" class="full left-align" required>
-                    </p>         
-                    <div class="clear"></div> 
+                    </p>
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="24">
@@ -95,7 +95,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <form id="unidade24grammar209"  action="post">                  
+                <form id="unidade24grammar209"  action="post">
                     <p class="barlow">2) Use the correct tense of BE ABLE TO to complete the sentences below.</p>
                     <p>1.<input type="text" name="grammar209-1" placeholder="Responda aqui" required>(they/play) tennis well?</p>
                     <p>2.<input type="text" name="grammar209-2" placeholder="Responda aqui" required>(not/understand) the question yesterday.</p>
@@ -108,8 +108,8 @@
                     <p>9.They<input type="text" name="grammar209-9" placeholder="Responda aqui" required>(get) tickets to the Rolling Stones concert last week. </p>
                     <p>10.How<input type="text" name="grammar209-10" placeholder="Responda aqui" required>(you / convince) him to come to the exhibition last week?</p>
                     <p>11.She<input type="text" name="grammar209-11" placeholder="Responda aqui" required>(not, enjoy) the concert last night because of the noise.</p>
-                                    
-                    <div class="clear"></div> 
+
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="24">
@@ -127,17 +127,17 @@
                     </p>
                     <p>2.
                         <input type="text" name="grammar210-2" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
+                    </p>
                     <p>3.
                         <input type="text" name="grammar210-3" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
+                    </p>
                     <p>4.
                         <input type="text" name="grammar210-4" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
+                    </p>
                     <p>5.
                         <input type="text" name="grammar210-5" placeholder="Responda aqui" class="full left-align" required>
-                    </p>          
-                    <div class="clear"></div> 
+                    </p>
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="24">
@@ -209,7 +209,7 @@
                 enviarAtividade($('#unidade24grammar210'), respostas);
             }
         });
-        
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

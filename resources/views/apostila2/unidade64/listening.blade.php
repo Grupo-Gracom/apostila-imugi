@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,17 +17,18 @@
 					<source src="{{ asset('assets/audio/Unit64/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the questions below.</h5>
+                <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
                 <div class="metade">
-                    <form id="unidade62listening411" method="post">
+                    <form id="unidade64listening417" method="post">
                     <p>
-                        1. Describe a successful person according to the text. <input type="text" name="listening407-9" class="full left-align" placeholder="Responda aqui" required>
+                        Don’t be <input type="text" name="listening417-1"  placeholder="Responda aqui" required> of making mistakes. They are <input type="text" name="listening417-2"  placeholder="Responda aqui" required> of the <input type="text" name="listening417-3"  placeholder="Responda aqui" required>. The only way to learn is having the <input type="text" name="listening417-4"  placeholder="Responda aqui" required> to face moments when things go <input type="text" name="listening417-5"  placeholder="Responda aqui" required> .
+                        Being mature to face such <input type="text" name="listening417-6"  placeholder="Responda aqui" required> , make you <input type="text" name="listening417-7"  placeholder="Responda aqui" required> as a person. Don’t <input type="text" name="listening417-8"  placeholder="Responda aqui" required> any of your experiences. <input type="text" name="listening417-9"  placeholder="Responda aqui" required> the good, or bad ones.
                     </p>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="62">
-                        <input type="hidden" name="atividade_id" value="411">
+                        <input type="hidden" name="unidade_id" value="64">
+                        <input type="hidden" name="atividade_id" value="417">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -43,21 +44,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade62listening411").submit(function(e){
+        $("#unidade64listening417").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade62listening411 input[type="text"]').each(function(index){
-                if(($('#unidade62listening411 input[type="text"]').length - 1) == index){
+            $('#unidade64listening417 input[type="text"]').each(function(index){
+                if(($('#unidade64listening417 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade62listening411 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade62listening411'), respostas);
+            if($('#unidade64listening417 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade64listening417'), respostas);
             }else{
-                enviarAtividade($('#unidade62listening411'), respostas);
+                enviarAtividade($('#unidade64listening417'), respostas);
             }
         });
 
@@ -77,11 +78,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade62listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade62listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade64listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade64listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade62listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade62listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade64listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade64listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

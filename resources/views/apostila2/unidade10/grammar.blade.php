@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 10 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -40,8 +40,8 @@
                         <tr>
                             <td><p><b>I</b></p></td>
                             <td><p>am</p></td>
-                            <td><p>participate</p></td> 
-                            <td><p><b>I am going to participate</b> of a new modeling course.</p></td>  
+                            <td><p>participate</p></td>
+                            <td><p><b>I am going to participate</b> of a new modeling course.</p></td>
                         </tr>
                         <tr>
                             <td><p>We</p></td>
@@ -49,10 +49,10 @@
                             <td><p>visit</p></td>
                             <td><p>We <b>are going to visit</b> dreamworks studios next month.</p></td>
                         </tr>
-                    </table> 
+                    </table>
                     <p>Going to (more emphatic) = Gonna (less emphatic)</p>
                     <h5 class="barlow" style="margin-top: 16px">B -  SOME/ ANY / NO</h5>
-                    
+
                     <table class="metade center-align">
                         <tr>
                             <td><h5 class="barlow">SOME (+)</h5></td>
@@ -72,16 +72,16 @@
                             <td><p>ZERO</p></td>
                             <td><p>No teacher, <b>I have no</b> doubt.</p></td>
                         </tr>
-                    </table> 
+                    </table>
                     <div class="clear"></div>
 
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
-                    <h5 class="barlow">1 - Complete each sentence. Use GOING TO and the verb in brackets:</h5>               
+                    <h5 class="barlow">1 - Complete each sentence. Use GOING TO and the verb in brackets:</h5>
                     <form id="unidade10grammar143" method="post">
                     <div class="metade">
                             <p>
                                 <p>
-                                    1. <input type="text" name="grammar143-1" placeholder="Responda aqui" required/> <b>Are you going to buy</b> 
+                                    1. <input type="text" name="grammar143-1" placeholder="Responda aqui" required/> <b>Are you going to buy</b>
                                     <input type="text" name="grammar143-2"  placeholder="Responda aqui" required/> (you / buy) a new bike?
                                 </p>
                                 <p>
@@ -93,23 +93,23 @@
                                 <p>
                                     4. <input type="text" name="grammar143-5"  placeholder="Responda aqui" required/> (Mr. Smith/ present) Cinema 4D?
                                 </p>
-                                <p>     
+                                <p>
                                     5. Who <input type="text" name="grammar143-6"  placeholder="Responda aqui" required/> (edit) the last video?
                                 </p>
                                 <p>
                                     6. John and Akira <input type="text" name="grammar143-7"  placeholder="Responda aqui" required/> (not / travel) to NY.
                                 </p>
-                                <p>   
+                                <p>
                                     7. Gleen <input type="text" name="grammar143-8"  placeholder="Responda aqui" required/> (take) a holiday.
                                 </p>
                                 <p>
-                                    8. What time <input type="text" name="grammar143-9"  placeholder="Responda aqui" required/> (you / phone) me?   
+                                    8. What time <input type="text" name="grammar143-9"  placeholder="Responda aqui" required/> (you / phone) me?
                                 </p>
                                 <p>
-                                    9. Where <input type="text" name="grammar143-10"  placeholder="Responda aqui" required/> (we / eat) tonight?   
+                                    9. Where <input type="text" name="grammar143-10"  placeholder="Responda aqui" required/> (we / eat) tonight?
                                 </p>
                                 <p>
-                                    10. I <input type="text" name="grammar143-11"  placeholder="Responda aqui" required/> (not /participate) of the meeting !   
+                                    10. I <input type="text" name="grammar143-11"  placeholder="Responda aqui" required/> (not /participate) of the meeting !
                                 </p>
                             </p>
                         </div>
@@ -122,8 +122,8 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
 
-                    <h5 class="barlow">2 - What are you going to do next summer? Write sentences:</h5>    
-                    <p>.... Next summer I’m going to have a great holiday. I’m going to ....</p>           
+                    <h5 class="barlow">2 - What are you going to do next summer? Write sentences:</h5>
+                    <p>.... Next summer I’m going to have a great holiday. I’m going to ....</p>
                     <form id="unidade10grammar144" method="post">
                         <textarea name="grammar144-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
@@ -135,7 +135,7 @@
                         <input type="hidden" name="atividade_id" value="144">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                    <h5 class="barlow" style="margin-top: 16px">3 - Complete the sentences using SOME / ANY / NO</h5>   
+                    <h5 class="barlow" style="margin-top: 16px">3 - Complete the sentences using SOME / ANY / NO</h5>
                     <form id="unidade10grammar145" method="post">
                         <div class="metade">
                             <p>
@@ -151,8 +151,8 @@
                                 <p>
                                     4. John has <input type="text" name="grammar145-4"  placeholder="Responda aqui" required/> Iron man Comic Book. He does’t like it.
                                 </p>
-                                <p>     
-                                    5. Laura is gonna use <input type="text" name="grammar145-5"  placeholder="Responda aqui" required/> special effects in her video. 
+                                <p>
+                                    5. Laura is gonna use <input type="text" name="grammar145-5"  placeholder="Responda aqui" required/> special effects in her video.
                                 </p>
                             </p>
                         </div>
@@ -224,7 +224,7 @@
         });
 
 
-        
+
 
         function checkAtividade(atividade_id){
             request = $.ajax({

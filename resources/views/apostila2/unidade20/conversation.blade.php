@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 20 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -32,7 +32,7 @@
 				<p><b>Gleen: </b>I’m really amazed with you John. Yeah, you are really diving in the games and
 				super heroes world. Welcome my dear friend.</p>
 				<h5 class="barlow"><a style="margin: 16px 0;" href="http://www.backtothefuture.com/">http://www.backtothefuture.com/</a></h5>
-				<h5 class="barlow"><a style="margin: 16px 0;" href="http://www.backtothefuture.com/news-events/latest-news/Back-To-The-Future-2017-San-Diego-ComicCon#sthash.BPObH0wR.dpbs.">http://www.backtothefuture.com/news-events/latest-news/Back-To-The-Future-2017-San-Diego-ComicCon#sthash.BPObH0wR.dpbs.</a></h5>				
+				<h5 class="barlow"><a style="margin: 16px 0;" href="http://www.backtothefuture.com/news-events/latest-news/Back-To-The-Future-2017-San-Diego-ComicCon#sthash.BPObH0wR.dpbs.">http://www.backtothefuture.com/news-events/latest-news/Back-To-The-Future-2017-San-Diego-ComicCon#sthash.BPObH0wR.dpbs.</a></h5>
 				<figure class="umterco">
 					<img src="{{ asset('assets/img/dominating/unit20/conversation1.png') }}" alt="Garotos festejando">
 				</figure>

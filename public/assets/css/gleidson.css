@@ -103,7 +103,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade form p .inputpequeno{width: 250px;}
 #unidade form input[type="text"]:focus{border-bottom: 1px solid #7dc242;}
 #unidade form input[type="text"].full{width: 100%;}
-#unidade form textarea{border: 1px solid #777;border-radius: 10px;padding: 10px 16px;box-sizing: border-box;font-size: 18px;font-family: Arial, Helvetica, sans-serif !important;outline: 0;}
+#unidade form textarea{border: 1px solid #777;border-radius: 10px;padding: 10px 16px;box-sizing: border-box;font-size: 18px;font-family: Arial, Helvetica, sans-serif !important;outline: 0; color: #7dc242}
 #unidade form textarea:focus{background-color: white;border: 1px solid #7dc242;}
 #unidade form button{padding: 0 26px;display: inline-block;line-height: 50px;border-radius: 5px;border: 0;background-color: #7dc242;color: white;margin-top: 16px;}
 #unidade form button:hover{box-shadow: 0px 5px 8px rgba(0, 0, 0, .15);}

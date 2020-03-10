@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 15 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -16,7 +16,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
 				</audio>
-				<h5 class="barlow" style="margin-top: 16px">A -  ADJECTIVES FOR DESCRIBING PEOPLE</h5>				
+				<h5 class="barlow" style="margin-top: 16px">A -  ADJECTIVES FOR DESCRIBING PEOPLE</h5>
 				<ul class="lista-inline">
 					<li><b>Professional</b></li>
 					<li><b>Competent</b></li>
@@ -24,9 +24,9 @@
 					<li><b>Awesome</b></li>
 					<li><b>Great</b></li>
 					<li><b>Efficient</b></li>
-					<li><b>Communicative</b></li>				
+					<li><b>Communicative</b></li>
 				</ul>
-				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>				
+				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<ul class="lista-inline">
 					<li><b>Level</b></li>
 					<li><b>Reference</b></li>
@@ -35,8 +35,8 @@
 					<li><b>When</b></li>
 					<li><b>Discover</b></li>
 					<li><b>Inspiring</b></li>
-					<li><b>Hardworking</b></li>										
-					<li><b>courage</b></li>										
+					<li><b>Hardworking</b></li>
+					<li><b>courage</b></li>
 				</ul>
 			</div>
 		</div>

@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 2 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -31,7 +31,7 @@
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">B - PROFESSIONS</h5>
-				
+
 				<ul class="lista-inline">
 					<li><b>WEB DESIGNER</b></li>
 					<li><b>YOUTUBER</b></li>
@@ -44,7 +44,7 @@
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT</h5>
-				
+
 				<ul class="lista-inline">
 					<li><b>INTRODUCE</b></li>
 					<li><b>INTERVIEW</b></li>
@@ -55,7 +55,7 @@
 					<li><b>FEEL</b></li>
 					<li><b>KNOW</b></li>
 				</ul>
-				
+
 			</div>
 		</div>
 	</main>

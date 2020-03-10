@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 21 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,19 +17,19 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                
+
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade21listening195" method="post">
                     <p>Hey Ricky. We<input type="text" name="listening195-1" placeholder="Responda aqui" required>about the
                     <input type="text" name="listening195-2" placeholder="Responda aqui" required>good times. Tell us a bit about yours. Well guys, my childhood was very
-                    <input type="text" name="listening195-3" placeholder="Responda aqui" required>. When Iwas a kid I 
+                    <input type="text" name="listening195-3" placeholder="Responda aqui" required>. When Iwas a kid I
                     <input type="text" name="listening195-4" placeholder="Responda aqui" required>to
                     <input type="text" name="listening195-5" placeholder="Responda aqui" required>a lot of my time doing things I liked.
-                    I used to play PS with my brother and we had a nice time together. My family and I 
+                    I used to play PS with my brother and we had a nice time together. My family and I
                     <input type="text" name="listening195-6" placeholder="Responda aqui" required>to
                     <input type="text" name="listening195-7" placeholder="Responda aqui" required>to
                     <input type="text" name="listening195-8" placeholder="Responda aqui" required>on holidays. It was awesome.</p>
-                    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="21">

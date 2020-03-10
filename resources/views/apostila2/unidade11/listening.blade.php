@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 11 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade11listening151" method="post">
                     <p>I Look at her and I think, I know<input type="text" name="listening151-1" required> <input type="text" name="listening151-2" required> to be better than me,<input type="text" name="listening151-3" required>,</p>
                     <p>smarter, <input type="text" name="listening151-4" required>  <input type="text" name="listening151-5" required>, less imperfect. But, <input type="text" name="listening151-6" required> <input type="text" name="listening151-7" required> be kind? Will She be</p>

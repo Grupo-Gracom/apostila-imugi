@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 4 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,24 +17,24 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>     
-                
+                <div class="clear"></div>
+
                 <h5 class="barlow" style="margin-top: 16px">A - WH QUESTIONS – HOW – HOW MANY – HOW MUCH</h5>
-                
-                <p><b>How -</b> Used for <b>questions about manner/status.</b></p>  
+
+                <p><b>How -</b> Used for <b>questions about manner/status.</b></p>
                 <p><b>Examples:</b></p>
                 <p><b>How</b> is your family? / They are <b>ok. </b>Thanks for asking.</p>
-                <p><b>How</b> do you come to school? / I come <b>by bus.</b></p>              
-                
+                <p><b>How</b> do you come to school? / I come <b>by bus.</b></p>
+
                 <p><b>How many -</b> Used for <b>questions about COUNTABLE quantities.</b></p>
                 <p><b>Examples:</b></p>
                 <p><b>How many</b> certificates do you have ? / I have <b>3 certificates</b></p>
-                <p><b>How many</b> channels does he follow? / He follows <b>2 channels.</b></p>   
-                
-                <p><b>How much -</b> Used for <b>questions about UNCOUNTABLE quantities.</b></p> 
+                <p><b>How many</b> channels does he follow? / He follows <b>2 channels.</b></p>
+
+                <p><b>How much -</b> Used for <b>questions about UNCOUNTABLE quantities.</b></p>
                 <p><b>Examples:</b></p>
                 <p><b>How much</b> time do we have? / we have <b>3 hours a day</b></p>
-                <p><b>How much</b> money does she have? / She has <b>U$ 1000,00.</b></p>               
+                <p><b>How much</b> money does she have? / She has <b>U$ 1000,00.</b></p>
 
                 <h5 class="barlow" style="margin-top: 16px">B - SUBJECT PRONOUN X OBJECT PRONOUN.</h5>
 
@@ -76,7 +76,7 @@
                         <td><p>Them</p></td>
                     </tr>
                 </table>
-                 
+
                 <p><b>Examples:</b></p>
                 <p>Gleen asks Akira, Laura and john to share their challenges.</p>
                 <p><b>He</b> asks <b>them</b> to share their challenges.</p>
@@ -103,7 +103,7 @@
                         <td><p><b>Open</b> the file.</p></td>
                         <td><p><b>Don´t open</b> the file.</p></td>
                     </tr>
-                    
+
                 </table>
 
                 <p class="barlow">1) Fill in the blanks with ME, YOU, HIM, HER, THEM, US, IT:</p>
@@ -123,9 +123,9 @@
                     <input type="hidden" name="unidade_id" value="4">
                     <input type="hidden" name="atividade_id" value="118">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form> 
+                </form>
 
-                <p class="barlow">2) Build up questions for the answers. Use how, how many, how much</p> 
+                <p class="barlow">2) Build up questions for the answers. Use how, how many, how much</p>
                 <p>E.g How are you?/ <b>I’m fine thanks.</b></p>
 
                 <form id="unidade4grammar119" action="post" class="metade">
@@ -144,18 +144,18 @@
                 </form>
 
                 <p class="barlow">3) Prepare 3 questions and interview a classmate. Be ready to share with your friends.</p>
-                
+
                 <form id="unidade4grammar120" action="post" class="metade">
                     <p><input type="text" name="grammar120-1" placeholder="Responda aqui" class="full left-align" required></p>
                     <p><input type="text" name="grammar120-2" placeholder="Responda aqui" class="full left-align" required></p>
                     <p><input type="text" name="grammar120-3" placeholder="Responda aqui" class="full left-align" required></p>
-                    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="4">
                     <input type="hidden" name="atividade_id" value="120">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>               
+                </form>
 			</div>
 		</div>
     </main>
@@ -221,7 +221,7 @@
             }
         });
 
-        
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

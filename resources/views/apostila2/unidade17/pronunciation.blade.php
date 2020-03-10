@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 17 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -16,15 +16,15 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear espacamento"></div>              
-                <p class="esquerda" style="color:green;">aw sound /ɔ/</p>                
-                <ul class="lista-inline">                                        
-                    <li><b>Almost</b></li>                    
-                    <li><b>Always</b></li>                    
-                    <li><b>Offer</b></li>                    
-                    <li><b>Author</b></li>                    
-                    <li><b>Talk</b></li>                    
-                    <li><b>audience</b></li>                    
+                <div class="clear espacamento"></div>
+                <p class="esquerda" style="color:green;">aw sound /ɔ/</p>
+                <ul class="lista-inline">
+                    <li><b>Almost</b></li>
+                    <li><b>Always</b></li>
+                    <li><b>Offer</b></li>
+                    <li><b>Author</b></li>
+                    <li><b>Talk</b></li>
+                    <li><b>audience</b></li>
                 </ul>
                 <div class="clear"></div>
                 <p>The <b>au</b>thor <b>al</b>most <b>al</b>ways t<b>al</b>k to the <b>au</b>dience and <b>o</b>ffer <b>au</b>tographs</p>

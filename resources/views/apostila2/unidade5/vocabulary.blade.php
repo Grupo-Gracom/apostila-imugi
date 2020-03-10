@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 5 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -41,7 +41,7 @@
 						<td><p>I didn’t get / understand.</p></td>
 					</tr>
 				</table>
-								
+
 				<h5 class="barlow" style="margin-top: 16px">C - COMMON ADVERBS</h5>
 
 				<ul class="lista-inline">
@@ -57,7 +57,7 @@
 				</ul>
 
                 <h5 class="barlow" style="margin-top: 16px">D - WORDS IN CONTEXT</h5>
-				
+
 				<ul class="lista-inline">
 					<li><b>TIPS</b></li>
 					<li><b>SHARE</b></li>
@@ -69,7 +69,7 @@
 					<li><b>MEETING</b></li>
                     <li><b>UNFORTUNATELY</b></li>
 				</ul>
-				
+
 			</div>
 		</div>
 	</main>

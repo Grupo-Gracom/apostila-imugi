@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 11 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -16,7 +16,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>                
+                <div class="clear"></div>
 				<ul class="lista-inline">
                     <li><b class="upper" style="color:blue;">short o /ɑ/</b></li>
                     <li><b class="upper">Stop</b></li>
@@ -25,7 +25,7 @@
                     <li><b class="upper">Want</b></li>
                     <li><b class="upper">Possible</b></li>
                     <li><b class="upper">Got</b></li>
-                </ul>                
+                </ul>
                 <p>If p<b>o</b>ssible,I want to l<b>o</b>ck everything I g<b>o</b>t after I st<b>o</b>p</p>
 			</div>
 		</div>

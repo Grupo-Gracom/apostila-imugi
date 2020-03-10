@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 25 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,8 +17,8 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>     
-                
+                <div class="clear"></div>
+
                 <h5 class="barlow" style="margin-top: 16px">A - MODAL VERB MAY / MIGHT</h5>
 
                 <table class="metade left-align">
@@ -29,7 +29,7 @@
                     <tr>
                         <td><p>MIGHT</td>
                         <td><p>Used for <b>remote probability</b></td>
-                    </tr>                    
+                    </tr>
                 </table>
 
                 <table class="metade center-align">
@@ -39,17 +39,17 @@
                     </tr>
                     <tr>
                         <td><p><b>It may rain</b> today. Look at those dark clouds</p></td>
-                        <td><p><b>I might have</b> to travel next week. It all depends on the client´s agenda</p></td>                       
+                        <td><p><b>I might have</b> to travel next week. It all depends on the client´s agenda</p></td>
                     </tr>
                     <tr>
                         <td><p><b>May I help</b> you sir? May I come in ?</p></td>
-                        <td><p>She <b>might be</b> sick. That´s why she´s absent.</p></td>                       
+                        <td><p>She <b>might be</b> sick. That´s why she´s absent.</p></td>
                     </tr>
                     <tr>
                         <td><p><b>I may arrive</b> late in the next class guys.</p></td>
-                        <td><p><b>I might be</b> absent</p></td>                       
-                    </tr>    
-                </table> 
+                        <td><p><b>I might be</b> absent</p></td>
+                    </tr>
+                </table>
 
                 <table class="metade center-align">
                     <tr>
@@ -58,17 +58,17 @@
                     </tr>
                     <tr>
                         <td><p>(+) He <b>may have</b> to redo the entire job.</p></td>
-                        <td><p>(+) you <b>might have</b> to reset your computer</p></td>                       
+                        <td><p>(+) you <b>might have</b> to reset your computer</p></td>
                     </tr>
                     <tr>
                         <td><p>(-) He may <b>not have</b> to redo the entire job.</p></td>
-                        <td><p>(-) you <b>might not</b> have to reset your computer.</p></td>                   
+                        <td><p>(-) you <b>might not</b> have to reset your computer.</p></td>
                     </tr>
                     <tr>
                         <td><p>(?) <b>May</b> he <b>have</b> to redo the entire job ?</p></td>
-                        <td><p>(?) <b>might</b> you <b>have</b> to reset your computer ?</p></td>                       
-                    </tr>    
-                </table> 
+                        <td><p>(?) <b>might</b> you <b>have</b> to reset your computer ?</p></td>
+                    </tr>
+                </table>
 
                 <p class="barlow">1) select the correct auxiliary modal verb in each sentence.</p>
 				<form id="unidade25grammar213" method="post">
@@ -90,7 +90,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <form id="unidade25grammar214"  action="post">                  
+                <form id="unidade25grammar214"  action="post">
                     <p class="barlow">2) Complete the exercise with MAY ir MIGHT. Take into account the context to decide which one to use.</p>
                     <p>1. Take your umbrella as it<input type="text" name="grammar214-1" placeholder="Responda aqui" required>(rain) today</p>
                     <p>2. He is still at work! He<input type="text" name="grammar214-2" placeholder="Responda aqui" required>(be) finishing his report for tomorrow.</p>
@@ -100,8 +100,8 @@
                     <p>6. He<input type="text" name="grammar214-6" placeholder="Responda aqui" required> (be) late because his flight delayed</p>
                     <p>7. Look at that car speeding up. He<input type="text" name="grammar214-7" placeholder="Responda aqui" required>(have) a bad accident.</p>
                     <p>8. I studied a lot for the test . I finally<input type="text" name="grammar214-8" placeholder="Responda aqui" required>(have) a good result.</p>
-                                                        
-                    <div class="clear"></div> 
+
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="25">
@@ -111,17 +111,17 @@
 
                 <p class="barlow">3) Think about the future 20 years from now. In your opinion, what MIGHT or MAY happen with technology?</p>
                 <form id="unidade25grammar215" class="metade" action="post">
-                    
+
                     <p><input type="text" name="grammar215-1" placeholder="Responda aqui" class="full left-align" required></p>
-                    
-                    <div class="clear"></div> 
+
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="25">
                     <input type="hidden" name="atividade_id" value="215">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                
+
 			</div>
 		</div>
     </main>
@@ -203,18 +203,18 @@
                     var objeto = JSON.parse(response[0].resposta_respostas);
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
-                    
+
                     console.log('tipo input -> ' + inputType);
                     if(inputType === 'radio'){
                         for(j = 0; j < respostas.length; j++){
-                            $('#unidade25grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);                    
+                            $('#unidade25grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
                         }
                     }else{
                         for(j = 0; j < respostas.length; j++){
                             $('#unidade25grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
                             $('#unidade25grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         }
-                    }                    
+                    }
                     $('#unidade25grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade25grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }

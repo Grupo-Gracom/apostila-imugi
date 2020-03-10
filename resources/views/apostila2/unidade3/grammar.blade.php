@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 3 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,11 +17,11 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>     
-                
+                <div class="clear"></div>
+
                 <h5 class="barlow" style="margin-top: 16px">A - SIMPLE PRESENT</h5>
-                <p>Simple present refers to <b>facts</b> or <b>repeated actions </b>in the present.</p>                
-                
+                <p>Simple present refers to <b>facts</b> or <b>repeated actions </b>in the present.</p>
+
                 <table class="metade center-align">
                     <tr>
                         <td colspan="2" class="barlow"><p>HE – SHE – IT (3rd person)(+)</p></td>
@@ -33,11 +33,11 @@
                     <tr>
                         <td><p>Goes</p></td>
                         <td><p>Fixes</p></td>
-                    </tr> 
+                    </tr>
                     <tr>
                         <td><p>Plays</p></td>
                         <td><p>Studies</p></td>
-                    </tr> 
+                    </tr>
                     <tr>
                         <td><p>Washes</p></td>
                         <td><p>Watches</p></td>
@@ -50,7 +50,7 @@
                     </tr>
                     <tr>
                         <td colspan="2"><p>(+) She studies Vusual Art.</p></td>
-                    </tr>                    
+                    </tr>
                     <tr>
                         <td colspan="2"><p>(?) Does she study Visual Art?</p></td>
                     </tr>
@@ -59,8 +59,8 @@
                     </tr>
                     <tr>
                         <td colspan="2"><p>*does + not = doesn’t</p></td>
-                    </tr>         
-                </table>                
+                    </tr>
+                </table>
 
                 <p><b>Verbs ended in: General letters</b> = verb <b>+ (s)</b></p>
                 <p><b>S,SH,CH,X,Z,O</b> = verb <b>+ (es)</b></p>
@@ -98,11 +98,11 @@
                     <tr>
                         <td class="barlow"><p>SINGULAR</p></td>
                         <td><p>An</p></td>
-                        <td><p>A</p></td>                        
+                        <td><p>A</p></td>
                     </tr>
                     <tr>
                         <td class="barlow"><p>PLURAL</p></td>
-                        <td colspan="2"><p>The</p></td>                                               
+                        <td colspan="2"><p>The</p></td>
                     </tr>
                 </table>
 
@@ -271,7 +271,7 @@
                 </table>
 
                 <p><b>Examples: Tom Plays video game on Mondays.</b></p>
-        
+
                 <form id="unidade3grammar113" action="post" class="metade">
                     <p>1.<input type="text" name="grammar113-1" placeholder="Responda aqui" class="full left-align" required></p>
                     <p>2.<input type="text" name="grammar113-2" placeholder="Responda aqui" class="full left-align" required></p>
@@ -287,12 +287,12 @@
                     <input type="hidden" name="unidade_id" value="3">
                     <input type="hidden" name="atividade_id" value="113">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>             
-               
+                </form>
+
                <div class="clear"></div>
 
                <p class="barlow">2) Write the sentences from the previous exercise in negative and interrogative forms.</p>
-                 
+
                <form id="unidade3grammar114" action="post" class="metade">
                     <p>1.
                         <input type="text" name="grammar114-1" placeholder="Responda aqui" class="full left-align" required>(-)
@@ -325,7 +325,7 @@
                     <p>8.
                         <input type="text" name="grammar114-15" placeholder="Responda aqui" class="full left-align" required>(-)
                         <input type="text" name="grammar114-16"  placeholder="Responda aqui" class="full left-align" required>(?)
-                    </p>                    
+                    </p>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -333,7 +333,7 @@
                     <input type="hidden" name="atividade_id" value="114">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                </form>
-                
+
                <div class="clear"></div>
 
                 <p class="barlow">3) Build up questions with WHEN, WHY AND WICH for the answers.</p>
@@ -346,14 +346,14 @@
                     <p>4. Because python is better to program.<input type="text" name="grammar115-4" class="full left-align" placeholder="Responda aqui" required></p>
                     <p>5. She arrives tomorrow morning.<input type="text" name="grammar115-5" class="full left-align" placeholder="Responda aqui" required></p>
                     <p>6. Because I need for my career<input type="text" name="grammar115-6" class="full left-align" placeholder="Responda aqui" required></p>
-                    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="3">
                     <input type="hidden" name="atividade_id" value="115">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                </form>
-               
+
 			</div>
 		</div>
     </main>
@@ -419,7 +419,7 @@
             }
         });
 
-        
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

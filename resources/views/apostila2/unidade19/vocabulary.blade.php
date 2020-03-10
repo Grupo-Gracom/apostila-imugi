@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 19 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -16,22 +16,22 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
 				</audio>
-				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>		
-				<table class="espacamento">	 
+				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
+				<table class="espacamento">
 					<tr>
 						<td><p>TO BEGIN / with / by doing something</p></td>
-						<td><p>TO PREPARE/ a meal / a report</p></td>                        
-					</tr>                                        
+						<td><p>TO PREPARE/ a meal / a report</p></td>
+					</tr>
 					<tr>
 						<td><p>TO START / a relationship / a game / talking</p></td>
-						<td><p>TO STOP /dancing / smoking</p></td>                        
-					</tr>                                        
+						<td><p>TO STOP /dancing / smoking</p></td>
+					</tr>
 					<tr>
 						<td><p>TO TRAVEL/ alone / by yourself / with friends</p></td>
-						<td><p>TO LIVE / alone / by yourself</p></td>                        
-					</tr>                                        
-				</table>				
-				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>	
+						<td><p>TO LIVE / alone / by yourself</p></td>
+					</tr>
+				</table>
+				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<ul class="lista-inline">
 					<li><b>See</b></li>
 					<li><b>Worldwide</b></li>
@@ -40,8 +40,8 @@
 					<li><b>So far</b></li>
 					<li><b>scratch</b></li>
 					<li><b>Release</b></li>
-					<li><b>Astonished</b></li>								
-					<li><b>Chance</b></li>								
+					<li><b>Astonished</b></li>
+					<li><b>Chance</b></li>
 				</ul>
 			</div>
 		</div>

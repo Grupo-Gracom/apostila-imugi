@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 7 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -22,8 +22,8 @@
                     <form id="unidade7listening133" method="post">
                         <p>
                             “Cary, do you <input type="text" name="grammar133-1" placeholder="Responda aqui" required/>a second ?
-                            <input type="text" name="grammar133-2" placeholder="Responda aqui" required/>, What’s up? Are you                             
-                            <input type="text" name="grammar133-3" placeholder="Responda aqui" required/>  me? Am I tweeting about you? Are you upriser7? 
+                            <input type="text" name="grammar133-2" placeholder="Responda aqui" required/>, What’s up? Are you
+                            <input type="text" name="grammar133-3" placeholder="Responda aqui" required/>  me? Am I tweeting about you? Are you upriser7?
                             What are you <input type="text" name="grammar133-4" placeholder="Responda aqui" required/>about?
                             Someone is <input type="text" name="grammar133-5" placeholder="Responda aqui" required/> about me.”
                         </p>

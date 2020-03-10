@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 1 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -18,7 +18,7 @@
                 </audio>
                 <div class="clear"></div>
                 <h5>A - Contractions: Practice the pronunciation of contracted form x non-contracted forms.</h5>
-                
+
                 <table class="metade center-align">
                     <tr>
                         <td><p>I am a ...</p></td>
@@ -45,7 +45,7 @@
                         <td><p>Aren't...</p></td>
                     </tr>
                 </table>
-                              
+
 			</div>
 		</div>
     </main>

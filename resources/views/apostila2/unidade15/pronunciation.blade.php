@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 15 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -21,7 +21,7 @@
                 <table class="umterco center-align">
                     <tr>
                         <td><h5 class="barlow">As <b>/t/</b> after <b>s,f,sh,ch,p,k</b></h5></td>
-                    </tr>                    
+                    </tr>
                     <tr>
                         <td>Stopp<b>ed</b></td>
                     </tr>
@@ -35,7 +35,7 @@
                 <table class="umterco center-align">
                     <tr>
                         <td><h5 class="barlow">As <b>/d/</b></h5></td>
-                    </tr>                    
+                    </tr>
                     <tr>
                         <td>Remember<b>ed</b></td>
                     </tr>
@@ -48,8 +48,8 @@
                 </table>
                 <table class="umterco center-align">
                     <tr>
-                        <td><h5 class="barlow">As <b>/id/</b> after <b>/d/</b> or <b>/t/</b></h5>			                
-                    </tr>                    
+                        <td><h5 class="barlow">As <b>/id/</b> after <b>/d/</b> or <b>/t/</b></h5>
+                    </tr>
                     <tr>
                         <td>Visit<b>ed</b></td>
                     </tr>
@@ -57,7 +57,7 @@
                         <td>Wait<b>ed</b></td>
                     </tr>
                     <tr>
-                        <td>Offend<b>ed</b></td>       
+                        <td>Offend<b>ed</b></td>
                     </tr>
                 </table>
 			</div>

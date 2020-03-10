@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 12 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -18,38 +18,38 @@
                 </audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px;">A - WILL X GOING TO</h5>
-                <p>The selection of an appropriate verb tense depends on the meaning of the message you want to communicate. Both <b>Will</b> and <b>Going to</b> 
-                refer to future ideas. Check the subtle differences in the final message for each one of them. You, as a speaker, decide what implied message you 
-                want to communicate.</p>        
-                <table class="umterco">                    
+                <p>The selection of an appropriate verb tense depends on the meaning of the message you want to communicate. Both <b>Will</b> and <b>Going to</b>
+                refer to future ideas. Check the subtle differences in the final message for each one of them. You, as a speaker, decide what implied message you
+                want to communicate.</p>
+                <table class="umterco">
                     <tr>
-                        <th>Will (Future Decisions/Unquestionable Facts)</th>														
+                        <th>Will (Future Decisions/Unquestionable Facts)</th>
                     </tr><b>
                     <tr>
-                        <td>Ok, I<b>’ll help</b> you in a minute.</td>														
-                    </tr>										
+                        <td>Ok, I<b>’ll help</b> you in a minute.</td>
+                    </tr>
                     <tr>
-                        <td>I’m not sure, but I<b>’ll check</b> my email box ok</td>														
-                    </tr>										
+                        <td>I’m not sure, but I<b>’ll check</b> my email box ok</td>
+                    </tr>
                     <tr>
-                        <td>The next Marvel movie <b>will be</b> extraordinary.</td>														
-                    </tr>										
+                        <td>The next Marvel movie <b>will be</b> extraordinary.</td>
+                    </tr>
                 </table>
-                <table class="umterco">                    
+                <table class="umterco">
                     <tr>
-                        <th>To be going to (Future plans/intensions)</th>														
-                    </tr>										
+                        <th>To be going to (Future plans/intensions)</th>
+                    </tr>
                     <tr>
-                        <td>Comic Con <b>is going to bring</b> many new stuff.</td>														
-                    </tr>										
+                        <td>Comic Con <b>is going to bring</b> many new stuff.</td>
+                    </tr>
                     <tr>
-                        <td>I<b>'m gonna start</b> a new course next year.</td>														
-                    </tr>										
+                        <td>I<b>'m gonna start</b> a new course next year.</td>
+                    </tr>
                     <tr>
-                        <td>They <b>are going to visit</b> Warner Bross on Friday.</td>														
-                    </tr>										
+                        <td>They <b>are going to visit</b> Warner Bross on Friday.</td>
+                    </tr>
                 </table>
-                <div class="clear"></div>                
+                <div class="clear"></div>
                 <h5 class="barlow">EXERCICIOS</h5>
                 <h5 class="barlow" style="margin-top:16px;">B -  Fill in WILL or BE GOING TO:</h5>
 				<form id="unidade12grammar153" method="post">
@@ -64,22 +64,22 @@
                     <p><b>5. </b> Did you remember to buy the magazine I asked for?</p>
                     <p>Sorry, I didn’t. I <input type="text" name="grammar153-5" class="inputMedio" required> buy it when I go out again.</p>
                     <p><b>6. </b> What’s this in your picture?</p>
-                    <p>Gee, It’s a shade. I <input type="text" name="grammar153-6" class="inputMedio" required> edit it again in the afternoon.</p>                    
+                    <p>Gee, It’s a shade. I <input type="text" name="grammar153-6" class="inputMedio" required> edit it again in the afternoon.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="12">
                     <input type="hidden" name="atividade_id" value="153">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
                 <h5 class="barlow" style="margin-top:16px;">C - Think of an event that you like and write about it using Will and Going to. Examples: Sana, Comic Con, LOL world championship and etc.</h5>
 				<form id="unidade12grammar154"  method="post">
-                    <p><input type="text" name="grammar154-1" class="full" required></p></p>                                        
+                    <p><input type="text" name="grammar154-1" class="full" required></p></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="12">
                     <input type="hidden" name="atividade_id" value="154">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
                 <figure>
 					<img src="{{ asset('assets/img/dominating/unit12/grammar.png') }}" alt="Garotos festejando">
 				</figure>
@@ -128,8 +128,8 @@
             }else{
                 enviarAtividade($('#unidade12grammar154'), respostas);
             }
-        });        
-        
+        });
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

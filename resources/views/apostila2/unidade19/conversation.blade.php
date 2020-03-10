@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 19 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -23,8 +23,8 @@
 				<p><b>Students: </b>It was ok teacher. And yours? Did you like the movie?</p>
 				<p><b>Gleen: </b>You’re asking If I liked the movie!!! You’e kidding. It was terrific. I watched all the
 				avengers movies so far. Before going to the movies I like to read as much as I can about
-				the movie production to see what effects they use and etc but every movie they release, I get astonished 
-				with some new stuff the present. It’s always a kind of Lab for me. It’s crazy to see what these 
+				the movie production to see what effects they use and etc but every movie they release, I get astonished
+				with some new stuff the present. It’s always a kind of Lab for me. It’s crazy to see what these
 				special effects professionals do today.</p>
 				<p><b>John: </b>I had the chance to visit Marvel booth in Comic-Con. They release at least one
 				new movie every year. They are working on the movie they are going to release in 2020.
@@ -32,7 +32,7 @@
 				just three weeks Ragnarok made around 700 million dollars worldwide.</p>
 				<p><b>Laura: </b>Marvel, Dc Comics, Warner Bross and dreamworks among others make a huge
 				money every single year. It’s one of the richest industries in the world.</p>
-				<p><b>Gleen: </b>That ls it guys. That’s why we have to study a lot, because there’s plenty of 
+				<p><b>Gleen: </b>That ls it guys. That’s why we have to study a lot, because there’s plenty of
 				opportunities in this market for good professionals.</p>
 
 				<h5 class="barlow"><a style="margin: 16px 0;" href="https://www.gamedesigning.org/animation-companies/">https://www.gamedesigning.org/animation-companies/</a></h5>

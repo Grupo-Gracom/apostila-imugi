@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 16 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -36,7 +36,7 @@
 				everything. The most important thing for me was the immersion in this new huge field.
 				I felt the vibe and understood the needs of the market. It’s going to be great for my
 				new job.</p>
-				<p><b>Gleen: </b>Great guys. Thanks for sharing. We go on in the next class ok.</p>								
+				<p><b>Gleen: </b>Great guys. Thanks for sharing. We go on in the next class ok.</p>
 				<figure class="metade esquerda">
 					<img src="{{ asset('assets/img/dominating/unit16/conversation1.png') }}" alt="Garotos festejando">
 				</figure>

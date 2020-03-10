@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 9 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -30,15 +30,15 @@
                         </tr>
                         <tr>
                             <td><p>(crazy) Civil War was <b>the</b> crazi<b>est</b> movie.</p></td>
-                            <td><p>(nervous) Hulk is <b>the most</b> nervous avenger.</p></td> 
+                            <td><p>(nervous) Hulk is <b>the most</b> nervous avenger.</p></td>
                         </tr>
                         <tr>
                             <td><p>(strong) Beast is <b>the</b> strong<b>est</b> X-Men.</p></td>
                             <td><p>(expensive) Ps has <b>the most</b> efficient set of tools.</p></td>
                         </tr>
-                    </table> 
+                    </table>
                     <h5 class="barlow" style="margin-top: 16px">B - IRREGULAR ADJECTIVES</h5>
-                    
+
                     <table class="metade center-align">
                         <tr>
                             <td><h5 class="barlow">Adjective</h5></td>
@@ -56,11 +56,11 @@
                             <td><p>Far</p></td>
                             <td><p>Further / farther</p></td>
                         </tr>
-                    </table> 
+                    </table>
                     <div class="clear"></div>
 
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
-                    <h5 class="barlow">Table 1.</h5>               
+                    <h5 class="barlow">Table 1.</h5>
                     <form id="unidade9grammar420" method="post">
                         <table class="metade center-align">
                             <tr>
@@ -80,43 +80,43 @@
                                 <td><p><input type="text" name="grammar420-4" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-5" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-6" class="left-align" placeholder="Responda aqui" required/></p></td>
-                            </tr> 
+                            </tr>
                             <tr>
                                 <td><p><b>Speed</p></td>
                                 <td><p><input type="text" name="grammar420-7" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-8" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-9" class="left-align" placeholder="Responda aqui" required/></p></td>
-                            </tr> 
+                            </tr>
                             <tr>
                                 <td><p><b>Learning curve</p></td>
                                 <td><p><input type="text" name="grammar420-10" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-11" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-12" class="left-align" placeholder="Responda aqui" required/></p></td>
-                            </tr> 
+                            </tr>
                             <tr>
                                 <td><p><b>Set of tools</p></td>
                                 <td><p><input type="text" name="grammar420-10" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-11" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-12" class="left-align" placeholder="Responda aqui" required/></p></td>
-                            </tr> 
+                            </tr>
                             <tr>
                                 <td><p><b>Collection management</p></td>
                                 <td><p><input type="text" name="grammar420-10" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-11" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-12" class="left-align" placeholder="Responda aqui" required/></p></td>
-                            </tr> 
+                            </tr>
                             <tr>
                                 <td><p><b>Technical support</p></td>
                                 <td><p><input type="text" name="grammar420-10" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-11" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-12" class="left-align" placeholder="Responda aqui" required/></p></td>
-                            </tr> 
+                            </tr>
                             <tr>
                                 <td><p><b>Tutorials</p></td>
                                 <td><p><input type="text" name="grammar420-10" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-11" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-12" class="left-align" placeholder="Responda aqui" required/></p></td>
-                            </tr> 
+                            </tr>
                         </table>
 
                         <div class="clear"></div>
@@ -127,7 +127,7 @@
                         <input type="hidden" name="atividade_id" value="420">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                    <h5 class="barlow" style="margin-top: 16px">C - Look at chart, compare the programs and write sentences according to the instructions.</h5>   
+                    <h5 class="barlow" style="margin-top: 16px">C - Look at chart, compare the programs and write sentences according to the instructions.</h5>
                     <p><b>Example:</b>  (Corel / good / for students to learn) / Corel <b>is the best</b> for students to learn.</p>
                     <form id="unidade9grammar139" method="post">
                         <div class="metade">
@@ -148,7 +148,7 @@
                                     4. ( Phase one / short / learning curve /for professional programmers )
                                     <input type="text" name="grammar139-4" class="full left-align" placeholder="Responda aqui" required/>
                                 </p>
-                                <p>     
+                                <p>
                                     5. (Corel / good / set of tools / for editing backgrounds)
                                     <input type="text" name="grammar139-5" class="full left-align" placeholder="Responda aqui" required/>
                                 </p>
@@ -156,13 +156,13 @@
                                     6. (Photo shop / bad / photos collection management)
                                     <input type="text" name="grammar139-6" class="full left-align" placeholder="Responda aqui" required/>
                                 </p>
-                                <p>   
+                                <p>
                                     7. (Corel / efficient / online technical support )
                                     <input type="text" name="grammar139-7" class="full left-align" placeholder="Responda aqui" required/>
                                 </p>
                                 <p>
                                     8. (Photoshop / complete /tutorials on youtube)
-                                    <input type="text" name="grammar139-8" class="full left-align" placeholder="Responda aqui" required/>    
+                                    <input type="text" name="grammar139-8" class="full left-align" placeholder="Responda aqui" required/>
                                 </p>
                             </p>
                         </div>
@@ -174,10 +174,10 @@
                         <input type="hidden" name="atividade_id" value="139">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                    <h5 class="barlow metade" style="margin-top: 16px">D - In groups, talk to your friends and decide what is the best FPS and the best RPG games in the market. Justify your answer using sentences in the superlative.</h5> 
+                    <h5 class="barlow metade" style="margin-top: 16px">D - In groups, talk to your friends and decide what is the best FPS and the best RPG games in the market. Justify your answer using sentences in the superlative.</h5>
                     <form id="unidade9grammar140" method="post">
                         <textarea name="grammar140-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-                            
+
                         <div class="clear"></div>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

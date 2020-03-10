@@ -1,23 +1,23 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 17 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade17" data-etapa="understanding">
                 <h3 class="barlow">UNIT 17</h3>
-                <h5 class="barlow">6 - UNDERSTANDING</h5>                               
+                <h5 class="barlow">6 - UNDERSTANDING</h5>
                 <form class="metade" id="unidade17understanding177" method="post">
                     <p>
-                        1 - Why was Gleen late today?                        
+                        1 - Why was Gleen late today?
                         <input type="text" placeholder="responda aqui !" name="understanding177-1" class="full left-align" required>
                     </p>
-                    <p>                    
+                    <p>
                         2 - What was Akira doing while they waited for Gleen?
                         <input type="text" placeholder="responda aqui !" name="understanding177-2" class="full left-align" required>
                     </p>
@@ -32,7 +32,7 @@
                     <p>
                         5 - Why was he coming to Brazil?
                         <input type="text" placeholder="responda aqui !" name="understanding177-5" class="full left-align" required>
-                    </p>                    
+                    </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="17">

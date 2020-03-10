@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 21 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -34,8 +34,8 @@
 					<li><b>ALL DAY LONG</b></li>
 					<li><b>KIND OF</b></li>
 					<li><b>LOOK FOR</li>
-				</ul>							
-				
+				</ul>
+
 			</div>
 		</div>
 	</main>

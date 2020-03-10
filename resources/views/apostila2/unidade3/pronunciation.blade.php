@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 3 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -18,7 +18,7 @@
                 </audio>
                 <div class="clear"></div>
                 <p>There are 6 <b>STOP CONSIONANTS</b> in English: <b>P,T,K,B,D,G.</b></p>
-                
+
                 <ul class="lista-inline">
                     <li><p>PHOTO SHO<b><u>P</u></b></p></li>
                     <li><p>NO<b><u>T</u></b></p></li>

@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 7 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -36,7 +36,7 @@
                         </tr>
                         <tr>
                             <td><p><b>I</b></p></td>
-                            <td><p>am</p></td> 
+                            <td><p>am</p></td>
                             <td><p>design</p></td>
                             <td><p>I <b>am</b> designing a new magazine.</p></td>
                         </tr>
@@ -52,7 +52,7 @@
                             <td><p>Plan</p></td>
                             <td><p>She <b>is</b> plann<b>ing</b> to take another course.</p></td>
                         </tr>
-                    </table> 
+                    </table>
                     <h5 class="barlow" style="margin-top: 16px">B - YES/NO QUESTION – WH-QUESTIONS</h5>
                     <table class="metade center-align">
                         <tr>
@@ -64,7 +64,7 @@
                         </tr>
                         <tr>
                             <td><p><b>Are you searching</b> for new tools? </p></td>
-                            <td><p>No, I am not searching for new tool/ No I'm not.</p></td> 
+                            <td><p>No, I am not searching for new tool/ No I'm not.</p></td>
                         </tr>
                         <tr>
                             <td><p><b>Are they prepating</b> the presentation?</p></td>
@@ -85,14 +85,14 @@
                             <td><p><b>Where is he working</b> this week?</p></td>
                             <td><p>He is working in Rockstar.</p></td>
                         </tr>
-                    </table> 
+                    </table>
                     <div class="clear"></div>
 
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
-                    <h5 class="barlow">A - Supply PRESENT CONTINUOUS TENSE in the blanks:</h5>               
+                    <h5 class="barlow">A - Supply PRESENT CONTINUOUS TENSE in the blanks:</h5>
                     <form id="unidade7grammar130" method="post">
                         <div class="metade esquerda">
-                            <p> 
+                            <p>
                                 <p>1. He <input type="text" name="grammar130-1" placeholder="Responda aqui" required/> (tech) his son how to install an app in his cell phone.</p>
                                 <p>2. Why <input type="text" name="grammar130-2" placeholder="Responda aqui" required/> Laura <input type="text" name="grammar130-3" placeholder="Responda aqui" required/> (use) Sony Vegas to edit her videos?</p>
                                 <p>R: Because she likes the tools.</p>
@@ -112,8 +112,8 @@
                         <input type="hidden" name="atividade_id" value="130">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                    <h5 class="barlow" style="margin-top: 16px">B - Ask questions for the underlined words:</h5>   
-                    
+                    <h5 class="barlow" style="margin-top: 16px">B - Ask questions for the underlined words:</h5>
+
                     <form id="unidade7grammar131" method="post">
                         <div class="metade">
                             <p>
@@ -147,10 +147,10 @@
                         <input type="hidden" name="atividade_id" value="131">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                    <h5 class="barlow" style="margin-top: 16px">C - Watch the video and write 5 sentences in the Present continuous.</h5> 
+                    <h5 class="barlow" style="margin-top: 16px">C - Watch the video and write 5 sentences in the Present continuous.</h5>
                     <form id="unidade7grammar132" method="post">
                         <div class="metade esquerda">
-                            <p> 
+                            <p>
                                 <p>1. <input type="text" name="grammar132-1" class="full left-align" placeholder="Responda aqui" required/></p>
                                 <p>2. <input type="text" name="grammar132-2" class="full left-align" placeholder="Responda aqui" required/></p>
                                 <p>3. <input type="text" name="grammar132-3" class="full left-align" placeholder="Responda aqui" required/></p>
@@ -237,7 +237,7 @@
             }
         });
 
-        
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

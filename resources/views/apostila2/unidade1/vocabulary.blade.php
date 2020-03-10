@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 1 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -18,7 +18,7 @@
 					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - CARDINAL NUMBERS / ORDINAL NUMBERS</h5>
-							
+
 				<table class="metade center-align">
 					<tr>
 						<td><p class="barlow upper">Cardinal</p></td>
@@ -57,9 +57,9 @@
 						<td><p>10th - tenth</p></td>
 					</tr>
 				</table>
-								
-				<div class="clear"></div>			
-				
+
+				<div class="clear"></div>
+
 				<h5 class="barlow" style="margin-top: 16px">B – WORDS IN CONTEXT</h5>
 				<ul class="lista-inline">
 					<li><p><b>What’s up</b></p></li>

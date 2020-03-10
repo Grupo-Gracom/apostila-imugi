@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 15 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,50 +17,50 @@
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top:16px;">A – SIMPLE PAST (REGULAR VERBS)</h5>              
+                <h5 class="barlow" style="margin-top:16px;">A – SIMPLE PAST (REGULAR VERBS)</h5>
                 <p><b>Simple Past</b> is used to express that something <b>happened in a specific time in the past.</b></p>
-                <table class="umterco center-align" style="margin-right:16px;">                             
+                <table class="umterco center-align" style="margin-right:16px;">
                     <tr>
-                        <td colspan="2"><h5 class="barlow">Present (infinitive)</h5></td>														
+                        <td colspan="2"><h5 class="barlow">Present (infinitive)</h5></td>
                     </tr>
                     <tr>
-                        <td><p>To work</p></td> 
-                        <td><p>To dance</p></td>														
-                    </tr>										
+                        <td><p>To work</p></td>
+                        <td><p>To dance</p></td>
+                    </tr>
                     <tr>
-                        <td><p>To start</p></td> 
+                        <td><p>To start</p></td>
                         <td><p>To participate</p></td>
-                    </tr>										
-                    <tr>
-                        <td><p>To play</p></td> 
-                        <td><p>To study</p></td>														
-                    </tr>										
-                    <tr>
-                        <td><p>To wash</p></td> 
-                        <td><p>To watch</p></td>														
-                    </tr>                 										
-                </table>
-                <table class="umterco center-align">                    
-                    <tr>
-                        <td colspan="2"><h5 class="barlow">Present (infinitive)</h5></td>														
                     </tr>
                     <tr>
-                        <td><p>work<b>ed</b></p></td> 
-                        <td><p>Danc<b>ed</b></p></td>														
-                    </tr>										
+                        <td><p>To play</p></td>
+                        <td><p>To study</p></td>
+                    </tr>
                     <tr>
-                        <td><p>Start<b>ed</b></p></td> 
+                        <td><p>To wash</p></td>
+                        <td><p>To watch</p></td>
+                    </tr>
+                </table>
+                <table class="umterco center-align">
+                    <tr>
+                        <td colspan="2"><h5 class="barlow">Present (infinitive)</h5></td>
+                    </tr>
+                    <tr>
+                        <td><p>work<b>ed</b></p></td>
+                        <td><p>Danc<b>ed</b></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Start<b>ed</b></p></td>
                         <td><p>Participat<b>ed</b></p></td>
-                    </tr>										
+                    </tr>
                     <tr>
-                        <td><p>Play<b>ed</b></p></td> 
-                        <td><p>Studi<b>ed</b></p></td>														
-                    </tr>										
+                        <td><p>Play<b>ed</b></p></td>
+                        <td><p>Studi<b>ed</b></p></td>
+                    </tr>
                     <tr>
-                        <td><p>Wash<b>ed</b></p></td> 
-                        <td><p>Watch<b>ed</b></p></td>														
-                    </tr>										
-                </table>                
+                        <td><p>Wash<b>ed</b></p></td>
+                        <td><p>Watch<b>ed</b></p></td>
+                    </tr>
+                </table>
                 <div class="clear"></div>
                 <div class="bordaVerde">
                     <p>For (-) and (?) use <b>DID</b></p>
@@ -88,7 +88,7 @@
                     <tr>
                         <td><p><b>Did they</b> solve the bug in the computer?</p></td>
                         <td><p><b>Yes, they solved</b> it. / <b>Yes, they did.</b></p></td>
-                    </tr>                    
+                    </tr>
                     <tr>
                         <td colspan="2"><h5 class="barlow"><b>Wh-Questions</b></h5></td>
                     </tr>
@@ -103,66 +103,66 @@
                     <tr>
                         <td><p><b>When did</b> you <b>arrive</b> in L.A.</p></td>
                         <td><p>We arrived <b>last Tuesday.</b></p></td>
-                    </tr>                    
+                    </tr>
                 </table>
                 <div class="clear"></div>
 
                 <h5 class="barlow">EXERCISES</h5>
-                <h5 class="barlow espacamento">B -  Complete the sentences. Use the past simple form of the verb in brackets.</h5>                
-				<form id="unidade15grammar165" method="post">                    
+                <h5 class="barlow espacamento">B -  Complete the sentences. Use the past simple form of the verb in brackets.</h5>
+				<form id="unidade15grammar165" method="post">
                     <p><b>1. </b>You<input type="text" placeholder="responda aqui !" name="grammar165-1" class="inputMedio" required>(arrive) in England last week.</p>
-                    <p><b>2. </b>My friend <input type="text" placeholder="responda aqui !" name="grammar165-2" class="inputMedio" required>(study) Ps at Gracon.</p>                    
-                    <p><b>3. </b>I<input type="text" placeholder="responda aqui !" name="grammar165-3" class="inputMedio" required> (phone) you yesterday, but you weren’t at home.</p>           
-                    <p><b>4. </b>Last night, Laura and John <input type="text" placeholder="responda aqui !" name="grammar165-4" class="inputMedio" required> (plan) next jobs.</p>                
-                    <p><b>5. </b>John <input type="text" placeholder="responda aqui !" name="grammar165-5" class="inputMedio" required> (invite) us to his birthday party.</p>                               
+                    <p><b>2. </b>My friend <input type="text" placeholder="responda aqui !" name="grammar165-2" class="inputMedio" required>(study) Ps at Gracon.</p>
+                    <p><b>3. </b>I<input type="text" placeholder="responda aqui !" name="grammar165-3" class="inputMedio" required> (phone) you yesterday, but you weren’t at home.</p>
+                    <p><b>4. </b>Last night, Laura and John <input type="text" placeholder="responda aqui !" name="grammar165-4" class="inputMedio" required> (plan) next jobs.</p>
+                    <p><b>5. </b>John <input type="text" placeholder="responda aqui !" name="grammar165-5" class="inputMedio" required> (invite) us to his birthday party.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="15">
                     <input type="hidden" name="atividade_id" value="165">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                 
-                <h5 class="barlow">C - What’s the question?</h5>                
+                </form>
+                <h5 class="barlow">C - What’s the question?</h5>
                 <div class="espacamento umterco bordaVerde">
                     <ul class="lista-inline">
-                        <li><b>how</li></b> 
-                        <li><b>what</li></b> 
-                        <li><b>where</li></b> 
-                        <li><b>how long</li></b> 
+                        <li><b>how</li></b>
+                        <li><b>what</li></b>
+                        <li><b>where</li></b>
+                        <li><b>how long</li></b>
                         <li><b>who</li></b>
-                    </ul>                
+                    </ul>
                 </div>
-                <div class="clear"></div>                
+                <div class="clear"></div>
 				<form id="unidade15grammar166"  method="post">
                     <p><b>1. </b><input type="text" placeholder="responda aqui !" name="grammar166-1" class="inputpequeno" required>Who did you visit<input type="text" placeholder="responda aqui !" name="grammar166-2" class="inputpequeno" required>? I visited my cousin.</p>
                     <p><b>2. </b><input type="text" placeholder="responda aqui !" name="grammar166-3" class="inputMedio" required>? We talked about my job.</p>
                     <p><b>3. </b><input type="text" placeholder="responda aqui !" name="grammar166-4" class="inputMedio" required>? I lived in London.</p>
                     <p><b>4. </b><input type="text" placeholder="responda aqui !" name="grammar166-5" class="inputMedio" required>? She cried because she lost her file.</p>
                     <p><b>5. </b><input type="text" placeholder="responda aqui !" name="grammar166-6" class="inputMedio" required>? I stayed for a week.</p>
-                    <p><b>6. </b><input type="text" placeholder="responda aqui !" name="grammar166-7" class="inputMedio" required>? They studied all morning.</p>                                                            
+                    <p><b>6. </b><input type="text" placeholder="responda aqui !" name="grammar166-7" class="inputMedio" required>? They studied all morning.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="15">
                     <input type="hidden" name="atividade_id" value="166">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
                 <figure class="espacamento">
                     <img src="{{ asset('assets/img/dominating/unit15/grammar.png') }}" alt="Garotos festejando">
 				</figure>
-                <h5 class="barlow">D - Create 5 sentences in the past with the verbs below and choose 2 to ask your friends.</h5>  
+                <h5 class="barlow">D - Create 5 sentences in the past with the verbs below and choose 2 to ask your friends.</h5>
                 <div class="metade">
                     <ul class="lista-inline">
-                        <li><b>Play</li></b> 
-                        <li><b>Work</li></b> 
-                        <li><b>Watch</li></b> 
-                        <li><b>Study</li></b> 
+                        <li><b>Play</li></b>
+                        <li><b>Work</li></b>
+                        <li><b>Watch</li></b>
+                        <li><b>Study</li></b>
                         <li><b>Visit</li></b>
                         <li><b>Travel</li></b>
                         <li><b>Date</li></b>
                         <li><b>Copy</li></b>
                         <li><b>Save</li></b>
-                    </ul>        
+                    </ul>
                     <form id="unidade15grammar167"  method="post">
-                        <p><b></b><input type="text" placeholder="responda aqui !" name="grammar167-1" class="full" required></p>                                                                                
+                        <p><b></b><input type="text" placeholder="responda aqui !" name="grammar167-1" class="full" required></p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="15">
@@ -215,7 +215,7 @@
             }else{
                 enviarAtividade($('#unidade15grammar166'), respostas);
             }
-        });        
+        });
         $("#unidade15grammar167").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
@@ -232,8 +232,8 @@
             }else{
                 enviarAtividade($('#unidade15grammar167'), respostas);
             }
-        });        
-        
+        });
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

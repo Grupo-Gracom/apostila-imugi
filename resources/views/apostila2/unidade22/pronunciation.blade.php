@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 22 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -18,7 +18,7 @@
                 </audio>
                 <div class="clear"></div>
                 <p><b>ar sound /ɑr/</b></p>
-                
+
                 <ul class="lista-inline">
                     <li><p>MARKETING</p></li>
                     <li><p>DEPARTMENT</p></li>

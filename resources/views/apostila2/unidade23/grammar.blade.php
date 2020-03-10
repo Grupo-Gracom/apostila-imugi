@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 23 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,8 +17,8 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>     
-                
+                <div class="clear"></div>
+
                 <h5 class="barlow" style="margin-top: 16px">A - MODAL VERB CAN - COULD for FORMAL - INFORMAL REQUESTS</h5>
 
                 <table class="metade center-align">
@@ -33,12 +33,12 @@
                     <tr>
                         <td><p><b>Can</b> you bring an extra sheet of paper?</td>
                         <td><p><b>Could</b> you <b>do</b> me a favor?</p></td>
-                    </tr>  
+                    </tr>
                     <tr>
                         <td><p><b>Can</b> you send me a copy?</td>
                         <td><p><b>Could</b> you <b>show</b> me how to do this?</p></td>
-                    </tr>       
-                </table>           
+                    </tr>
+                </table>
 
                  <p><b>EXERCISES</b></p>
                 <p class="barlow">1) Complete the sentences with CAN or COULD for making formal or informal requests. Pay
@@ -53,7 +53,7 @@
                     <p>4.<input type="text" name="grammar202-7" placeholder="Responda aqui" required> I go to the bathroom , please? Yes, of course you
                         <input type="text" name="grammar202-8" placeholder="Responda aqui" required>.</p>
                     <p>5.<input type="text" name="grammar202-9" placeholder="Responda aqui" required> I help you sir. I see you need some help with the menu.</p>
-                                                                
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="23">
@@ -68,17 +68,17 @@
                     </p>
                     <p>2. On the streets.
                         <input type="text" name="grammar203-2" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
+                    </p>
                     <p>3. At work.
                         <input type="text" name="grammar203-3" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
+                    </p>
                     <p>4. At home (breakfast)
                         <input type="text" name="grammar203-4" placeholder="Responda aqui" class="full left-align" required>
-                    </p>   
+                    </p>
                     <p>5. At school.
                         <input type="text" name="grammar203-5" placeholder="Responda aqui" class="full left-align" required>
-                    </p>          
-                    <div class="clear"></div> 
+                    </p>
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="23">
@@ -86,7 +86,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <form id="unidade23grammar204"  action="post">                  
+                <form id="unidade23grammar204"  action="post">
                     <p class="barlow">3) Put in ‘CAN’ / ‘CAN’T’ / ‘COULD’ / ‘COULDN’T’.</p>
                     <p>1.<input type="text" name="grammar204-1" placeholder="Responda aqui" required> you swim when you were 10?</p>
                     <p>2.We<input type="text" name="grammar204-2" placeholder="Responda aqui" required> get to the meeting on time yesterday because the train was delayed by one hour.</p>
@@ -102,8 +102,8 @@
                     <p>12.I<input type="text" name="grammar204-12" placeholder="Responda aqui" required> lift this box – it’s too heavy! Would you help me?</p>
                     <p>13.John<input type="text" name="grammar204-13" placeholder="Responda aqui" required>  play tennis really well. He’s champion of his club.</p>
                     <p>14.Unfortunately, I really<input type="text" name="grammar204-14" placeholder="Responda aqui" required> sing at all! No-one in my family is musical either. </p>
-                
-                    <div class="clear"></div> 
+
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="23">
@@ -113,9 +113,9 @@
 
                 <p class="barlow">4) Write a six-line conversation about the following topic: “Request made to a colleague at work”</p>
                 <form id="unidade23grammar205" class="metade" action="post">
-                    
+
                     <textarea name="grammar205-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
-                    <div class="clear"></div> 
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="23">
@@ -213,8 +213,8 @@
                 }else{
                     var objeto = JSON.parse(response[0].resposta_respostas);
                     var chaves = Object.keys(objeto);
-                    var respostas = Object.values(objeto);                   
-                    for(j = 0; j < respostas.length; j++){                        
+                    var respostas = Object.values(objeto);
+                    for(j = 0; j < respostas.length; j++){
                         $('#unidade23grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade23grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade23grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);

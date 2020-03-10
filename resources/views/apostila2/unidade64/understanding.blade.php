@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -14,32 +14,20 @@
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
-                    <form id="unidade64understanding412" method="post">
+                    <form id="unidade64understanding418" method="post">
                         <p>
-                            1 -  How is Gleen feeling ?
-                            <input type="text" name="understanding412-1" class="full left-align" placeholder="Responda aqui" required>
+                            1 -  What does Gleen say about the students?
+                            <input type="text" name="understanding418-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 -   Why is it a special moment for him?
-                            <input type="text" name="understanding412-2" class="full left-align" placeholder="Responda aqui" required>
+                            2 -  What do the students say about the classes and about Gleen?
+                            <input type="text" name="understanding418-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-                        <p>
-                            3 -  What did Akira say about the video production?
-                            <input type="text" name="understanding412-3" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            4 -  What does john say about the video?
-                            <input type="text" name="understanding412-4" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            5 - Why is this profession well paid?
-                            <input type="text" name="understanding412-5" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                    
+
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="62">
-                        <input type="hidden" name="atividade_id" value="412">
+                        <input type="hidden" name="unidade_id" value="64">
+                        <input type="hidden" name="atividade_id" value="418">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -54,21 +42,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade62understanding412").submit(function(e){
+        $("#unidade64understanding418").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade62understanding412 input[type="text"]').each(function(index){
-                if(($('#unidade62understanding412 input[type="text"]').length - 1) == index){
+            $('#unidade64understanding418 input[type="text"]').each(function(index){
+                if(($('#unidade64understanding418 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade62understanding412 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade62understanding412'), respostas);
+            if($('#unidade64understanding418 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade64understanding418'), respostas);
             }else{
-                enviarAtividade($('#unidade62understanding412'), respostas);
+                enviarAtividade($('#unidade64understanding418'), respostas);
             }
         });
 
@@ -88,11 +76,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade62understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade62understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade64understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade64understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade62understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade62understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade64understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade64understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

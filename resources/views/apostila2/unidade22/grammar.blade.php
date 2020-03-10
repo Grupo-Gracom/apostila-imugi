@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 22 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,8 +17,8 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>     
-                
+                <div class="clear"></div>
+
                 <h5 class="barlow" style="margin-top: 16px">A - MODAL VERB CAN / COULD for ABILITY AND POSSIBILITY</h5>
 
                 <table class="metade left-align">
@@ -44,8 +44,8 @@
                     <tr>
                         <td><p>In NY<b> you can go</b> to central park.</p></td>
                         <td><p>You<b> could visit</b> many good friends.</p></td>
-                    </tr>       
-                </table>           
+                    </tr>
+                </table>
 
                  <p><b>EXERCISES</b></p>
                 <p class="barlow">1) Fill in the blanks with CAN or CAN’T:</p>
@@ -61,7 +61,7 @@
                     <p>7. Cinema 4D is very fast. It<input type="text" name="grammar197-9" placeholder="Responda aqui" required>render a file in half of the time.</p>
                     <p>8. We<input type="text" name="grammar197-10" placeholder="Responda aqui" required>use this machine but we
                         <input type="text" name="grammar197-11" placeholder="Responda aqui" required> use the other one</p>
-                                            
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="22">
@@ -71,7 +71,7 @@
 
                 <p class="barlow">2)  Fill in the blanks below to complete the sentences. Use Can, can’t, Could and Couldn’t.</p>
                 <form id="unidade22grammar198" action="post">
-                    <p>1. I<input type="text" name="grammar198-1" placeholder="Responda aqui" required> go to the party last night because I was sick                
+                    <p>1. I<input type="text" name="grammar198-1" placeholder="Responda aqui" required> go to the party last night because I was sick
                     <p>2. A:<input type="text" name="grammar198-2" placeholder="Responda aqui" required>Noel cook Italian food?
                         B: Yes, he<input type="text" name="grammar198-3" placeholder="Responda aqui" required>.</p>
                     <p>3. My sister<input type="text" name="grammar198-4" placeholder="Responda aqui" required>
@@ -97,12 +97,12 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <form id="unidade22grammar199"  action="post">                  
+                <form id="unidade22grammar199"  action="post">
                     <p class="barlow">3) In groups, compare teenage lives of today and of 20 years ago</p>
                     <p>
                         <input type="text" name="grammar199-1" placeholder="Responda aqui" class="full left-align" required>
-                    </p>                
-                    <div class="clear"></div> 
+                    </p>
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="22">
@@ -174,7 +174,7 @@
                 enviarAtividade($('#unidade22grammar199'), respostas);
             }
         });
-        
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

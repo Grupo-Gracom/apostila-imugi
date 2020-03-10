@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 19 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -16,68 +16,68 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>                
+                <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px;">SIMPLE PRESENT X SIMPLE PAST</h5>
-                <div class="espacamento">                                
-                    <table class="metade esquerda">           
+                <div class="espacamento">
+                    <table class="metade esquerda">
                         <tr>
-                            <td><h5 class="barlow">Simple Present (Facts / repeated action )</h5></td>                    														
-                        </tr>                                                    										
+                            <td><h5 class="barlow">Simple Present (Facts / repeated action )</h5></td>
+                        </tr>
                         <tr>
                             <td><p><b>I like</b> to study about the movie production.<p></td>
-                        </tr>                                                    										
+                        </tr>
                         <tr>
                             <td><p><b>Marveel releases</b> a new movie every year.<p></td>
-                        </tr>                                                    										
+                        </tr>
                         <tr>
                             <td><p><b>Glen reads</b>everything about the movies.<p></td>
-                        </tr>                                                    										
-                    </table>                
-                    <table class="metade direita">           
+                        </tr>
+                    </table>
+                    <table class="metade direita">
                         <tr>
-                            <td><h5 class="barlow">Simple Past (isolated action in the past)</h5></td>                    														
-                        </tr>                                                    										
+                            <td><h5 class="barlow">Simple Past (isolated action in the past)</h5></td>
+                        </tr>
                         <tr>
                             <td><p>One month ago <b>I was</b> Japan for a Java course.<p></td>
-                        </tr>                                                    										
+                        </tr>
                         <tr>
                             <td><p>Last week<b>we visited</b> universal studios.<p></td>
-                        </tr>                                                    										
+                        </tr>
                         <tr>
                             <td><p><b>Laura spent</b> hours to finish her presentation.<p></td>
-                        </tr>                                                    										
+                        </tr>
                     </table>
                 </div>
-                <div class="clear"></div>                
-                <h5 class="barlow">EXERCISES</h5>                
+                <div class="clear"></div>
+                <h5 class="barlow">EXERCISES</h5>
                 <h5 class="barlow">A - Compare your life of 3 years ago with your life now. Be ready to present your text to
-                your classmates. They may ask you questions about it.</h5>                
-				<form id="unidade19grammar182" method="post">                                                                                           
+                your classmates. They may ask you questions about it.</h5>
+				<form id="unidade19grammar182" method="post">
                 <p><textarea  class="full" name="grammar182-1" required></textarea></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="19">
                     <input type="hidden" name="atividade_id" value="182">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
                 <h5 class="barlow">B - In groups of 3 or 4 Create a narration about an imaginary character narrating his past
-                and present life. Be ready to answer questions to this person. Additionally, think of questions to ask to your friends to find 
+                and present life. Be ready to answer questions to this person. Additionally, think of questions to ask to your friends to find
                 out information about their characters.</h5>
-				<form id="unidade19grammar183" method="post">                                                                                           
+				<form id="unidade19grammar183" method="post">
                 <p><textarea  class="full" name="grammar183-1" required></textarea></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="19">
                     <input type="hidden" name="atividade_id" value="183">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>         
+                </form>
                 <figure class="metade direita">
 					<img src="{{ asset('assets/img/dominating/unit19/grammar1.png') }}" alt="Garotos festejando">
 				</figure>
                 <figure class="metade esquerda">
 					<img src="{{ asset('assets/img/dominating/unit19/grammar2.png') }}" alt="Garotos festejando">
-				</figure>                
-                <div class="clear"></div>        
+				</figure>
+                <div class="clear"></div>
 			</div>
 		</div>
     </main>
@@ -109,8 +109,8 @@
             }else{
                 enviarAtividade($('#unidade19grammar183'), respostas);
             }
-        });        
-        
+        });
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,
@@ -134,7 +134,7 @@
                     }
                     $('#unidade19grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade19grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
-                    
+
                 }
             });
         }

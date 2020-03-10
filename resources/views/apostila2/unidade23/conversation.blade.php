@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 23 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -29,7 +29,7 @@
 				<p><b>Laura:</b> Ok teacher, no problem. Could you please give the email and the passwords for
 								me to set up the mail box and everything. I’ll finish in kind of 30 min ok.</p>
 				<p><b>Gleen:</b> Thanks for your help guys.</p>
-					
+
 				<figure>
 					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
 				</figure>

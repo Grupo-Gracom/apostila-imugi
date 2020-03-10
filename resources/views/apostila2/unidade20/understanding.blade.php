@@ -1,23 +1,23 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 20 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade20" data-etapa="understanding">
                 <h3 class="barlow">UNIT 20</h3>
-                <h5 class="barlow">6 - UNDERSTANDING</h5>                               
-                <form class="metade" id="unidade20understanding189" method="post">                
+                <h5 class="barlow">6 - UNDERSTANDING</h5>
+                <form class="metade" id="unidade20understanding189" method="post">
                     <p>
-                        1 - What does john say about back to the future?                        
+                        1 - What does john say about back to the future?
                         <input type="text" placeholder="responda aqui !" name="understanding189-1" class="full left-align" required>
                     </p>
-                    <p>                    
+                    <p>
                         2 - What does Gleen ask in the beginning of the class?
                         <input type="text" placeholder="responda aqui !" name="understanding189-2" class="full left-align" required>
                     </p>
@@ -32,7 +32,7 @@
                     <p>
                         5 - What’s Gleen’s reaction regarding John’s behavior towards super heroes?
                         <input type="text" placeholder="responda aqui !" name="understanding189-5" class="full left-align" required>
-                    </p>                    
+                    </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="20">

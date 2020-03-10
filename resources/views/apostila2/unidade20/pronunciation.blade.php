@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 20 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -16,15 +16,15 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear espacamento"></div>                             
-                <p class="esquerda" style="color:green;">schwa+r /ɚ/</p>                
-                <ul class="lista-inline">                                        
-                    <li><b>Her</b></li>                    
-                    <li><b>Work</b></li>                    
-                    <li><b>Sure</b></li>                    
-                    <li><b>First</b></li>                    
-                    <li><b>Early</b></li>                                   
-                    <li><b>Were</b></li>                                   
+                <div class="clear espacamento"></div>
+                <p class="esquerda" style="color:green;">schwa+r /ɚ/</p>
+                <ul class="lista-inline">
+                    <li><b>Her</b></li>
+                    <li><b>Work</b></li>
+                    <li><b>Sure</b></li>
+                    <li><b>First</b></li>
+                    <li><b>Early</b></li>
+                    <li><b>Were</b></li>
                 </ul>
                 <div class="clear"></div>
                 <p>First, they were, for sure, in her work very early.</p>

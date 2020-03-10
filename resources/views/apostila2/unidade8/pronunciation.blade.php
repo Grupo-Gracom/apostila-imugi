@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 8 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -19,7 +19,7 @@
 				<div class="clear"></div>
 				<ul class="lista-inline">
 					<li><b>long i /??/</b></li>
-					<li>Time</li>	
+					<li>Time</li>
 					<li>Nine</li>
 					<li>Five</li>
 					<li>High</li>

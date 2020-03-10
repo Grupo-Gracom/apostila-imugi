@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 8 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -29,7 +29,7 @@
 					Developer, I have to know about some programming languages. For example: PHP, Java,
 					SQL, Python and many others. My favorite one is Python .Python is as efficient as Java
 					but It’s easier to learn how to use it and you can code with it faster. In my opinion, It’s
-					more intuitive than the others. Java is more famous and more robust but, as I said before, Python is my best buddy when I have to code. Regarding price. 
+					more intuitive than the others. Java is more famous and more robust but, as I said before, Python is my best buddy when I have to code. Regarding price.
 				</p>
 				<p><b>Gleen :</b> ok Akira, Thanks for sharing. Laura and John, Can you bring your contributions next class?</p>
 				<p>
@@ -43,7 +43,7 @@
 			</div>
 		</div>
 	</main>
-	
+
 	<script>
         activeMenu();
     </script>

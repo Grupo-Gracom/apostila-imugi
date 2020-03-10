@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 20 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,14 +17,14 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                                
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade20listening188" method="post">
-                    <p>John wants to say <input type="text" placeholder="responda aqui !" name="listening188-1" class="inputpequeno left-align" required> 
-                    about his <input type="text" placeholder="responda aqui !" name="listening188-2" class="inputpequeno left-align" required>. 
+                    <p>John wants to say <input type="text" placeholder="responda aqui !" name="listening188-1" class="inputpequeno left-align" required>
+                    about his <input type="text" placeholder="responda aqui !" name="listening188-2" class="inputpequeno left-align" required>.
                     He’s <input type="text" placeholder="responda aqui !" name="listening188-3" class="inputpequeno left-align" required>
-                    to comic books. He is planning to buy some more in his 
-                    <input type="text" placeholder="responda aqui !" name="listening188-4" class="inputpequeno left-align" required> 
-                    trip to NY. He always <input type="text" placeholder="responda aqui !" name="listening188-5" class="inputpequeno left-align" required> 
+                    to comic books. He is planning to buy some more in his
+                    <input type="text" placeholder="responda aqui !" name="listening188-4" class="inputpequeno left-align" required>
+                    trip to NY. He always <input type="text" placeholder="responda aqui !" name="listening188-5" class="inputpequeno left-align" required>
                     some in his trips <input type="text" placeholder="responda aqui !" name="listening188-6" class="inputpequeno left-align" required>.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -84,7 +84,7 @@
                     }
                     $('#unidade20listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade20listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
-                    
+
                 }
             });
         }

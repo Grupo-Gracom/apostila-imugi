@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 17 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -32,7 +32,7 @@
 				<p><b>Gleen: </b>Now I got it Akira. I was talking to some teachers about you yesterday. They were
 				talking about professional references then I mentioned how much you consider Kris as a
 				reference for you. That’s awesome guys. Thank you for today. Have a great weekend and
-				see you in the next class.</p>		
+				see you in the next class.</p>
 				<figure>
 					<img src="{{ asset('assets/img/dominating/unit17/conversation.png') }}" alt="Garotos festejando">
 				</figure>

@@ -5,7 +5,7 @@
 			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
 		@else
 			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
-		@endif		
+		@endif
 
 
     <div class="logo">
@@ -176,7 +176,7 @@
                         </li>
                     </ul>
                 </li>
-                <!--UNIDADE 10-->    
+                <!--UNIDADE 10-->
                 <li class="item" data-unidade="unidade10">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 10
@@ -191,8 +191,8 @@
                             <a href="{{route('apostila1', ['unidade10', 'understanding'])}}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
                         </li>
                     </ul>
-                </li>  
-                <!--UNIDADE 11-->  
+                </li>
+                <!--UNIDADE 11-->
                 <li class="item" data-unidade="unidade11">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 11
@@ -224,7 +224,7 @@
                         </li>
                     </ul>
                 </li>
-                <!--UNIDADE 13 --> 
+                <!--UNIDADE 13 -->
                 <li class="item" data-unidade="unidade13">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 13
@@ -561,12 +561,12 @@
             <ul>
                 <!-- INTRO 2 -->
                 <li class="item" data-unidade="intro2">
-                    <a href="{{route('apostila2', ['intro2', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRO</a>
+                    <a href="{{route('apostila2', ['intro2', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRODUCTION</a>
                 </li>
                 <!--UNIDADE 1-->
                 <li class="item" data-unidade="unidade1">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 1
+                        <i class="material-icons">flag</i> UNIT 1
                     </a>
                     <ul>
                         <li>
@@ -582,7 +582,7 @@
                 <!--UNIDADE 2-->
                 <li class="item" data-unidade="unidade2">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 2
+                        <i class="material-icons">flag</i> UNIT 2
                     </a>
                     <ul>
                         <li>
@@ -598,7 +598,7 @@
                 <!--UNIDADE 3-->
                 <li class="item" data-unidade="unidade3">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 3
+                        <i class="material-icons">flag</i> UNIT 3
                     </a>
                     <ul>
                         <li>
@@ -614,7 +614,7 @@
                 <!--UNIDADE 4-->
                 <li class="item" data-unidade="unidade4">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 4
+                        <i class="material-icons">flag</i> UNIT 4
                     </a>
                     <ul>
                         <li>
@@ -630,7 +630,7 @@
                 <!--UNIDADE 5-->
                 <li class="item" data-unidade="unidade5">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 5
+                        <i class="material-icons">flag</i> UNIT 5
                     </a>
                     <ul>
                     <li>
@@ -646,7 +646,7 @@
                 <!--UNIDADE 6-->
                 <li class="item" data-unidade="unidade6">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 6
+                        <i class="material-icons">flag</i> UNIT 6
                     </a>
                     <ul>
                         <li>
@@ -662,7 +662,7 @@
                 <!--UNIDADE 7-->
                 <li class="item" data-unidade="unidade7">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 7
+                        <i class="material-icons">flag</i> UNIT 7
                     </a>
                     <ul>
                         <li>
@@ -678,7 +678,7 @@
                 <!--UNIDADE 8-->
                 <li class="item" data-unidade="unidade8">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 8
+                        <i class="material-icons">flag</i> UNIT 8
                     </a>
                     <ul>
                         <li>
@@ -694,7 +694,7 @@
                 <!--UNIDADE 9-->
                 <li class="item" data-unidade="unidade9">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 9
+                        <i class="material-icons">flag</i> UNIT 9
                     </a>
                     <ul>
                         <li>
@@ -710,7 +710,7 @@
                 <!--UNIDADE 10-->
                 <li class="item" data-unidade="unidade10">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 10
+                        <i class="material-icons">flag</i> UNIT 10
                     </a>
                     <ul>
                         <li>
@@ -726,7 +726,7 @@
                 <!--UNIDADE 11-->
                 <li class="item" data-unidade="unidade11">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 11
+                        <i class="material-icons">flag</i> UNIT 11
                     </a>
                     <ul>
                         <li>
@@ -742,7 +742,7 @@
                 <!--UNIDADE 12-->
                 <li class="item" data-unidade="unidade12">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 12
+                        <i class="material-icons">flag</i> UNIT 12
                     </a>
                     <ul>
                         <li>
@@ -758,7 +758,7 @@
                 <!--UNIDADE 13-->
                 <li class="item" data-unidade="unidade13">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 13
+                        <i class="material-icons">flag</i> UNIT 13
                     </a>
                     <ul>
                         <li>
@@ -774,7 +774,7 @@
                 <!--UNIDADE 14-->
                 <li class="item" data-unidade="unidade14">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 14
+                        <i class="material-icons">flag</i> UNIT 14
                     </a>
                     <ul>
                         <li>
@@ -790,7 +790,7 @@
                 <!--UNIDADE 15-->
                 <li class="item" data-unidade="unidade15">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 15
+                        <i class="material-icons">flag</i> UNIT 15
                     </a>
                     <ul>
                         <li>
@@ -806,7 +806,7 @@
                 <!--UNIDADE 16-->
                 <li class="item" data-unidade="unidade16">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 16
+                        <i class="material-icons">flag</i> UNIT 16
                     </a>
                     <ul>
                         <li>
@@ -822,7 +822,7 @@
                 <!--UNIDADE 17-->
                 <li class="item" data-unidade="unidade17">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 17
+                        <i class="material-icons">flag</i> UNIT 17
                     </a>
                     <ul>
                         <li>
@@ -838,7 +838,7 @@
                 <!--UNIDADE 18-->
                 <li class="item" data-unidade="unidade18">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 18
+                        <i class="material-icons">flag</i> UNIT 18
                     </a>
                     <ul>
                         <li>
@@ -854,7 +854,7 @@
                 <!--UNIDADE 19-->
                 <li class="item" data-unidade="unidade19">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 19
+                        <i class="material-icons">flag</i> UNIT 19
                     </a>
                     <ul>
                         <li>
@@ -870,7 +870,7 @@
                 <!--UNIDADE 20-->
                 <li class="item" data-unidade="unidade20">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 20
+                        <i class="material-icons">flag</i> UNIT 20
                     </a>
                     <ul>
                         <li>
@@ -882,11 +882,11 @@
                             <a href="{{route('apostila2', ['unidade20', 'understanding'])}}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
                         </li>
                     </ul>
-                </li>                
+                </li>
                 <!--UNIDADE 21-->
                 <li class="item" data-unidade="unidade21">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 21
+                        <i class="material-icons">flag</i> UNIT 21
                     </a>
                     <ul>
                         <li>
@@ -902,7 +902,7 @@
                 <!--UNIDADE 22-->
                 <li class="item" data-unidade="unidade22">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 22
+                        <i class="material-icons">flag</i> UNIT 22
                     </a>
                     <ul>
                         <li>
@@ -918,7 +918,7 @@
                 <!--UNIDADE 23-->
                 <li class="item" data-unidade="unidade23">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 23
+                        <i class="material-icons">flag</i> UNIT 23
                     </a>
                     <ul>
                         <li>
@@ -934,7 +934,7 @@
                 <!--UNIDADE 24-->
                 <li class="item" data-unidade="unidade24">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 24
+                        <i class="material-icons">flag</i> UNIT 24
                     </a>
                     <ul>
                         <li>
@@ -950,7 +950,7 @@
                 <!--UNIDADE 25-->
                 <li class="item" data-unidade="unidade25">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 25
+                        <i class="material-icons">flag</i> UNIT 25
                     </a>
                     <ul>
                         <li>
@@ -966,7 +966,7 @@
                 <!--UNIDADE 26-->
                 <li class="item" data-unidade="unidade26">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 26
+                        <i class="material-icons">flag</i> UNIT 26
                     </a>
                     <ul>
                         <li>
@@ -982,7 +982,7 @@
                 <!--UNIDADE 27-->
                 <li class="item" data-unidade="unidade27">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 27
+                        <i class="material-icons">flag</i> UNIT 27
                     </a>
                     <ul>
                         <li>
@@ -998,7 +998,7 @@
                 <!--UNIDADE 28-->
                 <li class="item" data-unidade="unidade28">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 28
+                        <i class="material-icons">flag</i> UNIT 28
                     </a>
                     <ul>
                         <li>
@@ -1014,7 +1014,7 @@
                 <!--UNIDADE 29-->
                 <li class="item" data-unidade="unidade29">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 29
+                        <i class="material-icons">flag</i> UNIT 29
                     </a>
                     <ul>
                         <li>
@@ -1030,7 +1030,7 @@
                 <!--UNIDADE 30-->
                 <li class="item" data-unidade="unidade30">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 30
+                        <i class="material-icons">flag</i> UNIT 30
                     </a>
                     <ul>
                         <li>
@@ -1046,7 +1046,7 @@
                 <!--UNIDADE 31-->
                 <li class="item" data-unidade="unidade31">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 31
+                        <i class="material-icons">flag</i> UNIT 31
                     </a>
                     <ul>
                         <li>
@@ -1062,7 +1062,7 @@
                 <!--UNIDADE 32-->
                 <li class="item" data-unidade="unidade32">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 32
+                        <i class="material-icons">flag</i> UNIT 32
                     </a>
                     <ul>
                         <li>
@@ -1078,7 +1078,7 @@
                 <!--UNIDADE 33-->
                 <li class="item" data-unidade="unidade33">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 33
+                        <i class="material-icons">flag</i> UNIT 33
                     </a>
                     <ul>
                         <li>
@@ -1094,7 +1094,7 @@
                 <!--UNIDADE 34-->
                 <li class="item" data-unidade="unidade34">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 34
+                        <i class="material-icons">flag</i> UNIT 34
                     </a>
                     <ul>
                         <li>
@@ -1110,7 +1110,7 @@
                 <!--UNIDADE 35-->
                 <li class="item" data-unidade="unidade35">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 35
+                        <i class="material-icons">flag</i> UNIT 35
                     </a>
                     <ul>
                         <li>
@@ -1126,7 +1126,7 @@
                 <!--UNIDADE 36-->
                 <li class="item" data-unidade="unidade36">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 36
+                        <i class="material-icons">flag</i> UNIT 36
                     </a>
                     <ul>
                         <li>
@@ -1142,7 +1142,7 @@
                 <!--UNIDADE 37-->
                 <li class="item" data-unidade="unidade37">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 37
+                        <i class="material-icons">flag</i> UNIT 37
                     </a>
                     <ul>
                         <li>
@@ -1158,7 +1158,7 @@
                 <!--UNIDADE 38-->
                 <li class="item" data-unidade="unidade38">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 38
+                        <i class="material-icons">flag</i> UNIT 38
                     </a>
                     <ul>
                         <li>
@@ -1174,7 +1174,7 @@
                 <!--UNIDADE 39-->
                 <li class="item" data-unidade="unidade39">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 39
+                        <i class="material-icons">flag</i> UNIT 39
                     </a>
                     <ul>
                         <li>
@@ -1190,7 +1190,7 @@
                 <!--UNIDADE 40-->
                 <li class="item" data-unidade="unidade40">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 40
+                        <i class="material-icons">flag</i> UNIT 40
                     </a>
                     <ul>
                         <li>
@@ -1206,7 +1206,7 @@
                 <!--UNIDADE 46-->
                 <li class="item" data-unidade="unidade46">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 46
+                        <i class="material-icons">flag</i> UNIT 46
                     </a>
                     <ul>
                         <li>
@@ -1222,7 +1222,7 @@
                 <!--UNIDADE 47-->
                 <li class="item" data-unidade="unidade47">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 47
+                        <i class="material-icons">flag</i> UNIT 47
                     </a>
                     <ul>
                         <li>
@@ -1238,7 +1238,7 @@
                 <!--UNIDADE 48-->
                 <li class="item" data-unidade="unidade48">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 48
+                        <i class="material-icons">flag</i> UNIT 48
                     </a>
                     <ul>
                         <li>
@@ -1254,7 +1254,7 @@
                 <!--UNIDADE 49-->
                 <li class="item" data-unidade="unidade49">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 49
+                        <i class="material-icons">flag</i> UNIT 49
                     </a>
                     <ul>
                         <li>
@@ -1270,7 +1270,7 @@
                 <!--UNIDADE 50-->
                 <li class="item" data-unidade="unidade50">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 50
+                        <i class="material-icons">flag</i> UNIT 50
                     </a>
                     <ul>
                         <li>
@@ -1286,7 +1286,7 @@
                 <!--UNIDADE 51-->
                 <li class="item" data-unidade="unidade51">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 51
+                        <i class="material-icons">flag</i> UNIT 51
                     </a>
                     <ul>
                         <li>
@@ -1302,7 +1302,7 @@
                 <!--UNIDADE 52-->
                 <li class="item" data-unidade="unidade52">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 52
+                        <i class="material-icons">flag</i> UNIT 52
                     </a>
                     <ul>
                         <li>
@@ -1318,7 +1318,7 @@
                 <!--UNIDADE 53-->
                 <li class="item" data-unidade="unidade53">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 53
+                        <i class="material-icons">flag</i> UNIT 53
                     </a>
                     <ul>
                         <li>
@@ -1334,7 +1334,7 @@
                 <!--UNIDADE 54-->
                 <li class="item" data-unidade="unidade54">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 54
+                        <i class="material-icons">flag</i> UNIT 54
                     </a>
                     <ul>
                         <li>
@@ -1350,7 +1350,7 @@
                 <!--UNIDADE 55-->
                 <li class="item" data-unidade="unidade55">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 55
+                        <i class="material-icons">flag</i> UNIT 55
                     </a>
                     <ul>
                         <li>
@@ -1366,7 +1366,7 @@
                 <!--UNIDADE 56-->
                 <li class="item" data-unidade="unidade56">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 56
+                        <i class="material-icons">flag</i> UNIT 56
                     </a>
                     <ul>
                         <li>
@@ -1382,7 +1382,7 @@
                 <!--UNIDADE 57-->
                 <li class="item" data-unidade="unidade57">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 57
+                        <i class="material-icons">flag</i> UNIT 57
                     </a>
                     <ul>
                         <li>
@@ -1398,7 +1398,7 @@
                 <!--UNIDADE 58-->
                 <li class="item" data-unidade="unidade58">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 58
+                        <i class="material-icons">flag</i> UNIT 58
                     </a>
                     <ul>
                         <li>
@@ -1414,7 +1414,7 @@
                 <!--UNIDADE 59-->
                 <li class="item" data-unidade="unidade59">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 59
+                        <i class="material-icons">flag</i> UNIT 59
                     </a>
                     <ul>
                         <li>
@@ -1430,7 +1430,7 @@
                 <!--UNIDADE 60-->
                 <li class="item" data-unidade="unidade60">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 60
+                        <i class="material-icons">flag</i> UNIT 60
                     </a>
                     <ul>
                         <li>
@@ -1446,7 +1446,7 @@
                 <!--UNIDADE 61-->
                 <li class="item" data-unidade="unidade61">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 61
+                        <i class="material-icons">flag</i> UNIT 61
                     </a>
                     <ul>
                         <li>
@@ -1462,7 +1462,7 @@
                 <!--UNIDADE 62-->
                 <li class="item" data-unidade="unidade62">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 62
+                        <i class="material-icons">flag</i> UNIT 62
                     </a>
                     <ul>
                         <li>
@@ -1478,7 +1478,7 @@
                 <!--UNIDADE 63-->
                 <li class="item" data-unidade="unidade63">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 63
+                        <i class="material-icons">flag</i> UNIT 63
                     </a>
                     <ul>
                         <li>
@@ -1494,7 +1494,7 @@
                 <!--UNIDADE 64-->
                 <li class="item" data-unidade="unidade64">
                     <a class="click submenu">
-                        <i class="material-icons">folder</i> UNIT 64
+                        <i class="material-icons">flag</i> UNIT 64
                     </a>
                     <ul>
                         <li>
@@ -1529,7 +1529,7 @@
         </li>
     </ul>
 </nav>
-<!-- /DASHBOARD MENU -->	
+<!-- /DASHBOARD MENU -->
 <script>
     $(document).ready(function(){
         var material = $('input[name="liberaMaterial"]').attr("data-material");
@@ -1557,4 +1557,4 @@
             }
         }
     });
-</script>	
+</script>

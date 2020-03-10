@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 15 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -31,7 +31,7 @@
 				Another cool information about him is that he dind’nt use a powerful computer when he
 				started. He used a computer called Amiga 500, a very simple computer at that time.</p>
 				<p><b>Gleen: </b>Fantastic story guys. Kris is really an example of persistence, discipline, hardworking, courage and many other qualities one needs to be successful in life. Ok guys ! that’s
-				it for today.</p>				
+				it for today.</p>
 				<figure>
 					<img src="{{ asset('assets/img/dominating/unit15/conversation.png') }}" alt="Garotos festejando">
 				</figure>

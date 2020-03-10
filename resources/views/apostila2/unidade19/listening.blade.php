@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 19 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,13 +17,13 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                                
-                <form id="unidade19listening184" method="post">                                                               
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade19listening184" method="post">
                     <p>I <input type="text" placeholder="responda aqui !" name="listening184-1" class="inputpequeno left-align" required>
-                    travelling with friends. It was a good <input type="text" placeholder="responda aqui !" name="listening184-2" class="inputpequeno left-align" required>. 
-                    We had the <input type="text" placeholder="responda aqui !" name="listening184-3" class="inputpequeno left-align" required> 
-                    to see some movies together. I always avoid going to the movies with 
-                    <input type="text" placeholder="responda aqui !" name="listening184-4" class="inputpequeno left-align" required> 
+                    travelling with friends. It was a good <input type="text" placeholder="responda aqui !" name="listening184-2" class="inputpequeno left-align" required>.
+                    We had the <input type="text" placeholder="responda aqui !" name="listening184-3" class="inputpequeno left-align" required>
+                    to see some movies together. I always avoid going to the movies with
+                    <input type="text" placeholder="responda aqui !" name="listening184-4" class="inputpequeno left-align" required>
                     but I have to say it was <input type="text" placeholder="responda aqui !" name="listening184-5" class="inputpequeno left-align" required>.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -83,7 +83,7 @@
                     }
                     $('#unidade19listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade19listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
-                    
+
                 }
             });
         }

@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 5 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                
+
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade5listening432" method="post">
                     <p>“I’m Brooke Allen. I’m a<input type="text" name="listening432-1" placeholder="Responda aqui" required>
@@ -27,7 +27,7 @@
                     <input type="text" name="listening432-5" placeholder="Responda aqui" required>with our pencil art and we’re just gonna trace on top of it. Then it will be
                     <input type="text" name="listening432-6" placeholder="Responda aqui" required>for
                     <input type="text" name="listening432-7" placeholder="Responda aqui" required>. So let’s dive in.”</p>
-                    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="5">
