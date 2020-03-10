@@ -164,7 +164,9 @@
                     <input type="hidden" name="atividade_id" value="106">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
+                <figure class="center-align">
+                    <img  src="{{ asset('assets/img/dominating/unit2/grammar.jpg') }}" alt="super man e batman">
+                </figure>
 
                 <p class="barlow">2 - Rewrite these sentences using HE, SHE, IT, THEY, WE, HIS, HER, THEIR, OUR, ITS:</p>
 				<form id="unidade2grammar107" method="post">

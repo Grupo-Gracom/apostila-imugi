@@ -158,6 +158,11 @@
                     <input type="hidden" name="atividade_id" value="102">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
+                <figure class="center-align">
+                    <img  src="{{ asset('assets/img/dominating/unit1/grammar.jpg') }}" alt="pessoas">
+                </figure>
+
+                <div class="clear"></div>
 
                 <h5 class="barlow">D - Prepare your personal presentation. Tell us your name, age, profession, nationality and any other thing you want to share.</h5>
 				<form id="unidade1grammar103" method="post">
