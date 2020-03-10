@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 24 | listening')
+@section('titulo','Unit 24 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 

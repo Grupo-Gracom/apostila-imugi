@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 48 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -27,65 +27,65 @@
                 <br>
                 <p><b>EXERCISES</b></p>
 
-                 <p class="barlow">1) Use NOT ONLY _______ BUT ALSO _______</p>
+                <p class="barlow">1) Use NOT ONLY _______ BUT ALSO _______</p>
                 <form id="unidade48grammar332" class="metade" action="post">                    
                     <p>1. I know you are studying math. Are you studying chemistry too?</p>
                     <p><b>Yes, I’m studying not only math but also chemistry.</b></p>
                     <p>
-                       2. I know his cousin is living with him. Is his mother-in-low living with him too?
-                       <input type="text" name="grammar332-1" class="full left-align" placeholder="Responda aqui" required>
+                        2. I know his cousin is living with him. Is his mother-in-low living with him too?
+                        <input type="text" name="grammar332-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       3. I know your country has good universities. Does the United States have good universities too?
-                       <input type="text" name="grammar332-2" class="full left-align" placeholder="Responda aqui" required>
+                        3. I know your country has good universities. Does the United States have good universities too?
+                        <input type="text" name="grammar332-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       4. I know you lost your wallet. Did you lose your keys too?
-                       <input type="text" name="grammar332-3" class="full left-align" placeholder="Responda aqui" required>
+                        4. I know you lost your wallet. Did you lose your keys too?
+                        <input type="text" name="grammar332-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       5. I know she goes to school. Does she have a full-time job too?
-                       <input type="text" name="grammar332-4" class="full left-align" placeholder="Responda aqui" required>
+                        5. I know she goes to school. Does she have a full-time job too?
+                        <input type="text" name="grammar332-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       6. know he bought a coat. Did he buy a new pair of shoes too?
-                       <input type="text" name="grammar332-5" class="full left-align" placeholder="Responda aqui" required>
+                        6. know he bought a coat. Did he buy a new pair of shoes too?
+                        <input type="text" name="grammar332-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       7. The children and the parents have serious problems.
-                       <input type="text" name="grammar332-6" class="full left-align" placeholder="Responda aqui" required>
+                        7. The children and the parents have serious problems.
+                        <input type="text" name="grammar332-6" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       8. He can make people laugh, He can also make them cry.
-                       <input type="text" name="grammar332-7" class="full left-align" placeholder="Responda aqui" required>
+                        8. He can make people laugh, He can also make them cry.
+                        <input type="text" name="grammar332-7" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       9. She writes plays for television and she also acts in movies.
-                       <input type="text" name="grammar332-8" class="full left-align" placeholder="Responda aqui" required>
+                        9. She writes plays for television and she also acts in movies.
+                        <input type="text" name="grammar332-8" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       10. I sent him many letters. Besides that, I tried to call him.
-                       <input type="text" name="grammar332-9" class="full left-align" placeholder="Responda aqui" required>
+                        10. I sent him many letters. Besides that, I tried to call him.
+                        <input type="text" name="grammar332-9" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       11. We like to visit our grandfather’s house in summer and winter.
-                       <input type="text" name="grammar332-10" class="full left-align" placeholder="Responda aqui" required>
+                        11. We like to visit our grandfather’s house in summer and winter.
+                        <input type="text" name="grammar332-10" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       12. She can dance and sing very well.
-                       <input type="text" name="grammar332-11" class="full left-align" placeholder="Responda aqui" required>
+                        12. She can dance and sing very well.
+                        <input type="text" name="grammar332-11" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       13. They need food and medicine.
-                       <input type="text" name="grammar332-12" class="full left-align" placeholder="Responda aqui" required>
+                        13. They need food and medicine.
+                        <input type="text" name="grammar332-12" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       14. She was upset and angry.
-                       <input type="text" name="grammar332-13" class="full left-align" placeholder="Responda aqui" required>
+                        14. She was upset and angry.
+                        <input type="text" name="grammar332-13" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       15. In winter days are short, cold and dark.
-                       <input type="text" name="grammar332-14" class="full left-align" placeholder="Responda aqui" required>
+                        15. In winter days are short, cold and dark.
+                        <input type="text" name="grammar332-14" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     
                     <div class="clear"></div> 
@@ -112,7 +112,6 @@
                     <input type="hidden" name="atividade_id" value="333">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                                  
 			</div>
 		</div>
     </main>
