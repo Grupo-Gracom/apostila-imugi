@@ -14,11 +14,16 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 11/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
+				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A - EXPRESSIONS</h5>
 				<p>For sure By the way As I said/mentioned before I have no idea Well, let me see Well, let me think I have to think about it That’s a good question</p>
 				<h5 class="barlow" style="margin-top: 16px">B – WORDS IN CONTEXT</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 11/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>
 				<ul class="lista-inline">
 					<li><b>Finish</b></li>
 					<li><b>Currently</b></li>

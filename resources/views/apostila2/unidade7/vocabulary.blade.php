@@ -14,8 +14,9 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit7/Vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 7/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
+				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A -  SEASONS OF THE YEAR.</h5>
 				<ul class="lista-inline">
 					<li><b>Winter</b></li>
@@ -24,6 +25,10 @@
 					<li><b>Fall</b></li>
 				</ul>
 				<h5 class="barlow" style="margin-top: 16px">B - TIME EXPRESSIONS.</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 7/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>
 				<ul class="lista-inline">
 					<li><b>Now</b></li>
 					<li><b>Right now</b></li>
@@ -38,7 +43,11 @@
 					<li><b>Nowadays</b></li>
 					<li><b>Currently</b></li>
 				</ul>
-				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT.</h5>
+				<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT.</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 7/1. VOCABULARY/3. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>
 				<ul class="lista-inline">
 					<li><b>Going to</b></li>
 					<li><b>Current</b></li>

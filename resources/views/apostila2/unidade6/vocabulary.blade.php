@@ -14,7 +14,7 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 6/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - PROFESSION RELATED VERBS.</h5>
 				<ul class="lista-inline">
@@ -38,6 +38,10 @@
 					<li><b>Brainstorm</b></li>
 				</ul>
 				<h5 class="barlow" style="margin-top: 16px">B - ADJECTIVES X ADVERBS.</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 6/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>
 				<ul class="lista-inline">
 					<li><b>Good</b></li>
 					<li><b>Careful</b></li>
@@ -63,6 +67,10 @@
 					<li><b>Complete</b></li>
 				</ul>
 				<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT.</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 6/1. VOCABULARY/3. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>
 				<ul class="lista-inline">
 					<li><b>Notes</b></li>
 					<li><b>All set</b></li>

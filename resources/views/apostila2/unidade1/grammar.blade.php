@@ -15,8 +15,8 @@
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 1/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+				</audio>
 
                 <div class="clear"></div>
                     <table class="metade center-align">

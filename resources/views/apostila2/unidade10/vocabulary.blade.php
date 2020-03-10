@@ -14,8 +14,9 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit10/Vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 10/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
+				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A -  QUANTIFIERS</h5>
 				<ul class="lista-inline">
 					<li><b>Some</b></li>
@@ -23,6 +24,10 @@
 					<li><b>No</b></li>
 				</ul>
 				<h5 class="barlow" style="margin-top: 16px">B -  POLYGONS / 3D OBJECTS</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 10/1. VOCABULARY/3. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>
 				<div style="margin-top: 36px">
 					<ul class="lista-inline">
 						<li><b>POLYGONS ></b></li>
@@ -42,6 +47,10 @@
 					</ul>
 				</div>
 				<h5 class="barlow" style="margin-top: 16px">C -   WORDS IN CONTEXT</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 10/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>
 				<div style="margin-top: 36px">
 					<ul class="lista-inline">
 						<li>Bring</li>

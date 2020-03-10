@@ -22,6 +22,8 @@ body{background-color: rgba(125, 194, 66, 0.15);}
 .left-align{text-align: left !important;}
 .right-align{text-align: right !important;}
 .metade{width: calc(50% - 8px);}
+.quasefull{width: calc(95% - 8px);}
+/* #unidade form input[type="text"].quasefull{width: calc(95% - 8px);} */
 .metade.esquerda{float: left;}
 .esquerda{float: left;}
 .metade.direita{float: right;}
@@ -100,7 +102,8 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade form {padding-left: 16px;box-sizing: border-box;margin-bottom: 26px;}
 #unidade form input[type="text"]{width: 150px;background-color: white;outline: none;border: 0;border-bottom: 1px solid #333;text-align: center;font-size: 18px;font-family: Arial, Helvetica, sans-serif !important;color: #7dc242;}
 #unidade form p .inputMedio{width: 500px;}
-#unidade form p .inputpequeno{width: 250px;}
+#unidade form p .inputpequeno{width: 220px;}
+#unidade form p .quasefull{width: calc(90% - 8px);}
 #unidade form input[type="text"]:focus{border-bottom: 1px solid #7dc242;}
 #unidade form input[type="text"].full{width: 100%;}
 #unidade form textarea{border: 1px solid #777;border-radius: 10px;padding: 10px 16px;box-sizing: border-box;font-size: 18px;font-family: Arial, Helvetica, sans-serif !important;outline: 0; color: #7dc242}
@@ -125,12 +128,15 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade .caixa{border: 1px solid #333;width: 50%;}
 
 #unidade .espacamento{margin: 16px;}
+#unidade table{ width: unset;}
 #unidade table,
 #unidade table tr,
 #unidade table td{border: none;}
 #unidade table .vertical-align {vertical-align: middle;}
 #unidade table h5,
 #unidade table p{margin: 0;}
+#unidade .bordered{border: 1px solid #eee;}
+#unidade .centralizap{margin-top: 30%;}
 .versus{text-align: center; margin: 50% ; background-color: #dddddd; }
 #unidade20understanding56 form {padding-right: 26px;}
 .bordaSilples{border: solid 2px black; position: 16px; width: 55%; padding: 5px;}
@@ -138,6 +144,13 @@ main .capas li.deactive img{filter: grayscale(1);}
 .marginCustomizada{margin-bottom: 3px;}
 .tabelaGramar11 {width: 60%;}
 .quadradoVerdeGrande p{background-color: #3bac44; color: black; display: inline-block; padding: 16px; font-size: 80px; width: 240px;} /* (joao) quadrado unidade 17 gramar apostila 2 */
+
+#encostado{ margin: 3px;}
+#unidade table.bordered.direita:not(#encostado){width: 43%;}
+
+#unidade .recuoEsquerda p:not(.center-align){margin-left: 30%;}
+#unidade .recuoEsquerda span, #unidade form p b {color: #7dc242;}
+
 
 /* #tabelaGramar12 {width: 80%;} */
 
@@ -174,5 +187,6 @@ main .capas li.deactive img{filter: grayscale(1);}
     #unidade .lista-inline li{flex: initial;text-align: initial;}
 
     #unidade form button{width: 100%;}
+    #unidade table.bordered.direita{width: 100% !important;} 
 
 }
