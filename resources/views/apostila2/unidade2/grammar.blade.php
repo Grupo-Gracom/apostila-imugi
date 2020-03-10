@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 2 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,8 +17,8 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>     
-                
+                <div class="clear"></div>
+
                 <h5 class="barlow" style="margin-top: 16px">A - WH QUESTIONS – WHAT – WHERE – WHO.</h5>
                 <p><b>What</b> – Used for <b>general questions.</b></p>
                 <p>Examples:</p>
@@ -34,7 +34,7 @@
                 <p><b>Who</b>are you? / I am<b> Akira</b> The<b> new game Developer.</b></p>
 
                 <h5 class="barlow" style="margin-top: 16px">B - SUBJECT PRONOUNS X POSSESSIVE ADJECTIVE.</h5>
-                
+
                 <table class="center-align metade">
                     <tr>
                         <td class="barlow upper"><p>Subject Pronoun</p></td>
@@ -72,8 +72,8 @@
                         <td><p>They</p></td>
                         <td><p>Their</p></td>
                     </tr>
-                </table>              
-                
+                </table>
+
                 <div class="clear"></div>
                 <br>
                 <p><b>Examples:</b></p>
@@ -81,7 +81,7 @@
                 <p><b>Akira and John </b>love super hero movies.<b> Their </b>favorite heroes are Batman and Super Man.</p>
                 <h5 class="barlow" style="margin-top: 16px">C - DEMONSTRATIVE PRONOUNS</h5>
 
-                
+
                 <table class="center-align metade">
                     <tr>
                         <td></td>
@@ -99,7 +99,7 @@
                         <td><p>Those</p></td>
                     </tr>
                 </table>
-                
+
                 <br>
                 <div class="clear"></div>
 
@@ -109,54 +109,54 @@
                     <p><b>This is</b> Mr. Antony, the Coordinator.</b></p>
                     <p><b>These</b> new tools are fantastic.</b></p>
                 </div>
-                
+
                 <div class="umterco direita">
                    <p><b>That</b> lady is the marketing manager.</p>
                     <p><b>Those</b> Graffiti on the wall are great</p>
                 </div>
-                
+
                 <div class="clear"></div>
                 <p><b>EXERCISES:</b></p>
                 <p class="barlow">1 - Build up questions for the answers.</p>
                 <form id="unidade2grammar106" method="post">
                     <p>E.g She’s Laura./ Who is she?</p>
                     <div class="umterco esquerda">
-                        <p>1. He’s Akira <br> 
+                        <p>1. He’s Akira <br>
                             <input type="text" name="grammar106-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>2. They are in New York <br> 
+                        <p>2. They are in New York <br>
                             <input type="text" name="grammar106-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>3. That is a new app <br> 
+                        <p>3. That is a new app <br>
                             <input type="text" name="grammar106-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>4. Gleen is the teacher <br> 
+                        <p>4. Gleen is the teacher <br>
                             <input type="text" name="grammar106-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>5. It’s in Brooklin <br> 
+                        <p>5. It’s in Brooklin <br>
                             <input type="text" name="grammar106-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                     </div>
-                    
+
                     <div class="umterco direita">
-                        <p>6. I am the new manager <br> 
+                        <p>6. I am the new manager <br>
                             <input type="text" name="grammar106-6" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>7. This is Carlos, an old student <br> 
+                        <p>7. This is Carlos, an old student <br>
                             <input type="text" name="grammar106-7" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>8. It’s in the drawer <br> 
+                        <p>8. It’s in the drawer <br>
                             <input type="text" name="grammar106-8" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>9. My favorite hero is Batman <br> 
+                        <p>9. My favorite hero is Batman <br>
                             <input type="text" name="grammar106-9" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>10. This a new editing software <br> 
+                        <p>10. This a new editing software <br>
                             <input type="text" name="grammar106-10"placeholder="Responda aqui" class="full left-align"" required>
                         </p>
                     </div>
-                    
-                    <div class="clear"></div>                                      
+
+                    <div class="clear"></div>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -170,42 +170,42 @@
 				<form id="unidade2grammar107" method="post">
 
                 <div class="umterco esquerda">
-                        <p>1. Akira’s father is Japanese. <br> 
+                        <p>1. Akira’s father is Japanese. <br>
                             <input type="text" name="grammar107-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>2. Editing softwares are very expensive. <br> 
+                        <p>2. Editing softwares are very expensive. <br>
                             <input type="text" name="grammar107-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>3. John’s experience is very good. <br> 
+                        <p>3. John’s experience is very good. <br>
                             <input type="text" name="grammar107-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>4. Is your brother a businessman? <br> 
+                        <p>4. Is your brother a businessman? <br>
                             <input type="text" name="grammar107-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>5. My friend and I love comic books. <br> 
+                        <p>5. My friend and I love comic books. <br>
                             <input type="text" name="grammar107-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                     </div>
-                    
+
                     <div class="umterco direita">
-                        <p>6. These are Laura’s and my books. <br> 
+                        <p>6. These are Laura’s and my books. <br>
                             <input type="text" name="grammar107-6" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>7. Where is Gleen’s marker? <br> 
+                        <p>7. Where is Gleen’s marker? <br>
                             <input type="text" name="grammar107-7" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>8. My father’s favorite computer is Mac. <br> 
+                        <p>8. My father’s favorite computer is Mac. <br>
                             <input type="text" name="grammar107-8" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>9. The students’ books are in the classroom. <br> 
+                        <p>9. The students’ books are in the classroom. <br>
                             <input type="text" name="grammar107-9" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>10. This is Mrs. Brown’s coat, but these are the children’s coats. <br> 
+                        <p>10. This is Mrs. Brown’s coat, but these are the children’s coats. <br>
                             <input type="text" name="grammar107-10" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                     </div>
-                    
-                    <div class="clear"></div> 
+
+                    <div class="clear"></div>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -232,8 +232,8 @@
                     <p>Andy has a girl-friend<input type="text" name="grammar108-6" placeholder="Responda aqui" required>sgirl-friend’s name is Sandra. She’s in
                     <input type="text" name="grammar108-7" placeholder="Responda aqui" required>sclass at school.</p>
                     <p>Where is your family? Is<input type="text" name="grammar108-8" placeholder="Responda aqui" required>sfamily here, too?</p>
-               
-                    <div class="clear"></div> 
+
+                    <div class="clear"></div>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -241,7 +241,7 @@
                     <input type="hidden" name="atividade_id" value="108">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-               
+
 			</div>
 		</div>
     </main>
@@ -307,7 +307,7 @@
             }
         });
 
-        
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 3 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -32,15 +32,15 @@
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">B - LIKES AND DISLIKES</h5>
-				
+
 				<p class="espacamentoWord"><b>ACTIONS > </b>To-play To-practice To-study To-read To-dance To-create To-draw</p>
 				<p class="espacamentoWord"><b>THINGS > </b>games sports English Books Hip Hop Heroes Warriors</p>
-				
+
 				<div class="metade">
 					<form id="unidade3vocabulary112" method="post">
 						<p><input type="text" name="vocabulary112-1" placeholder="Responda aqui" class="full left-align" required></p>
 						<p><input type="text" name="vocabulary112-2" placeholder="Responda aqui" class="full left-align" required></p>
-                        
+
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="3">
@@ -48,10 +48,10 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
 					</form>
 				</div>
-				
-				
+
+
 				<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT</h5>
-				
+
 				<ul class="lista-inline">
 					<li><b>ANNOY</b></li>
 					<li><b>CHALLENGE</b></li>
@@ -62,7 +62,7 @@
 					<li><b>CHANGE</b></li>
 					<li><b>ALWAYS</b></li>
 				</ul>
-				
+
 			</div>
 		</div>
 	</main>

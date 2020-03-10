@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 10 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -23,8 +23,8 @@
                         <p>
                             “Yes, I’m so happy to be <input type="text" name="listening146-1"  placeholder="Responda aqui" required> on the IBC 2014. <input type="text" name="listening146-2"  placeholder="Responda aqui" required> greetings to
                             <input type="text" name="listening146-3"  placeholder="Responda aqui" required> that made it to our booth here, and <input type="text" name="listening146-4"  placeholder="Responda aqui" required> the guys in the
-                            internet, thanks for <input type="text" name="listening146-5"  placeholder="Responda aqui" required>, thanks for <input type="text" name="listening146-6"  placeholder="Responda aqui" required>. There’s a lot of 
-                            <input type="text" name="listening146-7"  placeholder="Responda aqui" required> I’m <input type="text" name="listening146-8"  placeholder="Responda aqui" required> you and what I’m going to show you is the features, 
+                            internet, thanks for <input type="text" name="listening146-5"  placeholder="Responda aqui" required>, thanks for <input type="text" name="listening146-6"  placeholder="Responda aqui" required>. There’s a lot of
+                            <input type="text" name="listening146-7"  placeholder="Responda aqui" required> I’m <input type="text" name="listening146-8"  placeholder="Responda aqui" required> you and what I’m going to show you is the features,
                             the new features of Cinema 4D R 16.”
                         </p>
 

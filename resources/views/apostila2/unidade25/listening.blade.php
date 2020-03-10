@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 25 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                
+
                 <h5 class="barlow">A – Listen to the Dialogue and answer the questions.</h5>
                 <form id="unidade25listening216" class="metade" method="post">
                     <p>1. What’s the conversation all about?
@@ -29,7 +29,7 @@
                     <p>3. What’s the other suggestion for the weekend.
                         <input type="text" name="listening216-3" placeholder="Responda aqui" class="full left-align" required>
                     </p>
-                    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="25">

@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 7 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -43,7 +43,7 @@
 			</div>
 		</div>
 	</main>
-	
+
 	<script>
         activeMenu();
     </script>

@@ -222,7 +222,7 @@
                         $('#unidade29grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade29grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         
-                   }
+                }
                     $('#unidade29grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade29grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }

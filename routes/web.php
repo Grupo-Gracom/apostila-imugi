@@ -484,19 +484,7 @@ Route::get('/apostila2/unidade24/listening/respostasCheck/{atividade_id}', 'Resp
 Route::post('/apostila2/unidade24/understanding/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidade24/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
-//Rotas para o Portal do Aluno
-Route::get('/portal', 'HomeController@homePortal')->name('portal');
-Route::get('/material', 'HomeController@materialDidatico')->name('material');
-Route::get('/nota', 'NotaController@index')->name('nota');
-Route::get('/frequencia', 'FrequenciaController@index')->name('frequencia');
-Route::get('/financeiro', 'FinanceiroController@index')->name('financeiro');
-Route::get('/contato', 'ContatoController@index')->name('contato');
-Route::get('/perfil', 'UserController@edit')->name('perfil');
-Route::post('/enviar-email', 'ContatoController@enviar');
-Route::post('/enviar-frequencia', 'FrequenciaController@enviar');
-Route::post('/atualizar-perfil/{id}', 'UserController@update');
 
-Route::get('/atualiza-senha','UserController@atualizaSenha');
 //UNIDADE 25
 Route::post('/apostila2/unidade25/vocabulary/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidad25/vocabulary/respostasCheck/{atividade_id}', 'RespostaController@check');
@@ -787,7 +775,7 @@ Route::get('/apostila2/unidade60/listening/respostasCheck/{atividade_id}', 'Resp
 Route::post('/apostila2/unidade60/understanding/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidade60/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
-//UNIDADE 60
+//UNIDADE 61
 Route::post('/apostila2/unidade61/grammar/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidade61/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
 Route::post('/apostila2/unidade61/listening/respostas', 'RespostaController@store');
@@ -795,7 +783,58 @@ Route::get('/apostila2/unidade61/listening/respostasCheck/{atividade_id}', 'Resp
 Route::post('/apostila2/unidade61/understanding/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidade61/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
+//UNIDADE 62
+Route::post('/apostila2/unidade62/grammar/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade62/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade62/listening/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade62/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade62/understanding/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade62/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
+//UNIDADE 63
+Route::post('/apostila2/unidade63/grammar/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade63/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade63/listening/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade63/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade63/understanding/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade63/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+
+//UNIDADE 63
+Route::post('/apostila2/unidade63/grammar/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade63/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade63/listening/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade63/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade63/understanding/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade63/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+
+//UNIDADE 64
+Route::post('/apostila2/unidade64/grammar/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade64/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade64/listening/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade64/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade64/understanding/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade64/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+
+//UNIDADE 65
+Route::post('/apostila2/unidade65/grammar/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade65/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade65/listening/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade65/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila2/unidade65/understanding/respostas', 'RespostaController@store');
+Route::get('/apostila2/unidade65/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+
+//Rotas para o Portal do Aluno
+Route::get('/portal', 'HomeController@homePortal')->name('portal');
+Route::get('/material', 'HomeController@materialDidatico')->name('material');
+Route::get('/nota', 'NotaController@index')->name('nota');
+Route::get('/frequencia', 'FrequenciaController@index')->name('frequencia');
+Route::get('/financeiro', 'FinanceiroController@index')->name('financeiro');
+Route::get('/contato', 'ContatoController@index')->name('contato');
+Route::get('/perfil', 'UserController@edit')->name('perfil');
+Route::post('/enviar-email', 'ContatoController@enviar');
+Route::post('/enviar-frequencia', 'FrequenciaController@enviar');
+Route::post('/atualizar-perfil/{id}', 'UserController@update');
+Route::get('/atualiza-senha','UserController@atualizaSenha');
 
 //Route::get('/admin', ['as'=>'admin','uses'=>'AdminController@index']);
 // Route::resource('topicos', 'TopicoController');

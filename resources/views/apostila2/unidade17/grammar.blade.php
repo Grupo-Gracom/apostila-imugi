@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 18 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -16,44 +16,44 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>                
-                <h5 class="barlow" style="margin-top:16px;">PAST CONTINUOUS</h5>              
+                <div class="clear"></div>
+                <h5 class="barlow" style="margin-top:16px;">PAST CONTINUOUS</h5>
                 <p><b>Past continuous</b> is used to express actions in progress <b>during a certain period of time in the past</b></p>
-                <p class="bordaVerde">Past Continuous = Subject + was / were + verb(ing)</p>                
-                <table class="espacamento">           
+                <p class="bordaVerde">Past Continuous = Subject + was / were + verb(ing)</p>
+                <table class="espacamento">
                     <tr>
-                        <td><h5 class="barlow">Subject</h5></td>														
-                        <td><h5 class="barlow">Was/were</h5></td>														
-                        <td><h5 class="barlow">Verb</h5></td>														
-                        <td colspan="2"><h5 class="barlow">Action in progress</h5></td>														
-                    </tr>                    
+                        <td><h5 class="barlow">Subject</h5></td>
+                        <td><h5 class="barlow">Was/were</h5></td>
+                        <td><h5 class="barlow">Verb</h5></td>
+                        <td colspan="2"><h5 class="barlow">Action in progress</h5></td>
+                    </tr>
                     <tr>
-                        <td><p>Akira</p></td> 
-                        <td><p>Was</p></td>														
-                        <td><p>Share</p></td>														
-                        <td colspan="2"><p>Akira was sharing some stories about Kris Costa.</p></td>														
-                    </tr>                                 										
+                        <td><p>Akira</p></td>
+                        <td><p>Was</p></td>
+                        <td><p>Share</p></td>
+                        <td colspan="2"><p>Akira was sharing some stories about Kris Costa.</p></td>
+                    </tr>
                     <tr>
-                        <td><p>I</p></td> 
-                        <td><p>Was</p></td>														
-                        <td><p>Cross</p></td>														
-                        <td colspan="2"><p>I was crossing the bridge when a car hit me.</p></td>														
-                    </tr>                                 										
+                        <td><p>I</p></td>
+                        <td><p>Was</p></td>
+                        <td><p>Cross</p></td>
+                        <td colspan="2"><p>I was crossing the bridge when a car hit me.</p></td>
+                    </tr>
                     <tr>
-                        <td><p>They</p></td> 
-                        <td><p>were</p></td>														
-                        <td><p>talk</p></td>														
-                        <td colspan="2"><p>They were talking about the new software.</p></td>														
-                    </tr>                                 										
+                        <td><p>They</p></td>
+                        <td><p>were</p></td>
+                        <td><p>talk</p></td>
+                        <td colspan="2"><p>They were talking about the new software.</p></td>
+                    </tr>
                     <tr>
-                        <td><p>She</p></td> 
-                        <td><p>Was</p></td>														
-                        <td><p>do</p></td>														
-                        <td colspan="2"><p>She was doing well when she arrived.</p></td>														
-                    </tr>                                 										
+                        <td><p>She</p></td>
+                        <td><p>Was</p></td>
+                        <td><p>do</p></td>
+                        <td colspan="2"><p>She was doing well when she arrived.</p></td>
+                    </tr>
                 </table>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top:16px;">YES/NO QUESTION – WH-QUESTIONS</h5>                                
+                <h5 class="barlow" style="margin-top:16px;">YES/NO QUESTION – WH-QUESTIONS</h5>
                 <table class="metade center-align">
                     <tr>
                         <td colspan="2"><h5 class="barlow"><b>Yes/no Questions</b></h5></td>
@@ -69,7 +69,7 @@
                     <tr>
                         <td><p><b>Were they studying</b> the project?</p></td>
                         <td><p><b>Yes, they were studying</b> the project./ <b>Yes, were.</b></p></td>
-                    </tr>                    
+                    </tr>
                     <tr>
                         <td colspan="2"><h5 class="barlow"><b>Wh-Questions</b></h5></td>
                     </tr>
@@ -84,23 +84,23 @@
                     <tr>
                         <td><p><b>Where was he living</b> last year?</p></td>
                         <td><p><b>He was living</b> in London.</p></td>
-                    </tr>                    
+                    </tr>
                 </table>
                 <div class="clear"></div>
                 <h5 class="barlow">EXERCISES</h5>
-                <h5 class="barlow">A - Fill in the blanks with a correct form of PAST CONTINUOUS:</h5>                
+                <h5 class="barlow">A - Fill in the blanks with a correct form of PAST CONTINUOUS:</h5>
 				<form id="unidade17grammar173" method="post">
                     <p><b>1. </b>It was very cold. The sun <input type="text" placeholder="responda aqui !" name="grammar173-1" class="inputMedio" required> was not shining. <input type="text" placeholder="responda aqui !" name="grammar173-2" class="inputMedio" required> (not / shine)</p>
                     <p><b>2. </b>It wasn’t a stormy night. The wind <input type="text" placeholder="responda aqui !" name="grammar173-3" class="inputMedio" required> (not / blow)</p>
                     <p><b>3. </b>He wasn’t sleeping. He <input type="text" placeholder="responda aqui !" name="grammar173-4" class="inputMedio" required> (look) at the ceiling.</p>
                     <p><b>4. </b>They were having a rest. They <input type="text" placeholder="responda aqui !" name="grammar173-5" class="inputMedio" required> (not / work).</p>
-                    <p><b>5. </b>They were very happy. They <input type="text" placeholder="responda aqui !" name="grammar173-6" class="inputMedio" required> (enjoy) the party.</p>                                                                       
+                    <p><b>5. </b>They were very happy. They <input type="text" placeholder="responda aqui !" name="grammar173-6" class="inputMedio" required> (enjoy) the party.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="17">
                     <input type="hidden" name="atividade_id" value="173">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
                 <h5 class="barlow">B - Write the sentences above in the negative and interrogative.</h5>
                 <form id="unidade17grammar174" method="post">
                     <p><b>1. </b><input type="text" placeholder="responda aqui !" name="grammar174-1" class="inputMedio" required></p>
@@ -116,21 +116,21 @@
                 </form>
                 <h5 class="barlow">C - Your teacher is going to give a piece of paper with a verb and a time expression.
                     With the time expression, you are going to create a question to a classmate. With the
-                    verb , you are going to answer what a classmate is gonna ask you.</h5>                
-                <div class="quadradoVerdeGrande center-align">   
+                    verb , you are going to answer what a classmate is gonna ask you.</h5>
+                <div class="quadradoVerdeGrande center-align">
                     <p><b>What</b></p>
                     <p><b>Where</b></p>
                     <p><b>Why</b></p>
                     <p><b>How</b></p>
-                </div>                               
-                <form id="unidade17grammar175"  method="post">                                                                                
-                    <p><textarea  class="full" name="grammar175-1" required></textarea></p>                 
+                </div>
+                <form id="unidade17grammar175"  method="post">
+                    <p><textarea  class="full" name="grammar175-1" required></textarea></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="17">
                     <input type="hidden" name="atividade_id" value="175">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                               
+                </form>
 			</div>
 		</div>
     </main>
@@ -176,7 +176,7 @@
                 enviarAtividade($('#unidade17grammar174'), respostas);
             }
         });
-                        
+
         $("#unidade17grammar175").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
@@ -186,8 +186,8 @@
             }else{
                 enviarAtividade($('#unidade17grammar175'), respostas);
             }
-        });        
-        
+        });
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,
@@ -211,7 +211,7 @@
                     }
                     $('#unidade17grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade17grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
-                    
+
                 }
             });
         }

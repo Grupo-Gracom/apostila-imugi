@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 7 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,11 +17,11 @@
 					<source src="{{ asset('assets/audio7/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
-				
+
 				<div class="metade">
 					<ul class="lista-inline">
 						<li><b>short e /ɛ/</b></li>
-						<li>Let</li>	
+						<li>Let</li>
 						<li>Get</li>
 						<li>End</li>
 						<li>Any</li>

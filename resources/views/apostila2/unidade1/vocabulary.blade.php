@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 1 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -19,7 +19,7 @@
 				</audio>
 				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A - CARDINAL NUMBERS / ORDINAL NUMBERS</h5>
-							
+
 				<table class="metade center-align">
 					<tr>
 						<td><p class="barlow upper">Cardinal</p></td>

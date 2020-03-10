@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 1 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -29,7 +29,7 @@
                             </tr>
                             <tr>
                                 <td><p><b>Who</b> is the best Avengers Super hero</p></td>
-                                <td><p>I Guess <b>Thor</b> is the best.</p></td> 
+                                <td><p>I Guess <b>Thor</b> is the best.</p></td>
                             </tr>
                             <tr>
                                 <td><p><b>When</b> is the special effects workshop?</p></td>
@@ -42,13 +42,13 @@
                             </tr>
                             <tr>
                                 <td><p><b>What do you do</b> before starting a project?</p></td>
-                                <td><p><b>We have a brainstorm</b> to debate it.</p></td> 
+                                <td><p><b>We have a brainstorm</b> to debate it.</p></td>
                             </tr>
                             <tr>
                                 <td><p><b>Which FPS do you</b> like to play? BF4 or CS Go</p></td>
                                 <td><p>I like to play <b>BF4</b>.</p></td>
                             </tr>
-                    </table>    
+                    </table>
 
                     <div  style="margin-top: 36px">
                         <figure>
@@ -57,11 +57,11 @@
                     </div>
                     <div class="clear"></div>
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
-                    <h5 class="barlow">A - Read the questions & answers about LAURA and ask and answer about AKIRA.</h5>               
+                    <h5 class="barlow">A - Read the questions & answers about LAURA and ask and answer about AKIRA.</h5>
                     <form id="unidade6grammar125" method="post">
                         <div class="metade esquerda">
                             <h5>QUESTIONS:</h5>
-                            <p> 
+                            <p>
                                 <p>1. What does Laura do?</p>
                                 <p>2. How <input type="text" name="grammar125-1" placeholder="Responda aqui"  required/> is Laura?</p>
                                 <p>3. <input type="text" name="grammar125-2" placeholder="Responda aqui" required/> a week does she work?</p>
@@ -104,7 +104,7 @@
                     <form id="unidade6grammar126" method="post">
                         <div class="metade esquerda">
                             <h5>QUESTIONS:</h5>
-                            <p> 
+                            <p>
                                 <p>1. <input type="text" name="grammar126-1" class="full left-align" placeholder="Responda aqui" required/></p>
                                 <p>2. <input type="text" name="grammar126-2" class="full left-align" placeholder="Responda aqui" required/></p>
                                 <p>3. <input type="text" name="grammar126-3" class="full left-align" placeholder="Responda aqui" required/></p>
@@ -144,10 +144,10 @@
                         <input type="hidden" name="atividade_id" value="126">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                    <h5 class="barlow" style="margin-top: 16px">B - Imagine you are a movie star. Are you ready to answer questions about the following topics on your interview for a famous movie blog.</h5> 
+                    <h5 class="barlow" style="margin-top: 16px">B - Imagine you are a movie star. Are you ready to answer questions about the following topics on your interview for a famous movie blog.</h5>
                     <form id="unidade6grammar127" method="post">
                             <div class="metade">
-                                <p> 
+                                <p>
                                     <p>1. Name <input type="text" name="grammar127-1" class="full left-align" placeholder="Responda aqui" required/></p>
                                     <p>2. Profession <input type="text" name="grammar127-2" class="full left-align" placeholder="Responda aqui" required/></p>
                                     <p>3. Likes and dislikes <input type="text" name="grammar127-3" class="full left-align" placeholder="Responda aqui" required/></p>
@@ -156,7 +156,7 @@
                                     <p>6. Favorites<input type="text" name="grammar127-6" class="full left-align" placeholder="Responda aqui" required/></p>
                                 </p>
                             </div>
-                        
+
                         <div class="clear"></div>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -236,7 +236,7 @@
             }
         });
 
-        
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

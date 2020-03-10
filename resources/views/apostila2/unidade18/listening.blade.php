@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 18 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -16,11 +16,11 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>               
-                <h5 class="barlow" style="margin-top: 16px">Listen to the passage and answer the questions.</h5>                
-                <h5 class="barlow" style="margin-top: 16px">A - Tell as much as you can about the person from the passage.</h5>                
-                <form id="unidade18listening180" method="post">                  
-                    <p><textarea  class="full" name="listening180-1" required></textarea></p>                                                   
+                <div class="clear"></div>
+                <h5 class="barlow" style="margin-top: 16px">Listen to the passage and answer the questions.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Tell as much as you can about the person from the passage.</h5>
+                <form id="unidade18listening180" method="post">
+                    <p><textarea  class="full" name="listening180-1" required></textarea></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="18">
@@ -72,7 +72,7 @@
                     }
                     $('#unidade18listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade18listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
-                    
+
                 }
             });
         }

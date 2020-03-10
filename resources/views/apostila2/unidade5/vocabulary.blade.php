@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 5 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -46,7 +46,7 @@
 						<td><p>I didn’t get / understand.</p></td>
 					</tr>
 				</table>
-								
+
 				<h5 class="barlow" style="margin-top: 16px">C - COMMON ADVERBS</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 5/1. VOCABULARY/3. VOCABULARY.mp3') }}" type="audio/mp3">
@@ -82,7 +82,7 @@
 					<li><b>MEETING</b></li>
                     <li><b>UNFORTUNATELY</b></li>
 				</ul>
-				
+
 			</div>
 		</div>
 	</main>

@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 21 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,8 +17,8 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>     
-                
+                <div class="clear"></div>
+
                 <h5 class="barlow" style="margin-top: 16px">A - USED TO – PAST HABIT Used to is used to express a past habit.</h5>
 
                 <table class="metade left-align">
@@ -36,13 +36,13 @@
                         <td><p>She <b>used to spend</b> hours reading</p></td>
                         <td><p>She <b>used not to</b> spend hours reading</p></td>
                         <td><p><b>Did she use </b>to spend hours reading ?</p></td>
-                    </tr>     
+                    </tr>
                     <tr>
                         <td><p>They<b> used to visit</b> my friends</p></td>
                         <td><p><b>They never used to visit</b> my friends</p></td>
                         <td><p><b>Did they used </b>to visit their friends ?</p></td>
-                    </tr>            
-                </table>           
+                    </tr>
+                </table>
 
                 <p><b>EXERCISES</b></p>
                 <p class="barlow">1) Rewrite the sentences using USED TO:</p>
@@ -59,7 +59,7 @@
                     <p>8. John watched cartoons when he was younger, but he prefers animes now.<input type="text" name="grammar191-9" placeholder="Responda aqui"  class="full left-align" required></p>
                     <p>9. Before he bought mac, he used windows.<input type="text" name="grammar191-10" placeholder="Responda aqui"  class="full left-align" required></p>
                     <p>10. While he was going to university, he worked for a small fashion magazine<input type="text" name="grammar191-11" placeholder="Responda aqui" class="full left-align"  required></p>
-                        
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="21">
@@ -70,15 +70,15 @@
                 <p class="barlow">2) Complete the text about John when she was a child using USED TO / DIDN’T
                                     USE TO and the verbs in brackets:</p>
                 <form id="unidade21grammar192" action="post" >
-                   
+
                     <p>I <b>didn’t use to have</b> (not have) many friends when I was a child so I
                     <input type="text" name="grammar192-1" placeholder="Responda aqui" required>(play) with my toys all day. I
-                    <input type="text" name="grammar192-2" placeholder="Responda aqui" required>(worry) about things a lot but I 
-                    <input type="text" name="grammar192-3" placeholder="Responda aqui" required>(not bite) my nails or suck my thumb. I remember that I 
+                    <input type="text" name="grammar192-2" placeholder="Responda aqui" required>(worry) about things a lot but I
+                    <input type="text" name="grammar192-3" placeholder="Responda aqui" required>(not bite) my nails or suck my thumb. I remember that I
                     <input type="text" name="grammar192-4" placeholder="Responda aqui" required>(cry) a lot and I
                     <input type="text" name="grammar192-5" placeholder="Responda aqui" required>(be) really afraid of the dark.</p>
-                
-                    <div class="clear"></div> 
+
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="21">
@@ -88,17 +88,17 @@
 
                 <p class="barlow">3) Complete the text using USED TO and the verbs in the box:</p>
                 <form id="unidade21grammar193" action="post" >
-                   
+
                     <p>School has changed since I was a student. We used to wear school uniform and I didn’t like that very much. We
                     <input type="text" name="grammar193-1" placeholder="Responda aqui" required>a lot of lessons and most of them
                     were difficult. We
                     <input type="text" name="grammar193-2" placeholder="Responda aqui" required>homework every day. We
                     <input type="text" name="grammar193-3" placeholder="Responda aqui" required>lots of books and we
-                    <input type="text" name="grammar193-4" placeholder="Responda aqui" required>everything by heart. And our teachers 
+                    <input type="text" name="grammar193-4" placeholder="Responda aqui" required>everything by heart. And our teachers
                     <input type="text" name="grammar193-5" placeholder="Responda aqui" required>us a lot of tests and examinations. Some of them were
                     impossible! I think school is easier now than it was 50 years ago.</p>
-                
-                    <div class="clear"></div> 
+
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="21">
@@ -106,12 +106,12 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <form id="unidade21grammar194"  action="post">                  
+                <form id="unidade21grammar194"  action="post">
                     <p class="barlow">4) Prepare a narration about your childhood. Be prepared to present to your classmates.</p>
                     <p>
                         <input type="text" name="grammar194-1" placeholder="Responda aqui" class="full left-align" required>
-                    </p>                
-                    <div class="clear"></div> 
+                    </p>
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="21">
@@ -202,7 +202,7 @@
             }
         });
 
-        
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

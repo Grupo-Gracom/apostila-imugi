@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -39,13 +39,13 @@
                                 <p><b>If he finishes</b> the class in time, <b>he will send</b> it to the client tomorrow.</p>
                                 <p><b>If they arrive</b> tomorrow, <b>we can</b> start the new project.</p>
                                 <p><b>If you need</b> any help, <b>I'm gonna be</b> here the whole afternoon. Just give a call.</p><br>
-                            
+
                                 <p>My preoject <b>will be approved if i send</b> the draft today.</p>
                                 <p>The video is <b>gonna be accepted if the quality</b> is good.</p>
                                 <p><b>She can visit?</b> her friend <b>if she travels</b> to New York.</p><br>
                             </td>
                         </tr>
-                    </table> 
+                    </table>
 
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
                     <h5 class="barlow">1 - Use the correct tense:</h5>
@@ -97,7 +97,6 @@
                                 <p>
                                     15. If you had phoned me before you came, you <input type="text" name="grammar393-23"  placeholder="Responda aqui" required/> (find) me at home.
                                 </p>
-                                
                             </p>
                         </div>
 
@@ -111,23 +110,23 @@
                     </form>
                 </div>
 
-                <h5 class="barlow">2 - Complete the following sentences in column A using the correct choice in column B. Select a letter for each item.</h5>               
+                <h5 class="barlow">2 - Complete the following sentences in column A using the correct choice in column B.</h5>
                     <form id="unidade59grammar394" method="post">
                         <div class="metade esquerda" >
                             <h5>A</h5>
-                            <p> 
-                                <p>1. You’ll get tired <select class="example-select"  name="grammar394-1" required><option placeholder=" "></option></select></p>
-                                <p>2. If you go to a football match, <select class="example-select" name="grammar394-2" required><option placeholder=" "></option></select></p>
-                                <p>3. You can’t hear the teacher <select class="example-select"  name="grammar394-3" required><option placeholder=" "></option></select></p>
-                                <p>4. I’ll help you with your lesson, <select class="example-select"  name="grammar394-4" required><option placeholder=" "></option></select></p>
-                                <p>5. If the soup is too hot, <select class="example-select"  name="grammar394-5" required><option placeholder=" "></option></select></p>
-                                <p>6. If it rains, <select class="example-select"  name="grammar394-6" required><option placeholder=" "></option></select></p>
-                                <p>7. His family may go on holiday <select class="example-select"  name="grammar394-7" required><option placeholder=" "></option></select></p>
-                                <p>8. A man can’t buy what he needs <select class="example-select"  name="grammar394-8" required><option placeholder=" "></option></select></p>
-                                <p>9. If you’re on a crowded bus, <select class="example-select"  name="grammar394-9" required><option placeholder=" "></option></select></p>
-                                <p>10. We’ll come to visit you <select class="example-select"  name="grammar394-10" required><option placeholder=" "></option></select></p>
-                                <p>11. If they haven’t seen Topkapý Palace, <select class="example-select"  name="grammar394-11" required><option placeholder=" "></option></select></p>
-                                <p>12. If I get a driving license, <select class="example-select"  name="grammar394-12" required><option placeholder=" "></option></select></p>
+                            <p>
+                                <p>1. You’ll get tired <input type="text" name="grammar394-1"  placeholder="Responda aqui" required/> </p>
+                                <p>2. If you go to a football match, <input type="text" name="grammar394-2"  placeholder="Responda aqui" required/> </p>
+                                <p>3. You can’t hear the teacher <input type="text" name="grammar394-3"  placeholder="Responda aqui" required/> </p>
+                                <p>4. I’ll help you with your lesson, <input type="text" name="grammar394-4"  placeholder="Responda aqui" required/> </p>
+                                <p>5. If the soup is too hot, <input type="text" name="grammar394-5"  placeholder="Responda aqui" required/> </p>
+                                <p>6. If it rains, <input type="text" name="grammar394-6"  placeholder="Responda aqui" required/> </p>
+                                <p>7. His family may go on holiday <input type="text" name="grammar394-7"  placeholder="Responda aqui" required/> </p>
+                                <p>8. A man can’t buy what he needs <input type="text" name="grammar394-8"  placeholder="Responda aqui" required/> </p>
+                                <p>9. If you’re on a crowded bus, <input type="text" name="grammar394-9"  placeholder="Responda aqui" required/> </p>
+                                <p>10. We’ll come to visit you <input type="text" name="grammar394-10"  placeholder="Responda aqui" required/> </p>
+                                <p>11. If they haven’t seen Topkapý Palace, <input type="text" name="grammar394-11"  placeholder="Responda aqui" required/> </p>
+                                <p>12. If I get a driving license, <input type="text" name="grammar394-12"  placeholder="Responda aqui" required/></p>
                             </p>
                         </div>
                         <div class="metade direita">
@@ -205,7 +204,7 @@
                 <h5 class="barlow metade" style="margin-top: 36px">
                     4 -  You have studied for such a nice period of time, and we are about to finish the second part of your course. Share with your classmates what is gonna happen if you have the
                     opportunity to get a job in your area. Write at least 5 sentences using the FIRST CONDITIONAL.
-                </h5>    
+                </h5>
                 <form id="unidade59grammar396" method="post">
                     <textarea name="grammar396-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
@@ -251,28 +250,17 @@
             }
         });
 
-        // $("#unidade59grammar394").submit(function(e){
-        //     e.preventDefault();
-        //     $(this).find('button').prop('disabled', true);
-        //     var respostas = '{';
-        //     $('#unidade59grammar394 input[type="select"]').each(function(index){
-        //         if(($('#unidade59grammar394 input[type="select"]').length - 1) == index){
-        //             respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-        //         }else{
-        //             respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-        //         }
-        //     });
-        //     if($('#unidade59grammar394 input[name="resposta_id"').val() != 0){
-        //         atualizarAtividade($('#unidade59grammar394'), respostas);
-        //     }else{
-        //         enviarAtividade($('#unidade59grammar394'), respostas);
-        //     }
-        // });
-        
         $("#unidade59grammar394").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade59grammar394 select').attr("name")+'":"'+$('#unidade59grammar394 select').val()+'"}';
+            var respostas = '{';
+            $('#unidade59grammar394 input[type="text"]').each(function(index){
+                if(($('#unidade59grammar394 input[type="text"]').length - 1) == index){
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
+                }else{
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
+                }
+            });
             if($('#unidade59grammar394 input[name="resposta_id"').val() != 0){
                 atualizarAtividade($('#unidade59grammar394'), respostas);
             }else{
@@ -308,7 +296,7 @@
                 enviarAtividade($('#unidade59grammar396'), respostas);
             }
         });
-        
+
 
         function checkAtividade(atividade_id){
             request = $.ajax({
@@ -326,8 +314,6 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade59grammar'+atividade_id+' select[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade59grammar'+atividade_id+' select[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade59grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade59grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade59grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
@@ -335,12 +321,13 @@
                     }
                     $('#unidade59grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade59grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+
                 }
             });
         }
 
         function enviarAtividade(formId, respostas){
-            var resposta = {
+            var atividade = {
                 "_token" : formId.find('input[name="_token"]').val(),
                 "resposta_respostas" : respostas,
                 "atividade_id" : formId.find('input[name="atividade_id"]').val(),
@@ -348,7 +335,7 @@
             };
             request = $.ajax({
                 url: window.location.pathname+'/respostas',
-                data: resposta,
+                data: atividade,
                 type: 'post',
                 error: function(){
                     console.log("Erro de envio.");
@@ -390,19 +377,6 @@
             });
         }
 
-        var example_array = ['A','B','C','D','E','F','G','H','I','J','K','L'];
-        console.log(example_array);
-        var select = $(".example-select");
-        example_array.forEach( o => {
-            var option = document.createElement('option');
-            option.setAttribute("value", o);
-            option.setAttribute("name", "Value"+o);
-            option.innerHTML = o;
-            select.append(option);
-            console.log(option);
-            
-        })
-        
     </script>
 
 @endsection

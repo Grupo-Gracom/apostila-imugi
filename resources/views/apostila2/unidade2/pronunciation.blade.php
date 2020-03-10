@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 2 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,9 +17,9 @@
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5>A - Connected Speech: In spoken English the pronunciation of specific words may be changed within a sentence following two principles. Elision (When a sound disappears) 
+                <h5>A - Connected Speech: In spoken English the pronunciation of specific words may be changed within a sentence following two principles. Elision (When a sound disappears)
                     and Assimilation (When a sound is modified).</h5>
-                
+
                 <ul class="lista-inline">
                     <li><p>E.g.: Goo<b><u>d</u></b></p></li>
                     <li><p>Goo<b><u>d m</u></b>orning</p></li>

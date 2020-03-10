@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 18 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -33,7 +33,7 @@
 				<p><b>Laura: </b>Great, thanks.</p>
 				<p><b>Gleen: </b>Ok guys. By the way, this weekend I’m gonna watch Ragnarok with my wife and
 				my kids. Last week we saw Wonder woman. It was very nice.
-				Ok guys, have a great weekend. See you.</p>		
+				Ok guys, have a great weekend. See you.</p>
 				<figure>
 					<img src="{{ asset('assets/img/dominating/unit18/conversation.png') }}" alt="Garotos festejando">
 				</figure>

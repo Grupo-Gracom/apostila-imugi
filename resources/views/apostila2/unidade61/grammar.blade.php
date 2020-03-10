@@ -46,8 +46,7 @@
                     </table> 
 
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
-                    <h5 class="barlow">1 - Complete the Conditional Sentences Type III.
-                    Use conditional I with would in the main clause.</h5>
+                    <h5 class="barlow">1 - Complete the Conditional Sentences Type III.</h5>
                     <form id="unidade61grammar404" style="margin-top:32px" method="post">
                         <div class="metade">
                             <p>
@@ -79,7 +78,7 @@
                                     9. We <input type="text" name="grammar404-17"  placeholder="Responda aqui" required/>  (swim) in the sea if there <input type="text" name="grammar404-18"  placeholder="Responda aqui" required/> (be) so many sharks there. 
                                 </p>
                                 <p>
-                                    10. If she <input type="text" name="grammar404-19"  placeholder="Responda aqui" required/> (take) the bus, she <input type="text" name="grammar404-20"  placeholder="Responda aqui" required/> (arrive) on time. . 
+                                    10. If she <input type="text" name="grammar404-19"  placeholder="Responda aqui" required/> (take) the bus, she <input type="text" name="grammar404-20"  placeholder="Responda aqui" required/> (arrive) on time. 
                                 </p>
                             </p>
                         </div>

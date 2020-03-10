@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 23 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -35,8 +35,8 @@
 					<li><b>PLUG</b></li>
 					<li><b>SET UP</li>
 					<li><b>FIND OUT</b></li>
-				</ul>							
-				
+				</ul>
+
 			</div>
 		</div>
 	</main>

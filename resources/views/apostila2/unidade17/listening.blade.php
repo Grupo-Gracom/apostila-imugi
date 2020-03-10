@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 17 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -16,21 +16,21 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>                
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to the passage and answer the questions.</h5>                
-                <form class="metade" id="unidade17listening176" method="post">                  
+                <div class="clear"></div>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the passage and answer the questions.</h5>
+                <form class="metade" id="unidade17listening176" method="post">
                     <p>
-                        1 - Who is getting excited?                        
+                        1 - Who is getting excited?
                         <input type="text" placeholder="responda aqui !" name="listening176-1" class="full left-align" required>
                     </p>
-                    <p>                    
+                    <p>
                         2 - What called their attention.
                         <input type="text" placeholder="responda aqui !" name="listening176-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - How many companies are involved in the competition.
                         <input type="text" placeholder="responda aqui !" name="listening176-3" class="full left-align" required>
-                    </p>                                                   
+                    </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="17">

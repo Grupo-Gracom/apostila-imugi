@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 6 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,12 +17,12 @@
 					<source src="{{ asset('assets/audio6/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
-				
+
                 <h5 class="barlow" style="margin-top: 16px">A. Practice The Pronunciation Of The Letter D In The Beginning And Middle Of Words.</h5>
 				<div class="metade">
 					<ul class="lista-inline">
 						<li><b>long e</b></li>
-						<li>/i/</li>	
+						<li>/i/</li>
 						<li>Read</li>
 						<li>Meat</li>
 						<li>Seat</li>

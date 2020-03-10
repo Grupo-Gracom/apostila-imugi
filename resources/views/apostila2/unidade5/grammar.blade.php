@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 5 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,13 +17,13 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>     
-                
+                <div class="clear"></div>
+
                 <h5 class="barlow" style="margin-top: 16px">A - YES/NO QUESTIONS</h5>
 
                 <table class="metade center-align">
                     <tr>
-                        <td colspan="2"><p>Verb to Be</p></td>
+                        <td colspan="2"><h5>Verb to Be</h5></td>
                     </tr>
                     <tr>
                         <td><p><b>Are you</b> an illustrator?</p></td>
@@ -35,10 +35,10 @@
                     </tr>
                     <tr>
                         <td><p><b>Is it</b> a nice software for videos editing?</p></td>
-                        <td><p><b>Yes, It’s</b>  nice for editing./ Yes, It is.</p></td>                        
+                        <td><p><b>Yes, It’s</b>  nice for editing./ Yes, It is.</p></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><p>Other Verbs</p></td>
+                        <td colspan="2"><h5>Other Verbs</h5></td>
                     </tr>
                     <tr>
                         <td><p><b>Do we have</b> class tomorrow?</p></td>
@@ -50,12 +50,12 @@
                     </tr>
                     <tr>
                         <td><p><b>Do the clients need</b> a video?</p></td>
-                        <td><p><b>Yes, they</b> need a video./ <b>Yes, they do.</b></p></td>                        
+                        <td><p><b>Yes, they</b> need a video./ <b>Yes, they do.</b></p></td>
                     </tr>
-                </table>           
+                </table>
 
-                <p><b>EXERCISES</b></p>
-                <p class="barlow">1) Build up questions and give answers:</p>
+                <h5><b>EXERCISES</b></h5>
+                <h5 class="barlow">1) Build up questions and give answers:</h5>
                 <p><b>Example:</b> engineer / William Is William an engineer? Yes, he is an engineer. (+)</p>
                 <form id="unidade5grammar123" action="post" class="metade">
                     <p>1. Good designer / Steve<input type="text" name="grammar123-1" placeholder="Responda aqui" required>?<input type="text" name="grammar123-2" placeholder="Responda aqui" required>(+)</p>
@@ -68,7 +68,7 @@
                     <p>8. You / need help<input type="text" name="grammar123-15" placeholder="Responda aqui" required>?<input type="text" name="grammar123-16" placeholder="Responda aqui" required>(-)</p>
                     <p>9. They /go to school<input type="text" name="grammar123-17" placeholder="Responda aqui" required>?<input type="text" name="grammar123-18" placeholder="Responda aqui" required>(+)</p>
                     <p>10. You / play BF4<input type="text" name="grammar123-19" placeholder="Responda aqui" required>?<input type="text" name="grammar123-20" placeholder="Responda aqui" required>(-)</p>
-                    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="5">
@@ -77,8 +77,8 @@
                 </form>
 
 
-                <p class="barlow">2) Using the verbs below ,create questions to ask your friend.</p> 
-                
+                <h5 class="barlow">2) Using the verbs below ,create questions to ask your friend.</h5>
+
                 <ul class="lista-inline">
                     <li><p>Study</p></li>
                     <li><p>Play</p></li>
@@ -94,51 +94,52 @@
                     <li><p>Close</p></li>
                     <li><p>Help</p></li>
                 </ul>
+                <div style="margin-top:32px">
+                    <form id="unidade5grammar124"  action="post" >
+                        <div class="metade umterco">
+                            <p>1.<input type="text" name="grammar124-1" placeholder="Responda aqui" class="full left-align" required></p>
+                            <p>2.<input type="text" name="grammar124-2" placeholder="Responda aqui" class="full left-align" required></p>
+                            <p>3.<input type="text" name="grammar124-3" placeholder="Responda aqui" class="full left-align" required></p>
+                            <p>4.<input type="text" name="grammar124-4" placeholder="Responda aqui" class="full left-align" required></p>
+                            <p>5.<input type="text" name="grammar124-5" placeholder="Responda aqui" class="full left-align" required></p>
+                            <p>6.<input type="text" name="grammar124-6" placeholder="Responda aqui" class="full left-align" required></p>
+                        </div>
+                        <div class="metade umterco">
+                            <p>7.<input type="text" name="grammar124-7" placeholder="Responda aqui" class="full left-align" required></p>
+                            <p>8.<input type="text" name="grammar124-8" placeholder="Responda aqui" class="full left-align" required></p>
+                            <p>9.<input type="text" name="grammar124-9" placeholder="Responda aqui" class="full left-align" required></p>
+                            <p>10.<input type="text" name="grammar124-10" placeholder="Responda aqui" class="full left-align" required></p>
+                            <p>11.<input type="text" name="grammar124-11" placeholder="Responda aqui" class="full left-align" required></p>
+                            <p>12.<input type="text" name="grammar124-12" placeholder="Responda aqui" class="full left-align" required></p>
+                        </div>
+                        <div class="clear"></div>
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="5">
+                        <input type="hidden" name="atividade_id" value="124">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
 
-                <form id="unidade5grammar124" action="post" >
-                    <div class="metade umterco">
-                        <p>1.<input type="text" name="grammar124-1" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p>2.<input type="text" name="grammar124-2" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p>3.<input type="text" name="grammar124-3" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p>4.<input type="text" name="grammar124-4" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p>5.<input type="text" name="grammar124-5" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p>6.<input type="text" name="grammar124-6" placeholder="Responda aqui" class="full left-align" required></p>                      
-                    </div>
-                    <div class="metade umterco">
-                        <p>7.<input type="text" name="grammar124-7" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p>8.<input type="text" name="grammar124-8" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p>9.<input type="text" name="grammar124-9" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p>10.<input type="text" name="grammar124-10" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p>11.<input type="text" name="grammar124-11" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p>12.<input type="text" name="grammar124-12" placeholder="Responda aqui" class="full left-align" required></p>
-                    </div>
-                    <div class="clear"></div> 
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="5">
-                    <input type="hidden" name="atividade_id" value="124">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+                    <h5 class="barlow" style="margin-top:16px">3) Describe the Sequence you follow to do the following tasks.</h5>
+                    <ul>
+                        <li><p>Install an app in your cell phone.</p></li>
+                        <li><p>Eliminate the red eyes of pictures.</p></li>
+                        <li><p>Create a Photo Shop work.</p></li>
+                        <li><p>Install a game in your computer.</p></li>
+                    </ul>
+                    <form id="unidade5grammar431" action="post" class="metade">
+                        <p><input type="text" name="grammar431-1" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p><input type="text" name="grammar431-2" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p><input type="text" name="grammar431-3" placeholder="Responda aqui" class="full left-align" required></p>
+                        <p><input type="text" name="grammar431-4" placeholder="Responda aqui" class="full left-align" required></p>
 
-                <p class="barlow">3) Describe the Sequence you follow to do the following tasks.</p>
-                <ul>
-                    <li><p>Install an app in your cell phone.</p></li>
-                    <li><p>Eliminate the red eyes of pictures.</p></li>
-                    <li><p>Create a Photo Shop work.</p></li>
-                    <li><p>Install a game in your computer.</p></li>
-                </ul>
-                <form id="unidade5grammar431" action="post" class="metade">
-                    <p><input type="text" name="grammar431-1" placeholder="Responda aqui" class="full left-align" required></p>
-                    <p><input type="text" name="grammar431-2" placeholder="Responda aqui" class="full left-align" required></p>
-                    <p><input type="text" name="grammar431-3" placeholder="Responda aqui" class="full left-align" required></p>
-                    <p><input type="text" name="grammar431-4" placeholder="Responda aqui" class="full left-align" required></p>
-                    
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="5">
-                    <input type="hidden" name="atividade_id" value="431">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>               
+                        <input type="hidden" name="_token" value="{{csrf_token()}}">
+                        <input type="hidden" name="resposta_id" value="0">
+                        <input type="hidden" name="unidade_id" value="5">
+                        <input type="hidden" name="atividade_id" value="431">
+                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                    </form>
+                </div>
 			</div>
 		</div>
     </main>
@@ -204,7 +205,7 @@
             }
         });
 
-        
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

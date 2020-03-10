@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 1 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -17,14 +17,14 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 1/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                
+
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade1listening104" method="post">
-                    <p>“Ok. My name is Lars Scholten. I’m a<input type="text" name="listening104-1" placeholder="Responda aqui" required>from 
+                    <p>“Ok. My name is Lars Scholten. I’m a<input type="text" name="listening104-1" placeholder="Responda aqui" required>from
                     <input type="text" name="listening104-2" placeholder="Responda aqui" required>an also a<input type="text" name="listening104-3" placeholder="Responda aqui" required>
                     at college of<input type="text" name="listening104-4" placeholder="Responda aqui" required>in<input type="text" name="listening104-5" placeholder="Responda aqui" required>.<input type="text" name="listening104-6" placeholder="Responda aqui" required>
                     I want to<input type="text" name="listening104-7" placeholder="Responda aqui" required>you some new features of Cinema 4D R16.”</p>
-                    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">

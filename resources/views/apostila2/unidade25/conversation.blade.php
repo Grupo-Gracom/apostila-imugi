@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 25 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -26,7 +26,7 @@
 								and when you arrive, you go on with the activities</p>
 				<p><b>Gleen:</b>  I might be absent, but Mr. Antony is aware of everything and if necessary he’ll take over the class ok.</p>
 				<p><b>Students:</b> ok teacher, don’t worry. Everything is gonna be ok. (to be continued…)</p>
-				
+
 				<figure>
 					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
 				</figure>

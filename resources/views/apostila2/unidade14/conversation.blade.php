@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 14 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -30,7 +30,7 @@
 				<p><b>Gleen: </b>Wow. I want to see the final work ok. I’m sure everybody is curious about it.</p>
 				<p><b>Laura: </b>Oh! that’s ok. I’ll bring it in the next class. Thanks for supporting me guys. You are
 				awesome.</p>
-				<p><b>Gleen and students: </b>Gongrats Laura.</p>				
+				<p><b>Gleen and students: </b>Gongrats Laura.</p>
 				<figure>
 					<img src="{{ asset('assets/img/dominating/unit14/conversation.png') }}" alt="Garotos festejando">
 				</figure>

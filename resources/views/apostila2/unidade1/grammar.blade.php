@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 1 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -18,8 +18,7 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 1/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
 				</audio>
 
-                <div class="clear"></div>               
-                         
+                <div class="clear"></div>
                     <table class="metade center-align">
                             <tr>
                                 <td><p class="barlow upper"><b>Affirmative</b></p></td>
@@ -29,51 +28,51 @@
                             <tr>
                                 <td><p><b>I am </b>a video Maker.(I´m)</p></td>
                                 <td><p>I<b> am not</b> a video Maker</p></td>
-                                <td><p><b>Am</b>I a video maker ?</p></td>                                
+                                <td><p><b>Am</b>I a video maker ?</p></td>
                             </tr>
                             <tr>
                                 <td><p>You <b>are</b> a Game Developer.(You´re)</p></td>
                                 <td><p>You <b>are not</b> a...</p></td>
                                 <td><p><b>Are</b> you a... ?</p></td>
-                                
+
                             </tr>
                             <tr>
                                 <td><p>He <b>is</b> a Youtuber.(He´s)</p></td>
                                 <td><p>He <b>is not</b> a...</p></td>
-                                <td><p><b>Is</b> he a... ?</p></td>                    
+                                <td><p><b>Is</b> he a... ?</p></td>
                             </tr>
                             <tr>
                                 <td><p>She <b>is</b> in the office.(She´s)</p></td>
                                 <td><p>She  <b>is not</b> in...</p></td>
-                                <td><p><b>Is</b> she in... ?</p></td>                                
+                                <td><p><b>Is</b> she in... ?</p></td>
                             </tr>
                             <tr>
                                 <td><p>It <b>is</b> a nice software.(It´s)</p></td>
                                 <td><p>It <b>is not</b> a...</p></td>
-                                <td><p><b>Is</b> it a...?</p></td>                                
+                                <td><p><b>Is</b> it a...?</p></td>
                             </tr>
                             <tr>
                                 <td><p>We <b>are</b> a very happy.(We´re)</p></td>
                                 <td><p>We <b>are not</b>...</p></td>
-                                <td><p><b>Are</b> we...?</p></td>                                
+                                <td><p><b>Are</b> we...?</p></td>
                             </tr>
                             <tr>
                                 <td><p>You <b>are</b> focused.(You´re)</p></td>
                                 <td><p>You <b>are not</b>...</p></td>
-                                <td><p><b>Are</b> you...?</p></td>                                
+                                <td><p><b>Are</b> you...?</p></td>
                             </tr>
                             <tr>
                                 <td><p>They <b>are</b> in New York.(They´re)</p></td>
                                 <td><p>They <b>are not</b>...</p></td>
-                                <td><p><b>Are</b> they...?</p></td>                                
+                                <td><p><b>Are</b> they...?</p></td>
                             </tr>
-                    </table>                
-                                   
+                    </table>
+
                 <br>
 
                     <div class="clear"></div>
 
-               
+
                 <table class="metade center-align">
                     <tr>
                         <td></td>
@@ -91,17 +90,17 @@
                         <td><p>ARE</p></td>
                     </tr>
                 </table>
-                
-                                   
+
+
                 <div class="clear"></div>
 
                 <p><b>Examples:</b></p>
-                
+
                 <p>Aff(+): I <b>am</b> a Special effects specialist. | We <b>are</b> excited to start the class.</p>
                 <p>Neg(-): I <b>am</b> not a Special Effects specialist | We <b>are not</b> excited to start the class</p>
                 <p>Int(?): <b>Are</b> you a special effects specialist? | <b>Are</b> you excited to start the class?</p>
                 <p><b>Contractions: </b>Is + no = <b>isn’t</b> | are + not =<b> aren’t</b></p>
-                
+
                 <p><b>EXERCISES:</b></p>
                 <h5 class="barlow">A - Choose the best answer:</h5>
                 <form id="unidade1grammar100" method="post">
@@ -152,7 +151,7 @@
                         <p>4. Salem and Lucky / friends (+) <input type="text" name="grammar102-5" placeholder="Responda aqui" class="full left-align" required></p>
                         <p>5. Rome / London / cities (+) <input type="text" name="grammar102-6" placeholder="Responda aqui" class="full left-align" required></p>
                     </div>
-                                        
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
@@ -170,7 +169,7 @@
                     <input type="hidden" name="unidade_id" value="1">
                     <input type="hidden" name="atividade_id" value="103">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
 			</div>
 		</div>
     </main>
@@ -253,7 +252,7 @@
                 enviarAtividade($('#unidade1grammar103'), respostas);
             }
         });
-        
+
         function checkAtividade(atividade_id){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,

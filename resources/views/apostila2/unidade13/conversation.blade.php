@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 13 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -21,8 +21,8 @@
 				<p><b>Gleen :</b>  Well, I had a small accident yesterday. I twisted my ankle, feel down and hit my
 				right knee on the floor. But I’m ok guys. I went to the orthopedics and it’s nothing
 				serious. Let’s start the class?</p>
-				<p><b>John :</b>  Teacher, can I share something?</p>				
-				<p><b>Glenn :</b> Yes, of course. What´s up?</p>			 
+				<p><b>John :</b>  Teacher, can I share something?</p>
+				<p><b>Glenn :</b> Yes, of course. What´s up?</p>
 				<p><b>John: </b>Do you remember I told you about the new magazine on movie making and
 				games? Well, We are going to start working on it next month, after Comic-con. Next
 				week I’m traveling to New York to visit a company specialized animation. They created GTA. One of

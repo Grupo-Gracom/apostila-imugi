@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 12 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -24,7 +24,7 @@
 				<p><b>Gleen :</b>  Do you know who’s gonna be in this edition giving a Workshop on 3D modeling?
 				Nothing less than Kris Costa. Hulk and king kong creator.</p>
 				<p><b>Akira :</b>  No way, you’re kidding! As soon as I get home I’ll check the site and I’ll enroll myself to participate of his workshop. Kris Costa is one of the most famous Brazilian artists.
-				He works for Industrial Light & Magic. Gee ! I can’t believe it. Now I’m more excited than before. Teacher, can I leave earlier? I have to enroll for this workshop.</p>				
+				He works for Industrial Light & Magic. Gee ! I can’t believe it. Now I’m more excited than before. Teacher, can I leave earlier? I have to enroll for this workshop.</p>
 				<p><b>Glenn :</b> Take it easy Akira. There’s plenty of time for you to enroll. Don’t worry, we’re about to finish our class ok.</p>
 				<figure>
 					<img src="{{ asset('assets/img/dominating/unit12/conversation.png') }}" alt="Garotos festejando">

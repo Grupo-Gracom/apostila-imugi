@@ -1,23 +1,23 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 15 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade15" data-etapa="understanding">
                 <h3 class="barlow">UNIT 15</h3>
-                <h5 class="barlow">6 - UNDERSTANDING</h5>                               
-                <form class="metade" id="unidade15understanding431" method="post">                                   
+                <h5 class="barlow">6 - UNDERSTANDING</h5>
+                <form class="metade" id="unidade15understanding431" method="post">
                     <p>
-                        1 - How is Akira before the Comic com?                        
+                        1 - How is Akira before the Comic com?
                         <input type="text" placeholder="responda aqui !" name="understanding431-1" class="full left-align" required>
                     </p>
-                    <p>                    
+                    <p>
                         2 - What’s Akira’s biggest expectation?
                         <input type="text" placeholder="responda aqui !" name="understanding431-2" class="full left-align" required>
                     </p>
@@ -32,7 +32,7 @@
                     <p>
                         5 - What kind of equipment did he use to start.?
                         <input type="text" placeholder="responda aqui !" name="understanding431-5" class="full left-align" required>
-                    </p>                    
+                    </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="15">

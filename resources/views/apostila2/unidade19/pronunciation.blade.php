@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 19 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -16,14 +16,14 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear espacamento"></div>             
-                <p class="esquerda" style="color:green;">ow sound /aʊ/</p>                
-                <ul class="lista-inline">                                        
-                    <li><b>FoundHouse</b></li>                    
-                    <li><b>Brown</b></li>                    
-                    <li><b>South</b></li>                    
-                    <li><b>Down</b></li>                    
-                    <li><b>Town</b></li>                                   
+                <div class="clear espacamento"></div>
+                <p class="esquerda" style="color:green;">ow sound /aʊ/</p>
+                <ul class="lista-inline">
+                    <li><b>FoundHouse</b></li>
+                    <li><b>Brown</b></li>
+                    <li><b>South</b></li>
+                    <li><b>Down</b></li>
+                    <li><b>Town</b></li>
                 </ul>
                 <div class="clear"></div>
                 <p>I founf a brown house in south down town.</p>

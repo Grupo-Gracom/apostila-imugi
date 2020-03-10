@@ -1,11 +1,11 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 16 | listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -16,15 +16,15 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
-                <div class="clear"></div>               
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                
-                <form class="full" id="unidade16listening171" method="post">                   
-                    <p>Where <input type="text" placeholder="responda aqui !" name="listening171-1" class="inputmedio left-align" required> 
-                    the candidates for the position ? For <input type="text" placeholder="responda aqui !" name="listening171-2" class="inputmedio left-align" required>, 
+                <div class="clear"></div>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form class="full" id="unidade16listening171" method="post">
+                    <p>Where <input type="text" placeholder="responda aqui !" name="listening171-1" class="inputmedio left-align" required>
+                    the candidates for the position ? For <input type="text" placeholder="responda aqui !" name="listening171-2" class="inputmedio left-align" required>,
                     your sister was the best movie maker to <input type="text" placeholder="responda aqui !" name="listening171-3" class="inputmedio left-align" required>
-                    in this project. She knows a lot. She was the <input type="text" placeholder="responda aqui !" name="listening171-4" class="inputmedio left-align" required> 
-                    video maker to use Sony Vegas . I get <input type="text" placeholder="responda aqui !" name="listening171-5" class="inputmedio left-align" required> 
-                    with her <input type="text" placeholder="responda aqui !" name="listening171-6" class="inputmedio left-align" required>.</p>                                      
+                    in this project. She knows a lot. She was the <input type="text" placeholder="responda aqui !" name="listening171-4" class="inputmedio left-align" required>
+                    video maker to use Sony Vegas . I get <input type="text" placeholder="responda aqui !" name="listening171-5" class="inputmedio left-align" required>
+                    with her <input type="text" placeholder="responda aqui !" name="listening171-6" class="inputmedio left-align" required>.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="16">
