@@ -16,12 +16,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 17/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-<<<<<<< HEAD
-				<div class="clear"></div>
-				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>		
-=======
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
->>>>>>> 7867b387e9c143396f7f3f8543ca022c75f804f7
 				<table class="espacamento">
 					<tr>
 						<td><p>TO WAIT FOR /somebody /an opportunity</p></td>
@@ -33,7 +28,6 @@
 					</tr>
 					<tr>
 						<td><p>TO UNDERSTAND / a question / a problem</p></td>
-<<<<<<< HEAD
 						<td><p>TO WANT / something badly</p></td>                        
 					</tr>                                        
 				</table>				
@@ -41,12 +35,6 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 17/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-=======
-						<td><p>TO WANT / something badly</p></td>
-					</tr>
-				</table>
-				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
->>>>>>> 7867b387e9c143396f7f3f8543ca022c75f804f7
 				<ul class="lista-inline">
 					<li><b>Crossing </b></li>
 					<li><b>Sharing </b></li>
