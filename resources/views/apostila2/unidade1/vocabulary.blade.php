@@ -15,8 +15,9 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 1/1. VOCABULARY/VOCABULARY A.ogg') }}" type="audio/ogg">
 				</audio>
+				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A - CARDINAL NUMBERS / ORDINAL NUMBERS</h5>
 							
 				<table class="metade center-align">
@@ -56,11 +57,13 @@
 						<td><p>10 - ten</p></td>
 						<td><p>10th - tenth</p></td>
 					</tr>
-				</table>
-								
-				<div class="clear"></div>			
-				
+				</table>								
+				<div class="clear"></div>				
 				<h5 class="barlow" style="margin-top: 16px">B – WORDS IN CONTEXT</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 1/1. VOCABULARY/VOCABULARY B.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>
 				<ul class="lista-inline">
 					<li><p><b>What’s up</b></p></li>
 					<li><p><b>Congrats</b></p></li>

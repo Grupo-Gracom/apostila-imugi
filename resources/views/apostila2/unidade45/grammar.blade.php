@@ -105,129 +105,76 @@
                     <p><b><span>f)</SPAN> he wanted to learn French</b></p>
                 </div>                                     
                 <div class="clear"></div>               
-				<form class="quasefull" id="unidade44grammar313" method="post">
-                    <P><b>1.</b> <input type="text" placeholder="responda aqui !" name="grammar313-1" class="inputpequeno left-align" required>
+				<form class="quasefull" id="unidade45grammar319" method="post">
+                    <P><b>1.</b> <input type="text" placeholder="responda aqui !" name="grammar319-1" class="inputpequeno left-align" required>
                     He phoned the police because he’d lost his wallet. 
-                    <input type="text" placeholder="responda aqui !" name="grammar313-1" class="inputpequeno left-align" required></P>
-                    <P><b>2.</b><input type="text" placeholder="responda aqui !" name="grammar313-1" class="quasefull left-align" required></P>
-                    <P><b>3.</b>_______________________________________________________________________</P>
-                    <P><b>4.</b>_______________________________________________________________________</P>
-                    <P><b>5.</b>_______________________________________________________________________</P>
-                    <P><b>6.</b>_______________________________________________________________________</P>
-                    <p>
-                        1 - She has plenty of money, but she is very mean. <b>(although)</b>                        
-                        <input type="text" placeholder="responda aqui !" name="grammar313-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        2 - They have a car, but they rarely use it. <b>(though)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar313-2" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 - He was innocent, but he was sent to prison. <b>(although)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar313-3" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - He was a number of relatives living nearby, but he never visits them. <b>(even though)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar313-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - She never takes any kind of exercise, but she is quite fit and healthy. <b>(even though)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar313-5" class="full left-align" required>
-                    </p>                    
+                    <input type="text" placeholder="responda aqui !" name="grammar319-1" class="inputpequeno left-align" required></P>
+                    <P><b>2.</b><input type="text" placeholder="responda aqui !" name="grammar319-2" class="quasefull left-align" required></P>
+                    <P><b>3.</b><input type="text" placeholder="responda aqui !" name="grammar319-3" class="quasefull left-align" required></P>
+                    <P><b>4.</b><input type="text" placeholder="responda aqui !" name="grammar319-4" class="quasefull left-align" required></P>
+                    <P><b>5.</b><input type="text" placeholder="responda aqui !" name="grammar319-5" class="quasefull left-align" required></P>
+                    <P><b>6.</b><input type="text" placeholder="responda aqui !" name="grammar319-6" class="quasefull left-align" required></P>                   
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="44">
-                    <input type="hidden" name="atividade_id" value="313">
+                    <input type="hidden" name="unidade_id" value="45">
+                    <input type="hidden" name="atividade_id" value="319">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>                
-                <h5 class="barlow">B - Rephrase the sentences using the words in brackets and a noun:</h5>
-				<form class="quasefull" id="unidade44grammar314" method="post">                                                                                                                   
-                    <p>
-                        1 - They went out for a walk, even though the weather was bad. <b>(despite)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-1" class="full left-align" required>
-                    </p>
-                    <p>
-                        2 - She managed to write, even though her hand was injured. <b>(in spite of)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-2" class="full left-align" required>
-                    </p>
-                    <p>
-                        3 - All the trains were on time, even though the snow was heavy. <b>(despite)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-3" class="full left-align" required>
-                    </p>
-                    <p>
-                        4 - Our coach didn’t arrive late, even though the traffic was terrible. <b>(in spite of)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-4" class="full left-align" required>
-                    </p>
-                    <p>
-                        5 - A lot of people buy those houses, even though the prices are high. <b>(despite)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-5" class="full left-align" required>
-                    </p>
-                    <p>
-                        6 - He stayed up late, even though he was very tired. <b>(despite)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-6" class="full left-align" required>
-                    </p>
-                    <p>
-                        7 - I didn’t buy the car, even though I had the money. <b>(despite)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-7" class="full left-align" required>
-                    </p>
-                    <p>
-                        8 - He stayed outside in the cold weather, even though he felt ill. <b>(despite)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-8" class="full left-align" required>
-                    </p>
-                    <p>
-                        9 -  People continue to smoke, even though they know the dangers. <b>(in spite of)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-9" class="full left-align" required>
-                    </p>                                                          
+                <h5 class="barlow">B - Choose the correct answers:</h5>
+				<form class="quasefull" id="unidade45grammar320" method="post">
+                    <p><b>1.</b> <input type="radio" name="grammar320-1" value="1" required>
+                    <b><b>As</b> / <input type="radio" name="grammar320-1" value="1" required>
+                    </b><b>As a result</b> it was such a beautiful day, we decided to have a picnic.</p>
+
+                    <p><b>2.</b> It was his birthday <input type="radio" name="grammar320-2" value="1" required>
+                    <b>because</b> / <input type="radio" name="grammar320-2" value="1" required><b>so</b> 
+                    we decided to buy him a present.</p>
+
+                    <p><b>3.</b> <input type="radio" name="grammar320-3" value="1" required>
+                    <b>As a result</b> / <input type="radio" name="grammar320-3" value="1" required>
+                    <b>Since</b> all the seats on the train were taken, we had to stand.</p>
+
+                    <p><b>4.</b> The banks were closed and <input type="radio" name="grammar320-4" value="1" required>
+                    <b>as a result</b> / <input type="radio" name="grammar320-4" value="1" required>
+                    <b>because</b> we couldn’t get any money.</p>
+
+                    <p><b>5.</b> I didn’t find the book very interesting and <input type="radio" name="grammar320-5" value="1" required>
+                    <b>so</b> / <input type="radio" name="grammar320-5" value="1" required>
+                    <b>as</b> I didn’t finish it.</p>
+
+                    <p><b>6.</b> We couldn’t drive across the bridge <input type="radio" name="grammar320-6" value="1" required>
+                    <b>as a result</b> / <input type="radio" name="grammar320-6" value="1" required>
+                    <b>because</b> it was closed.</p>
+
+                    <p><b>7.</b> She had the best qualifications and she <input type="radio" name="grammar320-7" value="1" required>
+                    <b>so</b> / <input type="radio" name="grammar320-7" value="1" required>
+                    <b>therefore</b> got the job.</p>
+
+                    <p><b>8.</b> I haven’t got much money <input type="radio" name="grammar320-8" value="1" required>
+                    <b>as</b> / <input type="radio" name="grammar320-8" value="1" required>
+                    <b>so</b> I can’t afford a new car.</p>
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="44">
-                    <input type="hidden" name="atividade_id" value="314">
+                    <input type="hidden" name="unidade_id" value="45">
+                    <input type="hidden" name="atividade_id" value="320">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow" style="margin-top: 16px;">C - Rewrite the following sentences beginning them with the given words:</h5>    
-                <form id="unidade44grammar315" method="post">
-                    <p>1. He worked hard, but he couldn’t pass the test.</p>
-                    <p>In spite of <input type="text" placeholder="responda aqui !" name="grammar315-1" class="quasefull left-align" required></p>
-                    <p>2. It was late, but we decided to go out.</p>
-                    <p>Although <input type="text" placeholder="responda aqui !" name="grammar315-2" class="quasefull left-align" required></p>
-                    <p>3. She is rich, but she is not happy.</p>
-                    <p>Despite <input type="text" placeholder="responda aqui !" name="grammar315-3" class="quasefull left-align" required></p>
-                    <p>4. She had a bad teacher. Still, she passed her exams.</p>
-                    <p>In spite of <input type="text" placeholder="responda aqui !" name="grammar315-4" class="quasefull left-align" required></p>
-                    <p>5. She lives next door but we rarely see each other.</p>
-                    <p>Although <input type="text" placeholder="responda aqui !" name="grammar315-5" class="quasefull left-align" required></p>
-                    <p>6. He faced many setbacks, but he didn’t lose hope.</p>
-                    <p>In spite of <input type="text" placeholder="responda aqui !" name="grammar315-6" class="quasefull left-align" required></p>
-                    <p>7. Although she is a foreigner, she speaks English remarkably well.</p>
-                    <p>In spite of <input type="text" placeholder="responda aqui !" name="grammar315-7" class="quasefull left-align" required></p>
-                    <p>8. In spite of earning a good salary, she finds it difficult to make both ends meet.</p>
-                    <p>Although <input type="text" placeholder="responda aqui !" name="grammar315-8" class="quasefull left-align" required></p>
-                    <p>9. She lives close to her office; however, she is always late for work.</p>
-                    <p>In spite of <input type="text" placeholder="responda aqui !" name="grammar315-9" class="quasefull left-align" required></p>
-                    <p>10. Although she works three jobs in a day, she makes it a point to spend quality time with her kids.</p>
-                    <p>In spite of <input type="text" placeholder="responda aqui !" name="grammar315-10" class="quasefull left-align" required></p>                                        
+                <figure>
+					<img src="{{ asset('assets/img/dominating/unit45/grammar.png') }}" alt="Garotos festejando">
+				</figure>       
+                <h5 class="barlow" style="margin-top: 16px;">C -  In groups of 3 or 4, debate what could the bone to bring the movies and games universe
+                to the classroom to improve students interest and learning. Use the linking words to draw
+                a conclusion.</h5>    
+                <form id="unidade45grammar321" method="post">
+                    <textarea name="grammar321-1" class="center-align" placeholder="Responda aqui" required></textarea>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="44">
-                    <input type="hidden" name="atividade_id" value="315">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-                <h5 class="barlow" style="margin-top: 16px;">D -  Prepare a presentation about positive and negative aspects of use of internet by children
-                and teenagers. Use the linking words for contrasting your ideas. Be prepared to come up
-                with ideas on how to use internet effectively</h5>    
-                <form id="unidade44grammar316" method="post">
-                    <textarea name="grammar316-1" class="center-align" placeholder="Responda aqui" required></textarea>
-                    <div class="clear"></div>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="44">
-                    <input type="hidden" name="atividade_id" value="316">
+                    <input type="hidden" name="unidade_id" value="45">
+                    <input type="hidden" name="atividade_id" value="321">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>                                              
                 <div class="clear"></div>        
-                <figure>
-					<img src="{{ asset('assets/img/dominating/unit44/grammar.png') }}" alt="Garotos festejando">
-				</figure>                      
 			</div>
 		</div>
     </main>
@@ -236,75 +183,60 @@
 
         $("form").each(function(){
             var atividade_id = $(this).find('input[name="atividade_id"]').val();
-            checkAtividade(atividade_id);
+            var inputType = $(this).find('input').attr('type');
+            checkAtividade(atividade_id, inputType);
         });
 
-        $("#unidade44grammar313").submit(function(e){
+        $("#unidade45grammar319").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade44grammar313 input[type="text"]').each(function(index){
-                if(($('#unidade44grammar313 input[type="text"]').length - 1) == index){
+            $('#unidade45grammar319 input[type="text"]').each(function(index){
+                if(($('#unidade45grammar319 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade44grammar313 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade44grammar313'), respostas);
+            if($('#unidade45grammar319 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade45grammar319'), respostas);
             }else{
-                enviarAtividade($('#unidade44grammar313'), respostas);
+                enviarAtividade($('#unidade45grammar319'), respostas);
             }
         });
 
-        $("#unidade44grammar314").submit(function(e){
+        
+        $("#unidade45grammar320").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade44grammar314 input[type="text"]').each(function(index){
-                if(($('#unidade44grammar314 input[type="text"]').length - 1) == index){
+            $('#unidade45grammar320 input[type="radio"]:checked').each(function(index){
+                if(($('#unidade45grammar320 input[type="radio"]:checked').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade44grammar314 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade44grammar314'), respostas);
+            if($('#unidade45grammar320 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade45grammar320'), respostas);
             }else{
-                enviarAtividade($('#unidade44grammar314'), respostas);
+                enviarAtividade($('#unidade45grammar320'), respostas);
             }
         });
 
-        $("#unidade44grammar315").submit(function(e){
+        $("#unidade45grammar321").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade44grammar315 input[type="text"]').each(function(index){
-                if(($('#unidade44grammar315 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
-            if($('#unidade44grammar315 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade44grammar315'), respostas);
+            var respostas = '{"'+$('#unidade45grammar321 textarea').attr("name")+'":"'+$('#unidade45grammar321 textarea').val()+'"}';
+            if($('#unidade45grammar321 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade45grammar321'), respostas);
             }else{
-                enviarAtividade($('#unidade44grammar315'), respostas);
+                enviarAtividade($('#unidade45grammar321'), respostas);
             }
         });
+       
 
-        $("#unidade44grammar316").submit(function(e){
-            e.preventDefault();
-            $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade44grammar316 textarea').attr("name")+'":"'+$('#unidade44grammar316 textarea').val()+'"}';
-            if($('#unidade44grammar316 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade44grammar316'), respostas);
-            }else{
-                enviarAtividade($('#unidade44grammar316'), respostas);
-            }
-        });
-      
-        function checkAtividade(atividade_id){
+        function checkAtividade(atividade_id, inputType){
             request = $.ajax({
                 url: window.location.pathname+'/respostasCheck/'+atividade_id,
                 type: 'get',
@@ -319,15 +251,22 @@
                     var objeto = JSON.parse(response[0].resposta_respostas);
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
-                    for(j = 0; j < respostas.length; j++){
-                        $('#unidade44grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade44grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade44grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade44grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                    }
-                    $('#unidade44grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade44grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                     
+                    console.log('tipo input -> ' + inputType);
+                    if(inputType === 'radio'){
+                        for(j = 0; j < respostas.length; j++){
+                            $('#unidade45grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);                    
+                        }
+                    }else{
+                        for(j = 0; j < respostas.length; j++){
+                            $('#unidade45grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                            $('#unidade45grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                            $('#unidade45grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                            $('#unidade45grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        }
+                    }                    
+                    $('#unidade45grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade45grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
@@ -382,5 +321,7 @@
                 }
             });
         }
+
     </script>
+
 @endsection

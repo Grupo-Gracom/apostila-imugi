@@ -14,8 +14,9 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit9/Vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 9/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
+				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A -  PREPOSITIONS</h5>
 				<div style="margin-top: 36px">
 					<figure>

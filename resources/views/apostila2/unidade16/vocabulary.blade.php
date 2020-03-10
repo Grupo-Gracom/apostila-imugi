@@ -14,8 +14,9 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
-				</audio>				
+					<source src="{{ asset('assets/audio/apostila2/UNIT 16/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>				
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>				
 				<p>TO AGREE WITH /somebody / a friend</p>
 				<p>TO KNOW / a person / something</p>
@@ -24,6 +25,10 @@
 				<p>TO SHARE / information / an apartment / love</p>
 				<p>TO FEEL / sorry / comfortable / happy / sad / free</p>				
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>				
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 16/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>				
 				<ul class="lista-inline">
 					<li><b>understood</b></li>
 					<li><b>Kind</b></li>

@@ -14,8 +14,9 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit8/Vocabulary/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 8/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
+				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A -  SHORT / LONG ADJECTIVES</h5>
 				<ul class="lista-inline">
 					<li><b>SHORT ></b></li>
@@ -40,6 +41,10 @@
 					<li>Difficult</li>
 				</ul>
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 8/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>
 				<ul class="lista-inline">
 					<li><b>Mind-blowing</b></li>
 					<li><b>Little bit</b></li>
@@ -56,5 +61,4 @@
 	<script>
         activeMenu();
     </script>
-
 @endsection

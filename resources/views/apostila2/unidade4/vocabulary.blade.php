@@ -15,8 +15,9 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 4/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
+				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A - ADVERBS OF FREQUENCY</h5>
 
 				<ul class="lista-inline">
@@ -40,10 +41,17 @@
 				</ul>
 				
 				<h5 class="barlow" style="margin-top: 16px">C - NAVIGATION / ORIENTATION VOCABULARY</h5>
-
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 4/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>
                 <p>IMAGENS</p>
 
                 <h5 class="barlow" style="margin-top: 16px">D - WORDS IN CONTEXT</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 4/1. VOCABULARY/3. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>
 				
 				<ul class="lista-inline">
 					<li><b>IMPROVE</b></li>

@@ -17,16 +17,17 @@
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear espacamento"></div>                             
-                <h5 class="barlow">Improving pronunciation - / k / / q /.</h5>
+                <h5 class="barlow">Improving pronunciation - / tt / / dd /.</h5>
                 <div class="metade esquerda center-align">
-                    <p><b>K</b>angaroo</p>
-                    <p>Wa<b>k</b>e</p>
-                    <p><b>K</b>oo<b>k</b></p>                    
+                    <p>Ma<b>tt</b>er</p>
+                    <p>Ba<b>tt</b>leBi<b>tt</b>er</p>
+                    <p>Li<b>tt</b>le</p>                    
                 </div>
                 <div class="metade direita center-align">
-                    <p><b>K</b>now</p>
-                    <p><b>Quo</b>te</p>
-                    <p><b>Que</b>stion</p>                    
+                    <p>Da<b>dd</b>y</p>
+                    <p>Su<b>dd</b>enly</p>
+                    <p>Di<b>dd</b>lo</p>                    
+                    <p>A<b>dd</b> it</p>                    
                 </div>
                 <div class="clear"></div>                             
 			</div>

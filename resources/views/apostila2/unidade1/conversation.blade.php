@@ -16,7 +16,7 @@
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 1/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<p><b>Gleen :</b> Hey you guys. What’s up? My name is Gleen, I’m your new teacher and I’m excited to start this
 							second part of the course with you. First of all, congrats on your dedication during the PhotoShop

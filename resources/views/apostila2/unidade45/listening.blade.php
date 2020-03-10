@@ -17,20 +17,23 @@
 					<source src="{{ asset('assets/audio/unit1/listining/listining_a.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>                
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and answer the questions below.</h5>                                
-                <form class="quasefull" id="unidade44listening317" method="post">
-                    <p>
-                        1 - What are the advantages of working for a big company?                        
-                        <input type="text" placeholder="responda aqui !" name="listening317-1" class="full left-align" required>
-                    </p>
-                    <p>                    
-                        2 - What is slower in a small company?
-                        <input type="text" placeholder="responda aqui !" name="listening317-2" class="full left-align" required>
-                    </p> 
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                                
+                <form class="quasefull" id="unidade45listening322" method="post">
+                    
+                    <p>In our last <input type="text" placeholder="responda aqui !" name="listening322-1" class="inputpequeno left-align" required>,
+                    Mark, the magazine director <input type="text" placeholder="responda aqui !" name="listening322-2" class="inputpequeno left-align" required>
+                    many things that he liked about our job. <input type="text" placeholder="responda aqui !" name="listening322-3" class="inputpequeno left-align" required>
+                    the quality of the job, other elements must be considered when you 
+                    <input type="text" placeholder="responda aqui !" name="listening322-4" class="inputpequeno left-align" required>
+                    a company to be with you in a project. They told us that the 
+                    <input type="text" placeholder="responda aqui !" name="listening322-5" class="inputpequeno left-align" required>
+                    and the <input type="text" placeholder="responda aqui !" name="listening322-6" class="inputpequeno left-align" required>t were
+                    key elements to consider us for a next job. <input type="text" placeholder="responda aqui !" name="listening322-7" class="inputpequeno left-align" required>
+                    these details, they decided to have us with them in the next magazine.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="44">
-                    <input type="hidden" name="atividade_id" value="317">
+                    <input type="hidden" name="unidade_id" value="45">
+                    <input type="hidden" name="atividade_id" value="322">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 			</div>
@@ -44,21 +47,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade44listening317").submit(function(e){
+        $("#unidade45listening322").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade44listening317 input[type="text"]').each(function(index){
-                if(($('#unidade44listening317 input[type="text"]').length - 1) == index){
+            $('#unidade45listening322 input[type="text"]').each(function(index){
+                if(($('#unidade45listening322 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade44listening317 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade44listening317'), respostas);
+            if($('#unidade45listening322 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade45listening322'), respostas);
             }else{
-                enviarAtividade($('#unidade44listening317'), respostas);
+                enviarAtividade($('#unidade45listening322'), respostas);
             }
         });
 
@@ -78,11 +81,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){                        
-                        $('#unidade44listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade44listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade45listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade45listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade44listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade44listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);                    
+                    $('#unidade45listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade45listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);                    
                 }
             });
         }
