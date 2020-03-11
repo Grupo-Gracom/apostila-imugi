@@ -14,8 +14,8 @@
 				<h5 class="barlow">3 - GRAMMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 44/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear"></div>                
                 <h5 class="barlow" style="margin-top:16px;">CONJUNCTIONS FOR CONTRASTING INFORMATION.</h5>
                 <p>We use <B>contrasting connectors,</B> to connect sentences expressing the idea of contrast.</p>

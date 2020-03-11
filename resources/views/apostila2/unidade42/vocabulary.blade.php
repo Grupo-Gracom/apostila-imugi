@@ -14,7 +14,7 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 42/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" class="espacamento">A -  WORDS AND EXPRESSIONS</h5>				                                   
 				<ul class="lista-inline">
@@ -23,6 +23,9 @@
 					<li><b>TO CATCH / a bus / a train / a cold</b></li>													
 				</ul>				
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>	
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 42/2. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
 				<ul class="lista-inline">
 					<li><b>Came up</b></li>
 					<li><b>Filter</b></li>

@@ -15,8 +15,8 @@
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 3/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear"></div>
 
                 <h5 class="barlow" style="margin-top: 16px">A - SIMPLE PRESENT</h5>
@@ -68,6 +68,9 @@
                 <p><b>Consonant + Y</b> = verb <b>+ (ies)</b></p>
 
                 <h5 class="barlow" style="margin-top: 16px">B - WH QUESTIONS – WHEN – WHY – WHICH.</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 3/3. GRAMMAR/GRAMMAR B.ogg') }}" type="audio/ogg">
+				</audio>
 
                 <p><b>When</b> – Used for <b>questions about time.</b></p>
 
@@ -88,6 +91,9 @@
                 <p><b>Java or Python?</b></p>
 
                 <h5 class="barlow" style="margin-top: 16px">C - ARTICLES</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 3/3. GRAMMAR/GRAMMAR C.ogg') }}" type="audio/ogg">
+				</audio>
 
                 <table class="metade center-align">
                     <tr>

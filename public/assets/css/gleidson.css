@@ -189,4 +189,7 @@ main .capas li.deactive img{filter: grayscale(1);}
     #unidade form button{width: 100%;}
     #unidade table.bordered.direita{width: 100% !important;} 
 
+    #unidade figure.umterco{width: calc(33.333% - 11px);float:left;}
+    #unidade figure.umterco img{height: 112px;}
+
 }
