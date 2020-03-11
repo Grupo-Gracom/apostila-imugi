@@ -44,7 +44,7 @@
 								</p>
 
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img  src="{{ asset('assets/img/dominating/unit5/conversation.jpg') }}" alt="mario">
 				</figure>
 			</div>
 		</div>

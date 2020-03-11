@@ -9,7 +9,6 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade4" data-etapa="conversation">
 				<h3 class="barlow">UNIT 04</h3>
 				<h5 class="barlow">2 - CONVERSATION</h5>
@@ -41,9 +40,9 @@
 								concepts so it’s difficult for me to understand them.</p>
 				<p><b>Glenn:</b> ok guys, that’s it for today.</p>
 
-				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
-				</figure>
+			<figure class="center-align" style="margin-top:16px">
+				<img  src="{{ asset('assets/img/dominating/unit4/conversation.png') }}" alt="super man e batman">
+			</figure>
 			</div>
 		</div>
 	</main>

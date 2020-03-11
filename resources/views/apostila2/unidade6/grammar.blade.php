@@ -52,7 +52,7 @@
 
                     <div  style="margin-top: 36px">
                         <figure>
-                            <img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="gamer">
+                        <img  src="{{ asset('assets/img/dominating/unit6/grammar.png') }}" alt="jogos">
                         </figure>
                     </div>
                     <div class="clear"></div>
@@ -167,7 +167,7 @@
                     </form>
                     <div style="margin-top: 36px">
                         <figure>
-                            <img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="rapper">
+                            <img  src="{{ asset('assets/img/dominating/unit6/grammar4.jpg') }}" alt="rapper">
                         </figure>
                     </div>
                 </div>

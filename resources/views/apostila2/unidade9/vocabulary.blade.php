@@ -19,8 +19,8 @@
 				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A -  PREPOSITIONS</h5>
 				<div style="margin-top: 36px">
-					<figure>
-						<img src="{{ asset('assets/img/playgo/unit9/pagina-1.png') }}" alt="circulos multiplos">
+					<figure class="manipulaimagem">
+					<img  src="{{ asset('assets/img/dominating/unit9/vocabulary.png') }}" alt="espiral">
 					</figure>
 				</div>
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>

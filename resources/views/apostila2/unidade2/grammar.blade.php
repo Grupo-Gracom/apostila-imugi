@@ -111,13 +111,13 @@
                 </div>
 
                 <div class="umterco direita">
-                   <p><b>That</b> lady is the marketing manager.</p>
+                    <p><b>That</b> lady is the marketing manager.</p>
                     <p><b>Those</b> Graffiti on the wall are great</p>
                 </div>
 
                 <div class="clear"></div>
-                <p><b>EXERCISES:</b></p>
-                <p class="barlow">1 - Build up questions for the answers.</p>
+                <h5 class="barlow"><b>EXERCISES:</b></h5>
+                <h5 class="barlow">1 - Build up questions for the answers.</h5>
                 <form id="unidade2grammar106" method="post">
                     <p>E.g She’s Laura./ Who is she?</p>
                     <div class="umterco esquerda">
@@ -164,50 +164,47 @@
                     <input type="hidden" name="atividade_id" value="106">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <figure class="center-align">
+                <figure class="center-align" style="margin-top:16px">
                     <img  src="{{ asset('assets/img/dominating/unit2/grammar.jpg') }}" alt="super man e batman">
                 </figure>
 
-                <p class="barlow">2 - Rewrite these sentences using HE, SHE, IT, THEY, WE, HIS, HER, THEIR, OUR, ITS:</p>
-				<form id="unidade2grammar107" method="post">
+                <h5 class="barlow" style="margin-top:32px">2 - Rewrite these sentences using HE, SHE, IT, THEY, WE, HIS, HER, THEIR, OUR, ITS:</h5>
+				<form id="unidade2grammar107"  method="post">
 
-                <div class="umterco esquerda">
-                        <p>1. Akira’s father is Japanese. <br>
+                <div class="metade">
+                        <p>1. Akira’s father is Japanese.
                             <input type="text" name="grammar107-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>2. Editing softwares are very expensive. <br>
+                        <p>2. Editing softwares are very expensive.
                             <input type="text" name="grammar107-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>3. John’s experience is very good. <br>
+                        <p>3. John’s experience is very good.
                             <input type="text" name="grammar107-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>4. Is your brother a businessman? <br>
+                        <p>4. Is your brother a businessman? 
                             <input type="text" name="grammar107-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>5. My friend and I love comic books. <br>
+                        <p>5. My friend and I love comic books. 
                             <input type="text" name="grammar107-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                    </div>
-
-                    <div class="umterco direita">
-                        <p>6. These are Laura’s and my books. <br>
+                        <p>6. These are Laura’s and my books. 
                             <input type="text" name="grammar107-6" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>7. Where is Gleen’s marker? <br>
+                        <p>7. Where is Gleen’s marker? 
                             <input type="text" name="grammar107-7" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>8. My father’s favorite computer is Mac. <br>
+                        <p>8. My father’s favorite computer is Mac. 
                             <input type="text" name="grammar107-8" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>9. The students’ books are in the classroom. <br>
+                        <p>9. The students’ books are in the classroom. 
                             <input type="text" name="grammar107-9" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                        <p>10. This is Mrs. Brown’s coat, but these are the children’s coats. <br>
+                        <p>10. This is Mrs. Brown’s coat, but these are the children’s coats. 
                             <input type="text" name="grammar107-10" placeholder="Responda aqui" class="full left-align" required>
                         </p>
-                    </div>
+                </div>
 
-                    <div class="clear"></div>
+                <div class="clear"></div>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -216,14 +213,10 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">3 - Complete the passage. Use these words.</p>
+                <h5 class="barlow">3 - Complete the passage. Use these words.</h5>
 				<form id="unidade2grammar108" method="post">
 
-                    <div class="center-align metade">
-                        <table class="tabelaVerdeEscuro">
-                            <th>my - your - his - her - its - our - their - his</th>
-                        </table>
-                    </div>
+                    <p class="caixa center-align">my - your - his - her - its - our - their - his</p>
                     <br>
                     <p>Hello<input type="text" name="grammar108-1" placeholder="Responda aqui" required>name is Patrick. I’m fourteen. I have a brother. His name is Andy and he’s ninenteen.
                         We are on holiday in California. The hotel is very good and <input type="text" name="grammar108-2" placeholder="Responda aqui" required>swimming-pool is large.</p>
