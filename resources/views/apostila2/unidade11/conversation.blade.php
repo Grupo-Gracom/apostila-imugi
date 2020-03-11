@@ -26,7 +26,7 @@
 				<p><b>John :</b> Well , I also have two job offers to choose. One about fashion and another about Movie special effects and games. Based on Mr. Smith’s presentation I think I’ll accept this last one.</p>
 				<p><b>Glenn :</b> Cool John. You will have the opportunity to learn more about movies, animes and etc. Ok guys. That’s it for today. See you in our next class.</p>
 				<figure>
-					<img src="{{ asset('assets/img/dominating/unit11/conversation.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit11/conversation.jpg') }}" alt="aula cores">
 				</figure>
 			</div>
 		</div>

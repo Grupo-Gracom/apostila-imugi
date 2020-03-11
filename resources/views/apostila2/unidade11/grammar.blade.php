@@ -193,7 +193,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 <figure>
-					<img src="{{ asset('assets/img/dominating/unit11/grammar.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit11/grammar.jpg') }}" alt="paraquedas desenho">
 				</figure>
 			</div>
 		</div>

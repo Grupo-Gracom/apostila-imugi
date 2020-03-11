@@ -37,13 +37,12 @@
 				I felt the vibe and understood the needs of the market. It’s going to be great for my
 				new job.</p>
 				<p><b>Gleen: </b>Great guys. Thanks for sharing. We go on in the next class ok.</p>
-				<figure class="metade esquerda">
-					<img src="{{ asset('assets/img/dominating/unit16/conversation1.png') }}" alt="Garotos festejando">
-				</figure>
-				<figure class="metade direita">
-					<img src="{{ asset('assets/img/dominating/unit16/conversation2.png') }}" alt="Garotos festejando">
+
+				<figure style="margin-top:px">
+					<img src="{{ asset('assets/img/dominating/unit16/conversation.png') }}" alt="Comic-Con">
 				</figure>
 			</div>
+			
 		</div>
 	</main>
 	<script>

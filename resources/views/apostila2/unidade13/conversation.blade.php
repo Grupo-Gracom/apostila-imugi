@@ -36,7 +36,7 @@
 				for today. We continue in our next class. Bye. I Have some physiotherapy today.</p>
 				<p><b>Students: </b>Ok teacher, taka care.</p>
 				<figure>
-					<img src="{{ asset('assets/img/dominating/unit13/conversation.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit13/conversation.jpg') }}" alt="deficiente">
 				</figure>
 			</div>
 		</div>

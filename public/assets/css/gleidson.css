@@ -167,6 +167,7 @@ main .capas li.deactive img{filter: grayscale(1);}
     .metade.direita{float: none;}
     .umterco{float: none;}
     .umterco:nth-child(2){margin: 0;}
+    .quadradoVerdeGrande p{background-color: #3bac44; color: black; display: inline-block; padding: 16px; font-size: 80px; width: 100%;}
 
     nav{left: -100%;}
     nav.active{left: 0;}
