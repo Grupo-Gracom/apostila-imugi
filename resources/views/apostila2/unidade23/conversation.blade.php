@@ -31,7 +31,7 @@
 				<p><b>Gleen:</b> Thanks for your help guys.</p>
 
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit23/conversation.jpg') }}" alt="dev">
 				</figure>
 			</div>
 		</div>
