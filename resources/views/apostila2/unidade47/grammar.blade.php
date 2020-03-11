@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 47 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -29,65 +29,65 @@
                 <p>Neither/nor sentences are affirmative sentences with <b>NEGATIVE MEANINGS</b>.</p>
                 <p><b>EXERCISES</b></p>
 
-                 <p class="barlow">1) Use NEITHER ______ NOR _______</p>
+                <p class="barlow">1) Use NEITHER ______ NOR _______</p>
                 <form id="unidade47grammar328" class="metade" action="post">                    
                     <p>1. He doesn’t like coffee. Does he like tea?</p>
                     <p><b>No, he likes neither coffee nor tea.</b></p>
                     <p>
-                       2. Her husband doesn’t speak English. Do her children speak English?
-                       <input type="text" name="grammar328-1" class="full left-align" placeholder="Responda aqui" required>
+                        2. Her husband doesn’t speak English. Do her children speak English?
+                        <input type="text" name="grammar328-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       3. The students aren’t wide awake today. Is the teacher wide awake today?
-                       <input type="text" name="grammar328-2" class="full left-align" placeholder="Responda aqui" required>
+                        3. The students aren’t wide awake today. Is the teacher wide awake today?
+                        <input type="text" name="grammar328-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       4. They don’t have a refrigerator for their new apartment. Do they have a stove?
-                       <input type="text" name="grammar328-3" class="full left-align" placeholder="Responda aqui" required>
+                        4. They don’t have a refrigerator for their new apartment. Do they have a stove?
+                        <input type="text" name="grammar328-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       5. She doesn’t enjoy hunting. Does she enjoy fishing?
-                       <input type="text" name="grammar328-4" class="full left-align" placeholder="Responda aqui" required>
+                        5. She doesn’t enjoy hunting. Does she enjoy fishing?
+                        <input type="text" name="grammar328-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       6. The result wasn’t good. Was the result bad?
-                       <input type="text" name="grammar328-5" class="full left-align" placeholder="Responda aqui" required>
+                        6. The result wasn’t good. Was the result bad?
+                        <input type="text" name="grammar328-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       7. Sara and Sue are very busy today. They can’t help you with your homework.
-                       <input type="text" name="grammar328-6" class="full left-align" placeholder="Responda aqui" required>
+                        7. Sara and Sue are very busy today. They can’t help you with your homework.
+                        <input type="text" name="grammar328-6" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       8. His father didn’t believe in both this son and his friend. He thought that both were lying.
-                       <input type="text" name="grammar328-7" class="full left-align" placeholder="Responda aqui" required>
+                        8. His father didn’t believe in both this son and his friend. He thought that both were lying.
+                        <input type="text" name="grammar328-7" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       9. I can perfectly handle my problem alone. I don’t need your help or your compassion.
-                       <input type="text" name="grammar328-8" class="full left-align" placeholder="Responda aqui" required>
+                        9. I can perfectly handle my problem alone. I don’t need your help or your compassion.
+                        <input type="text" name="grammar328-8" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       10. My mum doesn’t know how to read or write. She’s illiterate.
-                       <input type="text" name="grammar328-9" class="full left-align" placeholder="Responda aqui" required>
+                        10. My mum doesn’t know how to read or write. She’s illiterate.
+                        <input type="text" name="grammar328-9" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       11. You can’t use this computer and the other one. Someone must fix them.
-                       <input type="text" name="grammar328-10" class="full left-align" placeholder="Responda aqui" required>
+                        11. You can’t use this computer and the other one. Someone must fix them.
+                        <input type="text" name="grammar328-10" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       12. She doesn’t like hip-hop or heavy metal music.
-                       <input type="text" name="grammar328-11" class="full left-align" placeholder="Responda aqui" required>
+                        12. She doesn’t like hip-hop or heavy metal music.
+                        <input type="text" name="grammar328-11" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       13. Emily can’t sing or dance well.
-                       <input type="text" name="grammar328-12" class="full left-align" placeholder="Responda aqui" required>
+                        13. Emily can’t sing or dance well.
+                        <input type="text" name="grammar328-12" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       14. He never listens to or advises his friends when they have problems.
-                       <input type="text" name="grammar328-13" class="full left-align" placeholder="Responda aqui" required>
+                        14. He never listens to or advises his friends when they have problems.
+                        <input type="text" name="grammar328-13" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       15. Richard and Tom didn’t keep her secret.
-                       <input type="text" name="grammar328-14" class="full left-align" placeholder="Responda aqui" required>
+                        15. Richard and Tom didn’t keep her secret.
+                        <input type="text" name="grammar328-14" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     
                     <div class="clear"></div> 

@@ -295,11 +295,14 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-               <div class="clear"></div>
+                <div class="clear"></div>
+                <figure class="center-align" style="margin-top:16px">
+                    <img  src="{{ asset('assets/img/dominating/unit3/grammar.jpg') }}" alt="jogando">
+                </figure>
 
-               <p class="barlow">2) Write the sentences from the previous exercise in negative and interrogative forms.</p>
+                <p class="barlow" style="margin-top:16px">2) Write the sentences from the previous exercise in negative and interrogative forms.</p>
 
-               <form id="unidade3grammar114" action="post" class="metade">
+                <form id="unidade3grammar114" action="post" class="metade">
                     <p>1.
                         <input type="text" name="grammar114-1" placeholder="Responda aqui" class="full left-align" required>(-)
                         <input type="text" name="grammar114-2" placeholder="Responda aqui" class="full left-align" required>(?)

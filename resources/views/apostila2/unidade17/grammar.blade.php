@@ -117,12 +117,7 @@
                 <h5 class="barlow">C - Your teacher is going to give a piece of paper with a verb and a time expression.
                     With the time expression, you are going to create a question to a classmate. With the
                     verb , you are going to answer what a classmate is gonna ask you.</h5>
-                <div class="quadradoVerdeGrande center-align">
-                    <p><b>What</b></p>
-                    <p><b>Where</b></p>
-                    <p><b>Why</b></p>
-                    <p><b>How</b></p>
-                </div>
+                
                 <form id="unidade17grammar175"  method="post">
                     <p><textarea  class="full" name="grammar175-1" required></textarea></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -131,6 +126,12 @@
                     <input type="hidden" name="atividade_id" value="175">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
+                <div class="quadradoVerdeGrande center-align" style="margin-top:32px">
+                    <p><b>What</b></p>
+                    <p><b>Where</b></p>
+                    <p><b>Why</b></p>
+                    <p><b>How</b></p>
+                </div>
 			</div>
 		</div>
     </main>

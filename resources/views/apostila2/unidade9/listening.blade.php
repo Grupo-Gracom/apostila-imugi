@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 9 | listening')
+@section('titulo','Unit 9 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -39,12 +39,11 @@
                         <input type="hidden" name="atividade_id" value="141">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                <div style="margin-top: 36px">
-					<figure>
-						<img src="{{ asset('assets/img/playgo/unit9/pagina-1.png') }}" alt="filmes">
-					</figure>
-				</div>
+					
                 </div>
+                <figure>
+                    <img src="{{ asset('assets/img/dominating/unit9/listening.png') }}" alt="filmes">
+                </figure>
             </div>
 		</div>
     </main>

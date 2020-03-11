@@ -217,7 +217,7 @@
                     </form>
                 <div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit8/pagina-1.png') }}" alt="java python">
+                    <img  src="{{ asset('assets/img/dominating/unit8/grammar.jpg') }}" alt="java python">
 					</figure>
 				</div>
                 </div>

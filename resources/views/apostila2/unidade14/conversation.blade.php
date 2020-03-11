@@ -32,7 +32,7 @@
 				awesome.</p>
 				<p><b>Gleen and students: </b>Gongrats Laura.</p>
 				<figure>
-					<img src="{{ asset('assets/img/dominating/unit14/conversation.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit14/conversation.jpg') }}" alt="aula computação">
 				</figure>
 			</div>
 		</div>

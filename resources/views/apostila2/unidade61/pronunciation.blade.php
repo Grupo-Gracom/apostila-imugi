@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 61 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 

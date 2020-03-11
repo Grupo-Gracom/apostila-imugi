@@ -153,8 +153,8 @@
                     <input type="hidden" name="atividade_id" value="170">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <figure class="espacamento">
-                    <img src="{{ asset('assets/img/dominating/unit16/grammar.png') }}" alt="Garotos festejando">
+                <figure>
+                    <img src="{{ asset('assets/img/dominating/unit16/grammar.jpg') }}" alt="estatua liberdade">
 				</figure>
 			</div>
 		</div>

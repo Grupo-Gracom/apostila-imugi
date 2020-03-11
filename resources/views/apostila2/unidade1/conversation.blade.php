@@ -18,20 +18,20 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 1/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen :</b> Hey you guys. What’s up? My name is Gleen, I’m your new teacher and I’m excited to start this
-							second part of the course with you. First of all, congrats on your dedication during the PhotoShop
-							course. You spent almost 9 months studying what is necessary to create fantastic images and I’m sure
-							you are excited to start your new course. I know it is a challenge to memorize all the concepts and
-							tools you guys learned but this is the way. It’s important to dedicate yourself to study all the elements
-							that are necessary to be an excellent gamer, illustrator, special effects designer or any other career you
-							decide to work with. In this course we are going to study softwares used to create movies. We will
-							learn how to use Cinema 4D, Unity, Blender and Cryengine. Many famous movie, illustration and game
-							creation companies like, Pixar, Dc comics, Marvel, Rockstar and others use these programs. So guys,
-							are you ready to start the game?</p>
+				<p style="margin-top:16px"><b>Gleen :</b> Hey you guys. What’s up? My name is Gleen, I’m your new teacher and I’m excited to start this
+					second part of the course with you. First of all, congrats on your dedication during the PhotoShop
+					course. You spent almost 9 months studying what is necessary to create fantastic images and I’m sure
+					you are excited to start your new course. I know it is a challenge to memorize all the concepts and
+					tools you guys learned but this is the way. It’s important to dedicate yourself to study all the elements
+					that are necessary to be an excellent gamer, illustrator, special effects designer or any other career you
+					decide to work with. In this course we are going to study softwares used to create movies. We will
+					learn how to use Cinema 4D, Unity, Blender and Cryengine. Many famous movie, illustration and game
+					creation companies like, Pixar, Dc comics, Marvel, Rockstar and others use these programs. So guys,
+					are you ready to start the game?</p>
 				<p><b>Grammar:</b> Review of Verb to be, </p>
 				<p><b>Vocabulary:</b> Greetings, Cardinal numbers, Ordinal numbers,</p>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit1/conversation.jpg') }}" alt="Garotos festejando">
 				</figure>
 			</div>
 		</div>

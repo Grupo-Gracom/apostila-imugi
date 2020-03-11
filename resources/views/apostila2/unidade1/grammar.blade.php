@@ -19,11 +19,11 @@
 				</audio>
 
                 <div class="clear"></div>
-                    <table class="metade center-align">
+                    <table class="metade center-align" style="margin-top:16px">
                             <tr>
-                                <td><p class="barlow upper"><b>Affirmative</b></p></td>
-                                <td><p class="barlow upper"><b>Negative</b></p></td>
-                                <td><p class="barlow upper"><b>Interrogative</b></p></td>
+                                <td><h5 class="barlow upper">Affirmative</h5></td>
+                                <td><h5 class="barlow upper">Negative</h5></td>
+                                <td><h5 class="barlow upper">Interrogative</h5></td>
                             </tr>
                             <tr>
                                 <td><p><b>I am </b>a video Maker.(I´m)</p></td>
@@ -76,8 +76,8 @@
                 <table class="metade center-align">
                     <tr>
                         <td></td>
-                        <td class="barlow upper"><p>Pronouns</p></td>
-                        <td class="barlow upper"><p>Verb</p></td>
+                        <td><h5 class="barlow upper">Pronouns</h5></td>
+                        <td><h5 class="barlow upper">Verb</h5></td>
                     </tr>
                     <tr>
                         <td class="barlow upper"><p>Singular</p></td>
@@ -94,14 +94,14 @@
 
                 <div class="clear"></div>
 
-                <p><b>Examples:</b></p>
+                <h5 style="margin-top:16px"><b>Examples:</b></h5>
 
                 <p>Aff(+): I <b>am</b> a Special effects specialist. | We <b>are</b> excited to start the class.</p>
                 <p>Neg(-): I <b>am</b> not a Special Effects specialist | We <b>are not</b> excited to start the class</p>
                 <p>Int(?): <b>Are</b> you a special effects specialist? | <b>Are</b> you excited to start the class?</p>
                 <p><b>Contractions: </b>Is + no = <b>isn’t</b> | are + not =<b> aren’t</b></p>
 
-                <p><b>EXERCISES:</b></p>
+                <h5 style="margin-top:16px"><b>EXERCISES:</b></h5>
                 <h5 class="barlow">A - Choose the best answer:</h5>
                 <form id="unidade1grammar100" method="post">
                     <p>1. Maggie and Carol <input type="text" name="grammar100-1" placeholder="Responda aqui" required> designers.</p>
@@ -158,8 +158,13 @@
                     <input type="hidden" name="atividade_id" value="102">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
+                <figure class="center-align">
+                    <img  src="{{ asset('assets/img/dominating/unit1/grammar.png') }}" alt="pessoas">
+                </figure>
 
-                <h5 class="barlow">D - Prepare your personal presentation. Tell us your name, age, profession, nationality and any other thing you want to share.</h5>
+                <div class="clear"></div>
+
+                <h5 class="barlow" style="margin-top:32px">D - Prepare your personal presentation. Tell us your name, age, profession, nationality and any other thing you want to share.</h5>
 				<form id="unidade1grammar103" method="post">
                     <div class="metade">
                         <p><input type="text" name="grammar103-1" placeholder="Responda aqui" class="full left-align" required></p>

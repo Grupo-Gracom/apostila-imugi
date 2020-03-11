@@ -117,7 +117,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 <figure>
-					<img src="{{ asset('assets/img/dominating/unit14/grammar.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit14/grammar.png') }}" alt="campeonato gamer">
 				</figure>
 			</div>
 		</div>

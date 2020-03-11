@@ -18,7 +18,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 3/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Hello guys. How’s everything today? Well I want to start this class talking a little bit about the market and its challenges. Please, I need your help. Tell us about your job,
+				<p style="margin-top:16px"><b>Gleen:</b> Hello guys. How’s everything today? Well I want to start this class talking a little bit about the market and its challenges. Please, I need your help. Tell us about your job,
 								what you like about it and what your main challenge is.</p>
 				<p><b>Gleen:</b> You Laura; Do you want to start?</p>
 				<p><b>Laura:</b> Yes, that’s ok for me. Well, I’m a freelancer video maker. I produce videos for many different things. Marketing campaigns, Youtubers, sites, musicians and many other
@@ -30,9 +30,12 @@
 				<p><b>Gleen:</b> And you Akira, it’s your turn now.</p>
 				<p><b>Akira:</b> Hi guys, I’m Akira and I work as a game developer. I don’t work by myself. I work with an incredible team of game developers. The best part is that we have a lot of fun and
 								we are very creative together. My biggest challenge is to finish my work on time. It’s very important because other people depend on my work to continue producing the game.</p>
-				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
-				</figure>
+				<figure class="center-align">
+                    <img  src="{{ asset('assets/img/dominating/unit3/conversation1.jpg') }}" alt="amigos">
+                </figure><br>
+				<figure class="center-align">
+                    <img  src="{{ asset('assets/img/dominating/unit3/conversation2.jpg') }}" alt="amigos">
+                </figure>
 			</div>
 		</div>
 	</main>

@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 5 | listening')
+@section('titulo','Unit 5 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -34,8 +34,9 @@
                     <input type="hidden" name="atividade_id" value="432">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
-                </form>
+                <figure class="center-align" style="margin-top:16px">
+                    <img  src="{{ asset('assets/img/dominating/unit5/listening.jpg') }}" alt="marvel">
+                </figure>
 			</div>
 		</div>
     </main>

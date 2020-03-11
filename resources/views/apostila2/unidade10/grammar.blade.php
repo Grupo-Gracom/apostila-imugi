@@ -135,6 +135,10 @@
                         <input type="hidden" name="atividade_id" value="144">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
+
+                    <figure>
+                        <img src="{{ asset('assets/img/dominating/unit10/grammar.jpg') }}" alt="pensando em ferias">
+                    </figure>
                     <h5 class="barlow" style="margin-top: 16px">3 - Complete the sentences using SOME / ANY / NO</h5>
                     <form id="unidade10grammar145" method="post">
                         <div class="metade">

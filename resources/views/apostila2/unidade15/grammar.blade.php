@@ -147,7 +147,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 <figure class="espacamento">
-                    <img src="{{ asset('assets/img/dominating/unit15/grammar.png') }}" alt="Garotos festejando">
+                    <img src="{{ asset('assets/img/dominating/unit15/grammar.jpg') }}" alt="londres">
 				</figure>
                 <h5 class="barlow">D - Create 5 sentences in the past with the verbs below and choose 2 to ask your friends.</h5>
                 <div class="metade">

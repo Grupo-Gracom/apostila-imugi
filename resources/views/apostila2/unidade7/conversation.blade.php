@@ -37,7 +37,7 @@
 				<p><b>Gleen :</b>  Lucky guy Akira!!! Ok guys, you rock. That’s it for today. Next class we’re going to talk about your preferred softwares ok. Think about it and I see you tomorrow folks.</p>
 				<div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="piscina">
+					<img  src="{{ asset('assets/img/dominating/unit7/conversation.jpeg') }}" alt="banho piscina">
 					</figure>
 				</div>
 			</div>

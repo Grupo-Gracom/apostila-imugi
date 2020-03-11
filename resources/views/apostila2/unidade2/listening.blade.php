@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 2 | listening')
+@section('titulo','Unit 2 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -21,11 +21,11 @@
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade2listening109" method="post">
                     <p>“My name is Joana Henly and I<input type="text" name="listening109-1" placeholder="Responda aqui" required>
-                     <input type="text" name="listening109-2" placeholder="Responda aqui" required> the name of Miss Led. I’ve been in London
-                     <input type="text" name="listening109-3" placeholder="Responda aqui" required>I live and work for Goodness
-                     <input type="text" name="listening109-4" placeholder="Responda aqui" required>years now. This is my fabulous
-                     <input type="text" name="listening109-5" placeholder="Responda aqui" required>. I work as an<input type="text" name="listening109-6" placeholder="Responda aqui" required>,
-                     <input type="text" name="listening109-7" placeholder="Responda aqui" required>
+                        <input type="text" name="listening109-2" placeholder="Responda aqui" required> the name of Miss Led. I’ve been in London
+                        <input type="text" name="listening109-3" placeholder="Responda aqui" required>I live and work for Goodness
+                        <input type="text" name="listening109-4" placeholder="Responda aqui" required>years now. This is my fabulous
+                        <input type="text" name="listening109-5" placeholder="Responda aqui" required>. I work as an<input type="text" name="listening109-6" placeholder="Responda aqui" required>,
+                        <input type="text" name="listening109-7" placeholder="Responda aqui" required>
                         and live<input type="text" name="listening109-8" placeholder="Responda aqui" required>."
                     </p>
 
