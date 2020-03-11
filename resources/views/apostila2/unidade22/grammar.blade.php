@@ -47,7 +47,7 @@
                     </tr>
                 </table>
 
-                 <p><b>EXERCISES</b></p>
+                <p><b>EXERCISES</b></p>
                 <p class="barlow">1) Fill in the blanks with CAN or CAN’T:</p>
                 <form id="unidade22grammar197" action="post" class="metade">
                     <p>1. Java is difficult for me. I<input type="text" name="grammar197-1" placeholder="Responda aqui" required>use it, but I
@@ -96,7 +96,15 @@
                     <input type="hidden" name="atividade_id" value="198">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
+                <figure class="umterco">
+					<img src="{{ asset('assets/img/dominating/unit22/grammar1.jpg') }}" alt="Garoto triste">
+                </figure>
+                <figure class="umterco">
+					<img src="{{ asset('assets/img/dominating/unit22/grammar2.jpg') }}" alt="Garoto triste">
+                </figure>
+                <figure class="umterco">
+					<img src="{{ asset('assets/img/dominating/unit22/grammar3.jpg') }}" alt="Garoto triste">
+				</figure>
                 <form id="unidade22grammar199"  action="post">
                     <p class="barlow">3) In groups, compare teenage lives of today and of 20 years ago</p>
                     <p>

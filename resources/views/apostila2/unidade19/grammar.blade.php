@@ -72,14 +72,14 @@
                     <input type="hidden" name="atividade_id" value="183">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <figure class="metade direita">
-					<img src="{{ asset('assets/img/dominating/unit19/grammar1.png') }}" alt="Garotos festejando">
-				</figure>
                 <figure class="metade esquerda">
-					<img src="{{ asset('assets/img/dominating/unit19/grammar2.png') }}" alt="Garotos festejando">
-				</figure>
-                <div class="clear"></div>
-			</div>
+                    <img src="{{ asset('assets/img/dominating/unit19/grammar1.png') }}" alt="Garotos festejando">
+                </figure>
+                <figure class="metade direita">
+                    <img src="{{ asset('assets/img/dominating/unit19/grammar2.png') }}" alt="Garotos festejando">
+                </figure>
+            <div class="clear"></div>
+            </div>
 		</div>
     </main>
     <script>
