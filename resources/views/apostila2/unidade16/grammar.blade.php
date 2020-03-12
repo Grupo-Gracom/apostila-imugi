@@ -13,9 +13,10 @@
 				<h3 class="barlow">UNIT 16</h3>
 				<h5 class="barlow">3 - GRAMMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
-                </audio>
+				<!-- <audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+                </audio> -->
+                <!-- nao tem audio ainda -->
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px;">A – SIMPLE PAST (REGULAR VERBS)</h5>
                 <p><b>Simple Past</b> is used to express that something <b>happened in a specific time in the past.</b></p>
@@ -152,8 +153,8 @@
                     <input type="hidden" name="atividade_id" value="170">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <figure class="espacamento">
-                    <img src="{{ asset('assets/img/dominating/unit16/grammar.png') }}" alt="Garotos festejando">
+                <figure>
+                    <img src="{{ asset('assets/img/dominating/unit16/grammar.jpg') }}" alt="estatua liberdade">
 				</figure>
 			</div>
 		</div>

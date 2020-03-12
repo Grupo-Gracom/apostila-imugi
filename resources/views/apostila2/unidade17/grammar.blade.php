@@ -14,8 +14,8 @@
 				<h5 class="barlow">3 - GRAMMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 17/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px;">PAST CONTINUOUS</h5>
                 <p><b>Past continuous</b> is used to express actions in progress <b>during a certain period of time in the past</b></p>
@@ -117,12 +117,7 @@
                 <h5 class="barlow">C - Your teacher is going to give a piece of paper with a verb and a time expression.
                     With the time expression, you are going to create a question to a classmate. With the
                     verb , you are going to answer what a classmate is gonna ask you.</h5>
-                <div class="quadradoVerdeGrande center-align">
-                    <p><b>What</b></p>
-                    <p><b>Where</b></p>
-                    <p><b>Why</b></p>
-                    <p><b>How</b></p>
-                </div>
+                
                 <form id="unidade17grammar175"  method="post">
                     <p><textarea  class="full" name="grammar175-1" required></textarea></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -131,6 +126,12 @@
                     <input type="hidden" name="atividade_id" value="175">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
+                <div class="quadradoVerdeGrande center-align" style="margin-top:32px">
+                    <p><b>What</b></p>
+                    <p><b>Where</b></p>
+                    <p><b>Why</b></p>
+                    <p><b>How</b></p>
+                </div>
 			</div>
 		</div>
     </main>

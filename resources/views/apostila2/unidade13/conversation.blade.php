@@ -14,7 +14,7 @@
 				<h5 class="barlow">2 - CONVERSATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 13/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<p style="margin-top: 16px"><b>Gleen :</b>  Hey you guys. How are you?</p>
 				<p><b>Students :</b> Hi teacher. Why are you walking this way? </p>
@@ -36,7 +36,7 @@
 				for today. We continue in our next class. Bye. I Have some physiotherapy today.</p>
 				<p><b>Students: </b>Ok teacher, taka care.</p>
 				<figure>
-					<img src="{{ asset('assets/img/dominating/unit13/conversation.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit13/conversation.jpg') }}" alt="deficiente">
 				</figure>
 			</div>
 		</div>

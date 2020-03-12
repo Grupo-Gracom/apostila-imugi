@@ -16,7 +16,7 @@
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 5/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<p><b>Gleen:</b> Hellooooooo guys. Welcome back to our class. Guys, I loved the tips you guys
 								shared in our last class. Today I want to talk about organization and planning. Do you
@@ -44,7 +44,7 @@
 								</p>
 
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img  src="{{ asset('assets/img/dominating/unit5/conversation.jpg') }}" alt="mario">
 				</figure>
 			</div>
 		</div>

@@ -15,7 +15,7 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/vocabulary/vocabulary.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 33/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
 
@@ -23,6 +23,9 @@
 				<p>TO STOP / dancing / to dance / to smoke / smoking</p>
 
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 33/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>
 
 				<ul class="lista-inline">
 					<li><b>ENGAGEMENT</b></li>

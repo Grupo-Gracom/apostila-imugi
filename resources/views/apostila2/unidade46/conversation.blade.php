@@ -16,7 +16,7 @@
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 46/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<p><b>Gleen:</b> Ok guys. How’s everything? What about the development of the story? Is everything ok?
 					Students: So far so good. Everything under control teacher. The characters are ready.

@@ -13,9 +13,10 @@
 				<h3 class="barlow">UNIT 19</h3>
 				<h5 class="barlow">3 - GRAMMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
-                </audio>
+				<!-- <audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+                </audio> -->
+                <!-- nao tem audio ainda -->
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px;">SIMPLE PRESENT X SIMPLE PAST</h5>
                 <div class="espacamento">
@@ -71,14 +72,14 @@
                     <input type="hidden" name="atividade_id" value="183">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <figure class="metade direita">
-					<img src="{{ asset('assets/img/dominating/unit19/grammar1.png') }}" alt="Garotos festejando">
-				</figure>
                 <figure class="metade esquerda">
-					<img src="{{ asset('assets/img/dominating/unit19/grammar2.png') }}" alt="Garotos festejando">
-				</figure>
-                <div class="clear"></div>
-			</div>
+                    <img src="{{ asset('assets/img/dominating/unit19/grammar1.png') }}" alt="Garotos festejando">
+                </figure>
+                <figure class="metade direita">
+                    <img src="{{ asset('assets/img/dominating/unit19/grammar2.png') }}" alt="Garotos festejando">
+                </figure>
+            <div class="clear"></div>
+            </div>
 		</div>
     </main>
     <script>

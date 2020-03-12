@@ -16,7 +16,7 @@
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 33/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<p><b>Laura:</b> Well guys. The classes were always a surprise for me. The level of engagement and
 					contribution of everybody is awesome. You guys are extremely supportive and I could feel

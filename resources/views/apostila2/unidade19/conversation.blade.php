@@ -15,7 +15,7 @@
 				<div class="espacamento">
 					<span class="play-audio">( Aperte o play )</span>
 					<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+						<source src="{{ asset('assets/audio/apostila2/UNIT 19/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 					</audio>
 				</div>
 				<p><b>Gleen: </b>Hello everybody. Good to see you again. What about your weekend?
@@ -39,7 +39,7 @@
 				<h5 class="barlow"><a style="margin: 16px 0;" href="http://www.worldatlas.com/articles/largest-film-industries-in-the-world.html">http://www.worldatlas.com/articles/largest-film-industries-in-the-world.html</a></h5>
 				<h5 class="barlow"><a style="margin: 16px 0;" href="http://deadline.com/2017/01/highest-grossing-movie-studios-2016-us-box-office-1201876405/">http://deadline.com/2017/01/highest-grossing-movie-studios-2016-us-box-office-1201876405/</a></h5>
 				<figure>
-					<img src="{{ asset('assets/img/dominating/unit19/conversation.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit19/conversation.jpg') }}" alt="cinema">
 				</figure>
 			</div>
 		</div>

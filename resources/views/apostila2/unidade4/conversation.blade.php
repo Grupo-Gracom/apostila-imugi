@@ -9,14 +9,13 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade4" data-etapa="conversation">
 				<h3 class="barlow">UNIT 04</h3>
 				<h5 class="barlow">2 - CONVERSATION</h5>
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 4/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<p><b>Gleen:</b> Hey you guys. How are things? What about the studies? Well, last class we talked
 								a bit about things you like and things that you consider difficult in your areas. Let’s talk
@@ -41,9 +40,9 @@
 								concepts so it’s difficult for me to understand them.</p>
 				<p><b>Glenn:</b> ok guys, that’s it for today.</p>
 
-				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
-				</figure>
+			<figure class="center-align" style="margin-top:16px">
+				<img  src="{{ asset('assets/img/dominating/unit4/conversation.png') }}" alt="super man e batman">
+			</figure>
 			</div>
 		</div>
 	</main>

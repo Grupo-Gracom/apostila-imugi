@@ -14,7 +14,7 @@
 				<h5 class="barlow">2 - CONVERSATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 12/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<p style="margin-top: 16px"><b>Gleen :</b>  Hey you, what’s up guys? How’s everything this week? Are you anxious for the
 				next month? In 30 days from now, Comic-con will start. For sure they’re gonna bring a
@@ -26,7 +26,7 @@
 				<p><b>Akira :</b>  No way, you’re kidding! As soon as I get home I’ll check the site and I’ll enroll myself to participate of his workshop. Kris Costa is one of the most famous Brazilian artists.
 				He works for Industrial Light & Magic. Gee ! I can’t believe it. Now I’m more excited than before. Teacher, can I leave earlier? I have to enroll for this workshop.</p>
 				<p><b>Glenn :</b> Take it easy Akira. There’s plenty of time for you to enroll. Don’t worry, we’re about to finish our class ok.</p>
-				<figure>
+				<figure style="margin-top:16px">
 					<img src="{{ asset('assets/img/dominating/unit12/conversation.png') }}" alt="Garotos festejando">
 				</figure>
 			</div>

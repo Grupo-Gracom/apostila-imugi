@@ -14,7 +14,7 @@
 				<h5 class="barlow">2 - CONVERSATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit7/Conversation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 7/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<p style="margin-top: 16px">
 					<b>Gleen :</b>  My dear students. How are you today? Is everything ok? Are you prepared for today’s
@@ -37,7 +37,7 @@
 				<p><b>Gleen :</b>  Lucky guy Akira!!! Ok guys, you rock. That’s it for today. Next class we’re going to talk about your preferred softwares ok. Think about it and I see you tomorrow folks.</p>
 				<div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="piscina">
+					<img  src="{{ asset('assets/img/dominating/unit7/conversation.jpeg') }}" alt="banho piscina">
 					</figure>
 				</div>
 			</div>

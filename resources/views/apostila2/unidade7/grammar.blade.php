@@ -14,8 +14,8 @@
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit7/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 7/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
                     <h5 class="barlow" style="margin-top: 16px">A - PRESENT CONTINUOUS</h5>
@@ -168,7 +168,7 @@
                     </form>
                 <div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit7/pagina-1.png') }}" alt="desenho">
+                        <img  src="{{ asset('assets/img/dominating/unit7/grammar.png') }}" alt="desenho">
 					</figure>
 				</div>
                 </div>

@@ -14,8 +14,8 @@
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit10/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 10/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
                     <h5 class="barlow" style="margin-top: 16px">A - FUTURE - TO BE + GOING TO </h5>
@@ -135,6 +135,10 @@
                         <input type="hidden" name="atividade_id" value="144">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
+
+                    <figure>
+                        <img src="{{ asset('assets/img/dominating/unit10/grammar.jpg') }}" alt="pensando em ferias">
+                    </figure>
                     <h5 class="barlow" style="margin-top: 16px">3 - Complete the sentences using SOME / ANY / NO</h5>
                     <form id="unidade10grammar145" method="post">
                         <div class="metade">

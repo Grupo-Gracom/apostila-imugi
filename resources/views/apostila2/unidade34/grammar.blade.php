@@ -15,8 +15,8 @@
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 34/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear"></div>     
                 
                 <h5 class="barlow" style="margin-top: 16px">A - WOULD YOU MIND / WOULD YOU MIND IF</h5>

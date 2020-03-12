@@ -15,7 +15,7 @@
 				<div class="espacamento">
 					<span class="play-audio">( Aperte o play )</span>
 					<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+						<source src="{{ asset('assets/audio/apostila2/UNIT 16/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 					</audio>
 				</div>
 				<p><b>Gleen: </b>MY-DEAR-FRIENDS . OH-MY-GOD! I don’t know how to start this class. I’m so
@@ -37,13 +37,12 @@
 				I felt the vibe and understood the needs of the market. It’s going to be great for my
 				new job.</p>
 				<p><b>Gleen: </b>Great guys. Thanks for sharing. We go on in the next class ok.</p>
-				<figure class="metade esquerda">
-					<img src="{{ asset('assets/img/dominating/unit16/conversation1.png') }}" alt="Garotos festejando">
-				</figure>
-				<figure class="metade direita">
-					<img src="{{ asset('assets/img/dominating/unit16/conversation2.png') }}" alt="Garotos festejando">
+
+				<figure style="margin-top:px">
+					<img src="{{ asset('assets/img/dominating/unit16/conversation.png') }}" alt="Comic-Con">
 				</figure>
 			</div>
+			
 		</div>
 	</main>
 	<script>

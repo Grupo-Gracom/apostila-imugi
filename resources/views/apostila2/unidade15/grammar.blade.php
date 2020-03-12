@@ -13,9 +13,10 @@
 				<h3 class="barlow">UNIT 15</h3>
 				<h5 class="barlow">3 - GRAMMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
-                </audio>
+				<!-- <audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+                </audio> -->
+                <!-- nao tem audio ainda -->
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px;">A – SIMPLE PAST (REGULAR VERBS)</h5>
                 <p><b>Simple Past</b> is used to express that something <b>happened in a specific time in the past.</b></p>
@@ -146,7 +147,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 <figure class="espacamento">
-                    <img src="{{ asset('assets/img/dominating/unit15/grammar.png') }}" alt="Garotos festejando">
+                    <img src="{{ asset('assets/img/dominating/unit15/grammar.jpg') }}" alt="londres">
 				</figure>
                 <h5 class="barlow">D - Create 5 sentences in the past with the verbs below and choose 2 to ask your friends.</h5>
                 <div class="metade">

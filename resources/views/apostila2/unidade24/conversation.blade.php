@@ -16,7 +16,7 @@
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 24/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<p><b>Gleen:</b> How’s everything guys? Is everything ok with the new special organization of the
 								class? Laura, were you able to set up the computer for us to use.</p>
@@ -30,7 +30,7 @@
 
 
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit24/conversation.jpg') }}" alt="computação">
 				</figure>
 			</div>
 		</div>

@@ -15,8 +15,8 @@
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 3/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear"></div>
 
                 <h5 class="barlow" style="margin-top: 16px">A - SIMPLE PRESENT</h5>
@@ -68,6 +68,9 @@
                 <p><b>Consonant + Y</b> = verb <b>+ (ies)</b></p>
 
                 <h5 class="barlow" style="margin-top: 16px">B - WH QUESTIONS – WHEN – WHY – WHICH.</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 3/3. GRAMMAR/GRAMMAR B.ogg') }}" type="audio/ogg">
+				</audio>
 
                 <p><b>When</b> – Used for <b>questions about time.</b></p>
 
@@ -88,6 +91,9 @@
                 <p><b>Java or Python?</b></p>
 
                 <h5 class="barlow" style="margin-top: 16px">C - ARTICLES</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 3/3. GRAMMAR/GRAMMAR C.ogg') }}" type="audio/ogg">
+				</audio>
 
                 <table class="metade center-align">
                     <tr>
@@ -289,11 +295,14 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-               <div class="clear"></div>
+                <div class="clear"></div>
+                <figure class="center-align" style="margin-top:16px">
+                    <img  src="{{ asset('assets/img/dominating/unit3/grammar.jpg') }}" alt="jogando">
+                </figure>
 
-               <p class="barlow">2) Write the sentences from the previous exercise in negative and interrogative forms.</p>
+                <p class="barlow" style="margin-top:16px">2) Write the sentences from the previous exercise in negative and interrogative forms.</p>
 
-               <form id="unidade3grammar114" action="post" class="metade">
+                <form id="unidade3grammar114" action="post" class="metade">
                     <p>1.
                         <input type="text" name="grammar114-1" placeholder="Responda aqui" class="full left-align" required>(-)
                         <input type="text" name="grammar114-2" placeholder="Responda aqui" class="full left-align" required>(?)

@@ -14,7 +14,7 @@
 				<h5 class="barlow">2 - CONVERSATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 11/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<p style="margin-top: 16px"><b>Gleen :</b>  Hello my dear friends. How’s it going? Did you like Mr. Smith’s presentation? In my opinion, it was very good.
 				For sure it’s gonna help us in our class and in our next jobs. By the way, what are your plans after you finish the jobs you are currently doing?</p>
@@ -26,7 +26,7 @@
 				<p><b>John :</b> Well , I also have two job offers to choose. One about fashion and another about Movie special effects and games. Based on Mr. Smith’s presentation I think I’ll accept this last one.</p>
 				<p><b>Glenn :</b> Cool John. You will have the opportunity to learn more about movies, animes and etc. Ok guys. That’s it for today. See you in our next class.</p>
 				<figure>
-					<img src="{{ asset('assets/img/dominating/unit11/conversation.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit11/conversation.jpg') }}" alt="aula cores">
 				</figure>
 			</div>
 		</div>

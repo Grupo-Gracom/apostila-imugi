@@ -13,9 +13,10 @@
 				<h3 class="barlow">UNIT 6 </h3>
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
+				<!-- <audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio>
+                </audio> -->
+                <!-- nao tem audio ainda -->
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
                     <h5 class="barlow" style="margin-top: 16px">3.1 - WH - QUESTIONS</h5>
@@ -52,7 +53,7 @@
 
                     <div  style="margin-top: 36px">
                         <figure>
-                            <img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="gamer">
+                        <img  src="{{ asset('assets/img/dominating/unit6/grammar.png') }}" alt="jogos">
                         </figure>
                     </div>
                     <div class="clear"></div>
@@ -167,7 +168,7 @@
                     </form>
                     <div style="margin-top: 36px">
                         <figure>
-                            <img src="{{ asset('assets/img/playgo/unit6/pagina-1.png') }}" alt="rapper">
+                            <img  src="{{ asset('assets/img/dominating/unit6/grammar4.jpg') }}" alt="rapper">
                         </figure>
                     </div>
                 </div>

@@ -14,9 +14,10 @@
 				<h5 class="barlow">3 – GRAMMAR</h5>
 
 				<span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
-                </audio>
+				<!-- <audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+                </audio> -->
+                <!-- nao tem audio ainda -->
                 <div class="clear"></div>
 
                 <h5 class="barlow" style="margin-top: 16px">A - USED TO – PAST HABIT Used to is used to express a past habit.</h5>
@@ -105,7 +106,9 @@
                     <input type="hidden" name="atividade_id" value="193">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
+                <figure>
+					<img src="{{ asset('assets/img/dominating/unit21/grammar.jpg') }}" alt="Garoto triste">
+				</figure>
                 <form id="unidade21grammar194"  action="post">
                     <p class="barlow">4) Prepare a narration about your childhood. Be prepared to present to your classmates.</p>
                     <p>

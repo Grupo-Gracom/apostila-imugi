@@ -16,7 +16,7 @@
 
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/conversation/conversation.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 22/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<p><b>Gleen:</b>  Guys, talking about the best time of our lives, our childhood, what else could you
 				guys do by then.</p>
@@ -33,8 +33,11 @@
 				<p><b>Gleen:</b>  Great guys. Next class I have to change the organization of the class ok. I’ll need
 					some help.</p>
 					<p><b>Students:</b> ok teacher, you can count on us.</p>
-				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+				<figure class="metade esquerda">
+					<img src="{{ asset('assets/img/dominating/unit22/conversation1.png') }}" alt="tirando foto">
+				</figure>
+				<figure class="metade direita">
+					<img src="{{ asset('assets/img/dominating/unit22/conversation2.jpg') }}" alt="desenho">
 				</figure>
 			</div>
 		</div>

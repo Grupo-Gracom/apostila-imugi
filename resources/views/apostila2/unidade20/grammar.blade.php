@@ -13,9 +13,10 @@
 				<h3 class="barlow">UNIT 20</h3>
 				<h5 class="barlow">3 - GRAMMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/grammar/grammar.ogg') }}" type="audio/ogg">
-                </audio>
+				<!-- <audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+                </audio> -->
+                <!-- nao tem audio ainda -->
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px;">SIMPLE PRESENT X SIMPLE PAST</h5>
                 <div class="espacamento">
@@ -71,7 +72,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 <figure>
-					<img src="{{ asset('assets/img/dominating/unit20/grammar.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit20/grammar.jpg') }}" alt="Garotos festejando">
 				</figure>
                 <div class="clear"></div>
 			</div>

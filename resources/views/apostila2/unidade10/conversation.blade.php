@@ -14,7 +14,7 @@
 				<h5 class="barlow">2 - CONVERSATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit10/Conversation/completo.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 10/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<p style="margin-top: 16px">
 					<b>Gleen :</b>  Welcome back guys. How are you today? We have a guest today but he’s going
@@ -49,7 +49,7 @@
 				</p>
 				<div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit10/pagina-1.png') }}" alt="amigos estudando">
+						<img src="{{ asset('assets/img/dominating/unit10/conversation.jpg') }}" alt="amigos estudando">
 					</figure>
 				</div>
 			</div>

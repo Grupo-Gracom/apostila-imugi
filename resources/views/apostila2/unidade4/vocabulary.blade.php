@@ -45,7 +45,9 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 4/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-                <p>IMAGENS</p>
+                <figure class="center-align manipulaimagem">
+                    <img  src="{{ asset('assets/img/dominating/unit4/vocabulary.png') }}" alt="logicas">
+                </figure>
 
                 <h5 class="barlow" style="margin-top: 16px">D - WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
