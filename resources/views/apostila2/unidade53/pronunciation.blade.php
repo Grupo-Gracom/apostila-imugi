@@ -14,8 +14,8 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio53/Pronunciation/completo.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 53/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+				</audio>
 				<div class="clear"></div>
 				<ul class="lista-inline">
 					<li><b>ng sound</b> /ŋ/ </li>        

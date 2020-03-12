@@ -14,8 +14,8 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio39/Pronunciation/completo.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 40/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+				</audio>
 				<div class="clear"></div>
 				<p class="center-align metade" style="margin-top:16px"><b>Improving pronunciation - / j /</b></p>        
 				<p style="margin-top:32px">

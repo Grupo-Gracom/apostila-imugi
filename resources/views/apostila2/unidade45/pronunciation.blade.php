@@ -14,8 +14,8 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 45/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear espacamento"></div>                             
                 <h5 class="barlow">Improving pronunciation - / tt / / dd /.</h5>
                 <div class="metade esquerda center-align">

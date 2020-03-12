@@ -42,7 +42,7 @@
                     <h5 class="barlow">B - Organize the sentences. Use DO when necessary.</h5>
                     <form id="unidade2grammar7" method="post">
                         <p>1 - You/with/work/photography <input class="full left-align" type="text" name="grammar7-1" placeholder="Responda aqui" required></p>
-                        <p>2 - They/a soft ware/need/to edit/photos <input class="full left-align" type="text" name="grammar7-2" placeholder="Responda aqui" required></p>
+                        <p>2 - They/a software/need/to edit/photos <input class="full left-align" type="text" name="grammar7-2" placeholder="Responda aqui" required></p>
                         <p>3 - Have/you/ a computer <input class="full left-align" type="text" name="grammar7-3" placeholder="Responda aqui" required></p>
                         <p>4 - We/Photoshop/use/for work <input class="full left-align" type="text" name="grammar7-4" placeholder="Responda aqui" required></p>                        
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

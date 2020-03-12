@@ -25,7 +25,7 @@
 					<li><p><b>NOWADAYS</b></p></li>
 					<li><p><b>VARIETY</b></p></li>
 					<li><p><b>DURING</b></p></li>
-					<li><p><b>SUCHAS</b></p></li>
+					<li><p><b>SUCH AS</b></p></li>
 				</ul>
 			</div>
 		</div>

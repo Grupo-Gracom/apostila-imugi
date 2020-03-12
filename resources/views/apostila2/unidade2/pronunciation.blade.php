@@ -14,8 +14,8 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 2/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear"></div>
                 <h5>A - Connected Speech: In spoken English the pronunciation of specific words may be changed within a sentence following two principles. Elision (When a sound disappears)
                     and Assimilation (When a sound is modified).</h5>
