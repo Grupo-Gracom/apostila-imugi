@@ -47,7 +47,9 @@
 				<p>
 					<b>Gleen :</b> Fantastic Mr Smith. Thank you for your presence. We hope to see you back ok.
 				</p>
-				<div style="margin-top: 36px">
+
+				<iframe style="margin-top: 16px" width="640" height="360" src="https://www.youtube.com/embed/jRKfumNPL1Y?list=PL16DC24F610CBBD8B" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div style="margin-top: 32px">
 					<figure>
 						<img src="{{ asset('assets/img/dominating/unit10/conversation.jpg') }}" alt="amigos estudando">
 					</figure>

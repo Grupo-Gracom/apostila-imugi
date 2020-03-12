@@ -17,8 +17,8 @@
 					<source src="{{ asset('assets/audio/Unit10/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
+                <h5 class="barlow"style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <div style="margin-top: 16px">
                     <form id="unidade10listening146" method="post">
                         <p>
                             “Yes, I’m so happy to be <input type="text" name="listening146-1"  placeholder="Responda aqui" required> on the IBC 2014. <input type="text" name="listening146-2"  placeholder="Responda aqui" required> greetings to
@@ -28,13 +28,13 @@
                             the new features of Cinema 4D R 16.”
                         </p>
 
-
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="10">
                         <input type="hidden" name="atividade_id" value="146">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
+                    <iframe style="margin-top:16px" width="640" height="360" src="https://www.youtube.com/embed/TUQYVIy7qw4?list=PLIqMw1vG1TWYonLA3E8qIhl_VZLk75ofu" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
 		</div>

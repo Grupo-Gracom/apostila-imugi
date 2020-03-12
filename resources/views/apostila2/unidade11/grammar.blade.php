@@ -19,173 +19,143 @@
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px;">A - SIMPLE FUTURE – WILL.</h5>
                 <p><b>Will</b> is used to express decisions or unquestionable facts in the future.</p>
-                <h5 class="barlow"> Future decision / unquestionable fact = Subject + will + verb(infinitive)</h5>
-                <table class="tabelaVerdeEscuro tabelaGramar11">
-                    <tr class="tabelaVerde">
-                        <th class="center-align">Subject</th>
-                        <th class="center-align">Verb(inf)</th>
-							<th >Future decision / fact</th>
-						</tr>
-						<tr class="tabelaVerde">
-                            <td class="center-align">Akira</td>
-							<td class="center-align">take</td>
-							<td>Akira <b>will take</b> a course before getting back to work. (decision)</td>
-						</tr>
-						<tr class="tabelaVerde">
-                            <td class="center-align">Laura</td>
-							<td class="center-align">do</td>
-							<td>Laura <b>will do</b><b> a video for an NGO. (decision)</td>
-						</tr>
-						<tr class="tabelaVerde">
-                            <td class="center-align">John</td>
-							<td class="center-align">learn</td>
-							<td>John <b>will learn</b><b> more about movies. (fact)</td>
-						</tr>
-                </table>
-                <table class="tabelaVerdeEscuro umterco marginCustomizada" style="margin-right: 5px;">
-                    <tr class="tabelaVerde">
-                        <th>To be (future with will)</th>
+                <p class="caixa center-align">Future decision / unquestionable fact = Subject + will + verb(infinitive)</h5>
+                <table class="metade center-align">
+                    <tr>
+                        <td><h5 class="barlow">Subject</h5</td>
+                        <td><h5 class="barlow">Verb(inf)</h5</td>
+                        <td><h5 class="barlow">Future decision / fact</h5</td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td>(+) Comic Com <b>will be</b> fantastic.</td>
+                    <tr>
+                        <td><p>Akira</p></td>
+                        <td><p>take</p></td>
+                        <td><p>Akira <b>will take</b> a course before getting back to work. (decision)</p></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td>(-) Comic Com <b>will not be</b> fantastic.</td>
+                    <tr>
+                        <td><p>Laura</p></td>
+                        <td><p>do</p></td>
+                        <td><p>Laura <b>will do</b><b> a video for an NGO. (decision)</p></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td>(?) <b>will</b> Comic Com be fantastic?</td>
+                    <tr>
+                        <td><p>John<p></td>
+                        <td><p>learn<p></td>
+                        <td><p>John <b>will learn</b><b> more about movies. (fact)<p></td>
                     </tr>
                 </table>
-                <table class="tabelaVerdeEscuro marginCustomizada" style="width:40%;">
-                    <tr class="tabelaVerde">
-                        <th>Other verbs (future with will)</th>
+                <table class="metade center-align">
+                    <tr>
+                        <td><h5 class="barlow">To be (future with will)</h5</td>
+                        <td><h5 class="barlow">Other verbs (future with will)</h5</td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td>(+) She <b>will present</b> the final version next month.</td>
+                    <tr>
+                        <td><p>(+) Comic Com <b>will be</b> fantastic.</p></td>
+                        <td><p>(+) She <b>will present</b> the final version next month.</p></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td>(+) She <b>Won't present</b> the final version next month.</td>
+                    <tr>
+                        <td><p>(-) Comic Com <b>will not be</b> fantastic.</p></td>
+                        <td><p>(+) She <b>Won't present</b> the final version next month.</p></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td>(+) <b>will </b>She <b>present</b> the final version next month?</td>
+                    <tr>
+                        <td><p>(?) <b>Will</b> Comic Com be fantastic?</p></td>
+                        <td><p>(+) <b>Will </b>She <b>present</b> the final version next month?</p></td>
                     </tr>
-                </table>
-                <table class="tabelaVerdeEscuro umterco marginCustomizada" style="margin-right: 5px;">
-                    <tr class="tabelaVerde">
-                        <td>(+) I think I’<b>ll be</b> a youtuber dad.</td>
+                    <tr style="margin-top:16px">
+                    <td><p>(+) I think I’<b>ll be</b> a youtuber dad.</p></td>
+                        <td><p>(+) We <b>Will talk</b> during the meeting.</p></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td>(-) I think I <b>won’t</b> be a youtuber dad.</td>
+                    <tr>
+                        <td><p>(-) I think I <b>won’t</b> be a youtuber dad.</p></td>
+                        <td><p>(-) We <b>Won't talk</b> during the meeting.</p></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td>(?) <b>Will</b> you <b>be</b> a youtuber honey?</td>
+                    <tr>
+                        <td><p>(?) <b>Will</b> you <b>be</b> a youtuber honey?</p></td>
+                        <td><p>(?) <b>Will</b> you <b>talk</b> during the meeting.</p></td>
                     </tr>
-                </table>
-                <table class="tabelaVerdeEscuro marginCustomizada" style="width:40%;">
-                    <tr class="tabelaVerde">
-                        <td>(+) We <b>Will talk</b> during the meeting.</td>
+                    <tr style="margin-top:16px">
+                        <td><p>(+) They <b>will be</b> the winners, for sure.</p></td>
+                        <td><p>(+) The market <b>will grow</b> a lot this year.</p></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td>(-) We <b>Won't talk</b> during the meeting.</td>
+                    <tr>
+                        <td><p>(-) They <b>won’t be</b> the winners, for sure.</p></td>
+                        <td><p>(-) The market <b>will not grow</b> a lot this year.</p></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td>(?) <b>Will</b> you <b>talk</b> during the meeting.</td>
-                    </tr>
-                </table>
-                <table class="tabelaVerdeEscuro umterco marginCustomizada" style="margin-right: 5px;">
-                    <tr class="tabelaVerde">
-                        <td>(+) They <b>will be</b> the winners, for sure.</td>
-                    </tr>
-                    <tr class="tabelaVerde">
-                        <td>(-) They <b>won’t be</b> the winners, for sure.</td>
-                    </tr>
-                    <tr class="tabelaVerde">
-                        <td>(?) <b>Will</b> they <b>be</b> the winners?</td>
-                    </tr>
-                </table>
-                <table class="tabelaVerdeEscuro" style="width:40%;">
-                    <tr class="tabelaVerde">
-                        <td>(+) The market <b>will grow</b> a lot this year.</td>
-                    </tr>
-                    <tr class="tabelaVerde">
-                        <td>(-) The market <b>will not grow</b> a lot this year.</td>
-                    </tr>
-                    <tr class="tabelaVerde">
-                        <td>(?) <b>will</b> The market <b>grow</b> a lot this year?</td>
+                    <tr>
+                        <td><p>(?) <b>Will</b> they <b>be</b> the winners?</p></td>
+                        <td><p>(?) <b>will</b> The market <b>grow</b> a lot this year?</p></td>
                     </tr>
                 </table>
                 <div class="clear"></div>
                 <h5 class="barlow">B - PREPOSITION + VER(ING)</h5>
-                <h5 class="barlow">After prepositions (<b>in,</b> <b> on,</b> <b>at,</b> <b>before,</b> <b>after</b> <b>etc</b>), verbs end in ing.</h5>
-                <table class="tabelaVerdeEscuro tabelaGramar11">
-                    <tr class="tabelaVerde">
-                        <th class="center-align"></th>
-                        <th class="center-align">preposition</th>
-                        <th class="center-align">Verb(ing)</th>
-                        <th class="center-align"></th>
+                <p>After prepositions (<b>in,</b> <b> on,</b> <b>at,</b> <b>before,</b> <b>after</b> <b>etc</b>), verbs end in ing.</p>
+                <table class="metade center-align">
+                    <tr>
+                        <td></td>
+                        <td><h5 class="barlow">preposition</h5</td>
+                        <td><h5 class="barlow">Verb(ing)</h5</td>
+                        <td></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td class="center-align">I’m interested</td>
-                        <td class="center-align"><b>in</b></td>
-                        <td class="center-align">learn<b>ing</b></td>
-                        <td>more about this app</td>
+                    <tr>
+                        <td><p>I’m interested</p></td>
+                        <td><p><b>in</b></p></td>
+                        <td><p>learn<b>ing</b></p></td>
+                        <td><p>more about this app</p></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td class="center-align">She can help me</td>
-                        <td class="center-align"><b>after</b></td>
-                        <td class="center-align">finesh<b>ing</b></td>
-                        <td>her project</td>
+                    <tr>
+                        <td><p>She can help me</p></td>
+                        <td><p><b>after</b></p></td>
+                        <td><p>finesh<b>ing</b></p></td>
+                        <td><p>her project</p></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td class="center-align">-------</td>
-                        <td class="center-align"><b>Before</b></td>
-                        <td class="center-align">leav<b>ing</b></td>
-                        <td>turn off your machines.</td>
+                    <tr>
+                        <td><p>-------</p></td>
+                        <td><p><b>Before</b></p></td>
+                        <td><p>leav<b>ing</b></p></td>
+                        <td><p>turn off your machines.</p></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td class="center-align">I’m thinking</td>
-                        <td class="center-align"><b>about</b></td>
-                        <td class="center-align">study<b>ing</b></td>
-                        <td>in Europe.</td>
+                    <tr>
+                        <td><p>I’m thinking</p></td>
+                        <td><p><b>about</b></p></td>
+                        <td><p>study<b>ing</b></p></td>
+                        <td><p>in Europe.</p></td>
                     </tr>
-                    <tr class="tabelaVerde">
-                        <td class="center-align">He’s very good</td>
-                        <td class="center-align"><b>at</b></td>
-                        <td class="center-align">mode<b>ling</b></td>
-                        <td>3D characters</td>
+                    <tr>
+                        <td><p>He’s very good</p></td>
+                        <td><p><b>at</b></p></td>
+                        <td><p>mode<b>ling</b></p></td>
+                        <td><p>3D characters</p></td>
                     </tr>
                 </table>
-                <h5 class="barlow">C - EXERCICIOS</h5>
-                <h5 class="barlow">Write sentences about the future following the instruction. Use will.</h5>
+                <h5 class="barlow"><b>EXERCICIOS</b></h5>
+                <h5 class="barlow">1 - Write sentences about the future following the instruction. Use will.</h5>
 				<form id="unidade11grammar148" method="post" class="metade">
-                    <p><b>1. </b> You / earn / lot of money.(+) <input type="text" name="grammar148-1" class="full" required></p>
-                    <p><b>2. </b> Why / She / accept / the NGO project. (?) <input type="text" name="grammar148-2" class="full" required> </p>
-                    <p><b>3. </b> Akira / take a course / on SQL. (-) <input type="text" name="grammar148-3" class="full" required> </p>
-                    <p><b>4. </b> When / John / travel / to NY. (?) <input type="text" name="grammar148-4" class="full" required> </p>
-                    <p><b>5. </b> Gleen / study / London. (?) <input type="text" name="grammar148-5" class="full" required></p>
+                    <p>1. You / earn / lot of money.(+) <input type="text" name="grammar148-1" class="full left-align" placeholder="Responda aqui" required></p>
+                    <p>2. Why / She / accept / the NGO project. (?) <input type="text" name="grammar148-2" class="full left-align" placeholder="Responda aqui" required> </p>
+                    <p>3. Akira / take a course / on SQL. (-) <input type="text" name="grammar148-3" class="full left-align" placeholder="Responda aqui" required> </p>
+                    <p>4. When / John / travel / to NY. (?) <input type="text" name="grammar148-4" class="full left-align" placeholder="Responda aqui" required> </p>
+                    <p>5. Gleen / study / London. (?) <input type="text" name="grammar148-5" class="full left-align" placeholder="Responda aqui" required></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="11">
                     <input type="hidden" name="atividade_id" value="148">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow">Complete the sentences with your own words.</h5>
-				<form id="unidade11grammar149"  method="post">
-                    <p><b>1.</b> Are you interested <b>in</b> (Learn) <input type="text" name="grammar149-1" class="full" required></p>
-                    <p><b>2.</b> Mr. Smith is good <b>at</b> (explain) <input type="text" name="grammar149-2" class="full" required></p>
-                    <p><b>3.</b> Laura has the intension <b>of</b> (take) <input type="text" name="grammar149-3" class="full" required></p>
-                    <p><b>4.</b> <b>Before</b> (start) <input style="width: 38%;" type="text" name="grammar149-4" required>the course,<input style="width: 38%;" type="text" name="grammar149-5" required></p>
-                    <p><b>5.</b> He’s thinking <b>about</b> (visit) <input type="text" name="grammar149-6" class="full" required></p>
+                <h5 class="barlow">2 - Complete the sentences with your own words.</h5>
+				<form id="unidade11grammar149"  method="post" class="metade">
+                    <p>1. Are you interested <b>in</b> (Learn) <input type="text" name="grammar149-1" class="full left-align" placeholder="Responda aqui" required></p>
+                    <p>2. Mr. Smith is good <b>at</b> (explain) <input type="text" name="grammar149-2" class="full left-align" placeholder="Responda aqui" required></p>
+                    <p>3. Laura has the intension <b>of</b> (take) <input type="text" name="grammar149-3" class="full left-align" placeholder="Responda aqui" required></p>
+                    <p>4. <b>Before</b> (start) <input type="text" name="grammar149-4" required>the course,<input type="text" name="grammar149-5" required></p>
+                    <p>5. He’s thinking <b>about</b> (visit) <input type="text" name="grammar149-6" class="full left-align" placeholder="Responda aqui" required></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="11">
                     <input type="hidden" name="atividade_id" value="149">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow"> </h5>
+                <h5 class="barlow">In the text, Akira and Laura share what they think they’ll do in the future. Think about your life and list 3 things you think you will do and 3 things you think you won’t do.
+                Re ready to justify your answers.</h5>
                 <form id="unidade11grammar150" method="post">
-                    <p>In the text, Akira and Laura share what they think they’ll do in the future. Think about your life and list 3 things you think you will do and 3 things you think you won’t do.
-                    Re ready to justify your answers. <input type="text" name="grammar150-1" class="full" required></p>
+                    <input type="text" name="grammar150-1" class="full left-align" placeholder="Responda aqui" required></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="11">

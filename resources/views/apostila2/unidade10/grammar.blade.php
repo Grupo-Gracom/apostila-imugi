@@ -75,7 +75,7 @@
                     </table>
                     <div class="clear"></div>
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">1 - Complete each sentence. Use GOING TO and the verb in brackets:</h5>
                     <form id="unidade10grammar143" method="post">
                     <div class="metade">

@@ -18,23 +18,32 @@
 				</audio>
 				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A - EXPRESSIONS</h5>
-				<p>For sure By the way As I said/mentioned before I have no idea Well, let me see Well, let me think I have to think about it That’s a good question</p>
+				<ul class="lista-inline" style="margin-top:16px">
+					<li><p>For sure</p></li>
+					<li><p>By the way</p></li>
+					<li><p>As I said/mentioned</p></li>
+					<li><p>I have no idea</p></li>
+					<li><p>Well, let me see</p></li>
+					<li><p>Well, let me think</p></li>
+					<li><p>I have to think about it</p></li>
+					<li><p>That’s a good question</p></li>
+				</ul>
 				<h5 class="barlow" style="margin-top: 16px">B – WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 11/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>Finish</b></li>
-					<li><b>Currently</b></li>
-					<li><b>Actually</b></li>
-					<li><b>Touch</b></li>
-					<li><b>Take</b></li>
-					<li><b>NGO</b></li>
-					<li><b>Orphan</b></li>
-					<li><b>Getting</b></li>
-					<li><b>back</b></li>
-					<li><b>Choose</b></li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>Finish</b></p></li>
+					<li><p><b>Currently</b></p></li>
+					<li><p><b>Actually</b></p></li>
+					<li><p><b>Touch</b></p></li>
+					<li><p><b>Take</b></p></li>
+					<li><p><b>NGO</b></p></li>
+					<li><p><b>Orphan</b></p></li>
+					<li><p><b>Getting</b></p></li>
+					<li><p><b>back</b></p></li>
+					<li><p><b>Choose</b></p></li>
 				</ul>
 			</div>
 		</div>
