@@ -21,15 +21,15 @@
 
                 <h5 class="barlow" style="margin-top: 16px">A - WH QUESTIONS – WHAT – WHERE – WHO.</h5>
                 <p><b>What</b> – Used for <b>general questions.</b></p>
-                <p>Examples:</p>
+                <h5 class="barlow"><b>Examples:</b></h5>
                 <p><b>What</b> is your <b>full name? </b> / My full name is <b>Gleen Frey</b></p>
                 <p><b>What’s</b> your favorite <b>software?</b> / My favorite Software is<b> Photoshop.</b></p>
                 <p><b>Where</b> – Used for <b>questions about places.</b></p>
-                <p>Examples:</p>
+                <h5 class="barlow"><b>Examples:</b></h5>
                 <p><b>Where</b> is your book? / It is<b> in my backpack</b></p>
                 <p><b>Where</b> are your parents? / They are <b>in Europe.</b></p>
                 <p><b>Who</b> – Used for <b>questions about people.</b></p>
-                <p>Examples:</p>
+                <h5 class="barlow"><b>Examples:</b></h5>
                 <p><b>Who</b> is your favorite illustrator? / My favorite illustrator is<b> Paul.</b></p>
                 <p><b>Who</b>are you? / I am<b> Akira</b> The<b> new game Developer.</b></p>
 
@@ -40,8 +40,8 @@
 
                 <table class="center-align metade">
                     <tr>
-                        <td class="barlow upper"><p>Subject Pronoun</p></td>
-                        <td class="barlow upper"><p>Possessive Adjective</p></td>
+                        <td><h5 class="barlow">Subject Pronoun</h5></td>
+                        <td><h5 class="barlow">Possessive Adjective</h5></td>
                     </tr>
                     <tr>
                         <td><p>I</p></td>
@@ -57,7 +57,7 @@
                     </tr>
                     <tr>
                         <td><p>She</p></td>
-                        <td><p>His</p></td>
+                        <td><p>Her</p></td>
                     </tr>
                     <tr>
                         <td><p>It</p></td>
@@ -78,9 +78,8 @@
                 </table>
 
                 <div class="clear"></div>
-                <br>
-                <p><b>Examples:</b></p>
-                <p><b>Laura </b>works as a video Maker<b> Her </b>favorite software is Sony Vegas.</p>
+                <h5 class="barlow" style="margin-top:16px"><b>Examples:</b></h5>
+                <p><b>Laura </b>works as a video Maker.<b> Her </b>favorite software is Sony Vegas.</p>
                 <p><b>Akira and John </b>love super hero movies.<b> Their </b>favorite heroes are Batman and Super Man.</p>
                 <h5 class="barlow" style="margin-top: 16px">C - DEMONSTRATIVE PRONOUNS</h5>
 
@@ -88,8 +87,8 @@
                 <table class="center-align metade">
                     <tr>
                         <td></td>
-                        <td class="barlow upper"><p>Near</p></td>
-                        <td class="barlow upper"><p>Far</p></td>
+                        <td><h5 class="barlow upper">Near</h5></td>
+                        <td><h5 class="barlow upper">Far</h5></td>
                     </tr>
                     <tr>
                         <td class="barlow upper"><p>Singular</p></td>
@@ -106,7 +105,7 @@
                 <br>
                 <div class="clear"></div>
 
-                <p><b>Examples:</b></p>
+                <h5 class="barlow"><b>Examples:</b></h5>
 
                 <div class="umterco esquerda">
                     <p><b>This is</b> Mr. Antony, the Coordinator.</b></p>
@@ -115,7 +114,7 @@
 
                 <div class="umterco direita">
                     <p><b>That</b> lady is the marketing manager.</p>
-                    <p><b>Those</b> Graffiti on the wall are great</p>
+                    <p><b>Those</b> Graffiti on the wall are great.</p>
                 </div>
 
                 <div class="clear"></div>
@@ -223,13 +222,13 @@
                     <br>
                     <p>Hello<input type="text" name="grammar108-1" placeholder="Responda aqui" required>name is Patrick. I’m fourteen. I have a brother. His name is Andy and he’s ninenteen.
                         We are on holiday in California. The hotel is very good and <input type="text" name="grammar108-2" placeholder="Responda aqui" required>swimming-pool is large.</p>
-                    <b><p>Andy and I have a sister<input type="text" name="grammar108-3" placeholder="Responda aqui" required>sname is Liz. She’s sixteen years old
+                    <b><p>Andy and I have a sister<input type="text" name="grammar108-3" placeholder="Responda aqui" required>name is Liz. She’s sixteen years old
                     <input type="text" name="grammar108-4" placeholder="Responda aqui" required>
-                        smother and father are in the restaurant now. Their friends, Mr. and Mrs. Bolton, are in the restaurant, too
-                        <input type="text" name="grammar108-5" placeholder="Responda aqui" required>stwo sons are in the pool.</b></p>
-                    <p>Andy has a girl-friend<input type="text" name="grammar108-6" placeholder="Responda aqui" required>sgirl-friend’s name is Sandra. She’s in
-                    <input type="text" name="grammar108-7" placeholder="Responda aqui" required>sclass at school.</p>
-                    <p>Where is your family? Is<input type="text" name="grammar108-8" placeholder="Responda aqui" required>sfamily here, too?</p>
+                        mother and father are in the restaurant now. Their friends, Mr. and Mrs. Bolton, are in the restaurant, too
+                        <input type="text" name="grammar108-5" placeholder="Responda aqui" required>two sons are in the pool.</b></p>
+                    <p>Andy has a girl-friend<input type="text" name="grammar108-6" placeholder="Responda aqui" required>girl-friend’s name is Sandra. She’s in
+                    <input type="text" name="grammar108-7" placeholder="Responda aqui" required>class at school.</p>
+                    <p>Where is your family? Is<input type="text" name="grammar108-8" placeholder="Responda aqui" required>family here, too?</p>
 
                     <div class="clear"></div>
 
@@ -239,7 +238,6 @@
                     <input type="hidden" name="atividade_id" value="108">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
 			</div>
 		</div>
     </main>

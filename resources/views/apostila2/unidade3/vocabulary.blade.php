@@ -10,7 +10,6 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade3"  data-etapa="vocabulary">
-
 				<h3 class="barlow">UNIT 03</h3>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
@@ -38,8 +37,8 @@
 
 				<div class="metade">
 					<form id="unidade3vocabulary112" method="post">
-						<p><input type="text" name="vocabulary112-1" placeholder="Responda aqui" class="full left-align" required></p>
-						<p><input type="text" name="vocabulary112-2" placeholder="Responda aqui" class="full left-align" required></p>
+						<p>ACTIONS:<input type="text" name="vocabulary112-1" placeholder="Responda aqui" class="full left-align" required></p>
+						<p>THINGS:<input type="text" name="vocabulary112-2" placeholder="Responda aqui" class="full left-align" required></p>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
@@ -48,7 +47,6 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
 					</form>
 				</div>
-
 
 				<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT</h5>
 

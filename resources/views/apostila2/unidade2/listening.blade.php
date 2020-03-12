@@ -20,13 +20,13 @@
 
                 <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade2listening109" method="post">
-                    <p>“My name is Joana Henly and I<input type="text" name="listening109-1" placeholder="Responda aqui" required>
-                        <input type="text" name="listening109-2" placeholder="Responda aqui" required> the name of Miss Led. I’ve been in London
-                        <input type="text" name="listening109-3" placeholder="Responda aqui" required>I live and work for Goodness
-                        <input type="text" name="listening109-4" placeholder="Responda aqui" required>years now. This is my fabulous
-                        <input type="text" name="listening109-5" placeholder="Responda aqui" required>. I work as an<input type="text" name="listening109-6" placeholder="Responda aqui" required>,
-                        <input type="text" name="listening109-7" placeholder="Responda aqui" required>
-                        and live<input type="text" name="listening109-8" placeholder="Responda aqui" required>."
+                    <p>“My name is Joana Henly and I
+                        <input type="text" name="listening109-1" placeholder="Responda aqui" required> the name of Miss Led. I’ve been in London
+                        <input type="text" name="listening109-2" placeholder="Responda aqui" required>I live and work for Goodness
+                        <input type="text" name="listening109-3" placeholder="Responda aqui" required>years now. This is my fabulous
+                        <input type="text" name="listening109-4" placeholder="Responda aqui" required>. I work as an<input type="text" name="listening109-5" placeholder="Responda aqui" required>,
+                        <input type="text" name="listening109-6" placeholder="Responda aqui" required>
+                        and live<input type="text" name="listening109-7" placeholder="Responda aqui" required>."
                     </p>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -36,14 +36,11 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <h5 class="barlow">B – Think of a famous person you like and present him or her to your classmates. Tell them, full name, profession, nationality and age.</h5>
+                <iframe style="margin-top:16px" width="560" height="315" src="https://www.youtube.com/embed/4Kk0086LfRM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <h5 class="barlow" style="margin-top:16px">B – Think of a famous person you like and present him or her to your classmates. Tell them, full name, profession, nationality and age.</h5>
                 <form id="unidade2listening110" method="post">
-                    <div class="umterco">
-                        <p><input type="text" name="listening110-1" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p><input type="text" name="listening110-2" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p><input type="text" name="listening110-3" placeholder="Responda aqui" class="full left-align" required></p>
-                        <p><input type="text" name="listening110-4" placeholder="Responda aqui" class="full left-align" required></p>
-                    </div>
+                <textarea name="listening110-1" class="metade left-align" placeholder="Responda aqui"  required></textarea>
 
                     <div class="clear"></div>
 
@@ -85,14 +82,7 @@
         $("#unidade2listening110").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade2listening110 input[type="text"]').each(function(index){
-                if(($('#unidade2listening110 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
+            var respostas = '{"'+$('#unidade2listening110 textarea').attr("name")+'":"'+$('#unidade2listening110 textarea').val()+'"}';
             if($('#unidade2listening110 input[name="resposta_id"').val() != 0){
                 atualizarAtividade($('#unidade2listening110'), respostas);
             }else{
@@ -116,6 +106,8 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
+                        $('#unidade2listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade2listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade2listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade2listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }

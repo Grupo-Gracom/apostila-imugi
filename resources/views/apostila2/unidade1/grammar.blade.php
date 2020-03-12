@@ -19,61 +19,57 @@
 				</audio>
 
                 <div class="clear"></div>
-                    <table class="metade center-align" style="margin-top:16px">
-                            <tr>
-                                <td><h5 class="barlow upper">Affirmative</h5></td>
-                                <td><h5 class="barlow upper">Negative</h5></td>
-                                <td><h5 class="barlow upper">Interrogative</h5></td>
-                            </tr>
-                            <tr>
-                                <td><p><b>I am </b>a video Maker.(I´m)</p></td>
-                                <td><p>I<b> am not</b> a video Maker</p></td>
-                                <td><p><b>Am</b>I a video maker ?</p></td>
-                            </tr>
-                            <tr>
-                                <td><p>You <b>are</b> a Game Developer.(You´re)</p></td>
-                                <td><p>You <b>are not</b> a...</p></td>
-                                <td><p><b>Are</b> you a... ?</p></td>
+                <h5 class="barlaw" style="margin-top:16px"><b>VERB TO BE</b></h5>
+                <table class="metade center-align" style="margin-top:16px">
+                        <tr>
+                            <td><h5 class="barlow upper">Affirmative</h5></td>
+                            <td><h5 class="barlow upper">Negative</h5></td>
+                            <td><h5 class="barlow upper">Interrogative</h5></td>
+                        </tr>
+                        <tr>
+                            <td><p><b>I am </b>a video Maker. (<b>I´m</b>)</p></td>
+                            <td><p>I<b> am not</b> a video Maker</p></td>
+                            <td><p><b>Am</b> I a video maker ?</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>You <b>are</b> a Game Developer. (You´<b>re</b>)</p></td>
+                            <td><p>You <b>are not</b> a...</p></td>
+                            <td><p><b>Are</b> you a... ?</p></td>
 
-                            </tr>
-                            <tr>
-                                <td><p>He <b>is</b> a Youtuber.(He´s)</p></td>
-                                <td><p>He <b>is not</b> a...</p></td>
-                                <td><p><b>Is</b> he a... ?</p></td>
-                            </tr>
-                            <tr>
-                                <td><p>She <b>is</b> in the office.(She´s)</p></td>
-                                <td><p>She  <b>is not</b> in...</p></td>
-                                <td><p><b>Is</b> she in... ?</p></td>
-                            </tr>
-                            <tr>
-                                <td><p>It <b>is</b> a nice software.(It´s)</p></td>
-                                <td><p>It <b>is not</b> a...</p></td>
-                                <td><p><b>Is</b> it a...?</p></td>
-                            </tr>
-                            <tr>
-                                <td><p>We <b>are</b> a very happy.(We´re)</p></td>
-                                <td><p>We <b>are not</b>...</p></td>
-                                <td><p><b>Are</b> we...?</p></td>
-                            </tr>
-                            <tr>
-                                <td><p>You <b>are</b> focused.(You´re)</p></td>
-                                <td><p>You <b>are not</b>...</p></td>
-                                <td><p><b>Are</b> you...?</p></td>
-                            </tr>
-                            <tr>
-                                <td><p>They <b>are</b> in New York.(They´re)</p></td>
-                                <td><p>They <b>are not</b>...</p></td>
-                                <td><p><b>Are</b> they...?</p></td>
-                            </tr>
-                    </table>
+                        </tr>
+                        <tr>
+                            <td><p>He <b>is</b> a Youtuber. (He´<b>s</b>)</p></td>
+                            <td><p>He <b>is not</b> a...</p></td>
+                            <td><p><b>Is</b> he a... ?</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>She <b>is</b> in the office. (She´<b>s</b>)</p></td>
+                            <td><p>She  <b>is not</b> in...</p></td>
+                            <td><p><b>Is</b> she in... ?</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>It <b>is</b> a nice software. (It´<b>s</b>)</p></td>
+                            <td><p>It <b>is not</b> a...</p></td>
+                            <td><p><b>Is</b> it a...?</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>We <b>are</b> a very happy. (We´<b>re</b>)</p></td>
+                            <td><p>We <b>are not</b>...</p></td>
+                            <td><p><b>Are</b> we...?</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>You <b>are</b> focused. (You´<b>re</b>)</p></td>
+                            <td><p>You <b>are not</b>...</p></td>
+                            <td><p><b>Are</b> you...?</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>They <b>are</b> in New York. (They´<b>re</b>)</p></td>
+                            <td><p>They <b>are not</b>...</p></td>
+                            <td><p><b>Are</b> they...?</p></td>
+                        </tr>
+                </table>
 
-                <br>
-
-                    <div class="clear"></div>
-
-
-                <table class="metade center-align">
+                <table class="metade center-align" style="margin-top:32px">
                     <tr>
                         <td></td>
                         <td><h5 class="barlow upper">Pronouns</h5></td>
@@ -90,9 +86,6 @@
                         <td><p>ARE</p></td>
                     </tr>
                 </table>
-
-
-                <div class="clear"></div>
 
                 <h5 style="margin-top:16px"><b>Examples:</b></h5>
 
@@ -123,7 +116,7 @@
                 </form>
 
 
-                <h5 class="barlow">B - Complete this card by using “AM, IS, ARE, AM NOT , ISN’T,AREN’T”:</h5>
+                <h5 class="barlow">B - Complete this card by using “AM, IS, ARE, AM NOT , ISN’T, AREN’T”:</h5>
 				<form id="unidade1grammar101" method="post">
                     <p>Hello!</p>
                     <p>My name <input type="text" name="grammar101-1" placeholder="Responda aqui" required>is<input type="text" name="grammar101-2" placeholder="Responda aqui" required>
@@ -166,9 +159,10 @@
 
                 <h5 class="barlow" style="margin-top:32px">D - Prepare your personal presentation. Tell us your name, age, profession, nationality and any other thing you want to share.</h5>
 				<form id="unidade1grammar103" method="post">
-                    <div class="metade">
-                        <p><input type="text" name="grammar103-1" placeholder="Responda aqui" class="full left-align" required></p>
-                    </div>
+                    <textarea name="grammar103-1" class="metade left-align" placeholder="Responda aqui"  required></textarea>
+
+                    <div class="clear"></div>
+                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
@@ -243,14 +237,7 @@
         $("#unidade1grammar103").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade1grammar103 input[type="text"]').each(function(index){
-                if(($('#unidade1grammar103 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
+            var respostas = '{"'+$('#unidade1grammar103 textarea').attr("name")+'":"'+$('#unidade1grammar103 textarea').val()+'"}';
             if($('#unidade1grammar103 input[name="resposta_id"').val() != 0){
                 atualizarAtividade($('#unidade1grammar103'), respostas);
             }else{
@@ -274,6 +261,8 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
+                        $('#unidade1grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade1grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade1grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade1grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }

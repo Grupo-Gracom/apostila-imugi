@@ -17,35 +17,33 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 1/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5>A - Contractions: Practice the pronunciation of contracted form x non-contracted forms.</h5>
-
+                <p style="margin-top:16px"><b>Contractions</b>: Practice the pronunciation of contracted form x non-contracted forms.</p>
                 <table class="metade center-align">
                     <tr>
                         <td><p>I am a ...</p></td>
                         <td><p>I'm a ...</p></td>
                     </tr>
                     <tr>
-                        <td><p>He is an...</p></td>
-                        <td><p>He's an...</p></td>
+                        <td><p>He is an ...</p></td>
+                        <td><p>He's an ...</p></td>
                     </tr>
                     <tr>
-                        <td><p>You are an...</p></td>
-                        <td><p>You're an...</p></td>
+                        <td><p>You are an ...</p></td>
+                        <td><p>You're an ...</p></td>
                     </tr>
                     <tr>
-                        <td><p>We are in...</p></td>
-                        <td><p>We're in...</p></td>
+                        <td><p>We are in ...</p></td>
+                        <td><p>We're in ...</p></td>
                     </tr>
                     <tr>
-                        <td><p>They are on...</p></td>
-                        <td><p>They’re on...</p></td>
+                        <td><p>They are on ...</p></td>
+                        <td><p>They’re on ...</p></td>
                     </tr>
                     <tr>
-                        <td><p>Isn't …</p></td>
-                        <td><p>Aren't...</p></td>
+                        <td><p>Isn't ...</p></td>
+                        <td><p>Aren't ...</p></td>
                     </tr>
                 </table>
-
 			</div>
 		</div>
     </main>
