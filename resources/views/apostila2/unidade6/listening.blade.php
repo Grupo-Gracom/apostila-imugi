@@ -17,20 +17,18 @@
 					<source src="{{ asset('assets/audio/Unit6/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade6listening128" method="post">
-                        <p>
-                            1 -  Listen to the audio and describe the 7 steps to making a comic book.<br>
-                            <input type="text" name="listening128-1" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="6">
-                        <input type="hidden" name="atividade_id" value="128">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+                <form id="unidade6listening128" method="post" style="margin-top: 16px">
+                    <p>1 -  Listen to the audio and describe the 7 steps to making a comic book.</p>
+                    <textarea name="listening128-1" class="metade left-align" placeholder="Responda aqui"  required></textarea>
+                    
+                    <div class="clear"></div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="6">
+                    <input type="hidden" name="atividade_id" value="128">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+                <iframe style="margin-top: 16px" width="640" height="360" src="https://www.youtube.com/embed/JSLB75Nn4G8?list=PL5JDtjDGWsw36J6-Z2waRIo4DuQUyPJXZ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 		</div>
     </main>
@@ -45,14 +43,7 @@
         $("#unidade6listening128").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade6listening128 input[type="text"]').each(function(index){
-                if(($('#unidade6listening128 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
+            var respostas = '{"'+$('#unidade6listening128 textarea').attr("name")+'":"'+$('#unidade6listening128 textarea').val()+'"}';
             if($('#unidade6listening128 input[name="resposta_id"').val() != 0){
                 atualizarAtividade($('#unidade6listening128'), respostas);
             }else{
@@ -76,6 +67,8 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
+                        $('#unidade6listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade6listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade6listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade6listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }

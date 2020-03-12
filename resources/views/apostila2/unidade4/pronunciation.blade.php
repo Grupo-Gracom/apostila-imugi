@@ -17,9 +17,9 @@
 					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <p><b>long a /eɪ/</b></p>
 
-                <ul class="lista-inline">
+                <ul class="lista-inline" style="margin-top:32px">
+                    <li><p><b>long a /eɪ/</b></p></li>
                     <li><p>GATE</p></li>
                     <li><p>LATE</p></li>
                     <li><p>FAIL</p></li>
@@ -28,7 +28,7 @@
                     <li><p>GREAT</p></li>
                 </ul>
 
-                <P>J<b>a</b>ne’s f<b>a</b>ce looks gre<b>a</b>t while she w<b>a</b>its in the gre<b>a</b>t g<b>a</b>te</P>
+                <p style="margin-top:16px">J<b>a</b>ne’s f<b>a</b>ce looks gre<b>a</b>t while she w<b>a</b>its in the gre<b>a</b>t g<b>a</b>te</p>
 
 			</div>
 		</div>

@@ -20,7 +20,7 @@
                 <div style="margin-top: 16px">
                     <h5 class="barlow" style="margin-top: 16px">A - PRESENT CONTINUOUS</h5>
                     <p><b>Present continuous</b> is used to express <b>actions in progress or a temporary situation</b>.</p>
-                    <p class="center-align caixa"><b>Present Continuous = Subject + am/are/is + verb(ing)</b></p>
+                    <p class="center-align caixa" style="margin-top: 32px"><b>Present Continuous = Subject + am/are/is + verb(ing)</b></p>
                     <table class="metade center-align">
                         <tr>
                             <td><h5 class="barlow">Subject</h5></td>
@@ -88,20 +88,20 @@
                     </table>
                     <div class="clear"></div>
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">A - Supply PRESENT CONTINUOUS TENSE in the blanks:</h5>
                     <form id="unidade7grammar130" method="post">
                         <div class="metade esquerda">
                             <p>
                                 <p>1. He <input type="text" name="grammar130-1" placeholder="Responda aqui" required/> (tech) his son how to install an app in his cell phone.</p>
-                                <p>2. Why <input type="text" name="grammar130-2" placeholder="Responda aqui" required/> Laura <input type="text" name="grammar130-3" placeholder="Responda aqui" required/> (use) Sony Vegas to edit her videos?</p>
-                                <p>R: Because she likes the tools.</p>
+                                <p>2. <b>P:</b> Why <input type="text" name="grammar130-2" placeholder="Responda aqui" required/> Laura <input type="text" name="grammar130-3" placeholder="Responda aqui" required/> (use) Sony Vegas to edit her videos?</p>
+                                <p><b>R:</b> Because she likes the tools.</p>
                                 <p>3. John usually studies in the evenings, but he <input type="text" name="grammar130-4" placeholder="Responda aqui" required/> (study) it today because he is busy with the new magazine.</p>
                                 <p>4. He <input type="text" name="grammar130-5" placeholder="Responda aqui" required/> (not / work), she <input type="text" name="grammar130-6" placeholder="Responda aqui" required/> (Relax).</p>
-                                <p>5. P: <input type="text" name="grammar130-7" placeholder="Responda aqui" required/> Gleen <input type="text" name="grammar130-8" placeholder="Responda aqui" required/> (teach) right now?</p>
-                                <p>R: No, he’s not. He <input type="text" name="grammar130-9" placeholder="Responda aqui" required/> (prepare) a presentation.</p>
-                                <p>P: Where is his assistant?</p>
-                                <p>R: She is in the office, she <input type="text" name="grammar130-10" placeholder="Responda aqui" required/> (copy) some documents for him.</p>
+                                <p>5. <b>P:</b> <input type="text" name="grammar130-7" placeholder="Responda aqui" required/> Gleen <input type="text" name="grammar130-8" placeholder="Responda aqui" required/> (teach) right now?</p>
+                                <p><b>R:</b> No, he’s not. He <input type="text" name="grammar130-9" placeholder="Responda aqui" required/> (prepare) a presentation.</p>
+                                <p><b>P:</b> Where is his assistant?</p>
+                                <p><b>R:</b> She is in the office, she <input type="text" name="grammar130-10" placeholder="Responda aqui" required/> (copy) some documents for him.</p>
                             </p>
                         </div>
                         <div class="clear"></div>
@@ -166,11 +166,10 @@
                         <input type="hidden" name="atividade_id" value="132">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                <div style="margin-top: 36px">
-					<figure>
+                    <iframe style="margin-top: 16px" width="573" height="240" src="https://www.youtube.com/embed/mN0zPOpADL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<figure style="margin-top: 36px">
                         <img  src="{{ asset('assets/img/dominating/unit7/grammar.png') }}" alt="desenho">
 					</figure>
-				</div>
                 </div>
 			</div>
 		</div>

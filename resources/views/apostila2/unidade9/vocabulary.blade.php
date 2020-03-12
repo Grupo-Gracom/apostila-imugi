@@ -24,16 +24,16 @@
 					</figure>
 				</div>
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
-				<ul class="lista-inline">
-					<li><b>Field</b></li>
-					<li><b>Like</b></li>
-					<li><b>Cleanest</b></li>
-					<li><b>Worst</b></li>
-					<li><b>Manage</b></li>
-					<li><b>Still</b></li>
-					<li><b>Absent</b></li>
-					<li><b>Chance</b></li>
-					<li><b>Coming</b></li>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Field</b></p></li>
+					<li><p><b>Like</b></p></li>
+					<li><p><b>Cleanest</b></p></li>
+					<li><p><b>Worst</b></p></li>
+					<li><p><b>Manage</b></p></li>
+					<li><p><b>Still</b></p></li>
+					<li><p><b>Absent</b></p></li>
+					<li><p><b>Chance</b></p></li>
+					<li><p><b>Coming</b></p></li>
 				</ul>
 			</div>
 		</div>

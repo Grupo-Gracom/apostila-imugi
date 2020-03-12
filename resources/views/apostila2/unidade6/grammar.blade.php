@@ -19,17 +19,17 @@
                 <!-- nao tem audio ainda -->
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
-                    <h5 class="barlow" style="margin-top: 16px">3.1 - WH - QUESTIONS</h5>
+                    <h5 class="barlow" style="margin-top: 16px">WH - QUESTIONS</h5>
                     <table class="metade center-align">
                             <tr>
                                 <td colspan="3"><h5 class="barlow">Verb to Be</h5></td>
                             </tr>
                             <tr>
                                 <td><p><b>What's</b> your favorite hobby?</p></td>
-                                <td><p><b>My favorite hobby</b> is drawing wizards</p></td>
+                                <td><p><b>My favorite hobby</b> is drawing wizards.</p></td>
                             </tr>
                             <tr>
-                                <td><p><b>Who</b> is the best Avengers Super hero</p></td>
+                                <td><p><b>Who</b> is the best Avengers Super hero?</p></td>
                                 <td><p>I Guess <b>Thor</b> is the best.</p></td>
                             </tr>
                             <tr>
@@ -39,14 +39,14 @@
                             <tr><td colspan="3"><h5 class="barlow">Other Verbs</h5></td></tr>
                             <tr>
                                 <td><p><b>Where do you find</b> good study references?</p></td>
-                                <td><p><b>I</b> find very good tutorials <b>on youtube</b></p></td>
+                                <td><p><b>I</b> find very good tutorials <b>on youtube.</b></p></td>
                             </tr>
                             <tr>
                                 <td><p><b>What do you do</b> before starting a project?</p></td>
                                 <td><p><b>We have a brainstorm</b> to debate it.</p></td>
                             </tr>
                             <tr>
-                                <td><p><b>Which FPS do you</b> like to play? BF4 or CS Go</p></td>
+                                <td><p><b>Which FPS do you</b> like to play? BF4 or CS Go.</p></td>
                                 <td><p>I like to play <b>BF4</b>.</p></td>
                             </tr>
                     </table>
@@ -57,7 +57,7 @@
                         </figure>
                     </div>
                     <div class="clear"></div>
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">A - Read the questions & answers about LAURA and ask and answer about AKIRA.</h5>
                     <form id="unidade6grammar125" method="post">
                         <div class="metade esquerda">

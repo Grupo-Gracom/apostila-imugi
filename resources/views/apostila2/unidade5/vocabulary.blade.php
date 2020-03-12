@@ -20,14 +20,14 @@
 				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A - SEQUENCE WORDS/EXPRESSIONS</h5>
 
-				<ul class="lista-inline">
-					<li><b>FIRST</b></li>
-					<li><b>SECOND</b></li>
-					<li><b>NEXT</b></li>
-					<li><b>BEFORE AFTER THAT</b></li>
-					<li><b>THEN</b></li>
-					<li><b>IN THE END</b></li>
-					<li><b>FINALLY</b></li>
+				<ul class="lista-inline" style="margin-top:16px">
+					<li><p><b>FIRST</b></p></li>
+					<li><p><b>SECOND</b></p></li>
+					<li><p><b>NEXT</b></p></li>
+					<li><p><b>BEFORE AFTER THAT</b></p></li>
+					<li><p><b>THEN</b></p></li>
+					<li><p><b>IN THE END</b></p></li>
+					<li><p><b>FINALLY</b></p></li>
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">B - CLARIFYNG SENTENCES</h5>
@@ -36,7 +36,7 @@
 				</audio>
 				<div class="clear"></div>
 
-				<table class="metade">
+				<table class="metade" style="margin-top:16px">
 					<tr>
 						<td><p>What do you wanna mean?</p></td>
 						<td><p>Can/Could you repeat please?</p></td>
@@ -53,16 +53,16 @@
 				</audio>
 				<div class="clear"></div>
 
-				<ul class="lista-inline">
-					<li><b>WELL</b></li>
-					<li><b>CAREFULLY</b></li>
-					<li><b>PERFECTLY</b></li>
-					<li><b>PROBABLY</b></li>
-					<li><b>SPECIALLY</b></li>
-					<li><b>SERIOUSLY</b></li>
-					<li><b>ABSOLUTELY</b></li>
-					<li><b>TERRIBLY</li>
-                    <li><b>COMPLETELY</b></li>
+				<ul class="lista-inline" style="margin-top:16px">
+					<li><p><b>WELL</b></p></li>
+					<li><p><b>CAREFULLY</b></p></li>
+					<li><p><b>PERFECTLY</b></p></li>
+					<li><p><b>PROBABLY</b></p></li>
+					<li><p><b>SPECIALLY</b></p></li>
+					<li><p><b>SERIOUSLY</b></p></li>
+					<li><p><b>ABSOLUTELY</b></p></li>
+					<li><p><b>TERRIBLY</p></li>
+                    <li><p><b>COMPLETELY</b></p></li>
 				</ul>
 
                 <h5 class="barlow" style="margin-top: 16px">D - WORDS IN CONTEXT</h5>
@@ -71,16 +71,16 @@
 				</audio>
 				<div class="clear"></div>
 				
-				<ul class="lista-inline">
-					<li><b>TIPS</b></li>
-					<li><b>SHARE</b></li>
-					<li><b>MEAN</b></li>
-					<li><b>STEPS</b></li>
-					<li><b>NEED</b></li>
-					<li><b>OPTIMIZE</b></li>
-					<li><b>SEND</b></li>
-					<li><b>MEETING</b></li>
-                    <li><b>UNFORTUNATELY</b></li>
+				<ul class="lista-inline" style="margin-top:16px">
+					<li><p><b>TIPS</b></p></li>
+					<li><p><b>SHARE</b></p></li>
+					<li><p><b>MEAN</b></p></li>
+					<li><p><b>STEPS</b></p></li>
+					<li><p><b>NEED</b></p></li>
+					<li><p><b>OPTIMIZE</b></p></li>
+					<li><p><b>SEND</b></p></li>
+					<li><p><b>MEETING</b></p></li>
+                    <li><p><b>UNFORTUNATELY</b></p></li>
 				</ul>
 
 			</div>

@@ -60,7 +60,7 @@
                     </table>
                     <div class="clear"></div>
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">Table 1.</h5>
                     <form id="unidade9grammar420" method="post">
                         <table class="metade center-align">
@@ -71,49 +71,49 @@
                                 <td><h5 class="barlow">Phase One</h5></td>
                             </tr>
                             <tr>
-                                <td><p><b>Price</b></p></td>
+                                <td><h5 class="barlow"><b>Price</b></h5></td>
                                 <td><p><input type="text" name="grammar420-1" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-2" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-3" class="left-align" placeholder="Responda aqui" required/></p></td>
                             </tr>
                             <tr>
-                                <td><p><b>Level of difficulty</p></td>
+                                <td><h5 class="barlow"><b>Level of difficulty</h5></td>
                                 <td><p><input type="text" name="grammar420-4" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-5" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-6" class="left-align" placeholder="Responda aqui" required/></p></td>
                             </tr>
                             <tr>
-                                <td><p><b>Speed</p></td>
+                                <td><h5 class="barlow"><b>Speed</h5></td>
                                 <td><p><input type="text" name="grammar420-7" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-8" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-9" class="left-align" placeholder="Responda aqui" required/></p></td>
                             </tr>
                             <tr>
-                                <td><p><b>Learning curve</p></td>
+                                <td><h5 class="barlow"><b>Learning curve</h5></td>
                                 <td><p><input type="text" name="grammar420-10" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-11" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-12" class="left-align" placeholder="Responda aqui" required/></p></td>
                             </tr>
                             <tr>
-                                <td><p><b>Set of tools</p></td>
+                                <td><h5 class="barlow"><b>Set of tools</h5></td>
                                 <td><p><input type="text" name="grammar420-10" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-11" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-12" class="left-align" placeholder="Responda aqui" required/></p></td>
                             </tr>
                             <tr>
-                                <td><p><b>Collection management</p></td>
+                                <td><h5 class="barlow"><b>Collection management</h5></td>
                                 <td><p><input type="text" name="grammar420-10" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-11" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-12" class="left-align" placeholder="Responda aqui" required/></p></td>
                             </tr>
                             <tr>
-                                <td><p><b>Technical support</p></td>
+                                <td><h5 class="barlow"><b>Technical support</h5></td>
                                 <td><p><input type="text" name="grammar420-10" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-11" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-12" class="left-align" placeholder="Responda aqui" required/></p></td>
                             </tr>
                             <tr>
-                                <td><p><b>Tutorials</p></td>
+                                <td><h5 class="barlow"><b>Tutorials</h5></td>
                                 <td><p><input type="text" name="grammar420-10" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-11" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar420-12" class="left-align" placeholder="Responda aqui" required/></p></td>
@@ -129,8 +129,9 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                     <h5 class="barlow" style="margin-top: 16px">C - Look at chart, compare the programs and write sentences according to the instructions.</h5>
-                    <p><b>Example:</b>  (Corel / good / for students to learn) / Corel <b>is the best</b> for students to learn.</p>
-                    <form id="unidade9grammar139" method="post">
+                    <h5 class="barlow"><b>Example:</b></h5>
+                    <p>(Corel / good / for students to learn) / Corel <b>is the best</b> for students to learn.</p>
+                    <form id="unidade9grammar139" method="post" style="margin-top: 32px">
                         <div class="metade">
                             <p>
                                 <p>
@@ -187,11 +188,6 @@
                         <input type="hidden" name="atividade_id" value="140">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                <div style="margin-top: 36px">
-					<figure>
-						<img src="{{ asset('assets/img/playgo/unit9/pagina-1.png') }}" alt="java python">
-					</figure>
-				</div>
                 </div>
 			</div>
 		</div>

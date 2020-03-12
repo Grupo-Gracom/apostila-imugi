@@ -17,18 +17,16 @@
 					<source src="{{ asset('assets/audio8/Pronunciation/completo.ogg') }}" type="audio/ogg">
                 </audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>long i /??/</b></li>
-					<li>Time</li>
-					<li>Nine</li>
-					<li>Five</li>
-					<li>High</li>
-					<li>Style</li>
-					<li>China</li>
+				<ul class="lista-inline" style="margin-top:16px">
+					<li><p><b>long i /??/</b></p></li>
+					<li><p>Time</p></li>
+					<li><p>Nine</p></li>
+					<li><p>Five</p></li>
+					<li><p>High</p></li>
+					<li><p>Style</p></li>
+					<li><p>China</p></li>
 				</ul>
-				<ul class="lista-inline">
-					<ol>In Ch<b>i</b>na it’s, tim<b>e</b> for h<b>i</b>gh n<b>i</b>ne to f<b>i</b>ve st<b>y</b>le of work. </ol>
-				</ul>
+				<p class="lista-inline" style="margin-top:32px">In Ch<b>i</b>na it’s, tim<b>e</b> for h<b>i</b>gh n<b>i</b>ne to f<b>i</b>ve st<b>y</b>le of work. </ol>
 				<div class="clear"></div>
 			</div>
 		</div>

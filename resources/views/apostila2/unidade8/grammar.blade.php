@@ -22,7 +22,7 @@
                     <h5 class="barlow" style="margin-top: 16px">A - COMPARATIVE (SUPERIORITY / EQUALITY)</h5>
                     <table class="metade center-align">
                         <tr>
-                            <td colspan="2"><h5 class="barlow">SUPERIORITY</h5></td>
+                            <td colspan="2"><h5 class="barlow"><b>SUPERIORITY</b></h5></td>
 
                         </tr>
                         <tr>
@@ -42,7 +42,7 @@
                             <td><p><b>(expensive)</b> Mac is more expensive than Dell.</p></td>
                         </tr>
                         <tr>
-                            <td colspan="2"><h5 class="barlow">EQUALITY</h5></td>
+                            <td colspan="2"><h5 class="barlow"><b>EQUALITY</b></h5></td>
                         </tr>
                         <tr>
                             <td><h5 class="barlow">Short adjective = as + adj + as</h5></td>
@@ -79,7 +79,7 @@
                     </table>
                     <div class="clear"></div>
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">Table 1.</h5>
                     <form id="unidade8grammar419" method="post">
                         <table class="metade center-align">
@@ -90,25 +90,25 @@
                                 <td><h5 class="barlow">C</h5></td>
                             </tr>
                             <tr>
-                                <td><p><b>Price</b></p></td>
+                                <td><h5 class="barlow"><b>Price</b></h5></td>
                                 <td><p><input type="text" name="grammar419-1" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar419-2" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar419-3" class="left-align" placeholder="Responda aqui" required/></p></td>
                             </tr>
                             <tr>
-                                <td><p><b>Level of difficulty</p></td>
+                                <td><h5 class="barlow"><b>Level of difficulty</h5></td>
                                 <td><p><input type="text" name="grammar419-4" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar419-5" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar419-6" class="left-align" placeholder="Responda aqui" required/></p></td>
                             </tr>
                             <tr>
-                                <td><p><b>Speed</p></td>
+                                <td><h5 class="barlow"><b>Speed</h5></td>
                                 <td><p><input type="text" name="grammar419-7" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar419-8" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar419-9" class="left-align" placeholder="Responda aqui" required/></p></td>
                             </tr>
                             <tr>
-                                <td><p><b>Learning curve</p></td>
+                                <td><h5 class="barlow"><b>Learning curve</h5></td>
                                 <td><p><input type="text" name="grammar419-10" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar419-11" class="left-align" placeholder="Responda aqui" required/></p></td>
                                 <td><p><input type="text" name="grammar419-12" class="left-align" placeholder="Responda aqui" required/></p></td>
@@ -124,8 +124,9 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                     <h5 class="barlow" style="margin-top: 16px">C - Look at chart, compare the programs and write sentences according to the instructions.</h5>
-                    <p><b>Example:</b> (Python / cheap / Java) Python is cheaper than Java.</p>
-                    <form id="unidade8grammar135" method="post">
+                    <h5><b>Example:</b></h5>
+                    <p>(Python / cheap / Java) Python is cheaper than Java.</p>
+                    <form id="unidade8grammar135" method="post" style="margin-top: 32px">
                         <div class="metade">
                             <p>
                                 <p>

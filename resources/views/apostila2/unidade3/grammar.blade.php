@@ -301,7 +301,7 @@
                     <img  src="{{ asset('assets/img/dominating/unit3/grammar.jpg') }}" alt="jogando">
                 </figure>
 
-                <h5 class="barlow" style="margin-top:32px">1 - Write the sentences from the previous exercise in negative and interrogative forms.</h5>
+                <h5 class="barlow" style="margin-top:32px">2 - Write the sentences from the previous exercise in negative and interrogative forms.</h5>
 
                 <form id="unidade3grammar114" action="post" class="metade">
                     <p>1.
@@ -346,7 +346,7 @@
 
                 <div class="clear"></div>
 
-                <p class="barlow">2 - Build up questions with WHEN, WHY AND WICH for the answers.</p>
+                <h5 class="barlow">3 - Build up questions with WHEN, WHY AND WICH for the answers.</h5>
                 <p>E.g We go to L.A next week. / <b>When</b> do you go to L.A.?</p>
 
                 <form id="unidade3grammar115" class="metade" action="post">

@@ -21,23 +21,23 @@
 				<h5 class="barlow" style="margin-top: 16px">A - ADVERBS OF FREQUENCY</h5>
 
 				<ul class="lista-inline">
-					<li><b>ALWAYS</b></li>
-					<li><b>ALMOST ALWAYS</b></li>
-					<li><b>USUALLY</b></li>
-					<li><b>FREQUENTLY</b></li>
-					<li><b>SOMETIMES</b></li>
-					<li><b>RARELY</b></li>
-					<li><b>HARDLY EVER</b></li>
-					<li><b>NEVER</b></li>
+					<li><p><b>ALWAYS</b></p></li>
+					<li><p><b>ALMOST ALWAYS</b></p></li>
+					<li><p><b>USUALLY</b></p></li>
+					<li><p><b>FREQUENTLY</b></p></li>
+					<li><p><b>SOMETIMES</b></p></li>
+					<li><p><b>RARELY</b></p></li>
+					<li><p><b>HARDLY EVER</b></p></li>
+					<li><p><b>NEVER</b></p></li>
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">B - GIVING YOUR OPINION</h5>
 
 				<ul class="lista-inline">
-					<li><b>I THINK</b></li>
-					<li><b>I BELIEVE</b></li>
-					<li><b>I GUESS</b></li>
-                    <li><b>IN MY OPINION</b></li>
+					<li><p><b>I THINK</b></p></li>
+					<li><p><b>I BELIEVE</b></p></li>
+					<li><p><b>I GUESS</b></p></li>
+                    <li><p><b>IN MY OPINION</b></p></li>
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">C - NAVIGATION / ORIENTATION VOCABULARY</h5>
@@ -55,16 +55,16 @@
 				</audio>
 				<div class="clear"></div>
 				
-				<ul class="lista-inline">
-					<li><b>IMPROVE</b></li>
-					<li><b>KNOWLEDGE</b></li>
-					<li><b>DEVELOPMENT</b></li>
-					<li><b>DOUBTS</b></li>
-					<li><b>RELATED</b></li>
-					<li><b>ALSO</b></li>
-					<li><b>POST</b></li>
-					<li><b>CAN</b></li>
-                    <li><b>REVIEW</b></li>
+				<ul class="lista-inline" style="margin-top:16px">
+					<li><p><b>IMPROVE</b></p></li>
+					<li><p><b>KNOWLEDGE</b></p></li>
+					<li><p><b>DEVELOPMENT</b></p></li>
+					<li><p><b>DOUBTS</b></p></li>
+					<li><p><b>RELATED</b></p></li>
+					<li><p><b>ALSO</b></p></li>
+					<li><p><b>POST</b></p></li>
+					<li><p><b>CAN</b></p></li>
+                    <li><p><b>REVIEW</b></p></li>
 				</ul>
 
 			</div>
