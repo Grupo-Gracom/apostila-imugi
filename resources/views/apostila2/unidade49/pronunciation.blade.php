@@ -14,8 +14,8 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/unit1/pronuciation/pronuciation.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 49/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear"></div>
 
                 <p><b>Read the sentences below and circle the words that are pronounced as one word.</b></p>
