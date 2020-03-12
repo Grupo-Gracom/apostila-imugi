@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -43,11 +43,11 @@
                         <tr>
                             <td><p><b>Would you like</b> some coffee?</p></td>
                         </tr>
-                    </table> 
+                    </table>
 
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
-                    <h5 class="barlow">1 - Complete the dialogue using appropriate sentences.</h5>  
-                    <p class="barlow">At a restaurant</p>            
+                    <h5 class="barlow">1 - Complete the dialogue using appropriate sentences.</h5>
+                    <p class="barlow">At a restaurant</p>
                     <form id="unidade30grammar238" method="post">
                         <div class="metade">
                             <p>
@@ -83,7 +83,7 @@
                                 </p>
 
                                 <p style="margin-top:16px">
-                                    1. What <input type="text" name="grammar238-9" placeholder="Responda aqui" required/> order? (would you like to / you would like / you would like to)  
+                                    1. What <input type="text" name="grammar238-9" placeholder="Responda aqui" required/> order? (would you like to / you would like / you would like to)
                                 </p>                              <p>
                                     2. I <input type="text" name="grammar238-10"  placeholder="Responda aqui" required/> the fried chicken. (wouldn’t like / ‘d like / ‘d not like)
                                 </p>
@@ -93,17 +93,17 @@
                                 <p>
                                     4. What kind of potatoes <input type="text" name="grammar238-12"  placeholder="Responda aqui" required/> ? (you would like / you’d like to / would you like)
                                 </p>
-                                <p>     
+                                <p>
                                     5. I <input type="text" name="grammar238-13"  placeholder="Responda aqui" required/> French fries. (‘d like / would like / would like to)
                                 </p>
                                 <p>
                                     6. OK. And what <input type="text" name="grammar238-14"  placeholder="Responda aqui" required/> drink? (would you like / you would like to / would you like to).
                                 </p>
-                                <p>   
-                                    7. I guess I <input type="text" name="grammar238-15"  placeholder="Responda aqui" required/>  a cup of coffee. (would like to / ‘d like / ‘d like to) 
+                                <p>
+                                    7. I guess I <input type="text" name="grammar238-15"  placeholder="Responda aqui" required/>  a cup of coffee. (would like to / ‘d like / ‘d like to)
                                 </p>
                                 <p>
-                                    8. <input type="text" name="grammar238-16"  placeholder="Responda aqui" required/>  anything else? (You would like / Would you like / Would you like to)  
+                                    8. <input type="text" name="grammar238-16"  placeholder="Responda aqui" required/>  anything else? (You would like / Would you like / Would you like to)
                                 </p>
                             </p>
                         </div>
@@ -118,7 +118,7 @@
                 </div>
                 <div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit28/pagina-1.png') }}" alt="restaurante">
+						<img src="{{ asset('assets/img/dominating/unit30/grammar.jpg') }}" alt="restaurante">
 					</figure>
 				</div>
 
@@ -128,9 +128,9 @@
                         <p>
                             <p>
                                 1. John is visiting you in your apartment. You offer him something to drink.<br>
-                                You: <input type="text" name="grammar239-1" placeholder="Responda aqui" required/> <br>  
+                                You: <input type="text" name="grammar239-1" placeholder="Responda aqui" required/> <br>
                                 John: Yes, thank you. A soda is ok for me.
-                            </p>                              
+                            </p>
                             <p>
                                 2. You need help to do a backup of your computer. You ask Akira.<br>
                                 You <input type="text" name="grammar239-2"  placeholder="Responda aqui" required/> <br>
@@ -153,7 +153,7 @@
                 </form>
 
                 <h5 class="barlow metade" style="margin-top: 36px">3 - You are a Tv host and you have to interview a famous actor to get to know his
-                expectations about his/her next movie. Prepare 5 questions using WOULD to ask him/her. Be ready to role play the interview with your classmates.</h5>    
+                expectations about his/her next movie. Prepare 5 questions using WOULD to ask him/her. Be ready to role play the interview with your classmates.</h5>
                 <form id="unidade30grammar240" method="post">
                     <textarea name="grammar240-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
@@ -223,7 +223,7 @@
                 enviarAtividade($('#unidade30grammar240'), respostas);
             }
         });
-        
+
 
         function checkAtividade(atividade_id){
             request = $.ajax({

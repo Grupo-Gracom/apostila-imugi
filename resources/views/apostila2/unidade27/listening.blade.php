@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -43,7 +43,7 @@
                 </div>
                 <div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit27/pagina-1.png') }}" alt="conversa">
+						<img src="{{ asset('assets/img/dominating/unit27/listening.jpg') }}" alt="conversa">
 					</figure>
 				</div>
             </div>

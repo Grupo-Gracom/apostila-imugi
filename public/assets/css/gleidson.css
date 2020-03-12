@@ -131,7 +131,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade .caixa{border: 1px solid #333;width: 35%;}
 #unidade .manipulaimagem{width:60%;margin-left:20%; margin-top:16px;}
 #unidade figure.umterco img{height:auto;}
-#unidade figure.metade img{height:512px;}
+#unidade figure.metade img{height:400px;}
 
 #unidade .espacamento{margin: 16px;}
 #unidade table{ width: unset;}
@@ -194,7 +194,7 @@ main .capas li.deactive img{filter: grayscale(1);}
     #unidade .lista-inline li{flex: initial;text-align: initial;}
 
     #unidade form button{width: 100%;}
-    #unidade table.bordered.direita{width: 100% !important;} 
+    #unidade table.bordered.direita{width: 100% !important;}
 
     #unidade figure.umterco{width: calc(33.333% - 11px) !important;float:left !important; }
     #unidade figure.metade{width: calc(50% - 11px) !important;float:left !important; }

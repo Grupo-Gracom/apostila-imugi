@@ -28,7 +28,7 @@
 				<p><b>Students:</b> ok teacher, don’t worry. Everything is gonna be ok. (to be continued…)</p>
 
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit25/conversation.jpg') }}" alt="atendimento médico">
 				</figure>
 			</div>
 		</div>

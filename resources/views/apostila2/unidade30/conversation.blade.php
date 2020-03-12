@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -24,21 +24,27 @@
 					<b>John :</b>  Yes, for sure teacher. I would like to say that I’m in love with the new magazine.
 					After Comic Con things got clearer for me. Our editor prepared the briefing and I started
 					working on it; The trip to new York was awesome. I have to say that it would be great to
-					live and work in New York. The city is fantastic. 
+					live and work in New York. The city is fantastic.
 				</p>
 				<p>
 					<b>Gleen :</b>  Great John. I agree with you. New York is a great place. For both professional
-					and personal life. I also like San Francisco, but for sure I’d spend some time in NY. Spider man City. (to be continued) 
+					and personal life. I also like San Francisco, but for sure I’d spend some time in NY. Spider man City. (to be continued)
 				</p>
-				<div style="margin-top: 36px">
-					<figure>
-						<img src="{{ asset('assets/img/playgo/unit30/pagina-1.png') }}" alt="revista">
-					</figure>
-				</div>
+                <figure class="umterco">
+                    <img src="{{ asset('assets/img/dominating/unit30/conversation1.jpg') }}" alt="revista">
+                </figure>
+
+                <figure class="umterco">
+                    <img src="{{ asset('assets/img/dominating/unit30/conversation2.jpg') }}" alt="revista">
+                </figure>
+
+                <figure class="umterco">
+                    <img src="{{ asset('assets/img/dominating/unit30/conversation3.png') }}" alt="revista">
+                </figure>
 			</div>
 		</div>
 	</main>
-	
+
 	<script>
         activeMenu();
     </script>

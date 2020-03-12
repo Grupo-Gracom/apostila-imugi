@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -20,32 +20,32 @@
 					<b>Gleen :</b>  Hey you guys. What’s up.
 				</p>
 				<p>
-					<b>Students :</b>  Hey you teacher. Are you ok. 
+					<b>Students :</b>  Hey you teacher. Are you ok.
 				</p>
 				<p>
-					<b>Akira :</b>  By the way, you didn’t say anything about your ankle. Is it ok. 
+					<b>Akira :</b>  By the way, you didn’t say anything about your ankle. Is it ok.
 				</p>
 				<p>
 					<b>Gleen :</b>  Yes, it is but I have to use some medicine because it’s not completely healed.
 					Another thing is that I have to avoid long periods of time standing to prevent major
-					injuries. But all in all everything is ok. 
+					injuries. But all in all everything is ok.
 				</p>
 				<p>
-					<b>Jhon :</b>  Do you have to continue with the physiotherapy teacher? 
+					<b>Jhon :</b>  Do you have to continue with the physiotherapy teacher?
 				</p>
 				<p>
 					<b>Gleen :</b>  No, John. It’s not necessary anymore. Ok guys, let’s go on with the class. Tell me
-					a bit about the jobs you are doing right now. (To be continued…) 
+					a bit about the jobs you are doing right now. (To be continued…)
 				</p>
 				<div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit10/pagina-1.png') }}" alt="medico e paciente">
+						<img src="{{ asset('assets/img/dominating/unit27/conversation.png') }}" alt="medico e paciente">
 					</figure>
 				</div>
 			</div>
 		</div>
 	</main>
-	
+
 	<script>
         activeMenu();
     </script>
