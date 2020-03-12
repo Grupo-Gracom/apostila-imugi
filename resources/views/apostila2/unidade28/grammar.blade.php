@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -40,15 +40,15 @@
                         <tr>
                             <td><p>I <b>had better not start</b> the next report. This one is due tomorrow.</p></td>
                         </tr>
-                    </table> 
+                    </table>
 
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
-                    <h5 class="barlow">1 - Complete the exercise with HAD BETTER or HAD BETTER NOT</h5>               
+                    <h5 class="barlow">1 - Complete the exercise with HAD BETTER or HAD BETTER NOT</h5>
                     <form id="unidade28grammar229" method="post">
                         <div class="metade">
                             <p>
                                 <p>
-                                    1. It’s a very important secret. You <input type="text" name="grammar229-1" placeholder="Responda aqui" required/> tell anybody. 
+                                    1. It’s a very important secret. You <input type="text" name="grammar229-1" placeholder="Responda aqui" required/> tell anybody.
                                 </p>                              <p>
                                     2. You <input type="text" name="grammar229-2"  placeholder="Responda aqui" required/> take an umbrella. It’s going to rain.
                                 </p>
@@ -58,53 +58,53 @@
                                 <p>
                                     4. You <input type="text" name="grammar229-4"  placeholder="Responda aqui" required/> drink more beer. You’ll be sick.
                                 </p>
-                                <p>     
+                                <p>
                                     5. Susy is weak and looks pale. She <input type="text" name="grammar229-5"  placeholder="Responda aqui" required/> see a doctor.
                                 </p>
                                 <p>
                                     6. You are drunk and it makes me nervous. You <input type="text" name="grammar229-6"  placeholder="Responda aqui" required/> leave.
                                 </p>
-                                <p>   
+                                <p>
                                     7. I’m not allowed to come back home late. <input type="text" name="grammar229-7"  placeholder="Responda aqui" required/>  go now.
                                 </p>
                                 <p>
-                                    8. Emma doesn’t like when someone smokes in her room. You <input type="text" name="grammar229-8"  placeholder="Responda aqui" required/>  smoke over here.  
+                                    8. Emma doesn’t like when someone smokes in her room. You <input type="text" name="grammar229-8"  placeholder="Responda aqui" required/>  smoke over here.
                                 </p>
                                 <p>
-                                    9. I have a high fever and splitting headache. I <input type="text" name="grammar229-9"  placeholder="Responda aqui" required/> go and see a doctor. 
+                                    9. I have a high fever and splitting headache. I <input type="text" name="grammar229-9"  placeholder="Responda aqui" required/> go and see a doctor.
                                 </p>
                                 <p>
-                                    10. I <input type="text" name="grammar229-10"  placeholder="Responda aqui" required/> Miss the last train to London.   
+                                    10. I <input type="text" name="grammar229-10"  placeholder="Responda aqui" required/> Miss the last train to London.
                                 </p>
                                 <p>
-                                    11. You <input type="text" name="grammar229-11"  placeholder="Responda aqui" required/> give up smoking. It’s bad for you   
+                                    11. You <input type="text" name="grammar229-11"  placeholder="Responda aqui" required/> give up smoking. It’s bad for you
                                 </p>
                                 <p>
-                                    12. Tell James he <input type="text" name="grammar229-12"  placeholder="Responda aqui" required/> work so hard. He is overdoing it   
+                                    12. Tell James he <input type="text" name="grammar229-12"  placeholder="Responda aqui" required/> work so hard. He is overdoing it
                                 </p>
                                 <p>
-                                    13. He <input type="text" name="grammar229-13"  placeholder="Responda aqui" required/> get some sleep. He looks tired out.  
+                                    13. He <input type="text" name="grammar229-13"  placeholder="Responda aqui" required/> get some sleep. He looks tired out.
                                 </p>
                                 <p>
-                                    14. You <input type="text" name="grammar229-14"  placeholder="Responda aqui" required/> Say that to Chris. He’ll be angry with you.   
+                                    14. You <input type="text" name="grammar229-14"  placeholder="Responda aqui" required/> Say that to Chris. He’ll be angry with you.
                                 </p>
                                 <p>
-                                    15. She <input type="text" name="grammar229-15"  placeholder="Responda aqui" required/> try to lift that by yourself. It’s very heavy.   
+                                    15. She <input type="text" name="grammar229-15"  placeholder="Responda aqui" required/> try to lift that by yourself. It’s very heavy.
                                 </p>
                                 <p>
-                                    16. They <input type="text" name="grammar229-16"  placeholder="Responda aqui" required/> eat a lot of sweets.   
+                                    16. They <input type="text" name="grammar229-16"  placeholder="Responda aqui" required/> eat a lot of sweets.
                                 </p>
                                 <p>
-                                    17. You <input type="text" name="grammar229-17"  placeholder="Responda aqui" required/> go to the dentist regularly.   
+                                    17. You <input type="text" name="grammar229-17"  placeholder="Responda aqui" required/> go to the dentist regularly.
                                 </p>
                                 <p>
-                                    18. We<input type="text" name="grammar229-18"  placeholder="Responda aqui" required/> eat between meals if we want to lose weight.   
+                                    18. We<input type="text" name="grammar229-18"  placeholder="Responda aqui" required/> eat between meals if we want to lose weight.
                                 </p>
                                 <p>
-                                    19. You <input type="text" name="grammar229-19"  placeholder="Responda aqui" required/> clean your teeth at least twice a day.    
+                                    19. You <input type="text" name="grammar229-19"  placeholder="Responda aqui" required/> clean your teeth at least twice a day.
                                 </p>
                                 <p>
-                                    20. You <input type="text" name="grammar229-20"  placeholder="Responda aqui" required/> drive carefully on a busy road. 
+                                    20. You <input type="text" name="grammar229-20"  placeholder="Responda aqui" required/> drive carefully on a busy road.
                                 </p>
                             </p>
                         </div>
@@ -117,13 +117,14 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-                <div style="margin-top: 36px">
-					<figure>
-						<img src="{{ asset('assets/img/playgo/unit28/pagina-1.png') }}" alt="mobilidade">
+					<figure class="metade esquerda">
+						<img src="{{ asset('assets/img/dominating/unit28/grammar1.jpg') }}" alt="mobilidade">
+                    </figure>
+                    <figure class="metade direita">
+						<img src="{{ asset('assets/img/dominating/unit28/grammar2.jpg') }}" alt="mobilidade">
 					</figure>
-				</div>
                 <h5 class="barlow metade" style="margin-top: 36px">2 - A friend of yours writes you an email asking for suggestions on how to improve his/her
-                skills as an illustrator. Write him back giving him your suggestions. Use HAD BETTER and HAD BETTER NOT.</h5>    
+                skills as an illustrator. Write him back giving him your suggestions. Use HAD BETTER and HAD BETTER NOT.</h5>
                 <form id="unidade28grammar230" method="post">
                     <textarea name="grammar230-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
@@ -175,7 +176,7 @@
                 enviarAtividade($('#unidade28grammar230'), respostas);
             }
         });
-        
+
 
         function checkAtividade(atividade_id){
             request = $.ajax({

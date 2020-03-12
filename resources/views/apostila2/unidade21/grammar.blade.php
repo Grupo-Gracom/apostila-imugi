@@ -106,7 +106,9 @@
                     <input type="hidden" name="atividade_id" value="193">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
+                <figure>
+					<img src="{{ asset('assets/img/dominating/unit21/grammar.jpg') }}" alt="Garoto triste">
+				</figure>
                 <form id="unidade21grammar194"  action="post">
                     <p class="barlow">4) Prepare a narration about your childhood. Be prepared to present to your classmates.</p>
                     <p>

@@ -40,7 +40,7 @@
                     </tr>
                 </table>
 
-                 <p><b>EXERCISES</b></p>
+                <p><b>EXERCISES</b></p>
                 <p class="barlow">1) Complete the sentences with CAN or COULD for making formal or informal requests. Pay
                                     attention to the context to decide between formal and informal.</p>
                 <form id="unidade23grammar202" action="post" class="metade">
@@ -110,7 +110,15 @@
                     <input type="hidden" name="atividade_id" value="204">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
+                <figure class="umterco">
+					<img src="{{ asset('assets/img/dominating/unit23/grammar1.png') }}" alt="dev">
+                </figure>
+                <figure class="umterco">
+					<img src="{{ asset('assets/img/dominating/unit23/grammar2.png') }}" alt="dev">
+                </figure>
+                <figure class="umterco">
+					<img src="{{ asset('assets/img/dominating/unit23/grammar3.png') }}" alt="dev">
+				</figure>
                 <p class="barlow">4) Write a six-line conversation about the following topic: “Request made to a colleague at work”</p>
                 <form id="unidade23grammar205" class="metade" action="post">
 

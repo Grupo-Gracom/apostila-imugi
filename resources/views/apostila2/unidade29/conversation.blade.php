@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -24,27 +24,27 @@
 					find someone who knows what to do regarding Digital marketing.
 				</p>
 				<p>
-					<b>Gleen :</b>  Great. I didn’t know about all these possibilities. 
+					<b>Gleen :</b>  Great. I didn’t know about all these possibilities.
 				</p>
 				<p>
 					<b>Laura :</b>  Yeah, there are many nice things in this area. From my experience, you ought
 					to have somebody to take care of this area for you. You gotta be focused on producing
 					based on the info this professional sends you. Have in mind that they are the specialists
-					in digital marketing. Give up on doing everything by yourself, otherwise you get crazy. 
+					in digital marketing. Give up on doing everything by yourself, otherwise you get crazy.
 				</p>
 				<p>
 					<b>Gleen :</b>  Ok guys , next class we continue. John and Akira will talk a bit about their jobs
-					ok. See you guys. 
+					ok. See you guys.
 				</p>
 				<div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit29/pagina-1.png') }}" alt="pensando grafico">
+						<img src="{{ asset('assets/img/dominating/unit29/conversation.jpg') }}" alt="pensando grafico">
 					</figure>
 				</div>
 			</div>
 		</div>
 	</main>
-	
+
 	<script>
         activeMenu();
     </script>

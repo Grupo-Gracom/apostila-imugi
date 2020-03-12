@@ -30,7 +30,7 @@
 
 
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit24/conversation.jpg') }}" alt="computação">
 				</figure>
 			</div>
 		</div>

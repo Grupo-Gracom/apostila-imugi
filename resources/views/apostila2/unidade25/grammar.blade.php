@@ -110,6 +110,10 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
+                <figure>
+					<img src="{{ asset('assets/img/dominating/unit25/grammar.png') }}" alt="guarda-chuva">
+                </figure>
+
                 <p class="barlow">3) Think about the future 20 years from now. In your opinion, what MIGHT or MAY happen with technology?</p>
                 <form id="unidade25grammar215" class="metade" action="post">
 

@@ -118,6 +118,10 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
+                <figure>
+					<img src="{{ asset('assets/img/dominating/unit24/grammar.jpg') }}" alt="leitura">
+                </figure>
+                
                 <p class="barlow">3) Prepare 5 questions to interview one of the professionals below . Use TO BE ABLE TO . If possible, in the past, present and future.</p>
                 <form id="unidade24grammar210" class="metade" action="post">
                     <p>Web designer</p>

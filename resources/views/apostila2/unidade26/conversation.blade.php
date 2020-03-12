@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -28,20 +28,25 @@
 					know something about lighting and editing. It´s important for the quality of the video.
 					Ah!!! One thing he must have is an outdoor microphone. He can buy it or use an old cell
 					phone to record it. Later on, It’s just necessary to edit the sound and synchronize with
-					the video. 
+					the video.
 				</p>
 				<p>
 					<b>Gleen :</b>  Great Laura. Thanks for your help.
-				</p>
-				<div style="margin-top: 36px">
-					<figure>
-						<img src="{{ asset('assets/img/playgo/unit10/pagina-1.png') }}" alt="camera fotografica">
-					</figure>
-				</div>
+                </p>
+
+                <figure class="umterco">
+                    <img src="{{ asset('assets/img/dominating/unit26/conversation1.jpg') }}" alt="camera fotografica">
+                </figure>
+                <figure class="umterco">
+                    <img src="{{ asset('assets/img/dominating/unit26/conversation2.jpg') }}" alt="camera fotografica">
+                </figure>
+                <figure class="umterco">
+                    <img src="{{ asset('assets/img/dominating/unit26/conversation3.jpg') }}" alt="camera fotografica">
+                </figure>
 			</div>
 		</div>
 	</main>
-	
+
 	<script>
         activeMenu();
     </script>

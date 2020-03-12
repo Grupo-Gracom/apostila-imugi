@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -27,7 +27,7 @@
                             <b>objective opinions</b>. In other words, <b>Ought to</b> is used for <b>what’s necessary and can’t be
                             avoided</b>.
                         </p>
-                    
+
                         <table class="center-align">
                             <tr>
                                 <td><h5 class="barlow">General advice - SUBJECTIVE opnion - SHOULD</h5></td>
@@ -56,16 +56,16 @@
                             <tr>
                                 <td><p>(*) <b>negative and interrogative of ought to, are not frequently used.</b> Instead, prefer to use <b>Should</b>.</p></td>
                             </tr>
-                        </table> 
+                        </table>
                     </div>
                     <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
-                    <h5 class="barlow">1 -  Choose, to complete each sentence, either SHOULD or SHOULDN’T.</h5>               
+                    <h5 class="barlow">1 -  Choose, to complete each sentence, either SHOULD or SHOULDN’T.</h5>
                     <form id="unidade29grammar233" method="post">
                         <div class="metade">
                             <p>
                                 <p>
-                                    1. Listen to that music! Our neighbours <input type="text" name="grammar233-1" placeholder="Responda aqui" required/> play music that loud at this hour. 
-                                </p>                              
+                                    1. Listen to that music! Our neighbours <input type="text" name="grammar233-1" placeholder="Responda aqui" required/> play music that loud at this hour.
+                                </p>
                                 <p>
                                     2. If your tooth is still hurting you tomorrow, you <input type="text" name="grammar233-2"  placeholder="Responda aqui" required/> go to the dentist’s.
                                 </p>
@@ -75,23 +75,23 @@
                                 <p>
                                     4. Before going to Madrid for your holidays, you <input type="text" name="grammar233-4"  placeholder="Responda aqui" required/>  try and learn something of the language. You will enjoy things a lot more.
                                 </p>
-                                <p>     
+                                <p>
                                     5. You <input type="text" name="grammar233-5"  placeholder="Responda aqui" required/> always knock on the door before entering. This is a private office.
                                 </p>
                                 <p>
                                     6. We <input type="text" name="grammar233-6"  placeholder="Responda aqui" required/>  bring something to Kate’s party. I’ll feel really embarrassed otherwise.
                                 </p>
-                                <p>   
+                                <p>
                                     7. That model on the TV is too skinny. She <input type="text" name="grammar233-7"  placeholder="Responda aqui" required/>  eat more, I think!
                                 </p>
                                 <p>
-                                    8. Lizzie <input type="text" name="grammar233-8"  placeholder="Responda aqui" required/>  ask Bryan to help her with her studies. He did the same course last year.  
+                                    8. Lizzie <input type="text" name="grammar233-8"  placeholder="Responda aqui" required/>  ask Bryan to help her with her studies. He did the same course last year.
                                 </p>
                                 <p>
-                                    9. Pregnant women <input type="text" name="grammar233-9"  placeholder="Responda aqui" required/> smoke as it can damage the baby. 
+                                    9. Pregnant women <input type="text" name="grammar233-9"  placeholder="Responda aqui" required/> smoke as it can damage the baby.
                                 </p>
                                 <p>
-                                    10. We <input type="text" name="grammar233-10"  placeholder="Responda aqui" required/>  leave too late tomorrow if we want to reach the beach before lunch.   
+                                    10. We <input type="text" name="grammar233-10"  placeholder="Responda aqui" required/>  leave too late tomorrow if we want to reach the beach before lunch.
                                 </p>
                             </p>
                         </div>
@@ -104,12 +104,11 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-                <div style="margin-top: 36px">
-					<figure>
-						<img src="{{ asset('assets/img/playgo/unit29/pagina-1.png') }}" alt="paciente dentista">
-					</figure>
-				</div>
-               
+
+                <figure>
+                    <img src="{{ asset('assets/img/dominating/unit29/grammar.png') }}" alt="paciente feliz">
+                </figure>
+
                 <h5 class="barlow metade" style="margin-top: 36px">2 -  Circle the appropriate form of OUGHT TO or OUGHT NOT TO.</h5>
                 <form id="unidade29grammar234" method="post">
                     <p>1 - <input type="radio" name="grammar234-1" value="1" required/> You (ought to/ought not to) smoke to heavily.</p>
@@ -120,7 +119,7 @@
                     <p>6 - <input type="radio" name="grammar234-1" value="6" required/> You (ought to/ought not to) follow the manual instructions. It’s a very delicate equipment.</p>
                     <p>7 - <input type="radio" name="grammar234-1" value="7" required/> They (ought to/ought not to) finish the video in three days. The client is extremely punctual.</p>
                     <p>8 - <input type="radio" name="grammar234-1" value="8" required/>  John (ought to/ought not to) to get some images from an image bank. The quality is much superior.</p>
-                    
+
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -130,7 +129,7 @@
                 </form>
 
                 <h5 class="barlow metade" style="margin-top: 36px">3 -  You find out that your friend is having a hard time to write good stories for his games.
-                Using SHOULD and OUGHT TO write advices to your friend.</h5>    
+                Using SHOULD and OUGHT TO write advices to your friend.</h5>
                 <form id="unidade29grammar235" method="post">
                     <textarea name="grammar235-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
@@ -187,7 +186,7 @@
             }else{
                 enviarAtividade($('#unidade29grammar234'), respostas);
             }
-        }); 
+        });
 
         $("#unidade29grammar235").submit(function(e){
             e.preventDefault();
@@ -199,7 +198,7 @@
                 enviarAtividade($('#unidade29grammar235'), respostas);
             }
         });
-        
+
 
         function checkAtividade(atividade_id){
             request = $.ajax({
@@ -222,7 +221,7 @@
                         $('#unidade29grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade29grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade29grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        
+
                 }
                     $('#unidade29grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade29grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);

@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -26,22 +26,22 @@
 				</p>
 				<p>
 					<b>Akira :</b>  Do they have to create a site? I think they had better have it. This way, people
-					interested in getting information about the NGO, could get it easily. 
+					interested in getting information about the NGO, could get it easily.
 				</p>
 				<p>
 					<b>Laura :</b>  It all depends on what type of message they want to transmit to the target group.
 					Sometimes, you have to create just a youtube channel and a page on facebook to show
-					what the NGO is doing, and how a person could help them. (to be continued) 
+					what the NGO is doing, and how a person could help them. (to be continued)
 				</p>
 				<div style="margin-top: 36px">
 					<figure>
-						<img src="{{ asset('assets/img/playgo/unit10/pagina-1.png') }}" alt="rede social">
+						<img src="{{ asset('assets/img/dominating/unit28/conversation.jpg') }}" alt="rede social">
 					</figure>
 				</div>
 			</div>
 		</div>
 	</main>
-	
+
 	<script>
         activeMenu();
     </script>
