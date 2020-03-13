@@ -18,17 +18,17 @@
 				</audio>
                 <div class="clear"></div>
 
-				<ul class="lista-inline">
-                    <li><b class="upper" style="color:green;">short u /ʌ/</b></li>
-                    <li><b class="upper">Come</b></li>
-                    <li><b class="upper">Love</b></li>
-                    <li><b class="upper">Up</b></li>
-                    <li><b class="upper">Jump</b></li>
-                    <li><b class="upper">But</b></li>
-                    <li><b class="upper">About</b></li>
-                    <li><b class="upper">Does</b></li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+                    <li><p><b>short u /ʌ/</b></p></li>
+                    <li><p>Come</p></li>
+                    <li><p>Love</p></li>
+                    <li><p>Up</p></li>
+                    <li><p>Jump</p></li>
+                    <li><p>But</p></li>
+                    <li><p>About</p></li>
+                    <li><p>Does</p></li>
                 </ul>
-                <p>C<b>o</b>me here my l<b>o</b>ve b<b>u</b>t don’t j<b>u</b>mp <b>u</b>p and down. He d<b>o</b>esn’t know <b>a</b>bout the movie.</p>
+                <p style="margin-top:32px">C<b><u>o</u></b>me here my l<b><u>o</u></b>ve b<b><u>u</u></b>t don’t j<b><u>u</u></b>mp <b><u>u</u></b>p and down. He d<b><u>o</u></b>esn’t know <b><u>a</u></b>bout the movie.</p>
 			</div>
 		</div>
     </main>

@@ -152,10 +152,12 @@
                     <input type="hidden" name="atividade_id" value="149">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow">In the text, Akira and Laura share what they think they’ll do in the future. Think about your life and list 3 things you think you will do and 3 things you think you won’t do.
+                <h5 class="barlow">3 - In the text, Akira and Laura share what they think they’ll do in the future. Think about your life and list 3 things you think you will do and 3 things you think you won’t do.
                 Re ready to justify your answers.</h5>
                 <form id="unidade11grammar150" method="post">
-                    <input type="text" name="grammar150-1" class="full left-align" placeholder="Responda aqui" required></p>
+                    <textarea name="grammar150-1" class="metade left-align" placeholder="Responda aqui"  required></textarea>
+                    <div class="clear"></div>
+                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="11">
@@ -215,14 +217,7 @@
         $("#unidade11grammar150").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade11grammar150 input[type="text"]').each(function(index){
-                if(($('#unidade11grammar150 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
+            var respostas = '{"'+$('#unidade11grammar150 textarea').attr("name")+'":"'+$('#unidade11grammar150 textarea').val()+'"}';
             if($('#unidade11grammar150 input[name="resposta_id"').val() != 0){
                 atualizarAtividade($('#unidade11grammar150'), respostas);
             }else{
@@ -246,6 +241,8 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
+                        $('#unidade11grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade11grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade11grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade11grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }

@@ -18,56 +18,51 @@
 				</audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px;">A – WILL X GOING TO X PRESENT CONTINUOUS.</h5>
-                <p>In the previous lesson, we studied the differences between <b>Will</b> and <b>Going to</b>. We can
-                also use <b>Present Continuous</b> to refer to <b>future</b>. When everything is arranged and organized
-                to happen, we can use it to refer to such fact in the future.</p>
-                <table class="umterco">
+                <p>
+                    In the previous lesson, we studied the differences between <b>Will</b> and <b>Going to</b>. We can
+                    also use <b>Present Continuous</b> to refer to <b>future</b>. When everything is arranged and organized
+                    to happen, we can use it to refer to such fact in the future.
+                </p>
+                <table class="metade center-align">
                     <tr>
-                        <th>Will (Future Decisions/Unquestionable Facts)</th>
-                    </tr><b>
-                    <tr>
-                        <td>I’<b>ll bring</b> you some material tomorrow.</td>
+                        <td><h5 class="barlow">Will (Future Decisions/Unquestionable Facts)</h5></td>
+                        <td><h5 class="barlow">Simple presente (arranged and organized facts)</h5></td>
                     </tr>
                     <tr>
-                        <th>To be going to (Future plans/intensions)</th>
+                        <td><p>I’<b>ll bring</b> you some material tomorrow.</p></td>
+                        <td><p>I'm <b>travelling</b> to New York next month.</p></td>
                     </tr>
                     <tr>
-                        <td>We’<b>re going to start</b> working on it next month.</td>
-                    </tr>
-                </table>
-                <table class="umterco">
-                    <tr>
-                        <th>Simple presente (arranged and organized facts)</th>
+                        <td><h5 class="barlow">To be going to (Future plans/intensions)</h5></td>
+                        <td><p>We'<b>re visiting</b> Rockstar next week.</p></td>
                     </tr>
                     <tr>
-                        <td>I'm <b>travelling</b> to New York next month.</td>
+                        <td><p>We’<b>re going to start</b> working on it next month.</p></td>
+                        <td><p>I'm stuck in trafic. <b>i'm arriving</b> late today.</p></td>
                     </tr>
-                    <tr>
-                        <td>We'<b>re visiting</b> Rockstar next week.</td>
-                    </tr>
-                    <tr>
-                        <td>I'm stuck in trafic. <b>i'm arriving</b> late today.</td>
-                    </tr>
-                </table>
+<p>                </table>
                 <div class="clear"></div>
 
-                <h5 class="barlow">EXERCISES</h5>
+                <h5 class="barlow" style="margin-top:16px"><b>EXERCISES</b></h5>
                 <h5 class="barlow" style="margin-top:16px;">B -  Look at John and Laura’s diary below. Then, use the PRESENT CONTINUOUS form to say what their arrangements are for this week, as in the example:</h5>
-                <p>Monday - go to the cinema</p>
-                <p>Tuesday - have a meeting with a new client.</p>
-                <p>Wednesday - take the computer to repair.</p>
-                <p>Thursday - buy a computer.</p>
-                <p>Friday - organize files.</p>
-                <p>Saturday - have some time to relax.</p>
-                <p>Sunday - watch a new movie</p>
-				<form id="unidade13grammar157" method="post">
-                    <p><b>1. </b> They’re going to the cinema on Monday <input type="text" name="grammar157-1" class="inputMedio" required></p>
-                    <p><b>2. </b> <input type="text" name="grammar157-2" class="inputMedio" required></p>
-                    <p><b>3. </b> <input type="text" name="grammar157-3" class="inputMedio" required></p>
-                    <p><b>4. </b> <input type="text" name="grammar157-4" class="inputMedio" required></p>
-                    <p><b>5. </b> <input type="text" name="grammar157-5" class="inputMedio" required></p>
-                    <p><b>6. </b> <input type="text" name="grammar157-6" class="inputMedio" required></p>
-                    <p><b>7. </b> <input type="text" name="grammar157-7" class="inputMedio" required></p>
+                <div class="espacamento">
+                    <p>Monday - go to the cinema</p>
+                    <p>Tuesday - have a meeting with a new client.</p>
+                    <p>Wednesday - take the computer to repair.</p>
+                    <p>Thursday - buy a computer.</p>
+                    <p>Friday - organize files.</p>
+                    <p>Saturday - have some time to relax.</p>
+                    <p>Sunday - watch a new movie</p>
+                </div>
+				<form id="unidade13grammar157" method="post" class="metade">
+                    <p>1. They’re going to the cinema on Monday <input type="text" name="grammar157-1" class="inputMedio" placeholder="Responda aqui" required></p>
+                    <p>2. <input type="text" name="grammar157-2" class="full left-align" placeholder="Responda aqui" required></p>
+                    <p>3. <input type="text" name="grammar157-3" class="full left-align" placeholder="Responda aqui" required></p>
+                    <p>4. <input type="text" name="grammar157-4" class="full left-align" placeholder="Responda aqui" required></p>
+                    <p>5. <input type="text" name="grammar157-5" class="full left-align" placeholder="Responda aqui" required></p>
+                    <p>6. <input type="text" name="grammar157-6" class="full left-align" placeholder="Responda aqui" required></p>
+                    <p>7. <input type="text" name="grammar157-7" class="full left-align" placeholder="Responda aqui" required></p>
+                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="13">
@@ -77,7 +72,10 @@
                 <h5 class="barlow" style="margin-top:16px;">C - In pairs, write a future plan for a character you are going to create.
                 Use Will, Going to and Present Continuous. Use at least 10 verbs. Be ready to share your stories with your classmates.</h5>
 				<form id="unidade13grammar158"  method="post">
-                    <p><input type="text" name="grammar158-1" class="full" required></p></p>
+                    <textarea name="grammar158-1" class="metade left-align" placeholder="Responda aqui"  required></textarea>
+                    
+                    <div class="clear"></div>
+                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="13">
@@ -116,17 +114,11 @@
             }
         });
 
+        
         $("#unidade13grammar158").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade13grammar158 input[type="text"]').each(function(index){
-                if(($('#unidade13grammar158 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
+            var respostas = '{"'+$('#unidade13grammar158 textarea').attr("name")+'":"'+$('#unidade13grammar158 textarea').val()+'"}';
             if($('#unidade13grammar158 input[name="resposta_id"').val() != 0){
                 atualizarAtividade($('#unidade13grammar158'), respostas);
             }else{
@@ -150,6 +142,8 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
+                        $('#unidade13grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade13grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade13grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade13grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }

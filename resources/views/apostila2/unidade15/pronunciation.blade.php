@@ -17,47 +17,27 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 15/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear espacamento"></div>
-                <p style="color:green;">Ed sounds</p>
-                <table class="umterco center-align">
+                <h5 class="barlow">Ed sounds</h5>
+                <table class="metade center-align">
                     <tr>
                         <td><h5 class="barlow">As <b>/t/</b> after <b>s,f,sh,ch,p,k</b></h5></td>
-                    </tr>
-                    <tr>
-                        <td>Stopp<b>ed</b></td>
-                    </tr>
-                    <tr>
-                        <td>Work<b>ed</b></td>
-                    </tr>
-                    <tr>
-                        <td>Watch<b>ed</b></td>
-                    </tr>
-                </table>
-                <table class="umterco center-align">
-                    <tr>
                         <td><h5 class="barlow">As <b>/d/</b></h5></td>
-                    </tr>
-                    <tr>
-                        <td>Remember<b>ed</b></td>
-                    </tr>
-                    <tr>
-                        <td>Studi<b>ed</b></td>
-                    </tr>
-                    <tr>
-                        <td>travel<b>ed</b></td>
-                    </tr>
-                </table>
-                <table class="umterco center-align">
-                    <tr>
                         <td><h5 class="barlow">As <b>/id/</b> after <b>/d/</b> or <b>/t/</b></h5>
                     </tr>
                     <tr>
-                        <td>Visit<b>ed</b></td>
+                        <td><p>Stopp<b>ed</b></p></td>
+                        <td><p>Remember<b>ed</b></p></td>
+                        <td><p>Visit<b>ed</b></p></td>
                     </tr>
                     <tr>
-                        <td>Wait<b>ed</b></td>
+                        <td><p>Work<b>ed</b></p></td>
+                        <td><p>Studi<b>ed</b></p></td>
+                        <td><p>Wait<b>ed</b></p></td>
                     </tr>
                     <tr>
-                        <td>Offend<b>ed</b></td>
+                        <td><p>Watch<b>ed</b></p></td>
+                        <td><p>travel<b>ed</b></p></td>
+                        <td><p>Offend<b>ed</b></p></td>
                     </tr>
                 </table>
 			</div>

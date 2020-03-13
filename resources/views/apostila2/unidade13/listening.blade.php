@@ -20,16 +20,16 @@
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to Akira talking to his friend and answer the questions.</h5>
                 <form class="metade" id="unidade13listening159" method="post">
                     <p>
-                        1 - Who likes games?<br>
-                        <input type="text" name="understanding159-1" class="full left-align" required>
+                        1 - Who likes games?
+                        <input type="text" name="understanding159-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        2 - Why does he like to go to newsstands?<br>
-                        <input type="text" name="understanding159-2" class="full left-align" required>
+                        2 - Why does he like to go to newsstands?
+                        <input type="text" name="understanding159-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        3 - What is Akira going to do?<br>
-                        <input type="text" name="understanding159-3" class="full left-align" required>
+                        3 - What is Akira going to do?
+                        <input type="text" name="understanding159-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

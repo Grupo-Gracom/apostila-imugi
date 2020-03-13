@@ -17,16 +17,16 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 12/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-				<ul class="lista-inline">
-                    <li><b class="upper" style="color:green;">long u /ju/</b></li>
-                    <li><b class="upper">Youth</b></li>
-                    <li><b class="upper">University</b></li>
-                    <li><b class="upper">Usually</b></li>
-                    <li><b class="upper">Huge</b></li>
-                    <li><b class="upper">Future</b></li>
-                    <li><b class="upper">music</b></li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+                    <li><p><b>long u /ju/</p></b></li>
+                    <li><p>Youth</p></li>
+                    <li><p>University</p></li>
+                    <li><p>Usually</p></li>
+                    <li><p>Huge</p></li>
+                    <li><p>Future</p></li>
+                    <li><p>music</p></li>
                 </ul>
-                <p><b>You</b>th <b>u</b>sually study m<b>u</b>sic in h<b>u</b>ge <b>u</b>niversities.</p>
+                <p style="margin-top:32px"><b><u>You</u></b>th <b><u>u</u></b>sually study m<b><u>u</u></b>sic in h<b><u>u</u></b>ge <b><u>u</u></b>niversities.</p>
 			</div>
 		</div>
     </main>
