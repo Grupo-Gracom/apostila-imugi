@@ -15,23 +15,23 @@
                 <form class="metade" id="unidade17understanding177" method="post">
                     <p>
                         1 - Why was Gleen late today?
-                        <input type="text" placeholder="responda aqui !" name="understanding177-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding177-1" class="full left-align" required>
                     </p>
                     <p>
                         2 - What was Akira doing while they waited for Gleen?
-                        <input type="text" placeholder="responda aqui !" name="understanding177-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding177-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - What did Laura said after listening to Akira stories about Kris costa?
-                        <input type="text" placeholder="responda aqui !" name="understanding177-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding177-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - What happened to Kris costa?
-                        <input type="text" placeholder="responda aqui !" name="understanding177-4" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding177-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - Why was he coming to Brazil?
-                        <input type="text" placeholder="responda aqui !" name="understanding177-5" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding177-5" class="full left-align" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

@@ -18,34 +18,28 @@
 				</audio>
 				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<table class="espacamento">
-					<tr>
-						<td><p>TO PUT /things in order</p></td>
-						<td><p>TO DO / your best / the right-wrong thing</p></td>
-					</tr>
-					<tr>
-						<td><p>TO LOOK / carefully /careleesly</p></td>
-						<td><p>TO STUDY / hard/ a lot /for hours</p></td>
-					</tr>
-					<tr>
-						<td><p>TO SPEAK / fast / slowly / low / loud</p></td>
-						<td><p>TO BECOME / a better person / good friends</p></td>
-					</tr>
-				</table>
+				<div class="espacamento">
+					<p><b>TO PUT </b>/things in order</p>
+					<p><b>TO DO </b>/ your best / the right-wrong thing</p>
+					<p><b>TO LOOK </b>/ carefully /careleesly</p>
+					<p><b>TO STUDY </b>/ hard/ a lot /for hours</p>
+					<p><b>TO SPEAK </b>/ fast / slowly / low / loud</p>
+					<p><b>TO BECOME </b>/ a better person / good friends</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 18/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>Modeling</b></li>
-					<li><b>Soundtrack</b></li>
-					<li><b>Showed</b></li>
-					<li><b>Mixing</b></li>
-					<li><b>Own</b></li>
-					<li><b>While</b></li>
-					<li><b>Booth</b></li>
-					<li><b>tricks</b></li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>Modeling</b></p></li>
+					<li><p><b>Soundtrack</b></p></li>
+					<li><p><b>Showed</b></p></li>
+					<li><p><b>Mixing</b></p></li>
+					<li><p><b>Own</b></p></li>
+					<li><p><b>While</b></p></li>
+					<li><p><b>Booth</b></p></li>
+					<li><p><b>tricks</b></p></li>
 				</ul>
 			</div>
 		</div>

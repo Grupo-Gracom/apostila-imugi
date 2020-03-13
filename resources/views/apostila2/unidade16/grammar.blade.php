@@ -122,34 +122,43 @@
                     <input type="hidden" name="atividade_id" value="169">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow">3 - Write about your last vacation. Use as many verbs as you can.</h5>
+                <h5 class="barlow" style="margin-top:16px">3 - Write about your last vacation. Use as many verbs as you can.</h5>
                     <ul class="lista-inline upper" style="margin-top:16px">
-                        <li><p><b>Drink</li></p></b> 
-                        <li><p><b>Eat</li></p></b> 
-                        <li><p><b>Travel</li></p></b> 
-                        <li><p><b>Meet</li></p></b> 
-                        <li><p><b>Swim</li></p></b> 
-                        <li><p><b>Play</li></p></b> 
-                        <li><p><b>Break</li></p></b> 
-                        <li><p><b>Climb</li></p></b> 
-                        <li><p><b>Call</li</p>></b>
+                        <li><p>Drink</p></li> 
+                        <li><p>Eat</p></li> 
+                        <li><p>Travel</p></li> 
+                        <li><p>Meet</p></li> 
+                        <li><p>Swim</p></li> 
+                        <li><p>Play</p></li> 
+                        <li><p>Break</p></li> 
+                        <li><p>Climb</p></li> 
+                        <li><p>Call</p></li>
                     </ul>
                     <ul class="lista-inline upper" style="margin-top:16px">
-                        <li><p><b>Date</li></p></b> 
-                        <li><p><b>Visit</li></p></b> 
-                        <li><p><b>Write</li></p></b> 
-                        <li><p><b>Fix</li></p></b> 
-                        <li><p><b>Run</li></p></b> 
-                        <li><p><b>Cut</li></p></b> 
-                        <li><p><b>Drive</li></p></b> 
-                        <li><p><b>Forget</li></p></b> 
-                        <li><p><b>leave</li</p>></b>
+                        <li><p>Date</p></li>
+                        <li><p>Visit</p></li>
+                        <li><p>Write</p></li>
+                        <li><p>Fix</p></li>
+                        <li><p>Run</p></li>
+                        <li><p>Cut</p></li>
+                        <li><p>Drive</p></li>
+                        <li><p>Forget</p></li>
+                        <li><p>leave</p></li>
                     </ul>
-                    <ul class="lista-inline">
-                        <li><b>Fight</li></b> <li><b>Buy</li></b> <li><b>Sell</li></b> <li><b>Read</li></b> <li><b>See</li></b> <li><b>Arrive</li></b> <li><b>Leave</li></b> <li><b>Watch</li></b> <li><b>spend</li></b>
+                    <ul class="lista-inline upper" style="margin-top:16px">
+                        <li><p>Fight</p></li> 
+                        <li><p>Buy</p></li> 
+                        <li><p>Sell</p></li> 
+                        <li><p>Read</p></li> 
+                        <li><p>See</p></li> 
+                        <li><p>Arrive</p></li> 
+                        <li><p>Leave</p></li> 
+                        <li><p>Watch</p></li> 
+                        <li><p>spend</p></li>
                     </ul>
-                <form id="unidade16grammar170"  method="post">
-                    <p><textarea  class="full" name="grammar170" required></textarea></p>
+                <form id="unidade16grammar170"  method="post" class="metade" style="margin-top:16px">
+                    <p><textarea  class="full left-align" name="grammar170" placeholder="Responda aqui" required></textarea></p>
+                    <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="16">

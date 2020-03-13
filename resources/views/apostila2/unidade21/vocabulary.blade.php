@@ -18,24 +18,24 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 21/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
-
-				<p>TO BRUSH / your hair / your teeth</p>
-				<p>TO DO / your best / the right-wrong thing</p>
-				<p>TO COMB / your hair</p>
-
+				<div class="espacamento">
+					<p><b>TO BRUSH </b>/ your hair / your teeth</p>
+					<p><b>TO DO </b>/ your best / the right-wrong thing</p>
+					<p><b>TO COMB </b>/ your hair</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 21/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<ul class="lista-inline">
-					<li><b>CAME</b></li>
-					<li><b>CHILDHOOD</b></li>
-					<li><b>A LOT</b></li>
-					<li><b>TOGETHER</b></li>
-					<li><b>YOUNGER</b></li>
-					<li><b>ALL DAY LONG</b></li>
-					<li><b>KIND OF</b></li>
-					<li><b>LOOK FOR</li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>CAME</b></p></li>
+					<li><p><b>CHILDHOOD</b></p></li>
+					<li><p><b>A LOT</b></p></li>
+					<li><p><b>TOGETHER</b></p></li>
+					<li><p><b>YOUNGER</b></p></li>
+					<li><p><b>ALL DAY LONG</b></p></li>
+					<li><p><b>KIND OF</b></p></li>
+					<li><p><b>LOOK FOR</p></li>
 				</ul>
 
 			</div>

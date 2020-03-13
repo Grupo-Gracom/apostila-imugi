@@ -23,19 +23,19 @@
 
                 <table class="metade left-align">
                     <tr>
-                        <td><p>CAN</p></td>
+                        <td><h5 class="barlow">CAN</h5></td>
                         <td><p>Used to express the general idea of <b>possibility and present ability</b></p></td>
                     </tr>
                     <tr>
-                        <td><p>COULD</p></td>
+                        <td><h5 class="barlow">COULD</h5></td>
                         <td><p>Used to express the idea of <b>remote possibility and ability in the past.</b></b></p></td>
                     </tr>
                 </table>
 
                 <table class="metade center-align">
                     <tr>
-                        <td><p>CAN</p></td>
-                        <td><p>COULD</p></td>
+                        <td><h5 class="barlow">CAN</h5></td>
+                        <td><h5 class="barlow">COULD</h5></td>
                     </tr>
                     <tr>
                         <td><p>I<b> can draw</b> very well</p></td>
@@ -47,8 +47,8 @@
                     </tr>
                 </table>
 
-                <p><b>EXERCISES</b></p>
-                <p class="barlow">1) Fill in the blanks with CAN or CAN’T:</p>
+                <h5 class="barlow"><b>EXERCISES</b></h5>
+                <h5 class="barlow">1 - Fill in the blanks with CAN or CAN’T:</h5>
                 <form id="unidade22grammar197" action="post" class="metade">
                     <p>1. Java is difficult for me. I<input type="text" name="grammar197-1" placeholder="Responda aqui" required>use it, but I
                         <input type="text" name="grammar197-2" placeholder="Responda aqui" required>code with Python.</p>
@@ -69,7 +69,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">2)  Fill in the blanks below to complete the sentences. Use Can, can’t, Could and Couldn’t.</p>
+                <h5 class="barlow">2 - Fill in the blanks below to complete the sentences. Use Can, can’t, Could and Couldn’t.</h5>
                 <form id="unidade22grammar198" action="post">
                     <p>1. I<input type="text" name="grammar198-1" placeholder="Responda aqui" required> go to the party last night because I was sick
                     <p>2. A:<input type="text" name="grammar198-2" placeholder="Responda aqui" required>Noel cook Italian food?
@@ -104,12 +104,12 @@
                 </figure>
                 <figure class="umterco">
 					<img src="{{ asset('assets/img/dominating/unit22/grammar3.jpg') }}" alt="Garoto triste">
-				</figure>
-                <form id="unidade22grammar199"  action="post">
-                    <p class="barlow">3) In groups, compare teenage lives of today and of 20 years ago</p>
-                    <p>
-                        <input type="text" name="grammar199-1" placeholder="Responda aqui" class="full left-align" required>
-                    </p>
+                </figure>
+                <div class="clear"></div>
+                <h5 class="barlow"  style="margin-top:32px">3 - In groups, compare teenage lives of today and of 20 years ago</h5>
+                <form id="unidade22grammar199" action="post">
+                    <textarea name="grammar199-1" class="metade left-align" placeholder="Responda aqui"  required></textarea>
+                    
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -117,7 +117,6 @@
                     <input type="hidden" name="atividade_id" value="199">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
 			</div>
 		</div>
     </main>
@@ -168,14 +167,7 @@
         $("#unidade22grammar199").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade22grammar199 input[type="text"]').each(function(index){
-                if(($('#unidade22grammar199 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
+            var respostas = '{"'+$('#unidade22grammar199 textarea').attr("name")+'":"'+$('#unidade22grammar199 textarea').val()+'"}';
             if($('#unidade22grammar199 input[name="resposta_id"').val() != 0){
                 atualizarAtividade($('#unidade22grammar199'), respostas);
             }else{
@@ -199,6 +191,8 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
+                        $('#unidade22grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade22grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade22grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade22grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }

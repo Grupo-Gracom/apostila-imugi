@@ -18,21 +18,22 @@
                 </audio>
                 <div class="clear"></div>
 
-                <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
+                <h5 class="barlow" style="margin-top:16px">A – Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade22listening200" method="post">
-                    <p><input type="text" name="listening200-1" placeholder="Responda aqui" required>you
-                    <input type="text" name="listening200-2" placeholder="Responda aqui" required>any musical instrument? Yes, I
-                    <input type="text" name="listening200-3" placeholder="Responda aqui" required>play the clarinet. Yes, I can play.
-                    <input type="text" name="listening200-4" placeholder="Responda aqui" required>Can you play any musical instruments? I can play the
-                    <input type="text" name="listening200-5" placeholder="Responda aqui" required>and the piano. Can you play any musical instrument No, I
-                    <input type="text" name="listening200-6" placeholder="Responda aqui" required>. No I can’t, but my love can. The
-                    <input type="text" name="listening200-7" placeholder="Responda aqui" required>What Can
-                    <input type="text" name="listening200-8" placeholder="Responda aqui" required>play?
-                    <input type="text" name="listening200-9" placeholder="Responda aqui" required>play guitar. Can he play
-                    <input type="text" name="listening200-10" placeholder="Responda aqui" required>. Very well. Can you play any musical instrument? The
-                    <input type="text" name="listening200-11" placeholder="Responda aqui" required>can. Can you play a musical instrument? No, and I
-                    <input type="text" name="listening200-12" placeholder="Responda aqui" required>. I’m
-                    <input type="text" name="listening200-13" placeholder="Responda aqui" required>
+                    <p>
+                        <input type="text" name="listening200-1" placeholder="Responda aqui" required>you
+                        <input type="text" name="listening200-2" placeholder="Responda aqui" required>any musical instrument? Yes, I
+                        <input type="text" name="listening200-3" placeholder="Responda aqui" required>play the clarinet. Yes, I can play.
+                        <input type="text" name="listening200-4" placeholder="Responda aqui" required>Can you play any musical instruments? I can play the
+                        <input type="text" name="listening200-5" placeholder="Responda aqui" required>and the piano. Can you play any musical instrument No, I
+                        <input type="text" name="listening200-6" placeholder="Responda aqui" required>. No I can’t, but my love can. The
+                        <input type="text" name="listening200-7" placeholder="Responda aqui" required>What Can
+                        <input type="text" name="listening200-8" placeholder="Responda aqui" required>play?
+                        <input type="text" name="listening200-9" placeholder="Responda aqui" required>play guitar. Can he play
+                        <input type="text" name="listening200-10" placeholder="Responda aqui" required>. Very well. Can you play any musical instrument? The
+                        <input type="text" name="listening200-11" placeholder="Responda aqui" required>can. Can you play a musical instrument? No, and I
+                        <input type="text" name="listening200-12" placeholder="Responda aqui" required>. I’m
+                        <input type="text" name="listening200-13" placeholder="Responda aqui" required>
                     </p>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -41,8 +42,7 @@
                     <input type="hidden" name="atividade_id" value="200">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
-                </form>
+                <iframe style="margin-top:16px" width="480" height="360" src="https://www.youtube.com/embed/_YLgqOONnJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
     </main>

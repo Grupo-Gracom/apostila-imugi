@@ -19,12 +19,15 @@
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form class="full" id="unidade16listening171" method="post">
-                    <p>Where <input type="text" placeholder="responda aqui !" name="listening171-1" class="inputmedio left-align" required>
-                    the candidates for the position ? For <input type="text" placeholder="responda aqui !" name="listening171-2" class="inputmedio left-align" required>,
-                    your sister was the best movie maker to <input type="text" placeholder="responda aqui !" name="listening171-3" class="inputmedio left-align" required>
-                    in this project. She knows a lot. She was the <input type="text" placeholder="responda aqui !" name="listening171-4" class="inputmedio left-align" required>
-                    video maker to use Sony Vegas . I get <input type="text" placeholder="responda aqui !" name="listening171-5" class="inputmedio left-align" required>
-                    with her <input type="text" placeholder="responda aqui !" name="listening171-6" class="inputmedio left-align" required>.</p>
+                    <p>
+                        Where <input type="text" placeholder="Responda aqui" name="listening171-1"  required>
+                        the candidates for the position ? For <input type="text" placeholder="Responda aqui" name="listening171-2"  required>,
+                        your sister was the best movie maker to <input type="text" placeholder="Responda aqui" name="listening171-3"  required>
+                        in this project. She knows a lot. She was the <input type="text" placeholder="Responda aqui" name="listening171-4"  required>
+                        video maker to use Sony Vegas . I get <input type="text" placeholder="Responda aqui" name="listening171-5"  required>
+                        with her <input type="text" placeholder="Responda aqui" name="listening171-6"  required>.
+                    </p>
+                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="16">

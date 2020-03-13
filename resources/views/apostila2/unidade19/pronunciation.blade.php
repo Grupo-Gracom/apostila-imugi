@@ -17,16 +17,16 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 19/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear espacamento"></div>
-                <p class="esquerda" style="color:green;">ow sound /aʊ/</p>
-                <ul class="lista-inline">
-                    <li><b>FoundHouse</b></li>
-                    <li><b>Brown</b></li>
-                    <li><b>South</b></li>
-                    <li><b>Down</b></li>
-                    <li><b>Town</b></li>
+                <ul class="lista-inline upper" style="margin-top:16px">
+                    <li><p><b>ow sound /aʊ/</b></p></li>
+                    <li><p><b>FoundHouse</b></p></li>
+                    <li><p><b>Brown</b></p></li>
+                    <li><p><b>South</b></p></li>
+                    <li><p><b>Down</b></p></li>
+                    <li><p><b>Town</b></p></li>
                 </ul>
                 <div class="clear"></div>
-                <p>I founf a brown house in south down town.</p>
+                <p style="margin-top:32px">I founf a brown house in south down town.</p>
 			</div>
 		</div>
     </main>

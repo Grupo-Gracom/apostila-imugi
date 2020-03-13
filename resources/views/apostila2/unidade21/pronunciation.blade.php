@@ -17,9 +17,9 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 21/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <p><b>th sound (voiced) /ð/</b></p>
 
-                <ul class="lista-inline">
+                <ul class="lista-inline" style="margin-top:16px">
+                    <li><p><b>th sound (voiced) /ð/</b></p></li>
                     <li><p>BROTHER</p></li>
                     <li><p>FATHER</p></li>
                     <li><p>THIS</p></li>
@@ -28,8 +28,7 @@
                     <li><p>THEMSELVES</p></li>
                 </ul>
 
-                <P><b>This</b> week, my fa<b>th</b>er and my bro<b>th</b>er have ano<b>th</b>er problem. But now, <b>th</b>ey have to solve it by <b>th</b>emselves.</P>
-
+                <p style="margin-top:32px"><b><u>This</u></b> week, my fa<b><u>th</u></b>er and my bro<b><u>th</u></b>er have ano<b><u>th</u></b>er problem. But now, <b><u>th</u></b>ey have to solve it by <b><u>th</u></b>emselves.</p>
 			</div>
 		</div>
     </main>

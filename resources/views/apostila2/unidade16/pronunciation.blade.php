@@ -16,17 +16,17 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 16/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
-                <div class="clear espacamento"></div>
-                <ul class="lista-inline">
-                    <li><p style="color:green;">oo sound /u:/</p></li>
-                    <li><b>Cool</b></li>
-                    <li><b>Soup</b></li>
-                    <li><b>Moon</b></li>
-                    <li><b>Boot</b></li>
-                    <li><b>Tooth</b></li>
-                    <li><b>Move</b></li>
+                <div class="clear"></div>
+                <ul class="lista-inline upper" style="margin-top:16px">
+                    <li><p><b>oo sound /u:/</b></p></li>
+                    <li><p>Cool</p></li>
+                    <li><p>Soup</p></li>
+                    <li><p>Moon</p></li>
+                    <li><p>Boot</p></li>
+                    <li><p>Tooth</p></li>
+                    <li><p>Move</p></li>
                 </ul>
-                <p>C<b>oo</b>l guys. Take some soup to the b<b>oo</b>t camp and have fun under the m<b>oo</b>n.</p>
+                <p style="margin-top:32px">C<b><u>oo</u></b>l guys. Take some soup to the b<b><u>oo</u></b>t camp and have fun under the m<b><u>oo</u></b>n.</p>
 			</div>
 		</div>
     </main>

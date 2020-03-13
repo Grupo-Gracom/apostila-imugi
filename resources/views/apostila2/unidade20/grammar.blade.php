@@ -18,52 +18,42 @@
                 </audio> -->
                 <!-- nao tem audio ainda -->
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top:16px;">SIMPLE PRESENT X SIMPLE PAST</h5>
-                <div class="espacamento">
-                    <table class="metade esquerda">
-                        <tr>
-                            <td><h5 class="barlow">Simple Present ( Facts / Repeated action)</h5></td>
-                        </tr>
-                        <tr>
-                            <td><p>Gleen <b>works</b> as a teacher.<p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Akira and John <b>love</b> Comic books.<p></td>
-                        </tr>
-                        <tr>
-                            <td><p>“Back to the future” <b>is</b> a famous old movie.<p></td>
-                        </tr>
-                    </table>
-                    <table class="metade direita">
-                        <tr>
-                            <td><h5 class="barlow">Future (Will / Going to/Present cont.)</h5></td>
-                        </tr>
-                        <tr>
-                            <td><p>I’ll search for some new images for the blog.<p></td>
-                        </tr>
-                        <tr>
-                            <td><p>We’re gonna take the pictures next week.<p></td>
-                        </tr>
-                        <tr>
-                            <td><p>We’re closing the magazine in 10 days.<p></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="clear"></div>
-                <h5 class="barlow">EXERCISES</h5>
-                <h5 class="barlow">A - Think of your life now and 10 years from now. Write about it using present and future
+                <h5 class="barlow" style="margin-top:16px;">A - SIMPLE PRESENT X SIMPLE PAST</h5>
+                <table class="metade center-align">
+                    <tr>
+                        <td><h5 class="barlow">Simple Present ( Facts / Repeated action)</h5></td>
+                        <td><h5 class="barlow">Future (Will / Going to/Present cont.)</h5></td>
+                    </tr>
+                    <tr>
+                        <td><p>Gleen <b>works</b> as a teacher.<p></td>
+                        <td><p><b>I’ll search</b> for some new images for the blog.<p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Akira and John <b>love</b> Comic books.<p></td>
+                        <td><p><b>We’re gonna take</b> the pictures next week.<p></td>
+                    </tr>
+                    <tr>
+                        <td><p>“Back to the future” <b>is</b> a famous old movie.<p></td>
+                        <td><p><b>We’re closing</b> the magazine in 10 days.<p></td>
+                    </tr>
+                </table>
+
+                <h5 class="barlow" style="margin-top:16px"><b>EXERCISES</b></h5>
+                <h5 class="barlow">1 - Think of your life now and 10 years from now. Write about it using present and future
                 tenses. Be ready to present to your classmates.</h5>
-				<form id="unidade20grammar186" method="post">
-                    <p><textarea  class="full" name="grammar186-1" required></textarea></p>
+				<form id="unidade20grammar186" method="post" class="metade">
+                    <textarea  class="full" name="grammar186-1" required></textarea>
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="20">
                     <input type="hidden" name="atividade_id" value="186">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow">B -  Give your opinion about one of the next movie releases for the next months. Justify
+
+                <h5 class="barlow">2 -  Give your opinion about one of the next movie releases for the next months. Justify
                 your answer using future tenses.</h5>
-				<form id="unidade20grammar187" method="post">
+				<form id="unidade20grammar187" method="post" class="metade">
                     <p><textarea  class="full" name="grammar187-1" required></textarea></p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
