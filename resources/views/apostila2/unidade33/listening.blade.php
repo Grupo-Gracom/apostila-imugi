@@ -18,7 +18,7 @@
                 </audio>
                 <div class="clear"></div>
                 
-                <h5 class="barlow">A –  Listen to the audio and answer the questions below</h5>
+                <h5 class="barlow" style="margin-top:16px">A –  Listen to the audio and answer the questions below</h5>
                 <form id="unidade33listening257" class="metade" method="post">
                     <p>1. What are Minda’s plans for tonight?
                         <input type="text" name="listening257-1" placeholder="Responda aqui" class="full left-align" required>
@@ -36,9 +36,15 @@
                     <input type="hidden" name="atividade_id" value="257">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
-                </form>
-			</div>
+                <iframe style="margin-top:16px" width="480" height="360" src="https://www.youtube.com/embed/cqdDv3kniBU?list=PLmBK9jc1368IrWWyU7sS_lMWXUd6F4NPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <figure class="umterco">
+					<img src="{{ asset('assets/img/dominating/unit33/listening1.png') }}" alt="moça lava roupa">
+				</figure>
+				<figure class="umterco">
+					<img src="{{ asset('assets/img/dominating/unit33/listening2.png') }}" alt="criança lava roupa">
+				</figure>
+            </div>
 		</div>
     </main>
     <script>

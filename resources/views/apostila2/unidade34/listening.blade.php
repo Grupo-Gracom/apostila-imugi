@@ -18,13 +18,13 @@
                 </audio>
                 <div class="clear"></div>
                 
-                <h5 class="barlow">A –  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <h5 class="barlow" style="margin-top:16px">A –  Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade34listening262" class="metade" method="post">
-                    <p>1. would you<input type="text" name="listening262-1" placeholder="Responda aqui" required>me a hand this weekend with my New York
+                    <p><b>P:</b> would you<input type="text" name="listening262-1" placeholder="Responda aqui" required>me a hand this weekend with my New York
                     <input type="text" name="listening262-2" placeholder="Responda aqui" required>plan. Since you lived there you
                     <input type="text" name="listening262-3" placeholder="Responda aqui" required>much more than me about the city. 
                     </p>
-                    <p>2. No problem. Just one thing. Would you
+                    <p><b>R:</b> No problem. Just one thing. Would you
                     <input type="text" name="listening262-4" placeholder="Responda aqui" required>if a
                     <input type="text" name="listening262-5" placeholder="Responda aqui" required>my puppy with me.
                     My wife is gonna be travelling and I have

@@ -18,7 +18,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 34/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Hello guys, how’s it going? I hope you are prepared for the second part of our
+				<p style="margin-top:16px"><b>Gleen:</b> Hello guys, how’s it going? I hope you are prepared for the second part of our
 					course. We’ll have the chance to debate about movie making and etc. We saw the
 					functions of cinema 4D. Some details about Unity and something about blender.
 					Actually, I saw some animations with them and they are awesome. Ok, let’s start.
@@ -37,7 +37,7 @@
 				<p><b>Gleen:</b> Ok, then let’s get down to business.</p>
 				<p> (to be continued…)</p>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit34/conversation.png') }}" alt="mostrando tela">
 				</figure>
 			</div>
 		</div>

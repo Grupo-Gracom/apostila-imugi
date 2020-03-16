@@ -11,7 +11,7 @@
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade32" data-etapa="grammar">
 				<h3 class="barlow">UNIT 32</h3>
-				<h5 class="barlow">3 – GRAMMAR</h5>
+				<h5 class="barlow">3 – GRAMMAR / EXERCISES REVIEW.</h5>
 
 				<span class="play-audio">( Aperte o play )</span>
 				<!-- <audio controls="" controlslist="nodownload" class="suave">
@@ -20,14 +20,14 @@
                 <!-- nao tem audio ainda -->
                 <div class="clear"></div>     
                 
-                <h5 class="barlow" style="margin-top: 16px">A - Look at the chart and make sentences as in the examples:</h5>
+                <h5 class="barlow" style="margin-top: 16px">1 - Look at the chart and make sentences as in the examples:</h5>
 
                 <table class="metade center-align">
                     <tr>
                         <td></td>
-                        <td><p><b>YESTERDAY</b></p></td>
-                        <td><p><b>TODAY</b></p></td>
-                        <td><p><b>TOMORROW</b></p></td>                        
+                        <td><h5 class="barlow">YESTERDAY</h5></td>
+                        <td><h5 class="barlow">TODAY</h5></td>
+                        <td><h5 class="barlow">TOMORROW</h5></td>                        
                     </tr>
                     <tr>
                         <td><p><b>people / travel</b></p></td>
@@ -65,10 +65,9 @@
                         <td><p>Petrol</p></td>
                         <td><p>water / electricity</p></td>
                     </tr>
-                           
                 </table>
                 <br>
-                <form id="unidade32grammar249" class="metade" action="post">                    
+                <form id="unidade32grammar249" class="metade" style="margin-top:16px" action="post">                    
                     <p>1. People traveled on horseback yesterday.</p> 
                     <p>People are traveling by plane today.</p> 
                     <p>People will travel in spaceships tomorrow.</p>
@@ -111,89 +110,89 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">2) Put the verbs in brackets into the correct tense:</p>
+                <h5 class="barlow">2 - Put the verbs in brackets into the correct tense:</h5>
                 <form id="unidade32grammar250" class="metade" action="post">                    
                     <p>
-                        1.He often<input type="text" name="grammar250-1" placeholder="Responda aqui" required>brings
+                        1. He often<input type="text" name="grammar250-1" placeholder="Responda aqui" required>brings
                         <input type="text" name="grammar250-2" placeholder="Responda aqui" required>(bring) me flowers. 
                     </p>
                     <p>
-                        2.<input type="text" name="grammar250-3" placeholder="Responda aqui" required>(you / meet) Paul yesterday?
+                        2. <input type="text" name="grammar250-3" class="inputMedio left-align" placeholder="Responda aqui" required>(you / meet) Paul yesterday?
                     </p>
                     <p>
-                        3.Father<input type="text" name="grammar250-4" placeholder="Responda aqui" required>(work) in the garden now.
+                        3. Father<input type="text" name="grammar250-4" class="inputMedio left-align" placeholder="Responda aqui" required>(work) in the garden now.
                     </p>
                     <p>
-                        4.What<input type="text" name="grammar250-5" placeholder="Responda aqui" required>(you / do) at the moment?
+                        4. What<input type="text" name="grammar250-5" class="inputMedio left-align" placeholder="Responda aqui" required>(you / do) at the moment?
                     </p>
                     <p>
-                        5.Mr. Jones<input type="text" name="grammar250-6" placeholder="Responda aqui" required>(paint) his house last month.
+                        5. Mr. Jones<input type="text" name="grammar250-6" class="inputMedio left-align" placeholder="Responda aqui" required>(paint) his house last month.
                     </p>
                     <p>
-                        6.She<input type="text" name="grammar250-7" placeholder="Responda aqui" required>(go) to school on foot every day.
+                        6. She<input type="text" name="grammar250-7" class="inputMedio left-align" placeholder="Responda aqui" required>(go) to school on foot every day.
                     </p>
                     <p>
-                        7.It<input type="text" name="grammar250-8" placeholder="Responda aqui" required>(be) hot yesterday.
+                        7. It<input type="text" name="grammar250-8" class="inputMedio left-align" placeholder="Responda aqui" required>(be) hot yesterday.
                     </p>
                     <p>
-                        8.The baby<input type="text" name="grammar250-9" placeholder="Responda aqui" required>(not / sleep) now.
+                        8. The baby<input type="text" name="grammar250-9" class="inputMedio left-align" placeholder="Responda aqui" required>(not / sleep) now.
                     </p>
                     <p>
-                        9.He never<input type="text" name="grammar250-10" placeholder="Responda aqui" required>(drive) fast.
+                        9. He never<input type="text" name="grammar250-10" class="inputMedio left-align" placeholder="Responda aqui" required>(drive) fast.
                     </p>
                     <p>
-                        10.She<input type="text" name="grammar250-11" placeholder="Responda aqui" required>(leave) Paris in 1987.
+                        10. She<input type="text" name="grammar250-11" class="inputMedio left-align" placeholder="Responda aqui" required>(leave) Paris in 1987.
                     </p>
                     <p>
-                        11.She always<input type="text" name="grammar250-12" placeholder="Responda aqui" required>(go) to church on Sunday.
+                        11. She always<input type="text" name="grammar250-12" class="inputMedio left-align" placeholder="Responda aqui" required>(go) to church on Sunday.
                     </p>
                     <p>
-                        12.I<input type="text" name="grammar250-13" placeholder="Responda aqui" required> (buy) a new bicycle last week.
+                        12. I<input type="text" name="grammar250-13" class="inputMedio left-align" placeholder="Responda aqui" required> (buy) a new bicycle last week.
                     </p>
                     <p>
-                        13.My family<input type="text" name="grammar250-14" placeholder="Responda aqui" required>(go) to the theatre yesterday.
+                        13. My family<input type="text" name="grammar250-14" class="inputMedio left-align" placeholder="Responda aqui" required>(go) to the theatre yesterday.
                     </p>
                     <p>
-                        14.Tom<input type="text" name="grammar250-15" placeholder="Responda aqui" required>(live) in London three years ago.
+                        14. Tom<input type="text" name="grammar250-15" class="inputMedio left-align" placeholder="Responda aqui" required>(live) in London three years ago.
                     </p>
                     <p>
-                        15.My mother<input type="text" name="grammar250-16" placeholder="Responda aqui" required>(make) some coffee now.
+                        15. My mother<input type="text" name="grammar250-16" class="inputMedio left-align" placeholder="Responda aqui" required>(make) some coffee now.
                     </p>
                     <p>
-                        16.Sam<input type="text" name="grammar250-17" placeholder="Responda aqui" required>(go) to the circus yesterday.
+                        16. Sam<input type="text" name="grammar250-17" class="inputMedio left-align" placeholder="Responda aqui" required>(go) to the circus yesterday.
                     </p>
                     <p>
-                        17.I<input type="text" name="grammar250-18" placeholder="Responda aqui" required>(talk) on the telephone at the moment.
+                        17. I<input type="text" name="grammar250-18" class="inputMedio left-align" placeholder="Responda aqui" required>(talk) on the telephone at the moment.
                     </p>
                     <p>
-                        18.Sally always<input type="text" name="grammar250-19" placeholder="Responda aqui" required>(help) her mother in the house.
+                        18. Sally always<input type="text" name="grammar250-19" class="inputMedio left-align" placeholder="Responda aqui" required>(help) her mother in the house.
                     </p>
                     <p>
-                        19.I<input type="text" name="grammar250-20" placeholder="Responda aqui" required>(have) dinner in a restaurant last Friday.
+                        19. I<input type="text" name="grammar250-20" class="inputMedio left-align" placeholder="Responda aqui" required>(have) dinner in a restaurant last Friday.
                     </p>
                     <p>
-                        20.Listen! The birds<input type="text" name="grammar250-21" placeholder="Responda aqui" required>(sing) in the garden.
+                        20. Listen! The birds<input type="text" name="grammar250-21" class="inputMedio left-align" placeholder="Responda aqui" required>(sing) in the garden.
                     </p>
                     <p>
-                        21.I often<input type="text" name="grammar250-22" placeholder="Responda aqui" required>(buy) fruit from the greengrocer’s.
+                        21. I often<input type="text" name="grammar250-22" class="inputMedio left-align" placeholder="Responda aqui" required>(buy) fruit from the greengrocer’s.
                     </p>
                     <p>
-                        22.My mother<input type="text" name="grammar250-23" placeholder="Responda aqui" required>(drink) tea now.
+                        22. My mother<input type="text" name="grammar250-23" class="inputMedio left-align" placeholder="Responda aqui" required>(drink) tea now.
                     </p>
                     <p>
-                        23.Look at Tom and Jim! They<input type="text" name="grammar250-24" placeholder="Responda aqui" required>(walk) up the hill.
+                        23. Look at Tom and Jim! They<input type="text" name="grammar250-24" class="inputMedio left-align" placeholder="Responda aqui" required>(walk) up the hill.
                     </p>
                     <p>
-                        24. That man<input type="text" name="grammar250-25" placeholder="Responda aqui" required>(laugh) at the moment.
+                        24. That man<input type="text" name="grammar250-25" class="inputMedio left-align" placeholder="Responda aqui" required>(laugh) at the moment.
                     </p>
                     <p>
-                        25.The cat<input type="text" name="grammar250-26" placeholder="Responda aqui" required>(play) with a ball now
+                        25. The cat<input type="text" name="grammar250-26" class="inputMedio left-align" placeholder="Responda aqui" required>(play) with a ball now
                     </p>
                     <p>
-                        26.We always<input type="text" name="grammar250-27" placeholder="Responda aqui" required>(wear) warm clothes in winter.
+                        26. We always<input type="text" name="grammar250-27" class="inputMedio left-align" placeholder="Responda aqui" required>(wear) warm clothes in winter.
                     </p>
                     <p>
-                        27.He often<input type="text" name="grammar250-28" placeholder="Responda aqui" required> (eat) a sandwich at lunchtime.
+                        27. He often<input type="text" name="grammar250-28" class="inputMedio left-align" placeholder="Responda aqui" required> (eat) a sandwich at lunchtime.
                     </p>
                                         
                     <div class="clear"></div> 
@@ -204,16 +203,21 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">3) Write the questions. Use WHEN, WHERE, WHO or WHAT:</p>
+                <h5 class="barlow">3 - Write the questions. Use WHEN, WHERE, WHO or WHAT:</h5>
                 <form id="unidade32grammar251" action="post">                    
-                    <p>1. We went to California on our vacation. Really?<input type="text" name="grammar251-1" placeholder="Responda aqui" required>
-                        Where did you stay <input type="text" name="grammar251-2" placeholder="Responda aqui" required>(you / stay)? In a hotel in Santa Monica.</p>
-                    <p>2. The children visited the usual tourist attractions. Oh, yeah? <input type="text" name="grammar251-3" placeholder="Responda aqui" required> (they / see)?
-                        Oh, they went to Disneyland, the San Diego zoo, and a movie studio.</p>
-                    <p>3. My wife played a lot of tennis. <input type="text" name="grammar251-4" placeholder="Responda aqui" required>(she / play) with? She played with our oldest son.</p>
-                    <p>4. I really enjoyed the trip. We even stayed a few extra days. <input type="text" name="grammar251-5" placeholder="Responda aqui" required>(you / plan) to come home?
-                        Well, we planned to come home on Monday, but we didn’t get back until Friday.</p>
-                                     
+                    <p>1. <b>P: </b> We went to California on our vacation.</p> 
+                    <p><b>R: </b> Really?<input type="text" name="grammar251-1" placeholder="Responda aqui" required> Where did you stay <input type="text" name="grammar251-2" placeholder="Responda aqui" required>(you / stay)?</p>
+                    <p><b>P: </b>In a hotel in Santa Monica.</p>
+                    <p>2. <b>P: </b> The children visited the usual tourist attractions.</p>
+                    <p><b>R: </b> Oh, yeah? <input type="text" name="grammar251-3" placeholder="Responda aqui" required> (they / see)?</p>
+                    <p><b>P: </b> Oh, they went to Disneyland, the San Diego zoo, and a movie studio.</p>
+                    <p>3. <b>P: </b> My wife played a lot of tennis.</p> 
+                    <p><b>R: </b><input type="text" name="grammar251-4" placeholder="Responda aqui" required> (she / play) with? </p>
+                    <p><b>P: </b> She played with our oldest son.</p>
+                    <p>4. <b>P:</b> I really enjoyed the trip. We even stayed a few extra days. 
+                    <p><b>R: </b><input type="text" name="grammar251-5" placeholder="Responda aqui" required>(you / plan) to come home?</p>
+                    <p><b>P: </b> Well, we planned to come home on Monday, but we didn’t get back until Friday.</p>
+
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -221,7 +225,12 @@
                     <input type="hidden" name="atividade_id" value="251">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                
+                <figure class="metade esquerda">
+					<img src="{{ asset('assets/img/dominating/unit32/grammar1.jpg') }}" alt="animal kingdom">
+				</figure>
+                <figure class="metade direita">
+					<img src="{{ asset('assets/img/dominating/unit32/grammar2.jpg') }}" alt="Disney">
+				</figure>
 			</div>
 		</div>
     </main>

@@ -24,34 +24,34 @@
 
                 <table class="metade center-align">
                     <tr>
-                        <td><p>WOULD RATHER</p></td>                        
+                        <td><h5 class="barlow">WOULD RATHER</p></td>                        
                     </tr>
                     <tr>
-                        <td><p>(+) I would rather live in New York than in San Francisco.</b></td>
+                        <td><p>(+) I <b>would rather live</b> in New York than in San Francisco.</b></td>
                     </tr>
                     <tr>
-                        <td><p>(-) I would rather not live in new York.</b></td>
+                        <td><p>(-) I <b>would rather not liv</b> in new York.</b></td>
                     </tr> 
                     <tr>
-                        <td><p>(?) Would you rather live in New York or in San Francisco?</b></td>
+                        <td><p>(?) <b>Would</b> you <b>rather live</b> in New York or in San Francisco?</b></td>
                     </tr>     
                     <tr>
-                        <td><p>TO PREFER TO</p></td>                        
+                        <td><h5 class="barlow">TO PREFER TO</p></td>                        
                     </tr>
                     <tr>
-                        <td><p>(+) I prefer to live in New York.</b></td>
+                        <td><p>(+) I <b>prefer to live</b> in New York.</b></td>
                     </tr>
                     <tr>
-                        <td><p>(-) I don’t prefer to live in new York.</b></td>
+                        <td><p>(-) I <b>don’t prefer to live</b> in new York.</b></td>
                     </tr> 
                     <tr>
-                        <td><p>(?) Do you prefer to live in New York or in San Francisco?</b></td>
+                        <td><p>(?) <b>Do</b> you <b>prefer to live</b> in New York or in San Francisco?</b></td>
                     </tr>                    
                 </table>
 
-                <p class="barlow">1) Rewrite these sentences using “WOULD YOU RATHER”</p>
+                <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
+                <h5 class="barlow">1 - Rewrite these sentences using “WOULD YOU RATHER”</h5>
                 <form id="unidade31grammar243" class="metade" action="post">
-                    
                     <p>
                         1. I’ve had bad experiences with Western doctors, so I decided to go to a Chinese doctor.
                         <input type="text" name="grammar243-1" placeholder="Responda aqui" class="full left-align" required>
@@ -90,9 +90,8 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">2) Now write two of your own sentences, using “WOULD RATHER”</p>
+                <h5 class="barlow">2 - Now write two of your own sentences, using “WOULD RATHER”</h5>
                 <form id="unidade31grammar244" class="metade" action="post">
-                    
                     <p>
                         1.<input type="text" name="grammar244-1" placeholder="Responda aqui" class="full left-align" required>
                     </p>
@@ -108,7 +107,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                 <p class="barlow">3) select the appropriate words to complete the sentences.</p>
+                <h5 class="barlow">3 - select the appropriate words to complete the sentences.</h5>
 				<form id="unidade31grammar245" method="post">
                     <p>1. She prefers juice (
                         <input type="radio" name="grammar-245-1" value="1" required><b>to</b> / 
@@ -149,11 +148,16 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">4) You are in doubt about what software to use to prepare a short animation. Think of two
-                    or three different programs and debate with a friend your preferences . Use WOULD RATHER and PREFER TO.</p>
+                <figure style="margin-top:16px">
+					<img src="{{ asset('assets/img/dominating/unit31/grammar.jpg') }}" alt="new york">
+				</figure>
+                
+                <div class="clear"></div>
+                <h5 class="barlow" style="margin-top:16px">4 - You are in doubt about what software to use to prepare a short animation. Think of two
+                    or three different programs and debate with a friend your preferences . Use WOULD RATHER and PREFER TO.</h5>
                 <form id="unidade31grammar246" class="metade" action="post">
                     
-                <textarea name="grammar246-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
+                <textarea name="grammar246-1" placeholder="Responda aqui"></textarea>
                 <div class="clear"></div>                    
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">

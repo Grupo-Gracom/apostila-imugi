@@ -18,7 +18,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 32/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Hey you guys. How’s everything? As I told you, in this class and in the next, we’re
+				<p style="margin-top:16px"><b>Gleen:</b> Hey you guys. How’s everything? As I told you, in this class and in the next, we’re
 					gonna have a review ok. So far, we had the chance to talk about many things. First of all
 					I’d like to know what was the most important topic for you so far? Who wants to start?
 					Akira: Teacher, every class I learn something different. For me, having the opportunity

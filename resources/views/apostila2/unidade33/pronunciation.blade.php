@@ -18,12 +18,13 @@
 				</audio>
                 <div class="clear"></div>
 
-                <p><b>Improving your Pronunciation</b></p>
-                <p><b>Th</b>ere are four <b>ch</b>ampions here today. They are <b>Ch</b>arles <b>Sh</b>urmman Mit<b>ch</b>um, <b>Sh</b>aron
+                <p style="margin-top:32px"><b>Improving your Pronunciation</b></p>
+                <p>
+					<b>Th</b>ere are four <b>ch</b>ampions here today. They are <b>Ch</b>arles <b>Sh</b>urmman Mit<b>ch</b>um, <b>Sh</b>aron
                     <b>Ch</b>elsea <b>Ch</b>in, <b>Sh</b>eila <b>Ch</b>ase <b>Sh</b>ea, <b>Ch</b>evy <b>Sh</b>eldon, <b>Ch</b>arleston <b>Ch</b>ester.
                     <b>Th</b>ere are also 4 vice-<b>ch</b>ampions: <b>Th</b>eo <b>Hil</b>ton <b>Th</b>ea, Hilary Hi<b>ll R</b>ea, <b>Th</b>omas Von
-                    <b>Th</b>ompson, <b>Th</b>eresa U<b>th</b>a <b>Th</b>urman, <b>Th</b>ey are waiting to <b>r</b>eceive <b>th</b>eir medals.</p>
-                
+					<b>Th</b>ompson, <b>Th</b>eresa U<b>th</b>a <b>Th</b>urman, <b>Th</b>ey are waiting to <b>r</b>eceive <b>th</b>eir medals.
+				</p>
 			</div>
 		</div>
     </main>

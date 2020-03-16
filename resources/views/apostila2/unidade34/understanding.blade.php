@@ -15,23 +15,23 @@
                 <div class="metade">
                     <form id="unidade34understanding263" method="post">
                         <p>
-                            1. What is gonna happen in the second part of the course?<br>
+                            1. What is gonna happen in the second part of the course?
                             <input type="text" name="understanding263-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            2. What did Gleen see that he considers awesome?<br>
+                            2. What did Gleen see that he considers awesome?
                             <input type="text" name="understanding263-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            3. What does Gleen propose to the students?<br>
+                            3. What does Gleen propose to the students?
                             <input type="text" name="understanding263-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            4. What does Akira say about his skills?<br>
+                            4. What does Akira say about his skills?
                             <input type="text" name="understanding263-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            5. How do they feel about the new idea of work?<br>
+                            5. How do they feel about the new idea of work?
                             <input type="text" name="understanding263-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
@@ -42,15 +42,6 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
-
 			</div>
 		</div>
     </main>

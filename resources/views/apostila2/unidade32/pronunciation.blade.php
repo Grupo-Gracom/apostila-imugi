@@ -18,7 +18,7 @@
 				</audio>
                 <div class="clear"></div>
 
-                <ul class="lista-inline">
+                <ul class="lista-inline upper" style="margin-top:16px">
                     <li><p><b>l sound /l/</b></p></li>
                     <li><p>LAST</p></li>
                     <li><p>LIST</p></li>
@@ -28,8 +28,7 @@
                     <li><p>SCHEDULE</p></li>
                 </ul>
 
-                <p><b>L</b>ets inc<b>l</b>ude the <b>l</b>ast chi<b>l</b>d in the fina<b>l</b> list schedu<b>l</b>e </p>
-                
+                <p style="margin-top:32px"><b><u>L</u></b>ets inc<b><u>l</u></b>ude the <b><u>l</u></b>ast chi<b><u>l</u></b>d in the fina<b><u>l</u></b> list schedu<b><u>l</u></b>e </p>
 			</div>
 		</div>
     </main>

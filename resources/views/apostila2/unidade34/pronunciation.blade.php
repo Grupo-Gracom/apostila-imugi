@@ -18,7 +18,7 @@
 				</audio>
                 <div class="clear"></div>
 
-                <ul class="lista-inline">
+                <ul class="lista-inline upper" style="margin-top:16px">
                     <li><p><b>t sound /t/</b></p></li>
                     <li><p>TEACHER</p></li>
                     <li><p>TOMORROW</p></li>
@@ -27,7 +27,10 @@
                     <li><p>SECRET</p></li>
                     <li><p>LIMIT</p></li>
                 </ul>
-                
+                <p style="margin-top:32px">
+                    <b>T</b>omorrow the <b>t</b>eacher wan<b>t</b>s to go beyond the limi<b>t</b>. Our par<b>t</b>icipation is a secre<b>t</b>. The
+                    expec<b>t</b>ation for ou<b>r</b> presen<b>ta</b>tion is very high.
+                </p>
 			</div>
 		</div>
     </main>

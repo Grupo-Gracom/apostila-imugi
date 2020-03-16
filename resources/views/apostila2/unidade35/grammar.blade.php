@@ -24,7 +24,7 @@
                 <br>
                 <table class="metade center-align">
                     <tr>
-                        <td><p><b>TO BE SUPPOSED TO</b></p></td>
+                        <td><h5 class="barlow">TO BE SUPPOSED TO</h5></td>
                     </tr>
                     <tr>
                         <td><p>Doctors <b>are supposed to</b> take care of their patients</p></td>
@@ -36,7 +36,7 @@
                         <td><p>Cinema 4D <b>is supposed to be</b> very efficient for making animations.</p></td>
                     </tr>
                     <tr>
-                        <td><p><b>(+), (-), (?)</b></p></td>
+                        <td><h5 class="barlow">(+), (-), (?)</h5></td>
                     </tr>
                     <tr>
                         <td><p>(+) We <b>are supposed to</b> watch as many animations as we can</p></td>
@@ -49,23 +49,23 @@
                     </tr>
                 </table>
                 <br>
-                <p class="barlow">1) Complete each statement or question with “(BE) AUPPOSED TO” in the present tense.
-                    Use the main verb provided.</p>
+                <h5 class="barlow">1 - Complete each statement or question with “(BE) AUPPOSED TO” in the present tense.
+                    Use the main verb provided.</h5>
                 <form id="unidade35grammar264" action="post">                    
                     <p>
-                       1. The flight<input type="text" name="grammar264-1" placeholder="Responda aqui" required>at 10:00 this morning. (leave)
+                        1. The flight<input type="text" name="grammar264-1" placeholder="Responda aqui" required>at 10:00 this morning. (leave)
                     </p>                    
                     <p>
-                       2. I<input type="text" name="grammar264-2" placeholder="Responda aqui" required>some email to my students today. (send out)
+                        2. I<input type="text" name="grammar264-2" placeholder="Responda aqui" required>some email to my students today. (send out)
                     </p>
                     <p>
-                       3. The garbage<input type="text" name="grammar264-3" placeholder="Responda aqui" required>today. (collect)
+                        3. The garbage<input type="text" name="grammar264-3" placeholder="Responda aqui" required>today. (collect)
                     </p>
                     <p>
-                       4.<input type="text" name="grammar264-4" placeholder="Responda aqui" required>these packages<input type="text" name="grammar264-5" placeholder="Responda aqui" required>to the post office? (go)
+                        4.<input type="text" name="grammar264-4" placeholder="Responda aqui" required>these packages<input type="text" name="grammar264-5" placeholder="Responda aqui" required>to the post office? (go)
                     </p>
                     <p>
-                       5. We<input type="text" name="grammar264-6" placeholder="Responda aqui" required>in this classroom. We have to go next door. (meet - negative)
+                        5. We<input type="text" name="grammar264-6" placeholder="Responda aqui" required>in this classroom. We have to go next door. (meet - negative)
                     </p>
                     <p>
                         6. What<input type="text" name="grammar264-7" placeholder="Responda aqui" required>they<input type="text" name="grammar264-8" placeholder="Responda aqui" required>with their unused notebooks? Save them? (do)
@@ -91,24 +91,24 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 <br>
-                <p class="barlow">2) Complete each statement or question with “(BE) SUPPOSED TO” in the past tense. Use
-                    the main verb provided.</p>
+                <h5 class="barlow">2 - Complete each statement or question with “(BE) SUPPOSED TO” in the past tense. Use
+                    the main verb provided.</h5>
                 <form id="unidade35grammar265" action="post">                    
                     <p>
-                       1. She<input type="text" name="grammar265-1" placeholder="Responda aqui" required>me here at 12:30. Where is she? (meet)
+                        1. She<input type="text" name="grammar265-1" placeholder="Responda aqui" required>me here at 12:30. Where is she? (meet)
                     </p>                    
                     <p>
-                       2. His car<input type="text" name="grammar265-2" placeholder="Responda aqui" required>by now, but it’s still in the garage. (fix - passive)
+                        2. His car<input type="text" name="grammar265-2" placeholder="Responda aqui" required>by now, but it’s still in the garage. (fix - passive)
                     </p>
                     <p>
-                       3. <input type="text" name="grammar265-3" placeholder="Responda aqui" required>you<input type="text" name="grammar265-4" placeholder="Responda aqui" required> to that meeting? (go - negative)
+                        3. <input type="text" name="grammar265-3" placeholder="Responda aqui" required>you<input type="text" name="grammar265-4" placeholder="Responda aqui" required> to that meeting? (go - negative)
 
                     </p>
                     <p>
-                       4. I<input type="text" name="grammar265-5" placeholder="Responda aqui" required>my brother yesterday, but then he called and said he didn’t need it. (help)
+                        4. I<input type="text" name="grammar265-5" placeholder="Responda aqui" required>my brother yesterday, but then he called and said he didn’t need it. (help)
                     </p>
                     <p>
-                       5. We<input type="text" name="grammar265-6" placeholder="Responda aqui" required>a baseball game today, but it rained and the game got called off. (see)
+                        5. We<input type="text" name="grammar265-6" placeholder="Responda aqui" required>a baseball game today, but it rained and the game got called off. (see)
                     </p>
                     <p>
                         6. This chicken<input type="text" name="grammar265-7" placeholder="Responda aqui" required>, but it was left out too long and now it’s spoiled. (refrigerate - passive)
@@ -134,18 +134,16 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">3) Think about the professions below. What ARE THEY SUPPOSED TO DO.</p>
+                <h5 class="barlow">3 - Think about the professions below. What ARE THEY SUPPOSED TO DO.</h5>
                 <form id="unidade35grammar266" class="metade" action="post">
                     
-                    <ol>
-                        <li><p>Web designer</p></li>
-                        <li><p>Movie director.</p></li>
-                        <li><p>Story board creator</p></li>
-                        <li><p>Magazine editor.</p></li>
-                        <li><p>Art finisher.</p></li>
-                    </ol>
+                    <p>1. Web designer</p>
+                    <p>2. Movie director.</p>
+                    <p>3. Story board creator</p>
+                    <p>4. Magazine editor.</p>
+                    <p>5. Art finisher.</p>
 
-                    <p>1.<input type="text" name="grammar266-1" placeholder="Responda aqui" class="full left-align" required></p>
+                    <p style="margin-top:32px">1.<input type="text" name="grammar266-1" placeholder="Responda aqui" class="full left-align" required></p>
                     <p>2.<input type="text" name="grammar266-2" placeholder="Responda aqui" class="full left-align" required></p>
                     <p>3.<input type="text" name="grammar266-3" placeholder="Responda aqui" class="full left-align" required></p>
                     <p>4.<input type="text" name="grammar266-4" placeholder="Responda aqui" class="full left-align" required></p>
@@ -158,7 +156,6 @@
                     <input type="hidden" name="atividade_id" value="266">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                  
 			</div>
 		</div>
     </main>

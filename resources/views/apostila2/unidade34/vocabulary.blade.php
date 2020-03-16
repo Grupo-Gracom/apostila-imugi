@@ -18,27 +18,26 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 34/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
-
-				<p>TO SWIM / well / in the lake / in a swimming pool / in the sea</p>
-				<p>TO TIE / the shoes / the knot</p>
-				<p>TO TRAIN / a group of people / someone / staff / a team</p>
-
+				<div class="espacamento">
+					<p><b>TO SWIM </b>/ well / in the lake / in a swimming pool / in the sea</p>
+					<p><b>TO TIE </b>/ the shoes / the knot</p>
+					<p><b>TO TRAIN </b>/ a group of people / someone / staff / a team</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 34/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 
-				<ul class="lista-inline">
-					<li><b>HOPE</b></li>
-					<li><b>SAW</b></li>
-					<li><b>TAKE</b></li>
-					<li><b>ADVANTAGE</b></li>
-					<li><b>SKILLS</b></li>
-					<li><b>TO BE IN</b></li>
-					<li><b>WORRY</b></li>
-					<li><b>DEAL</li>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>HOPE</b></p></li>
+					<li><p><b>SAW</b></p></li>
+					<li><p><b>TAKE</b></p></li>
+					<li><p><b>ADVANTAGE</b></p></li>
+					<li><p><b>SKILLS</b></p></li>
+					<li><p><b>TO BE IN</b></p></li>
+					<li><p><b>WORRY</b></p></li>
+					<li><p><b>DEAL</p></li>
 				</ul>							
-				
 			</div>
 		</div>
 	</main>

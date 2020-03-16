@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 31/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <p>Improving pronunciation - / <b>ch</b> / / <b>sh</b> /</p>
+                <h5 class="barlow" style="margin-top:16px">Improving pronunciation - / <b>ch</b> / / <b>sh</b> /</h5>
                 
                 <table class="metade left-align">
                     <tr>
@@ -45,7 +45,6 @@
                         <td><p><b>Sh</b>ips</p></td>
                     </tr>
                 </table>
-
 			</div>
 		</div>
     </main>
