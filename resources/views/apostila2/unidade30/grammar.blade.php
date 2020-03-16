@@ -45,46 +45,46 @@
                         </tr>
                     </table>
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">1 - Complete the dialogue using appropriate sentences.</h5>
                     <p class="barlow">At a restaurant</p>
                     <form id="unidade30grammar238" method="post">
-                        <div class="metade">
                             <p>
                                 <p>
-                                    P: What <input type="text" name="grammar238-1" placeholder="Responda aqui" required/> order?
+                                    <b>P:</b> What <input type="text" name="grammar238-1" placeholder="Responda aqui" required/> order?
                                 </p>
                                 <p>
-                                    R: I <input type="text" name="grammar238-2" placeholder="Responda aqui" required/> the fried chicken.
+                                    <b>R:</b> I <input type="text" name="grammar238-2" placeholder="Responda aqui" required/> the fried chicken.
                                 </p>
                                 <p>
-                                    P: <input type="text" name="grammar238-3" placeholder="Responda aqui" required/> rice or potatoes?
+                                    <b>P:</b> <input type="text" name="grammar238-3" placeholder="Responda aqui" required/> rice or potatoes?
                                 </p>
                                 <p>
-                                    R: Potatoes, please.
+                                    <b>R:</b> Potatoes, please.
                                 </p>
                                 <p>
-                                    P: What kind of potatoes <input type="text" name="grammar238-4" placeholder="Responda aqui" required/> ? Baked or French fries?
+                                    <b>P:</b> What kind of potatoes <input type="text" name="grammar238-4" placeholder="Responda aqui" required/> ? Baked or French fries?
                                 </p>
                                 <p>
-                                    R: I <input type="text" name="grammar238-5" placeholder="Responda aqui" required/> French fries.
+                                    <b>R:</b> I <input type="text" name="grammar238-5" placeholder="Responda aqui" required/> French fries.
                                 </p>
                                 <p>
-                                    P: OK. And what <input type="text" name="grammar238-6" placeholder="Responda aqui" required/> drink?
+                                    <b>P:</b> OK. And what <input type="text" name="grammar238-6" placeholder="Responda aqui" required/> drink?
                                 </p>
                                 <p>
-                                    R: I guess I <input type="text" name="grammar238-7" placeholder="Responda aqui" required/> a cup of coffee.
+                                    <b>R:</b> I guess I <input type="text" name="grammar238-7" placeholder="Responda aqui" required/> a cup of coffee.
                                 </p>
                                 <p>
-                                    P: <input type="text" name="grammar238-8" placeholder="Responda aqui" required/> anything else?
+                                    <b>P:</b> <input type="text" name="grammar238-8" placeholder="Responda aqui" required/> anything else?
                                 </p>
                                 <p>
-                                    R: No, that is all for now, thanks.
+                                    <b>R:</b> No, that is all for now, thanks.
                                 </p>
 
-                                <p style="margin-top:16px">
+                                <p style="margin-top:32px">
                                     1. What <input type="text" name="grammar238-9" placeholder="Responda aqui" required/> order? (would you like to / you would like / you would like to)
-                                </p>                              <p>
+                                </p>                              
+                                <p>
                                     2. I <input type="text" name="grammar238-10"  placeholder="Responda aqui" required/> the fried chicken. (wouldn’t like / ‘d like / ‘d not like)
                                 </p>
                                 <p>
@@ -106,7 +106,6 @@
                                     8. <input type="text" name="grammar238-16"  placeholder="Responda aqui" required/>  anything else? (You would like / Would you like / Would you like to)
                                 </p>
                             </p>
-                        </div>
                         <div class="clear"></div>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -128,18 +127,18 @@
                         <p>
                             <p>
                                 1. John is visiting you in your apartment. You offer him something to drink.<br>
-                                You: <input type="text" name="grammar239-1" placeholder="Responda aqui" required/> <br>
+                                You: <input type="text" name="grammar239-1" placeholder="Responda aqui" class="inputMedio left-align" required/> <br>
                                 John: Yes, thank you. A soda is ok for me.
                             </p>
                             <p>
                                 2. You need help to do a backup of your computer. You ask Akira.<br>
-                                You <input type="text" name="grammar239-2"  placeholder="Responda aqui" required/> <br>
+                                You <input type="text" name="grammar239-2"  placeholder="Responda aqui" class="inputMedio left-align" required/> <br>
                                 Akira : Sure . It’s easy. All you have to do is this.
                             </p>
                             <p>
                                 3. A friend of yours is interested in one of your books. You invite him to borrow it.<br>
                                 Friend: This book is very interesting.<br>
-                                You : Yes, it’s very good.  <input type="text" name="grammar239-3"  placeholder="Responda aqui" required/>  rice or potatoes? (You would like / Would you like / Would you like to)
+                                You : Yes, it’s very good.  <input type="text" name="grammar239-3"  placeholder="Responda aqui" class="inputMedio left-align" required/>
                             </p>
                         </p>
                         <div class="clear"></div>
@@ -152,7 +151,7 @@
                     </div>
                 </form>
 
-                <h5 class="barlow metade" style="margin-top: 36px">3 - You are a Tv host and you have to interview a famous actor to get to know his
+                <h5 class="barlow" style="margin-top: 36px">3 - You are a Tv host and you have to interview a famous actor to get to know his
                 expectations about his/her next movie. Prepare 5 questions using WOULD to ask him/her. Be ready to role play the interview with your classmates.</h5>
                 <form id="unidade30grammar240" method="post">
                     <textarea name="grammar240-1" class="metade left-align" placeholder="Responda aqui" required></textarea>

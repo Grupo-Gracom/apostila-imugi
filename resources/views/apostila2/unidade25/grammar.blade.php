@@ -24,19 +24,19 @@
 
                 <table class="metade left-align">
                     <tr>
-                        <td><p>MAY</p></td>
+                        <td><h5 class="barlow">MAY</h5></td>
                         <td><p>Used for <b>probability and approval of actions or statements</b>.</p></td>
                     </tr>
                     <tr>
-                        <td><p>MIGHT</td>
+                        <td><h5 class="barlow">MIGHT</h5></td>
                         <td><p>Used for <b>remote probability</b></td>
                     </tr>
                 </table>
 
                 <table class="metade center-align">
                     <tr>
-                        <td><p>MAY</p></td>
-                        <td><p>MIGHT</p></td>
+                        <td><h5 class="barlow">MAY</h5></td>
+                        <td><h5 class="barlow">MIGHT</h5></td>
                     </tr>
                     <tr>
                         <td><p><b>It may rain</b> today. Look at those dark clouds</p></td>
@@ -54,15 +54,15 @@
 
                 <table class="metade center-align">
                     <tr>
-                        <td><p>MAY</p></td>
-                        <td><p>MIGHT</p></td>
+                        <td><h5 class="barlow">MAY</h5></td>
+                        <td><h5 class="barlow">MIGHT</h5></td>
                     </tr>
                     <tr>
                         <td><p>(+) He <b>may have</b> to redo the entire job.</p></td>
                         <td><p>(+) you <b>might have</b> to reset your computer</p></td>
                     </tr>
                     <tr>
-                        <td><p>(-) He may <b>not have</b> to redo the entire job.</p></td>
+                        <td><p>(-) He <b>may not</b> have to redo the entire job.</p></td>
                         <td><p>(-) you <b>might not</b> have to reset your computer.</p></td>
                     </tr>
                     <tr>
@@ -71,7 +71,7 @@
                     </tr>
                 </table>
 
-                <p class="barlow">1) select the correct auxiliary modal verb in each sentence.</p>
+                <h5 class="barlow" style="margin-top:16px">1 - select the correct auxiliary modal verb in each sentence.</h5>
 				<form id="unidade25grammar213" method="post">
                     <p>1 - When I grow up, I (<input type="radio" name="grammar-213-1" value="1" required><b>may</b>, <input type="radio" name="grammar-213-1" value="2" required><b>might</b>) become an engineer.</p>
                     <p>2. There is a small chance the we (<input type="radio" name="grammar-213-2" value="1" required><b>may</b>, <input type="radio" name="grammar-213-2" value="2" required><b>might</b>) go to the beach this weekend.</p>
@@ -82,8 +82,11 @@
                     <p>7. (<input type="radio" name="grammar-213-7" value="1" required><b>may</b>, <input type="radio" name="grammar-213-7" value="2" required><b>might</b>) I have a piece of bread please?</p>
                     <p>8. It (<input type="radio" name="grammar-213-8" value="1" required><b>might</b>, <input type="radio" name="grammar-213-8" value="2" required><b>may</b>) snow tonight, but I doubt it.</p>
                     <p>9. If Jane studied harder, she (<input type="radio" name="grammar-213-9" value="1" required><b>might</b>, <input type="radio" name="grammar-213-9" value="2" required><b>may</b>) have gotten a better grade on the test. </p>
-                    <p>10. I (<input type="radio" name="grammar-213-10" value="1" required><b>might</b>, <input type="radio" name="grammar-213-10" value="2" required><b>may</b>) not be coming to your party tonight. I told my mother that I would
-                        stay home and make cookies with her already. I’m sorry</p>
+                    <p>
+                        10. I (<input type="radio" name="grammar-213-10" value="1" required><b>might</b>, <input type="radio" name="grammar-213-10" value="2" required><b>may</b>) not be coming to your party tonight. I told my mother that I would
+                        stay home and make cookies with her already. I’m sorry
+                    </p>
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="25">
@@ -92,7 +95,7 @@
                 </form>
 
                 <form id="unidade25grammar214"  action="post">
-                    <p class="barlow">2) Complete the exercise with MAY ir MIGHT. Take into account the context to decide which one to use.</p>
+                    <h5 class="barlow">2 - Complete the exercise with MAY ir MIGHT. Take into account the context to decide which one to use.</h5>
                     <p>1. Take your umbrella as it<input type="text" name="grammar214-1" placeholder="Responda aqui" required>(rain) today</p>
                     <p>2. He is still at work! He<input type="text" name="grammar214-2" placeholder="Responda aqui" required>(be) finishing his report for tomorrow.</p>
                     <p>3. John couldn’t repair his washing machine; he<input type="text" name="grammar214-3" placeholder="Responda aqui" required>(ask) his neighbor.</p>
@@ -113,11 +116,11 @@
                 <figure>
 					<img src="{{ asset('assets/img/dominating/unit25/grammar.png') }}" alt="guarda-chuva">
                 </figure>
+                <div class="clear"></div>
 
-                <p class="barlow">3) Think about the future 20 years from now. In your opinion, what MIGHT or MAY happen with technology?</p>
-                <form id="unidade25grammar215" class="metade" action="post">
-
-                    <p><input type="text" name="grammar215-1" placeholder="Responda aqui" class="full left-align" required></p>
+                <h5 class="barlow" style="margin-top:16px">3 - Think about the future 20 years from now. In your opinion, what MIGHT or MAY happen with technology?</h5>
+                <form id="unidade25grammar215" action="post">
+                    <textarea name="grammar215-1" class="metade left-align" placeholder="Responda aqui"  required></textarea>
 
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -126,7 +129,6 @@
                     <input type="hidden" name="atividade_id" value="215">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
 			</div>
 		</div>
     </main>
@@ -178,14 +180,7 @@
         $("#unidade25grammar215").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade25grammar215 input[type="text"]').each(function(index){
-                if(($('#unidade25grammar215 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
+            var respostas = '{"'+$('#unidade25grammar215 textarea').attr("name")+'":"'+$('#unidade25grammar215 textarea').val()+'"}';
             if($('#unidade25grammar215 input[name="resposta_id"').val() != 0){
                 atualizarAtividade($('#unidade25grammar215'), respostas);
             }else{
@@ -216,6 +211,8 @@
                         }
                     }else{
                         for(j = 0; j < respostas.length; j++){
+                            $('#unidade25grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                            $('#unidade25grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                             $('#unidade25grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
                             $('#unidade25grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         }

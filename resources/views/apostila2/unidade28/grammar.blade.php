@@ -42,7 +42,7 @@
                         </tr>
                     </table>
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">1 - Complete the exercise with HAD BETTER or HAD BETTER NOT</h5>
                     <form id="unidade28grammar229" method="post">
                         <div class="metade">
@@ -123,7 +123,9 @@
                     <figure class="metade direita">
 						<img src="{{ asset('assets/img/dominating/unit28/grammar2.jpg') }}" alt="mobilidade">
 					</figure>
-                <h5 class="barlow metade" style="margin-top: 36px">2 - A friend of yours writes you an email asking for suggestions on how to improve his/her
+                <div class="clear"></div> 
+
+                <h5 class="barlow" style="margin-top: 16px">2 - A friend of yours writes you an email asking for suggestions on how to improve his/her
                 skills as an illustrator. Write him back giving him your suggestions. Use HAD BETTER and HAD BETTER NOT.</h5>
                 <form id="unidade28grammar230" method="post">
                     <textarea name="grammar230-1" class="metade left-align" placeholder="Responda aqui" required></textarea>

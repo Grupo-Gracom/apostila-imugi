@@ -17,31 +17,23 @@
 					<source src="{{ asset('assets/audio/Unit28/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade28listening231" method="post">
-                        <p>
-                            When you <input type="text" name="listening231-1"  placeholder="Responda aqui" required> the visa, it’s time to plan your <input type="text" name="listening231-2"  placeholder="Responda aqui" required> with more details.
-                            First you have to know when you <input type="text" name="listening231-3"  placeholder="Responda aqui" required> to travel. With that in mind you will know
-                            what <input type="text" name="listening231-4"  placeholder="Responda aqui" required> of clothes to take with you. You had better check a <input type="text" name="listening231-5"  placeholder="Responda aqui" required>
-                            <input type="text" name="listening231-6"  placeholder="Responda aqui" required> site to have an idea. Don’t forget to check it <input type="text" name="listening231-7"  placeholder="Responda aqui" required> one day before your trip. 
-                            <input type="text" name="listening231-8"  placeholder="Responda aqui" required> may happen. You had better not to bring the <input type="text" name="listening231-9"  placeholder="Responda aqui" required>
-                            clothes with you because they are useless and will bother you.
-                        </p>
+                <h5 class="barlow" style="margin-top: 16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade28listening231" method="post">
+                    <p>
+                        When you <input type="text" name="listening231-1"  placeholder="Responda aqui" required> the visa, it’s time to plan your <input type="text" name="listening231-2"  placeholder="Responda aqui" required> with more details.
+                        First you have to know when you <input type="text" name="listening231-3"  placeholder="Responda aqui" required> to travel. With that in mind you will know
+                        what <input type="text" name="listening231-4"  placeholder="Responda aqui" required> of clothes to take with you. You had better check a <input type="text" name="listening231-5"  placeholder="Responda aqui" required> 
+                        site to have an idea. Don’t forget to check it <input type="text" name="listening231-6"  placeholder="Responda aqui" required> one day before your trip. 
+                        <input type="text" name="listening231-7"  placeholder="Responda aqui" required> may happen. You had better not to bring the <input type="text" name="listening231-8"  placeholder="Responda aqui" required>
+                        clothes with you because they are useless and will bother you.
+                    </p>
 
-
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="28">
-                        <input type="hidden" name="atividade_id" value="231">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
-                <div style="margin-top: 36px">
-					<figure>
-						<img src="{{ asset('assets/img/playgo/unit28/pagina-1.png') }}" alt="conversa">
-					</figure>
-				</div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="28">
+                    <input type="hidden" name="atividade_id" value="231">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
 		</div>
     </main>

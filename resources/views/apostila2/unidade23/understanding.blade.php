@@ -15,23 +15,23 @@
                 <div class="metade">
                     <form id="unidade23understanding207" method="post">
                         <p>
-                            1. What does Gleen need?<br>
+                            1. What does Gleen need?
                             <input type="text" name="understanding207-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            2. Who does Gleen ask help from, for moving a table?<br>
+                            2. Who does Gleen ask help from, for moving a table?
                             <input type="text" name="understanding207-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            3 - Why do they need more space?<br>
+                            3 - Why do they need more space?
                             <input type="text" name="understanding207-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            4 - What does Gleen ask Laura to do ?<br>
+                            4 - What does Gleen ask Laura to do ?
                             <input type="text" name="understanding207-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            5 - What does Laura need to set up the mailbox?<br>
+                            5 - What does Laura need to set up the mailbox?
                             <input type="text" name="understanding207-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
 
@@ -42,15 +42,6 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
-
 			</div>
 		</div>
     </main>

@@ -17,18 +17,17 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 26/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>r sound /r/</b></li>
-					<li>Ready</li>	
-					<li>Receive</li>
-					<li>Group</li>
-					<li>Friends</li>
-					<li>Celebrate</li>
-					<li>year</li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>r sound /r/</b></p></li>
+					<li><p>Ready</p></li>	
+					<li><p>Receive</p></li>
+					<li><p>Group</p></li>
+					<li><p>Friends</p></li>
+					<li><p>Celebrate</p></li>
+					<li><p>year</p></li>
 				</ul>
-				<ul class="lista-inline">
-					<ol>We a<b>r</b>e ready to <b>r</b>eceive a g<b>r</b>oup of f<b>r</b>iends to celeb<b>r</b>ate the end of the yea<b>r</b>. </ol>
-				</ul>
+
+				<p style="margin-top:32px">We a<b><u>r</u></b>e ready to <b><u>r</u></b>eceive a g<b><u>r</u></b>oup of f<b><u>r</u></b>iends to celeb<b><u>r</u></b>ate the end of the yea<b><u>r</u></b>.</p>
 				<div class="clear"></div>
 			</div>
 		</div>

@@ -23,8 +23,8 @@
 
                 <table class="metade center-align">
                     <tr>
-                        <td><p>CAN</p></td>
-                        <td><p>COULD</p></td>
+                        <td><h5 class="barlow">CAN</p></td>
+                        <td><h5 class="barlow">COULD</p></td>
                     </tr>
                     <tr>
                         <td><p><b>Can</b> you help me with my homework?</p></td>
@@ -40,12 +40,12 @@
                     </tr>
                 </table>
 
-                <p><b>EXERCISES</b></p>
-                <p class="barlow">1) Complete the sentences with CAN or COULD for making formal or informal requests. Pay
-                                    attention to the context to decide between formal and informal.</p>
-                <form id="unidade23grammar202" action="post" class="metade">
+                <h5 class="barlow" style="margin-top:16px"><b>EXERCISES</b></p>
+                <h5 class="barlow">1 - Complete the sentences with CAN or COULD for making formal or informal requests. Pay
+                                    attention to the context to decide between formal and informal.</h5>
+                <form id="unidade23grammar202" action="post">
                     <p>1. Please<input type="text" name="grammar202-1" placeholder="Responda aqui" required>you buy some milk on your way home? I
-                        <input type="text" name="grammar202-2" placeholder="Responda aqui" required>leave the house because I’m looking after the baby</p>
+                        <input type="text" name="grammar202-2" placeholder="Responda aqui" required>leave the house because I’m looking after the baby.</p>
                     <p>2. Hello ,<input type="text" name="grammar202-3" placeholder="Responda aqui" required>I help you? Actually, no you
                         <input type="text" name="grammar202-4" placeholder="Responda aqui" required>.This restaurant is awful . We’re leaving.</p>
                     <p>3. Officer<input type="text" name="grammar202-5" placeholder="Responda aqui" required>you give an information please. Where
@@ -61,7 +61,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">2) Asking permission or favor. What kind of permissions or favors would you ask in these places? List at least three possibilities. Use your imagination.</p>
+                <h5 class="barlow">2 - Asking permission or favor. What kind of permissions or favors would you ask in these places? List at least three possibilities. Use your imagination.</h5>
                 <form id="unidade23grammar203" class="metade" action="post">
                     <p>1. At a restaurant
                         <input type="text" name="grammar203-1" placeholder="Responda aqui" class="full left-align" required>
@@ -87,21 +87,21 @@
                 </form>
 
                 <form id="unidade23grammar204"  action="post">
-                    <p class="barlow">3) Put in ‘CAN’ / ‘CAN’T’ / ‘COULD’ / ‘COULDN’T’.</p>
-                    <p>1.<input type="text" name="grammar204-1" placeholder="Responda aqui" required> you swim when you were 10?</p>
-                    <p>2.We<input type="text" name="grammar204-2" placeholder="Responda aqui" required> get to the meeting on time yesterday because the train was delayed by one hour.</p>
-                    <p>3.He<input type="text" name="grammar204-3" placeholder="Responda aqui" required> arrive at the party on time, even after missing the train, so he was very pleased.</p>
-                    <p>4.He’s amazing, he<input type="text" name="grammar204-4" placeholder="Responda aqui" required> speak 5 languages including Chinese.</p>
-                    <p>5.I<input type="text" name="grammar204-5" placeholder="Responda aqui" required>  drive a car until I was 34, then I moved to the countryside so I had to learn.</p>
-                    <p>6.I looked everywhere for my glasses but I<input type="text" name="grammar204-6" placeholder="Responda aqui" required> find them anywhere.</p>
-                    <p>7.I searched for your house for ages, luckily I<input type="text" name="grammar204-7" placeholder="Responda aqui" required> find it in the end.</p>
-                    <p>8.She’s 7 years old but she<input type="text" name="grammar204-8" placeholder="Responda aqui" required> read yet – her parents are getting her extra lessons.</p>
-                    <p>9.I read the book three times but I<input type="text" name="grammar204-9" placeholder="Responda aqui" required>understand it.</p>
-                    <p>10.Akira<input type="text" name="grammar204-10" placeholder="Responda aqui" required>  speak Japanese when he lived in Japan, but he’s forgotten most of it now</p>
-                    <p>11.I<input type="text" name="grammar204-11" placeholder="Responda aqui" required>  understand the chapter we had to read for homework. It was so difficult.</p>
-                    <p>12.I<input type="text" name="grammar204-12" placeholder="Responda aqui" required> lift this box – it’s too heavy! Would you help me?</p>
-                    <p>13.John<input type="text" name="grammar204-13" placeholder="Responda aqui" required>  play tennis really well. He’s champion of his club.</p>
-                    <p>14.Unfortunately, I really<input type="text" name="grammar204-14" placeholder="Responda aqui" required> sing at all! No-one in my family is musical either. </p>
+                    <h5 class="barlow">3 - Put in ‘CAN’ / ‘CAN’T’ / ‘COULD’ / ‘COULDN’T’.</h5>
+                    <p>1. <input type="text" name="grammar204-1" placeholder="Responda aqui" required> you swim when you were 10?</p>
+                    <p>2. We<input type="text" name="grammar204-2" placeholder="Responda aqui" required> get to the meeting on time yesterday because the train was delayed by one hour.</p>
+                    <p>3. He<input type="text" name="grammar204-3" placeholder="Responda aqui" required> arrive at the party on time, even after missing the train, so he was very pleased.</p>
+                    <p>4. He’s amazing, he<input type="text" name="grammar204-4" placeholder="Responda aqui" required> speak 5 languages including Chinese.</p>
+                    <p>5. I<input type="text" name="grammar204-5" placeholder="Responda aqui" required>  drive a car until I was 34, then I moved to the countryside so I had to learn.</p>
+                    <p>6. I looked everywhere for my glasses but I<input type="text" name="grammar204-6" placeholder="Responda aqui" required> find them anywhere.</p>
+                    <p>7. I searched for your house for ages, luckily I<input type="text" name="grammar204-7" placeholder="Responda aqui" required> find it in the end.</p>
+                    <p>8. She’s 7 years old but she<input type="text" name="grammar204-8" placeholder="Responda aqui" required> read yet – her parents are getting her extra lessons.</p>
+                    <p>9. I read the book three times but I<input type="text" name="grammar204-9" placeholder="Responda aqui" required>understand it.</p>
+                    <p>10. Akira<input type="text" name="grammar204-10" placeholder="Responda aqui" required>  speak Japanese when he lived in Japan, but he’s forgotten most of it now</p>
+                    <p>11. I<input type="text" name="grammar204-11" placeholder="Responda aqui" required>  understand the chapter we had to read for homework. It was so difficult.</p>
+                    <p>12. I<input type="text" name="grammar204-12" placeholder="Responda aqui" required> lift this box – it’s too heavy! Would you help me?</p>
+                    <p>13. John<input type="text" name="grammar204-13" placeholder="Responda aqui" required>  play tennis really well. He’s champion of his club.</p>
+                    <p>14. Unfortunately, I really<input type="text" name="grammar204-14" placeholder="Responda aqui" required> sing at all! No-one in my family is musical either. </p>
 
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -119,10 +119,11 @@
                 <figure class="umterco">
 					<img src="{{ asset('assets/img/dominating/unit23/grammar3.png') }}" alt="dev">
 				</figure>
-                <p class="barlow">4) Write a six-line conversation about the following topic: “Request made to a colleague at work”</p>
+                <div class="clear"></div>
+                <h5 class="barlow" style="margin-top:16px">4 - Write a six-line conversation about the following topic: “Request made to a colleague at work”</h5>
                 <form id="unidade23grammar205" class="metade" action="post">
 
-                    <textarea name="grammar205-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
+                    <textarea name="grammar205-1" placeholder="Responda aqui"></textarea>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -130,7 +131,6 @@
                     <input type="hidden" name="atividade_id" value="205">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
 			</div>
 		</div>
     </main>

@@ -18,28 +18,27 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 23/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
-
-				<p>TO KISS / somebody / cheeks / hands</p>
-				<p>TO PICK / the nose / on somebody / up somebody</p>
-				<p>TO READ / a book / the newspaper / a magazine / a comic book / a blog</p>
-
+				<div class="espacamento">
+					<p><b>TO KISS </b>/ somebody / cheeks / hands</p>
+					<p><b>TO PICK </b>/ the nose / on somebody / up somebody</p>
+					<p><b>TO READ </b>/ a book / the newspaper / a magazine / a comic book / a blog</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 23/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 
-				<ul class="lista-inline">
-					<li><b>STUFF</b></li>
-					<li><b>MATTER</b></li>
-					<li><b>REARRANGE</b></li>
-					<li><b>FITS</b></li>
-					<li><b>CORNER</b></li>
-					<li><b>CHANGE</b></li>
-					<li><b>PLUG</b></li>
-					<li><b>SET UP</li>
-					<li><b>FIND OUT</b></li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>STUFF</b></p></li>
+					<li><p><b>MATTER</b></p></li>
+					<li><p><b>REARRANGE</b></p></li>
+					<li><p><b>FITS</b></p></li>
+					<li><p><b>CORNER</b></p></li>
+					<li><p><b>CHANGE</b></p></li>
+					<li><p><b>PLUG</b></p></li>
+					<li><p><b>SET UP</p></li>
+					<li><p><b>FIND OUT</b></p></li>
 				</ul>
-
 			</div>
 		</div>
 	</main>
