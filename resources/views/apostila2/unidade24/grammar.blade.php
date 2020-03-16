@@ -21,11 +21,14 @@
                 <div class="clear"></div>
 
                 <h5 class="barlow" style="margin-top: 16px">A - TO BE ABLE TO</h5>
-
+                <p>
+                    <b>To be able to</b> is used to express capacity or ability. While Can and Could are used only in
+                    the present and past, <b>To be able</b> to may be used <b>in the past, present and future.</b> Pay attention to the examples below.
+                </p>
                 <table class="metade center-align">
                     <tr>
-                        <td><p>Past</p></td>
-                        <td><p>Present</p></td>
+                        <td><h5 class="barlow">Past</h5></td>
+                        <td><h5 class="barlow">Present</h5></td>
                     </tr>
                     <tr>
                         <td><p>I <b>was able to draw</b> super heroes.</td>
@@ -43,10 +46,10 @@
 
                 <table class="metade center-align">
                     <tr>
-                        <td><p>Present</p></td>
+                        <td><h5 class="barlow">Present</h5></td>
                     </tr>
                     <tr>
-                        <td><p>she <b>will be able to speak</b> 4 languages.</td>
+                        <td><p>She <b>will be able to speak</b> 4 languages.</td>
                     </tr>
                     <tr>
                         <td><p>She <b>won’t be able to speak</b> 4 languages.</td>
@@ -56,7 +59,7 @@
                     </tr>
                 </table>
 
-                <p class="barlow">1) Rewrite the sentences using BE ABLE TO:</p>
+                <h5 class="barlow">1 - Rewrite the sentences using BE ABLE TO:</h5>
                 <form id="unidade24grammar208" class="metade" action="post">
                     <p>1. I can be here tomorrow at ten o’clock. (future)
                         <input type="text" name="grammar208-1" placeholder="Responda aqui" class="full left-align" required>
@@ -97,18 +100,18 @@
                 </form>
 
                 <form id="unidade24grammar209"  action="post">
-                    <p class="barlow">2) Use the correct tense of BE ABLE TO to complete the sentences below.</p>
-                    <p>1.<input type="text" name="grammar209-1" placeholder="Responda aqui" required>(they/play) tennis well?</p>
-                    <p>2.<input type="text" name="grammar209-2" placeholder="Responda aqui" required>(not/understand) the question yesterday.</p>
-                    <p>3.Fred<input type="text" name="grammar209-3" placeholder="Responda aqui" required>(speak) Russian when he was six years old.</p>
-                    <p>4.When<input type="text" name="grammar209-4" placeholder="Responda aqui" required>(you/come) tomorrow?</p>
-                    <p>5.Unfortunately, they<input type="text" name="grammar209-5" placeholder="Responda aqui" required> (not, get) the bread this morning.</p>
-                    <p>6.I<input type="text" name="grammar209-6" placeholder="Responda aqui" required>(not / play) golf last Thursday.</p>
-                    <p>7.<input type="text" name="grammar209-7" placeholder="Responda aqui" required>you / speak) Japanese?</p>
-                    <p>8.<input type="text" name="grammar209-8" placeholder="Responda aqui" required>(he / come) to the party next weekend. </p>
-                    <p>9.They<input type="text" name="grammar209-9" placeholder="Responda aqui" required>(get) tickets to the Rolling Stones concert last week. </p>
-                    <p>10.How<input type="text" name="grammar209-10" placeholder="Responda aqui" required>(you / convince) him to come to the exhibition last week?</p>
-                    <p>11.She<input type="text" name="grammar209-11" placeholder="Responda aqui" required>(not, enjoy) the concert last night because of the noise.</p>
+                    <h5 class="barlow">2 - Use the correct tense of BE ABLE TO to complete the sentences below.</h5>
+                    <p>1. <input type="text" name="grammar209-1" placeholder="Responda aqui" required>(they/play) tennis well?</p>
+                    <p>2. <input type="text" name="grammar209-2" placeholder="Responda aqui" required>(not/understand) the question yesterday.</p>
+                    <p>3. Fred<input type="text" name="grammar209-3" placeholder="Responda aqui" required>(speak) Russian when he was six years old.</p>
+                    <p>4. When<input type="text" name="grammar209-4" placeholder="Responda aqui" required>(you/come) tomorrow?</p>
+                    <p>5. Unfortunately, they<input type="text" name="grammar209-5" placeholder="Responda aqui" required> (not, get) the bread this morning.</p>
+                    <p>6. I<input type="text" name="grammar209-6" placeholder="Responda aqui" required>(not / play) golf last Thursday.</p>
+                    <p>7. <input type="text" name="grammar209-7" placeholder="Responda aqui" required>you / speak) Japanese?</p>
+                    <p>8. <input type="text" name="grammar209-8" placeholder="Responda aqui" required>(he / come) to the party next weekend. </p>
+                    <p>9. They<input type="text" name="grammar209-9" placeholder="Responda aqui" required>(get) tickets to the Rolling Stones concert last week. </p>
+                    <p>10. How<input type="text" name="grammar209-10" placeholder="Responda aqui" required>(you / convince) him to come to the exhibition last week?</p>
+                    <p>11. She<input type="text" name="grammar209-11" placeholder="Responda aqui" required>(not, enjoy) the concert last night because of the noise.</p>
 
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -121,8 +124,8 @@
                 <figure>
 					<img src="{{ asset('assets/img/dominating/unit24/grammar.jpg') }}" alt="leitura">
                 </figure>
-                
-                <p class="barlow">3) Prepare 5 questions to interview one of the professionals below . Use TO BE ABLE TO . If possible, in the past, present and future.</p>
+                <div class="clear"></div>
+                <h5 class="barlow" style="margin-top:16px">3 - Prepare 5 questions to interview one of the professionals below . Use TO BE ABLE TO . If possible, in the past, present and future.</h5>
                 <form id="unidade24grammar210" class="metade" action="post">
                     <p>Web designer</p>
                     <p>Illustrator</p>

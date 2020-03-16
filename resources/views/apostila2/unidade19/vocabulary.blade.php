@@ -18,34 +18,28 @@
 				</audio>
 				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<table class="espacamento">
-					<tr>
-						<td><p>TO BEGIN / with / by doing something</p></td>
-						<td><p>TO PREPARE/ a meal / a report</p></td>
-					</tr>
-					<tr>
-						<td><p>TO START / a relationship / a game / talking</p></td>
-						<td><p>TO STOP /dancing / smoking</p></td>
-					</tr>
-					<tr>
-						<td><p>TO TRAVEL/ alone / by yourself / with friends</p></td>
-						<td><p>TO LIVE / alone / by yourself</p></td>
-					</tr>
-				</table>
+				<div class="espacamento">
+					<p><b>TO BEGIN </b>/ with / by doing something</p>
+					<p><b>TO PREPARE </b>/ a meal / a report</p>
+					<p><b>TO START </b>/ a relationship / a game / talking</p>
+					<p><b>TO STOP </b>/dancing / smoking</p>
+					<p><b>TO TRAVEL </b>/ alone / by yourself / with friends</p>
+					<p><b>TO LIVE </b>/ alone / by yourself</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 19/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<ul class="lista-inline">
-					<li><b>See</b></li>
-					<li><b>Worldwide</b></li>
-					<li><b>Kidding</b></li>
-					<li><b>Terrific</b></li>
-					<li><b>So far</b></li>
-					<li><b>scratch</b></li>
-					<li><b>Release</b></li>
-					<li><b>Astonished</b></li>
-					<li><b>Chance</b></li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>See</b></p></li>
+					<li><p><b>Worldwide</b></p></li>
+					<li><p><b>Kidding</b></p></li>
+					<li><p><b>Terrific</b></p></li>
+					<li><p><b>So far</b></p></li>
+					<li><p><b>scratch</b></p></li>
+					<li><p><b>Release</b></p></li>
+					<li><p><b>Astonished</b></p></li>
+					<li><p><b>Chance</b></p></li>
 				</ul>
 			</div>
 		</div>

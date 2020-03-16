@@ -19,10 +19,13 @@
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form class="full" id="unidade15listening430" method="post">
-                    <p>The last <input type="text" placeholder="responda aqui !" name="listening430-1" class="inputmedio left-align" required>was extremely <input type="text" placeholder="responda aqui !" name="listening430-2" class="inputmedio left-align" required>. Unfortunately, he had to<input type="text" placeholder="responda aqui !" name="listening430-3" class="inputmedio left-align" required> to
-                    another city. He’s going to work again for <input type="text" placeholder="responda aqui !" name="listening430-4" class="inputmedio left-align" required>. He worked there before and <input type="text" placeholder="responda aqui !" name="listening430-5" class="inputmedio left-align" required>
-                    part of an event they organized named Dream design <input type="text" placeholder="responda aqui !" name="listening430-6" class="inputmedio left-align" required>. He said it was very
-                    <input type="text" placeholder="responda aqui !" name="listening430-7" class="inputmedio left-align" required>. A lot of amazing designers together.</p>
+                    <p>
+                        The last <input type="text" placeholder="Responda aqui" name="listening430-1" class="inputmedio left-align" required>was extremely <input type="text" placeholder="Responda aqui" name="listening430-2" class="inputmedio left-align" required>. Unfortunately, he had to<input type="text" placeholder="Responda aqui" name="listening430-3" class="inputmedio left-align" required> to
+                        another city. He’s going to work again for <input type="text" placeholder="Responda aqui" name="listening430-4" class="inputmedio left-align" required>. He worked there before and <input type="text" placeholder="Responda aqui" name="listening430-5" class="inputmedio left-align" required>
+                        part of an event they organized named Dream design <input type="text" placeholder="Responda aqui" name="listening430-6" class="inputmedio left-align" required>. He said it was very
+                        <input type="text" placeholder="Responda aqui" name="listening430-7" class="inputmedio left-align" required>. A lot of amazing designers together.
+                    </p>
+                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="15">

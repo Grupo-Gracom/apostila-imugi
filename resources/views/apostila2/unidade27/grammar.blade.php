@@ -42,7 +42,7 @@
                         </tr>
                     </table> 
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">1 - Complete the exercises with an appropriate form of HAVE TO in affirmative, negative or interrogative.</h5>               
                     <form id="unidade27grammar225" method="post">
                         <div class="metade">

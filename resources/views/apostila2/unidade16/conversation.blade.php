@@ -30,8 +30,8 @@
 				this Comic Con edition, specially after his workshop. I got extremely impressed with his
 				knowledge, skills and story. I bought some books he recommended and signed up for
 				some sites he recommended.</p>
-				<p><b>Gleen: </b>And you John?
-				John: Well, It was my first time in an event this big. I visited many stands and got
+				<p><b>Gleen: </b>And you John?</p>
+				<p><b>John: </b>Well, It was my first time in an event this big. I visited many stands and got
 				shocked with the amount of nice things to see. In my opinion 4 days is too few to see
 				everything. The most important thing for me was the immersion in this new huge field.
 				I felt the vibe and understood the needs of the market. It’s going to be great for my

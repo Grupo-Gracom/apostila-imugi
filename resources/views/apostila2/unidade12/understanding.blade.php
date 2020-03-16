@@ -15,23 +15,23 @@
                 <form class="metade" id="unidade12understanding156" method="post">
                     <p>
                         1 - What’s gonna happen 30 days from the date of the class?<br>
-                        <input type="text" name="understanding156-1" class="full left-align" required>
+                        <input type="text" name="understanding156-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         2 - What does Gleen think it’s gonna happen in the event?<br>
-                        <input type="text" name="understanding156-2" class="full left-align" required>
+                        <input type="text" name="understanding156-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         3 - Is Akira going to participate of the event? If so, for how many days?<br>
-                        <input type="text" name="understanding156-3" class="full left-align" required>
+                        <input type="text" name="understanding156-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         4 - Who’s gonna be the special guest for this event?<br>
-                        <input type="text" name="understanding156-4" class="full left-align" required>
+                        <input type="text" name="understanding156-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         5 - Give us some information about the guest?<br>
-                        <input type="text" name="understanding156-5" class="full left-align" required>
+                        <input type="text" name="understanding156-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

@@ -17,9 +17,9 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 3/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <p>There are 6 <b>STOP CONSIONANTS</b> in English: <b>P,T,K,B,D,G.</b></p>
+                <p style="margin-top:16px">There are 6 <b>STOP CONSIONANTS</b> in English: <b>P,T,K,B,D,G.</b></p>
 
-                <ul class="lista-inline">
+                <ul class="lista-inline" style="margin-top:32px">
                     <li><p>PHOTO SHO<b><u>P</u></b></p></li>
                     <li><p>NO<b><u>T</u></b></p></li>
                     <li><p>SPEN<b><u>T</u></b></p></li>

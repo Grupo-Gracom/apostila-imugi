@@ -17,29 +17,25 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 27/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO EXPLAIN / a problem / a situation / yourself</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO LISTEN / to music / a conversation / a friend / to somebody / a podcast</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO PAY / the bills / attention / a visit</b></ol>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO EXPLAIN </b>/ a problem / a situation / yourself</p>
+					<p><b>TO LISTEN </b>/ to music / a conversation / a friend / to somebody / a podcast</p>
+					<p><b>TO PAY </b>/ the bills / attention / a visit</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 27/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>By the way</b></li>
-						<li><b>Ankle</b></li>
-						<li><b>Healed</b></li>
-						<li><b>Avoid</b></li>
-						<li><b>Standing</b></li>
-						<li><b>Prevent</b></li>
-						<li><b>Injuries</b></li>
-						<li><b>Go on</b></li>
+				<div style="margin-top: 16px">
+					<ul class="lista-inline upper">
+						<li><p><b>By the way</b></p></li>
+						<li><p><b>Ankle</b></p></li>
+						<li><p><b>Healed</b></p></li>
+						<li><p><b>Avoid</b></p></li>
+						<li><p><b>Standing</b></p></li>
+						<li><p><b>Prevent</b></p></li>
+						<li><p><b>Injuries</b></p></li>
+						<li><p><b>Go on</b></p></li>
 					</ul>
 				</div>
 			</div>

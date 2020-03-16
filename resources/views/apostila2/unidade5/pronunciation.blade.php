@@ -17,9 +17,10 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 5/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <p><b>short a /æ/</b></p>
+                
 
                 <ul class="lista-inline">
+                    <li><p><b>short a /æ/</b></p></li>
                     <li><p>LAST</p></li>
                     <li><p>APPLE</p></li>
                     <li><p>ADD</p></li>
@@ -28,7 +29,7 @@
                     <li><p>CLASS</p></li>
                 </ul>
 
-                <P>You c<b>a</b>n <b>a</b>dd a picture of an <b>a</b>pple in your l<b>a</b>st cl<b>a</b>ss.</P>
+                <p style="margin-top:32px">You c<b>a</b>n <b>a</b>dd a picture of an <b>a</b>pple in your l<b>a</b>st cl<b>a</b>ss.</p>
 
 			</div>
 		</div>

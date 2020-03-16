@@ -17,16 +17,16 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 14/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-				<ul class="lista-inline">
-                    <li><b class="upper" style="color:green;">other u /ʊ/</b></li>
-                    <li><b class="upper">Look</b></li>
-                    <li><b class="upper">Took</b></li>
-                    <li><b class="upper">Put</b></li>
-                    <li><b class="upper">Foot</b></li>
-                    <li><b class="upper">Full</b></li>
-                    <li><b class="upper">Cookie</b></li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+                    <li><p><b>other u /ʊ/</b></p></li>
+                    <li><p>Look</p></li>
+                    <li><p>Took</p></li>
+                    <li><p>Put</p></li>
+                    <li><p>Foot</p></li>
+                    <li><p>Full</p></li>
+                    <li><p>Cookie</p></li>
                 </ul>
-                <p>Take a l<b>oo</b>k. He t<b>oo</b>k the f<b>u</b>ll pack of c<b>oo</b>kie and p<b>u</b>t near his f<b>oo</b>t.</p>
+                <p style="margin-top:32px">Take a l<b><u>oo</u></b>k. He t<b><u>oo</u></b>k the f<b><u>u</u></b>ll pack of c<b><u>oo</u></b>kie and p<b><u>u</u></b>t near his f<b><u>oo</u></b>t.</p>
 			</div>
 		</div>
     </main>

@@ -19,16 +19,22 @@
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade11listening151" method="post">
-                    <p>I Look at her and I think, I know<input type="text" name="listening151-1" required> <input type="text" name="listening151-2" required> to be better than me,<input type="text" name="listening151-3" required>,</p>
-                    <p>smarter, <input type="text" name="listening151-4" required>  <input type="text" name="listening151-5" required>, less imperfect. But, <input type="text" name="listening151-6" required> <input type="text" name="listening151-7" required> be kind? Will She be</p>
-                    <p>lovable? <input type="text" name="listening151-8" required>, <input type="text" name="listening151-9" required> and philanthropic. The kind of <input type="text" name="listening151-10" required> </p>
-                    <p>I would<input type="text" name="listening151-11" required> to be remembered for.</p>
+                    <p>
+                        I Look at her and I think, I know<input type="text" name="listening151-1" placeholder="Responda aqui" required> to be better than me,<input type="text" name="listening151-2" placeholder="Responda aqui" required>,
+                        smarter, <input type="text" name="listening151-3" placeholder="Responda aqui" required>, less imperfect. But, <input type="text" name="listening151-4" placeholder="Responda aqui" required> be kind? Will She be
+                        lovable? <input type="text" name="listening151-5" placeholder="Responda aqui" required>, <input type="text" name="listening151-6" placeholder="Responda aqui" required> and philanthropic. The kind of <input type="text" name="listening151-7" placeholder="Responda aqui" required> 
+                        I would<input type="text" name="listening151-8" placeholder="Responda aqui" required> to be remembered for.
+                    </p>
+
+                    <div class="clear"></div>
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="11">
                     <input type="hidden" name="atividade_id" value="151">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
+                <iframe style="margin-top:16px" width="640" height="360" src="https://www.youtube.com/embed/ZBDablzQ9ts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
     </main>

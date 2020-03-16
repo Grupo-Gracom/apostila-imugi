@@ -17,29 +17,27 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 26/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade26listening223" method="post">
-                        <p>
-                            Well, if you <input type="text" name="listening223-1"  placeholder="Responda aqui" required>
-                            to visit the USA the first thing you <input type="text" name="listening223-2"  placeholder="Responda aqui" required> do is to get your
-                            Visa. I recommend you to find <input type="text" name="listening223-3"  placeholder="Responda aqui" required> to fill out the forms in the immigration site.
-                            You must <input type="text" name="listening223-4"  placeholder="Responda aqui" required> attention to every single detail they
-                            <input type="text" name="listening223-5"  placeholder="Responda aqui" required> you. Any mistake can
-                            cause <input type="text" name="listening223-6"  placeholder="Responda aqui" required> . Another important
-                            <input type="text" name="listening223-7"  placeholder="Responda aqui" required> is that you must prove you have
-                            enough funds to <input type="text" name="listening223-8"  placeholder="Responda aqui" required> you while you are there otherwise, they won’t allow to
-                            <input type="text" name="listening223-9"  placeholder="Responda aqui" required> the country.
-                        </p>
+                <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade26listening223" method="post" style="margin-top:16px">
+                    <p>
+                        Well, if you <input type="text" name="listening223-1"  placeholder="Responda aqui" required>
+                        to visit the USA the first thing you <input type="text" name="listening223-2"  placeholder="Responda aqui" required> do is to get your
+                        Visa. I recommend you to find <input type="text" name="listening223-3"  placeholder="Responda aqui" required> to fill out the forms in the immigration site.
+                        You must <input type="text" name="listening223-4"  placeholder="Responda aqui" required> attention to every single detail they
+                        <input type="text" name="listening223-5"  placeholder="Responda aqui" required> you. Any mistake can
+                        cause <input type="text" name="listening223-6"  placeholder="Responda aqui" required> . Another important
+                        <input type="text" name="listening223-7"  placeholder="Responda aqui" required> is that you must prove you have
+                        enough funds to <input type="text" name="listening223-8"  placeholder="Responda aqui" required> you while you are there otherwise, they won’t allow to
+                        <input type="text" name="listening223-9"  placeholder="Responda aqui" required> the country.
+                    </p>
 
 
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="26">
-                        <input type="hidden" name="atividade_id" value="223">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="26">
+                    <input type="hidden" name="atividade_id" value="223">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
 
                 <figure class="metade esquerda">
                     <img src="{{ asset('assets/img/dominating/unit26/listening1.jpg') }}" alt="ctps">

@@ -17,29 +17,25 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO COME / here / home / to class / by car </b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO CONTROL / the situation / the game / the anxiety </b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO COOK / well / Italian – French – Chinese – vegetarian food / sea food</b></ol>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO COME </b>/ here / home / to class / by car </p>
+					<p><b>TO CONTROL </b>/ the situation / the game / the anxiety </p>
+					<p><b>TO COOK </b>/ well / Italian – French – Chinese – vegetarian food / sea food</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>Similar</b></li>
-						<li><b>Readers</b></li>
-						<li><b>Hired</b></li>
-						<li><b>Find</b></li>
-						<li><b>Regarding</b></li>
-						<li><b>Gotta</b></li>
-						<li><b>Otherwise</b></li>
-						<li><b>Give up</b></li>
+				<div style="margin-top: 16px">
+					<ul class="lista-inline upper" style="margin-top:16px">
+						<li><p><b>Similar</b></p></li>
+						<li><p><b>Readers</b></p></li>
+						<li><p><b>Hired</b></p></li>
+						<li><p><b>Find</b></p></li>
+						<li><p><b>Regarding</b></p></li>
+						<li><p><b>Gotta</b></p></li>
+						<li><p><b>Otherwise</b></p></li>
+						<li><p><b>Give up</b></p></li>
 					</ul>
 				</div>
 			</div>

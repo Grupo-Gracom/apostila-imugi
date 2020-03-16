@@ -18,12 +18,12 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 25/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Hello my dear students. How are things? I hope everything is ok with you guys.
+				<p style="margin-top:16px"><b>Gleen:</b> Hello my dear students. How are things? I hope everything is ok with you guys.
 								Before we start the class, I’d like to agree something with you. Next week I’ll have an
 								appointment with my doctor to see my ankle. Just to check if everything is ok. Because
 								of that, I may arrive a bit late for the class ok.</p>
 				<p><b>Students:</b> No problem teacher. We can start the class with the exercises we have to do
-								and when you arrive, you go on with the activities</p>
+								and when you arrive, you go on with the activities.</p>
 				<p><b>Gleen:</b>  I might be absent, but Mr. Antony is aware of everything and if necessary he’ll take over the class ok.</p>
 				<p><b>Students:</b> ok teacher, don’t worry. Everything is gonna be ok. (to be continued…)</p>
 

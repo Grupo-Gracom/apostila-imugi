@@ -29,7 +29,7 @@
                             <td><p> She <b>must be tired</b>. She worked till late.</p></td>
                         </tr>
                         <tr>
-                            <td><p><b>You <b>must be kidding</b>.</b></p></td>
+                            <td><p>You <b>must be kidding</b>.</p></td>
                         </tr>
                         <tr>
                             <td><h5 class="barlow">Obligation - MUST</h5></td>
@@ -51,7 +51,7 @@
                         </tr>
                     </table> 
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">1 - Complete with MUST or MUSTN’T.</h5>               
                     <form id="unidade26grammar220" method="post">
                         <div class="metade">

@@ -18,28 +18,27 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 24/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
-
-				<p>TO RUN / miles / along the beach / a class / a project / a software</p>
-				<p>TO SLEEP / calmly / well </p>
-				<p>TO TALK / to somebody / a lot / for hours</p>
-
+				<div class="espacamento">
+					<p><b>TO RUN </b>/ miles / along the beach / a class / a project / a software</p>
+					<p><b>TO SLEEP </b>/ calmly / well </p>
+					<p><b>TO TALK </b>/ to somebody / a lot / for hours</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 24/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 
-				<ul class="lista-inline">
-					<li><b>EVERYTHING</b></li>
-					<li><b>DRAWER</b></li>
-					<li><b>CLOSER</b></li>
-					<li><b>ANYWAYS</b></li>
-					<li><b>ALMOST</b></li>
-					<li><b>DONE</b></li>
-					<li><b>INSTALLING</b></li>
-					<li><b>LOCKED</li>
-					<li><b>SET UP</b></li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>EVERYTHING</p></b></li>
+					<li><p><b>DRAWER</p></b></li>
+					<li><p><b>CLOSER</p></b></li>
+					<li><p><b>ANYWAYS</p></b></li>
+					<li><p><b>ALMOST</p></b></li>
+					<li><p><b>DONE</p></b></li>
+					<li><p><b>INSTALLING</p></b></li>
+					<li><p><b>LOCKED</p></li>
+					<li><p><b>SET UP</p></b></li>
 				</ul>
-
 			</div>
 		</div>
 	</main>

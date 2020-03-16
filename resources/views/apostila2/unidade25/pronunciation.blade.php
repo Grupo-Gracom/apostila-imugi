@@ -17,9 +17,10 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 25/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <p><b>air sound /ɛr/</b></p>
+                
 
-                <ul class="lista-inline">
+                <ul class="lista-inline upper" style="margin-top:16px">
+                    <li><p><b>air sound /ɛr/</b></p></li>
                     <li><p>SECRETARY</p></li>
                     <li><p>PREPARE</p></li>
                     <li><p>CAREFUL</p></li>
@@ -28,7 +29,7 @@
                     <li><p>NECESSARY</p></li>
                 </ul>
 
-                <p>The secret<b>ar</b>y was v<b>er</b>y c<b>ar</b>eful to prep<b>ar</b>e what is necess<b>ar</b>y for the general meeting of her <b>ar</b>ea.</p>
+                <p style="margin-top:32px">The secret<b><u>ar</u></b>y was v<b><u>er</u></b>y c<b><u>ar</u></b>eful to prep<b><u>ar</u></b>e what is necess<b><u>ar</u></b>y for the general meeting of her <b><u>ar</u></b>ea.</p>
 
 			</div>
 		</div>

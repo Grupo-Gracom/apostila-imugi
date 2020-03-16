@@ -17,18 +17,18 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 24/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <p><b>or sound /ɔr/</b></p>
 
-                <ul class="lista-inline">
-                    <li><p>SUPPORT</p></li>
-                    <li><p>ORDER</p></li>
-                    <li><p>ORGANIZE</p></li>
-                    <li><p>IMPORTANT</p></li>
-                    <li><p>STORE</p></li>
-                    <li><p>BEFORE</p></li>
+                <ul class="lista-inline upper" style="margin-top:16px">
+                    <li><p><b>or sound /ɔr/</b></p></li>
+                    <li><p>SUPPORT</b></p></li>
+                    <li><p>ORDER</b></p></li>
+                    <li><p>ORGANIZE</b></p></li>
+                    <li><p>IMPORTANT</b></p></li>
+                    <li><p>STORE</b></p></li>
+                    <li><p>BEFORE</b></p></li>
                 </ul>
 
-                <p>I need some supp<b>or</b>t to <b>or</b>ganize the imp<b>or</b>tant <b>or</b>ders bef<b>or</b>e the st<b>or</b>e opens.</p>
+                <p style="margin-top:32px">I need some supp<b><u>or</u></b>t to <b><u>or</u></b>ganize the imp<b><u>or</u></b>tant <b><u>or</u></b>ders bef<b><u>or</u></b>e the st<b><u>or</u></b>e opens.</p>
 
 			</div>
 		</div>

@@ -19,13 +19,15 @@
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade20listening188" method="post">
-                    <p>John wants to say <input type="text" placeholder="responda aqui !" name="listening188-1" class="inputpequeno left-align" required>
-                    about his <input type="text" placeholder="responda aqui !" name="listening188-2" class="inputpequeno left-align" required>.
-                    He’s <input type="text" placeholder="responda aqui !" name="listening188-3" class="inputpequeno left-align" required>
-                    to comic books. He is planning to buy some more in his
-                    <input type="text" placeholder="responda aqui !" name="listening188-4" class="inputpequeno left-align" required>
-                    trip to NY. He always <input type="text" placeholder="responda aqui !" name="listening188-5" class="inputpequeno left-align" required>
-                    some in his trips <input type="text" placeholder="responda aqui !" name="listening188-6" class="inputpequeno left-align" required>.</p>
+                    <p>
+                        John wants to say <input type="text" placeholder="Responda aqui" name="listening188-1"  required>
+                        about his <input type="text" placeholder="Responda aqui" name="listening188-2"  required>.
+                        He’s <input type="text" placeholder="Responda aqui" name="listening188-3"  required>
+                        to comic books. He is planning to buy some more in his
+                        <input type="text" placeholder="Responda aqui" name="listening188-4"  required>
+                        trip to NY. He always <input type="text" placeholder="Responda aqui" name="listening188-5"  required>
+                        some in his trips <input type="text" placeholder="Responda aqui" name="listening188-6"  required>.
+                    </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="20">

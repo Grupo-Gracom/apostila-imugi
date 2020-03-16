@@ -21,15 +21,15 @@
                 <form class="metade" id="unidade17listening176" method="post">
                     <p>
                         1 - Who is getting excited?
-                        <input type="text" placeholder="responda aqui !" name="listening176-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="listening176-1" class="full left-align" required>
                     </p>
                     <p>
                         2 - What called their attention.
-                        <input type="text" placeholder="responda aqui !" name="listening176-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="listening176-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - How many companies are involved in the competition.
-                        <input type="text" placeholder="responda aqui !" name="listening176-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="listening176-3" class="full left-align" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

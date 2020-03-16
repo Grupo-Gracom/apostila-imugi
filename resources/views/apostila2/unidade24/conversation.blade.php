@@ -18,7 +18,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 24/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> How’s everything guys? Is everything ok with the new special organization of the
+				<p style="margin-top:16px"><b>Gleen:</b> How’s everything guys? Is everything ok with the new special organization of the
 								class? Laura, were you able to set up the computer for us to use.</p>
 				<p><b>Akira:</b> Teacher, I liked the position of the table but we won’t be able to get closer to the
 								white board from the right side of the table.</p>
@@ -27,7 +27,6 @@
 								yesterday because the Installing CD was locked in the drawer. But don’t worry, I’ll be able
 								to finish everything up to the end of the class.</p>
 				<p><b>Gleen:</b> Ok guys, thanks for your help</p>
-
 
 				<figure>
 					<img src="{{ asset('assets/img/dominating/unit24/conversation.jpg') }}" alt="computação">

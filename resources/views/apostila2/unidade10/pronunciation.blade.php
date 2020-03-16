@@ -17,17 +17,15 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 10/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>long o /oʊ/</b></li>
-					<li>Go</li>
-					<li>Slow</li>
-					<li>So</li>
-					<li>Those Post</li>
-					<li>Drove moment</li>
+				<ul class="lista-inline" style="margin-top:16px">
+					<li><p><b>long o /oʊ/</b></p></li>
+					<li><p>Go</p></li>
+					<li><p>Slow</p></li>
+					<li><p>So</p></li>
+					<li><p>Those Post</p></li>
+					<li><p>Drove moment</p></li>
 				</ul>
-				<ul class="lista-inline">
-					<ol>Don’t g<b>o</b> too sl<b>o</b>w. The m<b>o</b>ment you called, he dr<b>o</b>ve to the p<b>o</b>st. </ol>
-				</ul>
+				<p class="lista-inline" style="margin-top:32px">Don’t g<b><u>o</u></b> too sl<b><u>o</u></b>w. The m<b><u>o</u></b>ment you called, he dr<b><u>o</u></b>ve to the p<b><u>o</u></b>st. </ol>
 				<div class="clear"></div>
 			</div>
 		</div>

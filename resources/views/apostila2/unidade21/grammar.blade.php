@@ -24,9 +24,9 @@
 
                 <table class="metade left-align">
                     <tr>
-                        <td><p>Affirmative</p></td>
-                        <td><p>Negative</p></td>
-                        <td><p>Interrogative</p></td>
+                        <td><h5 class="barlow">Affirmative</h5></td>
+                        <td><h5 class="barlow">Negative</h5></td>
+                        <td><h5 class="barlow">Interrogative</h5></td>
                     </tr>
                     <tr>
                         <td><p><b>I used to play</b> super Mario</p></td>
@@ -45,12 +45,14 @@
                     </tr>
                 </table>
 
-                <p><b>EXERCISES</b></p>
-                <p class="barlow">1) Rewrite the sentences using USED TO:</p>
+                <h5 style="margin-top:16px"><b>EXERCISES</b></h5>
+                <h5 class="barlow">1 -  Rewrite the sentences using USED TO:</h5>
                 <form id="unidade21grammar191" action="post" class="metade">
-                    <p>1. When she was a child, she lived in a small village.
-                        <input type="text" name="grammar191-1" placeholder="Responda aqui" required>When she was a child, she used to live in a small village.
-                        <input type="text" name="grammar191-2" placeholder="Responda aqui" required></p>
+                    <p>
+                        1. When she was a child, she lived in a small village.
+                        <input type="text" name="grammar191-1" placeholder="Responda aqui" required> When she was a child, she used to live in a small village.
+                        <input type="text" name="grammar191-2" placeholder="Responda aqui" required>
+                    </p>
                     <p>2. When Gleen was a young man, he enjoyed playing packman.<input type="text" name="grammar191-3" placeholder="Responda aqui"  class="full left-align" required></p>
                     <p>3. In the past, gamers programmed using C++.<input type="text" name="grammar191-4" placeholder="Responda aqui"  class="full left-align" required></p>
                     <p>4. Before I learned to draw, I read a lot of comic books.<input type="text" name="grammar191-5" placeholder="Responda aqui"  class="full left-align" required></p>
@@ -68,16 +70,16 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">2) Complete the text about John when she was a child using USED TO / DIDN’T
-                                    USE TO and the verbs in brackets:</p>
+                <h5 class="barlow">2 - Complete the text about John when she was a child using USED TO / DIDN’T USE TO and the verbs in brackets:</h5>
                 <form id="unidade21grammar192" action="post" >
-
-                    <p>I <b>didn’t use to have</b> (not have) many friends when I was a child so I
-                    <input type="text" name="grammar192-1" placeholder="Responda aqui" required>(play) with my toys all day. I
-                    <input type="text" name="grammar192-2" placeholder="Responda aqui" required>(worry) about things a lot but I
-                    <input type="text" name="grammar192-3" placeholder="Responda aqui" required>(not bite) my nails or suck my thumb. I remember that I
-                    <input type="text" name="grammar192-4" placeholder="Responda aqui" required>(cry) a lot and I
-                    <input type="text" name="grammar192-5" placeholder="Responda aqui" required>(be) really afraid of the dark.</p>
+                    <p>
+                        I <b>didn’t use to have</b> (not have) many friends when I was a child so I
+                        <input type="text" name="grammar192-1" placeholder="Responda aqui" required>(play) with my toys all day. I
+                        <input type="text" name="grammar192-2" placeholder="Responda aqui" required>(worry) about things a lot but I
+                        <input type="text" name="grammar192-3" placeholder="Responda aqui" required>(not bite) my nails or suck my thumb. I remember that I
+                        <input type="text" name="grammar192-4" placeholder="Responda aqui" required>(cry) a lot and I
+                        <input type="text" name="grammar192-5" placeholder="Responda aqui" required>(be) really afraid of the dark.
+                    </p>
 
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -87,17 +89,19 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">3) Complete the text using USED TO and the verbs in the box:</p>
+                <h5 class="barlow">3 - Complete the text using USED TO and the verbs in the box:</h5>
                 <form id="unidade21grammar193" action="post" >
-
-                    <p>School has changed since I was a student. We used to wear school uniform and I didn’t like that very much. We
-                    <input type="text" name="grammar193-1" placeholder="Responda aqui" required>a lot of lessons and most of them
-                    were difficult. We
-                    <input type="text" name="grammar193-2" placeholder="Responda aqui" required>homework every day. We
-                    <input type="text" name="grammar193-3" placeholder="Responda aqui" required>lots of books and we
-                    <input type="text" name="grammar193-4" placeholder="Responda aqui" required>everything by heart. And our teachers
-                    <input type="text" name="grammar193-5" placeholder="Responda aqui" required>us a lot of tests and examinations. Some of them were
-                    impossible! I think school is easier now than it was 50 years ago.</p>
+                    <p class="bordaVerde">do give have learn read wear</p>
+                    <p>
+                        School has changed since I was a student. We used to wear school uniform and I didn’t like that very much. We
+                        <input type="text" name="grammar193-1" placeholder="Responda aqui" required>a lot of lessons and most of them
+                        were difficult. We
+                        <input type="text" name="grammar193-2" placeholder="Responda aqui" required>homework every day. We
+                        <input type="text" name="grammar193-3" placeholder="Responda aqui" required>lots of books and we
+                        <input type="text" name="grammar193-4" placeholder="Responda aqui" required>everything by heart. And our teachers
+                        <input type="text" name="grammar193-5" placeholder="Responda aqui" required>us a lot of tests and examinations. Some of them were
+                        impossible! I think school is easier now than it was 50 years ago.
+                    </p>
 
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -108,12 +112,11 @@
                 </form>
                 <figure>
 					<img src="{{ asset('assets/img/dominating/unit21/grammar.jpg') }}" alt="Garoto triste">
-				</figure>
-                <form id="unidade21grammar194"  action="post">
-                    <p class="barlow">4) Prepare a narration about your childhood. Be prepared to present to your classmates.</p>
-                    <p>
-                        <input type="text" name="grammar194-1" placeholder="Responda aqui" class="full left-align" required>
-                    </p>
+                </figure>
+                <h5 class="barlow">4 - Prepare a narration about your childhood. Be prepared to present to your classmates.</h5>
+                <form id="unidade21grammar194"  action="post" style="margin-top:16px">
+                    <textarea name="grammar194-1" class="metade left-align" placeholder="Responda aqui"  required></textarea>
+
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -190,14 +193,7 @@
         $("#unidade21grammar194").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade21grammar194 input[type="text"]').each(function(index){
-                if(($('#unidade21grammar194 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
+            var respostas = '{"'+$('#unidade21grammar194 textarea').attr("name")+'":"'+$('#unidade21grammar194 textarea').val()+'"}';
             if($('#unidade21grammar194 input[name="resposta_id"').val() != 0){
                 atualizarAtividade($('#unidade21grammar194'), respostas);
             }else{
@@ -222,11 +218,14 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
+                        $('#unidade21grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade21grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade21grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade21grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
                     $('#unidade21grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade21grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+
                 }
             });
         }

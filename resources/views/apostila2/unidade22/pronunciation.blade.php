@@ -17,9 +17,8 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 22/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <p><b>ar sound /ɑr/</b></p>
-
-                <ul class="lista-inline">
+                <ul class="lista-inline" style="margin-top:16px">
+                    <li><p><b>ar sound /ɑr/</b></p></li>
                     <li><p>MARKETING</p></li>
                     <li><p>DEPARTMENT</p></li>
                     <li><p>ARMS</p></li>
@@ -27,9 +26,7 @@
                     <li><p>ART</p></li>
                     <li><p>ARE</p></li>
                 </ul>
-
-                <p>For my p<b>a</b>rtner, the m<b>a</b>rketing and sales dep<b>a</b>rtments <b>a</b>re the <b>a</b>rms of his <b>a</b>rt company</p>
-
+                <p style="margin-top:32px">For my p<b><u>ar</u></b>tner, the m<b><u>ar</u></b>keting and sales dep<b><u>ar</u></b>tments <b><u>ar</u></b>e the <b><u>ar</u></b>ms of his <b><u>ar</u></b>t company</p>
 			</div>
 		</div>
     </main>

@@ -19,18 +19,16 @@
 				<div class="clear"></div>
 
 				<div class="metade">
-					<ul class="lista-inline">
-						<li><b>short e /ɛ/</b></li>
-						<li>Let</li>
-						<li>Get</li>
-						<li>End</li>
-						<li>Any</li>
-						<li>Fell</li>
-						<li>Bread</li>
+					<ul class="lista-inline" style="margin-top:16px">
+						<li><p><b>short e /ɛ/</b></p></li>
+						<li><p>Let</p></li>
+						<li><p>Get</p></li>
+						<li><p>End</p></li>
+						<li><p>Any</p></li>
+						<li><p>Fell</p></li>
+						<li><p>Bread</p></li>
 					</ul>
-					<ul class="lista-inline">
-						<ol>L<b>e</b>t me get some br<b>e</b>ad in the <b>e</b>nd of the day.</ol>
-					</ul>
+					<p class="lista-inline" style="margin-top:32px">L<b><u>e</u></b>t me get some br<b><u>e</u></b>ad in the <b><u>e</u></b>nd of the day.</p>
 				</div>
 				<div class="clear"></div>
 			</div>

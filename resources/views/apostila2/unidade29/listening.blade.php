@@ -17,8 +17,8 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and answer the question below.</h5>
-                <div class="metade" style="margin-top: 16px">
+                <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the question below.</h5>
+                <div class="metade">
                     <form id="unidade29listening236" method="post">
                         <p>
                             1 -  What does the speaker recommend?<br>
@@ -32,7 +32,6 @@
                             3 -  How can these companies help you?<br>
                             <input type="text" name="understanding236-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
-
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">

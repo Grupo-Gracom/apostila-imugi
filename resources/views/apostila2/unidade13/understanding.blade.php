@@ -14,24 +14,24 @@
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <form class="metade" id="unidade13understanding160" method="post">
                     <p>
-                        1 - What Happened to Gleen?<br>
-                        <input type="text" name="understanding160-1" class="full left-align" required>
+                        1 - What Happened to Gleen?
+                        <input type="text" name="understanding160-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        2 - When is John starting the new magazine?<br>
-                        <input type="text" name="understanding160-2" class="full left-align" required>
+                        2 - When is John starting the new magazine?
+                        <input type="text" name="understanding160-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        3 - Where is John travelling to?br>
-                        <input type="text" name="understanding160-3" class="full left-align" required>
+                        3 - Where is John travelling to?
+                        <input type="text" name="understanding160-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        4 - Why is he travelling?<br>
-                        <input type="text" name="understanding160-4" class="full left-align" required>
+                        4 - Why is he travelling?
+                        <input type="text" name="understanding160-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        5 - How will Akira help John?<br>
-                        <input type="text" name="understanding160-5" class="full left-align" required>
+                        5 - How will Akira help John?
+                        <input type="text" name="understanding160-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

@@ -17,32 +17,26 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 28/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO SELL / houses / tv / an idea</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO WEAR / pants / glasses / earrings / necklace / bracelet</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO BEGIN / with / by doing something</b></ol>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO SELL </b>/ houses / tv / an idea</p>
+					<p><b>TO WEAR </b>/ pants / glasses / earrings / necklace / bracelet</p>
+					<p><b>TO BEGIN </b>/ with / by doing something</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 28/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>Accept</b></li>
-						<li><b>NGO</b></li>
-						<li><b>Deal</b></li>
-						<li><b>Orphan</b></li>
-						<li><b>Known</b></li>
-						<li><b>Target</b></li>
-						<li><b>Reach</b></li>
-						<li><b>Campaigns</b></li>
-						<li><b>steps</b></li>
-					</ul>
-				</div>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Accept</b></p></li>
+					<li><p><b>NGO</b></p></li>
+					<li><p><b>Deal</b></p></li>
+					<li><p><b>Orphan</b></p></li>
+					<li><p><b>Known</b></p></li>
+					<li><p><b>Target</b></p></li>
+					<li><p><b>Reach</b></p></li>
+					<li><p><b>Campaigns</b></p></li>
+					<li><p><b>steps</b></p></li>
+				</ul>
 			</div>
 		</div>
 	</main>

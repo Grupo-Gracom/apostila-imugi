@@ -16,18 +16,17 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 17/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
-                <div class="clear espacamento"></div>
-                <p class="esquerda" style="color:green;">aw sound /ɔ/</p>
-                <ul class="lista-inline">
-                    <li><b>Almost</b></li>
-                    <li><b>Always</b></li>
-                    <li><b>Offer</b></li>
-                    <li><b>Author</b></li>
-                    <li><b>Talk</b></li>
-                    <li><b>audience</b></li>
-                </ul>
                 <div class="clear"></div>
-                <p>The <b>au</b>thor <b>al</b>most <b>al</b>ways t<b>al</b>k to the <b>au</b>dience and <b>o</b>ffer <b>au</b>tographs</p>
+                <ul class="lista-inline upper" style="margin-top:16px">
+                    <li><p><b>aw sound /ɔ/</b></p></li>
+                    <li><p>Almost</p></li>
+                    <li><p>Always</p></li>
+                    <li><p>Offer</p></li>
+                    <li><p>Author</p></li>
+                    <li><p>Talk</p></li>
+                    <li><p>audience</p></li>
+                </ul>
+                <p style="margin-top:32px">The <b><u>au</u></b>thor <b><u>al</u></b>most <b><u>al</u></b>ways t<b><u>al</u></b>k to the <b><u>au</u></b>dience and <b><u>o</u></b>ffer <b><u>au</u></b>tographs</p>
 			</div>
 		</div>
     </main>

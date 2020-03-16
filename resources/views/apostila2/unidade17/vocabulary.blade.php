@@ -17,33 +17,27 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 17/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<table class="espacamento">
-					<tr>
-						<td><p>TO WAIT FOR /somebody /an opportunity</p></td>
-						<td><p>TO CHANGE / opinion / attitude</p></td>
-					</tr>
-					<tr>
-						<td><p>TO CREATE / questions / problems</p></td>
-						<td><p>TO GET / excited / nervous / stressed / a bus</p></td>
-					</tr>
-					<tr>
-						<td><p>TO UNDERSTAND / a question / a problem</p></td>
-						<td><p>TO WANT / something badly</p></td>                        
-					</tr>                                        
-				</table>				
+				<div class="espacamento">
+					<p><b>TO WAIT FOR </b>/somebody /an opportunity</p>
+					<p><b>TO CHANGE </b>/ opinion / attitude</p>
+					<p><b>TO CREATE </b>/ questions / problems</p>
+					<p><b>TO GET </b>/ excited / nervous / stressed / a bus</p>
+					<p><b>TO UNDERSTAND </b>/ a question / a problem</p>
+					<p><b>TO WANT </b>/ something badly</p>                 
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>	
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 17/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<ul class="lista-inline">
-					<li><b>Crossing </b></li>
-					<li><b>Sharing </b></li>
-					<li><b>Becoming </b></li>
-					<li><b>Fan </b></li>
-					<li><b>Leaving </b></li>
-					<li><b>Sick </b></li>
-					<li><b>Incident </b></li>
-					<li><b>Meet</b></li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>Crossing </b></p></li>
+					<li><p><b>Sharing </b></p></li>
+					<li><p><b>Becoming </b></p></li>
+					<li><p><b>Fan </b></p></li>
+					<li><p><b>Leaving </b></p></li>
+					<li><p><b>Sick </b></p></li>
+					<li><p><b>Incident </b></p></li>
+					<li><p><b>Meet</b></p></li>
 				</ul>
 			</div>
 		</div>

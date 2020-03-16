@@ -23,7 +23,7 @@
 
                 <table class="metade center-align">
                     <tr>
-                        <td colspan="2"><h5>Verb to Be</h5></td>
+                        <td colspan="2"><h5 class="barlow">Verb to Be</h5></td>
                     </tr>
                     <tr>
                         <td><p><b>Are you</b> an illustrator?</p></td>
@@ -38,7 +38,7 @@
                         <td><p><b>Yes, It’s</b>  nice for editing./ Yes, It is.</p></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><h5>Other Verbs</h5></td>
+                        <td colspan="2"><h5 class="barlow">Other Verbs</h5></td>
                     </tr>
                     <tr>
                         <td><p><b>Do we have</b> class tomorrow?</p></td>
@@ -55,9 +55,10 @@
                 </table>
 
                 <h5><b>EXERCISES</b></h5>
-                <h5 class="barlow">1) Build up questions and give answers:</h5>
-                <p><b>Example:</b> engineer / William Is William an engineer? Yes, he is an engineer. (+)</p>
-                <form id="unidade5grammar123" action="post" class="metade">
+                <h5 class="barlow">1 - Build up questions and give answers:</h5>
+                <h5 class="barlow"><b>Example:</b></h5> 
+                <p>engineer / William Is William an engineer? Yes, he is an engineer. (+)</p>
+                <form id="unidade5grammar123" action="post" class="metade" style="margin-top:32px">
                     <p>1. Good designer / Steve<input type="text" name="grammar123-1" placeholder="Responda aqui" required>?<input type="text" name="grammar123-2" placeholder="Responda aqui" required>(+)</p>
                     <p>2. lazy students / Mark and Lucy<input type="text" name="grammar123-3" placeholder="Responda aqui" required>?<input type="text" name="grammar123-4" placeholder="Responda aqui" required>(-)</p>
                     <p>3. App / good<input type="text" name="grammar123-5" placeholder="Responda aqui" required>?<input type="text" name="grammar123-6" placeholder="Responda aqui" required>(+)</p>
@@ -77,7 +78,7 @@
                 </form>
 
 
-                <h5 class="barlow">2) Using the verbs below ,create questions to ask your friend.</h5>
+                <h5 class="barlow">2 - Using the verbs below ,create questions to ask your friend.</h5>
 
                 <ul class="lista-inline">
                     <li><p>Study</p></li>
@@ -111,6 +112,7 @@
                             <p>10.<input type="text" name="grammar124-10" placeholder="Responda aqui" class="full left-align" required></p>
                             <p>11.<input type="text" name="grammar124-11" placeholder="Responda aqui" class="full left-align" required></p>
                             <p>12.<input type="text" name="grammar124-12" placeholder="Responda aqui" class="full left-align" required></p>
+                            <p>13.<input type="text" name="grammar124-13" placeholder="Responda aqui" class="full left-align" required></p>
                         </div>
                         <div class="clear"></div>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -120,7 +122,7 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
 
-                    <h5 class="barlow" style="margin-top:16px">3) Describe the Sequence you follow to do the following tasks.</h5>
+                    <h5 class="barlow" style="margin-top:16px">3 - Describe the Sequence you follow to do the following tasks.</h5>
                     <ul>
                         <li><p>Install an app in your cell phone.</p></li>
                         <li><p>Eliminate the red eyes of pictures.</p></li>

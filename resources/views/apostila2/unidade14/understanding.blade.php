@@ -14,24 +14,24 @@
                 <h5 class="barlow">6 - UNDERSTANDING</h5>
                 <form class="metade" id="unidade14understanding164" method="post">
                     <p>
-                        1 - What does Gleen say about the physiotherapy?<br>
-                        <input type="text" placeholder="responda aqui !" name="understanding164-1" class="full left-align" required>
+                        1 - What does Gleen say about the physiotherapy?
+                        <input type="text" placeholder="Responda aqui" name="understanding164-1" class="full left-align" required>
                     </p>
                     <p>
-                        2 - Who took care of him?<br>
-                        <input type="text" placeholder="responda aqui !" name="understanding164-2" class="full left-align" required>
+                        2 - Who took care of him?
+                        <input type="text" placeholder="Responda aqui" name="understanding164-2" class="full left-align" required>
                     </p>
                     <p>
-                        3 - What happened to Laura in the previous week?<br>
-                        <input type="text" placeholder="responda aqui !" name="understanding164-3" class="full left-align" required>
+                        3 - What happened to Laura in the previous week?
+                        <input type="text" placeholder="Responda aqui" name="understanding164-3" class="full left-align" required>
                     </p>
                     <p>
-                        4 - What was the reaction of the clients?<br>
-                        <input type="text" placeholder="responda aqui !" name="understanding164-4" class="full left-align" required>
+                        4 - What was the reaction of the clients?
+                        <input type="text" placeholder="Responda aqui" name="understanding164-4" class="full left-align" required>
                     </p>
                     <p>
-                        5 - How did Laura and her team felt in the beginning of the presentation?<br>
-                        <input type="text" placeholder="responda aqui !" name="understanding164-5" class="full left-align" required>
+                        5 - How did Laura and her team felt in the beginning of the presentation?
+                        <input type="text" placeholder="Responda aqui" name="understanding164-5" class="full left-align" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

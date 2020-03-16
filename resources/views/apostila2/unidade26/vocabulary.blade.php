@@ -17,27 +17,25 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 26/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<li><b>TO WRITE / beautifully / awfully</b></li>
-					<li><b>TO BUY / tickets / cars / an idea</b></li>
-					<li><b>TO DRAW / pictures / conclusions</b></li>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO WRITE </b>/ beautifully / awfully</p>
+					<p><b>TO BUY </b>/ tickets / cars / an idea</p>
+					<p><b>TO DRAW </b>/ pictures / conclusions</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 26/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>Channel</b></li>
-						<li><b>outdoor</b></li>
-						<li><b>research</b></li>
-						<li><b>Indoor</b></li>
-						<li><b>Pay attention</b></li>
-						<li><b>Shooting</b></li>
-						<li><b>affordable</b></li>
-						<li><b>synchronize</b></li>
-					</ul>
-				</div>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Channel</b></p></li>
+					<li><p><b>outdoor</b></p></li>
+					<li><p><b>research</b></p></li>
+					<li><p><b>Indoor</b></p></li>
+					<li><p><b>Pay attention</b></p></li>
+					<li><p><b>Shooting</b></p></li>
+					<li><p><b>affordable</b></p></li>
+					<li><p><b>synchronize</b></p></li>
+				</ul>
 			</div>
 		</div>
 	</main>

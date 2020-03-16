@@ -19,12 +19,14 @@
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade19listening184" method="post">
-                    <p>I <input type="text" placeholder="responda aqui !" name="listening184-1" class="inputpequeno left-align" required>
-                    travelling with friends. It was a good <input type="text" placeholder="responda aqui !" name="listening184-2" class="inputpequeno left-align" required>.
-                    We had the <input type="text" placeholder="responda aqui !" name="listening184-3" class="inputpequeno left-align" required>
-                    to see some movies together. I always avoid going to the movies with
-                    <input type="text" placeholder="responda aqui !" name="listening184-4" class="inputpequeno left-align" required>
-                    but I have to say it was <input type="text" placeholder="responda aqui !" name="listening184-5" class="inputpequeno left-align" required>.</p>
+                    <p>
+                        I <input type="text" placeholder="Responda aqui" name="listening184-1" class="inputpequeno left-align" required>
+                        travelling with friends. It was a good <input type="text" placeholder="Responda aqui" name="listening184-2" class="inputpequeno left-align" required>.
+                        We had the <input type="text" placeholder="Responda aqui" name="listening184-3" class="inputpequeno left-align" required>
+                        to see some movies together. I always avoid going to the movies with
+                        <input type="text" placeholder="Responda aqui" name="listening184-4" class="inputpequeno left-align" required>
+                        but I have to say it was <input type="text" placeholder="Responda aqui" name="listening184-5" class="inputpequeno left-align" required>.
+                    </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="19">

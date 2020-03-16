@@ -10,7 +10,6 @@
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade3"  data-etapa="vocabulary">
-
 				<h3 class="barlow">UNIT 03</h3>
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
@@ -20,15 +19,15 @@
 				<h5 class="barlow" style="margin-top: 16px">A - ROUTINE VERBS</h5>
 
 				<ul class="lista-inline">
-					<li><b>WORK</b></li>
-					<li><b>GO</b></li>
-					<li><b>DO</b></li>
-					<li><b>WAKE UP</b></li>
-					<li><b>SEND</b></li>
-					<li><b>ANSWER</b></li>
-					<li><b>ASK</b></li>
-					<li><b>USE</b></li>
-					<li><b>FINISH</b></li>
+					<li><p><b>WORK</b></p></li>
+					<li><p><b>GO</b></p></li>
+					<li><p><b>DO</b></p></li>
+					<li><p><b>WAKE UP</b></p></li>
+					<li><p><b>SEND</b></p></li>
+					<li><p><b>ANSWER</b></p></li>
+					<li><p><b>ASK</b></p></li>
+					<li><p><b>USE</b></p></li>
+					<li><p><b>FINISH</b></p></li>
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">B - LIKES AND DISLIKES</h5>
@@ -36,10 +35,10 @@
 				<p class="espacamentoWord"><b>ACTIONS > </b>To-play To-practice To-study To-read To-dance To-create To-draw</p>
 				<p class="espacamentoWord"><b>THINGS > </b>games sports English Books Hip Hop Heroes Warriors</p>
 
-				<div class="metade">
+				<div class="metade" style="margin-top:32px">
 					<form id="unidade3vocabulary112" method="post">
-						<p><input type="text" name="vocabulary112-1" placeholder="Responda aqui" class="full left-align" required></p>
-						<p><input type="text" name="vocabulary112-2" placeholder="Responda aqui" class="full left-align" required></p>
+						<p>ACTIONS:<input type="text" name="vocabulary112-1" placeholder="Responda aqui" class="full left-align" required></p>
+						<p>THINGS:<input type="text" name="vocabulary112-2" placeholder="Responda aqui" class="full left-align" required></p>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
@@ -49,18 +48,17 @@
 					</form>
 				</div>
 
-
 				<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT</h5>
 
 				<ul class="lista-inline">
-					<li><b>ANNOY</b></li>
-					<li><b>CHALLENGE</b></li>
-					<li><b>MANY</b></li>
-					<li><b>EVERY</b></li>
-					<li><b>BORED</b></li>
-					<li><b>MEET</b></li>
-					<li><b>CHANGE</b></li>
-					<li><b>ALWAYS</b></li>
+					<li><p><b>ANNOY</b></p></li>
+					<li><p><b>CHALLENGE</b></p></li>
+					<li><p><b>MANY</b></p></li>
+					<li><p><b>EVERY</b></p></li>
+					<li><p><b>BORED</b></p></li>
+					<li><p><b>MEET</b></p></li>
+					<li><p><b>CHANGE</b></p></li>
+					<li><p><b>ALWAYS</b></p></li>
 				</ul>
 
 			</div>

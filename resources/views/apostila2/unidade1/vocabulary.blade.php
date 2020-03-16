@@ -64,15 +64,15 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 1/1. VOCABULARY/VOCABULARY B.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><p><b>What’s up</b></p></li>
-					<li><p><b>Congrats</b></p></li>
-					<li><p><b>Spent</b></p></li>
-					<li><p><b>Almost</b></p></li>
-					<li><p><b>Start</b></p></li>
-					<li><p><b>Concepts</b></p></li>
-					<li><p><b>Learned</b></p></li>
-					<li><p><b>Way</b></p></li>
+				<ul class="lista-inline" style="margin-top:16px">
+					<li><p class="upper"><b>What’s up</b></p></li>
+					<li><p class="upper"><b>Congrats</b></p></li>
+					<li><p class="upper"><b>Spent</b></p></li>
+					<li><p class="upper"><b>Almost</b></p></li>
+					<li><p class="upper"><b>Start</b></p></li>
+					<li><p class="upper"><b>Concepts</b></p></li>
+					<li><p class="upper"><b>Learned</b></p></li>
+					<li><p class="upper"><b>Way</b></p></li>
 				</ul>
 			</div>
 		</div>

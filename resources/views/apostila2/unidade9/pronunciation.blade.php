@@ -17,19 +17,17 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 9/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>short i /ɪ/</b></li>
-					<li>In</li>
-					<li>Bit</li>
-					<li>This</li>
-					<li>Give</li>
-					<li>Sister</li>
-					<li>City</li>
-					<li>Will</li>
+				<ul class="lista-inline" style="margin-top:16px">
+					<li><p><b>short i /ɪ/</b><p></li>
+					<li><p>In</p></li>
+					<li><p>Bit</p></li>
+					<li><p>This</p></li>
+					<li><p>Give</p></li>
+					<li><p>Sister</p></li>
+					<li><p>City</p></li>
+					<li><p>Will</p></li>
 				</ul>
-				<ul class="lista-inline">
-					<ol>My s<b>i</b>ster L<b>i</b>nda w<b>i</b>ll l<b>i</b>ve <b>i</b>n a b<b>i</b>g city. </ol>
-				</ul>
+				<p class="lista-inline" style="margin-top:32px">My s<b><u>i</u></b>ster L<b><u>i</u></b>nda w<b><u>i</u></b>ll l<b><u>i</u></b>ve <b><u>i</u></b>n a b<b><u>i</u></b>g city. </ol>
 				<div class="clear"></div>
 			</div>
 		</div>

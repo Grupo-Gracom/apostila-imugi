@@ -19,9 +19,12 @@
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade12listening155" method="post">
-                    <p>I<input type="text" name="listening151-1" required>to<input type="text" name="listening151-2" required> to school <input type="text" name="listening151-3" required>. It takes more time because I have to</p>
-                    <p>go <input type="text" name="listening151-4" required> the hill before getting there. <input type="text" name="listening151-5" required>it is more fun. On my way, I listen to some</p>
-                    <p>podcasts<input type="text" name="listening151-6" required>and <input type="text" name="listening151-7" required>.</p>
+                    <p>
+                        I<input type="text" name="listening151-1" placeholder="Responda aqui" required> to <input type="text" name="listening151-2" placeholder="Responda aqui" required> to school <input type="text" name="listening151-3" placeholder="Responda aqui" required>. It takes more time because I have to
+                        go <input type="text" name="listening151-4" placeholder="Responda aqui" required> the hill before getting there. <input type="text" name="listening151-5" placeholder="Responda aqui" required> it is more fun. On my way, I listen to some
+                        podcasts<input type="text" name="listening151-6" placeholder="Responda aqui" required> and <input type="text" name="listening151-7" placeholder="Responda aqui" required>.
+                    </p>
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="12">

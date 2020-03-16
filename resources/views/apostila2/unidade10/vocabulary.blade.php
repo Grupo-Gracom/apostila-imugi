@@ -18,32 +18,32 @@
 				</audio>
 				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top: 16px">A -  QUANTIFIERS</h5>
-				<ul class="lista-inline">
-					<li><b>Some</b></li>
-					<li><b>Any</b></li>
-					<li><b>No</b></li>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Some</b></p></li>
+					<li><p><b>Any</b></p></li>
+					<li><p><b>No</b></p></li>
 				</ul>
 				<h5 class="barlow" style="margin-top: 16px">B -  POLYGONS / 3D OBJECTS</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 10/1. VOCABULARY/3. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<div style="margin-top: 36px">
+				<div style="margin-top: 32px">
 					<ul class="lista-inline">
-						<li><b>POLYGONS ></b></li>
-						<li>Triangle</li>
-						<li>Square</li>
-						<li>Pentagon</li>
-						<li>Hexagon</li>
-						<li>Heptagon</li>
+						<li><p><b>POLYGONS ></b></p></li>
+						<li><p>Triangle</p></li>
+						<li><p>Square</p></li>
+						<li><p>Pentagon</p></li>
+						<li><p>Hexagon</p></li>
+						<li><p>Heptagon</p></li>
 					</ul>
 					<ul class="lista-inline">
-						<li><b>3D OBJECTS ></b></li>
-						<li>Sphere</li>
-						<li>Cube</li>
-						<li>Pyramid</li>
-						<li>Cone</li>
-						<li>Cylinder</li>
+						<li><p><b>3D OBJECTS ></b></p></li>
+						<li><p>Sphere</p></li>
+						<li><p>Cube</p></li>
+						<li><p>Pyramid</p></li>
+						<li><p>Cone</p></li>
+						<li><p>Cylinder</p></li>
 					</ul>
 				</div>
 				<h5 class="barlow" style="margin-top: 16px">C -   WORDS IN CONTEXT</h5>
@@ -51,17 +51,17 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 10/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<div style="margin-top: 36px">
+				<div style="margin-top: 32px">
 					<ul class="lista-inline">
-						<li>Bring</li>
-						<li>Some</li>
-						<li>Just</li>
-						<li>Hold</li>
-						<li>Release</li>
-						<li>Feel</li>
-						<li>Hope</li>
-						<li>Straight</li>
-						<li>Together</li>
+						<li><p>Bring</p></li>
+						<li><p>Some</p></li>
+						<li><p>Just</p></li>
+						<li><p>Hold</p></li>
+						<li><p>Release</p></li>
+						<li><p>Feel</p></li>
+						<li><p>Hope</p></li>
+						<li><p>Straight</p></li>
+						<li><p>Together</p></li>
 					</ul>
 				</div>
 			</div>

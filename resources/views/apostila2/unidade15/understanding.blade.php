@@ -15,23 +15,23 @@
                 <form class="metade" id="unidade15understanding431" method="post">
                     <p>
                         1 - How is Akira before the Comic com?
-                        <input type="text" placeholder="responda aqui !" name="understanding431-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding431-1" class="full left-align" required>
                     </p>
                     <p>
                         2 - What’s Akira’s biggest expectation?
-                        <input type="text" placeholder="responda aqui !" name="understanding431-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding431-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - Where is Kris Costa from?
-                        <input type="text" placeholder="responda aqui !" name="understanding431-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding431-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - When did he start his career?
-                        <input type="text" placeholder="responda aqui !" name="understanding431-4" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding431-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - What kind of equipment did he use to start.?
-                        <input type="text" placeholder="responda aqui !" name="understanding431-5" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding431-5" class="full left-align" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

@@ -30,10 +30,10 @@
 				<p><b>Gleen:</b> And you Akira, it’s your turn now.</p>
 				<p><b>Akira:</b> Hi guys, I’m Akira and I work as a game developer. I don’t work by myself. I work with an incredible team of game developers. The best part is that we have a lot of fun and
 								we are very creative together. My biggest challenge is to finish my work on time. It’s very important because other people depend on my work to continue producing the game.</p>
-				<figure class="center-align">
+				<figure class="metade esquerda">
                     <img  src="{{ asset('assets/img/dominating/unit3/conversation1.jpg') }}" alt="amigos">
-                </figure><br>
-				<figure class="center-align">
+                </figure>
+				<figure class="metade direita">
                     <img  src="{{ asset('assets/img/dominating/unit3/conversation2.jpg') }}" alt="amigos">
                 </figure>
 			</div>

@@ -18,41 +18,41 @@
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - NATIONALITIES</h5>
 
-				<ul class="lista-inline">
-					<li ><b>BRASILIAN</b></li>
-					<li><b>AMERICAN</b></li>
-					<li><b>CANADIAN</b></li>
-					<li><b>CHINESE</b></li>
-					<li><b>JAPANESE</b></li>
-					<li><b>FRENCH</b></li>
-					<li><b>SPANISH</b></li>
-					<li><b>COLOMBIAN</b></li>
+				<ul class="lista-inline" style="margin-top: 16px">
+					<li><p><b>BRASILIAN</b></p></li>
+					<li><p><b>AMERICAN</b></p></li>
+					<li><p><b>CANADIAN</b></p></li>
+					<li><p><b>CHINESE</b></p></li>
+					<li><p><b>JAPANESE</b></p></li>
+					<li><p><b>FRENCH</b></p></li>
+					<li><p><b>SPANISH</b></p></li>
+					<li><p><b>COLOMBIAN</b></p></li>
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">B - PROFESSIONS</h5>
 
-				<ul class="lista-inline">
-					<li><b>WEB DESIGNER</b></li>
-					<li><b>YOUTUBER</b></li>
-					<li><b>TEACHER</b></li>
-					<li><b>EDITOR</b></li>
-					<li><b>VIDEO MAKER</b></li>
-					<li><b>ILLUSTRATOR</b></li>
-					<li><b>PROGRAMMER</b></li>
-					<li><b>DRAWER</b></li>
+				<ul class="lista-inline" style="margin-top: 16px">
+					<li><p><b>WEB DESIGNER</b></p></li>
+					<li><p><b>YOUTUBER</b></p></li>
+					<li><p><b>TEACHER</b></p></li>
+					<li><p><b>EDITOR</b></p></li>
+					<li><p><b>VIDEO MAKER</b></p></li>
+					<li><p><b>ILLUSTRATOR</b></p></li>
+					<li><p><b>PROGRAMMER</b></p></li>
+					<li><p><b>DRAWER</b></p></li>
 				</ul>
 
 				<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT</h5>
 
-				<ul class="lista-inline">
-					<li><b>INTRODUCE</b></li>
-					<li><b>INTERVIEW</b></li>
-					<li><b>FULL NAME</b></li>
-					<li><b>GUYS</b></li>
-					<li><b>TURN</b></li>
-					<li><b>TELL</b></li>
-					<li><b>FEEL</b></li>
-					<li><b>KNOW</b></li>
+				<ul class="lista-inline" style="margin-top: 16px">
+					<li><p><b>INTRODUCE</b></p></li>
+					<li><p><b>INTERVIEW</b></p></li>
+					<li><p><b>FULL NAME</b></p></li>
+					<li><p><b>GUYS</b></p></li>
+					<li><p><b>TURN</b></p></li>
+					<li><p><b>TELL</b></p></li>
+					<li><p><b>FEEL</b></p></li>
+					<li><p><b>KNOW</b></p></li>
 				</ul>
 
 			</div>

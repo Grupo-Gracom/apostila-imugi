@@ -18,50 +18,45 @@
                 </audio> -->
                 <!-- nao tem audio ainda -->
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                    <div class="metade">
-                        <h5 class="barlow" style="margin-top: 16px">A - MODAL VERD SHOULD / OUGHT TO </h5>
-                        <p>
-                            <b>Should and ought to</b> are used to express <b>advices</b>. There is a slight difference between
-                            them. <b>Should</b> is used for a <b>general advice, a subjective opinion</b> and <b>ought to</b> is used for
-                            <b>objective opinions</b>. In other words, <b>Ought to</b> is used for <b>what’s necessary and can’t be
-                            avoided</b>.
-                        </p>
-
-                        <table class="center-align">
-                            <tr>
-                                <td><h5 class="barlow">General advice - SUBJECTIVE opnion - SHOULD</h5></td>
-                            </tr>
-                            <tr>
-                                <td><p>(+) You <b>should review</b> the lesson in a regular basis.</p></td>
-                            </tr>
-                            <tr>
-                                <td><p>(-) You <b>shouldn't review</b> the lesson in a regular basis.</p></td>
-                            </tr>
-                            <tr>
-                                <td><p>(?) <b>Should</b> you <b>review</b> the lesson in a regular basis?</p></td>
-                            </tr>
-                            <tr>
-                                <td><h5 class="barlow">General advice - OBJECTIVE opnion - OUGHTTO</h5></td>
-                            </tr>
-                            <tr>
-                                <td><p>(+) <b>You ought to check</b> the file before sending it.</p></td>
-                            </tr>
-                            <tr>
-                                <td><p>(-) You <b>ought not to check</b> the file before sending it (*)</p></td>
-                            </tr>
-                            <tr>
-                                <td><p>(?) <b>Ought you to check</b> the file before sending it? (*)</p></td>
-                            </tr>
-                            <tr>
-                                <td><p>(*) <b>negative and interrogative of ought to, are not frequently used.</b> Instead, prefer to use <b>Should</b>.</p></td>
-                            </tr>
-                        </table>
-                    </div>
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - MODAL VERD SHOULD / OUGHT TO </h5>
+                <p>
+                    <b>Should and ought to</b> are used to express <b>advices</b>. There is a slight difference between
+                    them. <b>Should</b> is used for a <b>general advice, a subjective opinion</b> and <b>ought to</b> is used for
+                    <b>objective opinions</b>. In other words, <b>Ought to</b> is used for <b>what’s necessary and can’t be
+                    avoided</b>.
+                </p>
+                <table class="metade center-align" style="margin-top:16px">
+                    <tr>
+                        <td><h5 class="barlow">General advice - SUBJECTIVE opnion - SHOULD</h5></td>
+                    </tr>
+                    <tr>
+                        <td><p>(+) You <b>should review</b> the lesson in a regular basis.</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>(-) You <b>shouldn't review</b> the lesson in a regular basis.</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>(?) <b>Should</b> you <b>review</b> the lesson in a regular basis?</p></td>
+                    </tr>
+                    <tr>
+                        <td><h5 class="barlow">General advice - OBJECTIVE opnion - OUGHTTO</h5></td>
+                    </tr>
+                    <tr>
+                        <td><p>(+) <b>You ought to check</b> the file before sending it.</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>(-) You <b>ought not to check</b> the file before sending it (*)</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>(?) <b>Ought you to check</b> the file before sending it? (*)</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>(*) <b>negative and interrogative of ought to, are not frequently used.</b> Instead, prefer to use <b>Should</b>.</p></td>
+                    </tr>
+                </table>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">1 -  Choose, to complete each sentence, either SHOULD or SHOULDN’T.</h5>
                     <form id="unidade29grammar233" method="post">
-                        <div class="metade">
                             <p>
                                 <p>
                                     1. Listen to that music! Our neighbours <input type="text" name="grammar233-1" placeholder="Responda aqui" required/> play music that loud at this hour.
@@ -94,7 +89,6 @@
                                     10. We <input type="text" name="grammar233-10"  placeholder="Responda aqui" required/>  leave too late tomorrow if we want to reach the beach before lunch.
                                 </p>
                             </p>
-                        </div>
                         <div class="clear"></div>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -103,8 +97,6 @@
                         <input type="hidden" name="atividade_id" value="233">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                </div>
-
                 <figure>
                     <img src="{{ asset('assets/img/dominating/unit29/grammar.png') }}" alt="paciente feliz">
                 </figure>
@@ -128,7 +120,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <h5 class="barlow metade" style="margin-top: 36px">3 -  You find out that your friend is having a hard time to write good stories for his games.
+                <h5 class="barlow" style="margin-top: 36px">3 -  You find out that your friend is having a hard time to write good stories for his games.
                 Using SHOULD and OUGHT TO write advices to your friend.</h5>
                 <form id="unidade29grammar235" method="post">
                     <textarea name="grammar235-1" class="metade left-align" placeholder="Responda aqui" required></textarea>

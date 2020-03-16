@@ -15,23 +15,23 @@
                 <form class="metade" id="unidade18understanding181" method="post">
                     <p>
                         1 - What did John saw in Comic Con?
-                        <input type="text" placeholder="responda aqui !" name="understanding181-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding181-1" class="full left-align" required>
                     </p>
                     <p>
                         2 - What dis john do while he was visiting a booth?
-                        <input type="text" placeholder="responda aqui !" name="understanding181-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding181-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - What dis Akira see in Comic Con?
-                        <input type="text" placeholder="responda aqui !" name="understanding181-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding181-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - Who was showing some new special effects techniques?
-                        <input type="text" placeholder="responda aqui !" name="understanding181-4" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding181-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - What did Gleen do last week?
-                        <input type="text" placeholder="responda aqui !" name="understanding181-5" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding181-5" class="full left-align" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

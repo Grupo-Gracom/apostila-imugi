@@ -22,26 +22,26 @@
                 <h5 class="barlow" style="margin-top: 16px">A - WH QUESTIONS – HOW – HOW MANY – HOW MUCH</h5>
 
                 <p><b>How -</b> Used for <b>questions about manner/status.</b></p>
-                <p><b>Examples:</b></p>
+                <h5 class="barlow"><b>Examples:</b></h5>
                 <p><b>How</b> is your family? / They are <b>ok. </b>Thanks for asking.</p>
                 <p><b>How</b> do you come to school? / I come <b>by bus.</b></p>
 
                 <p><b>How many -</b> Used for <b>questions about COUNTABLE quantities.</b></p>
-                <p><b>Examples:</b></p>
-                <p><b>How many</b> certificates do you have ? / I have <b>3 certificates</b></p>
+                <h5 class="barlow"><b>Examples:</b></h5>
+                <p><b>How many</b> certificates do you have ? / I have <b>3 certificates.</b></p>
                 <p><b>How many</b> channels does he follow? / He follows <b>2 channels.</b></p>
 
                 <p><b>How much -</b> Used for <b>questions about UNCOUNTABLE quantities.</b></p>
-                <p><b>Examples:</b></p>
-                <p><b>How much</b> time do we have? / we have <b>3 hours a day</b></p>
+                <h5 class="barlow"><b>Examples:</b></h5>
+                <p><b>How much</b> time do we have? / we have <b>3 hours a day.</b></p>
                 <p><b>How much</b> money does she have? / She has <b>U$ 1000,00.</b></p>
 
                 <h5 class="barlow" style="margin-top: 16px">B - SUBJECT PRONOUN X OBJECT PRONOUN.</h5>
 
                 <table class="center-align metade">
                     <tr>
-                        <td class="barlow upper"><p>Subject Pronoun</p></td>
-                        <td class="barlow upper"><p>Object Pronoun</p></td>
+                        <td><h5 class="barlow">Subject Pronoun</h5></td>
+                        <td><h5 class="barlow">Object Pronoun</h5></td>
                     </tr>
                     <tr>
                         <td><p>I</p></td>
@@ -77,7 +77,7 @@
                     </tr>
                 </table>
 
-                <p><b>Examples:</b></p>
+                <h5 class="barlow"><b>Examples:</b></h5>
                 <p>Gleen asks Akira, Laura and john to share their challenges.</p>
                 <p><b>He</b> asks <b>them</b> to share their challenges.</p>
                 <p>John visits <u>Cinema 4D and Blender tutorials</u> every day.</p>
@@ -88,8 +88,8 @@
 
                 <table class="center-align metade">
                     <tr>
-                        <td class="barlow upper"><p>Affirmative</p></td>
-                        <td class="barlow upper"><p>Negative</p></td>
+                        <td><h5 class="barlow">Affirmative</h5></td>
+                        <td><h5 class="barlow">Negative</h5></td>
                     </tr>
                     <tr>
                         <td><p><b>Turn on</b> the computer.</p></td>
@@ -106,7 +106,7 @@
 
                 </table>
 
-                <p class="barlow">1) Fill in the blanks with ME, YOU, HIM, HER, THEM, US, IT:</p>
+                <h5 class="barlow" style="margin-top:16px">1 - Fill in the blanks with ME, YOU, HIM, HER, THEM, US, IT:</h5>
 
                 <form id="unidade4grammar118" action="post" class="metade">
                     <p>1. We are watching tutorials and Jim is watching with<input type="text" name="grammar118-1" placeholder="Responda aqui" required></p>
@@ -125,7 +125,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">2) Build up questions for the answers. Use how, how many, how much</p>
+                <h5 class="barlow">2 - Build up questions for the answers. Use how, how many, how much</h5>
                 <p>E.g How are you?/ <b>I’m fine thanks.</b></p>
 
                 <form id="unidade4grammar119" action="post" class="metade">
@@ -143,7 +143,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">3) Prepare 3 questions and interview a classmate. Be ready to share with your friends.</p>
+                <h5 class="barlow">3 - Prepare 3 questions and interview a classmate. Be ready to share with your friends.</h5>
 
                 <form id="unidade4grammar120" action="post" class="metade">
                     <p><input type="text" name="grammar120-1" placeholder="Responda aqui" class="full left-align" required></p>

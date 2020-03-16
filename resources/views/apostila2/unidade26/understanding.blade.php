@@ -12,8 +12,7 @@
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade26" data-etapa="understanding">
 				<h3 class="barlow">UNIT 26</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
-                <div class="metade">
+                <div class="metade" style="margin-top: 16px">
                     <form id="unidade26understanding224" method="post">
                         <p>
                             1 -  Why was Glenn researching some cameras?<br>

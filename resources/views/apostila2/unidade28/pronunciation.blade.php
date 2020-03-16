@@ -19,7 +19,7 @@
 				<div class="clear"></div>
 				<table class="metade center-align" style="margin-top:16px">
 					<tr>
-						<td colspan="2"><h5>Improving pronunciation - / r / / h /</h5></td>
+						<td colspan="2"><h5 class="barlow">Improving pronunciation - / r / / h /</h5></td>
 					</tr>
 					<tr>
 						<td><p><b>H</b>ome - <b>R</b>ome</p></td>

@@ -15,23 +15,23 @@
                 <form class="metade" id="unidade19understanding185" method="post">
                     <p>
                         1 - Did Gleen like the movie he watched?
-                        <input type="text" placeholder="responda aqui !" name="understanding185-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding185-1" class="full left-align" required>
                     </p>
                     <p>
                         2 - What does Gleen like to do before watching a movie?
-                        <input type="text" placeholder="responda aqui !" name="understanding185-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding185-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - What did john say about Marvel?
-                        <input type="text" placeholder="responda aqui !" name="understanding185-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding185-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - How long does it take for a movie to go to the market?
-                        <input type="text" placeholder="responda aqui !" name="understanding185-4" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding185-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - What was the result of Ragnarok in the first three weeks..
-                        <input type="text" placeholder="responda aqui !" name="understanding185-5" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding185-5" class="full left-align" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

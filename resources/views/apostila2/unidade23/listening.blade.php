@@ -18,18 +18,17 @@
 				</audio>
                 <div class="clear"></div>
 
-                <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
+                <h5 class="barlow" style="margin-top:16px">A – Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade23listening206" method="post">
                     <p><input type="text" name="listening206-1" placeholder="Responda aqui" required>can you do? I can direct
                     <input type="text" name="listening206-2" placeholder="Responda aqui" required>. What else can you do?
-                    <input type="text" name="listening206-3" placeholder="Responda aqui" required>use my brain, I can play bridge. What else can you do? What else can I do?
-                    <input type="text" name="listening206-4" placeholder="Responda aqui" required>
-                    <input type="text" name="listening206-5" placeholder="Responda aqui" required> of things. I can
-                    <input type="text" name="listening206-6" placeholder="Responda aqui" required> , I can play a piano. What else can you do? I can sing, I can
-                    <input type="text" name="listening206-7" placeholder="Responda aqui" required>, I can act. What else can you do? I can juggle, play the piano. What else can you do? I can do a lot of things? I don’t know. I can
+                    <input type="text" name="listening206-3" placeholder="Responda aqui" required> use my brain, I can play bridge. What else can you do? What else can I do?
+                    <input type="text" name="listening206-4" placeholder="Responda aqui" required> of things. I can
+                    <input type="text" name="listening206-5" placeholder="Responda aqui" required>, I can play a piano. What else can you do? I can sing, I can
+                    <input type="text" name="listening206-6" placeholder="Responda aqui" required>, I can act. What else can you do? I can juggle, play the piano. What else can you do? I can do a lot of things? I don’t know. I can
+                    <input type="text" name="listening206-7" placeholder="Responda aqui" required>, I can
                     <input type="text" name="listening206-8" placeholder="Responda aqui" required>, I can
-                    <input type="text" name="listening206-9" placeholder="Responda aqui" required>, I can
-                    <input type="text" name="listening206-10" placeholder="Responda aqui" required>
+                    <input type="text" name="listening206-9" placeholder="Responda aqui" required>
                     </p>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -38,8 +37,7 @@
                     <input type="hidden" name="atividade_id" value="206">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-
-                </form>
+                <iframe style="margin-top:16px" width="480" height="360" src="https://www.youtube.com/embed/_YLgqOONnJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
     </main>

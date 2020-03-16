@@ -16,17 +16,17 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 18/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
-                <div class="clear espacamento"></div>
-                <p class="esquerda" style="color:green;">oi sound /ɔɪ/</p>
-                <ul class="lista-inline">
-                    <li><b>Toy</b></li>
-                    <li><b>Choice</b></li>
-                    <li><b>Enjoy</b></li>
-                    <li><b>Avoid</b></li>
-                    <li><b>Voice</b></li>
-                </ul>
                 <div class="clear"></div>
-                <p>Av<b>oi</b>d your inner v<b>oi</b>ce and enj<b>oy</b> the t<b>oy</b> of your ch<b>oi</b>ce</p>
+                <ul class="lista-inline upper" style="margin-top:16px">
+                    <li><p><b>oi sound /ɔɪ/</b></p></li>
+                    <li><p>Toy</p></li>
+                    <li><p>Choice</p></li>
+                    <li><p>Enjoy</p></li>
+                    <li><p>Avoid</p></li>
+                    <li><p>Voice</p></li>
+                </ul>
+
+                <p style="margin-top:32px">Av<b><u>oi</u></b>d your inner v<b><u>oi</u></b>ce and enj<b><u>oy</u></b> the t<b><u>oy</u></b> of your ch<b><u>oi</u></b>ce</p>
 			</div>
 		</div>
     </main>

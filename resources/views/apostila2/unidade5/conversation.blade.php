@@ -18,7 +18,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 5/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Hellooooooo guys. Welcome back to our class. Guys, I loved the tips you guys
+				<p style="margin-top:16px"><b>Gleen:</b> Hellooooooo guys. Welcome back to our class. Guys, I loved the tips you guys
 								shared in our last class. Today I want to talk about organization and planning. Do you
 								think it’s important for a game developer, a graphic designer or a movie maker to plan
 								his/her job? </p>
@@ -43,7 +43,7 @@
 								to do so today. Guys, see you in the next class.
 								</p>
 
-				<figure>
+				<figure style="margin-top:16px">
 					<img  src="{{ asset('assets/img/dominating/unit5/conversation.jpg') }}" alt="mario">
 				</figure>
 			</div>

@@ -18,7 +18,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 21/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Hey you guys. What’s up? How was the weekend?</p>
+				<p style="margin-top:16px"><b>Gleen:</b> Hey you guys. What’s up? How was the weekend?</p>
 				<p><b>Students:</b> Great teacher. And yours?</p>
 				<p><b>Gleen:</b> It was great guys. My brother came to visit me and we had a nice time talking
 								about our childhood. We used to play a lot together. And you guys,

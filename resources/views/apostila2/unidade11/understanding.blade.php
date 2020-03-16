@@ -12,26 +12,26 @@
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade11" data-etapa="understanding">
 				<h3 class="barlow">UNIT 11</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <form id="unidade11understanding152" method="post">
+                <form id="unidade11understanding152" method="post" class="metade">
                     <p>
                         1 - What’s Gleen’s opinion about Mr. Smith presentation?<br>
-                        <input type="text" name="understanding152-1" class="full left-align" required>
+                        <input type="text" name="understanding152-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         2 - What is Laura doing at the moment?<br>
-                        <input type="text" name="understanding152-2" class="full left-align" required>
+                        <input type="text" name="understanding152-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         3 - How many possible jobs Does Laura have?<br>
-                        <input type="text" name="understanding152-3" class="full left-align" required>
+                        <input type="text" name="understanding152-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
                         4 - What are Akira’s plans?<br>
-                        <input type="text" name="understanding152-4" class="full left-align" required>
+                        <input type="text" name="understanding152-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        5 - What is João’s personal opinion about Photoshop?<br>
-                        <input type="text" name="understanding152-5" class="full left-align" required>
+                        5 - Why will John accept the job on the Games magazine?<br>
+                        <input type="text" name="understanding152-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -39,15 +39,6 @@
                     <input type="hidden" name="atividade_id" value="152">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
-
 			</div>
 		</div>
     </main>

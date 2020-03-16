@@ -21,11 +21,11 @@
                 <form class="metade" id="unidade14listening163" method="post">
                     <p>
                         1 - What’s Laura’s problem?<br>
-                        <input type="text" placeholder="responda aqui !" name="listening163-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="listening163-1" class="full left-align" required>
                     </p>
                     <p>
                         2 - What was her friend’s conclusion?<br>
-                        <input type="text" placeholder="responda aqui !" name="listening163-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="listening163-2" class="full left-align" required>
                     </p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
