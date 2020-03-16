@@ -19,7 +19,7 @@
 				<div class="clear"></div>
 				<table class="metade center-align" style="margin-top:16px">
 					<tr>
-						<td colspan="3"><h5><b>Improving pronunciation - / teen / / ty /</b></h5></td>
+						<td colspan="3"><h5 class="barlow">Improving pronunciation - / g /</h5></td>
 					</tr>
 					<tr>
 						<td><p><b>G</b>ara<b>g</b>e</p></td>

@@ -17,27 +17,25 @@
 					<source src="{{ asset('assets/audio/Unit36/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade36listening273" method="post">
+                <h5 class="barlow" style="margin-top: 16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade36listening273" method="post" style="margin-top: 16px">
+                    <p>
                         <p>
-                            <p>
-                                Thanks for <input type="text" name="listening273-1"  placeholder="Responda aqui" required> me with my plan. I’m <input type="text" name="listening273-2"  placeholder="Responda aqui" required> to planning things
-                                with so many <input type="text" name="listening273-3"  placeholder="Responda aqui" required> . Sometimes I have <input type="text" name="listening273-4"  placeholder="Responda aqui" required>  because of that. 
-                            </p>   
-                            <p>
-                                My <input type="text" name="listening273-5"  placeholder="Responda aqui" required> are as organized as you. They <input type="text" name="listening273-6"  placeholder="Responda aqui" required> about their trip at least 6 months beforehand. 
-                                They <input type="text" name="listening273-7"  placeholder="Responda aqui" required>  tell me I should do the <input type="text" name="listening273-8"  placeholder="Responda aqui" required> but it’s very hard for me.
-                            </p>
+                            Thanks for <input type="text" name="listening273-1"  placeholder="Responda aqui" required> me with my plan. I’m <input type="text" name="listening273-2"  placeholder="Responda aqui" required> to planning things
+                            with so many <input type="text" name="listening273-3"  placeholder="Responda aqui" required> . Sometimes I have <input type="text" name="listening273-4"  placeholder="Responda aqui" required>  because of that. 
+                        </p>   
+                        <p>
+                            My <input type="text" name="listening273-5"  placeholder="Responda aqui" required> are as organized as you. They <input type="text" name="listening273-6"  placeholder="Responda aqui" required> about their trip at least 6 months beforehand. 
+                            They <input type="text" name="listening273-7"  placeholder="Responda aqui" required>  tell me I should do the <input type="text" name="listening273-8"  placeholder="Responda aqui" required> but it’s very hard for me.
                         </p>
+                    </p>
 
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="36">
-                        <input type="hidden" name="atividade_id" value="273">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="36">
+                    <input type="hidden" name="atividade_id" value="273">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
 		</div>
     </main>

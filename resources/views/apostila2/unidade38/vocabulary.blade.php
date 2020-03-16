@@ -17,30 +17,27 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 38/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO COUNT / to ten / on somebody</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO FORGET / things / people / to do things</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO GIVE / attention / love / a break</b></ol>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO COUNT </b>/ to ten / on somebody</p>
+					<p><b>TO FORGET </b>/ things / people / to do things</p>
+					<p><b>TO GIVE </b>/ attention / love / a break</p>
+				</div>
+
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 38/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>Add</b></li>
-						<li><b>Goals</b></li>
-						<li><b>Accomplish</b></li>
-						<li><b>Tend</b></li>
-						<li><b>Pitfalls</b></li>
-						<li><b>Ultimate</b></li>
-						<li><b>Upon</b></li>
-						<li><b>Feasible</b></li>
-						<li><b>Fail</b></li>
+					<ul class="lista-inline upper" style="margin-top: 16px">
+						<li><p><b>Add</b></p></li>
+						<li><p><b>Goals</b></p></li>
+						<li><p><b>Accomplish</b></p></li>
+						<li><p><b>Tend</b></p></li>
+						<li><p><b>Pitfalls</b></p></li>
+						<li><p><b>Ultimate</b></p></li>
+						<li><p><b>Upon</b></p></li>
+						<li><p><b>Feasible</b></p></li>
+						<li><p><b>Fail</b></p></li>
 					</ul>
 				</div>
 			</div>

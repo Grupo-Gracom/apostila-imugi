@@ -31,7 +31,7 @@
                             <td><p><b>I’m not used to</b> spend<b>ing</b> so much time reading comic books.</p></td>
                         </tr>
                         <tr>
-                            <td><p>Are you used to hav<b>ing</b> a back up of your computer weekly?</p></td>
+                            <td><p><b>Are</b> you used to hav<b>ing</b> a back up of your computer weekly?</p></td>
                         </tr>
                         <tr>
                             <td><h5 class="barlow">TO BE USED TO + GENERAL INFO</h5></td>
@@ -47,51 +47,52 @@
                         </tr>
                     </table> 
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">1 - Rewrite each sentence. Use “(BE) USED TO” and a gerund for each sentence.</h5>  
-                    <p>Example: He didn’t know how to drive a car until last year. Now, he <b>is used to driving</b> a car</p>            
+                    <h5 class="barlow"><b>Example:</b></h5>
+                    <p>He didn’t know how to drive a car until last year. Now, he <u>is used to driving</u> a car.</p>            
                     <form id="unidade36grammar270" style="margin-top:32px" method="post">
                         <div class="metade">
                             <p>
                                 <p>
                                     1. She <b>saw</b> snow for the first time when she moved to Minnesota.<br>
-                                    Now, she  <input type="text" name="grammar270-1" placeholder="Responda aqui" required/> snow in the winter.
+                                    Now, she  <input type="text" name="grammar270-1" class="inputMedio left-align"  placeholder="Responda aqui" required/> snow in the winter.
                                 </p>
                                 <p>
                                     2. Thomas had never <b>worked</b> early in the morning until he began his new job.<br>
-                                    Now, he <input type="text" name="grammar270-2" placeholder="Responda aqui" required/> in the morning.
+                                    Now, he <input type="text" name="grammar270-2" class="inputMedio left-align"  placeholder="Responda aqui" required/> in the morning.
                                 </p>
                                 <p>
                                     3. The students didn’t <b>speak</b> English on their first day of class.<br>
-                                    Now, they <input type="text" name="grammar270-3" placeholder="Responda aqui" required/> every day in class.
+                                    Now, they <input type="text" name="grammar270-3" class="inputMedio left-align"  placeholder="Responda aqui" required/> every day in class.
                                 </p>
                                 <p>
                                     4. Jerry didn’t <b>walk</b> very much before he moved to Jamaica.<br>
-                                    Now, he <input type="text" name="grammar270-4" placeholder="Responda aqui" required/> everywhere he goes.
+                                    Now, he <input type="text" name="grammar270-4" class="inputMedio left-align"  placeholder="Responda aqui" required/> everywhere he goes.
                                 </p>
                                 <p>
                                     5. I didn’t <b>take</b> the bus very often before I moved to Chicago.<br>
-                                    Nowadays, I <input type="text" name="grammar270-5" placeholder="Responda aqui" required/> the bus all over the city.
+                                    Nowadays, I <input type="text" name="grammar270-5" class="inputMedio left-align"  placeholder="Responda aqui" required/> the bus all over the city.
                                 </p>
                                 <p>
                                     6. Bill and Linda <b>are</b> parents. They started having kids ten years ago.<br>
-                                    They <input type="text" name="grammar270-6" placeholder="Responda aqui" required/> parents.
+                                    They <input type="text" name="grammar270-6" class="inputMedio left-align"  placeholder="Responda aqui" required/> parents.
                                 </p>
                                 <p>
                                     7. Belinda rarely <b>shopped</b> after midnight before she got her new job.<br>
-                                    Now, she <input type="text" name="grammar270-7" placeholder="Responda aqui" required/> after midnight.
+                                    Now, she <input type="text" name="grammar270-7" class="inputMedio left-align"  placeholder="Responda aqui" required/> after midnight.
                                 </p>
                                 <p>
                                     8. We <b>do</b> our own housework.<br>
-                                    We <input type="text" name="grammar270-8" placeholder="Responda aqui" required/> our cleaning ourselves
+                                    We <input type="text" name="grammar270-8" class="inputMedio left-align"  placeholder="Responda aqui" required/> our cleaning ourselves
                                 </p>
                                 <p>
                                     9. The police <b>go</b> to the house across the street all the time.<br>
-                                    The police <input type="text" name="grammar270-9" placeholder="Responda aqui" required/> there for all kinds of problems.
+                                    The police <input type="text" name="grammar270-9" class="inputMedio left-align"  placeholder="Responda aqui" required/> there for all kinds of problems.
                                 </p>
                                 <p>
                                     10. I <b>read</b> the newspaper online every day, but ten years ago I rarely did that.<br>
-                                    Now, I <input type="text" name="grammar270-10" placeholder="Responda aqui" required/> the paper online.
+                                    Now, I <input type="text" name="grammar270-10" class="inputMedio left-align"  placeholder="Responda aqui" required/> the paper online.
                                 </p>
                             </p>
                         </div>
@@ -105,33 +106,34 @@
                     </form>
                     <div style="margin-top: 36px">
                         <figure>
-                            <img src="{{ asset('assets/img/playgo/unit28/pagina-1.png') }}" alt="restaurante">
+                            <img src="{{ asset('assets/img/dominating/unit36/grammar.png') }}" alt="estrada">
                         </figure>
 				    </div>
                     <h5 class="barlow" style="margin-top:16px">2 - Rewrite each sentence with “BE USED TO” in the negative form. Do not use a gerund.</h5>  
-                    <p>Example: Maria doesn’t like this hot weather. She <b>isn’t used to</b> the heat.</p>            
+                    <h5 class="barlow"><b>Example:</b></h5>
+                    <p>Maria doesn’t like this hot weather. She <u>isn’t used to</u> the heat.</p>            
                     <form id="unidade36grammar271" method="post">
                         <div class="metade">
                             <p>
                                 <p>
                                     1. Terry doesn’t like her new job.<br>
-                                    She <input type="text" name="grammar271-1" placeholder="Responda aqui" required/> the schedule.
+                                    She <input type="text" name="grammar271-1" class="inputMedio left-align" placeholder="Responda aqui" required/> the schedule.
                                 </p>
                                 <p>
                                     2. Sam hates driving to work because it takes so long to get there.<br>
-                                    He <input type="text" name="grammar271-2" placeholder="Responda aqui" required/> a long drive every day.
+                                    He <input type="text" name="grammar271-2" class="inputMedio left-align" placeholder="Responda aqui" required/> a long drive every day.
                                 </p>
                                 <p>
                                     3. I don’t want to go into the water just yet.<br>
-                                    I <input type="text" name="grammar271-3" placeholder="Responda aqui" required/> the cold temperature of the water.
+                                    I <input type="text" name="grammar271-3" class="inputMedio left-align" placeholder="Responda aqui" required/> the cold temperature of the water.
                                 </p>
                                 <p>
                                     4. The children seem kind of tired this afternoon.<br>
-                                    They <input type="text" name="grammar271-4" placeholder="Responda aqui" required/> a long day of school after three months of summer vacation.
+                                    They <input type="text" name="grammar271-4" class="inputMedio left-align" placeholder="Responda aqui" required/> a long day of school after three months of summer vacation.
                                 </p>
                                 <p>
                                     5. You don’t like to drive a car with a stick shift.<br>
-                                    You <input type="text" name="grammar271-5" placeholder="Responda aqui" required/> a manual transmission.
+                                    You <input type="text" name="grammar271-5" class="inputMedio left-align" placeholder="Responda aqui" required/> a manual transmission.
                                 </p>
                             </p>
                         </div>
@@ -145,7 +147,7 @@
                     </form>
                 </div>
 
-                <h5 class="barlow metade" style="margin-top: 36px">3 - Write about things that you are used to doing and things that you aren’t used to doing currently</h5>    
+                <h5 class="barlow" style="margin-top: 36px">3 - Write about things that you are used to doing and things that you aren’t used to doing currently</h5>    
                 <form id="unidade36grammar272" method="post">
                     <textarea name="grammar272-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
