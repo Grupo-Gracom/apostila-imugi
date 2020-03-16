@@ -14,8 +14,8 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit27/Listening/completo.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 27/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear"></div>
                 <h5 class="barlow">A -  Listen to the Dialogue and answer the questions.</h5>
                 <div class="metade" style="margin-top: 16px">

@@ -14,8 +14,8 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit10/Listening/completo.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 10/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear"></div>
                 <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
                 <div class="metade" style="margin-top: 16px">

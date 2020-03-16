@@ -27,6 +27,9 @@
                     <li><p>SECRET</p></li>
                     <li><p>LIMIT</p></li>
                 </ul>
+
+                <p><b>T</b>omorrow the <b>t</b>eacher wants to go beyond the limi<b>t</b>. Our participation is a secre<b>t</b>. The
+                expec<b>t</b>ation for ou<b>r</b> presen<b>ta</b>tion is very high.</p>
                 
 			</div>
 		</div>

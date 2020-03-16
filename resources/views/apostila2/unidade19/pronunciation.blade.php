@@ -14,7 +14,7 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 19/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 19/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear espacamento"></div>
                 <p class="esquerda" style="color:green;">ow sound /aʊ/</p>

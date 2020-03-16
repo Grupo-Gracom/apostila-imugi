@@ -14,8 +14,8 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Listening/completo.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila2/UNIT 6/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+				</audio>
                 <div class="clear"></div>
                 <div class="metade" style="margin-top: 16px">
                     <form id="unidade6listening128" method="post">
