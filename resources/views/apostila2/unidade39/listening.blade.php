@@ -17,8 +17,8 @@
 					<source src="{{ asset('assets/audio/Unit39/Listening/completo.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -   Listen to the audio and answer the questions below.</h5>
-                <div class="metade" style="margin-top: 16px">
+                <h5 class="barlow" style="margin-top:16px">A -   Listen to the audio and answer the questions below.</h5>
+                <div class="metade">
                     <form id="unidade39listening288" method="post">
                         <p> 
                             <p>

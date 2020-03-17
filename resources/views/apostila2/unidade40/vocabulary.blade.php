@@ -17,33 +17,27 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 40/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO TAKE / a bus / a decision / a shower / a break / a nap / a chance</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO THINK / about something- someone / once / twice / over and over</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO TRY / hard / to do something / a new dish / a different food</b></ol>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO TAKE </b>/ a bus / a decision / a shower / a break / a nap / a chance</p>
+					<p><b>TO THINK </b>/ about something- someone / once / twice / over and over</p>
+					<p><b>TO TRY </b>/ hard / to do something / a new dish / a different food</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 40/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>Find</b></li>
-						<li><b>won</b></li>
-						<li><b>Trying</b></li>
-						<li><b>Cheese</b></li>
-						<li><b>Trap</b></li>
-						<li><b>Close</b></li>
-						<li><b>Funny</b></li>
-						<li><b>Recites </b></li>
-						<li><b>Take</b></li>
-						<li><b>place</b></li>
-					</ul>
-				</div>
+				<ul class="lista-inline upper" style="margin-top: 36px">
+					<li><p><b>Find</b></p></li>
+					<li><p><b>won</b></p></li>
+					<li><p><b>Trying</b></p></li>
+					<li><p><b>Cheese</b></p></li>
+					<li><p><b>Trap</b></p></li>
+					<li><p><b>Close</b></p></li>
+					<li><p><b>Funny</b></p></li>
+					<li><p><b>Recites</b></p></li>
+					<li><p><b>Take</b></p></li>
+					<li><p><b>place</b></p></li>
+				</ul>
 			</div>
 		</div>
 	</main>

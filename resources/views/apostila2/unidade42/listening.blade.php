@@ -21,15 +21,15 @@
                 <form class="metade" id="unidade42listening306" method="post">
                     <p>
                         1 - Where is the meeting gonna happen?                        
-                        <input type="text" placeholder="responda aqui !" name="listening306-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="listening306-1" class="full left-align" required>
                     </p>
                     <p>                    
                         2 - What does the speaker say about London?
-                        <input type="text" placeholder="responda aqui !" name="listening306-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="listening306-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - What famous person he mentions and what happened with him?
-                        <input type="text" placeholder="responda aqui !" name="listening306-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="listening306-3" class="full left-align" required>
                     </p>               
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

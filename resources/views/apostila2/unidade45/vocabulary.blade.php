@@ -17,24 +17,24 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 45/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" class="espacamento">A -  WORDS AND EXPRESSIONS</h5>				                                   
-				<ul class="lista-inline">
-					<li><b>TO CANCEL / a meeting / a date</b></li>
-					<li><b>TO CRY / TO BREAK INTO TEARS / TO WEEP</b></li>
-					<li><b>TO FALL / in love / from a tree / down</b></li>													
-				</ul>				
+				<div class="espacamento">
+					<p><b>TO CANCEL </b>/ a meeting / a date</p>
+					<p><b>TO CRY </b>/ TO BREAK INTO TEARS / TO WEEP</p>
+					<p><b>TO FALL </b>/ in love / from a tree / dow><p>
+				</div>				
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>	
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 45/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<ul class="lista-inline">
-					<li><b>Grampa</b></li>
-					<li><b>Fiction</b></li>
-					<li><b>Changing</b></li>
-					<li><b>Slow</b></li>
-					<li><b>Avoided</b></li>
-					<li><b>Minds</b></li>
-					<li><b>Mediate</b></li>
-					<li><b>disagreement</b></li>								
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Grampa</b></p></li>
+					<li><p><b>Fiction</b></p></li>
+					<li><p><b>Changing</b></p></li>
+					<li><p><b>Slow</b></p></li>
+					<li><p><b>Avoided</b></p></li>
+					<li><p><b>Minds</b></p></li>
+					<li><p><b>Mediate</b></p></li>
+					<li><p><b>disagreement</b></p></li>						
 				</ul>
 			</div>
 		</div>

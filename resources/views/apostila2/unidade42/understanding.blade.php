@@ -15,23 +15,23 @@
                 <form class="metade" id="unidade42understanding307" method="post">                                                   
                     <p>
                         1 - What happened with the students after they watched the animations?                        
-                        <input type="text" placeholder="responda aqui !" name="understanding307-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding307-1" class="full left-align" required>
                     </p>
                     <p>                    
                         2 - What does John say about Gleen’s advice?
-                        <input type="text" placeholder="responda aqui !" name="understanding307-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding307-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - What did the students want to do at first?
-                        <input type="text" placeholder="responda aqui !" name="understanding307-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding307-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - Where does the story take place?
-                        <input type="text" placeholder="responda aqui !" name="understanding307-4" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding307-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - What do they say about the characters ?
-                        <input type="text" placeholder="responda aqui !" name="understanding307-5" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding307-5" class="full left-align" required>
                     </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

@@ -18,7 +18,7 @@
 				</audio>
                 <div class="clear"></div>
 
-                <ul class="lista-inline">
+                <ul class="lista-inline upper" style="margin-top:16px">
                     <li><p><b>d sound /d/</b></p></li>
                     <li><p>DESCRIBE</p></li>
                     <li><p>DIGITAL</p></li>
@@ -28,7 +28,7 @@
                     <li><p>RECOMMEND</p></li>
                 </ul>
 
-                <p>I’m rea<b>d</b>y to <b>d</b>escribe an<b>d</b> recommen<b>d</b> the <b>d</b>igital vi<b>d</b>eo for an awar<b>d</b> nomination.</p>
+                <p style="margin-top:32px">I’m rea<b>d</b>y to <b>d</b>escribe an<b>d</b> recommen<b>d</b> the <b>d</b>igital vi<b>d</b>eo for an awar<b>d</b> nomination.</p>
                 
 			</div>
 		</div>

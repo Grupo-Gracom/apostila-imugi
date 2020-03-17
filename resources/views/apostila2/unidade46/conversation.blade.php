@@ -18,7 +18,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 46/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Ok guys. How’s everything? What about the development of the story? Is everything ok?
+				<p style="margin-top: 16px"><b>Gleen:</b> Ok guys. How’s everything? What about the development of the story? Is everything ok?
 					Students: So far so good. Everything under control teacher. The characters are ready.
 					Now we are working on the story. What’s gonna happen exactly.</p>
 				<p><b>Gleen:</b> Cool guys. There are many strategies to tell a story. It can be either linear or out
@@ -30,7 +30,7 @@
 					my opinion it’s more challenging for us to produce and have a good result.
 					(to be continued)</p>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit46/conversation.png') }}" alt="filmes">
 				</figure>
 			</div>
 		</div>

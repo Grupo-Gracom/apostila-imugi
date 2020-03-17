@@ -16,17 +16,19 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 44/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
-                <div class="clear espacamento"></div>                             
-                <h5 class="barlow">Improving pronunciation - / k / / q /.</h5>
-                <div class="metade esquerda center-align">
-                    <p><b>K</b>angaroo</p>
-                    <p>Wa<b>k</b>e</p>
-                    <p><b>K</b>oo<b>k</b></p>                    
-                </div>
-                <div class="metade direita center-align">
-                    <p><b>K</b>now</p>
-                    <p><b>Quo</b>te</p>
-                    <p><b>Que</b>stion</p>                    
+                <div class="clear espacamento"></div>  
+                <h5 class="barlow"style="margin-top:16px">Improving pronunciation - / k / / q /.</h5>                           
+                <div class="metade">
+                    <div class="metade esquerda">
+                        <p><b>K</b>angaroo</p>
+                        <p>Wa<b>k</b>e</p>
+                        <p><b>K</b>oo<b>k</b></p>                    
+                    </div>
+                    <div class="metade direita">
+                        <p><b>K</b>now</p>
+                        <p><b>Quo</b>te</p>
+                        <p><b>Que</b>stion</p>                    
+                    </div>
                 </div>
                 <div class="clear"></div>                             
 			</div>

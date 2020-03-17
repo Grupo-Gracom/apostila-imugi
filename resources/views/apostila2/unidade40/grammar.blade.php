@@ -19,32 +19,33 @@
                 <div class="clear"></div>
                 <div style="margin-top: 16px">
                     <h5 class="barlow" style="margin-top: 16px">A - RELATIVE PRONOUNS – WHICH,THAT</h5>
-                    <table class="metade espacamento center-align">
-                        <tr>
-                            <td><h5 class="barlow">RELATIVE PRONOUNS</h5></td>
-                            <td><h5 class="barlow">EXAMPPLES</h5></td>
-                        </tr>
-                        <tr>
-                            <td ><h5 class="barlow">WHICH (Used for things, animals and places)</h5></td>
-                            <td>
-                                <p>A: I watched the anime.</p>  
-                                <p>B: The anime shows a mouse speaking.</p>
-                                <p>A+B= I watched the anime which shows a mouse speaking. (Defining sentence)</p><br>
-                                <p>A: The anime was fantastic.</p>
-                                <p>B: It shows a mouse speaking</p>
-                                <p>A+B= The anime, which shows a mouse speaking, is fantastic. (extra information)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><h5 class="barlow">THAT (Used for people and things)</h5></td>
-                            <td>
-                                <p>I watched the anime which/that shows a mouse speaking. (Defining sentence)</p><br> 
-                                <p>That is used only in defining sentences. We don't use it in extra information sentences.</p>
-                            </td>
-                        </tr>
-                    </table> 
-
-                    <h5 class="barlow" style="margin-top: 32px">EXERCISES</h5>
+                    <div class="metade">
+                        <table class="espacamento center-align">
+                            <tr>
+                                <td><h5 class="barlow"><b>RELATIVE PRONOUNS</b></h5></td>
+                                <td><h5 class="barlow">EXAMPPLES</h5></td>
+                            </tr>
+                            <tr>
+                                <td ><h5 class="barlow">WHICH (Used for things, animals and places)</h5></td>
+                                <td>
+                                    <p>A: I watched the anime.</p>  
+                                    <p>B: The anime shows a mouse speaking.</p>
+                                    <p>A+B= I watched the anime which shows a mouse speaking. (Defining sentence)</p><br>
+                                    <p>A: The anime was fantastic.</p>
+                                    <p>B: It shows a mouse speaking</p>
+                                    <p>A+B= The anime, which shows a mouse speaking, is fantastic. (extra information)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><h5 class="barlow">THAT (Used for people and things)</h5></td>
+                                <td>
+                                    <p>I watched the anime which/that shows a mouse speaking. (Defining sentence)</p><br> 
+                                    <p>That is used only in defining sentences. We don't use it in extra information sentences.</p>
+                                </td>
+                            </tr>
+                        </table> 
+                    </div>
+                    <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">1 - Fill in the blanks with WHICH.</h5>            
                     <form id="unidade40grammar290" style="margin-top:32px" method="post">
                         <div class="metade">
@@ -123,17 +124,15 @@
 
                 <h5 class="barlow">3 - Construct sentences with the cue words. Use WHICH or WHO.</h5>            
                 <form id="unidade40grammar292" style="margin-top:32px" method="post">
-                    <div class="metade">
-                        <p>
-                            <p>1. vase / costs $500. Don’t touch it! <input type="text" name="grammar292-1" placeholder="Responda aqui" required/> That’s the vase which costs $500. <input type="text" name="grammar291-2" placeholder="Responda aqui" required/></p>
-                            <p>2. girl / is always late. Don’t wait for her! <input type="text" name="grammar292-3" placeholder="Responda aqui" required/> That’s the girl who is always late. <input type="text" name="grammar291-4" placeholder="Responda aqui" required/></p>
-                            <p>3. letter / came for my father. Don’t open it! <input type="text" name="grammar292-5" placeholder="Responda aqui" required/></p>
-                            <p>4. man / gave me the wrong directions. Don’t listen to him! <input type="text" name="grammar292-6" placeholder="Responda aqui" required/></p>
-                            <p>5. dress / got dirty. Don’t wear it! <input type="text" name="grammar292-7" placeholder="Responda aqui" required/></p>
-                            <p>6. bus / goes to New York. Don’t get on it! <input type="text" name="grammar292-8" placeholder="Responda aqui" required/></p>
-                            <p>7. woman / told everyone my secret. Don’t tell her! <input type="text" name="grammar292-9" placeholder="Responda aqui" required/></p>
-                        </p>
-                    </div>
+                    <p>
+                        <p>1. vase / costs $500. Don’t touch it! <input type="text" name="grammar292-1" placeholder="Responda aqui" required/> That’s the vase which costs $500. <input type="text" name="grammar291-2" placeholder="Responda aqui" required/></p>
+                        <p>2. girl / is always late. Don’t wait for her! <input type="text" name="grammar292-3" placeholder="Responda aqui" required/> That’s the girl who is always late. <input type="text" name="grammar291-4" placeholder="Responda aqui" required/></p>
+                        <p>3. letter / came for my father. Don’t open it! <input type="text" name="grammar292-5" placeholder="Responda aqui" required/></p>
+                        <p>4. man / gave me the wrong directions. Don’t listen to him! <input type="text" name="grammar292-6" placeholder="Responda aqui" required/></p>
+                        <p>5. dress / got dirty. Don’t wear it! <input type="text" name="grammar292-7" placeholder="Responda aqui" required/></p>
+                        <p>6. bus / goes to New York. Don’t get on it! <input type="text" name="grammar292-8" placeholder="Responda aqui" required/></p>
+                        <p>7. woman / told everyone my secret. Don’t tell her! <input type="text" name="grammar292-9" placeholder="Responda aqui" required/></p>
+                    </p>
                     <div class="clear"></div>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -148,7 +147,7 @@
                     </figure>
                 </div>
 
-                <h5 class="barlow metade" style="margin-top: 36px">4 - Think of a game, movie, anime and write 5 sentences about it. Use WHICH/THAT to give information about it.</h5>    
+                <h5 class="barlow" style="margin-top: 36px">4 - Think of a game, movie, anime and write 5 sentences about it. Use WHICH/THAT to give information about it.</h5>    
                 <form id="unidade40grammar293" method="post">
                     <textarea name="grammar293-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 

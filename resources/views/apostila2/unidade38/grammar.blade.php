@@ -180,7 +180,6 @@
 
                 <h5 class="barlow">2 - Use the GERUND or INFINITIVE forms of the verbs in brackets:</h5>            
                     <form id="unidade38grammar280" style="margin-top:32px" method="post">
-                        <div class="metade">
                             <p>
                                 <p>
                                     1. After she had decided <input type="text" name="grammar280-1" placeholder="Responda aqui" required/> (stay) in Turkey, she got used to <input type="text" name="grammar280-2" placeholder="Responda aqui" required/> (eat) Turkish foods.
@@ -213,8 +212,6 @@
                                     10. His doctor advised him <input type="text" name="grammar280-13" placeholder="Responda aqui" required/> (give up) <input type="text" name="grammar280-14" placeholder="Responda aqui" required/> (sit) up late at night?
                                 </p>
                             </p>
-                        </div>
-
                         <div class="clear"></div>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

@@ -15,23 +15,23 @@
                 <form class="metade" id="unidade41understanding301" method="post">                                   
                     <p>
                         1 - What did Gleen ask the students to do?                        
-                        <input type="text" placeholder="responda aqui !" name="understanding189-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding189-1" class="full left-align" required>
                     </p>
                     <p>                    
                         2 - What did Akira say about the video?
-                        <input type="text" placeholder="responda aqui !" name="understanding189-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding189-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - What did John see?
-                        <input type="text" placeholder="responda aqui !" name="understanding189-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding189-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - What does John speak about what he saw?
-                        <input type="text" placeholder="responda aqui !" name="understanding189-4" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding189-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - What does Gleen say about acting?
-                        <input type="text" placeholder="responda aqui !" name="understanding189-5" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding189-5" class="full left-align" required>
                     </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

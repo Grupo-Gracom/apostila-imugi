@@ -16,15 +16,14 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 41/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
-                <div class="clear espacamento"></div>                             
-                <p class="esquerda" style="color:green;">Improving pronunciation - / g / / j /</p>           
-                <div class="clear"></div>
-                <p><b>G</b>eorge <b>g</b>oes to the <b>g</b>ym by jeep.
-                Jane <b>g</b>enerally jo<b>g</b>s in January with <b>G</b>eena and <b>G</b>ary.
-                Joanna enjoys Jazz at <b>G</b>utemberg’s club.
-                Jelly, <b>g</b>ooseberry jam and juice is Jim and <b>G</b>eorge’s favorite breakfast.
-                <b>G</b>ee, Jim <b>G</b>oldber<b>g</b>, the Jewish <b>g</b>uy, jumps just like a ja<b>g</b>uar.
-                <b>J</b>ames is <b>j</b>olly <b>g</b>ood at <b>G</b>ymnastics.</p>
+                <div class="clear"></div>                             
+                <h5 class="barlow" style="margin-top:16px">Improving pronunciation - / g / / j /</h5>           
+                <p style="margin-top:32px"><b>G</b>eorge <b>g</b>oes to the <b>g</b>ym by jeep.</p>
+                <p>Jane <b>g</b>enerally jo<b>g</b>s in January with <b>G</b>eena and <b>G</b>ary.</p>
+                <p>Joanna enjoys Jazz at <b>G</b>utemberg’s club.</p>
+                <p>Jelly, <b>g</b>ooseberry jam and juice is Jim and <b>G</b>eorge’s favorite breakfast.</p>
+                <p><b>G</b>ee, Jim <b>G</b>oldber<b>g</b>, the Jewish <b>g</b>uy, jumps just like a ja<b>g</b>uar.</p>
+                <p><b>J</b>ames is <b>j</b>olly <b>g</b>ood at <b>G</b>ymnastics.</p>
 			</div>
 		</div>
     </main>

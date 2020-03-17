@@ -16,19 +16,21 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 43/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
-                <div class="clear espacamento"></div>                             
-                <h5 class="barlow">Improving pronunciation - / x / with sound of / ks / . Pay attention to the exceptions.</h5>
-                <div class="metade esquerda center-align">
-                    <p>E<b>x</b>cuse</p>
-                    <p>E<b>x</b>pert</p>
-                    <p>O<b>x</b>ygen</p>
-                    <p>E<b>x</b>pedition</p>
-                </div>
-                <div class="metade direita center-align">
-                    <p>Se<b>x</b>y</p>
-                    <p>Wa<b>x</b></p>
-                    <p><b>x</b>erox (exception)</p>
-                    <p>E<b>x</b>ample (exception)</p>
+                <div class="clear"></div>                             
+                <h5 class="barlow" style="margin-top:16px">Improving pronunciation - / x / with sound of / ks / . Pay attention to the exceptions.</h5>
+                <div class="metade">
+                    <div class="metade esquerda center-align">
+                        <p>E<b>x</b>cuse</p>
+                        <p>E<b>x</b>pert</p>
+                        <p>O<b>x</b>ygen</p>
+                        <p>E<b>x</b>pedition</p>
+                    </div>
+                    <div class="metade direita center-align">
+                        <p>Se<b>x</b>y</p>
+                        <p>Wa<b>x</b></p>
+                        <p><b>x</b>erox (exception)</p>
+                        <p>E<b>x</b>ample (exception)</p>
+                    </div>
                 </div>
                 <div class="clear"></div>                             
 			</div>

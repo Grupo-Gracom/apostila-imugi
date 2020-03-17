@@ -15,23 +15,23 @@
                 <form class="metade" id="unidade43understanding312" method="post">                                                                
                     <p>
                         1 - What does Gleen say in the beginning of the class ?                        
-                        <input type="text" placeholder="responda aqui !" name="understanding312-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding312-1" class="full left-align" required>
                     </p>
                     <p>                    
                         2 - What’s Gleen’s opinion about the project?
-                        <input type="text" placeholder="responda aqui !" name="understanding312-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding312-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - What did the students start to do?
-                        <input type="text" placeholder="responda aqui !" name="understanding312-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding312-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - How many characters are there in the story?
-                        <input type="text" placeholder="responda aqui !" name="understanding312-4" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding312-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - What ideas are they following to create the characters?
-                        <input type="text" placeholder="responda aqui !" name="understanding312-5" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding312-5" class="full left-align" required>
                     </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

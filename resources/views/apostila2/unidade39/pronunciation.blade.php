@@ -17,14 +17,14 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 39/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>j sound /ʤ/  </b></li>        
-					<li>General</li>	
-					<li>Job</li>
-					<li>Original</li>
-					<li>Agent</li>
-					<li>Charge</li>
-					<li>Average</li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>j sound /ʤ/  </b></p></li>        
+					<li><p>General</p></li>	
+					<li><p>Job</p></li>
+					<li><p>Original</p></li>
+					<li><p>Agent</p></li>
+					<li><p>Charge</p></li>
+					<li><p>Average</p></li>
 				</ul>
 				<p style="margin-top:32px">The ori<b>g</b>inal job of the <b>g</b>eneral a<b>g</b>ent is to char<b>g</b>e an avera<b>g</b>e fee, and not a percenta<b>g</b>e of it.</p>
 				<div class="clear"></div>

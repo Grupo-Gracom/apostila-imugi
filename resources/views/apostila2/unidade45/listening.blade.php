@@ -20,15 +20,15 @@
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                                
                 <form class="quasefull" id="unidade45listening322" method="post">
                     
-                    <p>In our last <input type="text" placeholder="responda aqui !" name="listening322-1" class="inputpequeno left-align" required>,
-                    Mark, the magazine director <input type="text" placeholder="responda aqui !" name="listening322-2" class="inputpequeno left-align" required>
-                    many things that he liked about our job. <input type="text" placeholder="responda aqui !" name="listening322-3" class="inputpequeno left-align" required>
+                    <p>In our last <input type="text" placeholder="Responda aqui" name="listening322-1" class="inputpequeno left-align" required>,
+                    Mark, the magazine director <input type="text" placeholder="Responda aqui" name="listening322-2" class="inputpequeno left-align" required>
+                    many things that he liked about our job. <input type="text" placeholder="Responda aqui" name="listening322-3" class="inputpequeno left-align" required>
                     the quality of the job, other elements must be considered when you 
-                    <input type="text" placeholder="responda aqui !" name="listening322-4" class="inputpequeno left-align" required>
+                    <input type="text" placeholder="Responda aqui" name="listening322-4" class="inputpequeno left-align" required>
                     a company to be with you in a project. They told us that the 
-                    <input type="text" placeholder="responda aqui !" name="listening322-5" class="inputpequeno left-align" required>
-                    and the <input type="text" placeholder="responda aqui !" name="listening322-6" class="inputpequeno left-align" required>t were
-                    key elements to consider us for a next job. <input type="text" placeholder="responda aqui !" name="listening322-7" class="inputpequeno left-align" required>
+                    <input type="text" placeholder="Responda aqui" name="listening322-5" class="inputpequeno left-align" required>
+                    and the <input type="text" placeholder="Responda aqui" name="listening322-6" class="inputpequeno left-align" required>t were
+                    key elements to consider us for a next job. <input type="text" placeholder="Responda aqui" name="listening322-7" class="inputpequeno left-align" required>
                     these details, they decided to have us with them in the next magazine.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

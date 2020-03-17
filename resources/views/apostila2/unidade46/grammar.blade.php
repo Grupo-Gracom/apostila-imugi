@@ -25,8 +25,8 @@
                 <p>Either … or.</p>
                 <table class="left-align">
                     <tr>
-                        <td><p><b>Sentences / information</b></p></td>
-                        <td><p><b>Connected sentences</b></p></td>
+                        <td><h5 class="barlow">Sentences / information</h5></td>
+                        <td><h5 class="barlow">Connected sentences</h5></td>
                     </tr>
                     <tr>
                         <td><p>a. We could <b>live</b> in New York.</p></td>
@@ -61,58 +61,58 @@
 
                 <p>Have in mind that the verb of the second sentence always agrees with the subject of the second sentence.</p>
                 
-                <br>
-                <p class="barlow">1) Use EITHER ……. OR …… .</p>
+                <h5 class+="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
+                <h5 class="barlow">1 - Use EITHER ……. OR …… .</h5>
                 <form id="unidade46grammar324" class="metade" action="post">                    
                     <p>1. John has your book, or Mary has your book. Is that right?</p>
                     <p><b>Yes, either John or Mary has my book.</b></p>
                     <p>
-                       2. You’re going to give your friend a book for her birthday, or you’re going to give her a pen. Is that right?
-                       <input type="text" name="grammar324-1" class="full left-align" placeholder="Responda aqui" required>
+                        2. You’re going to give your friend a book for her birthday, or you’re going to give her a pen. Is that right?
+                        <input type="text" name="grammar324-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       3. Your sister will meet you at the airport, or your brother will meet you there. Right?
-                       <input type="text" name="grammar324-2" class="full left-align" placeholder="Responda aqui" required>
+                        3. Your sister will meet you at the airport, or your brother will meet you there. Right?
+                        <input type="text" name="grammar324-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       4. They can go swimming, or they can play tennis. Is that right?
-                       <input type="text" name="grammar324-3" class="full left-align" placeholder="Responda aqui" required>
+                        4. They can go swimming, or they can play tennis. Is that right?
+                        <input type="text" name="grammar324-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       5. You’re going to vote for Mr. Smith, or you’re going to vote for Mr. Jones. Right?
-                       <input type="text" name="grammar324-4" class="full left-align" placeholder="Responda aqui" required>
+                        5. You’re going to vote for Mr. Smith, or you’re going to vote for Mr. Jones. Right?
+                        <input type="text" name="grammar324-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       6. You’ll go to New Orleans for your vacation, or you’ll go to Miami. Right?
-                       <input type="text" name="grammar324-5" class="full left-align" placeholder="Responda aqui" required>
+                        6. You’ll go to New Orleans for your vacation, or you’ll go to Miami. Right?
+                        <input type="text" name="grammar324-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       7. I’m going to buy only one of these shirts. One is red, the other is blue.
-                       <input type="text" name="grammar324-6" class="full left-align" placeholder="Responda aqui" required>
+                        7. I’m going to buy only one of these shirts. One is red, the other is blue.
+                        <input type="text" name="grammar324-6" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       8. We could have lunch at home, but we could also go out to eat.
-                       <input type="text" name="grammar324-7" class="full left-align" placeholder="Responda aqui" required>
+                        8. We could have lunch at home, but we could also go out to eat.
+                        <input type="text" name="grammar324-7" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       9. In a game, it all depends on you. You can win or lose.
-                       <input type="text" name="grammar324-8" class="full left-align" placeholder="Responda aqui" required>
+                        9. In a game, it all depends on you. You can win or lose.
+                        <input type="text" name="grammar324-8" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       10. You can take my offer or leave it. It’s up to you.
-                       <input type="text" name="grammar324-9" class="full left-align" placeholder="Responda aqui" required>
+                        10. You can take my offer or leave it. It’s up to you.
+                        <input type="text" name="grammar324-9" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       11. When I go to restaurants, sometimes I eat fish an sometimes I eat meat. It depends on my mood.
-                       <input type="text" name="grammar324-10" class="full left-align" placeholder="Responda aqui" required>
+                        11. When I go to restaurants, sometimes I eat fish an sometimes I eat meat. It depends on my mood.
+                        <input type="text" name="grammar324-10" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       12. Call Charlie or Bill. Anyone of them can prepare the report.
-                       <input type="text" name="grammar324-11" class="full left-align" placeholder="Responda aqui" required>
+                        12. Call Charlie or Bill. Anyone of them can prepare the report.
+                        <input type="text" name="grammar324-11" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       13.  When you find a lost wallet you have two option. Call the police or call the owner if you have the number.
-                       <input type="text" name="grammar324-12" class="full left-align" placeholder="Responda aqui" required>
+                        13.  When you find a lost wallet you have two option. Call the police or call the owner if you have the number.
+                        <input type="text" name="grammar324-12" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     
                     <div class="clear"></div> 
@@ -123,11 +123,10 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 <br>
-                <p class="barlow">2) As a visual art professional, what suggestions would you give for a person who wants to improve his/her
-                    Story Telling Skill. Use EITHER / OR to write your suggestions. Be prepared to present your ideas to your classmates.</p>
-                <form id="unidade46grammar325" class="metade" action="post">       
-
-                    <textarea name="grammar325-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
+                <h5 class="barlow">2 - As a visual art professional, what suggestions would you give for a person who wants to improve his/her
+                    Story Telling Skill. Use EITHER / OR to write your suggestions. Be prepared to present your ideas to your classmates.</h5>
+                <form id="unidade46grammar325" action="post">       
+                    <textarea name="grammar325-1" class="metade left-align" placeholder="Responda aqui"></textarea>
                                         
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -136,7 +135,6 @@
                     <input type="hidden" name="atividade_id" value="325">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                                  
 			</div>
 		</div>
     </main>

@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 38/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<table class="metade center-align" style="margin-top:16px">
+				<table class="metade espacamento center-align" style="margin-top:16px">
 					<tr>
 						<td colspan="3"><h5 class="barlow">Improving pronunciation - / g /</h5></td>
 					</tr>

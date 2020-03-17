@@ -15,23 +15,23 @@
                 <div class="metade">
                     <form id="unidade46understanding327" method="post">
                         <p>
-                            1. What part of the project are the students doing ?<br>
+                            1. What part of the project are the students doing ?
                             <input type="text" name="understanding327-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            2. What do they say about the characters ?<br>
+                            2. What do they say about the characters ?
                             <input type="text" name="understanding327-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            3. What does Gleen say about strategies to tell a story ?<br>
+                            3. What does Gleen say about strategies to tell a story ?
                             <input type="text" name="understanding327-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            4. What does Gleen suggest regarding the story ?<br>
+                            4. What does Gleen suggest regarding the story ?
                             <input type="text" name="understanding327-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            5. What’s Akira reaction to Gleen’s hints ?<br>
+                            5. What’s Akira reaction to Gleen’s hints ?
                             <input type="text" name="understanding327-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
@@ -42,15 +42,6 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
-                </div>
-
 			</div>
 		</div>
     </main>

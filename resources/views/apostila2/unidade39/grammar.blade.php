@@ -20,45 +20,46 @@
                 <div style="margin-top: 16px">
                     <h5 class="barlow" style="margin-top: 16px">A - RELATIVE PRONOUNS – WHO, WHOM, THAT</h5>
                     <p>We use <b>relative pronouns (who, whom, that)</b> to avoid repetitions and connect sentences.</p>
-                    <table class="metade espacamento center-align">
-                        <tr>
-                            <td><h5 class="barlow">RELATIVE PRONOUNS</h5></td>
-                            <td><h5 class="barlow">EXAMPPLES</h5></td>
-                        </tr>
-                        <tr>
-                            <td ><h5 class="barlow">WHO (Used for people)</h5></td>
-                            <td>
-                                <p>A: I saw a new person in the school yesterday.</p>  
-                                <p>B: He was in Gleen's classroom.</p>
-                                <p>A+B= He is the new person who was in Akira's classroom. (Defining sentence)</p><br>
-                                <p>A: Paul works till late</p>
-                                <p>B: Paul is a web designer.</p>
-                                <p>A+B= Paul, who is a web designer, works till late. (extra information)</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><h5 class="barlow">WHOM (Used for people - Formal)</h5></td>
-                            <td>
-                                <p>A: I talked to my client yesterday.</p>  
-                                <p>B: My client works in NY.</p>
-                                <p>A+B= My client, to whom I talked yesterday, works in NY.</p><br>
-                                <p>
-                                    Whom, in general, is introduced by a preposition
-                                    (to, for, with …). It’s not very used in everyday
-                                    conversations. It’s usually replaced by Who. 
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><h5 class="barlow">THAT (Used for people and things)</h5></td>
-                            <td>
-                                <p>He is the new person who/that was in Gleen's classroom. (Defining sentense)</p><br>
-                                <p>That is used only in defining sentences. We don't use it in extra information sentences.<p>
-                            </td>
-                        </tr>
-                    </table> 
-
-                    <h5 class="barlow" style="margin-top: 32px">EXERCISES</h5>
+                    <div class="metade">
+                        <table class="espacamento center-align">
+                            <tr>
+                                <td><h5 class="barlow"><b>RELATIVE PRONOUNS</b></h5></td>
+                                <td><h5 class="barlow">EXAMPPLES</h5></td>
+                            </tr>
+                            <tr>
+                                <td ><h5 class="barlow">WHO (Used for people)</h5></td>
+                                <td>
+                                    <p>A: I saw a new person in the school yesterday.</p>  
+                                    <p>B: He was in Gleen's classroom.</p>
+                                    <p>A+B= He is the new person who was in Akira's classroom. (Defining sentence)</p><br>
+                                    <p>A: Paul works till late</p>
+                                    <p>B: Paul is a web designer.</p>
+                                    <p>A+B= Paul, who is a web designer, works till late. (extra information)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><h5 class="barlow">WHOM (Used for people - Formal)</h5></td>
+                                <td>
+                                    <p>A: I talked to my client yesterday.</p>  
+                                    <p>B: My client works in NY.</p>
+                                    <p>A+B= My client, to whom I talked yesterday, works in NY.</p><br>
+                                    <p>
+                                        Whom, in general, is introduced by a preposition
+                                        (to, for, with …). It’s not very used in everyday
+                                        conversations. It’s usually replaced by Who. 
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><h5 class="barlow">THAT (Used for people and things)</h5></td>
+                                <td>
+                                    <p>He is the new person who/that was in Gleen's classroom. (Defining sentense)</p><br>
+                                    <p>That is used only in defining sentences. We don't use it in extra information sentences.<p>
+                                </td>
+                            </tr>
+                        </table> 
+                    </div>
+                    <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">1 - Complete with WHO.</h5>            
                     <form id="unidade39grammar285" style="margin-top:32px" method="post">
                         <div class="metade">
@@ -172,7 +173,7 @@
                     </figure>
                 </div>
 
-                <h5 class="barlow metade" style="margin-top: 36px">3 - Write about a famous actor or actress. Use WHO/THAT to give information about him/her.</h5>    
+                <h5 class="barlow" style="margin-top: 36px">3 - Write about a famous actor or actress. Use WHO/THAT to give information about him/her.</h5>    
                 <form id="unidade39grammar287" method="post">
                     <textarea name="grammar287-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 

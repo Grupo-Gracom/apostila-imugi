@@ -18,39 +18,39 @@
 				</audio>
                 <div class="clear"></div>                
                 <h5 class="barlow" style="margin-top:16px;">RELATIVE PRONOUNS – WHOSE</h5>
-                <div class="espacamento">                                
-                    <table class="metade esquerda">           
+                <div class="espacamento metade">                                
+                    <table class="center-align">           
                         <tr>
                             <td class="center-align"><h5 class="barlow">RELATIVE PRONOUNS</h5></td>                    														
+                            <td><h5 class="barlow">EXAMPPLES</h5></td> 
                         </tr>                                                    										
                         <tr>
-                            <td class="center-align"><p>WHOSE</p> 
-                            <p>(Used for sentences</p>
-                            <p>referring to possessions.</p> 
-                            <p>Usually replacing,</p>
-                            <p>his/her and their)</p></td>
+                            <td class="center-align">
+                                <p>WHOSE</p> 
+                                <p>(Used for sentences</p>
+                                <p>referring to possessions.</p> 
+                                <p>Usually replacing,</p>
+                                <p>his/her and their)</p>
+                            </td>
+                            <td>
+                                <p>
+                                    A: John plays over 100 concerts every year. B: His brother is also a musician.
+                                    A+B= John, whose brother is also a musician, plays 100
+                                    concerts every year.
+                                <p>
+                                <p style="margin-top:16px">
+                                    A: Jane the magazine editor.
+                                    B: Her brother lives in Canada.
+                                    A+B= Jane is the magazine editor whose brother
+                                    lives in Canada.
+                                <p>
+                            </td>
                         </tr>                                                               										
-                    </table>                
-                    <table class="metade direita">                                  
-                        <tr>
-                            <td><h5 class="barlow">EXAMPPLES</h5></td>                    														
-                        </tr>                                                    										
-                        <tr>
-                            <td><p>A: John plays over 100 concerts every year. B: His brother is also a musician.
-                            A+B= John, whose brother is also a musician, plays 100
-                            concerts every year.<p></td>
-                        </tr>                                                                   										
-                        <tr>
-                            <td><p>A: Jane the magazine editor.
-                            B: Her brother lives in Canada.
-                            A+B= Jane is the magazine editor whose brother
-                            lives in Canada.<p></td>
-                        </tr>                                                                   										
                     </table>
                 </div>
                 <div class="clear"></div>               
-                <h5 class="barlow">EXERCISES</h5>                
-                <h5 class="barlow">A - Combine the following sentences using WHOSE:</h5>                
+                <h5 class="barlow"><b>EXERCISES</b></h5>                
+                <h5 class="barlow">1 - Combine the following sentences using WHOSE:</h5>                
 				<form class="metade" id="unidade41grammar297" method="post">                                                                                                          
                     <p>
                         1 - This is my friend John. / His laptop was stolen this morning.                        
@@ -107,50 +107,50 @@
                     <input type="hidden" name="atividade_id" value="297">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>                
-                <h5 class="barlow">B -  Fill in the correct RELATIVE PRONOUN:</h5>
+                <h5 class="barlow">2 -  Fill in the correct RELATIVE PRONOUN:</h5>
 				<form id="unidade41grammar298" method="post">                                                                                           
-                    <p><b>1. </b>Did you see the man <input type="text" placeholder="responda aqui !" name="grammar298-1" class="inputpequeno left-align" required> 
+                    <p>1.  Did you see the man <input type="text" placeholder="responda aqui !" name="grammar298-1" class="inputpequeno left-align" required> 
                     WHO <input type="text" placeholder="responda aqui !" name="grammar298-2" class="inputpequeno left-align" required> stole her bag?</p>
-                    <p><b>2. </b>The eggs <input type="text" placeholder="responda aqui !" name="grammar298-3" class="inputpequeno left-align" required> 
+                    <p>2.  The eggs <input type="text" placeholder="responda aqui !" name="grammar298-3" class="inputpequeno left-align" required> 
                     you’ve bought are bad.</p>
-                    <p><b>3. </b>Please give me the keys 
+                    <p>3.  Please give me the keys 
                     <input type="text" placeholder="responda aqui !" name="grammar298-4" class="inputpequeno left-align" required> are on the table.</p>
-                    <p><b>4. </b>Is that man <input type="text" placeholder="responda aqui !" name="grammar298-5" class="inputpequeno left-align" required> 
+                    <p>4.  Is that man <input type="text" placeholder="responda aqui !" name="grammar298-5" class="inputpequeno left-align" required> 
                     we saw in the park yesterday?</p>
-                    <p><b>5. </b>What’s the name of the lady 
+                    <p>5.  What’s the name of the lady 
                     <input type="text" placeholder="responda aqui !" name="grammar298-6" class="inputpequeno left-align" required> babysits for you?</p>
-                    <p><b>6. </b>Tom is playing with the dog 
+                    <p>6.  Tom is playing with the dog 
                     <input type="text" placeholder="responda aqui !" name="grammar298-7" class="inputpequeno left-align" required> lives next door.</p>
-                    <p><b>7. </b>Have you eaten all the cakes 
+                    <p>7.  Have you eaten all the cakes 
                     <input type="text" placeholder="responda aqui !" name="grammar298-8" class="inputpequeno left-align" required> I made yesterday?</p>
-                    <p><b>8. </b>How old is the man 
+                    <p>8.  How old is the man 
                     <input type="text" placeholder="responda aqui !" name="grammar298-9" class="inputpequeno left-align" required> owns this shop?</p>
-                    <p><b>9. </b>Let’s all look at the picture 
+                    <p>9.  Let’s all look at the picture 
                     <input type="text" placeholder="responda aqui !" name="grammar298-10" class="inputpequeno left-align" required> is on page 7.</p>
-                    <p><b>10.</b>Has Peter returned the money 
+                    <p>10. Has Peter returned the money 
                     <input type="text" placeholder="responda aqui !" name="grammar298-11" class="inputpequeno left-align" required> he borrowed from you?</p>
-                    <p><b>11.</b>What color is the dress 
+                    <p>11. What color is the dress 
                     <input type="text" placeholder="responda aqui !" name="grammar298-12" class="inputpequeno left-align" required> you’re going to wear tonight?</p>
-                    <p><b>12.</b>The police have arrested the man 
+                    <p>12. The police have arrested the man 
                     <input type="text" placeholder="responda aqui !" name="grammar298-13" class="inputpequeno left-align" required> murdered his wife.</p>
-                    <p><b>13.</b>The parcel <input type="text" placeholder="responda aqui !" name="grammar298-14" class="inputpequeno left-align" required> 
+                    <p>13  The parcel <input type="text" placeholder="responda aqui !" name="grammar298-14" class="inputpequeno left-align" required> 
                     is on the table is your birthday present.</p>
-                    <p><b>14.</b>Have you met the man 
+                    <p>14. Have you met the man 
                     <input type="text" placeholder="responda aqui !" name="grammar298-15" class="inputpequeno left-align" required> Jackie is going to marry?</p>
-                    <p><b>15.</b>We will ask the man 
+                    <p>15. We will ask the man 
                     <input type="text" placeholder="responda aqui !" name="grammar298-16" class="inputpequeno left-align" required> delivers our milk to leave 
                     an extra bottle.</p>
-                    <p><b>16.</b>Is she the person 
+                    <p>16. Is she the person 
                     <input type="text" placeholder="responda aqui !" name="grammar298-17" class="inputpequeno left-align" required> 
                     gave you this record?</p>
-                    <p><b>17.</b>We spent our holiday in a small town 
+                    <p>17. We spent our holiday in a small town 
                     <input type="text" placeholder="responda aqui !" name="grammar298-18" class="inputpequeno left-align" required> 
                     is near the sea.</p>
-                    <p><b>18.</b>The man <input type="text" placeholder="responda aqui !" name="grammar298-19" class="inputpequeno left-align" required> 
+                    <p>18. The man <input type="text" placeholder="responda aqui !" name="grammar298-19" class="inputpequeno left-align" required> 
                     married Kate is a millionaire.</p>
-                    <p><b>19.</b>Where are the shoes 
+                    <p>19. Where are the shoes 
                     <input type="text" placeholder="responda aqui !" name="grammar298-20" class="inputpequeno left-align" required> I bought this morning?</p>
-                    <p><b>20.</b>I still write to that lady 
+                    <p>20. I still write to that lady 
                     <input type="text" placeholder="responda aqui !" name="grammar298-21" class="inputpequeno left-align" required> I met twenty years ago.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -158,10 +158,10 @@
                     <input type="hidden" name="atividade_id" value="298">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow" class="espacamento">C - Think of a Marvel or Dc Comics super hero and write 8 to 10 sentences about him/her.
+                <h5 class="barlow" class="espacamento">3 - Think of a Marvel or Dc Comics super hero and write 8 to 10 sentences about him/her.
                 Use WHO and WHOSE to give information about him/her</h5>    
                 <form id="unidade41grammar299" method="post">
-                    <textarea name="grammar299-1" class="center-align" placeholder="Responda aqui" required></textarea>
+                    <textarea name="grammar299-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

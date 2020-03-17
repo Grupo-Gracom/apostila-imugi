@@ -18,14 +18,14 @@
                 </audio>
                 <div class="clear"></div>                
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and answer the questions below.</h5>                                
-                <form class="quasefull" id="unidade44listening317" method="post">
+                <form  id="unidade44listening317" method="post" class="metade">
                     <p>
                         1 - What are the advantages of working for a big company?                        
-                        <input type="text" placeholder="responda aqui !" name="listening317-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="listening317-1" class="full left-align" required>
                     </p>
                     <p>                    
                         2 - What is slower in a small company?
-                        <input type="text" placeholder="responda aqui !" name="listening317-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="listening317-2" class="full left-align" required>
                     </p> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

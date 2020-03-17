@@ -17,87 +17,65 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 44/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>                
-                <h5 class="barlow" style="margin-top:16px;">CONJUNCTIONS FOR CONTRASTING INFORMATION.</h5>
-                <p>We use <B>contrasting connectors,</B> to connect sentences expressing the idea of contrast.</p>
-                <div class="espacamento">
-                    <table class="bordered">           
+                <h5 class="barlow" style="margin-top:16px;">A - CONJUNCTIONS FOR CONTRASTING INFORMATION.</h5>
+                <p>We use <b>contrasting connectors,</b> to connect sentences expressing the idea of contrast.</p>
+                <div class="metade">
+                    <table class="center-align">           
                         <tr>
-                            <td class="center-align bordered"><h5 class="barlow">Contrasting information</h5></td>                                                         														
+                            <td><h5 class="barlow">Contrasting information</h5></td>                                                         														
                         </tr>                                                                             										
                         <tr>
-                            <td class="center-align bordered"><p>But , however, yet, though , although, even though, despite,
+                            <td><p>But , however, yet, though , although, even though, despite,
                             despite the fact, in spite of, on the other hand, on the other side,</p></td>                                                         														
                         </tr>                                                                             										
                     </table>                 
-                </div>
-                <div class="clear"></div>               
-                <div class="espacamento">                                
-                    <table class="bordered esquerda">           
-                        <tr>
-                            <td class="center-align bordered"><h5 class="barlow">Sentences / information</h5></td>                                                         														
+                    <table class="center-align">           
+                        <tr class="bordered">
+                            <td><h5 class="barlow">Sentences / information</h5></td>   
+                            <td><h5 class="barlow">Connected sentences / information</h5></td>                                                      														
                         </tr>                                                                             										
-                        <tr>
-                            <td class="center-align bordered"><p>a.Cinema 4D is a <b>fast</b> software.</p></td>                                                         														
-                        </tr>                                                                             										
-                        <tr>
-                            <td class="center-align bordered"><p>b.it's <b>very difficult</b> to learn and memorize all the tools</p></td>                                                         														
+                        <tr class="bordered">
+                            <td class="bordered">
+                                <p>a.Cinema 4D is a <b>fast</b> software.</p>                                                       														
+                                <p>b.it's <b>very difficult</b> to learn and memorize all the tools</p>
+                            </td>      
+                            <td>
+                                <p>a+b</p>                                                        														
+                                <p>Cinema 4D is a fast software <b>but</b> it's very dificult to</p>
+                                <p style="margin-top:32px"><b>l</b>earn and memorize its too<b>l</b>s</p>
+                                <p>
+                                    Cinema 4D is a fast software <b>However/even though,</b> it's very dificult to
+                                    learn and memorize a<b>ll</b> the too<b>l</b>s.
+                                </p>
+                                <p><b>Although</b> Cinema 4D is a fast software, it's very dificult to learn and memorize a<b>ll</b> the too<b>l</b>s.</p>          
+                                <p>Cinema 4D is a fast software. it's very dificult to learn and memorize a<b>ll</b> the too<b>l</b>s <b>though.</b></p>
+                            </td>                                                   														
                         </tr>                                                                                                                  										
                     </table>                 
                 </div>
-                <div class="espacamento">                                
-                    <table id="encostado" class="bordered direita">           
-                        <tr>
-                            <td class="center-align bordered"><h5 class="barlow">Connected sentences / information</h5></td>                                                         														
-                        </tr>                                                                             										
-                        <tr>
-                            <td class="center-align bordered"><p>a+b</p></td>                                                         														
-                        </tr>                                                                             										
-                        <tr>
-                            <td class="center-align bordered"><p>Cinema 4D is a fast software <b>but</b> it's very dificult to</p></td>                                                         														
-                        </tr>                                                                                                                      										
-                    </table>                 
-                </div>
-                <div class="espacamento">                                
-                    <table class="bordered direita">                                                                                                 										
-                        <tr>
-                            <td class="center-align bordered"><p><b>l</b>earn and memorize its too<b>l</b>s</p></td>                                                         														
-                        </tr>                                                                             										
-                        <tr>
-                            <td class="center-align bordered"><p>Cinema 4D is a fast software <b>However/even though,</b> it's very dificult to
-                            learn and memorize a<b>ll</b> the too<b>l</b>s.</p></td>                                                         														
-                        </tr>                                                                                                                      										
-                        <tr>
-                            <td class="center-align bordered"><p><b>Although</b> Cinema 4D is a fast software, it's very dificult to learn
-                            and memorize a<b>ll</b> the too<b>l</b>s.</p></td>                                                         														
-                        </tr>                                                                                                                      										
-                        <tr>
-                            <td class="center-align bordered"><p>Cinema 4D is a fast software. it's very dificult to learn and memorize a<b>ll</b> the too<b>l</b>s <b>though.</b></p></td>                                                         														
-                        </tr>                                                                                                                      										
-                    </table>                 
-                </div>
                 <div class="clear"></div>               
-                <h5 class="barlow">EXERCISES</h5>                
-                <h5 class="barlow">A - Rephrase thesentences beginning with the words in brackets:</h5>                              
-				<form class="quasefull" id="unidade44grammar313" method="post">
+                <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>                
+                <h5 class="barlow">1 - Rephrase thesentences beginning with the words in brackets:</h5>                              
+				<form id="unidade44grammar313" method="post" class="metade">
                     <p>
                         1 - She has plenty of money, but she is very mean. <b>(although)</b>                        
-                        <input type="text" placeholder="responda aqui !" name="grammar313-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar313-1" class="full left-align" required>
                     </p>
                     <p>
                         2 - They have a car, but they rarely use it. <b>(though)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar313-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar313-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - He was innocent, but he was sent to prison. <b>(although)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar313-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar313-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - He was a number of relatives living nearby, but he never visits them. <b>(even though)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar313-4" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar313-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - She never takes any kind of exercise, but she is quite fit and healthy. <b>(even though)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar313-5" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar313-5" class="full left-align" required>
                     </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -105,43 +83,43 @@
                     <input type="hidden" name="atividade_id" value="313">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>                
-                <h5 class="barlow">B - Rephrase the sentences using the words in brackets and a noun:</h5>
-				<form class="quasefull" id="unidade44grammar314" method="post">                                                                                                                   
+                <h5 class="barlow">2 - Rephrase the sentences using the words in brackets and a noun:</h5>
+				<form id="unidade44grammar314" method="post" class="metade">                                                                                                                   
                     <p>
                         1 - They went out for a walk, even though the weather was bad. <b>(despite)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar314-1" class="full left-align" required>
                     </p>
                     <p>
                         2 - She managed to write, even though her hand was injured. <b>(in spite of)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar314-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - All the trains were on time, even though the snow was heavy. <b>(despite)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar314-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - Our coach didn’t arrive late, even though the traffic was terrible. <b>(in spite of)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-4" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar314-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - A lot of people buy those houses, even though the prices are high. <b>(despite)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-5" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar314-5" class="full left-align" required>
                     </p>
                     <p>
                         6 - He stayed up late, even though he was very tired. <b>(despite)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-6" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar314-6" class="full left-align" required>
                     </p>
                     <p>
                         7 - I didn’t buy the car, even though I had the money. <b>(despite)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-7" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar314-7" class="full left-align" required>
                     </p>
                     <p>
                         8 - He stayed outside in the cold weather, even though he felt ill. <b>(despite)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-8" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar314-8" class="full left-align" required>
                     </p>
                     <p>
                         9 -  People continue to smoke, even though they know the dangers. <b>(in spite of)</b>
-                        <input type="text" placeholder="responda aqui !" name="grammar314-9" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar314-9" class="full left-align" required>
                     </p>                                                          
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -149,39 +127,39 @@
                     <input type="hidden" name="atividade_id" value="314">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow" style="margin-top: 16px;">C - Rewrite the following sentences beginning them with the given words:</h5>    
-                <form id="unidade44grammar315" method="post">
+                <h5 class="barlow" style="margin-top: 16px;">3 - Rewrite the following sentences beginning them with the given words:</h5>    
+                <form id="unidade44grammar315" method="post" class="metade">
                     <p>1. He worked hard, but he couldn’t pass the test.</p>
-                    <p>In spite of <input type="text" placeholder="responda aqui !" name="grammar315-1" class="quasefull left-align" required></p>
+                    <p>In spite of <input type="text" placeholder="Responda aqui" name="grammar315-1" class="quasefull left-align" required></p>
                     <p>2. It was late, but we decided to go out.</p>
-                    <p>Although <input type="text" placeholder="responda aqui !" name="grammar315-2" class="quasefull left-align" required></p>
+                    <p>Although <input type="text" placeholder="Responda aqui" name="grammar315-2" class="quasefull left-align" required></p>
                     <p>3. She is rich, but she is not happy.</p>
-                    <p>Despite <input type="text" placeholder="responda aqui !" name="grammar315-3" class="quasefull left-align" required></p>
+                    <p>Despite <input type="text" placeholder="Responda aqui" name="grammar315-3" class="quasefull left-align" required></p>
                     <p>4. She had a bad teacher. Still, she passed her exams.</p>
-                    <p>In spite of <input type="text" placeholder="responda aqui !" name="grammar315-4" class="quasefull left-align" required></p>
+                    <p>In spite of <input type="text" placeholder="Responda aqui" name="grammar315-4" class="quasefull left-align" required></p>
                     <p>5. She lives next door but we rarely see each other.</p>
-                    <p>Although <input type="text" placeholder="responda aqui !" name="grammar315-5" class="quasefull left-align" required></p>
+                    <p>Although <input type="text" placeholder="Responda aqui" name="grammar315-5" class="quasefull left-align" required></p>
                     <p>6. He faced many setbacks, but he didn’t lose hope.</p>
-                    <p>In spite of <input type="text" placeholder="responda aqui !" name="grammar315-6" class="quasefull left-align" required></p>
+                    <p>In spite of <input type="text" placeholder="Responda aqui" name="grammar315-6" class="quasefull left-align" required></p>
                     <p>7. Although she is a foreigner, she speaks English remarkably well.</p>
-                    <p>In spite of <input type="text" placeholder="responda aqui !" name="grammar315-7" class="quasefull left-align" required></p>
+                    <p>In spite of <input type="text" placeholder="Responda aqui" name="grammar315-7" class="quasefull left-align" required></p>
                     <p>8. In spite of earning a good salary, she finds it difficult to make both ends meet.</p>
-                    <p>Although <input type="text" placeholder="responda aqui !" name="grammar315-8" class="quasefull left-align" required></p>
+                    <p>Although <input type="text" placeholder="Responda aqui" name="grammar315-8" class="quasefull left-align" required></p>
                     <p>9. She lives close to her office; however, she is always late for work.</p>
-                    <p>In spite of <input type="text" placeholder="responda aqui !" name="grammar315-9" class="quasefull left-align" required></p>
+                    <p>In spite of <input type="text" placeholder="Responda aqui" name="grammar315-9" class="quasefull left-align" required></p>
                     <p>10. Although she works three jobs in a day, she makes it a point to spend quality time with her kids.</p>
-                    <p>In spite of <input type="text" placeholder="responda aqui !" name="grammar315-10" class="quasefull left-align" required></p>                                        
+                    <p>In spite of <input type="text" placeholder="Responda aqui" name="grammar315-10" class="quasefull left-align" required></p>                                        
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="44">
                     <input type="hidden" name="atividade_id" value="315">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow" style="margin-top: 16px;">D -  Prepare a presentation about positive and negative aspects of use of internet by children
+                <h5 class="barlow" style="margin-top: 16px;">4 -  Prepare a presentation about positive and negative aspects of use of internet by children
                 and teenagers. Use the linking words for contrasting your ideas. Be prepared to come up
                 with ideas on how to use internet effectively</h5>    
                 <form id="unidade44grammar316" method="post">
-                    <textarea name="grammar316-1" class="center-align" placeholder="Responda aqui" required></textarea>
+                    <textarea name="grammar316-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

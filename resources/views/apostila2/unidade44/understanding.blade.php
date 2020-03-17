@@ -15,23 +15,23 @@
                 <form class="metade" id="unidade44understanding318" method="post">                                                             
                     <p>
                         1 - What’s Laura’s character like ?                        
-                        <input type="text" placeholder="responda aqui !" name="understanding312-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding312-1" class="full left-align" required>
                     </p>
                     <p>                    
                         2 - Does Laura’s character look like his/her family?
-                        <input type="text" placeholder="responda aqui !" name="understanding312-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding312-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - What special gift does Laura’s character have?
-                        <input type="text" placeholder="responda aqui !" name="understanding312-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding312-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - What is she able to with her gift?
-                        <input type="text" placeholder="responda aqui !" name="understanding312-4" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding312-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - What’s her personality like?
-                        <input type="text" placeholder="responda aqui !" name="understanding312-5" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding312-5" class="full left-align" required>
                     </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

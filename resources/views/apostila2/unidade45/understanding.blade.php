@@ -15,23 +15,23 @@
                 <form class="metade" id="unidade45understanding323" method="post">                                                            
                     <p>
                         1 - What’s John’s character like ?                        
-                        <input type="text" placeholder="responda aqui !" name="understanding323-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding323-1" class="full left-align" required>
                     </p>
                     <p>                    
                         2 - What can he/she do?
-                        <input type="text" placeholder="responda aqui !" name="understanding323-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding323-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - What’s Akira’s character like?
-                        <input type="text" placeholder="responda aqui !" name="understanding323-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding323-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - What special gift does he/she have?
-                        <input type="text" placeholder="responda aqui !" name="understanding323-4" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding323-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - What problem can he solve?
-                        <input type="text" placeholder="responda aqui !" name="understanding323-5" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="understanding323-5" class="full left-align" required>
                     </p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

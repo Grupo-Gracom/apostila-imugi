@@ -12,13 +12,11 @@
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade43" data-etapa="conversation">
 				<h3 class="barlow">UNIT 43</h3>
 				<h5 class="barlow">2 - CONVERSATION</h5>
-				<div class="espacamento">
-					<span class="play-audio">( Aperte o play )</span>
-					<audio controls="" controlslist="nodownload" class="suave">
-						<source src="{{ asset('assets/audio/apostila2/UNIT 43/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
-					</audio>
-				</div>
-				<p><b>Gleen: </b>Hey you guys, what’s up? Can I tell you something?</p>
+				<span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 43/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
+				</audio>
+				<p style="margin-top:16px"><b>Gleen: </b>Hey you guys, what’s up? Can I tell you something?</p>
 				<p><b>Students: </b>Yes teacher. What’s going on?</p>
 				<p><b>Gleen: </b>Guys, I’m extremely curious to know more about the story. I got really excited
 				with the ideas. Besides that, I believe that if you work hard on the creation of the
@@ -30,7 +28,7 @@
 				powers.</p>
 				<p><b>John: </b>it’s gonna be fun teacher. Wait and see.
 				(to be continued)</p>				
-				<figure class="metade espacamento">
+				<figure>
 					<img src="{{ asset('assets/img/dominating/unit43/conversation.png') }}" alt="Garotos festejando">
 				</figure>
 			</div>

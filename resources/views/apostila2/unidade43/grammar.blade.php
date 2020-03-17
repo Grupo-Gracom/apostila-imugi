@@ -17,76 +17,62 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 43/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>                
-                <h5 class="barlow" style="margin-top:16px;">CONJUNCTIONS FOR ADDING INFORMATION.</h5>
+                <h5 class="barlow" style="margin-top:16px;">A - CONJUNCTIONS FOR ADDING INFORMATION.</h5>
                 <p>We use <b>adding connectors</b> as the name says per se, to connect sentences expressing
                 the idea of adding information.</p>
-                <div class="espacamento">                                
-                    <table class="bordered">           
+                <div class="metade">                                
+                    <table class="center-align">           
                         <tr>
-                            <td class="center-align bordered"><h5 class="barlow">Adding information</h5></td>                                                         														
+                            <td><h5 class="barlow">Adding information</h5></td>                                                         														
                         </tr>                                                                             										
                         <tr>
-                            <td class="center-align bordered"><p>And , Above all , and also , Furthermore , Besides that , Moreover</p></td>                                                         														
+                            <td><p>And , Above all , and also , Furthermore , Besides that , Moreover</p></td>                                                         														
                         </tr>                                                                             										
+                    </table>                 
+
+                    <table class="center-align">           
+                        <tr>
+                            <td><h5 class="barlow">Sentences / information</h5></td>
+                            <td><h5 class="barlow">Connected sentences / information</h5></td>                                                              														
+                        </tr>                                                                             										
+                        <tr>
+                            <td><p>a.Blender is a <b>nice</b> software.</p></td>  
+                            <td><p>a+b+c</p></td>                                                       														
+                        </tr>                                                                             										
+                        <tr>
+                            <td><p>b.Blender is a <b>cheap</b> software.</p></td>  
+                            <td><p>Blender is a nice <b>and</b> cheap software.</p></td>                                                       														
+                        </tr>                                                                             										
+                        <tr>
+                            <td><p>c.Blender is the <b>most friendly</b> software in the market.</p></td>                                                         														
+                            <td><p><b>Besides that,</b> it's the most friendly software in the market.</p></td>
+                        <tr>
                     </table>                 
                 </div>
                 <div class="clear"></div>               
-                <div class="espacamento">                                
-                    <table class="bordered esquerda">           
-                        <tr>
-                            <td class="center-align bordered"><h5 class="barlow">Sentences / information</h5></td>                                                         														
-                        </tr>                                                                             										
-                        <tr>
-                            <td class="center-align bordered"><p>a.Blender is a <b>nice</b> software.</p></td>                                                         														
-                        </tr>                                                                             										
-                        <tr>
-                            <td class="center-align bordered"><p>b.Blender is a <b>cheap</b> software.</p></td>                                                         														
-                        </tr>                                                                             										
-                        <tr>
-                            <td class="center-align bordered"><p>c.Blender is the <b>most friendly</b> software in the market.</p></td>                                                         														
-                        </tr>                                                                                                    										
-                    </table>                 
-                </div>
-                    <div class="espacamento">                                
-                        <table class="bordered direita">           
-                            <tr>
-                                <td class="center-align bordered"><h5 class="barlow">Connected sentences / information</h5></td>                                                         														
-                            </tr>                                                                             										
-                            <tr>
-                                <td class="center-align bordered"><p>a+b+c</p></td>                                                         														
-                            </tr>                                                                             										
-                            <tr>
-                                <td class="center-align bordered"><p>Blender is a <b>and</b> cheap software.</p></td>                                                         														
-                            </tr>                                                                             										
-                            <tr>
-                                <td class="center-align bordered"><p><b>Besides that,</b> it's the most friendly software in the market.</p></td>                                                         														
-                            </tr>                                                                                                    										
-                        </table>                 
-                    </div>
-                    <div class="clear"></div>               
-                    <h5 class="barlow">EXERCISES</h5>                
-                <h5 class="barlow">A - Use one of the words in the box to complete the sentences. You MUST NOT use and.</h5>
+                <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>                
+                <h5 class="barlow">1 - Use one of the words in the box to complete the sentences. You MUST NOT use and.</h5>
                 <p class="bordaVerde">Besides that / Furthermore / Also / Moreover / In addition / as well as / and</p>                
 				<form id="unidade43grammar308" method="post">
-                    <p><b>1. </b>Their team has got the best players 
-                    <input type="text" placeholder="responda aqui !" name="grammar308-1" class="inputpequeno left-align" required> 
+                    <p>1. Their team has got the best players 
+                    <input type="text" placeholder="Responda aqui" name="grammar308-1" class="inputpequeno left-align" required> 
                     their coach is fantastic.</p>
-                    <p><b>2. </b>Anna is talented at music 
-                    <input type="text" placeholder="responda aqui !" name="grammar308-2" class="inputpequeno left-align" required> art.</p>
-                    <p><b>3. </b>In London we saw the Queen’s palace 
-                    <input type="text" placeholder="responda aqui !" name="grammar308-3" class="inputpequeno left-align" required> 
+                    <p>2. Anna is talented at music 
+                    <input type="text" placeholder="Responda aqui" name="grammar308-2" class="inputpequeno left-align" required> art.</p>
+                    <p>3. In London we saw the Queen’s palace 
+                    <input type="text" placeholder="Responda aqui" name="grammar308-3" class="inputpequeno left-align" required> 
                     we visited the British Museum.</p>
-                    <p><b>4. </b>When I was young, I wanted to become a doctor. I 
-                    <input type="text" placeholder="responda aqui !" name="grammar308-4" class="inputpequeno left-align" required> 
+                    <p>4. When I was young, I wanted to become a doctor. I 
+                    <input type="text" placeholder="Responda aqui" name="grammar308-4" class="inputpequeno left-align" required> 
                     wanted to be famous.</p>
-                    <p><b>5. </b>The service at this restaurant is excellent 
-                    <input type="text" placeholder="responda aqui !" name="grammar308-5" class="inputpequeno left-align" required> 
+                    <p>5. The service at this restaurant is excellent 
+                    <input type="text" placeholder="Responda aqui" name="grammar308-5" class="inputpequeno left-align" required> 
                     the food is delicious.</p>
-                    <p><b>6. </b>Roger works very hard to help his parents 
-                    <input type="text" placeholder="responda aqui !" name="grammar308-6" class="inputpequeno left-align" required> 
+                    <p>6. Roger works very hard to help his parents 
+                    <input type="text" placeholder="Responda aqui" name="grammar308-6" class="inputpequeno left-align" required> 
                     he’s also a good student.</p>
-                    <p><b>7. </b>I’m keen on Ice cream 
-                    <input type="text" placeholder="responda aqui !" name="grammar308-7" class="inputpequeno left-align" required> 
+                    <p>7. I’m keen on Ice cream 
+                    <input type="text" placeholder="Responda aqui" name="grammar308-7" class="inputpequeno left-align" required> 
                     chocolate.</p>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -94,47 +80,47 @@
                     <input type="hidden" name="atividade_id" value="308">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>                
-                <h5 class="barlow">B - Combine the following sentences using an appropriate CONJUNCTION.</h5>
+                <h5 class="barlow">2 - Combine the following sentences using an appropriate CONJUNCTION.</h5>
 				<form class="metade" id="unidade43grammar309" method="post">                                                                                                    
                     <p>
                         1 - She is pretty. She is intelligent.                        
-                        <input type="text" placeholder="responda aqui !" name="grammar309-1" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar309-1" class="full left-align" required>
                     </p>
                     <p>
                         2 - He is greedy. He is dishonest.                        
-                        <input type="text" placeholder="responda aqui !" name="grammar309-2" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar309-2" class="full left-align" required>
                     </p>
                     <p>
                         3 - God made small things. God made great things.                        
-                        <input type="text" placeholder="responda aqui !" name="grammar309-3" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar309-3" class="full left-align" required>
                     </p>
                     <p>
                         4 - Martin is not tall. His father is not tall.                        
-                        <input type="text" placeholder="responda aqui !" name="grammar309-4" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar309-4" class="full left-align" required>
                     </p>
                     <p>
                         5 - She is not honest. She is not hard working.                        
-                        <input type="text" placeholder="responda aqui !" name="grammar309-5" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar309-5" class="full left-align" required>
                     </p>
                     <p>
                         6 - They gave her the best treatment. They could not save her.                        
-                        <input type="text" placeholder="responda aqui !" name="grammar309-6" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar309-6" class="full left-align" required>
                     </p>
                     <p>
                         7 - She had the qualifications. She did not get the job.                        
-                        <input type="text" placeholder="responda aqui !" name="grammar309-7" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar309-7" class="full left-align" required>
                     </p>
                     <p>
                         8 - He was ill. He attended the meeting.                        
-                        <input type="text" placeholder="responda aqui !" name="grammar309-8" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar309-8" class="full left-align" required>
                     </p>
                     <p>
                         9 -  The lawyer defended his client very well. He lost the case.                        
-                        <input type="text" placeholder="responda aqui !" name="grammar309-9" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar309-9" class="full left-align" required>
                     </p>
                     <p>
                         10 - He is not educated. He possesses practical wisdom.                        
-                        <input type="text" placeholder="responda aqui !" name="grammar309-10" class="full left-align" required>
+                        <input type="text" placeholder="Responda aqui" name="grammar309-10" class="full left-align" required>
                     </p>                                      
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -142,10 +128,10 @@
                     <input type="hidden" name="atividade_id" value="309">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow" style="margin-top: 16px;">C - Write about your favorite sitcom, comic book or anime. Use the linking words to describe
+                <h5 class="barlow" style="margin-top: 16px;">3 - Write about your favorite sitcom, comic book or anime. Use the linking words to describe
                 the characteristics you consider important. Be prepared to present it to your classmates.</h5>    
                 <form id="unidade43grammar310" method="post">
-                    <textarea name="grammar310-1" class="center-align" placeholder="Responda aqui" required></textarea>
+                    <textarea name="grammar310-1" class=" metade left-align" placeholder="Responda aqui" required></textarea>
                     <div class="clear"></div>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

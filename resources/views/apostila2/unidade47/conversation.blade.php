@@ -18,7 +18,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 47/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>John:</b> I also like the idea Akira. I only think we gotta be careful with the story because
+				<p style="margin-top:16px"><b>John:</b> I also like the idea Akira. I only think we gotta be careful with the story because
 					we have only from two to three minutes to tell the story. We can neither be too superficial nor too complex.
 					I believe that in a first moment, a linear story would be more appropriate. </p>
 				<p><b>Akira:</b> You are right John. I forgot to consider the time. What do You think Laura?</p>

@@ -19,15 +19,14 @@
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                                
                 <form id="unidade41listening300" method="post">
-                    <p>Yesterday I had the <input type="text" placeholder="responda aqui !" name="listening300-1" class="inputpequeno left-align" required>
-                    to meet Jane . It was a <input type="text" placeholder="responda aqui !" name="listening300-2" class="inputpequeno left-align" required> meeting,
-                    They are very happy with the final <input type="text" placeholder="responda aqui !" name="listening300-3" class="inputpequeno left-align" required>
-                    of the magazine. The magazine holding, <input type="text" placeholder="responda aqui !" name="listening300-4" class="inputpequeno left-align" required>
-                    <input type="text" placeholder="responda aqui !" name="listening300-5" class="inputpequeno left-align" required>
+                    <p>Yesterday I had the <input type="text" placeholder="Responda aqui" name="listening300-1" class="inputpequeno left-align" required>
+                    to meet Jane . It was a <input type="text" placeholder="Responda aqui" name="listening300-2" class="inputpequeno left-align" required> meeting,
+                    They are very happy with the final <input type="text" placeholder="Responda aqui" name="listening300-3" class="inputpequeno left-align" required>
+                    of the magazine. The magazine holding, <input type="text" placeholder="Responda aqui" name="listening300-4" class="inputpequeno left-align" required>
                     is in San Francisco, asked us to have a meeting with their 
-                    <input type="text" placeholder="responda aqui !" name="listening300-6" class="inputpequeno left-align" required>. 
-                    He is the guy <input type="text" placeholder="responda aqui !" name="listening300-7" class="inputpequeno left-align" required> jobs were exposed in the last
-                    <input type="text" placeholder="responda aqui !" name="listening300-8" class="inputpequeno left-align" required> fair in London.</p>               
+                    <input type="text" placeholder="Responda aqui" name="listening300-5" class="inputpequeno left-align" required>. 
+                    He is the guy <input type="text" placeholder="Responda aqui" name="listening300-6" class="inputpequeno left-align" required> jobs were exposed in the last
+                    <input type="text" placeholder="Responda aqui" name="listening300-7" class="inputpequeno left-align" required> fair in London.</p>               
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="41">

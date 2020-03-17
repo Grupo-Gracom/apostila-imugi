@@ -19,14 +19,13 @@
                 <div class="clear"></div>                
                 <h5 class="barlow" style="margin-top: 16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                                
                 <form id="unidade43listening311" method="post">                                  
-                    <p>Mark, the <input type="text" placeholder="responda aqui !" name="listening311-1" class="inputpequeno left-align" required>
-                    director, <input type="text" placeholder="responda aqui !" name="listening311-2" class="inputpequeno left-align" required>
-                    that he was very happy with our <input type="text" placeholder="responda aqui !" name="listening311-3" class="inputpequeno left-align" required>.</p>
-                    <p>According to him, the final magazine <input type="text" placeholder="responda aqui !" name="listening311-4" class="inputpequeno left-align" required>
-                    was <input type="text" placeholder="responda aqui !" name="listening311-5" class="inputpequeno left-align" required> 
-                    <input type="text" placeholder="responda aqui !" name="listening311-6" class="inputpequeno left-align" required> objective.</p>
-                    <p><input type="text" placeholder="responda aqui !" name="listening311-7" class="inputpequeno left-align" required>, he said the 
-                    <input type="text" placeholder="responda aqui !" name="listening311-8" class="inputpequeno left-align" required>
+                    <p>Mark, the <input type="text" placeholder="Responda aqui" name="listening311-1" class="inputpequeno left-align" required>
+                    director, <input type="text" placeholder="Responda aqui" name="listening311-2" class="inputpequeno left-align" required>
+                    that he was very happy with our <input type="text" placeholder="Responda aqui" name="listening311-3" class="inputpequeno left-align" required>.</p>
+                    <p>According to him, the final magazine <input type="text" placeholder="Responda aqui" name="listening311-4" class="inputpequeno left-align" required>
+                    was <input type="text" placeholder="Responda aqui" name="listening311-5" class="inputpequeno left-align" required> objective.</p>
+                    <p><input type="text" placeholder="Responda aqui" name="listening311-6" class="inputpequeno left-align" required>, he said the 
+                    <input type="text" placeholder="Responda aqui" name="listening311-7" class="inputpequeno left-align" required>
                     of the images and the treatment of all them was very aligned to the idea he had for this edition.</p> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
