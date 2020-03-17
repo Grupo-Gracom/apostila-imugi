@@ -21,6 +21,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/apostila1/{unidade}/{item}', "ApostilaController@apostila1")->name('apostila1');
 Route::get('/apostila2/{unidade}/{item}', "ApostilaController@apostila2")->name('apostila2');
+Route::get('/apostila3/{unidade}/{item}', "ApostilaController@apostila3")->name('apostila3');
 
 
 /*****************************************************************************************************************************************/
@@ -815,13 +816,16 @@ Route::get('/apostila2/unidade64/listening/respostasCheck/{atividade_id}', 'Resp
 Route::post('/apostila2/unidade64/understanding/respostas', 'RespostaController@store');
 Route::get('/apostila2/unidade64/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
-//UNIDADE 65
-Route::post('/apostila2/unidade65/grammar/respostas', 'RespostaController@store');
-Route::get('/apostila2/unidade65/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
-Route::post('/apostila2/unidade65/listening/respostas', 'RespostaController@store');
-Route::get('/apostila2/unidade65/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
-Route::post('/apostila2/unidade65/understanding/respostas', 'RespostaController@store');
-Route::get('/apostila2/unidade65/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+/*****************************************************************************************************************************************/
+
+/* ROTAS PARA O CRUD APOSTILA 03 */
+//UNIDADE 1
+Route::post('/apostila3/unidade1/grammar/respostas', 'RespostaController@store');
+Route::get('/apostila3/unidade1/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila3/unidade1/listening/respostas', 'RespostaController@store');
+Route::get('/apostila3/unidade1/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::post('/apostila3/unidade1/understanding/respostas', 'RespostaController@store');
+Route::get('/apostila3/unidade1/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
 //Rotas para o Portal do Aluno
 Route::get('/portal', 'HomeController@homePortal')->name('portal');
