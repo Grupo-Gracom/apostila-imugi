@@ -17,18 +17,17 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 37/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>g sound /g/ </b></li>        
-					<li>Glad</li>	
-					<li>Garden</li>
-					<li>Agree</li>
-					<li>Ago</li>
-					<li>Dog</li>
-					<li>Drag</li>
+				<ul class="lista-inline upper">
+					<li><p><b>g sound /g/ </b></p></li>        
+					<li><p>Glad</p></li>	
+					<li><p>Garden</p></li>
+					<li><p>Agree</p></li>
+					<li><p>Ago</p></li>
+					<li><p>Dog</p></li>
+					<li><p>Drag</p></li>
 				</ul>
-				<ul class="lista-inline">
-					<ol>I’m <b>g</b>lad you a<b>g</b>reed that the do<b>g</b> would dra<b>g</b> the ra<b>g</b> all over the <b>g</b>arden.</ol>
-				</ul>
+
+				<p style="margin-top:32px">I’m <b>g</b>lad you a<b>g</b>reed that the do<b>g</b> would dra<b>g</b> the ra<b>g</b> all over the <b>g</b>arden.</p>
 				<div class="clear"></div>
 			</div>
 		</div>

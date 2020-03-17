@@ -17,10 +17,10 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 37/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                    <h5 class="barlow" style="margin-top: 16px">A - GERUNDS</h5>
-                    <p>We use <b>gerunds (verb+ing)</b> after some specific verbs. Take a look at the examples below.</p>
-                    <table class="metade espacamento center-align">
+                <h5 class="barlow" style="margin-top: 16px">A - GERUNDS</h5>
+                <p>We use <b>gerunds (verb+ing)</b> after some specific verbs. Take a look at the examples below.</p>
+                <div class="metade"> 
+                    <table class="center-align">
                         <tr>
                             <td><h5 class="barlow">VERB</h5></td>
                             <td><h5 class="barlow">EXAMPPLES</h5></td>
@@ -57,8 +57,8 @@
                             </td>
                         </tr>
                     </table> 
-
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES</h5>
+                </div>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">1 - Complete with a gerund.</h5>            
                     <form id="unidade37grammar275" style="margin-top:32px" method="post">
                         <div class="metade">
@@ -144,9 +144,8 @@
                                 <p>
                                     27. Please stop <input type="text" name="grammar275-27" placeholder="Responda aqui" required/> (shout) I can hear you fine! 
                                 </p>
-                                
                             </p>
-                        </div>
+                        
                         <div class="clear"></div>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -155,14 +154,14 @@
                         <input type="hidden" name="atividade_id" value="275">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
+                </div>
                 <div style="margin-top: 36px">
                     <figure>
                         <img src="{{ asset('assets/img/playgo/unit37/pagina-1.png') }}" alt="games">
                     </figure>
                 </div>
-                </div>
 
-                <h5 class="barlow metade" style="margin-top: 36px">2 - Think of suggestions for a new employee of a game development company. Write 5
+                <h5 class="barlow" style="margin-top: 32px">2 - Think of suggestions for a new employee of a game development company. Write 5
                 sentences using GERUND to tell him how he needs to behave in the new position.</h5>    
                 <form id="unidade37grammar276" method="post">
                     <textarea name="grammar276-1" class="metade left-align" placeholder="Responda aqui" required></textarea>

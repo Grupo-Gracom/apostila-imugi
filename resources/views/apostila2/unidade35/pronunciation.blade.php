@@ -18,28 +18,28 @@
 				</audio>
                 <div class="clear"></div>
 
-                <table  class="metede center-align">
+                <table  class="metade center-align" style="margin-top:16px">
                     <tr>
-                        <td><p>When /t/ </p></td>
-                        <td class="vertical-align" colspan="2" rowspan="2"><p>Quick 'd sound' /t/</p></td>
-                        <td class="vertical-align" colspan="2" rowspan="2"><p>Glottal stop /?/O</p></td>
-                        <td class="vertical-align" colspan="2" rowspan="2"><p>mitted /t/: /t/</p></td>
+                        <td><h5 class="barlow">When /t/ </h5></td>
+                        <td class="vertical-align" colspan="2" rowspan="2"><p><b>Quick 'd sound' /t/</b></p></td>
+                        <td class="vertical-align" colspan="2" rowspan="2"><p><b>Glottal stop /?/O</b></p></td>
+                        <td class="vertical-align" colspan="2" rowspan="2"><p><b>mitted /t/: /t/</b></p></td>
                     </tr>
                     <tr >
-                        <td><p>doesn't</p></td>
+                        <td><h5 class="barlow">doesn't</h5></td>
                     </tr >
                     <tr >
-                        <td><p>sound like /t/</p></td>
-                        <td><p>Daughter</p></td>
-                        <td><p>Computer</p></td>
-                        <td><p>Fitness</p></td>
-                        <td><p>Partner</p></td>
-                        <td><p>Advantage</p></td>
-                        <td><p>Center</p></td>
+                        <td><h5 class="barlow">sound like /t/</h5></td>
+                        <td><p><b>Daughter</b></p></td>
+                        <td><p><b>Computer</b></p></td>
+                        <td><p><b>Fitness</b></p></td>
+                        <td><p><b>Partner</b></p></td>
+                        <td><p><b>Advantage</b></p></td>
+                        <td><p><b>Center</b></p></td>
                     </tr>
                 </table>
 
-                <p>The compu<b>t</b>er of the fi<b>t</b>ness cen<b>t</b>er my daugh<b>t</b>er usually goes, has some advan<b>t</b>ages over her par<b>t</b>ner computer.</p>
+                <p style="margin-top:32px">The compu<b>t</b>er of the fi<b>t</b>ness cen<b>t</b>er my daugh<b>t</b>er usually goes, has some advan<b>t</b>ages over her par<b>t</b>ner computer.</p>
                 
 			</div>
 		</div>

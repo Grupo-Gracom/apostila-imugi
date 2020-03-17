@@ -18,27 +18,26 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 35/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
-
-				<p>TO TRAVEL / alone / by yourself / with friends / abroad</p>
-				<p>TO VISIT / a friend / a city / a place</p>
-				<p>TO VOTE / in the elections / for a person / for an idea</p>
-
+				<div class="espacamento">
+					<p><b>TO TRAVEL </b>/ alone / by yourself / with friends / abroad</p>
+					<p><b>TO VISIT </b>/ a friend / a city / a place</p>
+					<p><b>TO VOTE </b>/ in the elections / for a person / for an idea</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 35/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 
-				<ul class="lista-inline">
-					<li><b>PRETEND</b></li>
-					<li><b>IN ORDER</b></li>
-					<li><b>GO FOR</b></li>
-					<li><b>GATHERING</b></li>
-					<li><b>BRAINSTORMING</b></li>
-					<li><b>AT LEAST</b></li>
-					<li><b>TO BE IN TOUCH</b></li>
-					<li><b>INSPIRE</li>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>PRETEND</b></p></li>
+					<li><p><b>IN ORDER</b></p></li>
+					<li><p><b>GO FOR</b></p></li>
+					<li><p><b>GATHERING</b></p></li>
+					<li><p><b>BRAINSTORMING</b></p></li>
+					<li><p><b>AT LEAST</b></p></li>
+					<li><p><b>TO BE IN TOUCH</b></p></li>
+					<li><p><b>INSPIRE</p></li>
 				</ul>							
-				
 			</div>
 		</div>
 	</main>

@@ -20,12 +20,14 @@
                 <div class="clear"></div>     
                 
                 <h5 class="barlow" style="margin-top: 16px">A - WOULD YOU MIND / WOULD YOU MIND IF</h5>
-                <p>We use <b>Would you mind/if</b> to <b>politely</b> ask both <b>favors and permissions</b>. There’s a
-                    difference in the structure of both types of sentences. Take a look at the examples. </p>
-                <br>
+                <p>
+                    We use <b>Would you mind/if</b> to <b>politely</b> ask both <b>favors and permissions</b>. There’s a
+                    difference in the structure of both types of sentences. Take a look at the examples. 
+                </p>
+                
                 <table class="metade center-align">
                     <tr>
-                        <td><p><b>Asking for favors - WOULD YOU MIND + VERB (ING)</b></p></td>
+                        <td><h5 class="barlow">Asking for favors - WOULD YOU MIND + VERB (ING)</h5></td>
                     </tr>
                     <tr>
                         <td><p><b>Would</b> you <b>mind helping</b> me tomorrow morning?</p></td>
@@ -34,7 +36,7 @@
                         <td><p><b>Would</b> you <b>mind sending</b> me the file?</p></td>
                     </tr>
                     <tr>
-                        <td><p><b>Asking for Permission - WOULD YOU MIND IF + SUBJECT + VERB IN THE PAST</b></p></td>
+                        <td><h5 class="barlow">Asking for Permission - WOULD YOU MIND IF + SUBJECT + VERB IN THE PAST</h5></td>
                     </tr>
                     <tr>
                         <td><p><b>Would</b> you <b>mind if l left</b> earlier today?</p></td>
@@ -43,8 +45,10 @@
                         <td><p><b>Would</b> you <b>mind If l called</b> you tomorrow morning?</p></td>
                     </tr>
                 </table>
-                <br>
-                 <form id="unidade34grammar259" action="post">                    
+
+                <h5 class="barlow" style="margin-top:16px"><b>EXERCISES</b></h5>
+                <h5 class="barlow">1 - Complete the sentences with WOULD YOU MIND or WOULD YOU MINF IF.</h5>
+                <form id="unidade34grammar259" action="post">                    
                     <p>
                         1. Excuse me. Would you mind (put out)<input type="text" name="grammar259-1" placeholder="Responda aqui" required>
                         your cigarette? It’s non-smoking area here. Oh I’m sorry, I didn’t know.
@@ -117,10 +121,10 @@
                 </form>
                 <br>
 
-                <p class="barlow">2) Write a six-line dialogue with the following situation.</p>
+                <h5 class="barlow">2 - Write a six-line dialogue with the following situation.</h5>
                 <form id="unidade34grammar260" class="metade" action="post">
                     <p>a. A client is complaining about the colors of his pictures.</p>
-                    <textarea name="grammar260-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
+                    <textarea name="grammar260-1" placeholder="Responda aqui"></textarea>
                         
                         <div class="clear"></div>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -131,7 +135,7 @@
                 </form>       
                 <form id="unidade34grammar261" class="metade" action="post">
                     <p>b. The illustrator is proposing some ideas to solve the problem.</p>               
-                    <textarea name="grammar261-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
+                    <textarea name="grammar261-1" placeholder="Responda aqui"></textarea>
                         
                         <div class="clear"></div>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -139,7 +143,13 @@
                         <input type="hidden" name="unidade_id" value="34">
                         <input type="hidden" name="atividade_id" value="261">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                 
+                </form>     
+                <figure>
+					<img src="{{ asset('assets/img/dominating/unit34/grammar1.png') }}" alt="desenhista">
+                </figure>
+                <figure>
+					<img src="{{ asset('assets/img/dominating/unit34/grammar2.png') }}" alt="desenho personagem">
+				</figure>            
 			</div>
 		</div>
     </main>

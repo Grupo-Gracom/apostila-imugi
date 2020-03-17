@@ -17,11 +17,11 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 37/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and answer the questions below.</h5>
-                <div class="metade" style="margin-top: 16px">
+                <h5 class="barlow" style="margin-top: 16px">A -  Listen to the audio and answer the questions below.</h5>
+                <div class="metade">
                     <form id="unidade37listening277" method="post">
                     <p>
-                            1 -  . What takes time?<br>
+                            1 -  What takes time?<br>
                             <input type="text" name="understanding237-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>

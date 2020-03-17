@@ -18,27 +18,27 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 33/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
-
-				<p>TO SMOKE / cigarette / a cigar / outdoor TO START / a relationship / a game / talking </p>
-				<p>TO STOP / dancing / to dance / to smoke / smoking</p>
-
+				<div class="espacamento">
+					<p><b>TO SMOKE </b>/ cigarette / a cigar / outdoor</p> 
+					<p><b>TO START </b>/ a relationship / a game / talking </p>
+					<p><b>TO STOP </b>/ dancing / to dance / to smoke / smoking</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 33/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 
-				<ul class="lista-inline">
-					<li><b>ENGAGEMENT</b></li>
-					<li><b>SUPPORTIVE</b></li>
-					<li><b>FEEL</b></li>
-					<li><b>STRAIGHT</b></li>
-					<li><b>BEING</b></li>
-					<li><b>NUBIE</b></li>
-					<li><b>PROMOTE</b></li>
-					<li><b>MISS</li>
-					<li><b>LAB</li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>ENGAGEMENT</b></p></li>
+					<li><p><b>SUPPORTIVE</b></p></li>
+					<li><p><b>FEEL</b></p></li>
+					<li><p><b>STRAIGHT</b></p></li>
+					<li><p><b>BEING</b></p></li>
+					<li><p><b>NUBIE</b></p></li>
+					<li><p><b>PROMOTE</b></p></li>
+					<li><p><b>MISS</p></li>
+					<li><p><b>LAB</p></li>
 				</ul>							
-				
 			</div>
 		</div>
 	</main>

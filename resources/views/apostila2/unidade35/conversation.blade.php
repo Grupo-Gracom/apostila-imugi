@@ -18,7 +18,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 35/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Guys, I’ll give you some time to talk about the project ok. 15 minutes. Pretend
+				<p style="margin-top:16px"><b>Gleen:</b> Guys, I’ll give you some time to talk about the project ok. 15 minutes. Pretend
 					this is a real project. You’re supposed to act as professional movie makers from now on,
 					all right? Stt Great teacher. Ok. Let’s start.</p>
 				<p><b>Akira:</b> Guys , in order to start, we could search for some references. Since we’re supposed to act as professionals, I believe that this would be the first step. Usually, when
@@ -31,7 +31,7 @@
 				<p><b>Gleen:</b> Great guys. See you I the next class ok.</p>
 				
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit35/conversation.png') }}" alt="olhando tela">
 				</figure>
 			</div>
 		</div>

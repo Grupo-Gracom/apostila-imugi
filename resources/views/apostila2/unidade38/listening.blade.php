@@ -17,28 +17,26 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 38/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade38listening282" method="post">
-                    <p>
-                        Everything <input type="text" name="understanding282-1" class="left-align" placeholder="Responda aqui" required> with a first step. 
-                        A <input type="text" name="understanding282-2" class=" left-align" placeholder="Responda aqui" required> to change is the first one.
-                        You gotta decide to <input type="text" name="understanding282-3" class=" left-align" placeholder="Responda aqui" required> to details you didn’t 
-                        <input type="text" name="understanding282-4" class=" left-align" placeholder="Responda aqui" required>
-                        about in the past. You’re gonna <input type="text" name="understanding282-5" class=" left-align" placeholder="Responda aqui" required> to plan, planning. 
-                        You <input type="text" name="understanding282-6" class=" left-align" placeholder="Responda aqui" required> , you
-                        <input type="text" name="understanding282-7" class=" left-align" placeholder="Responda aqui" required> , you <input type="text" name="understanding282-8" class=" left-align" placeholder="Responda aqui" required> 
-                        the result and start all over <input type="text" name="understanding282-9" class=" left-align" placeholder="Responda aqui" required>. You <input type="text" name="understanding282-10" class=" left-align" placeholder="Responda aqui" required> to
-                        do much more things when you <input type="text" name="understanding282-11" class=" left-align" placeholder="Responda aqui" required> this way.
-                    </p>
+                <h5 class="barlow" style="margin-top: 16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade38listening282" method="post" style="margin-top: 16px">
+                <p>
+                    Everything <input type="text" name="understanding282-1" class="left-align" placeholder="Responda aqui" required> with a first step. 
+                    A <input type="text" name="understanding282-2" class=" left-align" placeholder="Responda aqui" required> to change is the first one.
+                    You gotta decide to <input type="text" name="understanding282-3" class=" left-align" placeholder="Responda aqui" required> to details you didn’t 
+                    <input type="text" name="understanding282-4" class=" left-align" placeholder="Responda aqui" required>
+                    about in the past. You’re gonna <input type="text" name="understanding282-5" class=" left-align" placeholder="Responda aqui" required> to plan, planning. 
+                    You <input type="text" name="understanding282-6" class=" left-align" placeholder="Responda aqui" required> , you
+                    <input type="text" name="understanding282-7" class=" left-align" placeholder="Responda aqui" required> , you <input type="text" name="understanding282-8" class=" left-align" placeholder="Responda aqui" required> 
+                    the result and start all over <input type="text" name="understanding282-9" class=" left-align" placeholder="Responda aqui" required>. You <input type="text" name="understanding282-10" class=" left-align" placeholder="Responda aqui" required> to
+                    do much more things when you <input type="text" name="understanding282-11" class=" left-align" placeholder="Responda aqui" required> this way.
+                </p>
 
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="38">
-                        <input type="hidden" name="atividade_id" value="282">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="38">
+                    <input type="hidden" name="atividade_id" value="282">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
 		</div>
     </main>

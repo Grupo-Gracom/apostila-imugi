@@ -29,8 +29,10 @@ body{background-color: rgba(125, 194, 66, 0.15);}
 .metade.direita{float: right;}
 .direita{float: right;}
 .umterco{width: calc(33.333% - 11px);float:left;}
+.umquarto{width: calc(25% - 8px);float:left;}
 
 figure.umterco{margin: 5px;} /*joao */
+figure.umquarto{margin: 4px;}
 figure.imagemdupla{margin: 5px;}
 figure.metade{margin: 3px;}
 .umterco:nth-child(2){margin:0 16px;}
@@ -130,7 +132,8 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade #joguin1{margin: 0 auto;margin-top: 50px;display: block;}
 #unidade .caixa{border: 1px solid #333;width: 35%;}
 #unidade .manipulaimagem{width:60%;margin-left:20%; margin-top:16px;}
-#unidade figure.umterco img{height:auto;}
+#unidade figure.umterco img{height:500px;}
+#unidade figure.umquarto img{height:250px;}
 #unidade figure.metade img{height:400px;}
 
 #unidade .espacamento{margin: 16px;}
@@ -197,8 +200,10 @@ main .capas li.deactive img{filter: grayscale(1);}
     #unidade table.bordered.direita{width: 100% !important;}
 
     #unidade figure.umterco{width: calc(33.333% - 11px) !important;float:left !important; }
+    #unidade figure.umquarto{width: calc(25% - 8px)!important;float:left !important;}
     #unidade figure.metade{width: calc(50% - 11px) !important;float:left !important; }
-    #unidade figure.umterco img{height: auto;}
+    #unidade figure.umterco img{height: 110px;}
+    #unidade figure.umquarto img{height: 70px;}
     #unidade figure.metade img{height: 130px;}
     #unidade figure.metade{margin:5px;}
     #unidade .caixa{border: 1px solid #333;width: 100%;}

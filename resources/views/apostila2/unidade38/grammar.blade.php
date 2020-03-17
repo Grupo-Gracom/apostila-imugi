@@ -20,52 +20,53 @@
                 <div style="margin-top: 16px">
                     <h5 class="barlow" style="margin-top: 16px">A - INFINITIVES</h5>
                     <p>We use <b>infinitives</b> after some specific verbs. Take a look at the examples below.</p>
-                    <table class="metade espacamento center-align">
-                        <tr>
-                            <td><h5 class="barlow">VERB</h5></td>
-                            <td><h5 class="barlow">EXAMPPLES</h5></td>
-                        </tr>
-                        <tr>
-                            <td><h5 class="barlow">Decide</h5></td>
-                            <td><p>She <b>decided to accept</b> the NGO job.</p></td>
-                        </tr>
-                        <tr>
-                            <td><h5 class="barlow">Help</h5></td>
-                            <td><p>You <b>helped to set up</b> the new computer.</p></td>
-                        </tr>
-                        <tr>
-                            <td><h5 class="barlow">Prefer</h5></td>
-                            <td><p>We prefer to meet after break.</p></td>
-                        </tr>
-                        <tr>
-                            <td><h5 class="barlow">Want</h5></td>
-                            <td><p>He wants to live in Singapore.</p></td>
-                        </tr>
-                        <tr>
-                            <td><h5 class="barlow">Promise</h5></td>
-                            <td><p>They promised to finish in time.</p></td>
-                        </tr>
-                    </table> 
-
-                    <table class="metade espacamento center-align">
-                        <tr>
-                            <td><h5 class="barlow">Other Verbs</h5></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Afford, agree, appear, arrange, ask, attempt, beg, care, choose, consent, dare,
-                                    decide, determine, expect, fail, forget, happen, hesitate, intend, learn, manage,
-                                    mean, neglect, offer, prepare, pretend, promise, refuse, remember, wish.
-                                </p>
-                            </td>
-                        </tr>
-                    </table>
+                    <div class="metade">
+                        <table class="center-align">
+                            <tr>
+                                <td><h5 class="barlow"><b>VERB</b></h5></td>
+                                <td><h5 class="barlow">EXAMPPLES</h5></td>
+                            </tr>
+                            <tr>
+                                <td><h5 class="barlow">Decide</h5></td>
+                                <td><p>She <b>decided to accept</b> the NGO job.</p></td>
+                            </tr>
+                            <tr>
+                                <td><h5 class="barlow">Help</h5></td>
+                                <td><p>You <b>helped to set up</b> the new computer.</p></td>
+                            </tr>
+                            <tr>
+                                <td><h5 class="barlow">Prefer</h5></td>
+                                <td><p>We prefer to meet after break.</p></td>
+                            </tr>
+                            <tr>
+                                <td><h5 class="barlow">Want</h5></td>
+                                <td><p>He wants to live in Singapore.</p></td>
+                            </tr>
+                            <tr>
+                                <td><h5 class="barlow">Promise</h5></td>
+                                <td><p>They promised to finish in time.</p></td>
+                            </tr>
+                        </table>
+                        <table class="metade center-align">
+                            <tr>
+                                <td><h5 class="barlow">Other Verbs</h5></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        Afford, agree, appear, arrange, ask, attempt, beg, care, choose, consent, dare,
+                                        decide, determine, expect, fail, forget, happen, hesitate, intend, learn, manage,
+                                        mean, neglect, offer, prepare, pretend, promise, refuse, remember, wish.
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                     <p style="margin-top:16px">
                         Some verbs may be followed <b>by either gerund or infinitive</b>. The meaning of the
                         sentences are going to be different though. Take a look at the examples.
                     </p>
-                    <table class="metade espacamento center-align">
+                    <table class="metade espacamento center-align" style="margin-top:32px">
                         <tr>
                             <td><h5 class="barlow">Gerund</h5></td>
                             <td><h5 class="barlow">Infinitive</h5></td>
@@ -84,7 +85,7 @@
                         </tr>
                     </table> 
 
-                    <h5 class="barlow" style="margin-top: 32px">EXERCISES</h5>
+                    <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES</b></h5>
                     <h5 class="barlow">1 - Complete the with the INFINITIVE.</h5>            
                     <form id="unidade38grammar279" style="margin-top:32px" method="post">
                         <div class="metade">
@@ -224,11 +225,11 @@
                     </form>
                 <div style="margin-top: 36px">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit38/pagina-1.png') }}" alt="bandeiras">
+                        <img src="{{ asset('assets/img/dominating/unit38/grammar.png') }}" alt="bandeiras">
                     </figure>
                 </div>
 
-                <h5 class="barlow metade" style="margin-top: 36px">3 - Using INFINITIVE write some tips for a person who is traveling abroad for the first time.</h5>    
+                <h5 class="barlow" style="margin-top: 36px">3 - Using INFINITIVE write some tips for a person who is traveling abroad for the first time.</h5>    
                 <form id="unidade38grammar281" method="post">
                     <textarea name="grammar281-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 

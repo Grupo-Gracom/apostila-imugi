@@ -17,29 +17,23 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 36/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO HAPPEN / in a nice way / I a difficult way</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO LIVE / alone / by yourself / your own life / on your own</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO ORDER / a meal / a newspaper / fast food / in a restaurant / the dessert</b></ol>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO HAPPEN </b>/ in a nice way / I a difficult way</p>
+					<p><b>TO LIVE </b>/ alone / by yourself / your own life / on your own</p>
+					<p><b>TO ORDER </b>/ a meal / a newspaper / fast food / in a restaurant / the dessert</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 36/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>AgreedSubtitles</b></li>
-						<li><b>Even though</b></li>
-						<li><b>Under</b></li>
-						<li><b>Worn out</b></li>
-						<li><b>Together</b></li>
-						<li><b>Point out</b></li>
-					</ul>
-				</div>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>AgreedSubtitles</b></p></li>
+					<li><p><b>Even though</b></p></li>
+					<li><p><b>Under</b></p></li>
+					<li><p><b>Worn out</b></p></li>
+					<li><p><b>Together</b></p></li>
+					<li><p><b>Point out</b></p></li>
+				</ul>
 			</div>
 		</div>
 	</main>
