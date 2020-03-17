@@ -12,10 +12,11 @@
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade33" data-etapa="pronunciation">
 				<h3 class="barlow">UNIT 33</h3>
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
-				<span class="play-audio">( Aperte o play )</span>
+				<!--<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 33/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
-				</audio>
+					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+                </audio> -->
+                <!-- nao tem audio ainda -->
                 <div class="clear"></div>
 
                 <p style="margin-top:32px"><b>Improving your Pronunciation</b></p>

@@ -47,15 +47,12 @@
 								<img src="{{ asset('assets/img/gamesandanimation.png') }}" alt="Games">
 							</a>
 						</figure>
-					</li>
-					
+					</li>					
 					<!-- MASTER OF LANGUAGE -->
-					<li class="deactive master">
+					<li class="deactive master">						
 						<figure>
-							<a href="https://imugi.com.br/portaldoaluno/demo/imugi/masteroflanguage.html" target="_blank">
-								<img src="{{ asset('assets/img/masteroflanguage.png') }}" alt="Master">
-							</a>
-						</figure>
+							<a href="apostila3/intro3/intro"><img src="{{ asset('assets/img/masteroflanguage.png') }}" alt="MASTER OF LANGUAGE"></a>
+						</figure>						
 					</li>
 					<!-- VIDEO EDITION -->
 					<li class="deactive video">
