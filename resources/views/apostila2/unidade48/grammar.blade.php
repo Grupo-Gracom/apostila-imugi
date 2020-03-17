@@ -25,10 +25,12 @@
                     sentences usually have similar length and grammar structure.</p>
                 <br>
                 <p>Not only … but also.</p>
-                <br>
-                <p><b>EXERCISES</b></p>
-
-                <p class="barlow">1) Use NOT ONLY _______ BUT ALSO _______</p>
+                <figure>
+					<img src="{{ asset('assets/img/dominating/unit48/grammar1.png') }}" alt="titanic">
+				</figure>
+                <div class="clear"></div>
+                <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
+                <h5 class="barlow">1 - Use NOT ONLY _______ BUT ALSO _______</h5>
                 <form id="unidade48grammar332" class="metade" action="post">                    
                     <p>1. I know you are studying math. Are you studying chemistry too?</p>
                     <p><b>Yes, I’m studying not only math but also chemistry.</b></p>
@@ -96,15 +98,16 @@
                     <input type="hidden" name="atividade_id" value="332">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                
-                <br>
-                <p class="barlow">2) Organization is essential in life. For both personal and professional lives. How can a
+                <figure>
+					<img src="{{ asset('assets/img/dominating/unit48/grammar1.png') }}" alt="dançando coral">
+				</figure>
+                <div class="clear"></div>
+                <h5 class="barlow" style="margin-top:16px">2 - Organization is essential in life. For both personal and professional lives. How can a
                     person be organized personally and professionally? Debate with your classmates and write
                     a “how to “ guide, giving some tips on organization. Use NOT ONLY / BUT ALSO to write
-                    about it.</p>
-                <form id="unidade48grammar333" class="metade" action="post">       
-
-                    <textarea name="grammar333-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
+                    about it.</h5>
+                <form id="unidade48grammar333"  action="post">       
+                    <textarea name="grammar333-1" class="metade left-align" placeholder="Responda aqui"></textarea>
                                         
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">

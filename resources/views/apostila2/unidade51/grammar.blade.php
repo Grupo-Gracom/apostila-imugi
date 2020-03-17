@@ -25,10 +25,10 @@
                         <b>It is very common to see some adverbs being used with present perfect. They add an
                         extra information to the idea of present perfect. Take a look at the examples below.</b>
                     </p>
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES:</b></h5>
                     <h5 class="barlow">1 - Follow the example and do the same using ALREADY:</h5>
                     <p>
-                        <b>Example: </b>
+                        <h5 class="barlow"><b>Example: </b></h5>
                         <p>Bring the milk in, please.</p>
                         <p>I have ALREADY brought it in.</p>
                     </p>
@@ -65,7 +65,7 @@
 
                 <h5 class="barlow">2 - Follow the example and do the same using YET:</h5>  
                 <p>
-                    <b>Example: </b>    
+                    <h5 class="barlow"><b>Example: </b></h5>    
                     <p>She has been in the shop. (buy anything)</p>
                     <p>She has been in the shop but she hasn’t bought anything YET.</p>  
                 </p>
@@ -103,12 +103,12 @@
                 <form id="unidade51grammar349" style="margin-top:32px" method="post">
                     <div class="metade">
                         <p>
-                            <p>1. He hasn’t called us <input type="text" name="grammar349-1" placeholder="Responda aqui" required/></p>
-                            <p>2. They have <input type="text" name="grammar349-2" placeholder="Responda aqui" required/> sent the letter.</p>
-                            <p>3. John has <input type="text" name="grammar349-3" placeholder="Responda aqui" required/> bought the tickets for the football match.</p>
-                            <p>4. We have <input type="text" name="grammar349-4" placeholder="Responda aqui" required/> been to Mexico three times.</p>
-                            <p>5. You haven’t visited Tokyo  <input type="text" name="grammar349-5" placeholder="Responda aqui" required/></p>
-                            <p>6. Has John bought a new car  <input type="text" name="grammar349-6" placeholder="Responda aqui" required/> ?</p>
+                            <p>1. He hasn’t called us <input type="text" name="grammar349-1" class="inputMedio"  placeholder="Responda aqui" required/></p>
+                            <p>2. They have <input type="text" name="grammar349-2" class="inputMedio" placeholder="Responda aqui" required/> sent the letter.</p>
+                            <p>3. John has <input type="text" name="grammar349-3" class="inputMedio" placeholder="Responda aqui" required/> bought the tickets for the football match.</p>
+                            <p>4. We have <input type="text" name="grammar349-4" class="inputMedio" placeholder="Responda aqui" required/> been to Mexico three times.</p>
+                            <p>5. You haven’t visited Tokyo  <input type="text" name="grammar349-5" class="inputMedio" placeholder="Responda aqui" required/></p>
+                            <p>6. Has John bought a new car  <input type="text" name="grammar349-6" class="inputMedio" placeholder="Responda aqui" required/> ?</p>
                         </p>
                     </div>
                     <div class="clear"></div>
@@ -124,17 +124,17 @@
                 <form id="unidade51grammar350" style="margin-top:32px" method="post">
                     <div class="metade">
                         <p>
-                            <p>1. Have you <input type="text" name="grammar350-1" placeholder="Responda aqui" required/> been in America?</p>
-                            <p>2. Do you hear the noise? The train has <input type="text" name="grammar350-2" placeholder="Responda aqui" required/> arrived.</p>
-                            <p>3. No. Your cousin hasn’t come to the party <input type="text" name="grammar350-3" placeholder="Responda aqui" required/></p>
-                            <p>4. Can you open the door? Oh, it is <input type="text" name="grammar350-4" placeholder="Responda aqui" required/> open.</p>
-                            <p>5. Your daughter has <input type="text" name="grammar350-5" placeholder="Responda aqui" required/> returned home. You don’t have to worry anymore.</p>
-                            <p>6. Haven’t you finished your food <input type="text" name="grammar350-6" placeholder="Responda aqui" required/> ? No, I am still eating mom.</p>
-                            <p>7. I am a very lucky person. I have <input type="text" name="grammar350-7" placeholder="Responda aqui" required/> had nightmares.</p>
-                            <p>8. Are you going to meet me at the shop? Yes, I am <input type="text" name="grammar350-8" placeholder="Responda aqui" required/> there.</p>
-                            <p>9. I have <input type="text" name="grammar350-9" placeholder="Responda aqui" required/> realized how beautiful you are.</p>
-                            <p>10. Would you like to have dinner with us? No thanks, I have <input type="text" name="grammar350-10" placeholder="Responda aqui" required/> had dinner.</p>
-                            <p>11. Have you <input type="text" name="grammar350-11" placeholder="Responda aqui" required/> seen such a big ant?</p>
+                            <p>1. Have you <input type="text" name="grammar350-1"  placeholder="Responda aqui" required/> been in America?</p>
+                            <p>2. Do you hear the noise? The train has <input type="text" name="grammar350-2"  placeholder="Responda aqui" required/> arrived.</p>
+                            <p>3. No. Your cousin hasn’t come to the party <input type="text" name="grammar350-3"  placeholder="Responda aqui" required/></p>
+                            <p>4. Can you open the door? Oh, it is <input type="text" name="grammar350-4"  placeholder="Responda aqui" required/> open.</p>
+                            <p>5. Your daughter has <input type="text" name="grammar350-5"  placeholder="Responda aqui" required/> returned home. You don’t have to worry anymore.</p>
+                            <p>6. Haven’t you finished your food <input type="text" name="grammar350-6"  placeholder="Responda aqui" required/> ? No, I am still eating mom.</p>
+                            <p>7. I am a very lucky person. I have <input type="text" name="grammar350-7"  placeholder="Responda aqui" required/> had nightmares.</p>
+                            <p>8. Are you going to meet me at the shop? Yes, I am <input type="text" name="grammar350-8"  placeholder="Responda aqui" required/> there.</p>
+                            <p>9. I have <input type="text" name="grammar350-9"  placeholder="Responda aqui" required/> realized how beautiful you are.</p>
+                            <p>10. Would you like to have dinner with us? No thanks, I have <input type="text" name="grammar350-10"  placeholder="Responda aqui" required/> had dinner.</p>
+                            <p>11. Have you <input type="text" name="grammar350-11"  placeholder="Responda aqui" required/> seen such a big ant?</p>
                         </p>
                     </div>
                     <div class="clear"></div>
@@ -146,7 +146,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <h5 class="barlow metade" style="margin-top: 36px">5 - Think of appropriate verbs for the activities below and prepare questions about them to
+                <h5 class="barlow" style="margin-top: 36px">5 - Think of appropriate verbs for the activities below and prepare questions about them to
                 interview your friends. Use ALREADY, YET, EVER and NEVER.</h5>    
                 <form id="unidade51grammar351" method="post">
                     <p>
@@ -163,7 +163,6 @@
                     <input type="hidden" name="atividade_id" value="351">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-			</div>
             <div style="margin-top: 36px">
                 <figure>
                     <img src="{{ asset('assets/img/playgo/unit40/pagina-1.png') }}" alt="esporte aereo">

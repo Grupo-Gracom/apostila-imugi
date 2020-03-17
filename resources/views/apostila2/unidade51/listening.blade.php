@@ -17,29 +17,27 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 51/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -   Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade51listening352" method="post">
-                        <p> 
-                            Civil War is a <input type="text" name="listening352-1"  placeholder="Responda aqui" required> 
-                            movie because It’s the first time Spider man <input type="text" name="listening52-2"  placeholder="Responda aqui" required> 
-                            fighting <input type="text" name="listening352-3"  placeholder="Responda aqui" required> 
-                            with <input type="text" name="listening352-4"  placeholder="Responda aqui" required> other super-heroes like American
-                            Captain and Iron Man. Tom Holland <input type="text" name="listening352-5"  placeholder="Responda aqui" required> 
-                            been considered a <input type="text" name="listening352-6"  placeholder="Responda aqui" required>
-                            as the new Spider man. He hasn’t <input type="text" name="listening352-7"  placeholder="Responda aqui" required> 
-                            his success <input type="text" name="listening352-8"  placeholder="Responda aqui" required> and he
-                            has never accepted the title of <input type="text" name="listening352-9"  placeholder="Responda aqui" required>. 
-                            So far, it’s the best movie <input type="text" name="listening352-10"  placeholder="Responda aqui" required> seen.
-                        </p>
+                <h5 class="barlow" style="margin-top:16px">A -   Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade51listening352" method="post">
+                    <p> 
+                        Civil War is a <input type="text" name="listening352-1"  placeholder="Responda aqui" required> 
+                        movie because It’s the first time Spider man <input type="text" name="listening52-2"  placeholder="Responda aqui" required> 
+                        fighting <input type="text" name="listening352-3"  placeholder="Responda aqui" required> 
+                        with <input type="text" name="listening352-4"  placeholder="Responda aqui" required> other super-heroes like American
+                        Captain and Iron Man. Tom Holland <input type="text" name="listening352-5"  placeholder="Responda aqui" required> 
+                        been considered a <input type="text" name="listening352-6"  placeholder="Responda aqui" required>
+                        as the new Spider man. He hasn’t <input type="text" name="listening352-7"  placeholder="Responda aqui" required> 
+                        his success <input type="text" name="listening352-8"  placeholder="Responda aqui" required> and he
+                        has never accepted the title of <input type="text" name="listening352-9"  placeholder="Responda aqui" required>. 
+                        So far, it’s the best movie <input type="text" name="listening352-10"  placeholder="Responda aqui" required> seen.
+                    </p>
 
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="51">
-                        <input type="hidden" name="atividade_id" value="352">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="51">
+                    <input type="hidden" name="atividade_id" value="352">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
 		</div>
     </main>

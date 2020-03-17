@@ -12,7 +12,6 @@
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade52" data-etapa="understanding">
 				<h3 class="barlow">UNIT 52</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
                     <form id="unidade52understanding360" method="post">
                         <p>

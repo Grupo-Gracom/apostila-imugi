@@ -21,19 +21,16 @@
                 <div class="clear"></div>     
                 
                 <h5 class="barlow" style="margin-top: 16px">A - PRESENT PERFECT (1)</h5>
-                <p>WWe use the Present Perfect to refer to an action that happened in the past and reflects
+                <p>We use the Present Perfect to refer to an action that happened in the past and reflects
                     in the present moment. It may be something that happened but is a relevant fact to the
                     present moment (Relevance) or something that stills happen. A fact that started there
                     in the past but continues to happen up to the present moment. (continuity).</p>
-                <br>
 
-                <table>
-                    <tr><td><p>Present Perfect = Subject + Have / Has + Past participle of main verb</p></td></tr>
-                </table>
+                <p class="bordaVerde">Present Perfect = Subject + Have / Has + Past participle of main verb</p>
                 
                 <table>
                     <tr>
-                        <td><p><b>PRESENT PERFECT</b></p></td>
+                        <td><h5 class="barlow center-align">PRESENT PERFECT</h5></td>
                     </tr>
                     <tr><td> <p>(+) Gleen <b>has twisted</b> his ankle. (<b>Relevance</b>)</p></td></tr>
                     <tr><td> <p>(-) Gleen <b>has not twisted</b> his ankle.</p></td></tr>
@@ -52,16 +49,14 @@
                     <tr><td> <p>(?) Have <b>they spent</b> much money on professional courses?</p></td></tr>
                 </table>
 
-                <p>1. Has/have are the auxiliary verbs of present perfect.</p>
+                <p style="margin-top:16px">1. Has/have are the auxiliary verbs of present perfect.</p>
                 <p>2. The time is not specific. We don’t have any information about when the action happened.
-                 We only know that it happened and is relevant or continues up to today.</p>
+                    We only know that it happened and is relevant or continues up to today.</p>
             
-               <br>
-               <p><b>EXERCISES</b></p>
+                <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></p>
 
-               <p class="barlow">1) Write a suitable sentence using the PRESENT PERFECT TENSE :</p>
+                <h5 class="barlow">1 - Write a suitable sentence using the PRESENT PERFECT TENSE :</h5>
                 <form id="unidade50grammar341" class="metade" action="post">
-                    
                     <p>
                         1. Ann’s hair was dirty. Now it’s clean. (wash)
                         <input type="text" name="grammar341-1" placeholder="Responda aqui" required>
@@ -163,68 +158,71 @@
                     <input type="hidden" name="atividade_id" value="341">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                
-                
-                <p class="barlow">2) PRESENT PERFECT TENSE after BECAUSE:</p>
-                <form id="unidade50grammar342" class="metade" action="post">
-                    <p>Examples:</p>
-                    <p> She can’t go to the party. (catch a cold)</p>
-                    <p> She can’t go to the party because she has caught a cold.</p>
 
-                    <p>
+                <figure>
+					<img src="{{ asset('assets/img/dominating/unit50/grammar.png') }}" alt="desenhista">
+				</figure>
+                <div class="clear"></div>
+
+                <h5 class="barlow"style="margin-top:16px">2 - PRESENT PERFECT TENSE after BECAUSE:</h5>
+                <form id="unidade50grammar342" class="metade" action="post">
+                    <h5 class="barlow"><b>Examples:</b></h5>
+                    <p>She can’t go to the party. (catch a cold)</p>
+                    <p>She can’t go to the party because she has caught a cold.</p>
+
+                    <p style="margin-top:32px">
                         1. He can’t walk very fast. (hurt / leg)
                         <input type="text" name="grammar342-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>                    
                     <p>
-                       2. I can’t get in. (lose / key)
-                       <input type="text" name="grammar342-2" class="full left-align" placeholder="Responda aqui" required>
+                        2. I can’t get in. (lose / key)
+                        <input type="text" name="grammar342-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       3. I know this story very well. (see the film)
-                       <input type="text" name="grammar342-3" class="full left-align" placeholder="Responda aqui" required>
+                        3. I know this story very well. (see the film)
+                        <input type="text" name="grammar342-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       4. I can’t post the letter. (not put / stamp / on it)
-                       <input type="text" name="grammar342-4" class="full left-align" placeholder="Responda aqui" required>
+                        4. I can’t post the letter. (not put / stamp / on it)
+                        <input type="text" name="grammar342-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       5. He can’t stand up. (eat too much)
-                       <input type="text" name="grammar342-5" class="full left-align" placeholder="Responda aqui" required>
+                        5. He can’t stand up. (eat too much)
+                        <input type="text" name="grammar342-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       6. They can’t go on holiday. (not save / money)
-                       <input type="text" name="grammar342-6" class="full left-align" placeholder="Responda aqui" required>
+                        6. They can’t go on holiday. (not save / money)
+                        <input type="text" name="grammar342-6" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       7. I know him. (meet him before)
-                       <input type="text" name="grammar342-7" class="full left-align" placeholder="Responda aqui" required>
+                        7. I know him. (meet him before)
+                        <input type="text" name="grammar342-7" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       8. We don’t know how he is. (not hear from him)
-                       <input type="text" name="grammar342-8" class="full left-align" placeholder="Responda aqui" required>
+                        8. We don’t know how he is. (not hear from him)
+                        <input type="text" name="grammar342-8" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       9. He won’t take a cigarette. (give up smoking)
-                       <input type="text" name="grammar342-9" class="full left-align" placeholder="Responda aqui" required>
+                        9. He won’t take a cigarette. (give up smoking)
+                        <input type="text" name="grammar342-9" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       10. She can’t get in. (he / lock the door)
-                       <input type="text" name="grammar342-10" class="full left-align" placeholder="Responda aqui" required>
+                        10. She can’t get in. (he / lock the door)
+                        <input type="text" name="grammar342-10" class="full left-align" placeholder="Responda aqui" required>
                     </p>
-                   
+
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="50">
                     <input type="hidden" name="atividade_id" value="342">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                                 
-                <br>
-                <p class="barlow">3) Think about your life and write 5 sentences about relevant facts that happened to you
-                    or about things that you started in the past and keep doing up to today</p>
-                <form id="unidade50grammar343" class="metade" action="post">       
+                </form>        
 
-                    <textarea name="grammar343-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
+                <h5 class="barlow" style="margin-top:16px">3 - Think about your life and write 5 sentences about relevant facts that happened to you
+                    or about things that you started in the past and keep doing up to today</h5>
+                <form id="unidade50grammar343" class="metade" action="post">       
+                    <textarea name="grammar343-1" placeholder="Responda aqui"></textarea>
                                         
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -233,7 +231,6 @@
                     <input type="hidden" name="atividade_id" value="343">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                                  
 			</div>
 		</div>
     </main>

@@ -15,23 +15,23 @@
                 <div class="metade">
                     <form id="unidade50understanding345" method="post">
                         <p>
-                            1. How was the students’ weekend ?<br>
+                            1. How was the students’ weekend ?
                             <input type="text" name="understanding345-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            2. What did Akira do during the weekend ?<br>
+                            2. What did Akira do during the weekend ?
                             <input type="text" name="understanding345-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            3. What does Akira say about Dc comics and Marvel ?<br>
+                            3. What does Akira say about Dc comics and Marvel ?
                             <input type="text" name="understanding345-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            4. What’s his opinion about their movies ?<br>
+                            4. What’s his opinion about their movies ?
                             <input type="text" name="understanding345-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            5. What does Laura say about the movies ?<br>
+                            5. What does Laura say about the movies ?
                             <input type="text" name="understanding345-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
@@ -41,14 +41,6 @@
                         <input type="hidden" name="atividade_id" value="345">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
                 </div>
 			</div>
 		</div>

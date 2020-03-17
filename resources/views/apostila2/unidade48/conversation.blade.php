@@ -18,7 +18,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 48/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Good decision guys. Be smart. You can have a great result by doing it simple. In
+				<p style="margin-top:16px"><b>Gleen:</b> Good decision guys. Be smart. You can have a great result by doing it simple. In
 					the future, you can try something different like Quentin Tarantino does in Pulp Fiction,
 					or something more chaotic like in Butterfly Effect. Although you want to producesomething simple and interesting, you have to think not only about your point of view but
 					also about the observer’s perception of the message. The more you can be in the in the

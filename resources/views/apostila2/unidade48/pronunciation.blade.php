@@ -18,7 +18,7 @@
 				</audio>
                 <div class="clear"></div>
 
-                <ul class="lista-inline">
+                <ul class="lista-inline upper" style="margin-top:16px">
                     <li><p><b>p sound /p/ </b></p></li>
                     <li><p>PRESENTATION</p></li>
                     <li><p>PAGE</p></li>
@@ -28,7 +28,7 @@
                     <li><p>DEVELOP</p></li>
                 </ul>
 
-                <p>We have to develop a new campaign for the Pit Stop group. Could you speak with them
+                <p style="margin-top:32px">We have to develop a new campaign for the Pit Stop group. Could you speak with them
                     about the first page presentation.</p>
                 
 			</div>

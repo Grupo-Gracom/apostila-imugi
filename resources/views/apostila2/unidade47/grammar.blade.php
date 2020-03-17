@@ -27,9 +27,8 @@
                 <p>Neither … nor.</p>
                 <br>
                 <p>Neither/nor sentences are affirmative sentences with <b>NEGATIVE MEANINGS</b>.</p>
-                <p><b>EXERCISES</b></p>
-
-                <p class="barlow">1) Use NEITHER ______ NOR _______</p>
+                <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES</b></h5>
+                <h5 class="barlow">1 - Use NEITHER ______ NOR _______</h5>
                 <form id="unidade47grammar328" class="metade" action="post">                    
                     <p>1. He doesn’t like coffee. Does he like tea?</p>
                     <p><b>No, he likes neither coffee nor tea.</b></p>
@@ -99,12 +98,11 @@
                 </form>
                 
                 <br>
-                <p class="barlow">2) As a visual art professional, it’s usually necessary to work in teams. In your opinion,
+                <h5 class="barlow">2 - As a visual art professional, it’s usually necessary to work in teams. In your opinion,
                     what behavior or situations must be observed if you want to have a good environment to
-                    work. Use NEITHER/NOR to write about it.</p>
+                    work. Use NEITHER/NOR to write about it.</h5>
                 <form id="unidade47grammar329" class="metade" action="post">       
-
-                    <textarea name="grammar329-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
+                    <textarea name="grammar329-1" class="left-align" placeholder="Responda aqui"></textarea>
                                         
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -113,7 +111,6 @@
                     <input type="hidden" name="atividade_id" value="329">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                                  
 			</div>
 		</div>
     </main>

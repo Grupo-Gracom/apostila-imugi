@@ -15,23 +15,23 @@
                 <div class="metade">
                     <form id="unidade49understanding335" method="post">
                         <p>
-                            1. What was fantastic about the animation Gleen recommended to students to see ?<br>
+                            1. What was fantastic about the animation Gleen recommended to students to see?
                             <input type="text" name="understanding335-1" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            2. Why does he use it as an example of good movie ?<br>
+                            2. Why does he use it as an example of good movie?
                             <input type="text" name="understanding335-2" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            3. What does he say about the movie outcome ?<br>
+                            3. What does he say about the movie outcome?
                             <input type="text" name="understanding335-3" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            4. What do remarkable movies do with their viewers ?<br>
+                            4. What do remarkable movies do with their viewers?
                             <input type="text" name="understanding335-4" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         <p>
-                            5. What example does John remember ?<br>
+                            5. What example does John remember?
                             <input type="text" name="understanding335-5" placeholder="Responda aqui" class="full left-align" required>
                         </p>
                         
@@ -41,14 +41,6 @@
                         <input type="hidden" name="atividade_id" value="335">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                </div>
-                <div class="metade esquerda">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit1/pagina-1.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <div class="metade direita">
-                    <iframe id="joguin1" src="{{ asset('assets/games/2048-master/2048-master/index.html') }}" frameborder="0" style="width:60%; height:600px;"></iframe>
                 </div>
 			</div>
 		</div>

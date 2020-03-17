@@ -18,7 +18,7 @@
 				</audio>
                 <div class="clear"></div>
 
-                <p><b>Read the sentences below and circle the words that are pronounced as one word.</b></p>
+                <p style="margin-top:16px"><b>Read the sentences below and circle the words that are pronounced as one word.</b></p>
 
                 <p>Would you like a cup of coffee?</p>
                 <p>I only have bread and butter for breakfast.</p>
@@ -28,7 +28,6 @@
                 <p>What are you doing?</p>
                 <p>What do you do?</p>
                 <p>What did you do yesterday?</p>
-
 			</div>
 		</div>
     </main>

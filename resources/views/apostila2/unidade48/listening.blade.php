@@ -18,14 +18,14 @@
 				</audio>
                 <div class="clear"></div>
                 
-                <h5 class="barlow">A – Listen to the audio and answer the questions below</h5>
+                <h5 class="barlow" style="margin-top:16px">A – Listen to the audio and answer the questions below</h5>
                 <form id="unidade48listening334" class="metade" method="post">
                     <p>1. What can you do to be successful in the visual art market.?
-                        <input type="text" name="listening334-1" placeholder="Responda aqui" required>
+                        <input type="text" name="listening334-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
 
                     <p>2. What ‘s your opinion about this topic.
-                        <input type="text" name="listening334-2" placeholder="Responda aqui" required>
+                        <input type="text" name="listening334-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                                                             
                     <input type="hidden" name="_token" value="{{csrf_token()}}">

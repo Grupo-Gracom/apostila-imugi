@@ -18,56 +18,58 @@
                 </audio> -->
                 <!-- nao tem audio ainda -->
                 <div class="clear"></div>
-                <div style="margin-top: 16px">
-                    <h5 class="barlow">A - PRESENT PERFECT (2)</h5>
-                    <p><b>Adverbs Since and Just and the preposition For.</b></p>
-                    <table class="metade espacamento center-align">
-					<tr>
-						<td>
-							<h5 class="barlow">
-                                <b>FOR</b> - is used to express the duration of an action or situation.
-							</h5>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>(+) I have studied English for almost three years.</p>
-							<p>(+) Gleen has worked at Gracon for more than 10 years.</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<h5 class="barlow">
-                                <b>SINCE</b> - is used to mark the beginning of a period. We
-                                use it to know when the action or situation started.	
-							</h5>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>(+) I have studied English since 2014.</p>
-							<p>(+) Gleen has worked at Gracon since 2007.</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<h5 class="barlow">
-                                <b>JUST</b> – is usually used only with the present perfect tense and it means ‘a short time ago’. In
-                                the present perfect, ‘just’ comes between the auxiliary verb (‘have’) and the past participle.
-							</h5>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>(+) Gleen has just started the class.</p>
-							<p>(+) I’ve just sent the report. Don’t worry. It’s gonna be there in time<br>
-						</td>
-					</tr>
-                </table> 
-                <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - PRESENT PERFECT (2)</h5>
+                <p><b>Adverbs Since and Just and the preposition For.</b></p>
+                <div class="metade" style="margin-top: 32px">
+                    <table class="center-align bordered">
+                        <tr>
+                            <td class="bordered">
+                                <h5 class="barlow">
+                                    <b>FOR</b> - is used to express the duration of an action or situation.
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left-align">
+                                <p>(+) I have studied English for almost three years.</p>
+                                <p>(+) Gleen has worked at Gracon for more than 10 years.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bordered">
+                                <h5 class="barlow">
+                                    <b>SINCE</b> - is used to mark the beginning of a period. We
+                                    use it to know when the action or situation started.	
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left-align">
+                                <p>(+) I have studied English since 2014.</p>
+                                <p>(+) Gleen has worked at Gracon since 2007.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bordered">
+                                <h5 class="barlow">
+                                    <b>JUST</b> – is usually used only with the present perfect tense and it means ‘a short time ago’. In
+                                    the present perfect, ‘just’ comes between the auxiliary verb (‘have’) and the past participle.
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left-align">
+                                <p>(+) Gleen has just started the class.</p>
+                                <p>(+) I’ve just sent the report. Don’t worry. It’s gonna be there in time<br>
+                            </td>
+                        </tr>
+                    </table> 
+                </div>
+
+                <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES:</b></h5>
                 <h5 class="barlow">1 - Rewrite the following sentences twice, using SINCE and FOR:</h5>
                 <p>
-                    <b>Example: </b>
+                    <h5 class="barlow"><b>Example: </b></h5>
                     <p>1. I haven’t seen you. (Christmas / 3 days)</p>
                     <p>A) I haven’t seen you SINCE Christmas.</p>
                     <p>B) I haven’t seen you FOR 3 days.</p>
@@ -111,15 +113,15 @@
                         <input type="hidden" name="atividade_id" value="354">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
-                </div>
 
                 <h5 class="barlow">2 - Follow the example and do the same using JUST:</h5>  
                 <p>
-                    <b>Example: </b>   
+                    <h5 class="barlow"><b>Example: </b></h5>   
                     <p>he / go out</p> 
                     <p>What has he JUST done?</p>
                     <p>He has JUST gone out.</p>  
                 </p>
+
                 <form id="unidade52grammar355" style="margin-top:32px" method="post">
                     <div class="metade">
                         <p>
@@ -171,7 +173,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <h5 class="barlow metade" style="margin-top: 36px">3 - Think of your family and or friends and write 5 sentences in the PRESENT PERFECT using FOR and SINCE.</h5>    
+                <h5 class="barlow" style="margin-top: 36px">3 - Think of your family and or friends and write 5 sentences in the PRESENT PERFECT using FOR and SINCE.</h5>    
                 <form id="unidade52grammar356" method="post">
                     <textarea name="grammar356-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
@@ -185,7 +187,7 @@
                 </form>
                 <div style="margin-top: 36px">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit52/pagina-1.png') }}" alt="gato e cachorro">
+                        <img src="{{ asset('assets/img/dominating/unit52/grammar.png') }}" alt="gato e cachorro">
                     </figure>
                 </div>
 			</div>

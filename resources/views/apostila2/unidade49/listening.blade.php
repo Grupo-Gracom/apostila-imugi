@@ -18,9 +18,9 @@
 				</audio>
                 <div class="clear"></div>
                 
-                <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
+                <h5 class="barlow" style="margin-top:16px">A – Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade49listening340" method="post">
-                    <p>1. Both Dc Comics and Marvel
+                    <p>Both Dc Comics and Marvel
                         <input type="text" name="listening340-1" placeholder="Responda aqui" required>huge money in their
                         <input type="text" name="listening340-2" placeholder="Responda aqui" required>. A whole movie
                         <input type="text" name="listening340-3" placeholder="Responda aqui" required>from two to three years to be
@@ -30,7 +30,7 @@
                         <input type="text" name="listening340-7" placeholder="Responda aqui" required>, in every release there’s something new to
                         <input type="text" name="listening340-8" placeholder="Responda aqui" required>the public.
                     </p>
-                                  
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="49">

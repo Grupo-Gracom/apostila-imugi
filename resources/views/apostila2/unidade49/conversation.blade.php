@@ -18,7 +18,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 49/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-				<p><b>Gleen:</b> Do you remember the animation I asked you to see. The one with the mouse
+				<p style="margin-top:16px"><b>Gleen:</b> Do you remember the animation I asked you to see. The one with the mouse
 					reciting the bible. Both the animation itself and the emotion transmitted by the mouse
 					were fantastic. The idealization of the scenario, the story, the voice synchronization as
 					we said and ultimately, the unexpected outcome. I’m sure that nobody expected the
@@ -31,7 +31,7 @@
 					I see you guys in the next class ok.</p>
 					
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/dominating/unit49/conversation.png') }}" alt="Garotos festejando">
 				</figure>
 			</div>
 		</div>

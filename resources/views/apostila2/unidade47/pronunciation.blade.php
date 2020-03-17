@@ -18,7 +18,7 @@
 				</audio>
                 <div class="clear"></div>
 
-                <ul class="lista-inline">
+                <ul class="lista-inline upper" style="margin-top:16px">
                     <li><p><b>b sound /b/</b></p></li>
                     <li><p>BETWEEN</p></li>
                     <li><p>BOX</p></li>
@@ -28,7 +28,7 @@
                     <li><p>DESCRIBE</p></li>
                 </ul>
 
-                <p>Your jo<b>b</b> is to remem<b>b</b>er and descri<b>b</b>e the num<b>b</b>er of <b>b</b>oxes <b>b</b>etween the isles.</p>
+                <p style="margin-top:32px">Your jo<b>b</b> is to remem<b>b</b>er and descri<b>b</b>e the num<b>b</b>er of <b>b</b>oxes <b>b</b>etween the isles.</p>
                 
 			</div>
 		</div>

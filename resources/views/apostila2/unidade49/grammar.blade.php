@@ -29,8 +29,8 @@
 
                 <table class="left-align">
                     <tr>
-                        <td><p><b>Sentences / information</b></p></td>
-                        <td><p><b>Connected sentences</b></p></td>
+                        <td><h5 class="barlow">Sentences / information</h5></td>
+                        <td><h5 class="barlow">Connected sentences</h5></td>
                     </tr>
                     <tr>
                         <td><p>a. <b>New York</b> is a modern city.</p></td>
@@ -56,7 +56,7 @@
                     </tr>
                     <tr>
                         <td><p>a. <b>The manager</b> is not in the store today.</b></p></td>
-                        <td class="vertical-align" rowspan="2"><p><b>Both</b> <b>the manager <b>and</b> his assistants</b> <b>aren’t</b> in the store today.</td>                      
+                        <td class="vertical-align" rowspan="2"><p><b>Both</b> <u>the manager <b>and</b> his assistants</u> <b>aren’t</b> in the store today.</td>                      
                     </tr>
                     <tr>
                         <td><p>b. <b>His two assistants</b> are also absent.</b></p></td>
@@ -64,11 +64,11 @@
                 </table>
 
                 <p>For sentences with <b>Both / and</b>, verbs take a plural conjugation.
-                 Take a look at the examples and at the different verb conjugations of <b>Either/or, Neither/nor and Not only / but also.</b></p>
+                Take a look at the examples and at the different verb conjugations of <b>Either/or, Neither/nor and Not only / but also.</b></p>
 
-               <p><b>EXERCISES</b></p>
+                <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
 
-               <p class="barlow">1) Answer the questions. Use paired conjunctions.</p>
+                <h5 class="barlow">1 - Answer the questions. Use paired conjunctions.</h5>
                 <form id="unidade49grammar336" class="metade" action="post">
                     <p>Use BOTH ________ AND ________</p>
                     
@@ -78,48 +78,48 @@
                     <p><b>Yes, I have met both his father and his mother.</b></p>
                     
                     <p>
-                       2. The driver was injured in the accident. Was the passenger injured in the accident ?
-                       <input type="text" name="grammar336-1" class="full left-align" placeholder="Responda aqui" required>
+                        2. The driver was injured in the accident. Was the passenger injured in the accident ?
+                        <input type="text" name="grammar336-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       3. Wheat is grown in Kansas. Is corn grown in Kansas ?
-                       <input type="text" name="grammar336-2" class="full left-align" placeholder="Responda aqui" required>
+                        3. Wheat is grown in Kansas. Is corn grown in Kansas ?
+                        <input type="text" name="grammar336-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       4. He buys used cars. Does he sell used cars ?
-                       <input type="text" name="grammar336-3" class="full left-align" placeholder="Responda aqui" required>
+                        4. He buys used cars. Does he sell used cars ?
+                        <input type="text" name="grammar336-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       5. You had lunch with your friends. Did you have dinner with them ?
-                       <input type="text" name="grammar336-4" class="full left-align" placeholder="Responda aqui" required>
+                        5. You had lunch with your friends. Did you have dinner with them ?
+                        <input type="text" name="grammar336-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       6. The city suffers from air pollution. Does it suffer from water pollution ?
-                       <input type="text" name="grammar336-5" class="full left-align" placeholder="Responda aqui" required>
+                        6. The city suffers from air pollution. Does it suffer from water pollution ?
+                        <input type="text" name="grammar336-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       7. My grandparents have got a flat in the city. They have also got a house in the country
-                       <input type="text" name="grammar336-6" class="full left-align" placeholder="Responda aqui" required>
+                        7. My grandparents have got a flat in the city. They have also got a house in the country
+                        <input type="text" name="grammar336-6" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       8. The new shopping center has got a cinema. It has also got a health club. 
-                       <input type="text" name="grammar336-7" class="full left-align" placeholder="Responda aqui" required>
+                        8. The new shopping center has got a cinema. It has also got a health club. 
+                        <input type="text" name="grammar336-7" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       9. Fred likes helping friends. So does linda.
-                       <input type="text" name="grammar336-8" class="full left-align" placeholder="Responda aqui" required>
+                        9. Fred likes helping friends. So does linda.
+                        <input type="text" name="grammar336-8" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       10. He felt disappointed . He felt misunderstood.
-                       <input type="text" name="grammar336-9" class="full left-align" placeholder="Responda aqui" required>
+                        10. He felt disappointed . He felt misunderstood.
+                        <input type="text" name="grammar336-9" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       11. A true friend is someone who is caring and loving.
-                       <input type="text" name="grammar336-10" class="full left-align" placeholder="Responda aqui" required>
+                        11. A true friend is someone who is caring and loving.
+                        <input type="text" name="grammar336-10" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       12. Ryan and Susie disappointed me. They didn’t come to my birthday party.
-                       <input type="text" name="grammar336-11" class="full left-align" placeholder="Responda aqui" required>
+                        12. Ryan and Susie disappointed me. They didn’t come to my birthday party.
+                        <input type="text" name="grammar336-11" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     
                     <div class="clear"></div> 
@@ -130,46 +130,46 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <p class="barlow">2) Make sentences BOTH ___AND ____ / EITHER ___ OR ___ / NEITHER ___ NOR ___: </p>
+                <h5 class="barlow">2 - Make sentences BOTH ___AND ____ / EITHER ___ OR ___ / NEITHER ___ NOR ___: </h5>
                 <form id="unidade49grammar337" class="metade" action="post">
-                    <p>Examples:</p>
+                    <h5 class="barlow"><b>Examples:</b></h5>
                     <p> * Tom was late. So was Ann. Both Tom and Ann were late.</p>
                     <p>* He didn’t write. He didn’t telephone. He neither wrote nor telephoned.</p>
 
-                    <p>
+                    <p style="margin-top:32px">
                         1. The hotel wasn’t clean. And it wasn’t comfortable. The hotel was
                         <input type="text" name="grammar337-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     
                     <p>
-                       2. . It was a very boring movie. It was very long too. The movie was
-                       <input type="text" name="grammar337-2" class="full left-align" placeholder="Responda aqui" required>
+                        2. . It was a very boring movie. It was very long too. The movie was
+                        <input type="text" name="grammar337-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       3. Is that man’s name Richard? Or is it Robert? It’s one of the two. That man’s name
-                       <input type="text" name="grammar337-3" class="full left-align" placeholder="Responda aqui" required>
+                        3. Is that man’s name Richard? Or is it Robert? It’s one of the two. That man’s name
+                        <input type="text" name="grammar337-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       4. I don’t have the time to take a vacation. And I don’t have the money. I have
-                       <input type="text" name="grammar337-4" class="full left-align" placeholder="Responda aqui" required>
+                        4. I don’t have the time to take a vacation. And I don’t have the money. I have
+                        <input type="text" name="grammar337-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       5. We can leave today or we can leave tomorrow- whichever you prefer. We
-                       <input type="text" name="grammar337-5" class="full left-align" placeholder="Responda aqui" required>
+                        5. We can leave today or we can leave tomorrow- whichever you prefer. We
+                        <input type="text" name="grammar337-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       6. He gave up his job because he needed a change. Also because the pay was low. He gave up his job both
-                       <input type="text" name="grammar337-6" class="full left-align" placeholder="Responda aqui" required>
+                        6. He gave up his job because he needed a change. Also because the pay was low. He gave up his job both
+                        <input type="text" name="grammar337-6" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       7. Laura doesn’t smoke. And she doesn’t eat meat.
-                       <input type="text" name="grammar337-7" class="full left-align" placeholder="Responda aqui" required>
+                        7. Laura doesn’t smoke. And she doesn’t eat meat.
+                        <input type="text" name="grammar337-7" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                       8. The front of the house needs painting. The back needs painting too.
-                       <input type="text" name="grammar337-8" class="full left-align" placeholder="Responda aqui" required>
+                        8. The front of the house needs painting. The back needs painting too.
+                        <input type="text" name="grammar337-8" class="full left-align" placeholder="Responda aqui" required>
                     </p>
-                   
+
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -177,12 +177,10 @@
                     <input type="hidden" name="atividade_id" value="337">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>               
-                 
-                <br>
-                <p class="barlow">3) Think of super heroes that have similar characteristics. Write 5 sentences using BOTH/AND.</p>
+                <h5 class="barlow" style="margin-top:16px">3 - Think of super heroes that have similar characteristics. Write 5 sentences using BOTH/AND.</h5>
                 <form id="unidade49grammar338" class="metade" action="post">       
 
-                    <textarea name="grammar338-1" placeholder="Responda aqui" cols="1" rows="6"></textarea>
+                    <textarea name="grammar338-1" placeholder="Responda aqui"></textarea>
                                         
                     <div class="clear"></div> 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -191,7 +189,9 @@
                     <input type="hidden" name="atividade_id" value="338">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                                  
+                <figure>
+					<img src="{{ asset('assets/img/dominating/unit49/grammar.png') }}" alt="Garotos festejando">
+				</figure>
 			</div>
 		</div>
     </main>

@@ -17,18 +17,17 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 51/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>m sound</b> /m/ </li>        
-					<li>Method</li>	
-					<li>Manager</li>
-					<li>Almost Format Calm</li>
-					<li>Time</li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>m sound</b> /m/ </p></li>        
+					<li><p>Method</p></li>	
+					<li><p>Manager</p></li>
+					<li><p>Almost Format Calm</p></li>
+					<li><p>Time</p></li>
 				</ul>
 				<p style="margin-top:32px">
 					The manager method was efficient for almost calming the client down. Now they know
 					that the problem is matter of time and format.
 				</p>
-				<div class="clear"></div>
 			</div>
 		</div>
     </main>

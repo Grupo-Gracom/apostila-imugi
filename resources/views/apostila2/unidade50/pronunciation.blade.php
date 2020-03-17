@@ -18,7 +18,7 @@
 				</audio>
                 <div class="clear"></div>
 
-                <ul class="lista-inline">
+                <ul class="lista-inline upper" style="margin-top:16px">
                     <li><p><b>f sound /f/</b></p></li>
                     <li><p>FACE</p></li>
                     <li><p>FAST</p></li>
@@ -27,8 +27,10 @@
                     <li><p>ENOUGH</p></li>
                     <li><p>HALF</p></li>
                 </ul>
-                <p>Facebook administrators confirmed that half of the users was not fast enough to learn
-                    how to use that specific tool.</p>
+                <p style="margin-top:32px">
+                    Facebook administrators confirmed that half of the users was not fast enough to learn
+                    how to use that specific tool.
+                </p>
 			</div>
 		</div>
     </main>

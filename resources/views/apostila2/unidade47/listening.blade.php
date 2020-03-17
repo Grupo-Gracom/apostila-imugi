@@ -18,15 +18,15 @@
 				</audio>
                 <div class="clear"></div>
                 
-                <h5 class="barlow">A – Listen to the audio and fill in the blanks with the missing words.</h5>
-                <form id="unidade47listening330" class="metade" method="post">
-                    <p>1.In a
+                <h5 class="barlow"style="margin-top:16px">A – Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade47listening330" method="post">
+                    <p>In a
                     <input type="text" name="listening330-1" placeholder="Responda aqui" required>interview,
                     <input type="text" name="listening330-2" placeholder="Responda aqui" required>to much nor
                     <input type="text" name="listening330-3" placeholder="Responda aqui" required>too little about yourself. Interviewers, usually like
                     <input type="text" name="listening330-4" placeholder="Responda aqui" required>who are
                     <input type="text" name="listening330-5" placeholder="Responda aqui" required>and well
-                    <input type="text" name="listening330-6" placeholder="Responda aqui" required>. Answer the questions he/she asks you accordingly. Be friendly and r
+                    <input type="text" name="listening330-6" placeholder="Responda aqui" required>. Answer the questions he/she asks you accordingly. Be friendly and 
                     <input type="text" name="listening330-7" placeholder="Responda aqui" required>with him or her. Personal issues mustn’t be addressed. Neither you, nor the interviewer
                     <input type="text" name="listening330-8" placeholder="Responda aqui" required>bring such issues to the
                     <input type="text" name="listening330-9" placeholder="Responda aqui" required>.</p>

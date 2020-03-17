@@ -18,26 +18,25 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 50/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
-
-				<p>TO SET / the table / a time / a date / the alarm clock</p>
-				<p>TO UNDERLINE / a word / a sentence</p>
-				<p>TO WAIT / just a second / for an hour / for hours</p>
-
+				<div class="espacamento">
+					<p><b>TO SET </b>/ the table / a time / a date / the alarm clock</p>
+					<p><b>TO UNDERLINE </b>/ a word / a sentence</p>
+					<p><b>TO WAIT </b>/ just a second / for an hour / for hours</p>
+				</div>
 				<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 50/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<ul class="lista-inline">
-					<li><b>RESTING</b></li>
-					<li><b>WAR</b></li>
-					<li><b>FOLLOWED</b></li>
-					<li><b>IMPROVED</b></li>
-					<li><b>RELEASE</b></li>
-					<li><b>FEATURE</b></li>
-					<li><b>REMARKABLE</b></li>
-					<li><b>MIND-BLOWING</li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>RESTING</b></p></li>
+					<li><p><b>WAR</b></p></li>
+					<li><p><b>FOLLOWED</b></p></li>
+					<li><p><b>IMPROVED</b></p></li>
+					<li><p><b>RELEASE</b></p></li>
+					<li><p><b>FEATURE</b></p></li>
+					<li><p><b>REMARKABLE</b></p></li>
+					<li><p><b>MIND-BLOWING</p></li>
 				</ul>							
-				
 			</div>
 		</div>
 	</main>
