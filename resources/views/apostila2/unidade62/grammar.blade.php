@@ -21,93 +21,91 @@
                 <div style="margin-top: 16px">
                     <h5 class="barlow">A - Fill in the correct tenses of the words given .</h5>
                     <form id="unidade62grammar409" method="post">
-                        <div class="metade" >
-                            <p> 
-                                <p>
-                                    1. I <input type="text" name="grammar409-1"  placeholder="Responda aqui" required/> (not talk) to Mr. Smith yet, but I 
-                                    <input type="text" name="grammar409-2"  placeholder="Responda aqui" required/> (talk) to him soon.
-                                </p>
-                                <p>
-                                    2. I <input type="text" name="grammar409-3"  placeholder="Responda aqui" required/> (wait) long enough. I am going home now.
-                                </p>
-                                <p>
-                                    3. How long <input type="text" name="grammar409-4"  placeholder="Responda aqui" required/> (the boys, play) football ? - I think for half an hour.
-                                </p>
-                                <p>
-                                    4. While we <input type="text" name="grammar409-5"  placeholder="Responda aqui" required/> (play) with our toy cars, the girls 
-                                    <input type="text" name="grammar409-6"  placeholder="Responda aqui" required/> (watch ) TV.
-                                </p>
-                                <p>
-                                    5. Jack <input type="text" name="grammar409-7"  placeholder="Responda aqui" required/> (speak) with Mary yesterday.
-                                </p>
-                                <p>
-                                    6. Princess Anne <input type="text" name="grammar409-8"  placeholder="Responda aqui" required/> (open) the new hospital in a few weeks.
-                                </p>
-                                <p>
-                                    7. Listen! I believe Jack <input type="text" name="grammar409-9"  placeholder="Responda aqui" required/> (take) a shower.
-                                </p>
-                                <p>
-                                    8. While you <input type="text" name="grammar409-10"  placeholder="Responda aqui" required/> (shop) someone 
-                                    <input type="text" name="grammar409-11"  placeholder="Responda aqui" required/>(come) and
-                                    <input type="text" name="grammar409-12"  placeholder="Responda aqui" required/> (leave) this note.
-                                </p>
-                                <p>
-                                    9. I <input type="text" name="grammar409-13"  placeholder="Responda aqui" required/> (learn) English since I was four years old.
-                                </p>
-                                <p>
-                                    10. They <input type="text" name="grammar409-14"  placeholder="Responda aqui" required/> (meet) after school every day.
-                                </p>
-                                <p>
-                                    11. We usually <input type="text" name="grammar409-15"  placeholder="Responda aqui" required/> (drink) coffee, but we 
-                                    <input type="text" name="grammar409-16"  placeholder="Responda aqui" required/> (not drink) any for more than a week.
-                                </p>
-                                <p>
-                                    12. How many plays <input type="text" name="grammar409-17"  placeholder="Responda aqui" required/> (Shakespeare, write) ?
-                                </p>
-                                <p>
-                                    13. <input type="text" name="grammar409-18"  placeholder="Responda aqui" required/> (You see) Anne recently ? No, but I 
-                                    <input type="text" name="grammar409-19"  placeholder="Responda aqui" required/> (see) her two weeks ago.
-                                </p>
-                                <p>
-                                    14. Jack <input type="text" name="grammar409-20"  placeholder="Responda aqui" required/> (just, get) home when I phoned . He said he 
-                                    <input type="text" name="grammar409-21"  placeholder="Responda aqui" required/> (be) in London.
-                                </p>
-                                <p>
-                                    15. Jim <input type="text" name="grammar409-22"  placeholder="Responda aqui" required/> (come) back from a holiday a few days ago. But I 
-                                    <input type="text" name="grammar409-23"  placeholder="Responda aqui" required/>. (not see) him so far.
-                                </p>
-                                <p>
-                                    16. After John <input type="text" name="grammar409-24"  placeholder="Responda aqui" required/> (repair) the car, he 
-                                    <input type="text" name="grammar409-25"  placeholder="Responda aqui" required/> (help) in the garden.
-                                </p>
-                                <p>
-                                    17. Tom <input type="text" name="grammar409-26"  placeholder="Responda aqui" required/> (burn) his hand while he 
-                                    <input type="text" name="grammar409-27"  placeholder="Responda aqui" required/> (cook) dinner.
-                                </p>
-                                <p>
-                                    18. I <input type="text" name="grammar409-28"  placeholder="Responda aqui" required/> (go) to bed now ! Good night.
-                                </p>
-                                <p>
-                                    19. It usually <input type="text" name="grammar409-29"  placeholder="Responda aqui" required/> (not rain) very much in Texas.
-                                </p>
-                                <p>
-                                    20. I am tired. I <input type="text" name="grammar409-30"  placeholder="Responda aqui" required/> (do) a lot of work today.
-                                </p>
-                                <p>
-                                    21. At 10 o’clock yesterday Sally <input type="text" name="grammar409-31"  placeholder="Responda aqui" required/> (be) in her office .
-                                She <input type="text" name="grammar409-32"  placeholder="Responda aqui" required/> (work).
-                                </p>
-                                <p>
-                                    22. We <input type="text" name="grammar409-33"  placeholder="Responda aqui" required/> (eat) two big Macs before we 
-                                    <input type="text" name="grammar409-34"  placeholder="Responda aqui" required/> (go) home.
-                                </p>
-                                <p>
-                                    23. Our neighbors <input type="text" name="grammar409-35"  placeholder="Responda aqui" required/> (travel) around Europe for three months. They
-                                    <input type="text" name="grammar409-36"  placeholder="Responda aqui" required/> ( be) in 5 countries so far.
-                                </p>
-                                
+                        <p> 
+                            <p>
+                                1. I <input type="text" name="grammar409-1"  placeholder="Responda aqui" required/> (not talk) to Mr. Smith yet, but I 
+                                <input type="text" name="grammar409-2"  placeholder="Responda aqui" required/> (talk) to him soon.
                             </p>
-                        </div>
+                            <p>
+                                2. I <input type="text" name="grammar409-3"  placeholder="Responda aqui" required/> (wait) long enough. I am going home now.
+                            </p>
+                            <p>
+                                3. How long <input type="text" name="grammar409-4"  placeholder="Responda aqui" required/> (the boys, play) football ? - I think for half an hour.
+                            </p>
+                            <p>
+                                4. While we <input type="text" name="grammar409-5"  placeholder="Responda aqui" required/> (play) with our toy cars, the girls 
+                                <input type="text" name="grammar409-6"  placeholder="Responda aqui" required/> (watch ) TV.
+                            </p>
+                            <p>
+                                5. Jack <input type="text" name="grammar409-7"  placeholder="Responda aqui" required/> (speak) with Mary yesterday.
+                            </p>
+                            <p>
+                                6. Princess Anne <input type="text" name="grammar409-8"  placeholder="Responda aqui" required/> (open) the new hospital in a few weeks.
+                            </p>
+                            <p>
+                                7. Listen! I believe Jack <input type="text" name="grammar409-9"  placeholder="Responda aqui" required/> (take) a shower.
+                            </p>
+                            <p>
+                                8. While you <input type="text" name="grammar409-10"  placeholder="Responda aqui" required/> (shop) someone 
+                                <input type="text" name="grammar409-11"  placeholder="Responda aqui" required/>(come) and
+                                <input type="text" name="grammar409-12"  placeholder="Responda aqui" required/> (leave) this note.
+                            </p>
+                            <p>
+                                9. I <input type="text" name="grammar409-13"  placeholder="Responda aqui" required/> (learn) English since I was four years old.
+                            </p>
+                            <p>
+                                10. They <input type="text" name="grammar409-14"  placeholder="Responda aqui" required/> (meet) after school every day.
+                            </p>
+                            <p>
+                                11. We usually <input type="text" name="grammar409-15"  placeholder="Responda aqui" required/> (drink) coffee, but we 
+                                <input type="text" name="grammar409-16"  placeholder="Responda aqui" required/> (not drink) any for more than a week.
+                            </p>
+                            <p>
+                                12. How many plays <input type="text" name="grammar409-17"  placeholder="Responda aqui" required/> (Shakespeare, write) ?
+                            </p>
+                            <p>
+                                13. <input type="text" name="grammar409-18"  placeholder="Responda aqui" required/> (You see) Anne recently ? No, but I 
+                                <input type="text" name="grammar409-19"  placeholder="Responda aqui" required/> (see) her two weeks ago.
+                            </p>
+                            <p>
+                                14. Jack <input type="text" name="grammar409-20"  placeholder="Responda aqui" required/> (just, get) home when I phoned . He said he 
+                                <input type="text" name="grammar409-21"  placeholder="Responda aqui" required/> (be) in London.
+                            </p>
+                            <p>
+                                15. Jim <input type="text" name="grammar409-22"  placeholder="Responda aqui" required/> (come) back from a holiday a few days ago. But I 
+                                <input type="text" name="grammar409-23"  placeholder="Responda aqui" required/>. (not see) him so far.
+                            </p>
+                            <p>
+                                16. After John <input type="text" name="grammar409-24"  placeholder="Responda aqui" required/> (repair) the car, he 
+                                <input type="text" name="grammar409-25"  placeholder="Responda aqui" required/> (help) in the garden.
+                            </p>
+                            <p>
+                                17. Tom <input type="text" name="grammar409-26"  placeholder="Responda aqui" required/> (burn) his hand while he 
+                                <input type="text" name="grammar409-27"  placeholder="Responda aqui" required/> (cook) dinner.
+                            </p>
+                            <p>
+                                18. I <input type="text" name="grammar409-28"  placeholder="Responda aqui" required/> (go) to bed now ! Good night.
+                            </p>
+                            <p>
+                                19. It usually <input type="text" name="grammar409-29"  placeholder="Responda aqui" required/> (not rain) very much in Texas.
+                            </p>
+                            <p>
+                                20. I am tired. I <input type="text" name="grammar409-30"  placeholder="Responda aqui" required/> (do) a lot of work today.
+                            </p>
+                            <p>
+                                21. At 10 o’clock yesterday Sally <input type="text" name="grammar409-31"  placeholder="Responda aqui" required/> (be) in her office .
+                            She <input type="text" name="grammar409-32"  placeholder="Responda aqui" required/> (work).
+                            </p>
+                            <p>
+                                22. We <input type="text" name="grammar409-33"  placeholder="Responda aqui" required/> (eat) two big Macs before we 
+                                <input type="text" name="grammar409-34"  placeholder="Responda aqui" required/> (go) home.
+                            </p>
+                            <p>
+                                23. Our neighbors <input type="text" name="grammar409-35"  placeholder="Responda aqui" required/> (travel) around Europe for three months. They
+                                <input type="text" name="grammar409-36"  placeholder="Responda aqui" required/> ( be) in 5 countries so far.
+                            </p>
+                            
+                        </p>
                         
                         <div class="clear"></div>
 

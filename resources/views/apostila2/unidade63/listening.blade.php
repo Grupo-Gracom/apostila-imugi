@@ -18,27 +18,25 @@
 				</audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade">
-                    <form id="unidade63listening414" method="post">
-                    <p>
-                        <input type="text" name="listening414-1" placeholder="Responda aqui" required> are 
-                        <input type="text" name="listening414-2" placeholder="Responda aqui" required> in life. Have a detailed plan on how you 
-                        <input type="text" name="listening414-3" placeholder="Responda aqui" required> to do things.
-                        Think at <input type="text" name="listening414-4" placeholder="Responda aqui" required> of three different ways to 
-                        <input type="text" name="listening414-5" placeholder="Responda aqui" required> your goals. Keep the 
-                        <input type="text" name="listening414-6" placeholder="Responda aqui" required>
-                        of checking your plans <input type="text" name="listening414-7" placeholder="Responda aqui" required>. If something goes off 
-                        <input type="text" name="listening414-8" placeholder="Responda aqui" required>, reorganize and
-                        start it over.
-                    </p>
+                <form id="unidade63listening414" method="post">
+                <p>
+                    <input type="text" name="listening414-1" placeholder="Responda aqui" required> are 
+                    <input type="text" name="listening414-2" placeholder="Responda aqui" required> in life. Have a detailed plan on how you 
+                    <input type="text" name="listening414-3" placeholder="Responda aqui" required> to do things.
+                    Think at <input type="text" name="listening414-4" placeholder="Responda aqui" required> of three different ways to 
+                    <input type="text" name="listening414-5" placeholder="Responda aqui" required> your goals. Keep the 
+                    <input type="text" name="listening414-6" placeholder="Responda aqui" required>
+                    of checking your plans <input type="text" name="listening414-7" placeholder="Responda aqui" required>. If something goes off 
+                    <input type="text" name="listening414-8" placeholder="Responda aqui" required>, reorganize and
+                    start it over.
+                </p>
 
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="63">
-                        <input type="hidden" name="atividade_id" value="414">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="63">
+                    <input type="hidden" name="atividade_id" value="414">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
 		</div>
     </main>

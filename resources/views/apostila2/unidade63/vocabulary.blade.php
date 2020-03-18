@@ -17,32 +17,26 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 63/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO CLIMB / a mountain / a tree / the wall</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO CRASH / a car / into something</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO CURSE / someone / something / somebody for doing something</b></ol>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO CLIMB </b>/ a mountain / a tree / the wall</p>
+					<p><b>TO CRASH </b>/ a car / into something</p>
+					<p><b>TO CURSE </b>/ someone / something / somebody for doing something</p>
+				</div>
 
 				<h5 class="barlow" style="margin-top: 32px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 63/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>Make</b></li>
-						<li><b>Gotta</b></li>
-						<li><b>Asked</b></li>
-						<li><b>Find</b></li>
-						<li><b>Trivial</b></li>
-						<li><b>Beyond</b></li>
-						<li><b>Bold</b></li>
-						<li><b>Winners</b></li>
-					</ul>
-				</div>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Make</b></p></li>
+					<li><p><b>Gotta</b></p></li>
+					<li><p><b>Asked</b></p></li>
+					<li><p><b>Find</b></p></li>
+					<li><p><b>Trivial</b></p></li>
+					<li><p><b>Beyond</b></p></li>
+					<li><p><b>Bold</b></p></li>
+					<li><p><b>Winners</b></p></li>
+				</ul>
 			</div>
 		</div>
 	</main>

@@ -21,70 +21,68 @@
                 <div style="margin-top: 16px">
                     <h5 class="barlow">A - Choose the correct tense.</h5>
                     <form id="unidade63grammar413" method="post">
-                        <div class="metade" >
-                            <p> 
-                                <p>
-                                    1. <input type="radio" name="grammar413-1" value="1" required/> I can’t come to see you now, because I (am finishing /finish) my homework.
-                                </p>
-                                <p>
-                                    2. <input type="radio" name="grammar413-1" value="2" required/> You’ve dropped your wallet. (I’m going to / I’ll) pick it up for you.
-                                </p>
-                                <p>
-                                    3. <input type="radio" name="grammar413-1" value="3" required/> It was the first time the actor (received / was receiving) such bad reviews.
-                                </p>
-                                <p>
-                                    4. <input type="radio" name="grammar413-1" value="4" required/> I (watched / was watching) my favorite show when the doorbell rang.
-                                </p>
-                                <p>
-                                    5. <input type="radio" name="grammar413-1" value="5" required/> They (awarded / have awarded) Bob Matthews an Oscar. It was on the news just now.
-                                </p>
-                                <p>
-                                    6. <input type="radio" name="grammar413-1" value="6" required/> They (broadcast / were broadcasting) the match live when the rain stopped play.
-                                </p>
-                                <p>
-                                    7. <input type="radio" name="grammar413-1" value="7" required/> We looked out of the window and saw that it (was raining / rained) so we decided to stay at home.
-                                </p>
-                                <p>
-                                    8. <input type="radio" name="grammar413-1" value="8" required/> TV talk shows (increase / are increasing) in number all the time.
-                                </p>
-                                <p>
-                                    9. <input type="radio" name="grammar413-1" value="9" required/> Can you remember what you (were wearing / were) when you lost your handbag ?
-                                </p>
-                                <p>
-                                    10. <input type="radio" name="grammar413-1" value="10" required/> I (had been skiing / skied) before but last week was really awesome.
-                                </p>
-                                <p>
-                                    11. <input type="radio" name="grammar413-1" value="11" required/> I (have gone / went) to a modern art exhibition last week.
-                                </p>
-                                <p>
-                                    12. <input type="radio" name="grammar413-1" value="12" required/> I (have been reading / have read) a new novel by John Grisham. It’s so thrilling I can’t put it down !
-                                </p>
-                                <p>
-                                    13. <input type="radio" name="grammar413-1" value="13" required/> I (had been waited / had waited) for ages for her to write before the letter finally arrived.
-                                </p>
-                                <p>
-                                    14. <input type="radio" name="grammar413-1" value="14" required/> When I (finished / have finished) reading the book, I’m going to start a new one.
-                                </p>
-                                <p>
-                                    15. <input type="radio" name="grammar413-1" value="15" required/> They (broadcast / have broadcast) the program twice on TV already.
-                                </p>
-                                <p>
-                                    16. <input type="radio" name="grammar413-1" value="16" required/> As it (had snowed / had been snowing) the whole night all the roads were blocked.
-                                </p>
-                                <p>
-                                    17. <input type="radio" name="grammar413-1" value="17" required/> I usually (tell / am telling) the children a story before they go to bed.
-                                </p>
-                                <p>
-                                    18. <input type="radio" name="grammar413-1" value="18" required/> The most popular film he (made / has made) so far is Ridding High.
-                                </p>
-                                <p>
-                                    19. <input type="radio" name="grammar413-1" value="19" required/> I’m going now but (I’m seeing / I’ll see) you at the same time tomorrow.
-                                </p>
-                                <p>
-                                    20. <input type="radio" name="grammar413-1" value="20" required/> I (have been watching / have watched) TV for hours now. I’ve had enough.
-                                </p>
+                        <p> 
+                            <p>
+                                1. I can’t come to see you now, because I (<input type="radio" name="grammar413-1" value="1" required/> <b>am finishing /</b> <input type="radio" name="grammar413-1" value="2" required/> <b>finish</b>) my homework.
                             </p>
-                        </div>
+                            <p>
+                                2. You’ve dropped your wallet. (<input type="radio" name="grammar413-2" value="1" required/> <b>I’m going to /</b> <input type="radio" name="grammar413-2" value="2" required/><b>I’ll)</b> pick it up for you.
+                            </p>
+                            <p>
+                                3. It was the first time the actor (<input type="radio" name="grammar413-3" value="1" required/> <b>received /</b> <input type="radio" name="grammar413-3" value="2" required/> <b>was receiving</b>) such bad reviews.
+                            </p>
+                            <p>
+                                4. I (<input type="radio" name="grammar413-4" value="1" required/> <b>watched /</b> <input type="radio" name="grammar413-4" value="2" required/> <b>was watching</b>) my favorite show when the doorbell rang.
+                            </p>
+                            <p>
+                                5. They (<input type="radio" name="grammar413-5" value="1" required/> <b>awarded /</b><input type="radio" name="grammar413-5" value="2" required/> <b>have awarded</b>) Bob Matthews an Oscar. It was on the news just now.
+                            </p>
+                            <p>
+                                6. They (<input type="radio" name="grammar413-6" value="1" required/> <b>broadcast /</b><input type="radio" name="grammar413-6" value="2" required/> <b>were broadcasting</b>) the match live when the rain stopped play.
+                            </p>
+                            <p>
+                                7. We looked out of the window and saw that it (<input type="radio" name="grammar413-7" value="1" required/><b>was raining /</b><input type="radio" name="grammar413-7" value="2" required/> <b>rained</b>) so we decided to stay at home.
+                            </p>
+                            <p>
+                                8. TV talk shows (<input type="radio" name="grammar413-8" value="1" required/> <b>increase /</b><input type="radio" name="grammar413-8" value="2" required/> <b>are increasing)</b> in number all the time.
+                            </p>
+                            <p>
+                                9. Can you remember what you (<input type="radio" name="grammar413-9" value="1" required/><b>were wearing /</b><input type="radio" name="grammar413-9" value="2" required/>  <b>were</b>) when you lost your handbag ?
+                            </p>
+                            <p>
+                                10. I (<input type="radio" name="grammar413-10" value="1" required/> <b>had been skiing /</b><input type="radio" name="grammar413-10" value="2" required/> <b>skied</b>) before but last week was really awesome.
+                            </p>
+                            <p>
+                                11. I (<input type="radio" name="grammar413-11" value="1" required/> <b>have gone /</b><input type="radio" name="grammar413-11" value="2" required/> <b>went</b>) to a modern art exhibition last week.
+                            </p>
+                            <p>
+                                12. I (<input type="radio" name="grammar413-12" value="1" required/> <b>have been reading /</b><input type="radio" name="grammar413-12" value="2" required/> <b>have read</b>) a new novel by John Grisham. It’s so thrilling I can’t put it down !
+                            </p>
+                            <p>
+                                13. I (<input type="radio" name="grammar413-13" value="1" required/> <b>had been waited /</b><input type="radio" name="grammar413-13" value="2" required/> <b>had waited</b>) for ages for her to write before the letter finally arrived.
+                            </p>
+                            <p>
+                                14. When I (<input type="radio" name="grammar413-14" value="1" required/> <b>finished /</b><input type="radio" name="grammar413-14" value="2" required/> <b>have finished</b>) reading the book, I’m going to start a new one.
+                            </p>
+                            <p>
+                                15. They (<input type="radio" name="grammar413-15" value="1" required/> <b>broadcast /</b><input type="radio" name="grammar413-15" value="2" required/> <b>have broadcast</b>) the program twice on TV already.
+                            </p>
+                            <p>
+                                16. As it (<input type="radio" name="grammar413-16" value="1" required/> <b>had snowed /</b><input type="radio" name="grammar413-16" value="2" required/> <b>had been snowing</b>) the whole night all the roads were blocked.
+                            </p>
+                            <p>
+                                17. I usually (<input type="radio" name="grammar413-17" value="1" required/> <b>tell /</b><input type="radio" name="grammar413-17" value="2" required/> <b>am telling</b>) the children a story before they go to bed.
+                            </p>
+                            <p>
+                                18. The most popular film he (<input type="radio" name="grammar413-18" value="1" required/> <b>made /</b><input type="radio" name="grammar413-18" value="2" required/> <b>has made</b>) so far is Ridding High.
+                            </p>
+                            <p>
+                                19. I’m going now but (<input type="radio" name="grammar413-19" value="1" required/> <b>I’m seeing /</b><input type="radio" name="grammar413-19" value="2" required/> <b>I’ll see</b>) you at the same time tomorrow.
+                            </p>
+                            <p>
+                                20. I (<input type="radio" name="grammar413-20" value="1" required/> <b>have been watching /</b><input type="radio" name="grammar413-20" value="2" required/><b>have watched</b>) TV for hours now. I’ve had enough.
+                            </p>
+                        </p>
                         
                         <div class="clear"></div>
 
