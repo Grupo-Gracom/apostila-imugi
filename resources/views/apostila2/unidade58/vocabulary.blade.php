@@ -3,54 +3,62 @@
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
-	@include('layouts.menus.mSidebar')
-    @include('layouts.header.mHeader')
-    		
-	<main>
-		<!-- Conteúdo principal central -->
-		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade58" data-etapa="vocabulary">
-				<h3 class="barlow">UNIT 58</h3>
-				<h5 class="barlow">1 - VOCABULARY</h5>
-				<span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 58/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
-				</audio>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 58/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
-				</audio>
-				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO SUE / a person / an institution</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO SUNBATHE / at the beach / at the club</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO TURN / on / off / up / around</b></ol>
-				</ul>
+@include('layouts.menus.mSidebar')
+@include('layouts.header.mHeader')
 
-				<h5 class="barlow" style="margin-top: 32px">B -  WORDS IN CONTEXT</h5>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 58/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
-				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>Lighting</b></li>
-						<li><b>Missing</b></li>
-						<li><b>At least</b></li>
-						<li><b>Spent</b></li>
-						<li><b>Done</b></li>
-						<li><b>Send</b></li>
-						<li><b>Draft</b></li>
-						<li><b>Background</b></li>
-					</ul>
-				</div>
+<main>
+	<!-- Conteúdo principal central -->
+	<div class="dashboard">
+		<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade58" data-etapa="vocabulary">
+			<h3 class="barlow">UNIT 58</h3>
+			<h5 class="barlow">1 - VOCABULARY</h5>
+			<span class="play-audio">( Aperte o play )</span>
+			<audio controls="" controlslist="nodownload" class="suave">
+				<source src="{{ asset('assets/audio/apostila2/UNIT 58/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
+			</audio>
+
+			<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
+			<div class="espacamento">
+				<p><b>TO SUE </b>/ a person / an institution</p>
+				<p><b>TO SUNBATHE </b>/ at the beach / at the club</p>
+				<p><b>TO TURN </b>/ on / off / up / around</p>
 			</div>
+
+			<h5 class="barlow" style="margin-top: 32px">B - WORDS IN CONTEXT</h5>
+			<audio controls="" controlslist="nodownload" class="suave">
+				<source src="{{ asset('assets/audio/apostila2/UNIT 58/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
+			</audio>
+			<ul class="lista-inline upper" style="margin-top: 36px">
+				<li>
+					<p><b>Lighting</b></p>
+				</li>
+				<li>
+					<p><b>Missing</b></p>
+				</li>
+				<li>
+					<p><b>At least</b></p>
+				</li>
+				<li>
+					<p><b>Spent</b></p>
+				</li>
+				<li>
+					<p><b>Done</b></p>
+				</li>
+				<li>
+					<p><b>Send</b></p>
+				</li>
+				<li>
+					<p><b>Draft</b></p>
+				</li>
+				<li>
+					<p><b>Background</b></p>
+				</li>
+			</ul>
 		</div>
-	</main>
-	<script>
-        activeMenu();
-    </script>
+	</div>
+</main>
+<script>
+	activeMenu();
+</script>
 
 @endsection
