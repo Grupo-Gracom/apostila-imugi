@@ -85,7 +85,7 @@
                 </form>
             </div>
 
-            <h5 class="barlow metade" style="margin-top: 36px">
+            <h5 class="barlow" style="margin-top: 36px">
                 2 - Think of a date in the future and share with your classmates what you will have been
                 doing before this date to became the best professional in your area.
             </h5>

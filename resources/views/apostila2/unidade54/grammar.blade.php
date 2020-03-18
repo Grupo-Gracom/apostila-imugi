@@ -22,8 +22,8 @@
                 <h5 class="barlow">A - SIMPLE PAST X PRESENT PERFECT</h5>
                 <p>It is important to select the grammar structure according to the message you want communicate. Pay attention to difference between Simple Past and Present perfect.</p>
                 <div class="metade">
-                    <table class=" center-align">
-                        <tr>
+                    <table class=" center-align bordered">
+                        <tr class="bordered">
                             <td>
                                 <h5 class="barlow">
                                     <b>SIMPLE PAST</b> - Definite time in the past.
@@ -35,7 +35,7 @@
                                 </h5>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="bordered">
                             <td class="left-align">
                                 <p>A: John, <b>did</b> you <b>travel</b> to new York?</p>
                                 <p>B: Yes, I <b>visited</b> Rockstar <b>last year</b></p>
@@ -218,7 +218,7 @@
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
 
-            <h5 class="barlow metade" style="margin-top: 36px">4 - Think of famous movies like Star Wars, Lord of the Rings or Harry Potter. Make a retrospective analysis of one of them. Have in mind that we can use SIMPLE PAST and PRESENT
+            <h5 class="barlow" style="margin-top: 36px">4 - Think of famous movies like Star Wars, Lord of the Rings or Harry Potter. Make a retrospective analysis of one of them. Have in mind that we can use SIMPLE PAST and PRESENT
                 PERFECT to do so. Write at least 3 sentences with each verb tense. </h5>
             <form id="unidade54grammar370" method="post">
                 <textarea name="grammar370-1" class="metade left-align" placeholder="Responda aqui" required></textarea>

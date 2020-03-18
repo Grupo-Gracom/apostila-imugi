@@ -100,7 +100,7 @@
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
 
-            <h5 class="barlow metade" style="margin-top: 36px">
+            <h5 class="barlow" style="margin-top: 36px">
                 3 - Before you started your course, certainly you were involved in some activities. What
                 had you been doing before you started the course.
             </h5>
