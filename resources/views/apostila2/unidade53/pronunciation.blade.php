@@ -17,13 +17,13 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 53/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>ng sound</b> /ŋ/ </li>        
-					<li>Single</li>	
-					<li>Distinguish</li>
-					<li>HungerBring</li>
-					<li>Long</li>
-					<li>Wrong</li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>ng sound</b> /ŋ/ </p></li>        
+					<li><p>Single</p></li>	
+					<li><p>Distinguish</p></li>
+					<li><p>HungerBring</p></li>
+					<li><p>Long</p></li>
+					<li><p>Wrong</p></li>
 				</ul>
 				<p style="margin-top:32px">
 					They can’t distinguish a single problem. There’s a hunger to bring a new illustrator, but

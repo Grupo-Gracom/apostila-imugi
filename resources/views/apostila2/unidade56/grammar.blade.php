@@ -26,28 +26,28 @@
                         the Present Perfect Continuous; however, the duration does not continue until now, it stops
                         before something else in the past.
                     </p>
-                    <p class="center-align caixa"><b>Past Perfect = Subject + Had + BEEN + verb(ing)</b></p>
-                    <table class="metade espacamento center-align">
-                        <tr>
-                            <td>
-                                <h5 class="barlow">
-                                    <b>PAST PERFECT</b> 
-                                </h5>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>(+) Gleen had teaching over an hour when Akira arrived.</p>
-                                <p>(-) Gleen hadn't been teaching over an hour when Akira arrived.</p>
-                                <p>(?) Had Gleen been teaching over an hour when Akira Arrived?</p><br>
-                            
-                                <p>(+) Laura had already been using different cameras when she fell in love with videos.</p>
-                                <p>(-) Laura hadn't been using different cameras yet when she fell in love with videos.</p>
-                                <p>(?) Had Laura been using different Cameras when she fell in love with videos?</p><br>
-                            </td>
-                        </tr>
-                    </table> 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                    <p class="bordaVerde"><b>Past Perfect = Subject + Had + BEEN + verb(ing)</b></p>
+                    <div class="metade">
+                        <table class=" center-align">
+                            <tr>
+                                <td>
+                                    <h5 class="barlow">PAST PERFECT</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>(+) Gleen had teaching over an hour when Akira arrived.</p>
+                                    <p>(-) Gleen hadn't been teaching over an hour when Akira arrived.</p>
+                                    <p>(?) Had Gleen been teaching over an hour when Akira Arrived?</p><br>
+                                
+                                    <p>(+) Laura had already been using different cameras when she fell in love with videos.</p>
+                                    <p>(-) Laura hadn't been using different cameras yet when she fell in love with videos.</p>
+                                    <p>(?) Had Laura been using different Cameras when she fell in love with videos?</p><br>
+                                </td>
+                            </tr>
+                        </table> 
+                    </div>
+                    <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES:</b></h5>
                     <h5 class="barlow">1 - Fill in the following sentences by using PAST PERFECT CONTINUOUS TENSE:</h5>
                     <form id="unidade56grammar380" style="margin-top:32px" method="post">
                         <div class="metade">

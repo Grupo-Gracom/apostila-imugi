@@ -17,14 +17,14 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 56/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>w sound</b> /w/ </li>        
-					<li>Once</li>	
-					<li>Watch</li>
-					<li>While</li>
-					<li>Quick</li>
-					<li>Consequence</li>
-					<li>Otherwise</li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>w sound</b> /w/ </p></li>        
+					<li><p>Once</p></li>	
+					<li><p>Watch</p></li>
+					<li><p>While</p></li>
+					<li><p>Quick</p></li>
+					<li><p>Consequence</p></li>
+					<li><p>Otherwise</p></li>
 				</ul>
 				<p style="margin-top:32px">
 				While you watch the video quickly at least once I’ll check the subtitles. Otherwise the consequence is not gonna be good. 

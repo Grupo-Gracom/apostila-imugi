@@ -47,7 +47,7 @@
                         </tr>
                     </table> 
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                    <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES:</b></h5>
                     <h5 class="barlow">1 - Complete the Conditional Sentences (Type II) by putting the verbs into the correct form.
                     Use conditional I with would in the main clause.</h5>
                     <form id="unidade60grammar399" style="margin-top:32px" method="post">
@@ -124,7 +124,7 @@
                         <img src="{{ asset('assets/img/playgo/unit60/pagina-1.png') }}" alt="brasilia">
                     </figure>
                 </div>
-                <h5 class="barlow metade" style="margin-top: 36px">
+                <h5 class="barlow" style="margin-top: 36px">
                     3 -  What would you do if you had the chance to be an intern in a big company like Rockstar,
                     Warner Bross or Google? Write at least 5 sentences using the SECOND CONDITIONAL.
                 </h5>    

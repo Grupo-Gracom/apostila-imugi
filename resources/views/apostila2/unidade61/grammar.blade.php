@@ -46,7 +46,7 @@
                         </tr>
                     </table> 
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                    <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES:</b></h5>
                     <h5 class="barlow">1 - Complete the Conditional Sentences Type III.</h5>
                     <form id="unidade61grammar404" style="margin-top:32px" method="post">
                         <div class="metade">
@@ -129,7 +129,7 @@
                         <img src="{{ asset('assets/img/playgo/unit60/pagina-1.png') }}" alt="pensando na festa">
                     </figure>
                 </div>
-                <h5 class="barlow metade" style="margin-top: 36px">
+                <h5 class="barlow" style="margin-top: 36px">
                     3 -  What would you have done if you had been born during the sixties? Write at least 5
                     sentences using the THIRD CONDITIONAL.
                 </h5>    

@@ -17,12 +17,12 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 55/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>v sound</b> /v/ </li>        
-					<li>Version</li>	
-					<li>Video Develop</li>
-					<li>Deliver Creative</li>
-					<li>Improve</li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>v sound</b> /v/ </p></li>        
+					<li><p>Version</p></li>	
+					<li><p>Video Develop</p></li>
+					<li><p>Deliver Creative</p></li>
+					<li><p>Improve</p></li>
 				</ul>
 				<p style="margin-top:32px">
 					The agency developed a new version of the video to be delivered next week.

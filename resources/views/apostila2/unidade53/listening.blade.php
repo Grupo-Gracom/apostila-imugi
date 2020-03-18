@@ -17,30 +17,28 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 53/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade53listening365" method="post">
-                        <p> 
-                            <p>
-                                They <input type="text" name="listening365-1"  placeholder="Responda aqui" required> in a very beautiful 
-                                <input type="text" name="listening365-2"  placeholder="Responda aqui" required> for almost three days.
-                            </p>
-                            <p>
-                                The <input type="text" name="listening365-3"  placeholder="Responda aqui" required> scenes always 
-                                <input type="text" name="listening365-4"  placeholder="Responda aqui" required> a 
-                                <input type="text" name="listening365-5"  placeholder="Responda aqui" required> team and this is a not a
-                                problem for them. They <input type="text" name="listening365-6"  placeholder="Responda aqui" required> together since the first movie was
-                                <input type="text" name="listening365-7"  placeholder="Responda aqui" required> in 2002.
-                            </p>
+                <h5 class="barlow" style="margin-top: 16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade53listening365" method="post">
+                    <p> 
+                        <p>
+                            They <input type="text" name="listening365-1"  placeholder="Responda aqui" required> in a very beautiful 
+                            <input type="text" name="listening365-2"  placeholder="Responda aqui" required> for almost three days.
                         </p>
+                        <p>
+                            The <input type="text" name="listening365-3"  placeholder="Responda aqui" required> scenes always 
+                            <input type="text" name="listening365-4"  placeholder="Responda aqui" required> a 
+                            <input type="text" name="listening365-5"  placeholder="Responda aqui" required> team and this is a not a
+                            problem for them. They <input type="text" name="listening365-6"  placeholder="Responda aqui" required> together since the first movie was
+                            <input type="text" name="listening365-7"  placeholder="Responda aqui" required> in 2002.
+                        </p>
+                    </p>
 
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="53">
-                        <input type="hidden" name="atividade_id" value="365">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="53">
+                    <input type="hidden" name="atividade_id" value="365">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
 		</div>
     </main>

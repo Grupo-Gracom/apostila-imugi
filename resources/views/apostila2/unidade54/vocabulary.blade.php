@@ -17,30 +17,24 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 54/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO SERVE / breakfast / lunch / dinner / somebody</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO STATE / an opinion / information</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b> TO CHECK / in / out / the information / the map</b></ol>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO SERVE </b>/ breakfast / lunch / dinner / somebody</p>
+					<p><b>TO STATE </b>/ an opinion / information</p>
+					<p><b>TO CHECK </b>/ in / out / the information / the map</p>
+				</div>
 
 				<h5 class="barlow" style="margin-top: 32px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 54/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>Hard</b></li>
-						<li><b>Budget Chances</b></li>
-						<li><b>Star</b></li>
-						<li><b>Blockbuster</b></li>
-						<li><b>Key</b></li>
-						<li><b>Unforgettable Touching</b></li>
-					</ul>
-				</div>
+				<ul class="lista-inline upper" style="margin-top: 36px">
+					<li><p><b>Hard</b></p></li>
+					<li><p><b>Budget Chances</b></p></li>
+					<li><p><b>Star</b></p></li>
+					<li><p><b>Blockbuster</b></p></li>
+					<li><p><b>Key</b></p></li>
+					<li><p><b>Unforgettable Touching</b></p></li>
+				</ul>
 			</div>
 		</div>
 	</main>

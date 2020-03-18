@@ -17,8 +17,8 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 60/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and answer the questions below.</h5>
-                <div class="metade" style="margin-top: 16px">
+                <h5 class="barlow" style="margin-top: 16px">A -  Listen to the audio and answer the questions below.</h5>
+                <div class="metade" >
                     <form id="unidade60listening402" method="post">
                         <p>1 - What things would the speaker do if he had the chance to work for a big company? <input type="text" name="listening402-1" class="full left-align" placeholder="Responda aqui" required></p> 
 

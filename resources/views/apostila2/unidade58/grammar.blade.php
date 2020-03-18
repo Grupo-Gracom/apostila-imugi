@@ -26,8 +26,8 @@
                         related to the Present Perfect Continuous and the Past Perfect Continuous; however, with
                         Future Perfect Continuous, the duration stops at or before a reference point in the future.
                     </p>
-                    <p class="center-align caixa"><b>Future Perfect = Subject + will HAVE BEEN + verb(ing)</b></p>
-                    <table class="metade espacamento center-align">
+                    <p class="bordaVerde"><b>Future Perfect = Subject + will HAVE BEEN + verb(ing)</b></p>
+                    <table class="metade center-align">
                         <tr>
                             <td>
                                 <h5 class="barlow">FUTURE PERFECT</h5>
@@ -45,7 +45,7 @@
                             </td>
                         </tr>
                     </table> 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                    <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES:</b></h5>
                     <h5 class="barlow">1 - Fill in the blanks using FUTURE PERFECT CONTINUOUS TENSE:</h5>
                     <form id="unidade58grammar390" style="margin-top:32px" method="post">
                         <div class="metade">

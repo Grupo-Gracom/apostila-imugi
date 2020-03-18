@@ -17,28 +17,26 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 57/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade57listening388" method="post">
-                        <p> 
-                            <input type="text" name="listening388-1" placeholder="Responda aqui" required> about the future of Hollywood 
-                            <input type="text" name="listening388-2" placeholder="Responda aqui" required> , we can say that, the 
-                            <input type="text" name="listening388-3" placeholder="Responda aqui" required> will have produced many 
-                            <input type="text" name="listening388-4" placeholder="Responda aqui" required> movies before the end of the next
-                            year. <input type="text" name="listening388-5" placeholder="Responda aqui" required> , they will 
-                            <input type="text" name="listening388-6" placeholder="Responda aqui" required> released at least 3 more 
-                            <input type="text" name="listening388-7" placeholder="Responda aqui" required>. The
-                            market will <input type="text" name="listening388-8" placeholder="Responda aqui" required> the new moment for super-hero movies and will have reacted
-                            positively. 
-                        </p>
+                <h5 class="barlow" style="margin-top: 16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade57listening388" method="post">
+                    <p> 
+                        <input type="text" name="listening388-1" placeholder="Responda aqui" required> about the future of Hollywood 
+                        <input type="text" name="listening388-2" placeholder="Responda aqui" required> , we can say that, the 
+                        <input type="text" name="listening388-3" placeholder="Responda aqui" required> will have produced many 
+                        <input type="text" name="listening388-4" placeholder="Responda aqui" required> movies before the end of the next
+                        year. <input type="text" name="listening388-5" placeholder="Responda aqui" required> , they will 
+                        <input type="text" name="listening388-6" placeholder="Responda aqui" required> released at least 3 more 
+                        <input type="text" name="listening388-7" placeholder="Responda aqui" required>. The
+                        market will <input type="text" name="listening388-8" placeholder="Responda aqui" required> the new moment for super-hero movies and will have reacted
+                        positively. 
+                    </p>
 
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="57">
-                        <input type="hidden" name="atividade_id" value="388">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="57">
+                    <input type="hidden" name="atividade_id" value="388">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
 		</div>
     </main>

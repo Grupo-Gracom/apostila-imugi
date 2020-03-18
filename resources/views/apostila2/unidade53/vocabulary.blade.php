@@ -17,29 +17,26 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 53/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO WANT / something badly TO BELIEVE / in love / in God / somebody</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO HURT / yourself / my feelings</b></ol>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO WANT </b>/ something badly</p> 
+					<p><b>TO BELIEVE </b>/ in love / in God / somebody</p>
+					<p><b>TO HURT </b>/ yourself / my feelings</p>
+				</div>
 
 				<h5 class="barlow" style="margin-top: 32px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 53/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>Sick</b></li>
-						<li><b>Blink</b></li>
-						<li><b>Till</b></li>
-						<li><b>Around</b></li>
-						<li><b>Huge</b></li>
-						<li><b>Appealing</b></li>
-						<li><b>Captivating</b></li>
-						<li><b>Hangar</b></li>
-					</ul>
-				</div>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Sick</b></p></li>
+					<li><p><b>Blink</b></p></li>
+					<li><p><b>Till</b></p></li>
+					<li><p><b>Around</b></p></li>
+					<li><p><b>Huge</b></p></li>
+					<li><p><b>Appealing</b></p></li>
+					<li><p><b>Captivating</b></p></li>
+					<li><p><b>Hangar</b></p></li>
+				</ul>
 			</div>
 		</div>
 	</main>

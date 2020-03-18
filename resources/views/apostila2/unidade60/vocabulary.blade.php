@@ -17,31 +17,25 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 60/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO JUMP / up and down / for joy</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO NOTICE / a problem / somebody-something doing something</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO RELAX / in the swimming pool / all day</b></ol>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO JUMP </b>/ up and down / for joy</p>
+					<p><b>TO NOTICE </b>/ a problem / somebody-something doing something</p>
+					<p><b>TO RELAX </b>/ in the swimming pool / all day</p>
+				</div>
 
 				<h5 class="barlow" style="margin-top: 32px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 60/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>Desperate</b></li>
-						<li><b>Easily </b></li>
-						<li><b>Deadlines</b></li>
-						<li><b>Kind</b></li>
-						<li><b>Deal</b></li>
-						<li><b>Advise</b></li>
-						<li><b>Pressure</b></li>
-					</ul>
-				</div>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Desperate</b></p></li>
+					<li><p><b>Easily </b></p></li>
+					<li><p><b>Deadlines</b></p></li>
+					<li><p><b>Kind</b></p></li>
+					<li><p><b>Deal</b></p></li>
+					<li><p><b>Advise</b></p></li>
+					<li><p><b>Pressure</b></p></li>
+				</ul>
 			</div>
 		</div>
 	</main>

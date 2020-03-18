@@ -17,27 +17,25 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 55/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade55listening378" method="post">
-                        <p> 
-                            <input type="text" name="listening378-1"  placeholder="Responda aqui" required> the release of Civil War in 2016, the market 
-                            <input type="text" name="listening378-2"  placeholder="Responda aqui" required> great
-                            productions. Marvel , Dc comics and Sony productions <input type="text" name="listening378-3"  placeholder="Responda aqui" required> 
-                            always been <input type="text" name="listening378-4"  placeholder="Responda aqui" required> 
-                            . They had <input type="text" name="listening378-5"  placeholder="Responda aqui" required> 
-                            to keep their <input type="text" name="listening378-6"  placeholder="Responda aqui" required> of the market and hadn’t
-                            <input type="text" name="listening378-7"  placeholder="Responda aqui" required> that they could work <input type="text" name="listening378-8"  placeholder="Responda aqui" required> 
-                            and start a new <input type="text" name="listening378-9"  placeholder="Responda aqui" required> in Hollywood.
-                        </p>
+                <h5 class="barlow" style="margin-top: 16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade55listening378" method="post">
+                    <p> 
+                        <input type="text" name="listening378-1"  placeholder="Responda aqui" required> the release of Civil War in 2016, the market 
+                        <input type="text" name="listening378-2"  placeholder="Responda aqui" required> great
+                        productions. Marvel , Dc comics and Sony productions <input type="text" name="listening378-3"  placeholder="Responda aqui" required> 
+                        always been <input type="text" name="listening378-4"  placeholder="Responda aqui" required> 
+                        . They had <input type="text" name="listening378-5"  placeholder="Responda aqui" required> 
+                        to keep their <input type="text" name="listening378-6"  placeholder="Responda aqui" required> of the market and hadn’t
+                        <input type="text" name="listening378-7"  placeholder="Responda aqui" required> that they could work <input type="text" name="listening378-8"  placeholder="Responda aqui" required> 
+                        and start a new <input type="text" name="listening378-9"  placeholder="Responda aqui" required> in Hollywood.
+                    </p>
 
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="55">
-                        <input type="hidden" name="atividade_id" value="378">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="55">
+                    <input type="hidden" name="atividade_id" value="378">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
 		</div>
     </main>

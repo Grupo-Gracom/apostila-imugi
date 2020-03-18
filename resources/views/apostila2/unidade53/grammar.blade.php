@@ -28,13 +28,11 @@
                         words “lately” or “recently” to this meaning. emphasize
                     </p>
 
-                    <p class="center-align caixa"><b>Present Perfect Continuous = Subject + Have / Has + BEEN + Verb(ing)</b></p>
+                    <p class="bordaVerde"><b>Present Perfect Continuous = Subject + Have / Has + BEEN + Verb(ing)</b></p>
                     <table class="metade espacamento center-align">
                         <tr>
                             <td>
-                                <h5 class="barlow">
-                                    <b>PRESENT PERFECT</b> 
-                                </h5>
+                                <h5 class="barlow">PRESENT PERFECT</h5>
                             </td>
                         </tr>
                         <tr>
@@ -57,7 +55,7 @@
                             </td>
                         </tr>
                     </table> 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                    <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES:</b></h5>
                     <h5 class="barlow">1 - Use PRESENT PERFECT CONTINUOUS TENSE to fill in the blanks:</h5>
                     <form id="unidade53grammar361" style="margin-top:32px" method="post">
                         <div class="metade">

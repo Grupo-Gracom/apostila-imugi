@@ -17,32 +17,26 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 61/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO SELECT / an option / someone / something / somebody to do something</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO FIND / it difficult – easy / your way</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO MARRY / a man / a woman / late / </b></ol>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO SELECT </b>/ an option / someone / something / somebody to do something</p>
+					<p><b>TO FIND </b>/ it difficult – easy / your way</p>
+					<p><b>TO MARRY </b>/ a man / a woman / late / </p>
+				</div>
 
 				<h5 class="barlow" style="margin-top: 32px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 61/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>Aware</b></li>
-						<li><b>Took</b></li>
-						<li><b>Whole</b></li>
-						<li><b>Missed</b></li>
-						<li><b>Grow</b></li>
-						<li><b>Position</b></li>
-						<li><b>Realized</b></li>
-						<li><b>Touch</b></li>
-					</ul>
-				</div>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Aware</b></p></li>
+					<li><p><b>Took</b></p></li>
+					<li><p><b>Whole</b></p></li>
+					<li><p><b>Missed</b></p></li>
+					<li><p><b>Grow</b></p></li>
+					<li><p><b>Position</b></p></li>
+					<li><p><b>Realized</b></p></li>
+					<li><p><b>Touch</b></p></li>
+				</ul>
 			</div>
 		</div>
 	</main>

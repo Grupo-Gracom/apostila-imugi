@@ -18,27 +18,25 @@
 				</audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px">A -   Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade">
-                    <form id="unidade61listening407" method="post">
-                    <p>
-                        My friend <input type="text" name="listening407-1" placeholder="Responda aqui" required> the chance to 
-                        <input type="text" name="listening407-2" placeholder="Responda aqui" required> 
-                        in a nice company. But, he was <input type="text" name="listening407-3" placeholder="Responda aqui" required> because
-                        he was <input type="text" name="listening407-4" placeholder="Responda aqui" required>. If I had had the 
-                        <input type="text" name="listening407-5" placeholder="Responda aqui" required> to be with people that could 
-                        <input type="text" name="listening407-6" placeholder="Responda aqui" required> me,
-                        I would have <input type="text" name="listening407-7" placeholder="Responda aqui" required> myself and forgotten 
-                        <input type="text" name="listening407-8" placeholder="Responda aqui" required> that could spoil my experience, in order to 
-                        <input type="text" name="listening407-9" placeholder="Responda aqui" required> what they had to teach me.
-                    </p>
+                <form id="unidade61listening407" method="post">
+                <p>
+                    My friend <input type="text" name="listening407-1" placeholder="Responda aqui" required> the chance to 
+                    <input type="text" name="listening407-2" placeholder="Responda aqui" required> 
+                    in a nice company. But, he was <input type="text" name="listening407-3" placeholder="Responda aqui" required> because
+                    he was <input type="text" name="listening407-4" placeholder="Responda aqui" required>. If I had had the 
+                    <input type="text" name="listening407-5" placeholder="Responda aqui" required> to be with people that could 
+                    <input type="text" name="listening407-6" placeholder="Responda aqui" required> me,
+                    I would have <input type="text" name="listening407-7" placeholder="Responda aqui" required> myself and forgotten 
+                    <input type="text" name="listening407-8" placeholder="Responda aqui" required> that could spoil my experience, in order to 
+                    <input type="text" name="listening407-9" placeholder="Responda aqui" required> what they had to teach me.
+                </p>
 
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="61">
-                        <input type="hidden" name="atividade_id" value="407">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="61">
+                    <input type="hidden" name="atividade_id" value="407">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
 		</div>
     </main>

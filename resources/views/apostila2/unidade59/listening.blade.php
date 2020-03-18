@@ -17,26 +17,24 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 59/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A -   Listen to the audio and fill in the blanks with the missing words.</h5>
-                <div class="metade" style="margin-top: 16px">
-                    <form id="unidade59listening397" method="post">
-                        <p> 
-                            My friend is <input type="text" name="listening397-1" placeholder="Responda aqui" required> of a hiring 
-                            <input type="text" name="listening397-2" placeholder="Responda aqui" required> for a big movie making company. He
-                            <input type="text" name="listening397-3" placeholder="Responda aqui" required> that if he has that chance to 
-                            <input type="text" name="listening397-4" placeholder="Responda aqui" required> there, he will learn a lot. If he 
-                            <input type="text" name="listening397-5" placeholder="Responda aqui" required>
-                            himself, he can get a promotion and he may be <input type="text" name="listening397-6" placeholder="Responda aqui" required> to New York to work in the
-                            <input type="text" name="listening397-7" placeholder="Responda aqui" required>. 
-                        </p> 
+                <h5 class="barlow" style="margin-top: 16px">A -   Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade59listening397" method="post">
+                    <p> 
+                        My friend is <input type="text" name="listening397-1" placeholder="Responda aqui" required> of a hiring 
+                        <input type="text" name="listening397-2" placeholder="Responda aqui" required> for a big movie making company. He
+                        <input type="text" name="listening397-3" placeholder="Responda aqui" required> that if he has that chance to 
+                        <input type="text" name="listening397-4" placeholder="Responda aqui" required> there, he will learn a lot. If he 
+                        <input type="text" name="listening397-5" placeholder="Responda aqui" required>
+                        himself, he can get a promotion and he may be <input type="text" name="listening397-6" placeholder="Responda aqui" required> to New York to work in the
+                        <input type="text" name="listening397-7" placeholder="Responda aqui" required>. 
+                    </p> 
 
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="59">
-                        <input type="hidden" name="atividade_id" value="397">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="59">
+                    <input type="hidden" name="atividade_id" value="397">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
 		</div>
     </main>

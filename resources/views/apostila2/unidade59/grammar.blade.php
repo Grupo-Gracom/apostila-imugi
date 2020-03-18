@@ -48,58 +48,56 @@
                         </tr>
                     </table>
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                    <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES:</b></h5>
                     <h5 class="barlow">1 - Use the correct tense:</h5>
                     <form id="unidade59grammar393" style="margin-top:32px" method="post">
-                        <div class="metade">
+                        <p>
                             <p>
-                                <p>
-                                    1. He <input type="text" name="grammar393-1"  placeholder="Responda aqui" required/> (not / live) in İstanbul if he <input type="text" name="grammar393-2"  placeholder="Responda aqui" required/> (hate) it.
-                                </p>
-                                <p>
-                                    2. If you <input type="text" name="grammar393-3"  placeholder="Responda aqui" required/> (write) the letters, I <input type="text" name="grammar393-4"  placeholder="Responda aqui" required/>(post) them.
-                                </p>
-                                <p>
-                                    3. If you <input type="text" name="grammar393-5"  placeholder="Responda aqui" required/> (not / leave) immediately, I <input type="text" name="grammar393-6"  placeholder="Responda aqui" required/> (call) the police.
-                                </p>
-                                <p>
-                                    4. If he <input type="text" name="grammar393-7"  placeholder="Responda aqui" required/> (not / arrive) soon, we <input type="text" name="grammar393-8"  placeholder="Responda aqui" required/> (have to) have dinner without him.
-                                </p>
-                                <p>
-                                    5. I <input type="text" name="grammar393-9"  placeholder="Responda aqui" required/> (not / have to) borrow any money from you if I <input type="text" name="grammar393-10"  placeholder="Responda aqui" required/> (get) my salary tomorrow.
-                                </p>
-                                <p>
-                                    6. If you <input type="text" name="grammar393-11"  placeholder="Responda aqui" required/> (invite) her to the dance, she <input type="text" name="grammar393-12"  placeholder="Responda aqui" required/> (be) very pleased.
-                                </p>
-                                <p>
-                                    7. If you <input type="text" name="grammar393-13"  placeholder="Responda aqui" required/> (retire) soon, you <input type="text" name="grammar393-14"  placeholder="Responda aqui" required/> (make yourself ill.
-                                </p>
-                                <p>
-                                    8. If you <input type="text" name="grammar393-15"  placeholder="Responda aqui" required/> (write) him a letter, he <input type="text" name="grammar393-16"  placeholder="Responda aqui" required/> (know) our address.
-                                </p>
-                                <p>
-                                    9. If the policeman had seen the thief, he <input type="text" name="grammar393-17"  placeholder="Responda aqui" required/> (arrest) him.
-                                </p>
-                                <p>
-                                    10. The buildings wouldn’t have burned to ashes if the firemen <input type="text" name="grammar393-18"  placeholder="Responda aqui" required/> (come) in time.
-                                </p>
-                                <p>
-                                    11. People wouldn’t cross the rivers, if they <input type="text" name="grammar393-19"  placeholder="Responda aqui" required/> (not / build) those bridges.
-                                </p>
-                                <p>
-                                    12. If the family had saved enough money, they <input type="text" name="grammar393-20"  placeholder="Responda aqui" required/> (buy) a new flat.
-                                </p>
-                                <p>
-                                    13. If I had known that he was sleeping, I <input type="text" name="grammar393-21"  placeholder="Responda aqui" required/> (not / disturb) him.
-                                </p>
-                                <p>
-                                    14. If I had lost all my money, I <input type="text" name="grammar393-22"  placeholder="Responda aqui" required/> . (be) very unhappy.
-                                </p>
-                                <p>
-                                    15. If you had phoned me before you came, you <input type="text" name="grammar393-23"  placeholder="Responda aqui" required/> (find) me at home.
-                                </p>
+                                1. He <input type="text" name="grammar393-1"  placeholder="Responda aqui" required/> (not / live) in İstanbul if he <input type="text" name="grammar393-2"  placeholder="Responda aqui" required/> (hate) it.
                             </p>
-                        </div>
+                            <p>
+                                2. If you <input type="text" name="grammar393-3"  placeholder="Responda aqui" required/> (write) the letters, I <input type="text" name="grammar393-4"  placeholder="Responda aqui" required/>(post) them.
+                            </p>
+                            <p>
+                                3. If you <input type="text" name="grammar393-5"  placeholder="Responda aqui" required/> (not / leave) immediately, I <input type="text" name="grammar393-6"  placeholder="Responda aqui" required/> (call) the police.
+                            </p>
+                            <p>
+                                4. If he <input type="text" name="grammar393-7"  placeholder="Responda aqui" required/> (not / arrive) soon, we <input type="text" name="grammar393-8"  placeholder="Responda aqui" required/> (have to) have dinner without him.
+                            </p>
+                            <p>
+                                5. I <input type="text" name="grammar393-9"  placeholder="Responda aqui" required/> (not / have to) borrow any money from you if I <input type="text" name="grammar393-10"  placeholder="Responda aqui" required/> (get) my salary tomorrow.
+                            </p>
+                            <p>
+                                6. If you <input type="text" name="grammar393-11"  placeholder="Responda aqui" required/> (invite) her to the dance, she <input type="text" name="grammar393-12"  placeholder="Responda aqui" required/> (be) very pleased.
+                            </p>
+                            <p>
+                                7. If you <input type="text" name="grammar393-13"  placeholder="Responda aqui" required/> (retire) soon, you <input type="text" name="grammar393-14"  placeholder="Responda aqui" required/> (make yourself ill.
+                            </p>
+                            <p>
+                                8. If you <input type="text" name="grammar393-15"  placeholder="Responda aqui" required/> (write) him a letter, he <input type="text" name="grammar393-16"  placeholder="Responda aqui" required/> (know) our address.
+                            </p>
+                            <p>
+                                9. If the policeman had seen the thief, he <input type="text" name="grammar393-17"  placeholder="Responda aqui" required/> (arrest) him.
+                            </p>
+                            <p>
+                                10. The buildings wouldn’t have burned to ashes if the firemen <input type="text" name="grammar393-18"  placeholder="Responda aqui" required/> (come) in time.
+                            </p>
+                            <p>
+                                11. People wouldn’t cross the rivers, if they <input type="text" name="grammar393-19"  placeholder="Responda aqui" required/> (not / build) those bridges.
+                            </p>
+                            <p>
+                                12. If the family had saved enough money, they <input type="text" name="grammar393-20"  placeholder="Responda aqui" required/> (buy) a new flat.
+                            </p>
+                            <p>
+                                13. If I had known that he was sleeping, I <input type="text" name="grammar393-21"  placeholder="Responda aqui" required/> (not / disturb) him.
+                            </p>
+                            <p>
+                                14. If I had lost all my money, I <input type="text" name="grammar393-22"  placeholder="Responda aqui" required/> . (be) very unhappy.
+                            </p>
+                            <p>
+                                15. If you had phoned me before you came, you <input type="text" name="grammar393-23"  placeholder="Responda aqui" required/> (find) me at home.
+                            </p>
+                        </p>
 
                         <div class="clear"></div>
 
@@ -114,7 +112,7 @@
                 <h5 class="barlow">2 - Complete the following sentences in column A using the correct choice in column B.</h5>
                     <form id="unidade59grammar394" method="post">
                         <div class="metade esquerda" >
-                            <h5>A</h5>
+                            <p class="barlow">A</p>
                             <p>
                                 <p>1. You’ll get tired <input type="text" name="grammar394-1"  placeholder="Responda aqui" required/> </p>
                                 <p>2. If you go to a football match, <input type="text" name="grammar394-2"  placeholder="Responda aqui" required/> </p>
@@ -131,7 +129,7 @@
                             </p>
                         </div>
                         <div class="metade direita">
-                            <h5>B</h5>
+                            <p class="barlow">B</p>
                             <p>
                                 <p>A. If you can’t have it.</p>
                                 <p>B. If students make a lot of noise.</p>
@@ -202,7 +200,7 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
 
-                <h5 class="barlow metade" style="margin-top: 36px">
+                <h5 class="barlow" style="margin-top: 36px">
                     4 -  You have studied for such a nice period of time, and we are about to finish the second part of your course. Share with your classmates what is gonna happen if you have the
                     opportunity to get a job in your area. Write at least 5 sentences using the FIRST CONDITIONAL.
                 </h5>
@@ -287,6 +285,7 @@
             }
         });
 
+
         $("#unidade59grammar396").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
@@ -297,7 +296,6 @@
                 enviarAtividade($('#unidade59grammar396'), respostas);
             }
         });
-
 
         function checkAtividade(atividade_id){
             request = $.ajax({
@@ -322,13 +320,12 @@
                     }
                     $('#unidade59grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
                     $('#unidade59grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
-
                 }
             });
         }
 
         function enviarAtividade(formId, respostas){
-            var atividade = {
+            var resposta = {
                 "_token" : formId.find('input[name="_token"]').val(),
                 "resposta_respostas" : respostas,
                 "atividade_id" : formId.find('input[name="atividade_id"]').val(),
@@ -336,7 +333,7 @@
             };
             request = $.ajax({
                 url: window.location.pathname+'/respostas',
-                data: atividade,
+                data: resposta,
                 type: 'post',
                 error: function(){
                     console.log("Erro de envio.");

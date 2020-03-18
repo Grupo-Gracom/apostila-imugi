@@ -17,30 +17,24 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 56/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<ol><b>TO SMELL / good / awful </b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO SPEND / money / time / energy</b></ol>
-				</ul>
-				<ul class="lista-inline">
-					<ol><b>TO CELEBRATE / someone’s birthday / a marriage / an anniversary</b></ol>
-				</ul>
+				<div class="espacamento">
+					<p><b>TO SMELL </b>/ good / awful </p>
+					<p><b>TO SPEND </b>/ money / time / energy</p>
+					<p><b>TO CELEBRATE </b>/ someone’s birthday / a marriage / an anniversary</p>
+				</div>
 
 				<h5 class="barlow" style="margin-top: 32px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 56/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<div style="margin-top: 36px">
-					<ul class="lista-inline">
-						<li><b>Concise</b></li>
-						<li><b>Aware constraints</b></li>
-						<li><b>Fits</b></li>
-						<li><b>Into</b></li>
-						<li><b>Guidance</b></li>
-						<li><b>Almost Sequencing</b></li>
-					</ul>
-				</div>
+				<ul class="lista-inline upper" style="margin-top: 36px">
+					<li><p><b>Concise</b></p></li>
+					<li><p><b>Aware constraints</b></p></li>
+					<li><p><b>Fits</b></p></li>
+					<li><p><b>Into</b></p></li>
+					<li><p><b>Guidance</b></p></li>
+					<li><p><b>Almost Sequencing</b></p></li>
+				</ul>
 			</div>
 		</div>
 	</main>

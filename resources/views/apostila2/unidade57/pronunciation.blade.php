@@ -17,13 +17,13 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 57/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>y sound</b> /y/ </li>        
-					<li>Yesterday</li>	
-					<li>Yellow</li>
-					<li>Year</li>
-					<li>Beyond</li>
-					<li>Behavior</li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>y sound</b> /y/ </p></li>        
+					<li><p>Yesterday</p></li>	
+					<li><p>Yellow</p></li>
+					<li><p>Year</p></li>
+					<li><p>Beyond</p></li>
+					<li><p>Behavior</p></li>
 				</ul>
 				<p style="margin-top:32px">
 					Yesterday I read about the behavior of the market. Specialists say the consumption is beyond the limit. They turned on yellow lights last year. This year, it is almost red.

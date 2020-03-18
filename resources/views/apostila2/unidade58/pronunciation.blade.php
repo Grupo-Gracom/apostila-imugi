@@ -17,14 +17,14 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 58/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<ul class="lista-inline">
-					<li><b>z sound</b> /z/ </li>        
-					<li>Zoom</li>	
-					<li>Zone</li>
-					<li>Busy</li>
-					<li>Visit</li>
-					<li>Cause</li>
-					<li>Because</li>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>z sound</b> /z/ </p></li>        
+					<li><p>Zoom</p></li>	
+					<li><p>Zone</p></li>
+					<li><p>Busy</p></li>
+					<li><p>Visit</p></li>
+					<li><p>Cause</p></li>
+					<li><p>Because</p></li>
 				</ul>
 				<p style="margin-top:32px">Because of the zoom zone, people are busy visiting the galleries.</p>
 				<div class="clear"></div>

@@ -12,7 +12,6 @@
 			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade60" data-etapa="understanding">
 				<h3 class="barlow">UNIT 60</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <h5 class="barlow" style="margin-top: 16px">A - Answer the questions, according to what you have learned in the unit.</h5>
                 <div class="metade">
                     <form id="unidade60understanding403" method="post">
                         <p>
@@ -54,21 +53,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade59understanding403").submit(function(e){
+        $("#unidade60understanding403").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade59understanding403 input[type="text"]').each(function(index){
-                if(($('#unidade59understanding403 input[type="text"]').length - 1) == index){
+            $('#unidade60understanding403 input[type="text"]').each(function(index){
+                if(($('#unidade60understanding403 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade59understanding403 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade59understanding403'), respostas);
+            if($('#unidade60understanding403 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade60understanding403'), respostas);
             }else{
-                enviarAtividade($('#unidade59understanding403'), respostas);
+                enviarAtividade($('#unidade60understanding403'), respostas);
             }
         });
 
@@ -88,11 +87,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade59understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade59understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade60understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade60understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade59understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade59understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade60understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade60understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

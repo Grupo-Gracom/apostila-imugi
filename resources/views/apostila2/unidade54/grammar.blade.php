@@ -21,86 +21,86 @@
                 <div style="margin-top: 16px">
                     <h5 class="barlow">A - SIMPLE PAST X PRESENT PERFECT</h5>
                     <p>It is important to select the grammar structure according to the message you want communicate. Pay attention to difference between Simple Past and Present perfect.</p>
-                    <table class="metade espacamento center-align">
-                        <tr>
-                            <td>
-                                <h5 class="barlow">
-                                    <b>SIMPLE PAST</b> - Definite time in the past. 
-                                </h5>
-                            </td>
-                            <td>
-                                <h5 class="barlow">
-                                    <b>PRESENT PERFECT</b> - Indefinite time. 
-                                </h5>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>A: John, <b>did</b> you <b>travel</b> to new York?</p>
-                                <p>B: Yes, I <b>visited</b> Rockstar <b>last year</b></p>
-                                <p>I <b>didn’t have</b> time to fool around the city, but it <b>was</b> awesome.</p><br>
-                            
-                                <p>
-                                    Conversation about an <b>isolated situation /
-                                    action in the past</b>. Sometimes, the time
-                                    reference is implicit. Just the use of the verb
-                                    in the past is enough to express that the
-                                    action is over.
-                                </p>
-                            </td>
-                            <td>
-                                <p>A: John, <b>have</b> you <b>ever been</b> to New York?</p>
-                                <p>B: Yes, I <b>have</b>. I’<b>ve just arrived</b> from a visit to Rockstar.</p>
-                                <p>A: <b>Have</b> you <b>enjoyed</b> the city?</p>
-                                <p>B: You’re kidding. It’s the nicest city I’<b>ve been to</b> lately.</p><br>
+                    <div class="metade">
+                        <table class=" center-align">
+                            <tr>
+                                <td>
+                                    <h5 class="barlow">
+                                        <b>SIMPLE PAST</b> - Definite time in the past. 
+                                    </h5>
+                                </td>
+                                <td>
+                                    <h5 class="barlow">
+                                        <b>PRESENT PERFECT</b> - Indefinite time. 
+                                    </h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="left-align">
+                                    <p>A: John, <b>did</b> you <b>travel</b> to new York?</p>
+                                    <p>B: Yes, I <b>visited</b> Rockstar <b>last year</b></p>
+                                    <p>I <b>didn’t have</b> time to fool around the city, but it <b>was</b> awesome.</p><br>
+                                
+                                    <p>
+                                        Conversation about an <b>isolated situation /
+                                        action in the past</b>. Sometimes, the time
+                                        reference is implicit. Just the use of the verb
+                                        in the past is enough to express that the
+                                        action is over.
+                                    </p>
+                                </td>
+                                <td class="left-align">
+                                    <p>A: John, <b>have</b> you <b>ever been</b> to New York?</p>
+                                    <p>B: Yes, I <b>have</b>. I’<b>ve just arrived</b> from a visit to Rockstar.</p>
+                                    <p>A: <b>Have</b> you <b>enjoyed</b> the city?</p>
+                                    <p>B: You’re kidding. It’s the nicest city I’<b>ve been to</b> lately.</p><br>
 
-                                <p>Conversation about the <b>relevance</b> of the trip. <b>The importance of the trip for the present time.</b></p>
-                            </td>
-                        </tr>
-                    </table> 
+                                    <p>Conversation about the <b>relevance</b> of the trip. <b>The importance of the trip for the present time.</b></p>
+                                </td>
+                            </tr>
+                        </table> 
+                    </div>
 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                    <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES:</b></h5>
                     <h5 class="barlow">1 - Use THE SIMPLE PAST or THE PRESENT PERFECT TENSE to fill in the blanks:</h5>
                     <form id="unidade54grammar367" style="margin-top:32px" method="post">
-                        <div class="metade">
+                        <p>
                             <p>
-                                <p>
-                                    1. What <input type="text" name="grammar367-1"  placeholder="Responda aqui" required/> (you / learn) since you <input type="text" name="grammar367-2"  placeholder="Responda aqui" required/>
-                                    (come) here? How many friends <input type="text" name="grammar367-3"  placeholder="Responda aqui" required/> (you / make)? I hope you
-                                    <input type="text" name="grammar367-4"  placeholder="Responda aqui" required/> (already / meet) a lot of interesting people.
-                                </p>
-                                <p>
-                                    2. Last night my roommate and I <input type="text" name="grammar367-5"  placeholder="Responda aqui" required/> (have) some free time, so we
-                                    <input type="text" name="grammar367-6"  placeholder="Responda aqui" required/> (go) to a show.
-                                </p>
-                                <p>
-                                    3. I <input type="text" name="grammar367-7"  placeholder="Responda aqui" required/> (just / have) lunch, but I 
-                                    <input type="text" name="grammar367-8"  placeholder="Responda aqui" required/> (not / have) lunch yesterday.
-                                </p>
-                                <p>
-                                    4. Who <input type="text" name="grammar367-9"  placeholder="Responda aqui" required/> (write) the play “Hamlet”?
-                                </p>
-                                <p>
-                                    5. How many games <input type="text" name="grammar367-10"  placeholder="Responda aqui" required/> (the team / win) so far this season?
-                                </p>
-                                <p>
-                                    6. I don’t know Carol’s husband. I <input type="text" name="grammar367-11"  placeholder="Responda aqui" required/> (never / meet) him.
-                                </p>
-                                <p>
-                                    7. It <input type="text" name="grammar367-12"  placeholder="Responda aqui" required/> (rain) a lot last week, but it 
-                                    <input type="text" name="grammar367-13"  placeholder="Responda aqui" required/> (not / rain) much so far this week.
-                                </p>
-                                <p>
-                                    8. How many letters <input type="text" name="grammar367-14"  placeholder="Responda aqui" required/> (you / write) since the beginning of the month?
-                                </p>
-                                <p>
-                                    9. When we were on vacation, the weather <input type="text" name="grammar367-15"  placeholder="Responda aqui" required/> (be) terrible.
-                                </p>
-                                <p>
-                                    10. In her whole lifetime, Mary <input type="text" name="grammar367-16"  placeholder="Responda aqui" required/> (never / see) snow.
-                                </p>
+                                1. What <input type="text" name="grammar367-1"  placeholder="Responda aqui" required/> (you / learn) since you <input type="text" name="grammar367-2"  placeholder="Responda aqui" required/>
+                                (come) here? How many friends <input type="text" name="grammar367-3"  placeholder="Responda aqui" required/> (you / make)? I hope you
+                                <input type="text" name="grammar367-4"  placeholder="Responda aqui" required/> (already / meet) a lot of interesting people.
                             </p>
-                        </div>
+                            <p>
+                                2. Last night my roommate and I <input type="text" name="grammar367-5"  placeholder="Responda aqui" required/> (have) some free time, so we
+                                <input type="text" name="grammar367-6"  placeholder="Responda aqui" required/> (go) to a show.
+                            </p>
+                            <p>
+                                3. I <input type="text" name="grammar367-7"  placeholder="Responda aqui" required/> (just / have) lunch, but I 
+                                <input type="text" name="grammar367-8"  placeholder="Responda aqui" required/> (not / have) lunch yesterday.
+                            </p>
+                            <p>
+                                4. Who <input type="text" name="grammar367-9"  placeholder="Responda aqui" required/> (write) the play “Hamlet”?
+                            </p>
+                            <p>
+                                5. How many games <input type="text" name="grammar367-10"  placeholder="Responda aqui" required/> (the team / win) so far this season?
+                            </p>
+                            <p>
+                                6. I don’t know Carol’s husband. I <input type="text" name="grammar367-11"  placeholder="Responda aqui" required/> (never / meet) him.
+                            </p>
+                            <p>
+                                7. It <input type="text" name="grammar367-12"  placeholder="Responda aqui" required/> (rain) a lot last week, but it 
+                                <input type="text" name="grammar367-13"  placeholder="Responda aqui" required/> (not / rain) much so far this week.
+                            </p>
+                            <p>
+                                8. How many letters <input type="text" name="grammar367-14"  placeholder="Responda aqui" required/> (you / write) since the beginning of the month?
+                            </p>
+                            <p>
+                                9. When we were on vacation, the weather <input type="text" name="grammar367-15"  placeholder="Responda aqui" required/> (be) terrible.
+                            </p>
+                            <p>
+                                10. In her whole lifetime, Mary <input type="text" name="grammar367-16"  placeholder="Responda aqui" required/> (never / see) snow.
+                            </p>
+                        </p>
 
                         <div class="clear"></div>
 
@@ -114,46 +114,44 @@
 
                 <h5 class="barlow">2 - Use THE SIMPLE PAST or THE PRESENT PERFECT TENSE to fill in the blanks:</h5>
                 <form id="unidade54grammar368" style="margin-top:32px" method="post">
-                    <div class="metade">
+                    <p>
                         <p>
-                            <p>
-                                1. The young man <input type="text" name="grammar368-1"  placeholder="Responda aqui" required/> (never / be) to Paris, but he 
-                                <input type="text" name="grammar368-2"  placeholder="Responda aqui" required/> (read) a book about this city last year.
-                            </p>
-                            <p>
-                                2. <input type="text" name="grammar368-3"  placeholder="Responda aqui" required/> you <input type="text" name="grammar368-4"  placeholder="Responda aqui" required/> (decide) where to go yet?
-                            </p>
-                            <p>
-                                3. <b>P:</b> Have some tea, please.<br>
-                                <b>R:</b> No, thank you. I <input type="text" name="grammar368-5"  placeholder="Responda aqui" required/> (just / have) two cups of tea.
-                            </p>
-                            <p>
-                                4. Susan <input type="text" name="grammar368-6"  placeholder="Responda aqui" required/> (do) her homework before 10 o’clock but Jane
-                                <input type="text" name="grammar368-7"  placeholder="Responda aqui" required/> (not /write) a word until now.
-                            </p>
-                            <p>
-                                5. Her mother <input type="text" name="grammar368-8"  placeholder="Responda aqui" required/> (buy) her a pair of new shoes yesterday.
-                            </p>
-                            <p>
-                                6. The Prime Minister <input type="text" name="grammar368-9"  placeholder="Responda aqui" required/>. (leave) for the USA an hour ago.
-                            </p>
-                            <p>
-                                7. <b>P:</b> <input type="text" name="grammar368-10"  placeholder="Responda aqui" required/> the plane <input type="text" name="grammar368-11"  placeholder="Responda aqui" required/> (land)?<br>
-                                <b>R:</b> Yes, it <input type="text" name="grammar368-12"  placeholder="Responda aqui" required/> (land) ten minutes ago.
-                            </p>
-                            <p>
-                                8. It <input type="text" name="grammar368-13"  placeholder="Responda aqui" required/> (not / rain) for a long time.
-                            </p>
-                            <p>
-                                9. <input type="text" name="grammar368-14"  placeholder="Responda aqui" required/> you <input type="text" name="grammar368-15"  placeholder="Responda aqui" required/> 
-                                (see) my dog? It <input type="text" name="grammar368-16"  placeholder="Responda aqui" required/> (run away) this morning.
-                            </p>
-                            <p>
-                                10. We <input type="text" name="grammar368-17"  placeholder="Responda aqui" required/> (meet) at a party a long time ago, but I 
-                                <input type="text" name="grammar368-18"  placeholder="Responda aqui" required/> (not / see) her since then.
-                            </p>
+                            1. The young man <input type="text" name="grammar368-1"  placeholder="Responda aqui" required/> (never / be) to Paris, but he 
+                            <input type="text" name="grammar368-2"  placeholder="Responda aqui" required/> (read) a book about this city last year.
                         </p>
-                    </div>
+                        <p>
+                            2. <input type="text" name="grammar368-3"  placeholder="Responda aqui" required/> you <input type="text" name="grammar368-4"  placeholder="Responda aqui" required/> (decide) where to go yet?
+                        </p>
+                        <p>
+                            3. <b>P:</b> Have some tea, please.<br>
+                            <b>R:</b> No, thank you. I <input type="text" name="grammar368-5"  placeholder="Responda aqui" required/> (just / have) two cups of tea.
+                        </p>
+                        <p>
+                            4. Susan <input type="text" name="grammar368-6"  placeholder="Responda aqui" required/> (do) her homework before 10 o’clock but Jane
+                            <input type="text" name="grammar368-7"  placeholder="Responda aqui" required/> (not /write) a word until now.
+                        </p>
+                        <p>
+                            5. Her mother <input type="text" name="grammar368-8"  placeholder="Responda aqui" required/> (buy) her a pair of new shoes yesterday.
+                        </p>
+                        <p>
+                            6. The Prime Minister <input type="text" name="grammar368-9"  placeholder="Responda aqui" required/>. (leave) for the USA an hour ago.
+                        </p>
+                        <p>
+                            7. <b>P:</b> <input type="text" name="grammar368-10"  placeholder="Responda aqui" required/> the plane <input type="text" name="grammar368-11"  placeholder="Responda aqui" required/> (land)?<br>
+                            <b>R:</b> Yes, it <input type="text" name="grammar368-12"  placeholder="Responda aqui" required/> (land) ten minutes ago.
+                        </p>
+                        <p>
+                            8. It <input type="text" name="grammar368-13"  placeholder="Responda aqui" required/> (not / rain) for a long time.
+                        </p>
+                        <p>
+                            9. <input type="text" name="grammar368-14"  placeholder="Responda aqui" required/> you <input type="text" name="grammar368-15"  placeholder="Responda aqui" required/> 
+                            (see) my dog? It <input type="text" name="grammar368-16"  placeholder="Responda aqui" required/> (run away) this morning.
+                        </p>
+                        <p>
+                            10. We <input type="text" name="grammar368-17"  placeholder="Responda aqui" required/> (meet) at a party a long time ago, but I 
+                            <input type="text" name="grammar368-18"  placeholder="Responda aqui" required/> (not / see) her since then.
+                        </p>
+                    </p>
 
                     <div class="clear"></div>
 
@@ -165,53 +163,51 @@
                 </form>
                 
                 <h5 class="barlow">3 - Rewrite the sentences using SIMPLE PAST or PRESENT PERFECT TENSE:</h5>
-                <form id="unidade54grammar369" style="margin-top:32px" method="post">
-                    <div class="metade">
+                <form id="unidade54grammar369" class="metade" style="margin-top:32px" method="post">
+                    <p>
                         <p>
-                            <p>
-                                1. I haven’t seen her for a long time.<br> 
-                                It’s ages since I saw her <input type="text" name="grammar369-1"  placeholder="Responda aqui" required/><br>
-                                I last met George two weeks ago.<br>
-                                I haven’t <input type="text" name="grammar369-2"  placeholder="Responda aqui" required/>
-                            </p>
-                            <p>
-                                2. They have been here for three months.<br>
-                                They arrived <input type="text" name="grammar369-3"  placeholder="Responda aqui" required/> 
-                            </p>
-                            <p>
-                                3. We started living in Istanbul 12 years ago.<br>
-                                We have <input type="text" name="grammar369-4"  placeholder="Responda aqui" required/> 
-                            </p>
-                            <p>
-                                4. I last saw my girlfriend five days ago.<br>
-                                I haven’t <input type="text" name="grammar369-5"  placeholder="Responda aqui" required/> 
-                            </p>
-                            <p>
-                                5. Is this the first time you have tasted a kiwi?<br>
-                                <input type="text" name="grammar369-6"  placeholder="Responda aqui" required/> (not) you <input type="text" name="grammar369-7"  placeholder="Responda aqui" required/> one before?
-                            </p>
-                            <p>
-                                6. I last smoked a cigarette ten years ago.<br>
-                                I haven’t <input type="text" name="grammar369-8"  placeholder="Responda aqui" required/> 
-                            </p>
-                            <p>
-                                7. I last drank wine two weeks ago.<br>
-                                It’s two weeks <input type="text" name="grammar369-9"  placeholder="Responda aqui" required/> wine.
-                            </p>
-                            <p>
-                                8. I have lived in Istanbul since January<br>
-                                I <input type="text" name="grammar369-10"  placeholder="Responda aqui" required/> (come)
-                            </p>
-                            <p>
-                                9. They moved to Ankara two years ago.<br>
-                                They <input type="text" name="grammar369-11"  placeholder="Responda aqui" required/> two years.
-                            </p>
-                            <p>
-                                10. She hasn’t been to Rome before.<br>
-                                This is the first time <input type="text" name="grammar369-12"  placeholder="Responda aqui" required/>
-                            </p>
+                            1. I haven’t seen her for a long time.<br> 
+                            It’s ages since I saw her <input type="text" name="grammar369-1" class="full left-align"  placeholder="Responda aqui" required/><br>
+                            I last met George two weeks ago.<br>
+                            I haven’t <input type="text" name="grammar369-2" class="full left-align"  placeholder="Responda aqui" required/>
                         </p>
-                    </div>
+                        <p>
+                            2. They have been here for three months.<br>
+                            They arrived <input type="text" name="grammar369-3" class="full left-align"  placeholder="Responda aqui" required/> 
+                        </p>
+                        <p>
+                            3. We started living in Istanbul 12 years ago.<br>
+                            We have <input type="text" name="grammar369-4" class="full left-align"  placeholder="Responda aqui" required/> 
+                        </p>
+                        <p>
+                            4. I last saw my girlfriend five days ago.<br>
+                            I haven’t <input type="text" name="grammar369-5" class="full left-align"  placeholder="Responda aqui" required/> 
+                        </p>
+                        <p>
+                            5. Is this the first time you have tasted a kiwi?<br>
+                            <input type="text" name="grammar369-6"  placeholder="Responda aqui" required/> (not) you <input type="text" name="grammar369-7"  placeholder="Responda aqui" required/> one before?
+                        </p>
+                        <p>
+                            6. I last smoked a cigarette ten years ago.<br>
+                            I haven’t <input type="text" name="grammar369-8" class="full left-align"  placeholder="Responda aqui" required/> 
+                        </p>
+                        <p>
+                            7. I last drank wine two weeks ago.<br>
+                            It’s two weeks <input type="text" name="grammar369-9" class="full left-align"  placeholder="Responda aqui" required/> wine.
+                        </p>
+                        <p>
+                            8. I have lived in Istanbul since January<br>
+                            I <input type="text" name="grammar369-10" class="full left-align"  placeholder="Responda aqui" required/> (come)
+                        </p>
+                        <p>
+                            9. They moved to Ankara two years ago.<br>
+                            They <input type="text" name="grammar369-11" class="full left-align"  placeholder="Responda aqui" required/> two years.
+                        </p>
+                        <p>
+                            10. She hasn’t been to Rome before.<br>
+                            This is the first time <input type="text" name="grammar369-12" class="full left-align"  placeholder="Responda aqui" required/>
+                        </p>
+                    </p>
 
                     <div class="clear"></div>
 

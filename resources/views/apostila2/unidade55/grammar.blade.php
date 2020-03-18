@@ -24,17 +24,15 @@
                         The Past Perfect expresses the idea that something occurred before another action in the
                         past. It can also show that something happened before a specific time in the past.
                     </p>
-                    <p class="center-align caixa"><b>Past Perfect = Subject + Had + verb in the past participle</b></p>
+                    <p class="bordaVerde"><b>Past Perfect = Subject + Had + verb in the past participle</b></p>
                     <table class="metade espacamento center-align">
                         <tr>
                             <td>
-                                <h5 class="barlow">
-                                    <b>PAST PERFECT</b> 
-                                </h5>
+                                <h5 class="barlow">PAST PERFECT</h5>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td class="left-align">
                                 <p>(+) Gleen <b>had started</b> the class when Akira arrived.</p>
                                 <p>(-) Gleen <b>hadn't started</b> the class when Akira arrived.</p>
                                 <p>(?) <b>Had</b> Gleen <b>started</b> the Class when Akira Arrived?</p><br>
@@ -48,7 +46,7 @@
                             </td>
                         </tr>
                     </table> 
-                    <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                    <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES:</b></h5>
                     <h5 class="barlow">1 - Complete the sentences in PAST PERFECT. (affirmative form.)</h5>
                     <form id="unidade55grammar373" style="margin-top:32px" method="post">
                         <div class="metade">
@@ -124,48 +122,46 @@
 
                 <h5 class="barlow">4 - Supply a suitable SIMPLE PAST or PAST PERFECT TENSE:</h5>
                 <form id="unidade55grammar376" style="margin-top:32px" method="post">
-                    <div class="metade">
+                    <p>
                         <p>
-                            <p>
-                                1. <input type="text" name="grammar376-1"  placeholder="Responda aqui" required/> he <input type="text" name="grammar376-2"  placeholder="Responda aqui" required/> 
-                                (know) her for a long time before they <input type="text" name="grammar376-3"  placeholder="Responda aqui" required/> (get) married?
-                            </p>
-                            <p>
-                                2. He <input type="text" name="grammar376-4"  placeholder="Responda aqui" required/> (drive) down the hotel where they 
-                                <input type="text" name="grammar363-1"  placeholder="Responda aqui" required/> (spend) their honeymoon years ago.
-                            </p>
-                            <p>
-                                3. When we <input type="text" name="grammar376-5"  placeholder="Responda aqui" required/> (get) to the station the train 
-                                <input type="text" name="grammar376-6"  placeholder="Responda aqui" required/> (already / leave).
-                            </p>
-                            <p>
-                                4. He <input type="text" name="grammar376-7"  placeholder="Responda aqui" required/> (sit) at a table by the window where he 
-                                <input type="text" name="grammar376-8"  placeholder="Responda aqui" required/> (have) a meal with Jane.
-                            </p>
-                            <p>
-                                5. Why <input type="text" name="grammar376-9"  placeholder="Responda aqui" required/> he <input type="text" name="grammar363-10"  placeholder="Responda aqui" required/> 
-                                (not / ask) her to wait and think again before she <input type="text" name="grammar376-11"  placeholder="Responda aqui" required/> (leave) Paris.
-                            </p>
-                            <p>
-                                6. He was wondering why he <input type="text" name="grammar376-12"  placeholder="Responda aqui" required/> (let) her leave so easily.
-                            </p>
-                            <p>
-                                7. He knew he <input type="text" name="grammar376-13"  placeholder="Responda aqui" required/> (earn) that money with a great difficulty.
-                            </p>
-                            <p>
-                                8. After they <input type="text" name="grammar376-14"  placeholder="Responda aqui" required/>(go), he <input type="text" name="grammar376-15"  placeholder="Responda aqui" required/> (sit) down and <input type="text" name="grammar376-16"  placeholder="Responda aqui" required/>
-                                (light) a cigarette.
-                            </p>
-                            <p>
-                                9. He <input type="text" name="grammar376-17"  placeholder="Responda aqui" required/> (have to) go to work by bus because his car 
-                                <input type="text" name="grammar376-18"  placeholder="Responda aqui" required/> (break) down.
-                            </p>
-                            <p>
-                                10. He <input type="text" name="grammar376-20"  placeholder="Responda aqui" required/> 
-                                (angry) before he <input type="text" name="grammar376-21"  placeholder="Responda aqui" required/> (hear) my offer.
-                            </p>
+                            1. <input type="text" name="grammar376-1"  placeholder="Responda aqui" required/> he <input type="text" name="grammar376-2"  placeholder="Responda aqui" required/> 
+                            (know) her for a long time before they <input type="text" name="grammar376-3"  placeholder="Responda aqui" required/> (get) married?
                         </p>
-                    </div>
+                        <p>
+                            2. He <input type="text" name="grammar376-4"  placeholder="Responda aqui" required/> (drive) down the hotel where they 
+                            <input type="text" name="grammar363-1"  placeholder="Responda aqui" required/> (spend) their honeymoon years ago.
+                        </p>
+                        <p>
+                            3. When we <input type="text" name="grammar376-5"  placeholder="Responda aqui" required/> (get) to the station the train 
+                            <input type="text" name="grammar376-6"  placeholder="Responda aqui" required/> (already / leave).
+                        </p>
+                        <p>
+                            4. He <input type="text" name="grammar376-7"  placeholder="Responda aqui" required/> (sit) at a table by the window where he 
+                            <input type="text" name="grammar376-8"  placeholder="Responda aqui" required/> (have) a meal with Jane.
+                        </p>
+                        <p>
+                            5. Why <input type="text" name="grammar376-9"  placeholder="Responda aqui" required/> he <input type="text" name="grammar363-10"  placeholder="Responda aqui" required/> 
+                            (not / ask) her to wait and think again before she <input type="text" name="grammar376-11"  placeholder="Responda aqui" required/> (leave) Paris.
+                        </p>
+                        <p>
+                            6. He was wondering why he <input type="text" name="grammar376-12"  placeholder="Responda aqui" required/> (let) her leave so easily.
+                        </p>
+                        <p>
+                            7. He knew he <input type="text" name="grammar376-13"  placeholder="Responda aqui" required/> (earn) that money with a great difficulty.
+                        </p>
+                        <p>
+                            8. After they <input type="text" name="grammar376-14"  placeholder="Responda aqui" required/>(go), he <input type="text" name="grammar376-15"  placeholder="Responda aqui" required/> (sit) down and <input type="text" name="grammar376-16"  placeholder="Responda aqui" required/>
+                            (light) a cigarette.
+                        </p>
+                        <p>
+                            9. He <input type="text" name="grammar376-17"  placeholder="Responda aqui" required/> (have to) go to work by bus because his car 
+                            <input type="text" name="grammar376-18"  placeholder="Responda aqui" required/> (break) down.
+                        </p>
+                        <p>
+                            10. He <input type="text" name="grammar376-20"  placeholder="Responda aqui" required/> 
+                            (angry) before he <input type="text" name="grammar376-21"  placeholder="Responda aqui" required/> (hear) my offer.
+                        </p>
+                    </p>
 
                     <div class="clear"></div>
 
@@ -176,7 +172,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <h5 class="barlow metade" style="margin-top: 36px">
+                <h5 class="barlow" style="margin-top: 36px">
                     5 - The movie Spider Man, was considered one of the most successful super-hero movies in
                     the world. Tobey Maguire was the first actor to play Spider man in 2002. 3 other actors came
                     after him. The last one, Tom Holland, an English actor appeared for the first time in Civil War
