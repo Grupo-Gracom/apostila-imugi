@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 1 | Understanding')
+@section('titulo','Unit 2 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,64 +9,58 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade1" data-etapa="understanding">
-				<h3 class="barlow">UNIT 1</h3>
-				<h5 class="barlow">6 - UNDERSTANDING</h5>
-                <div class="metade">
-                    <form id="unidade1understanding503" method="post">
-                        <p>
-                            1 - What are the students gonna study in this new book?<br>
-                            <input type="text" name="understanding503-1" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            2 - How does Jake feel about teaching?<br>
-                            <input type="text" name="understanding503-2" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            3 - Summarize Jake’s experience.<br>
-                            <input type="text" name="understanding503-3" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            4 - How did Jake get to know about the teaching positi on?<br>
-                            <input type="text" name="understanding503-4" class="full left-align" placeholder="Responda aqui" required>
-                        </p>
-                        <p>
-                            5 - What’s the students’ mood regarding the beginning of the classes?<br>
-                            <input type="text" name="understanding503-5" class="full left-align" placeholder="Responda aqui" required>
-                        </p>                    
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="1">
-                        <input type="hidden" name="atividade_id" value="503">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                </div>
+			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade2" data-etapa="pronunciation">
+				<h3 class="barlow">UNIT 2</h3>
+				<h5 class="barlow">4 - PRONUNCIATION</h5>
+				<span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+				</audio>
+				<div class="clear"></div>
+				<h5 class="barlow">A – Homophones 2</h5>
+                <p>Example: <b>Here/Hear</b></p>
+				<p>Complete the sentences below with the appropriate word.</p>
+				<h5 class="barlow">Complete the sentences below with the appropriate word.</h5>
+				<form id="unidade2pronunciation506" method="post">					
+					<p><b>1</b> - We can see the ocean from 
+                    <input type="text" name="pronunciation506-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    </p>
+					
+					<p><b>2</b> - Can you 
+					<input type="text" name="pronunciation506-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
+					The birds singing.</p>
+
+					<input type="hidden" name="_token" value="{{csrf_token()}}">
+					<input type="hidden" name="resposta_id" value="0">
+					<input type="hidden" name="unidade_id" value="2">
+					<input type="hidden" name="atividade_id" value="506">
+					<button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+				</form>				
 			</div>
 		</div>
     </main>
     <script>
         activeMenu();
-
-        $("form").each(function(){
+		$("form").each(function(){
             var atividade_id = $(this).find('input[name="atividade_id"]').val();
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1understanding503").submit(function(e){
+        $("#unidade2pronunciation506").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1understanding503 input[type="text"]').each(function(index){
-                if(($('#unidade1understanding503 input[type="text"]').length - 1) == index){
+            $('#unidade2pronunciation506 input[type="text"]').each(function(index){
+                if(($('#unidade2pronunciation506 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1understanding503 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1understanding503'), respostas);
+            if($('#unidade2pronunciation506 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade2pronunciation506'), respostas);
             }else{
-                enviarAtividade($('#unidade1understanding503'), respostas);
+                enviarAtividade($('#unidade2pronunciation506'), respostas);
             }
         });
 
@@ -86,14 +80,15 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade1understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade1understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade2pronunciation'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade2pronunciation'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade1understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade2pronunciation'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade2pronunciation'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
+
 
         function enviarAtividade(formId, respostas){
             var resposta = {
@@ -145,6 +140,6 @@
                 }
             });
         }
-    </script>
 
+    </script>
 @endsection

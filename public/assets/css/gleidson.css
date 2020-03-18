@@ -137,6 +137,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade figure.metade img{height:400px;}
 
 #unidade .espacamento{margin: 16px;}
+#unidade .espacamentoesquerda3{margin: 0 0 16px 10%;}
 #unidade table{ width: unset;}
 #unidade table,
 #unidade table tr,
@@ -149,7 +150,8 @@ main .capas li.deactive img{filter: grayscale(1);}
 .versus{text-align: center; margin: 50% ; background-color: #dddddd; }
 #unidade20understanding56 form {padding-right: 26px;}
 .bordaSilples{border: solid 2px black; position: 16px; width: 55%; padding: 5px;}
-.bordaVerde{border: solid 2px #7dc242; position: 16px; display: inline-block; padding: 10px;}
+.bordaVerde{border: solid 2px #7dc242; display: inline-block; padding: 10px;}
+.contentVerde{background-color:#7dc242; position: 16px; display: inline-block; padding: 10px;}
 .marginCustomizada{margin-bottom: 3px;}
 .tabelaGramar11 {width: 60%;}
 .quadradoVerdeGrande p{background-color: #3bac44; color: black; display: inline-block; padding: 16px; font-size: 80px; width: 240px;} /* (joao) quadrado unidade 17 gramar apostila 2 */
@@ -159,6 +161,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 
 #unidade .recuoEsquerda p:not(.center-align){margin-left: 30%;}
 #unidade .recuoEsquerda span, #unidade form p b {color: #7dc242;}
+#unidade .numeradorverde p b {color: #7dc242;}
 
 
 /* #tabelaGramar12 {width: 80%;} */

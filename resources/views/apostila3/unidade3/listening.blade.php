@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 1 | Listening')
+@section('titulo','Unit 3 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,32 +9,33 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade1" data-etapa="listening">
-				<h3 class="barlow">UNIT 1</h3>
+			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade3" data-etapa="listening">
+				<h3 class="barlow">UNIT 3</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                
-                <form id="unidade1listening502" method="post">                    
-                    <p>Hey Jake, how’s it 
-                    <input type="text" name="listening502-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    ? Let me ask you something. Glenn <input type="text" name="listening502-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    <input type="text" name="listening502-3" class="inputpequeno left-align" placeholder="Responda aqui" required> That in
-                    the next class we’re gonna starting 
-                    <input type="text" name="listening502-4" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    details about how to <input type="text" name="listening502-5" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    a Youtube <input type="text" name="listening502-6" class="inputpequeno left-align" placeholder="Responda aqui" required>. 
-                    Is that true? Because if it is, I’ll rearrange my 
-                    <input type="text" name="listening502-7" class="inputpequeno left-align" placeholder="Responda aqui" required> cause
-                    tomorrow I’d have an <input type="text" name="listening502-8" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    at time of the class.</p>
+                <h5 class="barlow"> Listen to the audio and fi ll in the blanks with the missing words.</h5>
+                <h5 class="barlow">A - What’s the main message about the use of social media in general?</h5>
+                <form id="unidade3listening513" method="post">
+                    <p>Well, based on my 
+                    <input type="text" name="listening513-1" class="inputpequeno left-align" placeholder="Responda aqui" required>, 
+                    there are some steps to 
+                    <input type="text" name="listening513-2" class="inputpequeno left-align" placeholder="Responda aqui" required> 
+                    in order to be <input type="text" name="listening513-3" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    on the net. First, you <input type="text" name="listening513-4" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    to have a clear objective. Your Why. Your main purpose. 
+                    <input type="text" name="listening513-5" class="inputpequeno left-align" placeholder="Responda aqui" required>, you need to 
+                    <input type="text" name="listening513-6" class="inputpequeno left-align" placeholder="Responda aqui" required>who your
+                    audience is and then, start preparing your 
+                    <input type="text" name="listening513-7" class="inputpequeno left-align" placeholder="Responda aqui" required> content.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="502">
+                    <input type="hidden" name="unidade_id" value="3">
+                    <input type="hidden" name="atividade_id" value="513">
+                    <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>                
             </div>
@@ -48,21 +49,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1listening502").submit(function(e){
+        $("#unidade3listening513").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade1listening502 input[type="text"]').each(function(index){
-                if(($('#unidade1listening502 input[type="text"]').length - 1) == index){
+            $('#unidade3listening513 input[type="text"]').each(function(index){
+                if(($('#unidade3listening513 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade1listening502 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1listening502'), respostas);
+            if($('#unidade3listening513 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade3listening513'), respostas);
             }else{
-                enviarAtividade($('#unidade1listening502'), respostas);
+                enviarAtividade($('#unidade3listening513'), respostas);
             }
         });
 
@@ -82,11 +83,14 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade1listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade3listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
+                        $('#unidade3listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade3listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade3listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade3listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade3listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade3listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

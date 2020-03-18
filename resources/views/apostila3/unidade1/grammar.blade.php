@@ -12,127 +12,58 @@
 			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade1" data-etapa="grammar">
 				<h3 class="barlow">UNIT 1 </h3>
 				<h5 class="barlow">3 - GRAMAR</h5>
-				<span class="play-audio">( Aperte o play )</span>
+				<!-- <span class="play-audio">( Aperte o play )</span> -->
 				<!-- <audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio> -->
                 <!-- nao tem audio ainda -->
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - MODAL VERD SHOULD / OUGHT TO </h5>
-                <p>
-                    <b>Should and ought to</b> are used to express <b>advices</b>. There is a slight difference between
-                    them. <b>Should</b> is used for a <b>general advice, a subjective opinion</b> and <b>ought to</b> is used for
-                    <b>objective opinions</b>. In other words, <b>Ought to</b> is used for <b>what’s necessary and can’t be
-                    avoided</b>.
-                </p>
-                <table class="metade center-align" style="margin-top:16px">
-                    <tr>
-                        <td><h5 class="barlow">General advice - SUBJECTIVE opnion - SHOULD</h5></td>
-                    </tr>
-                    <tr>
-                        <td><p>(+) You <b>should review</b> the lesson in a regular basis.</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>(-) You <b>shouldn't review</b> the lesson in a regular basis.</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>(?) <b>Should</b> you <b>review</b> the lesson in a regular basis?</p></td>
-                    </tr>
-                    <tr>
-                        <td><h5 class="barlow">General advice - OBJECTIVE opnion - OUGHTTO</h5></td>
-                    </tr>
-                    <tr>
-                        <td><p>(+) <b>You ought to check</b> the file before sending it.</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>(-) You <b>ought not to check</b> the file before sending it (*)</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>(?) <b>Ought you to check</b> the file before sending it? (*)</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>(*) <b>negative and interrogative of ought to, are not frequently used.</b> Instead, prefer to use <b>Should</b>.</p></td>
-                    </tr>
-                </table>
-                    <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
-                    <h5 class="barlow">1 -  Choose, to complete each sentence, either SHOULD or SHOULDN’T.</h5>
-                    <form id="unidade29grammar233" method="post">
-                            <p>
-                                <p>
-                                    1. Listen to that music! Our neighbours <input type="text" name="grammar233-1" placeholder="Responda aqui" required/> play music that loud at this hour.
-                                </p>
-                                <p>
-                                    2. If your tooth is still hurting you tomorrow, you <input type="text" name="grammar233-2"  placeholder="Responda aqui" required/> go to the dentist’s.
-                                </p>
-                                <p>
-                                    3. Cathy <input type="text" name="grammar233-3"  placeholder="Responda aqui" required/>  keep ringing her ex-boyfriend. I think he is with another girl now.
-                                </p>
-                                <p>
-                                    4. Before going to Madrid for your holidays, you <input type="text" name="grammar233-4"  placeholder="Responda aqui" required/>  try and learn something of the language. You will enjoy things a lot more.
-                                </p>
-                                <p>
-                                    5. You <input type="text" name="grammar233-5"  placeholder="Responda aqui" required/> always knock on the door before entering. This is a private office.
-                                </p>
-                                <p>
-                                    6. We <input type="text" name="grammar233-6"  placeholder="Responda aqui" required/>  bring something to Kate’s party. I’ll feel really embarrassed otherwise.
-                                </p>
-                                <p>
-                                    7. That model on the TV is too skinny. She <input type="text" name="grammar233-7"  placeholder="Responda aqui" required/>  eat more, I think!
-                                </p>
-                                <p>
-                                    8. Lizzie <input type="text" name="grammar233-8"  placeholder="Responda aqui" required/>  ask Bryan to help her with her studies. He did the same course last year.
-                                </p>
-                                <p>
-                                    9. Pregnant women <input type="text" name="grammar233-9"  placeholder="Responda aqui" required/> smoke as it can damage the baby.
-                                </p>
-                                <p>
-                                    10. We <input type="text" name="grammar233-10"  placeholder="Responda aqui" required/>  leave too late tomorrow if we want to reach the beach before lunch.
-                                </p>
-                            </p>
-                        <div class="clear"></div>
+                <p>BASIC REPORTING SENTENCES</p>
+                <p>When retelling a story we usually use the verbs <b>Say (something), Tell (a story),</b> and
+                <b>ask (a questi on or favor)</b></p>
 
-                        <input type="hidden" name="_token" value="{{csrf_token()}}">
-                        <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="29">
-                        <input type="hidden" name="atividade_id" value="233">
-                        <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                    </form>
-                <figure>
-                    <img src="{{ asset('assets/img/dominating/unit29/grammar.png') }}" alt="paciente feliz">
-                </figure>
+                <p>Examples:</p>
+                <p><b>Paul said that</b> he’s gonna start a new Youtube channel.</p>
+                <p><b>Mary told me</b> she loved the live she had with her followers.</p>
+                <p><b>I asked her</b> if she used FaceTime, Google or Instagram to run the live.</p>
+                <p><b>She said that</b> Instagram is bett er, although the videos are stored for just 24 hours.</p>
+                <p><b>Paul told me</b> he had a lot of insights during the live.</p>
+                <p><b>He asked me</b> why I didn’t parti cipate.</p>
 
-                <h5 class="barlow metade" style="margin-top: 36px">2 -  Circle the appropriate form of OUGHT TO or OUGHT NOT TO.</h5>
-                <form id="unidade29grammar234" method="post">
-                    <p>1 - <input type="radio" name="grammar234-1" value="1" required/> You (ought to/ought not to) smoke to heavily.</p>
-                    <p>2 - <input type="radio" name="grammar234-1" value="2" required/> You (ought to/ought not to) lie in bed late every day.</p>
-                    <p>3 - <input type="radio" name="grammar234-1" value="3" required/> You (ought to/ought not to) be selfish.</p>
-                    <p>4 - <input type="radio" name="grammar234-1" value="4" required/> She (ought to/ought not to) avoid pasta. She’s on a low carb diet.</p>
-                    <p>5 - <input type="radio" name="grammar234-1" value="5" required/> We (ought to/ought not to) make a tour alone. The city is very complex.</p>
-                    <p>6 - <input type="radio" name="grammar234-1" value="6" required/> You (ought to/ought not to) follow the manual instructions. It’s a very delicate equipment.</p>
-                    <p>7 - <input type="radio" name="grammar234-1" value="7" required/> They (ought to/ought not to) finish the video in three days. The client is extremely punctual.</p>
-                    <p>8 - <input type="radio" name="grammar234-1" value="8" required/>  John (ought to/ought not to) to get some images from an image bank. The quality is much superior.</p>
+                <p><b>News – No plural form.</b></p>
+                <p>We use the uncountable noun news to mean ‘informati on or reports about recent events’.
+                It takes a singular verb:</p>
 
-                    <div class="clear"></div>
+                <p>– The <b>news</b> is good about Mary. The doctors are very happy about her progress.</p>
+                <p> Not: <s>The news are good about Mary.</s></p>
+                <p>– Do you have <b>any news</b> of your sister? How is she these days?</p>
+                <p>– I’ve got <b>some news</b> for you – I’m getti ng married!</p>
+                <p> Not: <s>I’ve got a news for you</s> …</p>
+
+                <p>If we want to talk about news as an individual thing, we can use bit of,
+                piece of or item of (more formal):</p>
+
+                <p>– I heard a couple of interesting <b>pieces of news</b> the other day about the company’s
+                plans for expansion.</p>
+                <p>– An <b>item of news</b> caught her eye in the newspaper. It was about a child who was
+                missing.</p>
+                <p>We say the news when we refer to the television or radio programme that gives
+                reports of recent events:</p>
+                <p>– I always watch <b>the news</b> on CNN before I go to bed.</p>
+
+                <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                <h5 class="barlow">A - Think of a fact, a movie scene or a story that was interesting for you and prepare a narrative
+                using “Say, Tell and Ask”. Be prepared to report the story to the class. (minimum 10 lines). </h5>
+                
+                <form id="unidade1grammar500" method="post">
+                    <textarea name="grammar500-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="29">
-                    <input type="hidden" name="atividade_id" value="234">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-
-                <h5 class="barlow" style="margin-top: 36px">3 -  You find out that your friend is having a hard time to write good stories for his games.
-                Using SHOULD and OUGHT TO write advices to your friend.</h5>
-                <form id="unidade29grammar235" method="post">
-                    <textarea name="grammar235-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-
+                    <input type="hidden" name="unidade_id" value="1">
+                    <input type="hidden" name="atividade_id" value="500">
                     <div class="clear"></div>
-
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="29">
-                    <input type="hidden" name="atividade_id" value="235">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+                </form>                
 			</div>
 		</div>
     </main>
@@ -144,50 +75,14 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade29grammar233").submit(function(e){
+        $("#unidade1grammar500").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade29grammar233 input[type="text"]').each(function(index){
-                if(($('#unidade29grammar233 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
-            if($('#unidade29grammar233 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade29grammar233'), respostas);
+            var respostas = '{"'+$('#unidade1grammar500 textarea').attr("name")+'":"'+$('#unidade1grammar500 textarea').val()+'"}';
+            if($('#unidade1grammar500 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade1grammar500'), respostas);
             }else{
-                enviarAtividade($('#unidade29grammar233'), respostas);
-            }
-        });
-
-        $("#unidade29grammar234").submit(function(e){
-            e.preventDefault();
-            $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade29grammar234 input[type="radio"]:checked').each(function(index){
-                if(($('#unidade29grammar234 input[type="radio"]:checked').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
-            if($('#unidade29grammar234 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade29grammar234'), respostas);
-            }else{
-                enviarAtividade($('#unidade29grammar234'), respostas);
-            }
-        });
-
-        $("#unidade29grammar235").submit(function(e){
-            e.preventDefault();
-            $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade29grammar235 textarea').attr("name")+'":"'+$('#unidade29grammar235 textarea').val()+'"}';
-            if($('#unidade29grammar235 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade29grammar235'), respostas);
-            }else{
-                enviarAtividade($('#unidade29grammar235'), respostas);
+                enviarAtividade($('#unidade1grammar500'), respostas);
             }
         });
 
@@ -208,15 +103,15 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade29grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
-                        $('#unidade29grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade29grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade29grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade29grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade1grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
+                        $('#unidade1grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade1grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade1grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade1grammar'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
 
                 }
-                    $('#unidade29grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade29grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade1grammar'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade1grammar'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
@@ -271,7 +166,5 @@
                 }
             });
         }
-
     </script>
-
 @endsection

@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 1 | Pronunciation')
+@section('titulo','Unit 04 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,59 +9,44 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade1" data-etapa="pronunciation">
-				<h3 class="barlow">UNIT 1</h3>
-				<h5 class="barlow">4 - PRONUNCIATION</h5>
-				<span class="play-audio">( Aperte o play )</span>
+			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade4" data-etapa="listening">
+				<h3 class="barlow">UNIT 4</h3>
+                <h5 class="barlow">5 - LISTENING</h5>
+                <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
-				<div class="clear"></div>
-				<h5 class="barlow">A – Homophones 1</h5>
-				<p>Homophones are words that sound the same but have different 
-				spellings and meanings.</p>
-				<p>Example: <b>Flew/Flu</b></p>
-				<h5 class="barlow">Complete the sentences below with the appropriate word.</h5>
-				<form id="unidade1pronunciation501" method="post">					
-					<p><b>1</b> - I’ve had the 
-					<input type="text" name="pronunciation501-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-					Since Monday.</p>
-					
-					<p><b>2</b> - The birds 
-					<input type="text" name="pronunciation501-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
-					to their nests.</p>
-
-					<input type="hidden" name="_token" value="{{csrf_token()}}">
-					<input type="hidden" name="resposta_id" value="0">
-					<input type="hidden" name="unidade_id" value="1">
-					<input type="hidden" name="atividade_id" value="501">
-					<button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-				</form>				
-			</div>
+                <div class="clear"></div>
+                <h5 class="barlow"> Listen to the audio and answer the questions below.</h5>
+                <h5 class="barlow">A - What’s the advice of the speaker about the content to be delivered.</h5>
+                <form id="unidade4listening518" method="post">
+                    <textarea name="listening518-1" class="left-align" placeholder="Responda aqui" required></textarea>                    
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="4">
+                    <input type="hidden" name="atividade_id" value="518">
+                    <div class="clear"></div>
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>                                
+            </div>
 		</div>
     </main>
     <script>
         activeMenu();
-		$("form").each(function(){
+
+        $("form").each(function(){
             var atividade_id = $(this).find('input[name="atividade_id"]').val();
             checkAtividade(atividade_id);
         });
 
-        $("#unidade1pronunciation501").submit(function(e){
+        $("#unidade4listening518").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{';
-            $('#unidade1pronunciation501 input[type="text"]').each(function(index){
-                if(($('#unidade1pronunciation501 input[type="text"]').length - 1) == index){
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
-                }else{
-                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
-                }
-            });
-            if($('#unidade1pronunciation501 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade1pronunciation501'), respostas);
+            var respostas = '{"'+$('#unidade4listening518 textarea').attr("name")+'":"'+$('#unidade4listening518 textarea').val()+'"}';
+            if($('#unidade4listening518 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade4listening518'), respostas);
             }else{
-                enviarAtividade($('#unidade1pronunciation501'), respostas);
+                enviarAtividade($('#unidade4listening518'), respostas);
             }
         });
 
@@ -81,11 +66,14 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade1pronunciation'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade1pronunciation'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade4listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
+                        $('#unidade4listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade4listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade4listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade4listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade1pronunciation'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade1pronunciation'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade4listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade4listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
@@ -143,4 +131,6 @@
         }
 
     </script>
+
 @endsection
+
