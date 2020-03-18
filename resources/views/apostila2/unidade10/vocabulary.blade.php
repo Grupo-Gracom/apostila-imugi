@@ -3,72 +3,118 @@
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
-	@include('layouts.menus.mSidebar')
-    @include('layouts.header.mHeader')
+@include('layouts.menus.mSidebar')
+@include('layouts.header.mHeader')
 
-	<main>
-		<!-- Conteúdo principal central -->
-		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade10" data-etapa="vocabulary">
-				<h3 class="barlow">UNIT 10</h3>
-				<h5 class="barlow">1 - VOCABULARY</h5>
-				<span class="play-audio">( Aperte o play )</span>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 10/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
-				</audio>
-				<div class="clear"></div>
-				<h5 class="barlow" style="margin-top: 16px">A -  QUANTIFIERS</h5>
-				<ul class="lista-inline upper" style="margin-top: 16px">
-					<li><p><b>Some</b></p></li>
-					<li><p><b>Any</b></p></li>
-					<li><p><b>No</b></p></li>
+<main>
+	<!-- Conteúdo principal central -->
+	<div class="dashboard">
+		<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade10" data-etapa="vocabulary">
+			<h3 class="barlow">UNIT 10</h3>
+			<h5 class="barlow">1 - VOCABULARY</h5>
+			<span class="play-audio">( Aperte o play )</span>
+			<audio controls="" controlslist="nodownload" class="suave">
+				<source src="{{ asset('assets/audio/apostila2/UNIT 10/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
+			</audio>
+			<div class="clear"></div>
+			<h5 class="barlow" style="margin-top: 16px">A - QUANTIFIERS</h5>
+			<ul class="lista-inline upper" style="margin-top: 16px">
+				<li>
+					<p><b>Some</b></p>
+				</li>
+				<li>
+					<p><b>Any</b></p>
+				</li>
+				<li>
+					<p><b>No</b></p>
+				</li>
+			</ul>
+			<h5 class="barlow" style="margin-top: 16px">B - POLYGONS / 3D OBJECTS</h5>
+			<audio controls="" controlslist="nodownload" class="suave">
+				<source src="{{ asset('assets/audio/apostila2/UNIT 10/1. VOCABULARY/3. VOCABULARY.ogg') }}" type="audio/ogg">
+			</audio>
+			<div class="clear"></div>
+			<div style="margin-top: 32px">
+				<ul class="lista-inline">
+					<li>
+						<p><b>POLYGONS ></b></p>
+					</li>
+					<li>
+						<p>Triangle</p>
+					</li>
+					<li>
+						<p>Square</p>
+					</li>
+					<li>
+						<p>Pentagon</p>
+					</li>
+					<li>
+						<p>Hexagon</p>
+					</li>
+					<li>
+						<p>Heptagon</p>
+					</li>
 				</ul>
-				<h5 class="barlow" style="margin-top: 16px">B -  POLYGONS / 3D OBJECTS</h5>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 10/1. VOCABULARY/3. VOCABULARY.ogg') }}" type="audio/ogg">
-				</audio>
-				<div class="clear"></div>
-				<div style="margin-top: 32px">
-					<ul class="lista-inline">
-						<li><p><b>POLYGONS ></b></p></li>
-						<li><p>Triangle</p></li>
-						<li><p>Square</p></li>
-						<li><p>Pentagon</p></li>
-						<li><p>Hexagon</p></li>
-						<li><p>Heptagon</p></li>
-					</ul>
-					<ul class="lista-inline">
-						<li><p><b>3D OBJECTS ></b></p></li>
-						<li><p>Sphere</p></li>
-						<li><p>Cube</p></li>
-						<li><p>Pyramid</p></li>
-						<li><p>Cone</p></li>
-						<li><p>Cylinder</p></li>
-					</ul>
-				</div>
-				<h5 class="barlow" style="margin-top: 16px">C -   WORDS IN CONTEXT</h5>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 10/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
-				</audio>
-				<div class="clear"></div>
-				<div style="margin-top: 32px">
-					<ul class="lista-inline">
-						<li><p>Bring</p></li>
-						<li><p>Some</p></li>
-						<li><p>Just</p></li>
-						<li><p>Hold</p></li>
-						<li><p>Release</p></li>
-						<li><p>Feel</p></li>
-						<li><p>Hope</p></li>
-						<li><p>Straight</p></li>
-						<li><p>Together</p></li>
-					</ul>
-				</div>
+				<ul class="lista-inline">
+					<li>
+						<p><b>3D OBJECTS ></b></p>
+					</li>
+					<li>
+						<p>Sphere</p>
+					</li>
+					<li>
+						<p>Cube</p>
+					</li>
+					<li>
+						<p>Pyramid</p>
+					</li>
+					<li>
+						<p>Cone</p>
+					</li>
+					<li>
+						<p>Cylinder</p>
+					</li>
+				</ul>
 			</div>
+			<h5 class="barlow" style="margin-top: 16px">C - WORDS IN CONTEXT</h5>
+			<audio controls="" controlslist="nodownload" class="suave">
+				<source src="{{ asset('assets/audio/apostila2/UNIT 10/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
+			</audio>
+			<div class="clear"></div>
+			<ul class="lista-inline upper" style="margin-top:16px">
+				<li>
+					<p><b>Bring</b></p>
+				</li>
+				<li>
+					<p><b>Some</b></p>
+				</li>
+				<li>
+					<p><b>Just</b></p>
+				</li>
+				<li>
+					<p><b>Hold</b></p>
+				</li>
+				<li>
+					<p><b>Release</b></p>
+				</li>
+				<li>
+					<p><b>Feel</b></p>
+				</li>
+				<li>
+					<p><b>Hope</b></p>
+				</li>
+				<li>
+					<p><b>Straight</b></p>
+				</li>
+				<li>
+					<p><b>Together</b></p>
+				</li>
+			</ul>
 		</div>
-	</main>
-	<script>
-        activeMenu();
-    </script>
+	</div>
+</main>
+<script>
+	activeMenu();
+</script>
 
 @endsection
