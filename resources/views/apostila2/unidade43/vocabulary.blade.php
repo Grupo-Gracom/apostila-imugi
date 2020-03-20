@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Unit 43 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -15,8 +15,8 @@
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila2/UNIT 43/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
-			</audio>
-			<h5 class="barlow" class="espacamento">A - WORDS AND EXPRESSIONS</h5>
+            </audio>
+			<h5 class="barlow" style="margin-top:16px">A - WORDS AND EXPRESSIONS</h5>
 			<div class="espacamento">
 				<p><b>TO FIX </b>/ a car / a dinner</p>
 				<p><b>TO HAVE </b>/ a car / breakfast-lunch – dinner – a snack / a break / problems / headache</p>

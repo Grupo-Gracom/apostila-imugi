@@ -58,7 +58,7 @@
             <h5 class="barlow">1 - Think of your life now and 10 years from now. Write about it using present and future
                 tenses. Be ready to present to your classmates.</h5>
             <form id="unidade20grammar186" method="post" class="metade">
-                <textarea class="full" name="grammar186-1" required></textarea>
+                <textarea class="full" name="grammar186-1" placeholder="Responda aqui" required></textarea>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
@@ -70,7 +70,7 @@
             <h5 class="barlow">2 - Give your opinion about one of the next movie releases for the next months. Justify
                 your answer using future tenses.</h5>
             <form id="unidade20grammar187" method="post" class="metade">
-                <p><textarea class="full" name="grammar187-1" required></textarea></p>
+                <p><textarea class="full" name="grammar187-1" placeholder="Responda aqui" required></textarea></p>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="20">

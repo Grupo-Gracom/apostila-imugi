@@ -86,7 +86,7 @@
             <h5 class="barlow">1 - Build up questions and give answers:</h5>
             <h5 class="barlow"><b>Example:</b></h5>
             <p>engineer / William Is William an engineer? Yes, he is an engineer. (+)</p>
-            <form id="unidade5grammar123" action="post" class="metade" style="margin-top:32px">
+            <form id="unidade5grammar123" action="post" style="margin-top:32px">
                 <p>1. Good designer / Steve<input type="text" name="grammar123-1" placeholder="Responda aqui" required>?<input type="text" name="grammar123-2" placeholder="Responda aqui" required>(+)</p>
                 <p>2. lazy students / Mark and Lucy<input type="text" name="grammar123-3" placeholder="Responda aqui" required>?<input type="text" name="grammar123-4" placeholder="Responda aqui" required>(-)</p>
                 <p>3. App / good<input type="text" name="grammar123-5" placeholder="Responda aqui" required>?<input type="text" name="grammar123-6" placeholder="Responda aqui" required>(+)</p>

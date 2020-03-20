@@ -65,16 +65,18 @@
 				<li>
 					<p><b>Discover</b></p>
 				</li>
-				<li>
-					<p><b>Inspiring</b></p>
-				</li>
-				<li>
-					<p><b>Hardworking</b></p>
-				</li>
-				<li>
-					<p><b>courage</b></p>
-				</li>
-			</ul>
+            </ul>
+            <ul class="lista-inline upper" style="margin-top: 16px">
+                <li>
+                    <p><b>Inspiring</b></p>
+                </li>
+                <li>
+                    <p><b>Hardworking</b></p>
+                </li>
+                <li>
+                    <p><b>courage</b></p>
+                </li>
+            </ul>
 		</div>
 	</div>
 </main>

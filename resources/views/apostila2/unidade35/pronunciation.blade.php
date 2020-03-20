@@ -18,7 +18,7 @@
             </audio>
             <div class="clear"></div>
 
-            <table class="metade center-align" style="margin-top:16px">
+            <table class="metade center-align bordered" style="margin-top:16px">
                 <tr>
                     <td>
                         <h5 class="barlow">When /t/ </h5>
@@ -33,12 +33,12 @@
                         <p><b>mitted /t/: /t/</b></p>
                     </td>
                 </tr>
-                <tr>
+                <tr >
                     <td>
                         <h5 class="barlow">doesn't</h5>
                     </td>
                 </tr>
-                <tr>
+                <tr class="bordered">
                     <td>
                         <h5 class="barlow">sound like /t/</h5>
                     </td>

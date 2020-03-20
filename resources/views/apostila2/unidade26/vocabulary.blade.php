@@ -15,7 +15,8 @@
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila2/UNIT 26/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
-			</audio>
+            </audio>
+            <div class="clear"></div>
 			<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
 			<div class="espacamento">
 				<p><b>TO WRITE </b>/ beautifully / awfully</p>
@@ -25,8 +26,9 @@
 			<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila2/UNIT 26/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
-			</audio>
-			<ul class="lista-inline upper" style="margin-top: 16px">
+            </audio>
+            <div class="clear"></div>
+            <ul class="lista-inline upper" style="margin-top:16px">
 				<li>
 					<p><b>Channel</b></p>
 				</li>
@@ -42,16 +44,18 @@
 				<li>
 					<p><b>Pay attention</b></p>
 				</li>
-				<li>
-					<p><b>Shooting</b></p>
-				</li>
-				<li>
-					<p><b>affordable</b></p>
-				</li>
-				<li>
-					<p><b>synchronize</b></p>
-				</li>
-			</ul>
+            </ul>
+            <ul class="lista-inline upper" style="margin-top:16px">
+                <li>
+                    <p><b>Shooting</b></p>
+                </li>
+                <li>
+                    <p><b>affordable</b></p>
+                </li>
+                <li>
+                    <p><b>synchronize </b></p>
+                </li>
+            <ul>
 		</div>
 	</div>
 </main>

@@ -5,18 +5,18 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="bem-vindo" class="box">
 				<h3 class="barlow">Seu material didático exclusivo!</h3>
-				
+
 				@if($aluno->turma->tipo->tipo_unidade == 0)
 					<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
 				@else
 					<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
-				@endif 
+				@endif
 				<ul class="capas">
 					<!-- PLAYGO -->
 					<li class="deactive playgo">
@@ -47,12 +47,12 @@
 								<img src="{{ asset('assets/img/gamesandanimation.png') }}" alt="Games">
 							</a>
 						</figure>
-					</li>					
+					</li>
 					<!-- MASTER OF LANGUAGE -->
-					<li class="deactive master">						
+					<li class="deactive master">
 						<figure>
 							<a href="apostila3/intro3/intro"><img src="{{ asset('assets/img/masteroflanguage.png') }}" alt="MASTER OF LANGUAGE"></a>
-						</figure>						
+						</figure>
 					</li>
 					<!-- VIDEO EDITION -->
 					<li class="deactive video">
@@ -98,7 +98,7 @@
 			// 				$(".games").removeClass("deactive");
 			// 				$(".video").removeClass("deactive");
 			// 			break;
-						
+
 			// 		}
 			// 	break;
 			// 	case 1 :
@@ -118,7 +118,7 @@
 			// 				$(".games").removeClass("deactive");
 			// 				$('.master a').removeAttr('href');
 			// 				$('.video a').removeAttr('href');
-			// 			break;	
+			// 			break;
 			// 			default:
 			// 				$(".playgo").removeClass("deactive");
 			// 				$(".photoshop").removeClass("deactive");

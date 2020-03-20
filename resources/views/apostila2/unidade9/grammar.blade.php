@@ -278,7 +278,7 @@
                     <input type="hidden" name="atividade_id" value="139">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow metade" style="margin-top: 16px">3 - In groups, talk to your friends and decide what is the best FPS and the best RPG games in the market. Justify your answer using sentences in the superlative.</h5>
+                <h5 class="barlow" style="margin-top: 16px">3 - In groups, talk to your friends and decide what is the best FPS and the best RPG games in the market. Justify your answer using sentences in the superlative.</h5>
                 <form id="unidade9grammar140" method="post">
                     <textarea name="grammar140-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 

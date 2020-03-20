@@ -58,7 +58,7 @@
             <h5 class="barlow">1 - Compare your life of 3 years ago with your life now. Be ready to present your text to
                 your classmates. They may ask you questions about it.</h5>
             <form id="unidade19grammar182" method="post" class="metade">
-                <textarea class="full left-align" name="grammar182-1" required></textarea>
+                <textarea class="full left-align" name="grammar182-1" placeholder="Responda aqui" required></textarea>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
@@ -70,7 +70,7 @@
                 and present life. Be ready to answer questions to this person. Additionally, think of questions to ask to your friends to find
                 out information about their characters.</h5>
             <form id="unidade19grammar183" method="post" class="metade">
-                <textarea class="full" name="grammar183-1" required></textarea>
+                <textarea class="full" name="grammar183-1" placeholder="Responda aqui" required></textarea>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">

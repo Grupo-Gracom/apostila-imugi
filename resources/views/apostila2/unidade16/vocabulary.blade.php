@@ -47,6 +47,8 @@
 				<li>
 					<p><b>Single</b></p>
 				</li>
+            </ul>
+            <ul class="lista-inline upper" style="margin-top:16px">
 				<li>
 					<p><b>Milestone</b></p>
 				</li>
@@ -62,7 +64,7 @@
 				<li>
 					<p><b>skills</b></p>
 				</li>
-			</ul>
+        	</ul>
 		</div>
 	</div>
 </main>

@@ -20,7 +20,7 @@
 			<div class="clear"></div>
 			<h5 class="barlow" style="margin-top: 16px">A - SEQUENCE WORDS/EXPRESSIONS</h5>
 
-			<ul class="lista-inline" style="margin-top:16px">
+			<ul class="lista-inline upper" style="margin-top:16px">
 				<li>
 					<p><b>FIRST</b></p>
 				</li>
@@ -75,7 +75,7 @@
 			</audio>
 			<div class="clear"></div>
 
-			<ul class="lista-inline" style="margin-top:16px">
+			<ul class="lista-inline upper" style="margin-top:16px">
 				<li>
 					<p><b>WELL</b></p>
 				</li>
@@ -91,20 +91,22 @@
 				<li>
 					<p><b>SPECIALLY</b></p>
 				</li>
-				<li>
-					<p><b>SERIOUSLY</b></p>
-				</li>
-				<li>
-					<p><b>ABSOLUTELY</b></p>
-				</li>
-				<li>
-					<p><b>TERRIBLY</p>
-				</li>
-				<li>
-					<p><b>COMPLETELY</b></p>
-				</li>
-			</ul>
 
+            </ul>
+            <ul class="lista-inline upper">
+                <li>
+                    <p><b>SERIOUSLY</b></p>
+                </li>
+                <li>
+                    <p><b>ABSOLUTELY</b></p>
+                </li>
+                <li>
+                    <p><b>TERRIBLY</p>
+                </li>
+                <li>
+                    <p><b>COMPLETELY</b></p>
+                </li>
+            </ul>
 			<h5 class="barlow" style="margin-top: 16px">D - WORDS IN CONTEXT</h5>
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila2/UNIT 5/1. VOCABULARY/4. VOCABULARY.mp3') }}" type="audio/mp3">
