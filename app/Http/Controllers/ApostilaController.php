@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 
 class ApostilaController extends Controller
 {
-    
+
     protected $usuario;
 
     public function __construct()
@@ -37,6 +37,5 @@ class ApostilaController extends Controller
         $aluno = User::find($id);
         return view('apostila3'.'/'.$unidade.'/'.$item.'', compact('aluno'));
     }
-
 
 }
