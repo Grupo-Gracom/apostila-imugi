@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 64 | Pronunciation')
+@section('titulo','Unit 16 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,20 +9,20 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade64" data-etapa="pronunciation">
-			<h3 class="barlow">UNIT 64</h3>
+		<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade16" data-etapa="pronunciation">
+			<h3 class="barlow">UNIT 16</h3>
 			<h5 class="barlow">4 - PRONUNCIATION</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
-				<source src="{{ asset('assets/audio/apostila2/UNIT 64/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+				<source src="{{ asset('assets/audio/apostila3/UNIT 64/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 			</audio>
 			<div class="clear"></div>
-
-			<p style="margin-top:32px">
-				<p>Tongue twisters</p>
-				<p>“Susie works in a shoeshine shop. Where she shines she sits, and where she sits she shines”</p>
-			</p>
-			<div class="clear"></div>
+			<h5 class="barlow" style="margin-top:16px">1 - Homographs 6</h5>
+			<h5 class="barlow" style="margin-top:32px"><b>Examples:</b></h5> 
+			<p><b>Capital/Capital</b></p>
+			<p>Observe the meaning of the words based on the context.</p>
+			<p>Washington Dc is the <b>capital</b> of the USA.</p>
+			<p>We write the months of the year with <b>capital</b> lett er. Example; June, July and etc.</p>
 		</div>
 	</div>
 </main>

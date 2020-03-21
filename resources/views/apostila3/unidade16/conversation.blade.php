@@ -20,8 +20,9 @@
             <p style="margin-top: 16px">
                 <p>
                     <b>Jake :</b> So guys. Welcome back to one more class. How are you doing? Are you ok?
-                    Students: Yeah teacher. We’re ok.
+                    
                 </p>
+                <p><b>Students :</b> Yeah teacher. We’re ok.</p>
                 <p><b>Jake :</b> News about the research I asked you to do in the last class?</p>
                 <p>
                     <b>John :</b> Yes teacher, I have researched many sites about content production since then.
@@ -49,7 +50,7 @@
                 <p>
                     <b>Jake :</b> Congratulations guys. You guys have really understood how to make a difference
                     on the Web. I’m proud of you.
-                    (to be conti nued)
+                    (to be continued)
                 </p>
 			<div style="margin-top: 36px">
 				<figure>

@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 64 | Listening')
+@section('titulo','Unit 16 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,25 +9,25 @@
 <main>
     <!-- Conteúdo principal central -->
     <div class="dashboard">
-        <div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade64" data-etapa="listening">
-            <h3 class="barlow">UNIT 64</h3>
+        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade16" data-etapa="listening">
+            <h3 class="barlow">UNIT 16</h3>
             <h5 class="barlow">5 - LISTENING</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila2/UNIT 64/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila2/UNIT 16/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
-            <form id="unidade64listening417" method="post">
-                <p>
-                    Don’t be <input type="text" name="listening417-1" placeholder="Responda aqui" required> of making mistakes. They are <input type="text" name="listening417-2" placeholder="Responda aqui" required> of the <input type="text" name="listening417-3" placeholder="Responda aqui" required>. The only way to learn is having the <input type="text" name="listening417-4" placeholder="Responda aqui" required> to face moments when things go <input type="text" name="listening417-5" placeholder="Responda aqui" required> .
-                    Being mature to face such <input type="text" name="listening417-6" placeholder="Responda aqui" required> , make you <input type="text" name="listening417-7" placeholder="Responda aqui" required> as a person. Don’t <input type="text" name="listening417-8" placeholder="Responda aqui" required> any of your experiences. <input type="text" name="listening417-9" placeholder="Responda aqui" required> the good, or bad ones.
-                </p>
+            <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and answer the questions below.</h5>
+            <form id="unidade16listening586" method="post">
+                <p>1 - What’s is the main idea of the passage?</p>
+                <textarea name="listening586-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+
+                <div class="clear"></div>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="64">
-                <input type="hidden" name="atividade_id" value="417">
+                <input type="hidden" name="unidade_id" value="16">
+                <input type="hidden" name="atividade_id" value="586">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
         </div>
@@ -42,21 +42,14 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade64listening417").submit(function(e) {
+    $("#unidade16listening586").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{';
-        $('#unidade64listening417 input[type="text"]').each(function(index) {
-            if (($('#unidade64listening417 input[type="text"]').length - 1) == index) {
-                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
-            } else {
-                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
-            }
-        });
-        if ($('#unidade64listening417 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade64listening417'), respostas);
+        var respostas = '{"' + $('#unidade16listening586 textarea').attr("name") + '":"' + $('#unidade16listening586 textarea').val() + '"}';
+        if ($('#unidade16listening586 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade16listening586'), respostas);
         } else {
-            enviarAtividade($('#unidade64listening417'), respostas);
+            enviarAtividade($('#unidade16listening586'), respostas);
         }
     });
 
@@ -76,11 +69,13 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade64listening' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade64listening' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade16listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade16listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade16listening' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade16listening' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                 }
-                $('#unidade64listening' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
-                $('#unidade64listening' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                $('#unidade16listening' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
+                $('#unidade16listening' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
             }
         });
     }

@@ -18,9 +18,9 @@
 			</audio>
 			<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
 			<ul class="lista-inline upper" style="margin-top: 16px">
-				<p><b>Like</b></p>
-				<p><b>Organic Reach</b></p>
-				<p><b>Paid Reach</b></p>
+				<li><p><b>Like</b></p></li>
+				<li><p><b>Organic Reach</b></p></li>
+				<li><p><b>Paid Reach</b></p></li>
             </ul>
 
 			<h5 class="barlow" style="margin-top: 32px">B - WORDS IN CONTEXT</h5>

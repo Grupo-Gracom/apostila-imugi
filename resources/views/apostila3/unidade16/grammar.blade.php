@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 64 | Grammar')
+@section('titulo','Unit 16 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,8 +9,8 @@
 <main>
     <!-- Conteúdo principal central -->
     <div class="dashboard">
-        <div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade64" data-etapa="grammar">
-            <h3 class="barlow">UNIT 64</h3>
+        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade16" data-etapa="grammar">
+            <h3 class="barlow">UNIT 16</h3>
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <!-- <audio controls="" controlslist="nodownload" class="suave">
@@ -19,48 +19,165 @@
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - Fill in the correct tenses of the words given .</h5>
-                <form id="unidade64grammar416" method="post">
+                <h5 class="barlow">A - PERFECT FORMS – REVIEW.</h5>
+                <p>
+                    <b>PERFECT FORMS</b> – Be it in the past, present or future, <b>Perfect forms</b> connect two
+                    events or two points in a timeline either by continuity or relevance.
+                </p>
+                <table class="espacamento left-align bordered" style="margin-top:32px;">
+                    <tr>
+                        <td><h5 class="barlow">Verb tense</td>
+                        <td><h5 class="barlow">Meaning</td>
+                        <td><h5 class="barlow">Structure</td>
+                    </tr>
+                    <tr class="bordered">
+                        <td><p><b>Past Perfect</b></p></td>
+                        <td>
+                            <p>
+                                Connection between two
+                                moments in the past expressing
+                                a chronological order of the
+                                events.
+                            </p>
+                        </td>
+                        <td>
+                            <p>(+)Subject + Had + Verb in the Past Participle.</p>
+                            <p>(-)Subject + Had + not + Verb in the Past Participle.</p>
+                            <p>(?)Had + Subject + Verb in the Past Parti ciple.</p>
+                        </td>
+                    </tr>
+                    <tr class="bordered">
+                        <td><p><b>Past perfect Continuous</b></p></td>
+                        <td>
+                            <p>
+                                Similar to Past perfect but with
+                                focus on the progression of the
+                                action.
+                            </p>
+                        </td>
+                        <td>
+                            <p>(+)Subject + Had been + Verb(ing).</p>
+                            <p>(-)Subject + Had been + not + Verb(ing).</p>
+                            <p>(?)Had + Subject + been + Verb(ing).</p>
+                        </td>
+                    </tr>
+                    <tr class="bordered">
+                        <td><p><b>Present Perfect </b></p></td>
+                        <td>
+                            <p>
+                                Connection between past and
+                                present expressing relevance or
+                                continuity.
+                            </p>
+                        </td>
+                        <td>
+                            <p>(+)Subject + Have + Verb in the Past Participle.</p>
+                            <p>(-)Subject + Have + not + Verb in the Past Participle.</p>
+                            <p>(?)Have + Subject + Verb in the Past Participle.</p>
+                        </td>
+                    </tr>
+                    <tr class="bordered">
+                        <td><p><b>Present Perfect Continuous</b></p></td>
+                        <td>
+                            <p>
+                                Similar to Present perfect but
+                                with focus on the progression
+                                of the action.
+                            </p>
+                        </td>
+                        <td>
+                            <p>(+)Subject + Have been + Verb(ing).</p>
+                            <p>(-)Subject + Have been + not + Verb(ing).</p>
+                            <p>(?)Have + Subject + been + Verb(ing).</p>
+                        </td>
+                    </tr>
+                    <tr class="bordered">
+                        <td><p><b>Future Perfect</b></p></td>
+                        <td>
+                            <p>
+                                Connection between two
+                                events in the future showing
+                                that first will be finished before
+                                a second event.
+                            </p>
+                        </td>
+                        <td>
+                            <p>(+)Subject + Will Have + Verb in the Past Participle.</p>
+                            <p>(-)Subject + Will Have + not + Verb in the Past Participle.</p>
+                            <p>(?)Will + Subject + have + Verb in the Past Participle.</p>
+                        </td>
+                    </tr>
+                    <tr class="bordered">
+                        <td><p><b>Future Perfect Continuous</b></p></td>
+                        <td>
+                            <p>
+                                Similar to Future perfect but
+                                with focus on the progression
+                                of the action.
+                            </p>
+                        </td>
+                        <td>
+                            <p>(+)Subject + will Have been + Verb(ing).</p>
+                            <p>(-)Subject + will Have been + not + Verb(ing).</p>
+                            <p>(?) Will + Subject + have been + Verb(ing).</p>
+                        </td>
+                    </tr>
+                </table>
+                <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
+                <h5 class="barlow">1 - Use PRESENT PERFECT TENSE or PRESENT PERFECT CONTINUOUS to fi ll in the blanks:</h5>
+                <form id="unidade16grammar583" method="post">
                     <p>
-                        <p>
-                            I <input type="text" name="grammar416-1" placeholder="Responda aqui" required /> (be born) in Blackburn , in the northwestern part of England
-                            and I <input type="text" name="grammar416-2" placeholder="Responda aqui" required />(live) there until I <input type="text" name="grammar416-1" placeholder="Responda aqui" required /> (leave)
-                            home at the age of 18. My parents <input type="text" name="grammar416-3" placeholder="Responda aqui" required /> (move) to England from
-                            India in the 1970s.
-                        </p>
-                        <p>
-                            As a child I <input type="text" name="grammar416-4" placeholder="Responda aqui" required /> (go) to the local school and , of course,
-                            <input type="text" name="grammar416-5" placeholder="Responda aqui" required /> (speak)English with a local accent, just like all the other children. But at home it was very different. We
-                            <input type="text" name="grammar416-6" placeholder="Responda aqui" required /> (live)in an Indian
-                            environment , with a great extended family of uncles and aunts. I <input type="text" name="grammar416-7" placeholder="Responda aqui" required />
-                            (remember)feeling part of this big thing called “family”, and an even bigger thing called
-                            “India” . I think my family really <input type="text" name="grammar416-8" placeholder="Responda aqui" required /> (influence)me a lot while I
-                            <input type="text" name="grammar416-9" placeholder="Responda aqui" required /> (grow) up.
-                        </p>
-                        <p>
-                            They often talked about India as “our home” - even though I <input type="text" name="grammar416-10" placeholder="Responda aqui" required />
-                            (never/be) there before. To me, it <input type="text" name="grammar416-11" placeholder="Responda aqui" required /> (seem) at all strange to
-                            grow up as part of two cultures. I <input type="text" name="grammar416-12" placeholder="Responda aqui" required /> (think) that growing up in
-                            two cultures is a kind of gift, not a disadvantage. Now that I <input type="text" name="grammar416-13" placeholder="Responda aqui" required />
-                            (have) a child of my own , I want her to get in touch with her Indian roots too, so we
-                            <input type="text" name="grammar416-14" placeholder="Responda aqui" required /> (plan) a visit to India later this year. All her Indian cousins and relatives
-                            <input type="text" name="grammar416-15" placeholder="Responda aqui" required /> (look) forward to meeting her.
-                        </p>
+                        <p>1. I’ve <input type="radio" name="grammar583-1" value="1" required /> <b>bought</b> / <input type="radio" name="grammar583-1" value="2" required /> <b>have been buying</b> a new pair of shoes.</p>
+                        <p>2. <input type="radio" name="grammar583-2" value="1" required /> <b>Have you finished</b> / <input type="radio" name="grammar583-2" value="2" required /><b>Have you been finishing</b> reading that book yet?</p>
+                        <p>3. <input type="radio" name="grammar583-3" value="1" required /> <b>They’ve eaten</b> / <input type="radio" name="grammar583-3" value="2" required /> <b>have been eating</b> fruit all afternoon, ever since they came from school.</p>
+                        <p>4. <input type="radio" name="grammar583-4" value="1" required /> <b>I’ve been reading</b> / <input type="radio" name="grammar583-4" value="2" required /> <b>have read</b> this book now, so you can have it back.</p>
+                        <p>5. <input type="radio" name="grammar583-5" value="1" required /> <b>I’ve been writing</b> / <input type="radio" name="grammar583-5" value="2" required /> <b>have written</b> eight pages already.</p>
                     </p>
 
                     <div class="clear"></div>
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="64">
-                    <input type="hidden" name="atividade_id" value="416">
+                    <input type="hidden" name="unidade_id" value="16">
+                    <input type="hidden" name="atividade_id" value="583">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <div style="margin-top: 36px">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit64/pagina-1.png') }}" alt="sanduiche">
-                    </figure>
-                </div>
+
+                <h5 class="barlow">2 - Supply a suitable SIMPLE PAST or PAST PERFECT TENSE:</h5>
+                <form id="unidade16grammar584" method="post">
+                    <p>
+                        <p>They <input type="text" name="grammar584-1" placeholder="Responda aqui" required /> (go) home aft er they <input type="text" name="grammar584-2" placeholder="Responda aqui" required /> (finish) their work.</p>
+                        <p>She <input type="text" name="grammar584-3" placeholder="Responda aqui" required /> (just / go) out when I called her.</p>
+                        <p>My brother <input type="text" name="grammar584-4" placeholder="Responda aqui" required /> (eat) all the pie before we got back.</p>
+                        <p>He wondered why I <input type="text" name="grammar584-5" placeholder="Responda aqui" required /> (not / visit) him before.</p>
+                        <p>She said that she <input type="text" name="grammar584-6" placeholder="Responda aqui" required /> (already / see) the Pyramids.</p>
+                    </p>
+
+                    <div class="clear"></div>
+
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="16">
+                    <input type="hidden" name="atividade_id" value="584">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
+
+                <h5 class="barlow">3 - Supply with an appropriate FUTURE PERFECT TENSE</h5>
+                <form id="unidade16grammar585" method="post">
+                    <p>Anne <input type="text" name="grammar585-1" placeholder="Responda aqui" required /> her bike next week. <b>(to repair)</b></p>
+                    <p><input type="text" name="grammar585-2" placeholder="Responda aqui" required /> the washing by 8 o’clock. <b>(to do)</b></p>
+                    <p>She <input type="text" name="grammar585-3" placeholder="Responda aqui" required /> Paris by the end of next year. <b>(to visit)</b></p>
+                    <p>I <input type="text" name="grammar585-4" placeholder="Responda aqui" required /> this by 6 o’clock. <b>(to fi nish)</b></p>
+                    <p>Sam <input type="text" name="grammar585-5" placeholder="Responda aqui" required /> by next week. <b>(to leave)</b></p>
+
+                    <div class="clear"></div>
+
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="16">
+                    <input type="hidden" name="atividade_id" value="585">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
         </div>
 </main>
@@ -72,21 +189,57 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade64grammar416").submit(function(e) {
+    $("#unidade16grammar583").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
         var respostas = '{';
-        $('#unidade64grammar416 input[type="text"]').each(function(index) {
-            if (($('#unidade64grammar416 input[type="text"]').length - 1) == index) {
+        $('#unidade16grammar583 input[type="radio"]:checked').each(function(index) {
+            if (($('#unidade16grammar583 input[type="radio"]:checked').length - 1) == index) {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
             } else {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
             }
         });
-        if ($('#unidade64grammar416 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade64grammar416'), respostas);
+        if ($('#unidade16grammar583 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade16grammar583'), respostas);
         } else {
-            enviarAtividade($('#unidade64grammar416'), respostas);
+            enviarAtividade($('#unidade16grammar583'), respostas);
+        }
+    });
+
+    $("#unidade16grammar584").submit(function(e) {
+        e.preventDefault();
+        $(this).find('button').prop('disabled', true);
+        var respostas = '{';
+        $('#unidade16grammar584 input[type="text"]').each(function(index) {
+            if (($('#unidade16grammar584 input[type="text"]').length - 1) == index) {
+                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
+            } else {
+                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
+            }
+        });
+        if ($('#unidade16grammar584 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade16grammar584'), respostas);
+        } else {
+            enviarAtividade($('#unidade16grammar584'), respostas);
+        }
+    });
+
+    $("#unidade16grammar585").submit(function(e) {
+        e.preventDefault();
+        $(this).find('button').prop('disabled', true);
+        var respostas = '{';
+        $('#unidade16grammar585 input[type="text"]').each(function(index) {
+            if (($('#unidade16grammar585 input[type="text"]').length - 1) == index) {
+                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
+            } else {
+                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
+            }
+        });
+        if ($('#unidade16grammar585 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade16grammar585'), respostas);
+        } else {
+            enviarAtividade($('#unidade16grammar585'), respostas);
         }
     });
 
@@ -107,17 +260,18 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade64grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade64grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade16grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
+                    $('#unidade16grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade16grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                 }
-                $('#unidade64grammar' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
-                $('#unidade64grammar' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                $('#unidade16grammar' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
+                $('#unidade16grammar' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
             }
         });
     }
 
     function enviarAtividade(formId, respostas) {
-        var resposta = {
+        var atividade = {
             "_token": formId.find('input[name="_token"]').val(),
             "resposta_respostas": respostas,
             "atividade_id": formId.find('input[name="atividade_id"]').val(),
@@ -125,7 +279,7 @@
         };
         request = $.ajax({
             url: window.location.pathname + '/respostas',
-            data: resposta,
+            data: atividade,
             type: 'post',
             error: function() {
                 console.log("Erro de envio.");
