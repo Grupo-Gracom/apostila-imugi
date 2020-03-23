@@ -146,6 +146,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade table h5,
 #unidade table p{margin: 0;}
 #unidade .bordered{border: 1px solid #eee;}
+#unidade .borderedfull tr td{border: 1px solid #eee;}
 #unidade .centralizap{margin-top: 30%;}
 .versus{text-align: center; margin: 50% ; background-color: #dddddd; }
 #unidade20understanding56 form {padding-right: 26px;}
