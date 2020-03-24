@@ -20,11 +20,11 @@
             <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fi ll in the blanks with the missing words.</h5>
             <form id="unidade17listening589" method="post">
                 <p>
-                    Many companies <input type="text" name="grammar589-1" placeholder="Responda aqui" required /> for not having understood the <input type="text" name="grammar589-2" placeholder="Responda aqui" required /> 
-                    during the dot com era in the end of the 90’s and beginning of the new <input type="text" name="grammar589-3" placeholder="Responda aqui" required />. Companies like Amazon, Alibaba and many others,
-                    <input type="text" name="grammar589-4" placeholder="Responda aqui" required /> this power and became astonishing <input type="text" name="grammar589-5" placeholder="Responda aqui" required /> because of that. Many other
-                    <input type="text" name="grammar589-6" placeholder="Responda aqui" required /> just disappeared at the blink of an eye. They <input type="text" name="grammar589-7" placeholder="Responda aqui" required />, at least,
-                    have tried to understand what they were about to face with the <input type="text" name="grammar589-8" placeholder="Responda aqui" required /> of internet.
+                    Many companies <input type="text" name="listening589-1" placeholder="Responda aqui" required /> for not having understood the <input type="text" name="listening589-2" placeholder="Responda aqui" required /> 
+                    during the dot com era in the end of the 90’s and beginning of the new <input type="text" name="listening589-3" placeholder="Responda aqui" required />. Companies like Amazon, Alibaba and many others,
+                    <input type="text" name="listening589-4" placeholder="Responda aqui" required /> this power and became astonishing <input type="text" name="listening589-5" placeholder="Responda aqui" required /> because of that. Many other
+                    <input type="text" name="listening589-6" placeholder="Responda aqui" required /> just disappeared at the blink of an eye. They <input type="text" name="listening589-7" placeholder="Responda aqui" required />, at least,
+                    have tried to understand what they were about to face with the <input type="text" name="listening589-8" placeholder="Responda aqui" required /> of internet.
                 </p>
 
                 <div class="clear"></div>
