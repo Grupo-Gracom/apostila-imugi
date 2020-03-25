@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 21 | Grammar')
+@section('titulo','Unit 22 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,12 +9,12 @@
 <main>
     <!-- Conteúdo principal central -->
     <div class="dashboard">
-        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade21" data-etapa="grammar">
-            <h3 class="barlow">UNIT 21</h3>
+        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade22" data-etapa="grammar">
+            <h3 class="barlow">UNIT 22</h3>
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/Unit21/Grammar/completo.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/Unit22/Grammar/completo.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
@@ -128,7 +128,7 @@
                 <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></p>
                 <h5 class="barlow">1 - Change the following sentences from DIRECT to INDIRECT SPEECH:</h5>
                 
-                <form id="unidade21grammar666" method="post" class="metade" style="margin-top:32px">
+                <form id="unidade22grammar666" method="post" class="metade" style="margin-top:32px">
                     <p>
                         <p>
                             1. He said, “<b>I will be here at noon</b>.”
@@ -176,13 +176,13 @@
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="21">
+                    <input type="hidden" name="unidade_id" value="22">
                     <input type="hidden" name="atividade_id" value="666">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
                 <h5 class="barlow">2 - Write sentences about Jane’s trip to Paris:</h5>
-                <form id="unidade21grammar667" method="post" class="metade">
+                <form id="unidade22grammar667" method="post" class="metade">
                     <p>
                         <p>
                             1. We’re taking the nine o’clock plane.
@@ -215,13 +215,13 @@
 
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="21">
+                    <input type="hidden" name="unidade_id" value="22">
                     <input type="hidden" name="atividade_id" value="667">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 
                 <figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit21/grammar.jpg') }}" alt="casal em paris">
+					<img src="{{ asset('assets/img/masteroflanguage/unit22/grammar.jpg') }}" alt="casal em paris">
 				</figure>
             </div>
         </div>
@@ -234,39 +234,39 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade21grammar666").submit(function(e) {
+    $("#unidade22grammar666").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
         var respostas = '{';
-        $('#unidade21grammar666 input[type="text"]').each(function(index) {
-            if (($('#unidade21grammar666 input[type="text"]').length - 1) == index) {
+        $('#unidade22grammar666 input[type="text"]').each(function(index) {
+            if (($('#unidade22grammar666 input[type="text"]').length - 1) == index) {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
             } else {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
             }
         });
-        if ($('#unidade21grammar666 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade21grammar666'), respostas);
+        if ($('#unidade22grammar666 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade22grammar666'), respostas);
         } else {
-            enviarAtividade($('#unidade21grammar666'), respostas);
+            enviarAtividade($('#unidade22grammar666'), respostas);
         }
     });
 
-    $("#unidade21grammar667").submit(function(e) {
+    $("#unidade22grammar667").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
         var respostas = '{';
-        $('#unidade21grammar667 input[type="text"]').each(function(index) {
-            if (($('#unidade21grammar667 input[type="text"]').length - 1) == index) {
+        $('#unidade22grammar667 input[type="text"]').each(function(index) {
+            if (($('#unidade22grammar667 input[type="text"]').length - 1) == index) {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
             } else {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
             }
         });
-        if ($('#unidade21grammar667 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade21grammar667'), respostas);
+        if ($('#unidade22grammar667 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade22grammar667'), respostas);
         } else {
-            enviarAtividade($('#unidade21grammar667'), respostas);
+            enviarAtividade($('#unidade22grammar667'), respostas);
         }
     });
 
@@ -287,13 +287,13 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade21grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade21grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
-                    $('#unidade21grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade21grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade22grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade22grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade22grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade22grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                 }
-                $('#unidade21grammar' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
-                $('#unidade21grammar' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                $('#unidade22grammar' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
+                $('#unidade22grammar' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
             }
         });
     }

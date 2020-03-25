@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 21 | Pronunciation')
+@section('titulo','Unit 22 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,8 +9,8 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade21" data-etapa="pronunciation">
-			<h3 class="barlow">UNIT 21</h3>
+		<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade22" data-etapa="pronunciation">
+			<h3 class="barlow">UNIT 22</h3>
 			<h5 class="barlow">4 - PRONUNCIATION</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
