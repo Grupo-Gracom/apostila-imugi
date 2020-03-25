@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 22 | Listening')
+@section('titulo','Unit 23 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,25 +9,34 @@
 <main>
     <!-- Conteúdo principal central -->
     <div class="dashboard">
-        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade22" data-etapa="listening">
-            <h3 class="barlow">UNIT 22</h3>
+        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade23" data-etapa="listening">
+            <h3 class="barlow">UNIT 23</h3>
             <h5 class="barlow">5 - LISTENING</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila2/UNIT 22/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila2/UNIT 23/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the question below.</h5>
-            <form id="unidade22listening672" method="post">
-                <p>1 - What’s the importance of creati ng an Avatar?</p>
-                <textarea name="listening672-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+            <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+            <form id="unidade23listening675" method="post">
+                <p>
+                    “Think different”. Apple’s slogan <input type="text" name="listening675-1" placeholder="Responda aqui" required /> 
+                    a powerful <input type="text" name="listening675-2" placeholder="Responda aqui" required /> with it. Don’t be
+                    conventional.<input type="text" name="listening675-3" placeholder="Responda aqui" required /> to be different. In today’s world, the 
+                    <input type="text" name="listening675-4" placeholder="Responda aqui" required /> to be different is one of 
+                    <input type="text" name="listening675-5" placeholder="Responda aqui" required /> important characteristics of 
+                    <input type="text" name="listening675-6" placeholder="Responda aqui" required /> society. Internet has
+                    <input type="text" name="listening675-7" placeholder="Responda aqui" required /> this characteristic 
+                    <input type="text" name="listening675-8" placeholder="Responda aqui" required /> common people like you and me to 
+                    <input type="text" name="listening675-9" placeholder="Responda aqui" required /> and “show our true colors”. (Benett on Slogan)
+                </p>
 
                 <div class="clear"></div>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="22">
-                <input type="hidden" name="atividade_id" value="672">
+                <input type="hidden" name="unidade_id" value="23">
+                <input type="hidden" name="atividade_id" value="675">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
         </div>
@@ -42,14 +51,21 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade22listening672").submit(function(e) {
+    $("#unidade23listening675").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{"' + $('#unidade22listening672 textarea').attr("name") + '":"' + $('#unidade22listening672 textarea').val() + '"}';
-        if ($('#unidade22listening672 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade22listening672'), respostas);
+        var respostas = '{';
+        $('#unidade23listening675 input[type="text"]').each(function(index) {
+            if (($('#unidade23listening675 input[type="text"]').length - 1) == index) {
+                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
+            } else {
+                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
+            }
+        });
+        if ($('#unidade23listening675 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade23listening675'), respostas);
         } else {
-            enviarAtividade($('#unidade22listening672'), respostas);
+            enviarAtividade($('#unidade23listening675'), respostas);
         }
     });
 
@@ -69,13 +85,13 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade22listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade22listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
-                    $('#unidade22listening' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade22listening' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade23listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade23listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade23listening' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade23listening' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                 }
-                $('#unidade22listening' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
-                $('#unidade22listening' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                $('#unidade23listening' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
+                $('#unidade23listening' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
             }
         });
     }

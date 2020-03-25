@@ -106,7 +106,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade audio:hover{box-shadow: 0px 5px 8px rgba(0, 0, 0, .15);}
 #unidade form {padding-left: 16px;box-sizing: border-box;margin-bottom: 26px;}
 #unidade form input[type="text"]{width: 150px;background-color: white;outline: none;border: 0;border-bottom: 1px solid #333;text-align: center;font-size: 18px;font-family: Arial, Helvetica, sans-serif !important;color: #7dc242;}
-#unidade form p .inputMedio{width: 360px;}
+#unidade form p .inputMedio{width: 300px;}
 #unidade form p .inputpequeno{width: 220px;}
 #unidade form p .quasefull{width: calc(90% - 8px);}
 #unidade form input[type="text"]:focus{border-bottom: 1px solid #7dc242;}

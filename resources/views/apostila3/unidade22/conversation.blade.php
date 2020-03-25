@@ -17,43 +17,40 @@
 				<source src="{{ asset('assets/audio/apostila3/UNIT 22/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
             <p style="margin-top: 16px">
+                <p><b>Jake :</b> Ok guys. Let’s go on talking about our channels. It’s ti me to get back to the objective of the course.</p>
                 <p>
-                    <b>Jake :</b> Hello my dear friends. How’s it going? Lets’ start the class?
-                    </p>
-                <p>
-                    <b>John :</b> Yes teacher. What are we going to study today? The last class was very nice.
-                    When I arrived home, I checked all the sites we talked about.
+                    <b>John :</b> Yes teacher, but I loved the topics of the last classes. I can, for sure, improve my
+                    content with the sites you guys mentioned.
                 </p>
                 <p>
-                    Jake :</b> Did you like them John?
-                    </p>
-                <p>
-                    <b>John :</b> I loved them! Now, the problem is to decide what course to take first. I was
-                    talking to my brother about the platforms and he said that a colleague of his office
-                    had already taken courses on Coursera and on Udemy.
+                    <b>Jake :</b> Great. This was the idea. To provide you with more references to improve your
+                    content. Well, before we talked about the educational platf orms, Laura told us about
+                    the lady who had a Make up tricks channel and she told us that when she was about
+                    to start her channel, she prepared an avatar to guide the content delivery. Do you
+                    remember that?
                 </p>
-                <p><b>Akira :</b> Very nice. What else did he say?</p>
+                <p><b>Laura :</b> Yep teacher.</p>
                 <p>
-                    <b>John :</b> He told me that his friend works as a computer programmer and that he
-                    needed to learn how to code with Python, a different coding language, and that the
-                    regular course was extremely expensive. He said that when his friend was searching
-                    for places to take a programming course, he came across an ad on the net and
-                    decided to take the online course first. The investment was not very high, so he bet on taking it.
-                </p>
-                <p><b>Laura :</b> And did he like?</p>
-                <p>
-                    <b>John :</b> Yes, and he reported that the quality of the course was awesome. After this
-                    online course, he didn’t have to take another one.
-                    Students: Wow. Great.
+                    <b>Jake :</b> So, you guys have been working on the ideas of your channels and I’d like to
+                    know how things are.
                 </p>
                 <p>
-                    <b>Jake :</b> Sometimes, we got surprised with the quality of some products. That’s the power of the web. 
-                    Freedom to choose what’s the best for you. (To be continued)
+                    <b>Laura :</b> Well, as I told you, I’m about to finish the first month plan. I have already
+                    researched some topics based on a question that I posted on Instagram as we said
+                    before. I received some answers and I’m working on that now. My first idea was to
+                    talk about colors for blogs and sites only, and one of my followers told me that she
+                    is a fashion designer and that she would like to know some details about visagism.
+                    Because of this answer I researched about the topic and I’ll have one or two videos
+                    about it in my content delivery plan.
+                </p>
+                <p>
+                    <b>Jake :</b> Great Laura. That’s the game. Getting to know what may be relevant for your audience.
+                    (to be continued)
                 </p>
             </p>
 			<div style="margin-top: 36px">
 				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit22/conversation.jpg') }}" alt="aula">
+					<img src="{{ asset('assets/img/masteroflanguage/unit22/conversation.jpg') }}" alt="senhora selfie">
 				</figure>
 			</div>
 		</div>

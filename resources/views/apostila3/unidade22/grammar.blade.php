@@ -18,53 +18,23 @@
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - REPORTED SPEECH (1)</h5>
+                <h5 class="barlow">A - REPORTED SPEEH (2) – FOCUS ON VERB FORMS</h5>
                 <p><b>USE</b></p>
-
-                <table class="espacamento left-align borderedfull">
-                    <tr>
-                        <td rowspan="3"><h5 class="barlow">Reported Speech</h5></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Retelling a story or something you witnessed.</p>
-                            <p>You report statements, questions and commands.</p>
-                            <p>You can keep the verb form of the original sentence or change it.</p>
-                        </td>
-                    </tr>
-                </table>
-
-                <p style="margin-top:32px"><b>Reporting statements.</b></p>
-                <p>
-                    When you retell a dialogue, you can send the verb one step into the past (Backshift) or you
-                    can keep the verb form used in the original dialogue.
-                </p>
-
-                <table class="espacamento center-align borderedfull">
-                    <tr>
-                        <td>
-                            <h5 class="barlow">Maintaining the verb.</h5>
-                            <p>
-                                When the speaker retells the story on the same
-                                day it happened or when the intention is to make
-                                the story more vivid. It’s a matter of speaker’s
-                                choice.
-                            </p>
-                        </td>
-                        <td>
-                            <h5 class="barlow">Changing the main Verb (Backshift)</h5>
-                            <p> 
-                                When the speaker retells the story days later or when
-                                the speaker chooses to do so to emphasize the story
-                                happened in the past.
-                            </p>
-                        </td>
-                    </tr>
-                </table>
-
-                <p style="margin-top:32px"><b>If you opt to change, here are some backshifts you can make.</b></p>
+                <h5 style="margin-top:32px"><b>Example:</b></h5>
+                <h5 class="barlow">Direct speech</h5>
+                <p><b>John :</b> Guys, I have a meeting till late so I won’t arrive on time for the class.</p>
+                <h5 class="barlow">Reported Speech</h5>
+                <p><b>Jake :</b> Guys, what about John?</p>
+                <p><b>Students :</b> He said he had a meeting till late and he wouldn’t arrive on time for the class.</p>
                 
-                <table class="espacamento left-align borderedfull" style="margin-top:32px">
+                <h5 class="barlow" style="margin-top:32px"><b>Example 2</b></h5>
+                <h5 class="barlow">Direct Speech</h5>
+                <p><b>Akira : I can’t</b> finish it by myself. I <b>need</b> help.</p>
+                <h5 class="barlow">Reported speech</h5>
+                <p><b>Jake :</b> Guys , What do you know about Akira? Is he ok with the project?</p>
+                <p><b>Laura :</b> Jake, Akira said he <b>couldn’t</b> finish the job by himself and that he <b>needed</b> help.</p>
+
+                <table class="espacamento left-align" style="margin-top:32px">
                     <tr>
                         <td>
                             <h5 class="barlow">DIRECT SPEECH</h5>
@@ -73,10 +43,17 @@
                             <p>Present Continuous</p>
                             <p>Past Continuous</p>
                             <p>Present Perfect</p>
+                            <p>Present Perfect Continuous</p>
+                            <p>Past Perfect</p>
+                            <p>Be (present) + Going to</p>
                             <p>Will</p>
                             <p>Can</p>
                             <p>May</p>
                             <p>Must</p>
+                            <p>Might</p>
+                            <p>Should</p>
+                            <p>Could</p>
+                            <p>Would</p>
                         </td>
                         <td>
                             <h5 class="barlow">REPORTED SPEECH</h5>
@@ -84,91 +61,62 @@
                             <p>Simple past/Past Perfect</p>
                             <p>Past Continuous</p>
                             <p>Past Continuous or Past Perfect</p>
-                            <p>Continuous</p>
                             <p>Past Perfect</p>
+                            <p>Past Perfect Continuous</p>
+                            <p>Past Perfect (no change)</p>
+                            <p>Be (past) + Going to</p>
                             <p>Would</p>
                             <p>Could</p>
                             <p>Might</p>
                             <p>Had to</p>
+                            <p>No change</p>
+                            <p>No change</p>
+                            <p>No change</p>
+                            <p>No change</p>
                         </td>
                     </tr>
                 </table>
-
-                <p><b>General Structure of reported speech.</b></p>
-                
-                <table class="espacamento center-align borderedfull">
+                <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
+                <h5 class="barlow">
+                    1 - Gavin has worked for Bisco Supermarkets for thirty years. He can still remember his
+                    job interview after leaving school and he can remember the questions that the interview
+                    asked him:
+                </h5>
+                <h5 class="barlow" style="margin-top:32px"><b>Example:</b></h5>
+                <table class="espacamento left-align">
                     <tr>
-                        <td colspan="2"><h5 class="barlow">Reporting Clause (With or without a conjunction) + Reported statement</h5></td>
+                        <td><p>“Where do you live?”</p></td>
+                        <td><p><b>She asked him where he lived</b></p></td>
+                        
                     </tr>
                     <tr>
-                        <td><p>Mary, Carl said that</p></td>
-                        <td><p>He wanted to talk to you</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>Direct speech:</p></td>
-                        <td><p>Carl - I want to talk to Mary.</p></td>
+                        <td><p>“Have you worked before?”</p></td>
+                        <td><p><b>She asked him if he had worked before.</b></p></td>
                     </tr>
                 </table>
-
-                <p style="margin-top:32px"><b>Reporting Verbs.</b></p>
-                <p>When retelling a story, there are some verbs that will help. Let’s see some of them</p>
-                <p><b>Say</b></p>
-                <p>
-                    Mentions something specific – John <b>said</b> he loved the movie. (Direct Speech: <b>John:</b> I loved
-                    the movie)
-                </p>
-                <p><b>Tell</b></p>
-                <p>Narrates a story or gives commands – Jake <b>told</b> me about his trip to Asia. (Direct speech:</p>
-                <p><b>Jake</b>: I’m travelling to Japan next week.)</p>
-                <p><b>Ask</b></p>
-                <p>Report questions – Akira <b>asked</b> me if I was tired. (Direct speech: <b>Akira</b>: Are you tired?</p>
-                <p><b>Answer</b></p>
-                <p>Report answers to questions – I <b>answered</b> that I was tired. (Direct speech: <b>Laura</b>: I am tired</p>
-
-                <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></p>
-                <h5 class="barlow">1 - Change the following sentences from DIRECT to INDIRECT SPEECH:</h5>
                 
-                <form id="unidade22grammar666" method="post" class="metade" style="margin-top:32px">
+                <form id="unidade22grammar670" method="post" class="metade" style="margin-top:32px">
                     <p>
+                        <p>1. “Why do you want the job?”</p>
+                        <p>She asked him <input type="text" name="grammar670-1" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
+                        <p>2. “How did you hear about it?”</p>
+                        <p>She asked him <input type="text" name="grammar670-2" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
+                        <p>“Are you fit?”</p>
+                        <p>She asked him <input type="text" name="grammar670-3" class="inputMedio left-align" placeholder="Responda aqui" required /></p></p>
+                        <p>“Can you work on Saturdays?”</p>
+                        <p>She asked him <input type="text" name="grammar670-4" class="inputMedio left-align" placeholder="Responda aqui" required /></p></p>
+                        <p>“How will you travel to work?<input type="text" name="grammar670-1" class="full left-align" placeholder="Responda aqui" required /></p></p>
                         <p>
-                            1. He said, “<b>I will be here at noon</b>.”
-                            <p><b>He said that he would be here at noon. </b></p>
+                            3. “Have you got a bicycle?”
+                            <input type="text" name="grammar670-5" class="full left-align" placeholder="Responda aqui" required />
                         </p>
                         <p>
-                            2. Mary said, “The train will probably arrive on time.”
-                            <input type="text" name="grammar666-1" class="full left-align" placeholder="Responda aqui" required />
+                            4. “How much do you expect to earn?”
+                            <input type="text" name="grammar670-6" class="full left-align" placeholder="Responda aqui" required />
                         </p>
                         <p>
-                            3. He said, “I have to finish this report by five o’clock.”
-                            <input type="text" name="grammar666-2" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            4. The doctor said, “Mr. Smith will improve quickly.”
-                            <input type="text" name="grammar666-3" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            5. William said to me, “I am leaving in the morning.”
-                            <input type="text" name="grammar666-4" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            6. The teacher said, “Everyone has to write a composition.”
-                            <input type="text" name="grammar666-5" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            7. John said, “I saw that movie on Wednesday.”
-                            <input type="text" name="grammar666-6" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            8. Helen said, “I have read that book.”
-                            <input type="text" name="grammar666-7" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            9. Mary said to John, “I cannot go to the movie with you.”
-                            <input type="text" name="grammar666-8" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            10. John said, “I have finished studying my lesson.”
-                            <input type="text" name="grammar666-9" class="full left-align" placeholder="Responda aqui" required />
+                            5. “When can you start?”
+                            <input type="text" name="grammar670-7" class="full left-align" placeholder="Responda aqui" required />
                         </p>
                     </p>
 
@@ -177,38 +125,63 @@
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="22">
-                    <input type="hidden" name="atividade_id" value="666">
+                    <input type="hidden" name="atividade_id" value="670">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
 
-                <h5 class="barlow">2 - Write sentences about Jane’s trip to Paris:</h5>
-                <form id="unidade22grammar667" method="post" class="metade">
+                <h5 class="barlow" style="margin-top:16px">2 - What does the policeman want to know?</h5>
+                <form id="unidade22grammar671" method="post" class="metade">
                     <p>
+                        <p>1. What’s your name?</p>
+                        <p><b>The policeman wants to know what my name is.</b></p>
                         <p>
-                            1. We’re taking the nine o’clock plane.
-                            <p><b>Jane told me they were taking the nine o’clock plane.</b></p>
-                        </p>
-                        <p>2. I’ll have to get up early</p>
-                        <p>She said<input type="text" name="grammar667-1" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
-                        <p>3. I don’t really like traveling by air</p>
-                        <p>She told me<input type="text" name="grammar667-2" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
-                        <p>4. But it’s the easiest way to travel.</p>
-                        <p>But she decided<input type="text" name="grammar667-3" class="inputpequeno left-align" placeholder="Responda aqui" required /></p>
-                        <p>5. We’re going to spend a week in Paris.</p>
-                        <p>She told me<input type="text" name="grammar667-4" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
-                        <p>6. I want to go up the Eiffel Tower.</p>
-                        <p>She said<input type="text" name="grammar667-5" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
-                        <p>7. We’ve been to Paris before.</p>
+                            2. What’s your job?
+                            <input type="text" name="grammar671-1" class="full left-align" placeholder="Responda aqui" required />
+                        </p> 
                         <p>
-                            She told me <input type="text" name="grammar667-6" class="left-align" placeholder="Responda aqui" required /> a 
-                            <input type="text" name="grammar667-6" class="left-align" placeholder="Responda aqui" required />
+                            3. Where do you work?
+                            <input type="text" name="grammar671-2" class="full left-align" placeholder="Responda aqui" required />
                         </p>
-                        <p>8. But we didn’t see everything.</p>
-                        <p>But she said <input type="text" name="grammar667-7" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
-                        <p>9. I’ll send you a postcard.</p>
-                        <p>She said <input type="text" name="grammar667-8" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
-                        <p>10. But I won’t write you a letter.</p>
-                        <p>But she told me<input type="text" name="grammar667-9" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
+                        <p>
+                            4. Where do you live?
+                            <input type="text" name="grammar671-3" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            5. Where were you yesterday?
+                            <input type="text" name="grammar671-4" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            6. Why are you in London?
+                            <input type="text" name="grammar671-5" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            7. When did you come?
+                            <input type="text" name="grammar671-6" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            8. How did you come?
+                            <input type="text" name="grammar671-7" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            9. Where’s your ticket?
+                            <input type="text" name="grammar671-8" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            10. Have you ever been in London?
+                            <input type="text" name="grammar671-9" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            11. Do you know anyone in London?
+                            <input type="text" name="grammar671-10" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            12. Were you in London last month?
+                            <input type="text" name="grammar671-11" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            13. Are you telling the truth?
+                            <input type="text" name="grammar671-12" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
                     </p>
 
                     <div class="clear"></div>
@@ -216,9 +189,10 @@
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="22">
-                    <input type="hidden" name="atividade_id" value="667">
+                    <input type="hidden" name="atividade_id" value="671">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
+                
                 
                 <figure>
 					<img src="{{ asset('assets/img/masteroflanguage/unit22/grammar.jpg') }}" alt="casal em paris">
@@ -234,39 +208,39 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade22grammar666").submit(function(e) {
+    $("#unidade22grammar670").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
         var respostas = '{';
-        $('#unidade22grammar666 input[type="text"]').each(function(index) {
-            if (($('#unidade22grammar666 input[type="text"]').length - 1) == index) {
+        $('#unidade22grammar670 input[type="text"]').each(function(index) {
+            if (($('#unidade22grammar670 input[type="text"]').length - 1) == index) {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
             } else {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
             }
         });
-        if ($('#unidade22grammar666 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade22grammar666'), respostas);
+        if ($('#unidade22grammar670 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade22grammar670'), respostas);
         } else {
-            enviarAtividade($('#unidade22grammar666'), respostas);
+            enviarAtividade($('#unidade22grammar670'), respostas);
         }
     });
 
-    $("#unidade22grammar667").submit(function(e) {
+    $("#unidade22grammar671").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
         var respostas = '{';
-        $('#unidade22grammar667 input[type="text"]').each(function(index) {
-            if (($('#unidade22grammar667 input[type="text"]').length - 1) == index) {
+        $('#unidade22grammar671 input[type="text"]').each(function(index) {
+            if (($('#unidade22grammar671 input[type="text"]').length - 1) == index) {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
             } else {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
             }
         });
-        if ($('#unidade22grammar667 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade22grammar667'), respostas);
+        if ($('#unidade22grammar671 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade22grammar671'), respostas);
         } else {
-            enviarAtividade($('#unidade22grammar667'), respostas);
+            enviarAtividade($('#unidade22grammar671'), respostas);
         }
     });
 

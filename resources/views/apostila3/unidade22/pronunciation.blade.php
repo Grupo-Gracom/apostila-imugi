@@ -21,40 +21,40 @@
 			<p>Observe the pairs and practice pronouncing them.</p>
 			<table class="espacamento center-align">
 				<tr>
-					<td><h5 class="barlow">æ</h5></td>
-					<td><h5 class="barlow">eɪ</h5></td>
-					<td><h5 class="barlow">ɑ:</h5></td>
-					<td><h5 class="barlow">ɔ:</h5></td>
+					<td><h5 class="barlow">ʃ</h5></td>
+					<td><h5 class="barlow">S</h5></td>
+					<td><h5 class="barlow">S</h5></td>
+					<td><h5 class="barlow">Z</h5></td>
 				</tr>
 				<tr>
-					<td><p>hat</p></td>
-					<td><p>hate</p></td>
-					<td><p>far</p></td>
-					<td><p>four</p></td>
+					<td><p>ship</p></td>
+					<td><p>sip</p></td>
+					<td><p>sip</p></td>
+					<td><p>zip</p></td>
 				</tr>
 				<tr>
-					<td><p>mad</p></td>
-					<td><p>made</p></td>
-					<td><p>tart</p></td>
-					<td><p>taught</p></td>
+					<td><p>she</p></td>
+					<td><p>sea</p></td>
+					<td><p>sue</p></td>
+					<td><p>zoo</p></td>
 				</tr>
 				<tr>
-					<td><p>lack</p></td>
-					<td><p>lake</p></td>
-					<td><p>part</p></td>
-					<td><p>port</p></td>
+					<td><p>sure</p></td>
+					<td><p>sore</p></td>
+					<td><p>place</p></td>
+					<td><p>plays</p></td>
 				</tr>
 				<tr>
-					<td><p>back</p></td>
-					<td><p>bake</p></td>
-					<td><p>farm</p></td>
-					<td><p>form</p></td>
+					<td><p>shoot</p></td>
+					<td><p>suit</p></td>
+					<td><p>rice</p></td>
+					<td><p>rise</p></td>
 				</tr>
 				<tr>
-					<td><p>cap</p></td>
-					<td><p>cape</p></td>
-					<td><p>barn</p></td>
-					<td><p>born</p></td>
+					<td><p>shy</p></td>
+					<td><p>sigh</p></td>
+					<td><p>ice</p></td>
+					<td><p>eyes</p></td>
 				</tr>
 			</table>
 		</div>
