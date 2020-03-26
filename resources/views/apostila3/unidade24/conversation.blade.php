@@ -34,9 +34,9 @@
                     participate of a workshop with him. He’s gonna talk about video trends for Youtube
                     and Instagram. I think it’s gonna be awesome for you guys.
                 </p>
-                <p>Students :</b> Wow. That would be fantastic.</p>
+                <p><b>Students :</b> Wow. That would be fantastic.</p>
                 <p>
-                    <b>Jake :</b> Great then, I’ll send him your names and check details like date and time to</p>
+                    <b>Jake :</b> Great then, I’ll send him your names and check details like date and time to
                     inform you ok.(to be continued)
                 </p>
 			<div style="margin-top: 36px">

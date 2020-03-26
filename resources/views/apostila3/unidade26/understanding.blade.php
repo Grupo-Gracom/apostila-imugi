@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 24 | Understanding')
+@section('titulo','Unit 26 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,36 +9,36 @@
 	<main>
 		<!-- Conteúdo principal central -->
 	    <div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade24" data-etapa="understanding">
-				<h3 class="barlow">UNIT 24</h3>
+			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade26" data-etapa="understanding">
+				<h3 class="barlow">UNIT 26</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <div class="metade">
-                    <form id="unidade24understanding680" method="post">
+                    <form id="unidade26understanding684" method="post">
                         <p>
-                            1 -  What was Jake’s opinion about the projects?
-                            <input type="text" name="understanding680-1" class="full left-align" placeholder="Responda aqui" required>
+                            1 -  What did John present as a project?
+                            <input type="text" name="understanding684-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 -  Who did Jake meet?
-                            <input type="text" name="understanding680-2" class="full left-align" placeholder="Responda aqui" required>
+                            2 -  Why did he decide to invest in new equipment?
+                            <input type="text" name="understanding684-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 -  What did Jake have to say about this meeting?
-                            <input type="text" name="understanding680-3" class="full left-align" placeholder="Responda aqui" required>
+                            3 -  Who’s taking care of the new equipment?
+                            <input type="text" name="understanding684-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 -  What did Laura say when Jake commented on the invitation?
-                            <input type="text" name="understanding680-4" class="full left-align" placeholder="Responda aqui" required>
+                            4 -  Where would he get information about the new equipment?
+                            <input type="text" name="understanding684-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 -  What was the invitation all about? 
-                            <input type="text" name="understanding680-5" class="full left-align" placeholder="Responda aqui" required>
+                            5 -  What’s Jake’s advice regarding investing in new equipment? 
+                            <input type="text" name="understanding684-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="24">
-                        <input type="hidden" name="atividade_id" value="680">
+                        <input type="hidden" name="unidade_id" value="26">
+                        <input type="hidden" name="atividade_id" value="684">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -53,21 +53,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade24understanding680").submit(function(e){
+        $("#unidade26understanding684").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade24understanding680 input[type="text"]').each(function(index){
-                if(($('#unidade24understanding680 input[type="text"]').length - 1) == index){
+            $('#unidade26understanding684 input[type="text"]').each(function(index){
+                if(($('#unidade26understanding684 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade24understanding680 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade24understanding680'), respostas);
+            if($('#unidade26understanding684 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade26understanding684'), respostas);
             }else{
-                enviarAtividade($('#unidade24understanding680'), respostas);
+                enviarAtividade($('#unidade26understanding684'), respostas);
             }
         });
 
@@ -87,11 +87,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade24understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade24understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade26understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade26understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade24understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade24understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade26understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade26understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

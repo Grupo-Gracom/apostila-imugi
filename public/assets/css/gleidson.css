@@ -202,6 +202,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 
     #unidade form button{width: 100%;}
     #unidade table.bordered.direita{width: 100% !important;}
+    #unidade form.espacamento, table{width: 100%; overflow-x: auto !important;}
 
     #unidade figure.umterco{width: calc(33.333% - 11px) !important;float:left !important; }
     #unidade figure.umquarto{width: calc(25% - 8px)!important;float:left !important;}

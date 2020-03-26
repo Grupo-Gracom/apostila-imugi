@@ -26,16 +26,16 @@
 
                 <table class="espacamento center-align bordered">
                     <tr>
-                        <td><h5 class="barlow"><b>DIRECT SPEECH (Yes/No questi ons)</b></td>
-                        <td><h5 class="barlow"><b>REPORTED SPEECH (Add if)</b></td>
+                        <td><h5 class="barlow">DIRECT SPEECH (Yes/No questions)</td>
+                        <td><h5 class="barlow">REPORTED SPEECH (Add if)</td>
                     </tr>
                     <tr class="bordered">
-                        <td>
+                        <td class="left-align">
                             <p><b>Jake :</b>  Akira, do you need help with the project?</p>
                             <p><b>Laura :</b> John , can you call Akira please?</p>
                             <p><b>Akira :</b> John, did you get a laptop to use?</p>
                         </td>
-                        <td>
+                        <td class="left-align">
                             <p>Jake <b>asked</b> Akira <b>if</b> he needed any help</p>
                             <p>Laura <b>asked</b> John <b>if</b> he could call Akira.</p>
                             <p>Akira <b>asked</b> John <b>if</b> he had gott en a laptop to use.</p>
@@ -45,16 +45,16 @@
                 
                 <table class="espacamento center-align bordered" style="margin-top:32px">
                     <tr>
-                        <td><h5 class="barlow"><b>DIRECT SPEECH (Wh - questions)</b></h5></td>
-                        <td><h5 class="barlow"><b>REPORTED SPEECH (Wh – affirmative)</b></h5></td>
+                        <td><h5 class="barlow">DIRECT SPEECH (Wh - questions)</h5></td>
+                        <td><h5 class="barlow">REPORTED SPEECH (Wh – affirmative)</h5></td>
                     </tr>
                     <tr class="bordered">
-                        <td>
+                        <td class="left-align">
                             <p><b>Jake :</b> Akira, <b>what’s</b> the main problem with the project?<p>
                             <p><b>Laura :</b> John, <b>what’s</b> your new telephone number?<p>
                             <p><b>Akira :</b> John, <b>where</b> do you come from?<p>
                         </td>
-                        <td>
+                        <td class="left-align">
                             <p>Jake <b>asked</b> Akira <b>what</b> the main problem <b>was</b> with the project.</p>
                             <p>Laura <b>asked</b> John <b>what</b> his new telephone number <b>was</b>.</p>
                             <p>Akira <b>asked</b> John <b>where</b> did he come from?.</p>
@@ -63,72 +63,60 @@
                 </table>
 
                 <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
-                <h5 class="barlow">1 - Look at the Hotel Information table and write sentences as in the example:</h5>
-                <table class="espacamento center-align borderedfull">
-                    <tr>
-                        <td colspan="2"><h5 class="barlow">Hotel Information</td>
-                    </tr>
-                    <tr> 
-                        <td>
-                            <p>Breakfast</p>
-                            <p>In Pierrot’s Restaurant 7-9:30 am</p>
-                        </td>
-                        <td>
-                            <p>Rooms</p>
-                            <p>Maid Service daily</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Dinner</p>
-                            <p>In Main Restaurant 8-10 pm</p>
-                        </td>
-                        <td>
-                            <p>Hot water</p>
-                            <p>24 hours a day</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Newspapers – Telephone calls</p>
-                            <p>At the Reception Desk</p>
-                        </td>
-                        <td>
-                            <p>Hotel Cinema</p>
-                            <p>Film every night at 10 pm</p>
-                        </td>
-                    </tr>
-                </table>
-
-                <form id="unidade24grammar601" method="post" class="metade" style="margin-top:32px">
+                <h5 class="barlow">1 - Wh- questions:</h5>
+                <h5 class="barlow" style="margin-top:16px"><b>Examples</b></h5>
+                <p><b>* “What is the ti me?” he asked</b></p>
+                <p><b>He asked me <u>what the time was.</u></b></p>
+                <p style="margin-top:32px"><b>* “Where do you live?” he asked Mary.</b></p>
+                <p><b>How wanted to know <u>where Mary lived</u>.</b></p>
+                
+                <h5 class="barlow" style="margin-top:16px">Do the same:</h5>
+                
+                <form id="unidade24grammar677" method="post" class="metade" style="margin-top:32px">
                     <p>
                         <p>
-                            1. Breakfast / serve – where and when?
-                            <p><b>Breakfast is served in Pierrot’s Restaurant between 7 and 9:30 am.</b></p>
+                            1. He asked, “How long does it take you to have lunch?”
+                            <input type="text" name="grammar677-1" class="full left-align" placeholder="Responda aqui" required />
                         </p>
                         <p>
-                            2. Dinner / serve – where and when?
-                            <input type="text" name="grammar601-1" class="full left-align" placeholder="Responda aqui" required />
+                            2. He asked me, “What are you doing at the weekend?”
+                            <input type="text" name="grammar677-2" class="full left-align" placeholder="Responda aqui" required />
                         </p>
                         <p>
-                            3. Newspapers / sell – where?
-                            <input type="text" name="grammar601-2" class="full left-align" placeholder="Responda aqui" required />
+                            3. She asked, “Why are you late, Tom?”
+                            <input type="text" name="grammar677-3" class="full left-align" placeholder="Responda aqui" required />
                         </p>
                         <p>
-                            4. Telephone calls / can make – where?
-                            <input type="text" name="grammar601-3" class="full left-align" placeholder="Responda aqui" required />
+                            4. My mother asked me, “Where is your umbrella?”
+                            <input type="text" name="grammar677-4" class="full left-align" placeholder="Responda aqui" required />
                         </p>
                         <p>
-                            5. Rooms / clean – who by and how oft en?
-                            <input type="text" name="grammar601-4" class="full left-align" placeholder="Responda aqui" required />
+                            5. The secretary asked the man, “Who do you want to see, sir?”
+                            <input type="text" name="grammar677-5" class="full left-align" placeholder="Responda aqui" required />
                         </p>
                         <p>
-                            6. Hot water / supply – when?
-                            <input type="text" name="grammar601-5" class="full left-align" placeholder="Responda aqui" required />
+                            6. The students asked, “What time does the bell ring?”
+                            <input type="text" name="grammar677-6" class="full left-align" placeholder="Responda aqui" required />
                         </p>
                         <p>
-                            7. Films / show – where and when?
-                            <input type="text" name="grammar601-6" class="full left-align" placeholder="Responda aqui" required />
+                            7. He asked Tom, “What kind of films do you like watching?”
+                            <input type="text" name="grammar677-7" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            8. The teacher asked the girl, “When do you have to be home?”
+                            <input type="text" name="grammar677-8" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            9. They always asked, “Why don’t you let my cat in?”
+                            <input type="text" name="grammar677-9" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            10. The passengers asked, “When did the last train leave?”
+                            <input type="text" name="grammar677-10" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            11. He asked, “What will you do tomorrow, Jane?”
+                            <input type="text" name="grammar677-11" class="full left-align" placeholder="Responda aqui" required />
                         </p>
                     </p>
 
@@ -137,85 +125,74 @@
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="24">
-                    <input type="hidden" name="atividade_id" value="601">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-
-                <h5 class="barlow">2 - Turn from ACTIVE into PASSIVE:</h5>
-                <form id="unidade24grammar602" method="post" class="metade">
-                    <p>
-                        <p>
-                            1. The gardener has planted some trees.
-                            <p><b>Some trees have been planted by the gardener.</b></p>
-                        </p>
-                        <p>
-                            2. Doctor Brown will give you some advice.
-                            <input type="text" name="grammar602-1" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            3. A famous designer will redecorate the hotel.
-                            <input type="text" name="grammar602-2" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            4. Steven Spielberg directed “E.T.”
-                            <input type="text" name="grammar602-3" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            5. Someone has broken the crystal vase.
-                            <input type="text" name="grammar602-4" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            6. His parents have brought him up to be polite.
-                            <input type="text" name="grammar602-5" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            7. Fleming discovered penicillin.
-                            <input type="text" name="grammar602-6" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            8. They will advertise the producton television.
-                            <input type="text" name="grammar602-7" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            9. Someone is remaking that film.
-                            <input type="text" name="grammar602-8" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            10. Picasso painted that picture.
-                            <input type="text" name="grammar602-9" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                    </p>
-
-                    <div class="clear"></div>
-
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="24">
-                    <input type="hidden" name="atividade_id" value="602">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
-
-                <h5 class="barlow" style="margin-top:16px">3 - Rewrite the following passage in the PASSIVE:</h5>
-                <p>
-                    Our school is organizing a contest. The teachers will choose the best project about the
-                    environment. The students must include pictures and drawings in their projects. The
-                    students will also have to do all the writing themselves. The school will give the winner a
-                    passport for a Coursera course..
-                </p>
-                <form id="unidade24grammar603" method="post" style="margin-top:32px">
-                    <textarea name="grammar603-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-    
-                    <div class="clear"></div>
-    
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="24">
-                    <input type="hidden" name="atividade_id" value="603">
+                    <input type="hidden" name="atividade_id" value="677">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 <figure>
 					<img src="{{ asset('assets/img/masteroflanguage/unit24/grammar.jpg') }}" alt="colocação">
-				</figure>
+                </figure>
+                <div class="clear"></div>
+                <h5 class="barlow"style="margin-top:16px">2 - Yes / No questions:</h5>
+                <h5 class="barlow" style="margin-top:16px"><b>Examples</b></h5>
+                <p><b>* “Are you busy?” he asked me.</b></p>
+                <p><b>He asked me <u>IF I was busy.</u></b></p>
+                <p style="margin-top:32px"><b>* “Do you like banana?” he asked his friends.</b></p>
+                <p><b>He asked his friends <u>IF they liked banana.</u></b></p>
+
+                <h5 class="barlow">Do the same:</h5>
+
+                <form id="unidade24grammar678" method="post" class="metade">
+                    <p>
+                        <p>
+                            1. She asked, “Do you live with your family, Helen?”
+                            <input type="text" name="grammar678-1" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            2. He asked, “Can I borrow your pen, Linda?”
+                            <input type="text" name="grammar678-2" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            3. He asked me, “Does your uncle live in England?”
+                            <input type="text" name="grammar678-3" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            4. Mary asked Lucy, “Will you come to my party tomorrow?”
+                            <input type="text" name="grammar678-4" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            5. Mark asked, “Did you phone me last night, John?”
+                            <input type="text" name="grammar678-5" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            6. He asked, “Is this yours or mine, David?”
+                            <input type="text" name="grammar678-6" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            7. She always asked me, “Must you always ask me what I’m doing?”
+                            <input type="text" name="grammar678-7" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            8. The teacher asked, “Are you listening to me?”
+                            <input type="text" name="grammar678-8" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            9. Mary asked, “Do you want me to help you, Larry?”
+                            <input type="text" name="grammar678-9" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                        <p>
+                            10. The officer asked, “Are you a foreigner? Can you spell your name?”
+                            <input type="text" name="grammar678-10" class="full left-align" placeholder="Responda aqui" required />
+                        </p>
+                    </p>
+
+                    <div class="clear"></div>
+
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="24">
+                    <input type="hidden" name="atividade_id" value="678">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
         </div>
 </main>
@@ -227,50 +204,39 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade24grammar601").submit(function(e) {
+    $("#unidade24grammar677").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
         var respostas = '{';
-        $('#unidade24grammar601 input[type="text"]').each(function(index) {
-            if (($('#unidade24grammar601 input[type="text"]').length - 1) == index) {
+        $('#unidade24grammar677 input[type="text"]').each(function(index) {
+            if (($('#unidade24grammar677 input[type="text"]').length - 1) == index) {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
             } else {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
             }
         });
-        if ($('#unidade24grammar601 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade24grammar601'), respostas);
+        if ($('#unidade24grammar677 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade24grammar677'), respostas);
         } else {
-            enviarAtividade($('#unidade24grammar601'), respostas);
+            enviarAtividade($('#unidade24grammar677'), respostas);
         }
     });
 
-    $("#unidade24grammar602").submit(function(e) {
+    $("#unidade24grammar678").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
         var respostas = '{';
-        $('#unidade24grammar602 input[type="text"]').each(function(index) {
-            if (($('#unidade24grammar602 input[type="text"]').length - 1) == index) {
+        $('#unidade24grammar678 input[type="text"]').each(function(index) {
+            if (($('#unidade24grammar678 input[type="text"]').length - 1) == index) {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
             } else {
                 respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
             }
         });
-        if ($('#unidade24grammar602 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade24grammar602'), respostas);
+        if ($('#unidade24grammar678 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade24grammar678'), respostas);
         } else {
-            enviarAtividade($('#unidade24grammar602'), respostas);
-        }
-    });
-
-    $("#unidade24grammar603").submit(function(e) {
-        e.preventDefault();
-        $(this).find('button').prop('disabled', true);
-        var respostas = '{"' + $('#unidade24grammar603 textarea').attr("name") + '":"' + $('#unidade24grammar603 textarea').val() + '"}';
-        if ($('#unidade24grammar603 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade24grammar603'), respostas);
-        } else {
-            enviarAtividade($('#unidade24grammar603'), respostas);
+            enviarAtividade($('#unidade24grammar678'), respostas);
         }
     });
 

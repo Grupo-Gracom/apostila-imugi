@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 24 | Listening')
+@section('titulo','Unit 25 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,25 +9,34 @@
 <main>
     <!-- Conteúdo principal central -->
     <div class="dashboard">
-        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade24" data-etapa="listening">
-            <h3 class="barlow">UNIT 24</h3>
+        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade25" data-etapa="listening">
+            <h3 class="barlow">UNIT 25</h3>
             <h5 class="barlow">5 - LISTENING</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila2/UNIT 24/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila2/UNIT 25/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the question below.</h5>
-            <form id="unidade24listening679" method="post">
-                <p>1 - Why videos are becoming more effective on social media platforms?</p>
-                <textarea name="listening679-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+            <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+            <form id="unidade25listening683" method="post">
+                <p>
+                    Being <input type="text" name="listening683-1" placeholder="Responda aqui" required /> to 
+                    <input type="text" name="listening683-2" placeholder="Responda aqui" required /> 
+                    your business <input type="text" name="listening683-3" placeholder="Responda aqui" required /> constantly, gives you the
+                    power to <input type="text" name="listening683-4" placeholder="Responda aqui" required /> 
+                    between your plan and its <input type="text" name="listening683-5" placeholder="Responda aqui" required />. 
+                    Improvements come from the <input type="text" name="listening683-6" placeholder="Responda aqui" required /> 
+                    upon the way you are doing things and from your <input type="text" name="listening683-7" placeholder="Responda aqui" required /> 
+                    to change what is necessary. Bear in mind that the more you <input type="text" name="listening683-8" placeholder="Responda aqui" required /> about the product you
+                    <input type="text" name="listening683-9" placeholder="Responda aqui" required />, the better the solutions are gonna be.
+                </p>
 
                 <div class="clear"></div>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="24">
-                <input type="hidden" name="atividade_id" value="679">
+                <input type="hidden" name="unidade_id" value="25">
+                <input type="hidden" name="atividade_id" value="683">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
         </div>
@@ -42,14 +51,21 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade24listening679").submit(function(e) {
+    $("#unidade25listening683").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{"' + $('#unidade24listening679 textarea').attr("name") + '":"' + $('#unidade24listening679 textarea').val() + '"}';
-        if ($('#unidade24listening679 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade24listening679'), respostas);
+        var respostas = '{';
+        $('#unidade25listening683 input[type="text"]').each(function(index) {
+            if (($('#unidade25listening683 input[type="text"]').length - 1) == index) {
+                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
+            } else {
+                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
+            }
+        });
+        if ($('#unidade25listening683 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade25listening683'), respostas);
         } else {
-            enviarAtividade($('#unidade24listening679'), respostas);
+            enviarAtividade($('#unidade25listening683'), respostas);
         }
     });
 
@@ -69,13 +85,13 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade24listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade24listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
-                    $('#unidade24listening' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade24listening' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade25listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade25listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade25listening' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade25listening' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                 }
-                $('#unidade24listening' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
-                $('#unidade24listening' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                $('#unidade25listening' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
+                $('#unidade25listening' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
             }
         });
     }
