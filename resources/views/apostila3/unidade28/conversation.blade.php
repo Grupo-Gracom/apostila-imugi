@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 27 | Conversation')
+@section('titulo','Unit 28 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,50 +9,43 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade27" data-etapa="conversation">
-			<h3 class="barlow">UNIT 27</h3>
+		<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade28" data-etapa="conversation">
+			<h3 class="barlow">UNIT 28</h3>
 			<h5 class="barlow">2 - CONVERSATION</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
-				<source src="{{ asset('assets/audio/apostila3/UNIT 27/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
+				<source src="{{ asset('assets/audio/apostila3/UNIT 28/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
             <p style="margin-top: 16px">
+                <p><b>Jake :</b> Hello guys, how are you? Are ready to present your plans?</p>
+                <p><b>Students :</b> Yes teacher. We finished everything and we are excited to share our ideas.</p>
                 <p>
-                    <b>John :</b> I love this time guys. When I think that a person can become whatever he or
-                    she wants to be, I feel this freedom. It’s priceless. Last week, a friend of mine called
-                    me to ask how he could start a channel to share his ideas on sustainability. I never
-                    thought he would get attracted to internet. I just didn’t realize he had a cause which
-                    drives his actions. Internet is a great tool for him to share his ideas on the subject and
-                    reach millions of people.
+                    <b>Jake :</b> Before you start, I’d like to congratulate you for the excellent job you’ve done
+                    so far. When Gleen told me about you, I couldn’t guess how interested and dedicated
+                    you guys were. I’m sure you’re gonna present something fantastic and that you’re
+                    gonna create something really meaningful for the society. Who wants to start?
                 </p>
-                <p><b>Jake :</b> Wow! That’s awesome. And what did you say ?</p>
+                <p><b>John :</b> I can start teacher.</p>
+                <p><b>Jake :</b> Great. Go ahead. After you finish, we’ll have Laura and Akira ok.</p>
+                <p><b>Laura & Akira :</b> Great teacher.</p>
+                <p><b>John(Description) : ???</b></p>
+                <p><b>Laura(Narration) : ???</b></p>
+                <p><b>Akira(Explanation) : ???</b></p>
                 <p>
-                    <b>John :</b> I said that if I were him, I would let the world know what I believe. Then he
-                    asked me how he could do that and I shared with him everything we have talked so
-                    far, during the classes.
+                    <b>Jake :</b> Wow. Congratulations guys. You are ready to start your project. I’m really proud
+                    of you guys. You demonstrated a real sense of identity in your projects and certainly,
+                    your voice is gonna be heard around the world.
                 </p>
+                <p><b>Students :</b> Thank you teacher.</p>
                 <p>
-                    <b>Jake :</b> Hey, I have an idea. Why don’t you invite him to come for one of our classes. He
-                    could ask wherever he wants. We can share with him what we have done so far. I’m
-                    sure that after talking to you guys, he’s gonna be more confident and motivated to
-                    start.
+                    <b>Jake :</b> Well, that’s it for today guys. Please, for next class research about “Skills for the
+                    4th Industrial revolution”. We’re gonna talk about it ok. I see you in the next class ok.
                 </p>
-                <p><b>Laura :</b> What a nice idea. It’ll be a great opportunity for him.</p>
-                <p>
-                    <b>Akira :</b> You see, these are the things the new era of technology brings. The connection
-                    based on the idea of making a difference in people’s lives. That’s why I believe we are
-                    living in a very special moment.
-                </p>
-                <p>
-                    <b>Jake :</b> Fantastic guys. Congratulations for your ideas and personal development. Well,
-                    we have only 5 more classes to finish the course. Next class I’d like to have each one
-                    of you presenting the plan for your channel ok. That’s it for today. I see you in the
-                    next class ok.
-                </p> 
+                <p><b>Students :</b> See you teacher.</p>
             </p>
 			<div style="margin-top: 36px">
 				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit27/conversation.jpg') }}" alt="estudando">
+					<img src="{{ asset('assets/img/masteroflanguage/unit28/conversation.jpg') }}" alt="apresentação">
 				</figure>
 			</div>
 		</div>

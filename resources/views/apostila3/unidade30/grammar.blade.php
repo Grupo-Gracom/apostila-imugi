@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 28 | Listening')
+@section('titulo','Unit 30 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,47 +9,57 @@
 <main>
     <!-- Conteúdo principal central -->
     <div class="dashboard">
-        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade28" data-etapa="listening">
-            <h3 class="barlow">UNIT 28</h3>
-            <h5 class="barlow">5 - LISTENING</h5>
+        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade30" data-etapa="grammar">
+            <h3 class="barlow">UNIT 30</h3>
+            <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila2/UNIT 28/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/Unit30/Grammar/completo.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the question below.</h5>
-            <form id="unidade28listening696" method="post">
-                <p>What’s necessary to carry out a project until its completion?</p>
-                <textarea name="listening696-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+            <div style="margin-top: 16px">
+            <h5 class="barlow">A - CONVERSATION PRACTICE</h5>
+            <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b><h5>
+            <h5 class="barlow">
+                1 - In groups, choose one of the skills from the list below, research about it and prepare a
+                small presentation for the class. Write about the importance of developing it and how to
+                develop it.
+            </h5>
+            <p>
+                Complex problem solving, Critical thinking, Creativity, People management, Coordinating
+                with others, Emotional intelligence, Judgement and decision making, Service orientation,
+                Negotiation, Cognitive Flexibility.
+            </p>
+            <form id="unidade30grammar698" method="post" style="margin-top:32px">
+                <textarea name="grammar698-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                 <div class="clear"></div>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="28">
-                <input type="hidden" name="atividade_id" value="696">
+                <input type="hidden" name="unidade_id" value="30">
+                <input type="hidden" name="atividade_id" value="698">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
+            </div>
         </div>
-    </div>
 </main>
 <script>
     activeMenu();
-    console.log(window.location.pathname);
 
     $("form").each(function() {
         var atividade_id = $(this).find('input[name="atividade_id"]').val();
         checkAtividade(atividade_id);
     });
 
-    $("#unidade28listening696").submit(function(e) {
+    $("#unidade30grammar698").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{"' + $('#unidade28listening696 textarea').attr("name") + '":"' + $('#unidade28listening696 textarea').val() + '"}';
-        if ($('#unidade28listening696 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade28listening696'), respostas);
+        var respostas = '{"' + $('#unidade30grammar698 textarea').attr("name") + '":"' + $('#unidade30grammar698 textarea').val() + '"}';
+        if ($('#unidade30grammar698 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade30grammar698'), respostas);
         } else {
-            enviarAtividade($('#unidade28listening696'), respostas);
+            enviarAtividade($('#unidade30grammar698'), respostas);
         }
     });
 
@@ -70,19 +80,19 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade28listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade28listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
-                    $('#unidade28listening' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade28listening' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade30grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade30grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade30grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade30grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                 }
-                $('#unidade28listening' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
-                $('#unidade28listening' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                $('#unidade30grammar' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
+                $('#unidade30grammar' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
             }
         });
     }
 
     function enviarAtividade(formId, respostas) {
-        var resposta = {
+        var atividade = {
             "_token": formId.find('input[name="_token"]').val(),
             "resposta_respostas": respostas,
             "atividade_id": formId.find('input[name="atividade_id"]').val(),
@@ -90,7 +100,7 @@
         };
         request = $.ajax({
             url: window.location.pathname + '/respostas',
-            data: resposta,
+            data: atividade,
             type: 'post',
             error: function() {
                 console.log("Erro de envio.");

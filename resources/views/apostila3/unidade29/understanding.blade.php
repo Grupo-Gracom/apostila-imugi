@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 28 | Understanding')
+@section('titulo','Unit 29 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,36 +9,36 @@
 	<main>
 		<!-- Conteúdo principal central -->
 	    <div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade28" data-etapa="understanding">
-				<h3 class="barlow">UNIT 28</h3>
+			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade29" data-etapa="understanding">
+				<h3 class="barlow">UNIT 29</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <div class="metade">
-                    <form id="unidade28understanding697" method="post">
+                    <form id="unidade29understanding700" method="post">
                         <p>
-                            1 -  What’ the objective of today’s class?
-                            <input type="text" name="understanding697-1" class="full left-align" placeholder="Responda aqui" required>
+                            1 -  Explain the 1st , 2nd, and 3rd industrial revolutions.
+                            <input type="text" name="understanding700-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 -  What’s the student’s mood regarding this specific class?
-                            <input type="text" name="understanding697-2" class="full left-align" placeholder="Responda aqui" required>
+                            2 -  What is the 4th revolution all about?
+                            <input type="text" name="understanding700-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 -  How do Jake feel about the student’s
-                            <input type="text" name="understanding697-3" class="full left-align" placeholder="Responda aqui" required>
+                            3 -  What is the specialists’ view regarding the human being?
+                            <input type="text" name="understanding700-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 -  What’s Jake’s conclusion after the presentations?
-                            <input type="text" name="understanding697-4" class="full left-align" placeholder="Responda aqui" required>
+                            4 -  What are the skills necessary to cope with this new reality
+                            <input type="text" name="understanding700-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 -  What do you think the “4th revolution” is? Try to explain with your own words  
-                            <input type="text" name="understanding697-5" class="full left-align" placeholder="Responda aqui" required>
+                            5 -  What’s the most important skill to be developed according to the article.  
+                            <input type="text" name="understanding700-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="28">
-                        <input type="hidden" name="atividade_id" value="697">
+                        <input type="hidden" name="unidade_id" value="29">
+                        <input type="hidden" name="atividade_id" value="700">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -53,21 +53,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade28understanding697").submit(function(e){
+        $("#unidade29understanding700").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade28understanding697 input[type="text"]').each(function(index){
-                if(($('#unidade28understanding697 input[type="text"]').length - 1) == index){
+            $('#unidade29understanding700 input[type="text"]').each(function(index){
+                if(($('#unidade29understanding700 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade28understanding697 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade28understanding697'), respostas);
+            if($('#unidade29understanding700 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade29understanding700'), respostas);
             }else{
-                enviarAtividade($('#unidade28understanding697'), respostas);
+                enviarAtividade($('#unidade29understanding700'), respostas);
             }
         });
 
@@ -87,11 +87,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade28understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade28understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade29understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade29understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade28understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade28understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade29understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade29understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

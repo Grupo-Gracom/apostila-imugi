@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 27 | Grammar')
+@section('titulo','Unit 28 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,96 +9,123 @@
 <main>
     <!-- Conteúdo principal central -->
     <div class="dashboard">
-        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade27" data-etapa="grammar">
-            <h3 class="barlow">UNIT 27</h3>
+        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade28" data-etapa="grammar">
+            <h3 class="barlow">UNIT 28</h3>
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/Unit27/Grammar/completo.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/Unit28/Grammar/completo.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - ARGUMENTATION (2) – Advice-giving strategies.</h5>
+                <h5 class="barlow">A - HOW TO DESCRIBE, EXPLAIN, DEFEND AND ANALYZE IDEAS. DEFINING BASIC CONCEPTS.</h5>
 
                 <table class="espacamento left-align borderedfull">
                     <tr>
-                        <td rowspan="4"><h5 class="barlow">Advice – giving Strategies.</h5></td>
+                        <td rowspan="6"><h5 class="barlow upper">Idea</h5></td>
                     </tr>
                     <tr>
-                        <td><p>Using Commands</p></td>
+                        <td><p>(a)Description</p></td>
+                        <td><p>When you describe, you detail what someone or something is like.</p></td>
                     </tr>
                     <tr>
-                        <td><p>Suggestions</p></td>
+                        <td><p>(b)Explanation</p></td>
+                        <td>
+                            <p>
+                                An explanation is a way to describe how to do something or how something
+                                happens. It should present steps in order
+                            </p>
+                        </td>
                     </tr>
                     <tr>
-                        <td><p>Hypothesis</p></td>
+                        <td><p>(c)Definition</p></td>
+                        <td>
+                            <p>
+                                It’s an explanation, phrase, or sentence that says the meaning of a word, a
+                                phrase or idea.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>(d)Narration</p></td>
+                        <td><p>It’s a sequence of events that tells a story and describes what happened.</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>(e)Argumentation</p></td>
+                        <td>
+                            <p>
+                                It’s a way of forming reasons , justifying beliefs, drawing conclusions, and
+                                applying them to a case is discussion with the aim of influencing others.
+                            </p>
+                        </td>
                     </tr>
                 </table>
 
-                <p><b>Situation:</b> A friend calls you interested in starting a Channel on Youtube.</p>
-                <p>
-                    <b>Giving advice using imperatives:</b> The use of imperatives is a common resource. it’s
-                    important to mind your tone of voice when using it.
-                </p>
-                <h5 class="barlow" style="margin-top:16px"><b>Example:</b></h5> 
-                <p>
-                    <b>Decide</b> what your objective is. After that, <b>think about</b> the content you want to
-                    share. If possible, <b>have</b> someone to help you with the posting schedule.
-                    Giving advice by using suggestions:
-                </p>
                 <h5 class="barlow" style="margin-top:16px"><b>Example:</b></h5>
                 <p>
-                    <b>Why don’t you</b> start deciding what your objective is.
-                    <b>Don’t you think</b> it could be a nice idea to have someone to help you with
-                    the posting schedule?
+                    a) <b>Description:</b> The structure of the company is very good. There is plenty of space in the
+                    workstation and lots of meetings rooms.
                 </p>
-                <p><b>Giving advice by raising hypothesis:</b></p>
-                <h5 class="barlow" style="margin-top:16px"><b>Example:</b></h5> 
                 <p>
-                    <b>If I were</b> you, <b>I would start</b> by deciding what my objective is.
-                    After that, <b>I would get</b> someone to help me with the posting schedule <b>if I could.</b>
+                    b) <b>Explanation:</b> In order to improve your engagement with your public you need to follow
+                    some important step. I think that the most important step is to get to know what your
+                    audience wants to know.
                 </p>
+                <p>
+                    c) <b>Definition:</b> It’s difficult to define what success is nowadays. For some people, it is to have
+                    as many followers as they can. For others, it’s to be able to monetize the content you
+                    spread on the net.
+                </p>
+                <p>
+                    d) <b>Narration:</b> When I started my first Channel, I didn’t know anything about social media.
+                    A friend of mine introduced me this new marketing era idea and after some months, I
+                    decided to invest seriously on that.
+                </p>
+                <p>
+                    e) <b>Argumentation:</b> I don’t think Facebook is obsolete. People have said that Instagram is
+                    more effective than Facebook, but it all depends on the public. Older people feel more
+                    comfortable using Face while Young people, prefer to use Instagram and some others.
+                </p>
+
 
                 <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
-                <h5 class="barlow">
-                    1 - In groups, create a 3 to 5-line story about the problems from the list. Be prepared to
-                    come up with advices to solve each problem.
-                </h5>
-
-                <p>- You won’t have internet for one month.</p>
-                <p>- Your boss is being very rude with your team at work.</p>
-                <p>- You need to have your laptop repaired during 3 days and you have a project to finish.</p>
-                <p>- Your cell phone was stolen and you lost all your contacts</p>
-
-
-                <form id="unidade27grammar689" method="post" style="margin-top:32px">
-                    <textarea name="grammar689-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+                <h5 class="barlow">1- In groups, write the presentations of Laura, Akira and John. Get ready to present the project to the class.</h5>
+                <p><b>John(Description): ???</b></p>
+                <form id="unidade28grammar693" method="post" style="margin-top:32px">
+                    <textarea name="grammar693-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
     
                     <div class="clear"></div>
     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="27">
-                    <input type="hidden" name="atividade_id" value="689">
+                    <input type="hidden" name="unidade_id" value="28">
+                    <input type="hidden" name="atividade_id" value="693">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <h5 class="barlow" style="margin-top:16px">2 - Write 5 possible advices to solve the problems.</h5>
-                <form id="unidade27grammar690" method="post" style="margin-top:32px">
-                    <textarea name="grammar690-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+                <p><b>Laura(Narration):???</b></p>
+                <form id="unidade28grammar694" method="post" style="margin-top:32px">
+                    <textarea name="grammar694-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
     
                     <div class="clear"></div>
     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="27">
-                    <input type="hidden" name="atividade_id" value="690">
+                    <input type="hidden" name="unidade_id" value="28">
+                    <input type="hidden" name="atividade_id" value="694">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                
-                <figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit27/grammar.png') }}" alt="almoço em família">
-                </figure>
-                <div class="clear"></div>
+                <p><b>Akira(Explanation):???</b></p>
+                <form id="unidade28grammar695" method="post" style="margin-top:32px">
+                    <textarea name="grammar695-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+    
+                    <div class="clear"></div>
+    
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="hidden" name="resposta_id" value="0">
+                    <input type="hidden" name="unidade_id" value="28">
+                    <input type="hidden" name="atividade_id" value="695">
+                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
+                </form>
             </div>
         </div>
 </main>
@@ -110,25 +137,36 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade27grammar689").submit(function(e) {
+    $("#unidade28grammar693").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{"' + $('#unidade27grammar689 textarea').attr("name") + '":"' + $('#unidade27grammar689 textarea').val() + '"}';
-        if ($('#unidade27grammar689 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade27grammar689'), respostas);
+        var respostas = '{"' + $('#unidade28grammar693 textarea').attr("name") + '":"' + $('#unidade28grammar693 textarea').val() + '"}';
+        if ($('#unidade28grammar693 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade28grammar693'), respostas);
         } else {
-            enviarAtividade($('#unidade27grammar689'), respostas);
+            enviarAtividade($('#unidade28grammar693'), respostas);
         }
     });
 
-    $("#unidade27grammar690").submit(function(e) {
+    $("#unidade28grammar694").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{"' + $('#unidade27grammar690 textarea').attr("name") + '":"' + $('#unidade27grammar690 textarea').val() + '"}';
-        if ($('#unidade27grammar690 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade27grammar690'), respostas);
+        var respostas = '{"' + $('#unidade28grammar694 textarea').attr("name") + '":"' + $('#unidade28grammar694 textarea').val() + '"}';
+        if ($('#unidade28grammar694 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade28grammar694'), respostas);
         } else {
-            enviarAtividade($('#unidade27grammar690'), respostas);
+            enviarAtividade($('#unidade28grammar694'), respostas);
+        }
+    });
+
+    $("#unidade28grammar695").submit(function(e) {
+        e.preventDefault();
+        $(this).find('button').prop('disabled', true);
+        var respostas = '{"' + $('#unidade28grammar695 textarea').attr("name") + '":"' + $('#unidade28grammar695 textarea').val() + '"}';
+        if ($('#unidade28grammar695 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade28grammar695'), respostas);
+        } else {
+            enviarAtividade($('#unidade28grammar695'), respostas);
         }
     });
 
@@ -149,13 +187,13 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade27grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade27grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
-                    $('#unidade27grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade27grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade28grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade28grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade28grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade28grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                 }
-                $('#unidade27grammar' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
-                $('#unidade27grammar' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                $('#unidade28grammar' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
+                $('#unidade28grammar' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
             }
         });
     }
