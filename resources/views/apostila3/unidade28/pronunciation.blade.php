@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 26 | Pronunciation')
+@section('titulo','Unit 27 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,40 +9,40 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade26" data-etapa="pronunciation">
-			<h3 class="barlow">UNIT 26</h3>
+		<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade27" data-etapa="pronunciation">
+			<h3 class="barlow">UNIT 27</h3>
 			<h5 class="barlow">4 - PRONUNCIATION</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 64/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 			</audio>
 			<div class="clear"></div>
-			<h5 class="barlow" style="margin-top:16px">A - Minimal pairs 08</h5>
+			<h5 class="barlow" style="margin-top:16px">A - Minimal pairs 09</h5>
 			<p>Observe the pairs and practice pronouncing them.</p>
 			<table class="espacamento center-align">
 				<tr>
-					<td><h5 class="barlow">s</h5></td>
-					<td><h5 class="barlow">θ</h5></td>
+					<td><h5 class="barlow">r</h5></td>
+					<td><h5 class="barlow">l</h5></td>
 				</tr>
 				<tr>
-					<td><p>sin</p></td>
-					<td><p>thin</p></td>
+					<td><p>fry</p></td>
+					<td><p>fly</p></td>
 				</tr>
 				<tr>
-					<td><p>sum</p></td>
-					<td><p>thumb</p></td>
+					<td><p>right</p></td>
+					<td><p>light</p></td>
 				</tr>
 				<tr>
-					<td><p>sank</p></td>
-					<td><p>thank</p></td>
+					<td><p>grammar</p></td>
+					<td><p>glamour</p></td>
 				</tr>
 				<tr>
-					<td><p>sink</p></td>
-					<td><p>think</p></td>
+					<td><p>wrong</p></td>
+					<td><p>long</p></td>
 				</tr>
 				<tr>
-					<td><p>saw</p></td>
-					<td><p>thaw</p></td>
+					<td><p>wrist</p></td>
+					<td><p>List</p></td>
 				</tr>
 			</table>
 		</div>

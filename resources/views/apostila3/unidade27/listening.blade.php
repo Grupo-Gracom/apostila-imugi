@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 26 | Listening')
+@section('titulo','Unit 27 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,25 +9,38 @@
 <main>
     <!-- Conteúdo principal central -->
     <div class="dashboard">
-        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade26" data-etapa="listening">
-            <h3 class="barlow">UNIT 26</h3>
+        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade27" data-etapa="listening">
+            <h3 class="barlow">UNIT 27</h3>
             <h5 class="barlow">5 - LISTENING</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila2/UNIT 26/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila2/UNIT 27/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the questions below.</h5>
-            <form id="unidade26listening687" method="post">
-                <p>1 - “Information is Power” . What’s the idea the passage brings about this topic? </p>
-                <textarea name="listening687-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+            <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+            <form id="unidade27listening691" method="post">
+                <p>
+                    People are <input type="text" name="listening691-1" placeholder="Responda aqui" required /> much more 
+                    Being <input type="text" name="listening691-2" placeholder="Responda aqui" required /> to  after the 
+                    Being <input type="text" name="listening691-3" placeholder="Responda aqui" required /> to  of social media. It’s very
+                    common to see people from different Being <input type="text" name="listening691-4" placeholder="Responda aqui" required /> 
+                    to  sharing ideas or just being friends. In the past, our relationships were 
+                    Being <input type="text" name="listening691-5" placeholder="Responda aqui" required /> to  to geographic 
+                    Being <input type="text" name="listening691-6" placeholder="Responda aqui" required /> to . Although we may
+                    have friends who live far from us, the 
+                    Being <input type="text" name="listening691-7" placeholder="Responda aqui" required /> to  today is about the superficiality of our
+                    relationships. Are we 
+                    Being <input type="text" name="listening691-8" placeholder="Responda aqui" required /> to  able to 
+                    Being <input type="text" name="listening691-9" placeholder="Responda aqui" required /> to  solid relationships in the 
+                    Being <input type="text" name="listening691-10" placeholder="Responda aqui" required /> to  era?
+                </p>
 
                 <div class="clear"></div>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="26">
-                <input type="hidden" name="atividade_id" value="687">
+                <input type="hidden" name="unidade_id" value="27">
+                <input type="hidden" name="atividade_id" value="691">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
         </div>
@@ -42,14 +55,21 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade26listening687").submit(function(e) {
+    $("#unidade27listening691").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{"' + $('#unidade26listening687 textarea').attr("name") + '":"' + $('#unidade26listening687 textarea').val() + '"}';
-        if ($('#unidade26listening687 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade26listening687'), respostas);
+        var respostas = '{';
+        $('#unidade27listening691 input[type="text"]').each(function(index) {
+            if (($('#unidade27listening691 input[type="text"]').length - 1) == index) {
+                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
+            } else {
+                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
+            }
+        });
+        if ($('#unidade27listening691 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade27listening691'), respostas);
         } else {
-            enviarAtividade($('#unidade26listening687'), respostas);
+            enviarAtividade($('#unidade27listening691'), respostas);
         }
     });
 
@@ -69,13 +89,11 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade26listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade26listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
-                    $('#unidade26listening' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade26listening' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade27listening' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade27listening' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                 }
-                $('#unidade26listening' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
-                $('#unidade26listening' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                $('#unidade27listening' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
+                $('#unidade27listening' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
             }
         });
     }

@@ -17,37 +17,50 @@
 				<source src="{{ asset('assets/audio/apostila3/UNIT 26/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
             <p style="margin-top: 16px">
+                <p><b>Jake :</b> Hey you guys, how’s it going? Are you ready for today’s class?</p>
+                <p><b>Students :</b> For sure teacher, We’re always ready.</p>
                 <p>
-                    <b>Jake :</b> Well, let’s go on. John tell us about your idea. What have you learned and
-                    implemented so far in your channel project.
+                    <b>Jake :</b> Great guys, so let’s think about an interesting topic. We started our course
+                    talking about changes in the way people and companies promote their personal and
+                    professional ideas, products and etc. Along the course, we saw a lot of techniques to
+                    help us deliver meaningful content through our channels, sites, blogs and etc. Based
+                    on all these elements we have considered so far, do you guys believe we can make a
+                    difference in the society? Do you really believe we have more power nowadays than
+                    our parents had before?
+                </p>
+                <p><b>Students :</b> Gee, what a question! I mean, questions!</p>
+                <p>
+                    <b>Laura :</b> Teacher, I think that the evolution of technology, social media and lots of other
+                    things like psychology, neuroscience have soundly affected the way we see ourselves.
+                    As I mentioned before, I don’t feel limited as probably my parents or grandparents
+                    felt in the past. The feeling of being limitless certainly enables us to have many
+                    different experiences and these experiences lead us to be who we are today. Much
+                    more aware of our place and importance in the society.
                 </p>
                 <p>
-                    <b>John :</b> As you guys remember, I have a channel but I was posting random videos as
-                    well. After we talked and I understood the techniques and concepts, It was much
-                    easier to rethink the channel and prepare a better content delivery plan. I decided
-                    to invest some money on some nice equipment to produce better videos as well. My
-                    girlfriend is helping me with that. Two weeks ago she called the sales person and got
-                    some information about the equipment. The sales man informed us that a complete
-                    catalog with all the equipment would arrive in the following week . So, since last week
-                    we have analyzed the equipment we want to buy.
+                    <b>John :</b> I totally agree with Laura. We could mention many good things this evolution,
+                    this new way of seeing things, brought to society. Laura mentioned the freedom to
+                    choose what we want to consume and I believe this freedom enables us to be aligned
+                    with our inner selves. In the past we were educated to follow outer ideas and being
+                    against them or having different ideas, was not welcome.
                 </p>
                 <p>
-                    <b>Jake :</b> Great John. Just have in mind that you don’t need very expensive stuff to start.
-                    A good camera, or good cell phone can help you with the videos.
+                    <b>Akira :</b> I think we have some negative aspects as well. Relationships may be more
+                    superficial today. You may have tons of followers on a social media platform but no
+                    real friend to share important things. Because of that we need to develop skills that
+                    were not that relevant in the past. For example, the capacity to differentiate real from
+                    virtual friends.
                 </p>
+                <p><b>Jake :</b> Great guys. Based on all these comments, do you believe we live in a better moment?</p>
                 <p>
-                    <b>Laura :</b> Very nice John. I’m anxious to see our final channel with the elements we
-                    have discussed so far.
+                    <b>Laura :</b> I think so. Freedom is the key to impact other people’s lives and since we are
+                    talking about being meaningful, I can’t be true and meaningful if I’m not free to say
+                    what I want. (to be continued)
                 </p>
-                <p>
-                    <b>Jake :</b> Cool. The result is gonna be awesome. Well, that’s it for today ok. I’ll see you in
-                    the next class.
-                </p>
-                <p><b>Students :</b> See you Jake.</p>
             </p>
 			<div style="margin-top: 36px">
 				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit26/conversation.jpg') }}" alt="estudando">
+					<img src="{{ asset('assets/img/masteroflanguage/unit26/conversation.png') }}" alt="eletrônicos">
 				</figure>
 			</div>
 		</div>

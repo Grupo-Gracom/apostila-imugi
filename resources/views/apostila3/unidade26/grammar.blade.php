@@ -18,171 +18,91 @@
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - REPORTED SPEECH (5) – Focus on time and pronouns reference.</h5>
+                <h5 class="barlow">A - ARGUMENTATIVE STRATEGIES (1)</h5>
                 <p><b>Changing Pronouns</b></p>
 
-                <table class="espacamento center-align borderedfull">
+                <table class="espacamento left-align borderedfull">
                     <tr>
-                        <td><h5 class="barlow">DIRECT SPEECH</td>
-                        <td><h5 class="barlow">REPORTED SPEECH</td>
+                        <td rowspan="5"><h5 class="barlow">Argumentation</h5></td>
                     </tr>
                     <tr>
-                        <td><p><b>John :</b> Laura, <b>I’ll</b> call Akira as soon as <b>I can</b>.</p></td>
-                        <td><p><b>Laura:</b> Jake, John told me <b>he would call</b> Akira as soon as <b>he could</b></p></td>
+                        <td><p>Based in research, analysis and critical view on the topic.</p></td>
                     </tr>
                     <tr>
-                        <td><p><b>Laura : I finished</b> the report. <b>We can send</b> it</p></td>
-                        <td><p><b>John:</b> Akira, Laura told me <b>she finished</b> the report and that <b>you could send</b> it.</p></td>
+                        <td><p>Not only exposes the topic but also the writer’s point of view</p></td>
                     </tr>
                     <tr>
-                        <td><p><b>Akira :</b> Jake <b>is gonna be</b> late for the class today.</p></td>
-                        <td><p><b>Akira:</b> Guys, Jake said that <b>he was gonna be</b> late for the class today</p></td>
-                    </tr>
-                </table>
-
-                <p style="margin-top:32px"><b>Changing time expressions</b></p>
-
-                <table class="espacamento center-align borderedfull" style="margin-top:32px">
-                    <tr>
-                        <td><h5 class="barlow">DIRECT SPEECH</h5></td>
-                        <td><h5 class="barlow">REPORTED SPEECH</h5></td>
+                        <td><p>The Writer or speaker defends the point of view using data as support</p></td>
                     </tr>
                     <tr>
-                        <td><p>(Today in the morning)</p><p><b>Laura:</b> Akira, <b>Jake is</b> gonna have a meeting <b>tonight.</b><p></td>
-                        <td>
-                            <p>(Today in the afternoon)</p> 
-                            <p><b>John:</b> Hey guys, what about Jake. Where is he?<p>
-                            <p><b>Akira:</b> Laura told me that <b>he was</b> gonna have a meeting <b>tonight</b></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><p>(Yesterday)</p><p><b>John:</b> Laura, I’ll get a laptop <b>tonight.</b><p></td>
-                        <td>
-                            <p>(Today)</p><p><b>Akira:</b> Laura, Did John get the laptop?</p>
-                            <p><b>Laura:</b> I think so, he told me <b>he would get one last night.</b></p>
-                        </td>
-                    </tr>  
-                    <tr>  
-                        <td><p>(Aug 2nd)</p><p><b>Jake:</b> Laura. <b>I have</b> a very important meeting <b>tonight.</b><p></td>
-                        <td>
-                            <p>(Aug 9th)</p> 
-                                <p>
-                                    <b>John:</b> Hey guys, What about Jake? I Haven’t seen him lately.
-                                </p>
-                                <p>
-                                    <b>Laura:</b> I think he’s ok. He said that <b>he had</b> a very important meeting <b>last week.</b>
-                                </p>
-                            </p>
-                        </td>
+                        <td><p>Usually Written in the third person.</p></td>
                     </tr>
                 </table>
 
+                <p style="margin-top:32px"><b>Argumentation Essay in Spoken Language</b></p>
+
+                <div class="lista-vertical bordaVerde">
+                    <li><p>• The conversation must be complete: Beginning, middle and end.</p></li>
+                    <li><p>• The conversation only ends once the arguments is based on evidence.</p></li>
+                    <li>
+                        <p>
+                            • If the strategies and steps aren’t followed, probably there will be questions to
+                            gather extra information and then the audience will reach a conclusion.
+                        </p>
+                    </li>
+                </div>
+
+                <h5 class="barlow" style="margin-top:32px"><b>Example of technique to expose data and support opinion convincingly.</b></h5>
+                <p><b>Analyzing Pros and Cons.</b></p>  
+
+                <p>
+                    Taking into consideration positive and negative aspects helps make a reasonable
+                    analysis in your speech or text. They will also help you reach a conclusion, so you can
+                    structure your text like this:
+                </p>
+                <p style="margin-top:16px">Paragraph 1 – Introduction</p>
+                <p>Paragraph 2 – Positive aspects</p>
+                <p>Paragraph 3 – negative aspects</p>
+                <p>Paragraph 4 – Evaluation of both positive and negative aspects.</p>
+                <p>Paragraph 5 – Conclusion </p>
+
                 <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
-                <h5 class="barlow">1 - Turn the following dialogue into REPORTED SPEECH:</h5>
-                <form id="unidade26grammar681" method="post" class="espacamento" style="margin-top:32px">
-                    <table>
-                        <tr>
-                            <td><p><b>Sally :</b> Have you applied for the job?</p></td>
-                            <td>
-                                <p>
-                                    <b>Sally asked Diane if she had applied for the
-                                    job Diane told her</b> <input type="text" name="grammar681-1" class="inputMedio left-align" placeholder="Responda aqui" required />
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><p><b>Diane :</b> Yes, I had an interview yesterday.</p></td>
-                            <td><p><input type="text" name="grammar681-2" class="full left-align" placeholder="Responda aqui" required /></p></td>
-                        </tr>
-                        <tr>
-                            <td><p><b>Sally :</b> How did it go?</p></td>
-                            <td><p><input type="text" name="grammar681-3" class="full left-align" placeholder="Responda aqui" required /></p></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    <b>Diane :</b> Fine, but I’m wondering if I want
-                                    the job because I will have to move
-                                    to Manchester next month
-                                </p>
-                            </td>
-                            <td><p><input type="text" name="grammar681-4" class="full left-align" placeholder="Responda aqui" required /></p></td>
-                        </tr>
-                        <tr>
-                            <td><p><b>Sally :</b> What will you do then?</p></td>
-                            <td><p><input type="text" name="grammar681-5" class="full left-align" placeholder="Responda aqui" required /></p></td>
-                        </tr>
-                        <tr>
-                            <td><p><b>Diane :</b> If they offer me the job, I can’t accept it.</p></td>
-                            <td><p><input type="text" name="grammar681-6" class="full left-align" placeholder="Responda aqui" required /></p></td>
-                        </tr>
-                    </table>
-
+                <h5 class="barlow">
+                    1 - Research about the rise of mobile technology and its use by children and teenagers.
+                    Prepare a presentation about the pros and cons of extended exposure to internet
+                    content. In groups, write a 5 to 10- line text following the structure presented in the
+                    class.
+                </h5>
+                <form id="unidade26grammar685" method="post" style="margin-top:32px">
+                    <textarea name="grammar685-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+    
                     <div class="clear"></div>
-
+    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="26">
-                    <input type="hidden" name="atividade_id" value="681">
+                    <input type="hidden" name="atividade_id" value="685">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                
-                <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
-                <h5 class="barlow" style="margin-top:16px">2 - Write what the family said at the dinner table:</h5>
-                
-                
-                <form id="unidade26grammar682" method="post" class="metade" style="margin-top:32px">
-                    <p>
-                        <p>1. Mother: “Does anyone want some more potatoes?”</p>
-                        <p><b>Mother asked if anyone wanted some more potatoes.</b></p>
-                        <p>
-                            2. Father: “Pass me the wine, Beth.”
-                            <input type="text" name="grammar682-1" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            3. Beth: “The chicken is very nice today.”
-                            <input type="text" name="grammar682-2" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            4. Grandfather: “I’m going to start my diet next week.”
-                            <input type="text" name="grammar682-3" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            5. Grandmother: “Don’t eat with your mouth open, Sam!”
-                            <input type="text" name="grammar682-4" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            6. Tim: “This is the best dinner I’ve had!”
-                            <input type="text" name="grammar682-5" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            7. Jean: “Is there any more salad, Mum?”
-                            <input type="text" name="grammar682-6" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            8. Sam: “I’m very hungry because I only had a sandwich for lunch today.”
-                            <input type="text" name="grammar682-7" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            9. Helen: “What are we having for dessert, Mum?”
-                            <input type="text" name="grammar682-8" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                        <p>
-                            10. Bob: “I don’t want anything else to eat.”
-                            <input type="text" name="grammar682-9" class="full left-align" placeholder="Responda aqui" required />
-                        </p>
-                    </p>
-
+                <h5 class="barlow" style="margin-top:16px">
+                    2 - Debate about the use of cell phones. Your teacher will group you in two teams. One will
+                    be in favor and the other will be against the use of cell phones by children and teens.
+                    Be ready to support your point of view.
+                </h5>
+                <form id="unidade26grammar686" method="post" style="margin-top:32px">
+                    <textarea name="grammar686-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+    
                     <div class="clear"></div>
-
+    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="26">
-                    <input type="hidden" name="atividade_id" value="682">
+                    <input type="hidden" name="atividade_id" value="686">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
+                
                 <figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit26/grammar.jpg') }}" alt="almoço em família">
+					<img src="{{ asset('assets/img/masteroflanguage/unit26/grammar.png') }}" alt="almoço em família">
                 </figure>
                 <div class="clear"></div>
             </div>
@@ -196,39 +116,25 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade26grammar681").submit(function(e) {
+    $("#unidade26grammar685").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{';
-        $('#unidade26grammar681 input[type="text"]').each(function(index) {
-            if (($('#unidade26grammar681 input[type="text"]').length - 1) == index) {
-                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
-            } else {
-                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
-            }
-        });
-        if ($('#unidade26grammar681 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade26grammar681'), respostas);
+        var respostas = '{"' + $('#unidade26grammar685 textarea').attr("name") + '":"' + $('#unidade26grammar685 textarea').val() + '"}';
+        if ($('#unidade26grammar685 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade26grammar685'), respostas);
         } else {
-            enviarAtividade($('#unidade26grammar681'), respostas);
+            enviarAtividade($('#unidade26grammar685'), respostas);
         }
     });
 
-    $("#unidade26grammar682").submit(function(e) {
+    $("#unidade26grammar686").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{';
-        $('#unidade26grammar682 input[type="text"]').each(function(index) {
-            if (($('#unidade26grammar682 input[type="text"]').length - 1) == index) {
-                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
-            } else {
-                respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
-            }
-        });
-        if ($('#unidade26grammar682 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade26grammar682'), respostas);
+        var respostas = '{"' + $('#unidade26grammar686 textarea').attr("name") + '":"' + $('#unidade26grammar686 textarea').val() + '"}';
+        if ($('#unidade26grammar686 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade26grammar686'), respostas);
         } else {
-            enviarAtividade($('#unidade26grammar682'), respostas);
+            enviarAtividade($('#unidade26grammar686'), respostas);
         }
     });
 
