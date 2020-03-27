@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 30 | Conversation')
+@section('titulo','Unit 31 | Conversation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,12 +9,12 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade30" data-etapa="conversation">
-			<h3 class="barlow">UNIT 30</h3>
+		<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade31" data-etapa="conversation">
+			<h3 class="barlow">UNIT 31</h3>
 			<h5 class="barlow">2 - CONVERSATION</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
-				<source src="{{ asset('assets/audio/apostila3/UNIT 30/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
+				<source src="{{ asset('assets/audio/apostila3/UNIT 31/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
             <p style="margin-top: 16px">
                 <p><b>Jake :</b> Hello guys. How’s everything?</p>
@@ -37,7 +37,7 @@
             </p>
 			<div style="margin-top: 36px">
 				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit30/conversation.jpg') }}" alt="dashboard">
+					<img src="{{ asset('assets/img/masteroflanguage/unit31/conversation.jpg') }}" alt="dashboard">
 				</figure>
             </div>
             <div class="clear"></div>

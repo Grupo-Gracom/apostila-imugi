@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 30 | Understanding')
+@section('titulo','Unit 31 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,11 +9,11 @@
 	<main>
 		<!-- Conteúdo principal central -->
 	    <div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade30" data-etapa="understanding">
-				<h3 class="barlow">UNIT 30</h3>
+			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade31" data-etapa="understanding">
+				<h3 class="barlow">UNIT 31</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <div class="metade">
-                    <form id="unidade30understanding703" method="post">
+                    <form id="unidade31understanding703" method="post">
                         <p>
                             1 -  What did the students think about the last class subject?
                             <input type="text" name="understanding703-1" class="full left-align" placeholder="Responda aqui" required>
@@ -37,7 +37,7 @@
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="30">
+                        <input type="hidden" name="unidade_id" value="31">
                         <input type="hidden" name="atividade_id" value="703">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
@@ -53,21 +53,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade30understanding703").submit(function(e){
+        $("#unidade31understanding703").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade30understanding703 input[type="text"]').each(function(index){
-                if(($('#unidade30understanding703 input[type="text"]').length - 1) == index){
+            $('#unidade31understanding703 input[type="text"]').each(function(index){
+                if(($('#unidade31understanding703 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade30understanding703 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade30understanding703'), respostas);
+            if($('#unidade31understanding703 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade31understanding703'), respostas);
             }else{
-                enviarAtividade($('#unidade30understanding703'), respostas);
+                enviarAtividade($('#unidade31understanding703'), respostas);
             }
         });
 
@@ -87,11 +87,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade30understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade30understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade31understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade31understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade30understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade30understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade31understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade31understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

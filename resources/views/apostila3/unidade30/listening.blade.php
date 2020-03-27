@@ -17,57 +17,19 @@
                 <source src="{{ asset('assets/audio/apostila2/UNIT 30/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow" style="margin-top:16px">A -  Watch the videos and debate with your friends what the 4Th is all about?</h5>
-            <iframe class="metade esquerda" width="616" height="347" src="https://www.youtube.com/embed/v9rZOa3CUC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="metade direita" width="616" height="347" src="https://www.youtube.com/embed/SCGV1tNBoeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="clear"></div>
-            <form id="unidade30listening699" method="post" style="margin-top:32px">
-                <textarea name="listening699-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+            <h5 class="barlow" style="margin-top:16px">A -  Watch the video and summarize in 3 lines the importance of Big Data.</h5>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/TzxmjbL-i4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <form id="unidade30listening702" method="post" style="margin-top:16px">
+                <textarea name="listening702-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                 <div class="clear"></div>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="30">
-                <input type="hidden" name="atividade_id" value="699">
+                <input type="hidden" name="atividade_id" value="702">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-
-            <h5 class="barlow" style="margin-top:16px"><b>Text:</b></h5>
-            <h5 class="barlow">10 Essential skills for the 4th Industrial Revolution</h5>
-            <p>Wednesday, April 17, 2019 - 09:44</p>
-            <p>There has been much debate surrounding the 4th industrial revolution and its impact on the workplace.</p>
-            <p>The question of whether or not robots will replace human beings has been at the forefront of this discussion.</p>
-            <p>
-                While experts have warned that there will be an increase in job automation and artificial
-                intelligence, specialists agree that human beings will never be made completely obsolete.
-                However there are certain skills that will grow in importance as technology becomes more
-                entrenched in our everyday lives.
-            </p>
-            <p>
-                According to the World Economic Forum ‘the skill sets required in both old and new
-                occupations will change in most industries and transform how and where people work.”
-                In the video ‘Ten Skills You Need to Thrive in the Fourth Industrial Revolution’ we reflect on
-                the skills required for these future occupations.
-            </p>
-            <p>
-                These top ten skills include: Complex problem solving, Critical thinking, Creativity, People
-                management, Coordinating with others, Emotional intelligence, Judgement and decision
-                making, Service orientation, Negotiation, Cognitive Flexibility
-            </p>
-
-            <p>
-                Emotional Intelligence is key
-                Most of these capabilities are expressions of emotional intelligence which will be one of the
-                defining characteristics of the 21st century employee.
-                “Emotional intelligence will become one of the top skills needed by all.”
-                As machines take over technical operations employers will begin to place greater value on
-                soft skills and tasks that cannot be performed by robots.
-            </p>
-
-            <p>Get Ready!</p>
-            <p>“Change won’t wait for us to be proactive in upskilling...”</p>
-            <p>We need to start training now so that we can benefit from the fourth industrial revolution</p>
         </div>
     </div>
 </main>
@@ -80,14 +42,14 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade30listening699").submit(function(e) {
+    $("#unidade30listening702").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{"' + $('#unidade30listening699 textarea').attr("name") + '":"' + $('#unidade30listening699 textarea').val() + '"}';
-        if ($('#unidade30listening699 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade30listening699'), respostas);
+        var respostas = '{"' + $('#unidade30listening702 textarea').attr("name") + '":"' + $('#unidade30listening702 textarea').val() + '"}';
+        if ($('#unidade30listening702 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade30listening702'), respostas);
         } else {
-            enviarAtividade($('#unidade30listening699'), respostas);
+            enviarAtividade($('#unidade30listening702'), respostas);
         }
     });
 

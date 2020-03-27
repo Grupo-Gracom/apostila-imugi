@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 30 | Grammar')
+@section('titulo','Unit 31 | Grammar')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,12 +9,12 @@
 <main>
     <!-- Conteúdo principal central -->
     <div class="dashboard">
-        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade30" data-etapa="grammar">
-            <h3 class="barlow">UNIT 30</h3>
+        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade31" data-etapa="grammar">
+            <h3 class="barlow">UNIT 31</h3>
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/Unit30/Grammar/completo.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/Unit31/Grammar/completo.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
@@ -25,20 +25,20 @@
                 a near future. Search for “Useful gadgets” on Youtube to get inspired.
             </h5>
             
-            <form id="unidade30grammar701" method="post" style="margin-top:32px">
+            <form id="unidade31grammar701" method="post" style="margin-top:32px">
                 <textarea name="grammar701-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                 <div class="clear"></div>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="30">
+                <input type="hidden" name="unidade_id" value="31">
                 <input type="hidden" name="atividade_id" value="701">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
             <div style="margin-top: 36px">
 				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit30/grammar.jpg') }}" alt="web design">
+					<img src="{{ asset('assets/img/masteroflanguage/unit31/grammar.jpg') }}" alt="web design">
 				</figure>
             </div>
         </div>
@@ -52,14 +52,14 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade30grammar701").submit(function(e) {
+    $("#unidade31grammar701").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{"' + $('#unidade30grammar701 textarea').attr("name") + '":"' + $('#unidade30grammar701 textarea').val() + '"}';
-        if ($('#unidade30grammar701 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade30grammar701'), respostas);
+        var respostas = '{"' + $('#unidade31grammar701 textarea').attr("name") + '":"' + $('#unidade31grammar701 textarea').val() + '"}';
+        if ($('#unidade31grammar701 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade31grammar701'), respostas);
         } else {
-            enviarAtividade($('#unidade30grammar701'), respostas);
+            enviarAtividade($('#unidade31grammar701'), respostas);
         }
     });
 
@@ -80,13 +80,13 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade30grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade30grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
-                    $('#unidade30grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade30grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade31grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade31grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade31grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade31grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                 }
-                $('#unidade30grammar' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
-                $('#unidade30grammar' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                $('#unidade31grammar' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
+                $('#unidade31grammar' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
             }
         });
     }
