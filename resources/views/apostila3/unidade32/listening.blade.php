@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 31 | Grammar')
+@section('titulo','Unit 32 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,30 +9,25 @@
 <main>
     <!-- Conteúdo principal central -->
     <div class="dashboard">
-        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade31" data-etapa="grammar">
-            <h3 class="barlow">UNIT 31</h3>
-            <h5 class="barlow">3 - GRAMAR</h5>
+        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade32" data-etapa="listening">
+            <h3 class="barlow">UNIT 32</h3>
+            <h5 class="barlow">5 - LISTENING</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/Unit31/Grammar/completo.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila2/UNIT 32/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <div style="margin-top: 16px">
-            <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b><h5>
-            <h5 class="barlow">
-                1 - In groups, research about jobs of the future and prepare a presentation for the class.
-                Explain why some jobs will disappear and some other will rise.
-            </h5>
-            
-            <form id="unidade31grammar704" method="post" style="margin-top:32px">
-                <textarea name="grammar704-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+            <h5 class="barlow" style="margin-top:16px">A -  Watch the video and summarize what emotional intelligence is.</h5>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/3-jzWFQLopk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <form id="unidade32listening778" method="post" style="margin-top:16px">
+                <textarea name="listening778-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                 <div class="clear"></div>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="31">
-                <input type="hidden" name="atividade_id" value="704">
+                <input type="hidden" name="unidade_id" value="32">
+                <input type="hidden" name="atividade_id" value="778">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
         </div>
@@ -40,20 +35,21 @@
 </main>
 <script>
     activeMenu();
+    console.log(window.location.pathname);
 
     $("form").each(function() {
         var atividade_id = $(this).find('input[name="atividade_id"]').val();
         checkAtividade(atividade_id);
     });
 
-    $("#unidade31grammar704").submit(function(e) {
+    $("#unidade32listening778").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{"' + $('#unidade31grammar704 textarea').attr("name") + '":"' + $('#unidade31grammar704 textarea').val() + '"}';
-        if ($('#unidade31grammar704 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade31grammar704'), respostas);
+        var respostas = '{"' + $('#unidade32listening778 textarea').attr("name") + '":"' + $('#unidade32listening778 textarea').val() + '"}';
+        if ($('#unidade32listening778 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade32listening778'), respostas);
         } else {
-            enviarAtividade($('#unidade31grammar704'), respostas);
+            enviarAtividade($('#unidade32listening778'), respostas);
         }
     });
 
@@ -74,19 +70,19 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade31grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade31grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
-                    $('#unidade31grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade31grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade32listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade32listening' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade32listening' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade32listening' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                 }
-                $('#unidade31grammar' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
-                $('#unidade31grammar' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                $('#unidade32listening' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
+                $('#unidade32listening' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
             }
         });
     }
 
     function enviarAtividade(formId, respostas) {
-        var atividade = {
+        var resposta = {
             "_token": formId.find('input[name="_token"]').val(),
             "resposta_respostas": respostas,
             "atividade_id": formId.find('input[name="atividade_id"]').val(),
@@ -94,7 +90,7 @@
         };
         request = $.ajax({
             url: window.location.pathname + '/respostas',
-            data: atividade,
+            data: resposta,
             type: 'post',
             error: function() {
                 console.log("Erro de envio.");

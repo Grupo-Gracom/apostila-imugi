@@ -17,17 +17,17 @@
                 <source src="{{ asset('assets/audio/apostila2/UNIT 31/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow" style="margin-top:16px">A -  Watch the video and summarize in 3 lines the importance of Big Data.</h5>
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/TzxmjbL-i4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <form id="unidade31listening702" method="post" style="margin-top:16px">
-                <textarea name="listening702-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+            <h5 class="barlow" style="margin-top:16px">A -  Watch the video and summarize it in your own words</h5>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/M908RNjj0n8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <form id="unidade31listening705" method="post" style="margin-top:16px">
+                <textarea name="listening705-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                 <div class="clear"></div>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="31">
-                <input type="hidden" name="atividade_id" value="702">
+                <input type="hidden" name="atividade_id" value="705">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
         </div>
@@ -42,14 +42,14 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade31listening702").submit(function(e) {
+    $("#unidade31listening705").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{"' + $('#unidade31listening702 textarea').attr("name") + '":"' + $('#unidade31listening702 textarea').val() + '"}';
-        if ($('#unidade31listening702 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade31listening702'), respostas);
+        var respostas = '{"' + $('#unidade31listening705 textarea').attr("name") + '":"' + $('#unidade31listening705 textarea').val() + '"}';
+        if ($('#unidade31listening705 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade31listening705'), respostas);
         } else {
-            enviarAtividade($('#unidade31listening702'), respostas);
+            enviarAtividade($('#unidade31listening705'), respostas);
         }
     });
 

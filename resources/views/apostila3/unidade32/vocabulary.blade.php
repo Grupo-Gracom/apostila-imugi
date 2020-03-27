@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 31 | Vocabulary')
+@section('titulo','Unit 32 | Vocabulary')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,40 +9,40 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade31" data-etapa="vocabulary">
-			<h3 class="barlow">UNIT 31</h3>
+		<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade32" data-etapa="vocabulary">
+			<h3 class="barlow">UNIT 32</h3>
 			<h5 class="barlow">1 - VOCABULARY</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
-				<source src="{{ asset('assets/audio/apostila3/UNIT 31/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
+				<source src="{{ asset('assets/audio/apostila3/UNIT 32/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 			</audio>
 			<h5 class="barlow" style="margin-top: 32px">A - WORDS IN CONTEXT</h5>
 			<ul class="lista-inline upper" style="margin-top: 16px">
 				<li>
-					<p><b>To disappear</b></p>
+					<p><b>To reach</b></p>
 				</li>
 				<li>
-					<p><b>Workplace</b></p>
+					<p><b>To miss</b></p>
 				</li>
 				<li>
-					<p><b>Trend</b></p>
+					<p><b>I.Q</b></p>
 				</li>
 				<li>
-					<p><b>Rise</b></p>
+					<p><b>E.Q</b></p>
 				</li>
 			</ul>
 			<ul class="lista-inline upper" style="margin-top: 16px">
 				<li>
-					<p><b>Chaperone</b></p>
+					<p><b>Average</b></p>
 				</li>
 				<li>
-					<p><b>Role</b></p>
+					<p><b>Wrench</b></p>
 				</li>
 				<li>
-					<p><b>To demand</b></p>
+					<p><b>Threw</b></p>
 				</li>
 				<li>
-					<p><b>To emerge</b></p>
+					<p><b>To set</b></p>
 				</li>
 			</ul>
 		</div>

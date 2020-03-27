@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 31 | Understanding')
+@section('titulo','Unit 32 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,36 +9,36 @@
 	<main>
 		<!-- Conteúdo principal central -->
 	    <div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade31" data-etapa="understanding">
-				<h3 class="barlow">UNIT 31</h3>
+			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade32" data-etapa="understanding">
+				<h3 class="barlow">UNIT 32</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <div class="metade">
-                    <form id="unidade31understanding706" method="post">
+                    <form id="unidade32understanding779" method="post">
                         <p>
-                            1 -  In 20 years, what will happen with the professions?
-                            <input type="text" name="understanding706-1" class="full left-align" placeholder="Responda aqui" required>
+                            1 -  What do the students and Jake say about the time they spent together?
+                            <input type="text" name="understanding779-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 -  What is happening with the workplaces around the world?
-                            <input type="text" name="understanding706-2" class="full left-align" placeholder="Responda aqui" required>
+                            2 -   What’s the objective of this last class?
+                            <input type="text" name="understanding779-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 -  What’s gonna happen with the idea of automation?
-                            <input type="text" name="understanding706-3" class="full left-align" placeholder="Responda aqui" required>
+                            3 -  What’s emotional intelligence?
+                            <input type="text" name="understanding779-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 -  Give examples of new professions mentioned in the article.
-                            <input type="text" name="understanding706-4" class="full left-align" placeholder="Responda aqui" required>
+                            4 -  According to the text, why is it so necessary?
+                            <input type="text" name="understanding779-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 -  What’s the author’s final opinion regarding the subject?  
-                            <input type="text" name="understanding706-5" class="full left-align" placeholder="Responda aqui" required>
+                            5 -  How can you increase you emotional intelligence?  
+                            <input type="text" name="understanding779-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
 
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="31">
-                        <input type="hidden" name="atividade_id" value="706">
+                        <input type="hidden" name="unidade_id" value="32">
+                        <input type="hidden" name="atividade_id" value="779">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -53,21 +53,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade31understanding706").submit(function(e){
+        $("#unidade32understanding779").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade31understanding706 input[type="text"]').each(function(index){
-                if(($('#unidade31understanding706 input[type="text"]').length - 1) == index){
+            $('#unidade32understanding779 input[type="text"]').each(function(index){
+                if(($('#unidade32understanding779 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade31understanding706 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade31understanding706'), respostas);
+            if($('#unidade32understanding779 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade32understanding779'), respostas);
             }else{
-                enviarAtividade($('#unidade31understanding706'), respostas);
+                enviarAtividade($('#unidade32understanding779'), respostas);
             }
         });
 
@@ -87,11 +87,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade31understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade31understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade32understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade32understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade31understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade31understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade32understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade32understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

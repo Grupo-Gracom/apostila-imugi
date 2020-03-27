@@ -17,83 +17,94 @@
 				<source src="{{ asset('assets/audio/apostila3/UNIT 31/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
             <p style="margin-top: 16px">
-                <p><b>Jake :</b> Hello guys. How’s everything?</p>
-                <p><b>Students :</b> Everything is ok teacher.</p>
+                <p><b>Jake :</b> Hey you guys. What’s up? Did you like the last subject?</p>
+                <p><b>Students :</b> Yes teacher. It was fantastic. We didn’t know anything about that.</p>
+                <p><b>John :</b> Teacher, what are we gonna talk about today?</p>
                 <p>
-                    <b>Akira :</b> What is the subject today teacher. The last class about skills for the 4th
-                    industrial revolution was very good.
+                    <b>Jake :</b> Today we are going to think about jobs of the future. In 20 years, many
+                    professions will disappear and others will rise. We have already talked about the skills
+                    needed to face the 4th revolution and we talked about one trend called Big Data. Big
+                    data professionals are gonna be extremely necessary in the future. Many other new
+                    professions will have importance as well. Let’s read about them?
                 </p>
-                <p>
-                    <b>Laura :</b> Yep. Specially the thing about Emotional intelligence. Do you remember that
-                    Gleen spoke about that when we were talking about working under pressure?
-                </p>
-                <p><b>John :</b> I remember that.</p>
-                <p>
-                    <b>Jake :</b> Good that you liked guys. Today we are going to see that our lives are
-                    completely monitored and “They” know everything about us. We are gonna talk about Big Data.
-                </p>
-                <p><b>Laura :</b> How come? How can technology know so much about us?</p>
-                <p><b>Jake :</b> Let’s read the text and then we can debate the subject ok.</p>
+                <p><b>Laura :</b> Great Teacher.</p>
+                <p><b>Jake :</b> Read the text and we talk about it when you finish ok.</p>
+                <p><b>Students :</b> Ok teacher.</p>
             </p>
 			<div style="margin-top: 36px">
 				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit31/conversation.jpg') }}" alt="dashboard">
+					<img src="{{ asset('assets/img/masteroflanguage/unit31/conversation1.jpg') }}" alt="dashboard">
 				</figure>
             </div>
             <div class="clear"></div>
             
-            <h5 class="barlow"><b>Text</b></h5>
-            
-            <p><b>What is Big Data Concepts?</b></p>
+            <h5 class="barlow" style="margin-top:32px"><b>What new jobs will exist in 2035?</b></h5>
             <p>
-                Every organization today has enormous data that keeps on increasing every minute. To
-                manage such data you need advanced technology. Big data analytics is bringing in a new
-                revolution in the field of big data concepts analysis. Big data analyses a large amount of data
-                to get deeper knowledge about the data and find out its hidden patterns and correlations.
-                It will help the business to understand the information in a more better manner. It will help
-                the business to identify the data that is more important to the organization.
+                By 2035, workplace changes will see us looking for jobs as remote pilots or online chaperones.
+                This is the finding of an Australian report looking at megatrends in the workplace over the next
+                20 years. The authors of the report, CSIRO (Commonwealth Scientific and Industrial Research
+                Organization), outline potential jobs in 2035, along with other impacts of the Fourth Industrial
+                Revolution on our working lives.
+                They emphasize that “while Australia’s workforce is continually changing, the current period in
+                history is characterized by a combination of forces likely to be associated with greater, faster and
+                different transitions than previously experienced.”
             </p>
-            
-            <p><b>Why is big data concepts analytics important?</b></p>
+
+            <p><b>Jobs of the Future</b></p>
             <p>
-                Big data has been in the major focus since its inception in the business field. Many
-                organizations understand the importance of Big data and use it for their business.
-                Big data introduction helps the business to identify new business opportunities and to
-                increase their efficiency. This, in turn, will help to increase their profit by gaining a lot of
-                customers. In today’s world, Big data concepts are considered more important due to the
-                following reasons
+                Workplaces around the world are changing, as businesses adapt to the onset of the Fourth
+                Industrial Revolution.
+                Automation will see a change in the roles we are looking for, and the jobs we do. The report
+                believes complexity will increase and higher skills will be demanded – even for entry level tasks.
+                This will require education systems to adapt and change to equip the workers of the future with
+                the skills they need.
             </p>
-            
-            <p>
-                <b>Reduced cost</b> – big data technologies are more cost-effective. And it is the best tool to store
-                huge data at a lower cost. It also helps to identify more efficient ways of doing business.
-            </p>
-            <p>
-                <b>Quick decision making</b> – With the help of in-memory analytics and the power to analyze
-                new sources of data, Big data helps business to analyze the data and information more
-                quickly than before. Based on learning through analysis, the business can take a smart decision.
-            </p>
-            <p>
-                <b>New products and features</b> – Through proper analytics, Big data concepts know the
-                customer’s needs and satisfaction. So they always deliver what the customers want. Some
-                companies also create new products using big data analytics to satisfy their customers’.
-                Using big data concepts analytics an organization can increase sales, efficiency,
-                operations, customer service, and risk management. Big data analytics helps to improve the
-                speed of the business process and reduce the complexity of the operations.
-            </p>
-            <p><b>Areas of Application</b></p>
-            <p>
-                Most organizations now have Big data concepts. Because they have understood the need
-                to harness the data and derive value from it. Few types of organizations that use this
-                technology are listed below:
-            </p>
-            
-            <div class="lista-vertical">
-                <li><p>• Travel and Hospitality</p></li>
-                <li><p>• Health Care</p></li>
-                <li><p>• Government</p></li>
-                <li><p>• Retail</p></li>
+
+            <div style="margin-top: 32px">
+				<figure>
+					<img src="{{ asset('assets/img/masteroflanguage/unit31/conversation2.jpg') }}" alt="dashboard">
+				</figure>
             </div>
+            <p style="margin-top: 16px">
+                As the infographic highlights, the impact of automation will vary considerably. For the
+                authors of the report, creativity is an increasingly sought after skill, while the employment
+                landscape in 2035 will work “to the advantage of tomorrow’s entrepreneur”.
+            </p>
+            <p><b>The human-only jobs of 2035</b></p>
+            <p>
+                Given the demographic and technological changes now set in motion, these are some of the new
+                human-only jobs that could emerge.
+                The rise of unmanned and un-crewed vehicles will need a new workforce of remote operators.
+                Pilots, ship captains and drivers could all be sitting in an office, potentially thousands of
+                kilometers from the vehicle they are controlling. While many existing skills will transfer, new skills
+                will also be needed to fly a plane remotely.
+            </p>
+            <p>
+                A new category of “personalized preventative health helpers” will also emerge. These workers
+                will possess great people skills, and the ability to interpret and understand health and wellbeing data. 
+                They “will help their clients avoid chronic and diet-related illness, improve cognitive
+                function, achieve improved mental health and achieve improved lifestyles overall.” As the global
+                population ages, such a role will become increasingly important, and the report argues the
+                growing popularity of personal trainers indicates the potential of this job.
+            </p>
+            <p>
+                The increasing risk posed by cyber-crime will see a new profession of online chaperones.
+                These professionals will provide protection and support for online activity. This could extend
+                from fraud and identity theft to social media and reputation management.
+                Finally, the report sees the demand for big data analysts continuing to expand rapidly, along
+                with specialization of analyst roles. The world currently creates 2.5 quintillion bytes of data a
+                year, and the growth of the Internet of Things will see this increase exponentially. Someone
+                has to tackle this data, argues the report.
+            </p>
+            <p>
+                However, the authors highlight that “although change is inevitable, future destinations are
+                not.” These new jobs are predictions, not set in stone. So if you fancy a career as a remotecontrol pilot, watch this space.
+            </p>
+            <p>
+                The World Economic Forum’s Future of Jobs report has predicted the skills that will be
+                needed in a future workplace. As the following graphic highlights, these range from creativity
+                to negotiation.
+            </p>
 		</div>
 	</div>
 </main>
