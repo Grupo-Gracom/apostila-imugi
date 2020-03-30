@@ -18,26 +18,27 @@
                 </audio> -->
                 <!-- nao tem audio ainda -->
                 <div class="clear"></div>
-                <p>BASIC REPORTING SENTENCES</p>
+                <h5 class="barlow">A - BASIC REPORTING SENTENCES</h5>
+                <p>Sentences used to report a story or to retell a story.</p>
                 <p>When retelling a story we usually use the verbs <b>Say (something), Tell (a story),</b> and
-                <b>ask (a questi on or favor)</b></p>
+                <b>ask (a question or favor)</b></p>
 
-                <p>Examples:</p>
+                <h5 class="barlow" style="margin-top:16px"><b>Examples:</b></h5>
                 <p><b>Paul said that</b> he’s gonna start a new Youtube channel.</p>
                 <p><b>Mary told me</b> she loved the live she had with her followers.</p>
                 <p><b>I asked her</b> if she used FaceTime, Google or Instagram to run the live.</p>
-                <p><b>She said that</b> Instagram is bett er, although the videos are stored for just 24 hours.</p>
+                <p><b>She said that</b> Instagram is better, although the videos are stored for just 24 hours.</p>
                 <p><b>Paul told me</b> he had a lot of insights during the live.</p>
-                <p><b>He asked me</b> why I didn’t parti cipate.</p>
+                <p><b>He asked me</b> why I didn’t participate.</p>
 
                 <p><b>News – No plural form.</b></p>
-                <p>We use the uncountable noun news to mean ‘informati on or reports about recent events’.
+                <p>We use the uncountable noun news to mean ‘information or reports about recent events’.
                 It takes a singular verb:</p>
 
                 <p>– The <b>news</b> is good about Mary. The doctors are very happy about her progress.</p>
                 <p> Not: <s>The news are good about Mary.</s></p>
                 <p>– Do you have <b>any news</b> of your sister? How is she these days?</p>
-                <p>– I’ve got <b>some news</b> for you – I’m getti ng married!</p>
+                <p>– I’ve got <b>some news</b> for you – I’m getting married!</p>
                 <p> Not: <s>I’ve got a news for you</s> …</p>
 
                 <p>If we want to talk about news as an individual thing, we can use bit of,
@@ -51,8 +52,8 @@
                 reports of recent events:</p>
                 <p>– I always watch <b>the news</b> on CNN before I go to bed.</p>
 
-                <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
-                <h5 class="barlow">A - Think of a fact, a movie scene or a story that was interesting for you and prepare a narrative
+                <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES:</b></h5>
+                <h5 class="barlow">1 - Think of a fact, a movie scene or a story that was interesting for you and prepare a narrative
                 using “Say, Tell and Ask”. Be prepared to report the story to the class. (minimum 10 lines). </h5>
                 
                 <form id="unidade1grammar500" method="post">
@@ -63,7 +64,12 @@
                     <input type="hidden" name="atividade_id" value="500">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>    
+                <div style="margin-top: 36px">
+                    <figure>
+                        <img src="{{ asset('assets/img/masteroflanguage/unit1/grammar.png') }}" alt="marvel">
+                    </figure>
+                </div>           
 			</div>
 		</div>
     </main>

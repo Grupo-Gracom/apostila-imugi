@@ -14,20 +14,20 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 02/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow">Listen to the audio and answer the questi ons below.</h5>
-                <h5 class="barlow">A - What’s the main message about the use of social media in general?</h5>
+                <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and answer the questions below.</h5>
+                <p>What’s the main message about the use of social media in general?</p>
                 <form id="unidade2listening507" method="post">
-                    <textarea name="listening507-1" class="left-align" placeholder="Responda aqui" required></textarea>                    
+                    <textarea name="listening507-1" class=" metade left-align" placeholder="Responda aqui" required></textarea>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="2">
                     <input type="hidden" name="atividade_id" value="507">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form> 
             </div>
 		</div>
     </main>

@@ -17,19 +17,16 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<h5 class="barlow">A – Homophones 1</h5>
-				<p>Homophones are words that sound the same but have different 
-				spellings and meanings.</p>
-				<p>Example: <b>Flew/Flu</b></p>
-				<h5 class="barlow">Complete the sentences below with the appropriate word.</h5>
+				<h5 class="barlow" style="margin-top:16px">A – Homophones 1</h5>
+				<p><b>Homophones are words that sound the same but have different 
+				spellings and meanings.</b></p>
+                <h5 class="barlow"><b>Example:</b></h5>
+                <p><b>Flew/Flu</b></p>
+				<h5 class="barlow">1 - Complete the sentences below with the appropriate word.</h5>
 				<form id="unidade1pronunciation501" method="post">					
-					<p><b>1</b> - I’ve had the 
-					<input type="text" name="pronunciation501-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-					Since Monday.</p>
+					<p>1 - I’ve had the<input type="text" name="pronunciation501-1" placeholder="Responda aqui" required> Since Monday.</p>
 					
-					<p><b>2</b> - The birds 
-					<input type="text" name="pronunciation501-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
-					to their nests.</p>
+					<p>2 - The birds<input type="text" name="pronunciation501-2" placeholder="Responda aqui" required> to their nests.</p>
 
 					<input type="hidden" name="_token" value="{{csrf_token()}}">
 					<input type="hidden" name="resposta_id" value="0">

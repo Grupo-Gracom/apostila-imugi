@@ -18,7 +18,7 @@
                 </audio> -->
                 <!-- nao tem audio ainda -->
                 <div class="clear"></div>
-                <p><b>GIVING GOOD AND BAD NEWS</b></p>
+                <h5 class="barlow">A - GIVING GOOD AND BAD NEWS</b></h5>
 
                 <p><b>Giving Good News:</b></p>
                 <p style="margin-top:16px;">The good news is …</p>
@@ -28,8 +28,8 @@
                 <p>I’m really thrilled that…</p>
                 <p>I am happy to say that …</p>                
                 
-                <p  style="margin-top:16px;"><b>Giving Bad news:</b></p>
-                <p  style="margin-top:16px;">The bad news is …</p>
+                <p style="margin-top:32px;"><b>Giving Bad news:</b></p>
+                <p style="margin-top:16px;">The bad news is …</p>
                 <p>Unfortunately …</p>
                 <p>How can I put this…</p>
                 <p>I regret to say that…</p>
@@ -40,31 +40,43 @@
                 <p>Information is an uncountable noun meaning ‘facts about someone or
                 something’. It is often followed by about:</p>
 
-                <p><b>A</b>:Can I help you?</p>
-                <p><b>B</b>:Can you give us some <b>information about</b> restaurants in the area, please?</p>
+                <p><b>P</b> : Can I help you?</p>
+                <p><b>R</b> : Can you give us some <b>information about</b> restaurants in the area, please?</p>
                 <p><b>Warning:</b></p>
                 <p>We do not use information in the plural form and we do not use it with a/an. We</p>
                 <p>use piece or pieces to make information countable:</p>
                 <p>– I found a lot of <b>information</b> about Ecuador on the Internet.</p>
-                <p>Not: I found a lot of informations about Ecuador …</p>
+                <p>Not: <s>I found a lot of informations about Ecuador</s> …</p>
                 <p>– She told me <b>an</b> interesting <b>piece of information</b> about the new manager.</p>
-                <p>Not: She told me an interesting information…</p>
+                <p>Not: <s>She told me an interesting information</s>…</p>
                 <p>In more formal contexts, information may be followed by on:</p>
                 <p>– The report included <b>information on</b> family incomes in 2006.</p>
                 <p>– The airline’s website gives <b>information on</b> hand baggage.</p>
 
-                <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
-                <h5 class="barlow">A -  Pick two of the situations below and create a dialogue according to each case. Use the
+                <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES:</b></h5>
+                <h5 class="barlow">1 -  Pick two of the situations below and create a dialogue according to each case. Use the
                 sentences from the Grammar topic.</h5>
-                <div class="numeradorverde espacamento">
-                    <p><b>A</b>. Losing a friend’s favorite book.</p>
-                    <p><b>B</b>. Crashing your father’s car.</p>
-                    <p><b>C</b>. Failing your fi nal exam.</p>
-                    <p><b>D</b>. Receiving a scholarship of your favorite course.</p>
-                    <p><b>E</b>. Being invited for Comic.com for free.</p>
-                    <p><b>F</b>. Passing Enem.</p>
-                </div>                
-                <h5 class="barlow espacamento">Dialogue 1 – Giving Bad news.</h5>
+                <div class="espacamento">
+                    <p>A. Losing a friend’s favorite book.</p>
+                    <p>B. Crashing your father’s car.</p>
+                    <p>C. Failing your final exam.</p>
+                    <p>D. Receiving a scholarship of your favorite course.</p>
+                    <p>E. Being invited for Comic.com for free.</p>
+                    <p>F. Passing Enem.</p>
+                </div>
+
+                <figure class="umterco">
+					<img src="{{ asset('assets/img/masteroflanguage/unit2/grammar1.png') }}" alt="carro batido">
+				</figure>
+				<figure class="umterco">
+					<img src="{{ asset('assets/img/masteroflanguage/unit2/grammar2.png') }}" alt="nota">
+                </figure>
+                <figure class="umterco">
+					<img src="{{ asset('assets/img/masteroflanguage/unit2/grammar3.png') }}" alt="personagens">
+				</figure>
+                <div class="clear"></div>
+
+                <h5 class="barlow espacamento" style="margin-top:16px">Dialogue 1 – Giving Bad news.</h5>
                 <form id="unidade2grammar504" method="post">
                     <textarea name="grammar504-1" class="left-align" placeholder="Responda aqui" required></textarea>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">

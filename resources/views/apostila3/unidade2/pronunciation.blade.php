@@ -14,21 +14,17 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 02/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 				</audio>
 				<div class="clear"></div>
-				<h5 class="barlow">A – Homophones 2</h5>
-                <p>Example: <b>Here/Hear</b></p>
-				<p>Complete the sentences below with the appropriate word.</p>
-				<h5 class="barlow">Complete the sentences below with the appropriate word.</h5>
+				<h5 class="barlow" style="margin-top:16px">A – Homophones 2</h5>
+                <h5 class="barlow" style="margin-top:16px"><b>Example:</b></h5> 
+                <p><b>Here/Hear</b></p>
+				<h5 class="barlow">1 - Complete the sentences below with the appropriate word.</h5>
 				<form id="unidade2pronunciation506" method="post">					
-					<p><b>1</b> - We can see the ocean from 
-                    <input type="text" name="pronunciation506-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    </p>
+					<p>1 - We can see the ocean from <input type="text" name="pronunciation506-1" class="inputpequeno left-align" placeholder="Responda aqui" required></p>
 					
-					<p><b>2</b> - Can you 
-					<input type="text" name="pronunciation506-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
-					The birds singing.</p>
+					<p>2 - Can you <input type="text" name="pronunciation506-2" class="inputpequeno left-align" placeholder="Responda aqui" required> The birds singing.</p>
 
 					<input type="hidden" name="_token" value="{{csrf_token()}}">
 					<input type="hidden" name="resposta_id" value="0">
