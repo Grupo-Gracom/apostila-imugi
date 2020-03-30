@@ -18,8 +18,11 @@
                 </audio> -->
                 <!-- nao tem audio ainda -->
                 <div class="clear"></div>
-                <p><b> EXPLAINING PROCEDURES: REMINDERS</b></p>                
-                <div class="espacamentoesquerda3">
+                <div class="center-align">
+                    <p class="contentVerde">Call attention to important steps - Reminders<p>
+                </div>
+                <h5 class="barlow" style="margin-top:16px">A -  EXPLAINING PROCEDURES: REMINDERS</h5>                
+                <div class="espacamento">
                     <p><b>Don’t forget to…</b></p>
                     <p><b>Remember to…</b></p>
                     <p><b>Bear in mind…</b></p>
@@ -27,12 +30,12 @@
                     <p><b>It’s important to…</b></p>
                     <p><b>Make sure you...</b></p>
                 </div>
-                                
-                <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>                              
-                <h5 class="barlow">A - Take a look at the procedures you wrote about in the previous class and add some
-                reminders about criti cal steps that can’t be forgotten.</h5>                
+                
+                <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES:</b></h5>                              
+                <h5 class="barlow">1 - Take a look at the procedures you wrote about in the previous class and add some
+                reminders about critical steps that can’t be forgotten.</h5>                
                 <form id="unidade4grammar515" method="post">
-                    <textarea name="grammar515-1" class="left-align" placeholder="Responda aqui" required></textarea>                    
+                    <textarea name="grammar515-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="4">
@@ -40,10 +43,10 @@
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>                
-                <h5 class="barlow">B - In your opinion, how can a person be prepared to deal with work and studies? Think
+                <h5 class="barlow">2 - In your opinion, how can a person be prepared to deal with work and studies? Think
                 about it and share your ideas with the class.</h5>
                 <form id="unidade4grammar516" method="post">
-                    <textarea name="grammar516-1" class="left-align" placeholder="Responda aqui" required></textarea>                    
+                    <textarea name="grammar516-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="4">

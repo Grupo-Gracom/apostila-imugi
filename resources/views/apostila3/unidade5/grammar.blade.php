@@ -18,10 +18,10 @@
                 </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
-            <p><b> EXPLAINING PROCEDURES: ASKING FOR CLARIFICATIONS</b></p>
+            <h5 class="barlow" style="margin-top:16px">A - EXPLAINING PROCEDURES: ASKING FOR CLARIFICATIONS</h5>
             <p>You ask for <b>clarification</b> when there’s a step you don’t understand and you ask for a
             new <b>explanation</b>.</p>
-            <div class="espacamentoesquerda3">
+            <div class="espacamento" style="margin-top:32px">
                 <p><b>What Do you mean?</b></p>
                 <p><b>Can/Could you repeat that?</b></p>
                 <p><b>I didn´t get it. The soft ware is not working?</b></p>
@@ -29,13 +29,14 @@
                 <p><b>Can/Could You explain it again?</b></p>
             </div>
 
-            <p>Create 2 dialogues in which some misunderstandings occur. Use the sentences to clear out
-            any possible doubt. Be prepared to share with the classroom.</p>
-
-            <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
-            <h5 class="barlow">A – At the game store. You didn´t understand the salesperson explanation.</h5>
+            <h5 class="barlow" style="margin-top: 32px"><b>EXERCISES:</b></h5>
+            <p>
+                Create 2 dialogues in which some misunderstandings occur. Use the sentences to clear out
+                any possible doubt. Be prepared to share with the classroom.
+            </p>
+            <h5 class="barlow">Dialogue 1 – At the game store. You didn´t understand the salesperson explanation.</h5>
             <form id="unidade5grammar520" method="post">
-                <textarea name="grammar520-1" class="left-align" placeholder="Responda aqui" required></textarea>
+                <textarea name="grammar520-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="5">
@@ -43,9 +44,9 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">B - On the phone. Changing a Comic.com ticket for another date.</h5>
+            <h5 class="barlow">Dialogue 2 - On the phone. Changing a Comic.com ticket for another date.</h5>
             <form id="unidade5grammar521" method="post">
-                <textarea name="grammar521-1" class="left-align" placeholder="Responda aqui" required></textarea>
+                <textarea name="grammar521-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="5">
@@ -53,6 +54,12 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
+            <figure class="metade esquerda">
+                <img src="{{ asset('assets/img/masteroflanguage/unit5/grammar1.png') }}" alt="vr">
+            </figure>
+            <figure class="metade direita">
+                <img src="{{ asset('assets/img/masteroflanguage/unit5/grammar2.png') }}" alt="jogos">
+            </figure>
         </div>
     </div>
 </main>

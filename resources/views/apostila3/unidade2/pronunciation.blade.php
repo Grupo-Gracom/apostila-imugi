@@ -22,9 +22,9 @@
                 <p><b>Here/Hear</b></p>
 				<h5 class="barlow">1 - Complete the sentences below with the appropriate word.</h5>
 				<form id="unidade2pronunciation506" method="post">					
-					<p>1 - We can see the ocean from <input type="text" name="pronunciation506-1" class="inputpequeno left-align" placeholder="Responda aqui" required></p>
+					<p>1. We can see the ocean from <input type="text" name="pronunciation506-1" class="inputpequeno left-align" placeholder="Responda aqui" required></p>
 					
-					<p>2 - Can you <input type="text" name="pronunciation506-2" class="inputpequeno left-align" placeholder="Responda aqui" required> The birds singing.</p>
+					<p>2. Can you <input type="text" name="pronunciation506-2" class="inputpequeno left-align" placeholder="Responda aqui" required> The birds singing.</p>
 
 					<input type="hidden" name="_token" value="{{csrf_token()}}">
 					<input type="hidden" name="resposta_id" value="0">

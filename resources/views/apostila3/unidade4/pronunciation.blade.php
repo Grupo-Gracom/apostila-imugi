@@ -17,15 +17,18 @@
                 <source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow">A – Homophones 4</h5>
-            <p class="espacamentoesquerda3">Examples: <b>Red/Read</b></p>
-            <h5 class="barlow">Complete the sentences below with the appropriate word.</h5>
+            <h5 class="barlow" style="margin-top:16px">A – Homophones 4</h5>
+            <h5 class="barlow"><b>Examples:</b></h5>
+            <p><b>Red/Read</b></p>
+            <h5 class="barlow">1 - Complete the sentences below with the appropriate word.</h5>
             <form id="unidade4pronunciation517" method="post">
-                <p><b>1</b> - I haven’t
-                <input type="text" name="pronunciation517-1" class="inputpequeno left-align" placeholder="Responda aqui" required>,
+                <p>
+                    1. I haven’t
+                    <input type="text" name="pronunciation517-1" class="inputpequeno left-align" placeholder="Responda aqui" required>,
                     The book you’re talking about.
                 </p>
-                <p><b>2</b> - Can I borrow a
+                <p>
+                    2. Can I borrow a
                     <input type="text" name="pronunciation517-2" class="inputpequeno left-align" placeholder="Responda aqui" required>,
                     Pencil?
                 </p>

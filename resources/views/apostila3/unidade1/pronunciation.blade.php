@@ -24,9 +24,9 @@
                 <p><b>Flew/Flu</b></p>
 				<h5 class="barlow">1 - Complete the sentences below with the appropriate word.</h5>
 				<form id="unidade1pronunciation501" method="post">					
-					<p>1 - I’ve had the<input type="text" name="pronunciation501-1" placeholder="Responda aqui" required> Since Monday.</p>
+					<p>1. I’ve had the<input type="text" name="pronunciation501-1" placeholder="Responda aqui" required> Since Monday.</p>
 					
-					<p>2 - The birds<input type="text" name="pronunciation501-2" placeholder="Responda aqui" required> to their nests.</p>
+					<p>2. The birds<input type="text" name="pronunciation501-2" placeholder="Responda aqui" required> to their nests.</p>
 
 					<input type="hidden" name="_token" value="{{csrf_token()}}">
 					<input type="hidden" name="resposta_id" value="0">

@@ -17,21 +17,21 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>                
-                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade5listening523" method="post">
                     <p>Hey Akira. There’s something 
-                    <input type="text" name="listening523-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening523-1" class="left-align" placeholder="Responda aqui" required>
                     with the video you sent me. I didn’t get the
-                    <input type="text" name="listening523-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    you <input type="text" name="listening523-3" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening523-2" class="left-align" placeholder="Responda aqui" required>
+                    you <input type="text" name="listening523-3" class="left-align" placeholder="Responda aqui" required>
                     to me, I tried to 
-                    <input type="text" name="listening523-4" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening523-4" class="left-align" placeholder="Responda aqui" required>
                     it and it didn’t work anyways. Could
-                    you call me <input type="text" name="listening523-5" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    you call me <input type="text" name="listening523-5" class="left-align" placeholder="Responda aqui" required>
                     you can to tell me what you 
-                    <input type="text" name="listening523-6" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening523-6" class="left-align" placeholder="Responda aqui" required>
                     mean with the message. By
-                    the way… What a <input type="text" name="listening523-7" class="inputpequeno left-align" placeholder="Responda aqui" required>.
+                    the way… What a <input type="text" name="listening523-7" class="left-align" placeholder="Responda aqui" required>.
                     Are you a doctor? rsrsrsrs</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
