@@ -15,23 +15,23 @@
                 <div class="metade">
                     <form id="unidade4understanding519" method="post">                    
                         <p>
-                            1 - Describe the steps of the course.<br>
+                            1 - How does Jake start the class?
                             <input type="text" name="understanding519-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 - Is it possible to start a project from scratch? Why?<br>
+                            2 - What do Akira and John say?
                             <input type="text" name="understanding519-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 - What happened aft er some Youtubers reached millions of followers?<br>
+                            3 - What does Laura remember?
                             <input type="text" name="understanding519-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 - When did Youtube creators decide to sell Youtube?<br>
+                            4 - What does Jake say about the Youtubers profile?
                             <input type="text" name="understanding519-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 - How much did Google pay for Youtube?<br>
+                            5 - What are they gonna talk in the next class?
                             <input type="text" name="understanding519-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

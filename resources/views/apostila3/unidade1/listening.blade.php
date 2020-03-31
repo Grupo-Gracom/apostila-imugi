@@ -20,16 +20,16 @@
                 <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                
                 <form id="unidade1listening502" method="post">                    
                     <p>Hey Jake, how’s it 
-                    <input type="text" name="listening502-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    ? Let me ask you something. Glenn <input type="text" name="listening502-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    <input type="text" name="listening502-3" class="inputpequeno left-align" placeholder="Responda aqui" required> That in
+                    <input type="text" name="listening502-1" class="left-align" placeholder="Responda aqui" required>
+                    ? Let me ask you something. Glenn 
+                    <input type="text" name="listening502-2" class="left-align" placeholder="Responda aqui" required> That in
                     the next class we’re gonna starting 
-                    <input type="text" name="listening502-4" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    details about how to <input type="text" name="listening502-5" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    a Youtube <input type="text" name="listening502-6" class="inputpequeno left-align" placeholder="Responda aqui" required>. 
+                    <input type="text" name="listening502-3" class="left-align" placeholder="Responda aqui" required>
+                    details about how to <input type="text" name="listening502-4" class="left-align" placeholder="Responda aqui" required>
+                    a Youtube <input type="text" name="listening502-5" class="left-align" placeholder="Responda aqui" required>. 
                     Is that true? Because if it is, I’ll rearrange my 
-                    <input type="text" name="listening502-7" class="inputpequeno left-align" placeholder="Responda aqui" required> cause
-                    tomorrow I’d have an <input type="text" name="listening502-8" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening502-6" class="left-align" placeholder="Responda aqui" required> cause
+                    tomorrow I’d have an <input type="text" name="listening502-7" class="left-align" placeholder="Responda aqui" required>
                     at time of the class.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

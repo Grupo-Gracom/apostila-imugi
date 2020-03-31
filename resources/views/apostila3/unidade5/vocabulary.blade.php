@@ -14,26 +14,28 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 29/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila2/UNIT 05/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<li><b>On the other hand</b></li>
-					<li><b>To deal with</b></li>					
-					<li><b>To be smashed</b></li>					
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>On the other hand</b></p></li>
+					<li><p><b>To deal with</b></p></li>					
+					<li><p><b>To be smashed</b></p></li>					
 				</ul>
 				
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>				
-				<ul class="lista-inline">
-					<li><b>To Make</b></li>
-					<li><b>Channel</b></li>
-					<li><b>Crucify</b></li>
-					<li><b>Appealing</b></li>
-					<li><b>Private</b></li>
-					<li><b>Haters</b></li>
-					<li><b>Criticize</b></li>								
-					<li><b>Side Effect</b></li>								
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>To Make</b></p></li>
+					<li><p><b>Channel</b></p></li>
+					<li><p><b>Crucify</b></p></li>
+					<li><p><b>Appealing</b></p></li>
+				</ul>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Private</b></p></li>
+					<li><p><b>Haters</b></p></li>
+					<li><p><b>Criticize</b></p></li>								
+					<li><p><b>Side Effect</b></p></li>								
 				</ul>
 			</div>
 		</div>

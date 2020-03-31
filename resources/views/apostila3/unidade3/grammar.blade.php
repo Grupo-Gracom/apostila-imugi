@@ -18,11 +18,15 @@
                 </audio> -->
                 <!-- nao tem audio ainda -->
                 <div class="clear"></div>
-                <p><b> EXPLAINING PROCEDURES: EXPRESSING SEQUENCE</b></p>
-                <p class="bordaVerde">Explaining Procedures = Giving instructions = Sequence of steps to be follow.</p>
+                <h5 class="barlow">A - EXPLAINING PROCEDURES: EXPRESSING SEQUENCE</p>
+                <figure>
+                    <img src="{{ asset('assets/img/masteroflanguage/unit3/grammar.png') }}" alt="mapa">
+                </figure>
+                <div class="clear"></div>
+                <p class="bordaVerde" style="margin-top:32px">Explaining Procedures = Giving instructions = Sequence of steps to be follow.</p>
 
-                <p><b>Expressions used to Express sequence:</b></p>
-                <div class="espacamentoesquerda3">
+                <h5 class="barlow"><b>Expressions used to Express sequence:</b></h5>
+                <div class="espacamento">
                     <p><b>First</b></p>
                     <p><b>Second</b></p>
                     <p><b>Third</b></p>
@@ -31,9 +35,8 @@
                     <p><b>After that/Afterwards, After</b></p>
                     <p><b>Finish by</b></p>
                     <p><b>Start by.</b></p>
-                </div>
-                                
-                <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
+                </div>    
+                <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES:</b></h5>
                 <p>Think of 2 different procedures and explain how to execute on them step by step.</p>
                 <p>Examples: Uploading a video on Youtube; Opening a Facebook account; uploading
                 a story on instagram.</p>
@@ -41,7 +44,7 @@
                 you can write about a different procedure. Be prepared to share your ideas.</p>              
                 <h5 class="barlow">Procedure 1</h5>
                 <form id="unidade3grammar510" method="post">
-                    <textarea name="grammar510-1" class="left-align" placeholder="Responda aqui" required></textarea>                    
+                    <textarea name="grammar510-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="3">
@@ -51,7 +54,7 @@
                 </form>                
                 <h5 class="barlow">Procedure 2</h5>
                 <form id="unidade3grammar511" method="post">
-                    <textarea name="grammar511-1" class="left-align" placeholder="Responda aqui" required></textarea>                    
+                    <textarea name="grammar511-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="3">

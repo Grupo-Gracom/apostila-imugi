@@ -15,21 +15,19 @@
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
-				</audio>												
-				
-				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 29/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<ul class="lista-inline">
-					<li><b>Promote</b></li>
-					<li><b>To Be Nuts</b></li>
-					<li><b>Brainstorm</b></li>
-					<li><b>Allow</b></li>
-					<li><b>Cheap</b></li>
-					<li><b>Irreverent</b></li>
-					<li><b>To Make</b></li>								
-					<li><b>Transmit</b></li>								
+				<h5 class="barlow" style="margin-top:16px">A - WORDS IN CONTEXT</h5>												
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>Promote</b></p></li>
+					<li><p><b>To Be Nuts</b></p></li>
+					<li><p><b>Brainstorm</b></p></li>
+					<li><p><b>Allow</b></p></li>
+				</ul>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>Cheap</b></p></li>
+					<li><p><b>Irreverent</b></p></li>
+					<li><p><b>To Make</b></p></li>								
+					<li><p><b>Transmit</b></p></li>								
 				</ul>
 			</div>
 		</div>

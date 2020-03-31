@@ -14,18 +14,21 @@
             <h5 class="barlow">4 - PRONUNCIATION</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila2/UNIT 05/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow">A – Homophones 5</h5>
-            <p class="espacamentoesquerda3">Examples: <b>Sale/Sail</b></p>
-            <h5 class="barlow">Complete the sentences below with the appropriate word.</h5>
+            <h5 class="barlow" style="margin-top:16px">A – Homophones 5</h5>
+            <h5 class="barlow"><b>Examples:</b></h5> 
+            <p><b>Sale/Sail</b></p>
+            <h5 class="barlow">1 - Complete the sentences below with the appropriate word.</h5>
             <form id="unidade5pronunciation522" method="post">
-                <p><b>1</b> - They set
-                <input type="text" name="pronunciation522-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                For New York Yesterday.
+                <p>
+                    1. They set
+                    <input type="text" name="pronunciation522-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    For New York Yesterday.
                 </p>
-                <p><b>2</b> - This house is not for
+                <p>
+                    2. This house is not for
                     <input type="text" name="pronunciation522-2" class="inputpequeno left-align" placeholder="Responda aqui" required>.
                 </p>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">

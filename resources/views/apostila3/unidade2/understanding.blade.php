@@ -41,6 +41,9 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
+                <figure>
+                    <img src="{{ asset('assets/img/masteroflanguage/unit2/understanding.png') }}" alt="rede social">
+                </figure>
 			</div>
 		</div>
     </main>

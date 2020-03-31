@@ -106,7 +106,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade audio:hover{box-shadow: 0px 5px 8px rgba(0, 0, 0, .15);}
 #unidade form {padding-left: 16px;box-sizing: border-box;margin-bottom: 26px;}
 #unidade form input[type="text"]{width: 150px;background-color: white;outline: none;border: 0;border-bottom: 1px solid #333;text-align: center;font-size: 18px;font-family: Arial, Helvetica, sans-serif !important;color: #7dc242;}
-#unidade form p .inputMedio{width: 360px;}
+#unidade form p .inputMedio{width: 300px;}
 #unidade form p .inputpequeno{width: 220px;}
 #unidade form p .quasefull{width: calc(90% - 8px);}
 #unidade form input[type="text"]:focus{border-bottom: 1px solid #7dc242;}
@@ -152,7 +152,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade20understanding56 form {padding-right: 26px;}
 .bordaSilples{border: solid 2px black; position: 16px; width: 55%; padding: 5px;}
 .bordaVerde{border: solid 2px #7dc242; display: inline-block; padding: 10px;}
-.contentVerde{background-color:#7dc242; position: 16px; display: inline-block; padding: 10px;}
+.contentVerde{background-color:#7dc242; display: inline-block; padding: 10px; color: white;}
 .marginCustomizada{margin-bottom: 3px;}
 .tabelaGramar11 {width: 60%;}
 .quadradoVerdeGrande p{background-color: #3bac44; color: black; display: inline-block; padding: 16px; font-size: 80px; width: 240px;} /* (joao) quadrado unidade 17 gramar apostila 2 */
@@ -202,6 +202,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 
     #unidade form button{width: 100%;}
     #unidade table.bordered.direita{width: 100% !important;}
+    #unidade form.espacamento, table{width: 100%; overflow-x: auto !important;}
 
     #unidade figure.umterco{width: calc(33.333% - 11px) !important;float:left !important; }
     #unidade figure.umquarto{width: calc(25% - 8px)!important;float:left !important;}
@@ -209,6 +210,7 @@ main .capas li.deactive img{filter: grayscale(1);}
     #unidade figure.umterco img{height: 110px;}
     #unidade figure.umquarto img{height: 70px;}
     #unidade figure.metade img{height: 130px;}
+    #unidade iframe.metade{height: 200px;}
     #unidade figure.metade{margin:5px;}
     #unidade .caixa{border: 1px solid #333;width: 100%;}
     #unidade form p .inputMedio{width: 268px;}

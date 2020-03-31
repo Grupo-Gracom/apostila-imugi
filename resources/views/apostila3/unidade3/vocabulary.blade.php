@@ -17,22 +17,25 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				
-				<p><b>Let’s start the game</b></p>										
+				<ul class="lista-inline upper">
+					<li><p><b>Let’s start the game</b></p></li>
+				</ul>
 				
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<ul class="lista-inline">
-					<li><b>Purpose</b></li>
-					<li><b>Phenomenon</b></li>
-					<li><b>Thought</b></li>
-					<li><b>Reaching</b></li>
-					<li><b>Creator</b></li>
-					<li><b>Players</b></li>
-					<li><b>Sold</b></li>								
-					<li><b>Causing</b></li>								
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>Purpose</b></p></li>
+					<li><p><b>Phenomenon</b></p></li>
+					<li><p><b>Thought</b></p></li>
+					<li><p><b>Reaching</b></p></li>
+				</ul>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>Creator</b></p></li>
+					<li><p><b>Players</b></p></li>
+					<li><p><b>Sold</b></p></li>								
+					<li><p><b>Causing</b></p></li>								
 				</ul>
 			</div>
 		</div>

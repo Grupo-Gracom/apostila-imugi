@@ -27,7 +27,7 @@
                             <input type="text" name="understanding503-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 - How did Jake get to know about the teaching positi on?<br>
+                            4 - How did Jake get to know about the teaching position?<br>
                             <input type="text" name="understanding503-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>

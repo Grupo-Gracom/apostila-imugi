@@ -17,10 +17,10 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow"> Listen to the audio and answer the questions below.</h5>
-                <h5 class="barlow">A - What’s the advice of the speaker about the content to be delivered.</h5>
+                <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and answer the questions below.</h5>
+                <p>What’s the advice of the speaker about the content to be delivered.</p>
                 <form id="unidade4listening518" method="post">
-                    <textarea name="listening518-1" class="left-align" placeholder="Responda aqui" required></textarea>                    
+                    <textarea name="listening518-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="4">

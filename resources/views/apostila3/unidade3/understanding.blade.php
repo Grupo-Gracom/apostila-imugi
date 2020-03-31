@@ -23,7 +23,7 @@
                             <input type="text" name="understanding514-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 - What happened aft er some Youtubers reached millions of followers?<br>
+                            3 - What happened after some Youtubers reached millions of followers?<br>
                             <input type="text" name="understanding514-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
@@ -41,6 +41,9 @@
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
+                <figure>
+                    <img src="{{ asset('assets/img/masteroflanguage/unit3/understanding.png') }}" alt="planos">
+                </figure>
 			</div>
 		</div>
     </main>

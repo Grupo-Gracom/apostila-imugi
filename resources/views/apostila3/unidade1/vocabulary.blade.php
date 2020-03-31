@@ -16,25 +16,25 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<li><b>To go on board</b></li>
-					<li><b>To be a joke</b></li>					
-					<li><b>To be kidding</b></li>					
+				<h5 class="barlow" style="margin-top:16px">A -  WORDS AND EXPRESSIONS</h5>
+				<ul class="lista-inline upper">
+					<li><p><b>To go on board</b></p></li>
+					<li><p><b>To be a joke</b></p></li>					
+					<li><p><b>To be kidding</b></p></li>					
 				</ul>
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>
-				<ul class="lista-inline">
-					<li><b>Gonna</b></li>
-					<li><b>Engage</b></li>
-					<li><b>Stuff</b></li>
-					<li><b>Brand</b></li>
-					<li><b>Became</b></li>
-					<li><b>Eager</b></li>
-					<li><b>Shooting</b></li>								
-					<li><b>Involved</b></li>								
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>Gonna</b></p></li>
+					<li><p><b>Engage</b></p></li>
+					<li><p><b>Stuff</b></p></li>
+					<li><p><b>Brand</b></p></li>
+					<li><p><b>Became</b></p></li>
+					<li><p><b>Eager</b></p></li>
+					<li><p><b>Shooting</b></p></li>								
+					<li><p><b>Involved</b></p></li>								
 				</ul>
 			</div>
 		</div>
