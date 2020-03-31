@@ -21,7 +21,7 @@
                 <h5 class="barlow">A - PASSIVE VOICE (2)</h5>
                 <p><b>USE</b></p>
 
-                <table class="espacamento center-align borderedfull">
+                <table class="espacamento left-align borderedfull">
                     <tr>
                         <td rowspan="3"><h5 class="barlow">Passive Voice</h5></td>
                     </tr>
@@ -119,9 +119,10 @@
                 </table>
 
                 <p style="margin-top:16px">Step 1: The object of the <b>active voice</b> becomes the subject of the <b>passive voice.</b></p>
-                <p>Step 2: Include the verb <b>To Be</b> conjugated in the same form as the main verb of the <b>active voice.</b></p>
-                <p>Step 3: Use the main verb in the <b>past participle.</b></p>
-                <p>Step 4: Use the subject of the <b>active voice</b> preceded by the preposition by (optional)</p>
+                <p><s>Step 2: Repeat the auxiliary verb (if there is one).</s></p>
+                <p>Step 3: Include the verb <b>To Be</b> conjugated in the same form as the main verb of the <b>active voice.</b></p>
+                <p>Step 4: Use the main verb in the <b>past participle.</b></p>
+                <p>Step 5: Use the subject of the <b>active voice</b> preceded by the preposition by (optional)</p>
 
                 <p style="margin-top:32px"><b>Passive voice: The video was sent by Laura.</b></p>
 
@@ -180,6 +181,7 @@
                 <p>Step 2: Repeat the auxiliary verb (if there is one).</p>
                 <p>Step 3: Include the verb <b>To Be</b> conjugated in the same form as the main verb of the <b>active voice</b>.</p>
                 <p>Step 4: Use the main verb in the <b>past participle</b>.</p>
+                <p><s>Step 5: Use the subject of the active voice preceded by the preposition by (optional)</s></p> 
 
                 <p><b>Passive voice: The new room is being painted.</b></p>
 
@@ -209,9 +211,9 @@
 
                 <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
                 <h5 class="barlow">1 - Look at the Hotel Information table and write sentences as in the example:</h5>
-                <table class="espacamento center-align borderedfull">
+                <table class="espacamento left-align borderedfull">
                     <tr>
-                        <td colspan="2"><h5 class="barlow">Hotel Information</td>
+                        <td colspan="2"><h5 class="barlow center-align">Hotel Information</td>
                     </tr>
                     <tr> 
                         <td>

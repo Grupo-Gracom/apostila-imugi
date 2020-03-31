@@ -30,6 +30,8 @@
 				<li>
 					<p><b>Whole</b></p>
 				</li>
+			</ul>
+			<ul class="lista-inline upper" style="margin-top: 16px">
 				<li>
 					<p><b>To Promise</b></p>
 				</li>

@@ -49,8 +49,9 @@
                     and the project became a reality. Many students around the world are reached by
                     this idea. The classes are now being translated into many different languages, so
                     more people from non-speaking English countries can access the classes as well.
-                    Students & Jake: Great Laura. Nice contribution.
+                    
                 </p>
+                <p><b>Students & Jake :</b> Great Laura. Nice contribution.
                 <p>
                     <b>Jake :</b> Isn’t it fantastic to know that there are many nice things happening in the world
                     because of technology?

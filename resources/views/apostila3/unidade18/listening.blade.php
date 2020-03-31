@@ -19,7 +19,7 @@
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and answer the questions below.</h5>
             <form id="unidade18listening594" method="post">
-                <p>1 - What’s the main objective of the new Digital marketing geniuses?</p>
+                <p>1. What’s the main objective of the new Digital marketing geniuses?</p>
                 <textarea name="listening594-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                 <div class="clear"></div>

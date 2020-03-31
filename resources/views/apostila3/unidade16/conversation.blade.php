@@ -49,8 +49,7 @@
                 </p>
                 <p>
                     <b>Jake :</b> Congratulations guys. You guys have really understood how to make a difference
-                    on the Web. I’m proud of you.
-                    (to be continued)
+                    on the Web. I’m proud of you. (to be continued)
                 </p>
 			<div style="margin-top: 36px">
 				<figure>

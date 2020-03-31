@@ -30,7 +30,7 @@
                     <b>Jake :</b> Sorry guys, It was over. We ate the whole cake in two hours. I promise I’ll bring
                     some for you next time ok. Let’s start the class.
                 </p>
-                <p>Students: Yes.</p>
+                <p><b>Students :</b> Yes.</p>
                 <p>
                     <b>Laura :</b> Teacher, I was at home just relaxing as well, and while I was on the net I saw
                     a book called “Business Model You”. This book was written by a guy who developed
