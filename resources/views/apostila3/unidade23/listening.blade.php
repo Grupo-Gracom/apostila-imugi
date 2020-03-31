@@ -28,7 +28,7 @@
                     <input type="text" name="listening675-6" placeholder="Responda aqui" required /> society. Internet has
                     <input type="text" name="listening675-7" placeholder="Responda aqui" required /> this characteristic 
                     <input type="text" name="listening675-8" placeholder="Responda aqui" required /> common people like you and me to 
-                    <input type="text" name="listening675-9" placeholder="Responda aqui" required /> and “show our true colors”. (Benett on Slogan)
+                    <input type="text" name="listening675-9" placeholder="Responda aqui" required /> and “show our true colors”. (Benetton Slogan)
                 </p>
 
                 <div class="clear"></div>

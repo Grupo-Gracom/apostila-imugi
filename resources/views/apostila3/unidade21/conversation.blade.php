@@ -25,7 +25,7 @@
                     When I arrived home, I checked all the sites we talked about.
                 </p>
                 <p>
-                    Jake :</b> Did you like them John?
+                    <b>Jake :</b> Did you like them John?
                     </p>
                 <p>
                     <b>John :</b> I loved them! Now, the problem is to decide what course to take first. I was
@@ -44,8 +44,8 @@
                 <p>
                     <b>John :</b> Yes, and he reported that the quality of the course was awesome. After this
                     online course, he didn’t have to take another one.
-                    Students: Wow. Great.
                 </p>
+                <p><b>Students :</b> Wow. Great.</p>
                 <p>
                     <b>Jake :</b> Sometimes, we got surprised with the quality of some products. That’s the power of the web. 
                     Freedom to choose what’s the best for you. (To be continued)

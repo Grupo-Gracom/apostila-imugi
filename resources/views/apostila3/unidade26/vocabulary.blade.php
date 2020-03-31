@@ -30,6 +30,8 @@
 				<li>
 					<p><b>Changes</b></p>
 				</li>
+			</ul>
+			<ul class="lista-inline upper" style="margin-top: 16px">
 				<li>
 					<p><b>Along</b></p>
 				</li>

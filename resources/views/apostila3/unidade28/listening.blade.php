@@ -19,7 +19,7 @@
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the question below.</h5>
             <form id="unidade28listening696" method="post">
-                <p>What’s necessary to carry out a project until its completion?</p>
+                <p>1. What’s necessary to carry out a project until its completion?</p>
                 <textarea name="listening696-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                 <div class="clear"></div>

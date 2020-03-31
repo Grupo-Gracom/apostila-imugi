@@ -19,8 +19,6 @@
             <div class="clear"></div>
             <div style="margin-top: 16px">
                 <h5 class="barlow">A - ARGUMENTATIVE STRATEGIES (1)</h5>
-                <p><b>Changing Pronouns</b></p>
-
                 <table class="espacamento left-align borderedfull">
                     <tr>
                         <td rowspan="5"><h5 class="barlow">Argumentation</h5></td>
@@ -100,11 +98,6 @@
                     <input type="hidden" name="atividade_id" value="686">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                
-                <figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit26/grammar.png') }}" alt="almoço em família">
-                </figure>
-                <div class="clear"></div>
             </div>
         </div>
 </main>

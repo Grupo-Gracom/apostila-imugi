@@ -19,7 +19,7 @@
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the question below.</h5>
             <form id="unidade22listening672" method="post">
-                <p>1 - What’s the importance of creati ng an Avatar?</p>
+                <p>1. What’s the importance of creating an Avatar?</p>
                 <textarea name="listening672-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                 <div class="clear"></div>

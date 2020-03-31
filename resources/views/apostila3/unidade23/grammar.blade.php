@@ -20,7 +20,7 @@
             <div style="margin-top: 16px">
                 <h5 class="barlow">A - REPORTED SPEECH (3) – Reporting Imperatives.</h5>
 
-                <table class="espacamento center-align borderedfull">
+                <table class="espacamento left-align borderedfull">
                     <tr>
                         <td rowspan="3"><h5 class="barlow">Reported Speech</h5></td>
                     </tr>
@@ -33,10 +33,10 @@
                     </tr>
                 </table>
 
-                <table class="espacamento center-align bordered" style="margin-top:32px">
+                <table class="espacamento left-align bordered" style="margin-top:32px">
                     <tr>
-                        <td><h5 class="barlow">DIRECT SPEECH</td>
-                        <td><h5 class="barlow">REPORTED SPEECH</td>
+                        <td><h5 class="barlow center-align">DIRECT SPEECH</td>
+                        <td><h5 class="barlow center-align">REPORTED SPEECH</td>
                     </tr>
                     <tr class="bordered">
                         <td><p><b>Jake :</b> John, <b>call</b> Akira. He needs help.</p></td>
@@ -54,11 +54,11 @@
 
                 <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
                 <h5 class="barlow" style="margin-top:32px">1 - Imperatives:</h5>
-                <h5 class="barlow" style="margin-top:16px"><b>Examples</b></h5>
+                <h5 class="barlow" style="margin-top:16px"><b>Examples:</b></h5>
                 <p><b>* The teacher always says to us, “Study very hard.”</b></p>
-                <p><b>The teacher always tells us TO study hard.</b></p>
+                <p><b>The teacher always tells us <u>TO study hard.</u></b></p>
                 <p style="margin-top:32px"><b>* The teacher says, “Don’t talk in the class.”</b></p>
-                <p><b>The teacher tells us NOT TO talk in the class</b></p>
+                <p><b>The teacher tells us <u>NOT TO talk in the class.</u></b></p>
                     
                 <h5 class="barlow"><b>Do the same:</b></h5>
                 

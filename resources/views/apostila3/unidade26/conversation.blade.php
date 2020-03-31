@@ -58,11 +58,15 @@
                     what I want. (to be continued)
                 </p>
             </p>
-			<div style="margin-top: 36px">
-				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit26/conversation.png') }}" alt="eletrônicos">
-				</figure>
-			</div>
+            <figure class="umterco">
+                <img src="{{ asset('assets/img/masteroflanguage/unit26/conversation1.png') }}" alt="eletrônicos">
+            </figure>
+            <figure class="umterco">
+                <img src="{{ asset('assets/img/masteroflanguage/unit26/conversation2.png') }}" alt="eletrônicos">
+            </figure>
+            <figure class="umterco">
+                <img src="{{ asset('assets/img/masteroflanguage/unit26/conversation3.png') }}" alt="eletrônicos">
+            </figure>
 		</div>
 	</div>
 </main>
