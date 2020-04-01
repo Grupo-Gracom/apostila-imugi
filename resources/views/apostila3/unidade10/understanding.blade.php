@@ -15,23 +15,23 @@
                 <div class="metade">
                     <form id="unidade9understanding551" method="post">                    
                         <p>
-                            1 - What’s Akira thoughtf ul about?<br>
+                            1 - According to Jake, what is there behind the use of social media?<br>
                             <input type="text" name="understanding551-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 - What does Laura say about it?<br>
+                            2 - How did the students react when they got to know these new concepts?<br>
                             <input type="text" name="understanding551-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 - What is john thinking about doing?<br>
+                            3 - Is Jake gonna explore the new concepts? Why?<br>
                             <input type="text" name="understanding551-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 - What do they expect to do by the end of the course?<br>
+                            4 - Where can students fi nd more informati on on the new concepts?<br>
                             <input type="text" name="understanding551-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 - What about you? What’s your expectati on with the course?<br>
+                            5 - Did you know anything about these new concepts? What’s your opinion about them?<br>
                             <input type="text" name="understanding551-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

@@ -154,134 +154,144 @@
             <p>(*) It’s possible to create different expressions using <b>HOW + ADJECTIVE.</b> The meaning is
             gonna be related to the adjecti ve meaning. <b>Examples: How far, How deep, How crazy, How
             heavy, How beauti ful , etc.</b></p>
-            <h5 class="barlow">A</h5>
-            <form id="unidade9grammar544" method="post">
-                <p>1 - How oft en do you
-                   2 - How oft en do you
-                   3 - How oft en you do</p>
+            <h5 class="barlow">A)</h5>
+            <form id="unidade9grammar552" method="post">
+                <ul class="lista-inline">					
+                    <li><p><b>1 - How oft en do you</b></p></li>
+                    <li><p><b>2 - How oft en do you</b></p></li>
+                    <li><p><b>3 - How oft en you do</b></p></li>
+                </ul>
 
-                <p>”<input type="text" name="grammar544-1" class="inputpequeno left-align" placeholder="Responda aqui" required> exercise?”</p>
+                <p>”<input type="text" name="grammar552-1" class="inputpequeno left-align" placeholder="Responda aqui" required> exercise?”</p>
                 <p>“About three times a week.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="9">
-                <input type="hidden" name="atividade_id" value="544">
+                <input type="hidden" name="unidade_id" value="10">
+                <input type="hidden" name="atividade_id" value="552">
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">B</h5>
-            <form id="unidade9grammar545" method="post">
-                <p>1 - Why did you
-                   2 - Why you did
-                   3 - Why you.</p>
-
-                <p>”<input type="text" name="grammar545-1" class="inputpequeno left-align" placeholder="Responda aqui" required>  quit your job?”</p>
+            <h5 class="barlow">B)</h5>
+            <form id="unidade9grammar553" method="post">
+                <ul class="lista-inline">					
+                    <li><p><b>1 - Why did you</b></p></li>
+                    <li><p><b>2 - Why you did</b></p></li>
+                    <li><p><b>3 - Why you.</b></p></li>
+                </ul>
+                <p>”<input type="text" name="grammar553-1" class="inputpequeno left-align" placeholder="Responda aqui" required>  quit your job?”</p>
                 <p>“I wanted to look for some better career opportunities elsewhere.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="9">
-                <input type="hidden" name="atividade_id" value="545">
+                <input type="hidden" name="unidade_id" value="10">
+                <input type="hidden" name="atividade_id" value="553">
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">C</h5>
-            <form id="unidade9grammar546" method="post">
-                <p>1 - What are Shirley and Dana
-                   2 - What Shirley and Dana is
-                   3 - What do Shirley and Dana</p>
-
-                <p>”<input type="text" name="grammar546-1" class="inputpequeno left-align" placeholder="Responda aqui" required> working on?”</p>
+            <h5 class="barlow">C)</h5>
+            <form id="unidade9grammar554" method="post">
+                <ul class="lista-inline">					
+                    <li><p><b>1 - What are Shirley and Dana</b></p></li>
+                    <li><p><b>2 - What Shirley and Dana is</b></p></li>
+                    <li><p><b>3 - What do Shirley and Dana</b></p></li>
+                </ul>                
+                <p>”<input type="text" name="grammar554-1" class="inputpequeno left-align" placeholder="Responda aqui" required> working on?”</p>
                 <p>“It looks like they’re preparing a presentation.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="9">
-                <input type="hidden" name="atividade_id" value="546">
+                <input type="hidden" name="unidade_id" value="10">
+                <input type="hidden" name="atividade_id" value="554">
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">D</h5>
-            <form id="unidade9grammar547" method="post">
-                <p>1 - What were your mother
-                   2 - What your mother was
-                   3 - What was your mother</p>
-
-                <p>”<input type="text" name="grammar544-1" class="inputpequeno left-align" placeholder="Responda aqui" required>  making? It smelled delicious?”</p>
+            <h5 class="barlow">D)</h5>
+            <form id="unidade9grammar555" method="post">
+                <ul class="lista-inline">					
+                    <li><p><b>1 - What were your mother</b></p></li>
+                    <li><p><b>2 - What your mother was</b></p></li>
+                    <li><p><b>3 - What was your mother</b></p></li>
+                </ul>
+                <p>”<input type="text" name="grammar555-1" class="inputpequeno left-align" placeholder="Responda aqui" required>  making? It smelled delicious?”</p>
                 <p>“Her famous chicken soup! You’re welcome to join us for dinner later tonight.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="9">
-                <input type="hidden" name="atividade_id" value="547">
+                <input type="hidden" name="unidade_id" value="10">
+                <input type="hidden" name="atividade_id" value="555">
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">E</h5>
-            <form id="unidade9grammar548" method="post">
-                <p>1 - How much countries you
-                   2 - How many countries Have you
-                   3 - What countries you have</p>
-
-                <p>”<input type="text" name="grammar548-1" class="inputpequeno left-align" placeholder="Responda aqui" required>  been to?”</p>
+            <h5 class="barlow">E)</h5>
+            <form id="unidade9grammar556" method="post">
+                <ul class="lista-inline">					
+                    <li><p><b>1 - How much countries you</b></p></li>
+                    <li><p><b>2 - How many countries Have you</b></p></li>
+                    <li><p><b>3 - What countries you have</b></p></li>
+                </ul>
+                <p>”<input type="text" name="grammar556-1" class="inputpequeno left-align" placeholder="Responda aqui" required>  been to?”</p>
                 <p>“Four - Mexico, Argenti na, Uruguay, and Chile.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="9">
-                <input type="hidden" name="atividade_id" value="548">
+                <input type="hidden" name="unidade_id" value="10">
+                <input type="hidden" name="atividade_id" value="556">
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">F</h5>
-            <form id="unidade9grammar549" method="post">
-                <p>1 - Where are you
-                   2 - When you will
-                   3 - When will you</p>
-                <p>”<input type="text" name="grammar549-1" class="inputpequeno left-align" placeholder="Responda aqui" required> send me the file”</p>
+            <h5 class="barlow">F)</h5>
+            <form id="unidade9grammar557" method="post">
+                <ul class="lista-inline">					
+                    <li><p><b>1 - Where are you</b></p></li>
+                    <li><p><b>2 - When you will</b></p></li>
+                    <li><p><b>3 - When will you</b></p></li>
+                </ul>
+                <p>”<input type="text" name="grammar557-1" class="inputpequeno left-align" placeholder="Responda aqui" required> send me the file”</p>
                 <p>“By tomorrow afternoon at the latest.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="9">
-                <input type="hidden" name="atividade_id" value="549">
+                <input type="hidden" name="unidade_id" value="10">
+                <input type="hidden" name="atividade_id" value="557">
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">G</h5>
-            <form id="unidade9grammar550" method="post">
-                <p>1 - Where are we
-                   2 - Where we
-                   3 - Where will we</p>
-
-                <p>”<input type="text" name="grammar550-1" class="inputpequeno left-align" placeholder="Responda aqui" required>  going to put all these books? There’s no space in the office.”</p>
+            <h5 class="barlow">G)</h5>
+            <form id="unidade9grammar558" method="post">
+                <ul class="lista-inline">					
+                    <li><p><b>1 - Where are we</b></p></li>
+                    <li><p><b>2 - Where we</b></p></li>
+                    <li><p><b>3 - Where will we</b></p></li>
+                </ul>
+                <p>”<input type="text" name="grammar558-1" class="inputpequeno left-align" placeholder="Responda aqui" required>  going to put all these books? There’s no space in the office.”</p>
                 <p>“Let’s see if we can store them in the basement for now.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="9">
-                <input type="hidden" name="atividade_id" value="550">
+                <input type="hidden" name="unidade_id" value="10">
+                <input type="hidden" name="atividade_id" value="558">
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">H</h5>
-            <form id="unidade9grammar551" method="post">
-                <p>1 - Why someone
-                   2 - Why would anyone
-                   3 - Why anyone does</p>
-
-                <p>”<input type="text" name="grammar551-1" class="inputpequeno left-align" placeholder="Responda aqui" required> want to pay $1000 for a watch?”</p>
+            <h5 class="barlow">H)</h5>
+            <form id="unidade9grammar559" method="post">
+                <ul class="lista-inline">					
+                    <li><p><b>1 - Why someone</b></p></li>
+                    <li><p><b>2 - Why would anyone</b></p></li>
+                    <li><p><b>3 - Why anyone does</b></p></li>
+                </ul>
+                <p>”<input type="text" name="grammar559-1" class="inputpequeno left-align" placeholder="Responda aqui" required> want to pay $1000 for a watch?”</p>
                 <p>“Maybe because it’s a status symbol.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
-                <input type="hidden" name="unidade_id" value="9">
-                <input type="hidden" name="atividade_id" value="551">
+                <input type="hidden" name="unidade_id" value="10">
+                <input type="hidden" name="atividade_id" value="559">
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
             <h5 class="barlow"> In pairs or trios, pretend you are going to interview a famous Youtuber. Prepare a
             questionnaire with 5 yes/no questi ons and 5 Content questions. Be ready to answer some
             questions as well.</h5>
-            <form id="unidade1grammar552" method="post">
-                    <textarea name="grammar500-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
+            <form id="unidade1grammar560" method="post">
+                    <textarea name="grammar560-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="552">
+                    <input type="hidden" name="unidade_id" value="10">
+                    <input type="hidden" name="atividade_id" value="560">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>            
@@ -296,89 +306,151 @@
         checkAtividade(atividade_id);
     });
     
-    $("#unidade9grammar544").submit(function(e){
+    $("#unidade10grammar552").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade9grammar544 input[type="text"]').each(function(index){
-                if(($('#unidade9grammar544 input[type="text"]').length - 1) == index){
+            $('#unidade10grammar552 input[type="text"]').each(function(index){
+                if(($('#unidade10grammar552 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade9grammar544 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade9grammar544'), respostas);
+            if($('#unidade10grammar552 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade10grammar552'), respostas);
             }else{
-                enviarAtividade($('#unidade9grammar544'), respostas);
+                enviarAtividade($('#unidade10grammar552'), respostas);
             }
         });
-    $("#unidade9grammar545").submit(function(e){
+    $("#unidade10grammar553").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade9grammar545 input[type="text"]').each(function(index){
-                if(($('#unidade9grammar545 input[type="text"]').length - 1) == index){
+            $('#unidade10grammar553 input[type="text"]').each(function(index){
+                if(($('#unidade10grammar553 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade9grammar545 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade9grammar545'), respostas);
+            if($('#unidade10grammar553 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade10grammar553'), respostas);
             }else{
-                enviarAtividade($('#unidade9grammar545'), respostas);
+                enviarAtividade($('#unidade10grammar553'), respostas);
             }
         });
-    $("#unidade9grammar546").submit(function(e){
+    $("#unidade10grammar554").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade9grammar546 input[type="text"]').each(function(index){
-                if(($('#unidade9grammar546 input[type="text"]').length - 1) == index){
+            $('#unidade10grammar554 input[type="text"]').each(function(index){
+                if(($('#unidade10grammar554 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade9grammar546 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade9grammar546'), respostas);
+            if($('#unidade10grammar554 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade10grammar554'), respostas);
             }else{
-                enviarAtividade($('#unidade9grammar546'), respostas);
+                enviarAtividade($('#unidade10grammar554'), respostas);
             }
         });
-    $("#unidade9grammar547").submit(function(e){
+    $("#unidade10grammar555").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade9grammar547 input[type="text"]').each(function(index){
-                if(($('#unidade9grammar547 input[type="text"]').length - 1) == index){
+            $('#unidade10grammar555 input[type="text"]').each(function(index){
+                if(($('#unidade10grammar555 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade9grammar547 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade9grammar547'), respostas);
+            if($('#unidade10grammar555 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade10grammar555'), respostas);
             }else{
-                enviarAtividade($('#unidade9grammar547'), respostas);
+                enviarAtividade($('#unidade10grammar555'), respostas);
             }
         });
-    $("#unidade9grammar548").submit(function(e){
+    $("#unidade10grammar556").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade9grammar548 input[type="text"]').each(function(index){
-                if(($('#unidade9grammar548 input[type="text"]').length - 1) == index){
+            $('#unidade10grammar556 input[type="text"]').each(function(index){
+                if(($('#unidade10grammar556 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade9grammar548 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade9grammar548'), respostas);
+            if($('#unidade10grammar556 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade10grammar556'), respostas);
             }else{
-                enviarAtividade($('#unidade9grammar548'), respostas);
+                enviarAtividade($('#unidade10grammar556'), respostas);
+            }
+        });
+    $("#unidade10grammar557").submit(function(e){
+            e.preventDefault();
+            $(this).find('button').prop('disabled', true);
+            var respostas = '{';
+            $('#unidade10grammar557 input[type="text"]').each(function(index){
+                if(($('#unidade10grammar557 input[type="text"]').length - 1) == index){
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
+                }else{
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
+                }
+            });
+            if($('#unidade10grammar557 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade10grammar557'), respostas);
+            }else{
+                enviarAtividade($('#unidade10grammar557'), respostas);
+            }
+        });
+    $("#unidade10grammar558").submit(function(e){
+            e.preventDefault();
+            $(this).find('button').prop('disabled', true);
+            var respostas = '{';
+            $('#unidade10grammar558 input[type="text"]').each(function(index){
+                if(($('#unidade10grammar558 input[type="text"]').length - 1) == index){
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
+                }else{
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
+                }
+            });
+            if($('#unidade10grammar558 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade10grammar558'), respostas);
+            }else{
+                enviarAtividade($('#unidade10grammar558'), respostas);
+            }
+        });
+    $("#unidade10grammar559").submit(function(e){
+            e.preventDefault();
+            $(this).find('button').prop('disabled', true);
+            var respostas = '{';
+            $('#unidade10grammar559 input[type="text"]').each(function(index){
+                if(($('#unidade10grammar559 input[type="text"]').length - 1) == index){
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
+                }else{
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
+                }
+            });
+            if($('#unidade10grammar559 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade10grammar559'), respostas);
+            }else{
+                enviarAtividade($('#unidade10grammar559'), respostas);
+            }
+        });
+
+        $("#unidade1grammar560").submit(function(e){
+            e.preventDefault();
+            $(this).find('button').prop('disabled', true);
+            var respostas = '{"'+$('#unidade1grammar560 textarea').attr("name")+'":"'+$('#unidade1grammar560 textarea').val()+'"}';
+            if($('#unidade1grammar560 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade1grammar560'), respostas);
+            }else{
+                enviarAtividade($('#unidade1grammar560'), respostas);
             }
         });
 
@@ -399,15 +471,15 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade9grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
-                    $('#unidade9grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade9grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
-                    $('#unidade9grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
-                    $('#unidade9grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade10grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
+                    $('#unidade10grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade10grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+                    $('#unidade10grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
+                    $('#unidade10grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
 
                 }
-                $('#unidade9grammar' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
-                $('#unidade9grammar' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                $('#unidade10grammar' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
+                $('#unidade10grammar' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
             }
         });
     }
