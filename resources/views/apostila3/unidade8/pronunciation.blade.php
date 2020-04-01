@@ -17,17 +17,17 @@
                 <source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow">A – Homophones 8</h5>
-            <p class="espacamentoesquerda3">Examples: <b>Right/Write</b></p>
-            <h5 class="barlow">Complete the sentences below with the appropriate word.</h5>
+            <h5 class="barlow" style="margin-top:16px">A – Homophones 8</h5>
+            <h5 class="barlow"><b>Examples:</b></h5> 
+            <p><b>Right/Write</b></p>
+            <h5 class="barlow">1 - Complete the sentences below with the appropriate word.</h5>
             <form id="unidade8pronunciation541" method="post">
-                <p><b>1</b> - Jeremy broke his
-                <input type="text" name="pronunciation541-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                Leg and was taken to the hospital.</p>
-                <p><b>2</b> - I used a blue pen to
-                    <input type="text" name="pronunciation541-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    The letter.
+                <p>
+                    1. Jeremy broke his <input type="text" name="pronunciation541-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    Leg and was taken to the hospital.
                 </p>
+                <p>2. I used a blue pen to <input type="text" name="pronunciation541-2" class="inputpequeno left-align" placeholder="Responda aqui" required> The letter.</p>
+                
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="8">

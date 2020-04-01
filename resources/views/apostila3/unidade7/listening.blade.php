@@ -17,30 +17,35 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>                
-                <h5 class="barlow">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
+                <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade7listening535" method="post">
-                    <p>A simple idea can <input type="text" name="listening535-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <p>A simple idea can <input type="text" name="listening535-1"  placeholder="Responda aqui" required>
                     people’s minds. Nobody could imagine the
-                    <input type="text" name="listening535-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening535-2"  placeholder="Responda aqui" required>
                     of Youtube, Facebook, Instagram 
-                    <input type="text" name="listening535-3" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    years ago. Empires are being <input type="text" name="listening535-4" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    based on the use of this <input type="text" name="listening535-5" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    . For both<input type="text" name="listening535-6" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening535-3"  placeholder="Responda aqui" required>
+                    years ago. Empires are being <input type="text" name="listening535-4"  placeholder="Responda aqui" required>
+                    based on the use of this <input type="text" name="listening535-5"  placeholder="Responda aqui" required>
+                    . For both<input type="text" name="listening535-6"  placeholder="Responda aqui" required>
                     celebrities and famous and extravagant artists, the use of social media has made a 
-                    <input type="text" name="listening535-7" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening535-7"  placeholder="Responda aqui" required>
                     difference in the way people pursuit success. A good 
-                    <input type="text" name="listening535-8" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening535-8"  placeholder="Responda aqui" required>
                     of that is the rise of Justi n Bieber as one of the most
-                    <input type="text" name="listening535-9" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    artists who started a <input type="text" name="listening535-10" class="inputpequeno left-align" placeholder="Responda aqui" required> on Youtube.</p>
+                    <input type="text" name="listening535-9"  placeholder="Responda aqui" required>
+                    artists who started a <input type="text" name="listening535-10"  placeholder="Responda aqui" required> on Youtube.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="7">
                     <input type="hidden" name="atividade_id" value="535">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                                
+                </form>
+                <div style="margin-top: 36px">   
+                    <figure>
+                        <img src="{{ asset('assets/img/masteroflanguage/unit7/listening.jpg') }}" alt="pintura antiga">
+                    </figure>     
+                </div>                        
             </div>
 		</div>
     </main>

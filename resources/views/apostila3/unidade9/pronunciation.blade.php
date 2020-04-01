@@ -17,15 +17,14 @@
                 <source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow">A – Homophones 9</h5>
-            <p class="espacamentoesquerda3">Examples: <b>One/Won</b></p>
-            <h5 class="barlow">Complete the sentences below with the appropriate word.</h5>
+            <h5 class="barlow" style="margin-top:16px">A – Homophones 9</h5>
+            <h5 class="barlow"><b>Examples:</b></h5> 
+            <p><b>One/Won</b></p>
+            <h5 class="barlow">1 - Complete the sentences below with the appropriate word.</h5>
             <form id="unidade9pronunciation549" method="post">
-                <p><b>1</b> - I’m the tallest
-                <input type="text" name="pronunciation549-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                In the class.</p>
-                <p><b>2</b> - I
-                    <input type="text" name="pronunciation549-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                <p>1. I’m the tallest <input type="text" name="pronunciation549-1" class="inputpequeno left-align" placeholder="Responda aqui" required> In the class.</p>
+                <p>
+                    2. I <input type="text" name="pronunciation549-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
                     an award for getting top marks in the class.
                 </p>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">

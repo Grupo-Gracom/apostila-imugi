@@ -18,30 +18,34 @@
 				</audio>
 				
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<li><b>What’s your take on…</b></li>
-					<li><b>To be supposed to</b></li>		
+				<ul class="lista-inline upper">
+					<li><p><b>What’s your take on…</b></p></li>
+					<li><p><b>To be supposed to</b></p></li>		
 				</ul>				
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>				
-				<ul class="lista-inline">
-					<li><b>Pop up</b></li>
-					<li><b>No matter</b></li>
-					<li><b>Achieve</b></li>
-					<li><b>Add</b></li>
-					<li><b>Gathering</b></li>
-					<li><b>Dive into</b></li>
-					<li><b>Entertain</b></li>								
-					<li><b>Encouragement</b></li>								
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Pop up</b></p></li>
+					<li><p><b>No matter</b></p></li>
+					<li><p><b>Achieve</b></p></li>
+					<li><p><b>Add</b></p></li>
 				</ul>
-				<ul class="lista-inline">
-					<li><b>Frustration</b></li>
-					<li><b>Follow</b></li>
-					<li><b>Contribute</b></li>
-					<li><b>might</b></li>
-					<li><b>Authentic</b></li>
-					<li><b>Showing</b></li>
-					<li><b>Evolution</b></li>								
-					<li><b>Underlying</b></li>								
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Gathering</b></p></li>
+					<li><p><b>Dive into</b></p></li>
+					<li><p><b>Entertain</b></p></li>								
+					<li><p><b>Encouragement</b></p></li>								
+				</ul>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Frustration</b></p></li>
+					<li><p><b>Follow</b></p></li>
+					<li><p><b>Contribute</b></p></li>
+					<li><p><b>might</b></p></li>
+				</ul>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Authentic</b></p></li>
+					<li><p><b>Showing</b></p></li>
+					<li><p><b>Evolution</b></p></li>								
+					<li><p><b>Underlying</b></p></li>								
 				</ul>
 			</div>
 		</div>

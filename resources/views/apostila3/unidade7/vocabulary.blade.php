@@ -18,20 +18,22 @@
 				</audio>
 				
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS AND EXPRESSIONS</h5>
-				<ul class="lista-inline">
-					<li><b>Fasten your seat belt</b></li>
-					<li><b>To be kidding</b></li>		
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Fasten your seat belt</b></p></li>
+					<li><p><b>To be kidding</b></p></li>		
 				</ul>				
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>				
-				<ul class="lista-inline">
-					<li><b>Dive into</b></li>
-					<li><b>Take off</b></li>
-					<li><b>Adhered</b></li>
-					<li><b>Employee</b></li>
-					<li><b>Broadcast</b></li>
-					<li><b>Owner</b></li>
-					<li><b>huge</b></li>								
-					<li><b>Hit</b></li>								
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Dive into</b></p></li>
+					<li><p><b>Take off</b></p></li>
+					<li><p><b>Adhered</b></p></li>
+					<li><p><b>Employee</b></p></li>
+				</ul>
+				<ul class="lista-inline upper" style="margin-top: 16px">
+					<li><p><b>Broadcast</b></p></li>
+					<li><p><b>Owner</b></p></li>
+					<li><p><b>huge</b></p></li>								
+					<li><p><b>Hit</b></p></li>								
 				</ul>
 			</div>
 		</div>

@@ -23,7 +23,7 @@
                             <input type="text" name="understanding543-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 - What’s positi ve about using Youtube?<br>
+                            3 - What’s positive about using Youtube?<br>
                             <input type="text" name="understanding543-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>

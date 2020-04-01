@@ -15,7 +15,7 @@
                 <div class="metade">
                     <form id="unidade9understanding551" method="post">                    
                         <p>
-                            1 - What’s Akira thoughtf ul about?<br>
+                            1 - What’s Akira thoughtful about?<br>
                             <input type="text" name="understanding551-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>

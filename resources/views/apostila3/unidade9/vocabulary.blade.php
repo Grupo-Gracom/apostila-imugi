@@ -18,15 +18,17 @@
 				</audio>		
 								
 				<h5 class="barlow" style="margin-top: 16px">A -  WORDS IN CONTEXT</h5>				
-				<ul class="lista-inline">
-					<li><b>Thoughtful</b></li>
-					<li><b>Concerned</b></li>
-					<li><b>Feeling</b></li>
-					<li><b>Frightens</b></li>
-					<li><b>Resonate</b></li>
-					<li><b>Spending</b></li>
-					<li><b>Leadership</b></li>								
-					<li><b>To plan</b></li>								
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>Thoughtful</b></p></li>
+					<li><p><b>Concerned</b></p></li>
+					<li><p><b>Feeling</b></p></li>
+					<li><p><b>Frightens</b></p></li>
+				</ul>
+				<ul class="lista-inline upper" style="margin-top:16px">
+					<li><p><b>Resonate</b></p></li>
+					<li><p><b>Spending</b></p></li>
+					<li><p><b>Leadership</b></p></li>								
+					<li><p><b>To plan</b></p></li>								
 				</ul>
 			</div>
 		</div>

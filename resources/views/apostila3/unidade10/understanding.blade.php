@@ -13,31 +13,31 @@
 				<h3 class="barlow">UNIT 10</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <div class="metade">
-                    <form id="unidade9understanding551" method="post">                    
+                    <form id="unidade10understanding562" method="post">                    
                         <p>
                             1 - According to Jake, what is there behind the use of social media?<br>
-                            <input type="text" name="understanding551-1" class="full left-align" placeholder="Responda aqui" required>
+                            <input type="text" name="understanding562-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             2 - How did the students react when they got to know these new concepts?<br>
-                            <input type="text" name="understanding551-2" class="full left-align" placeholder="Responda aqui" required>
+                            <input type="text" name="understanding562-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             3 - Is Jake gonna explore the new concepts? Why?<br>
-                            <input type="text" name="understanding551-3" class="full left-align" placeholder="Responda aqui" required>
+                            <input type="text" name="understanding562-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 - Where can students fi nd more informati on on the new concepts?<br>
-                            <input type="text" name="understanding551-4" class="full left-align" placeholder="Responda aqui" required>
+                            4 - Where can students find more information on the new concepts?<br>
+                            <input type="text" name="understanding562-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
                             5 - Did you know anything about these new concepts? What’s your opinion about them?<br>
-                            <input type="text" name="understanding551-5" class="full left-align" placeholder="Responda aqui" required>
+                            <input type="text" name="understanding562-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="9">
-                        <input type="hidden" name="atividade_id" value="551">
+                        <input type="hidden" name="unidade_id" value="10">
+                        <input type="hidden" name="atividade_id" value="562">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -52,21 +52,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade9understanding551").submit(function(e){
+        $("#unidade10understanding562").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade9understanding551 input[type="text"]').each(function(index){
-                if(($('#unidade9understanding551 input[type="text"]').length - 1) == index){
+            $('#unidade10understanding562 input[type="text"]').each(function(index){
+                if(($('#unidade10understanding562 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade9understanding551 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade9understanding551'), respostas);
+            if($('#unidade10understanding562 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade10understanding562'), respostas);
             }else{
-                enviarAtividade($('#unidade9understanding551'), respostas);
+                enviarAtividade($('#unidade10understanding562'), respostas);
             }
         });
 
@@ -86,11 +86,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade9understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade9understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade10understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade10understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade9understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade9understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade10understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade10understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }
