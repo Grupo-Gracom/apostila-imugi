@@ -23,29 +23,25 @@
                     We use <b>Passive Voice</b> when we want to focus on the action (What was done) rather
                     than on the doer (Who did it). The doer can be mentioned or not.
                 </p>
-                <p>
-                    <b>Active Voice:</b> Marvel releas<b>ed</b> the movie “Avengers, the Ultimate” in 2019.
-                    <b>Passive Voice:</b> The movie “Avengers, the Ultimate” <b>was released</b> <u>(by Marvel)</u> in 2019.
-                </p>
-                <p>
-                    <b>Active Voice:</b> Google <b>bought</b> Youtube by 1.6 billion dollars.
-                    <b>Passive Voice:</b> Youtube <b>was bought</b> <u>(by Google)</u> by 1.6 billion dollar
-                </p>
+                <p><b>Active Voice:</b> Marvel releas<b>ed</b> the movie “Avengers, the Ultimate” in 2019.</p>
+                <p><b>Passive Voice:</b> The movie “Avengers, the Ultimate” <b>was released</b> <u>(by Marvel)</u> in 2019.</p>
+                <p style="margin-top: 32px"><b>Active Voice:</b> Google <b>bought</b> Youtube by 1.6 billion dollars.</p>
+                <p><b>Passive Voice:</b> Youtube <b>was bought</b> <u>(by Google)</u> by 1.6 billion dollar</p>
                 
                 <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
                 <h5 class="barlow">1 - Fill in the PASSIVE in the appropriate tense:</h5>
                 <form id="unidade19grammar596" method="post">
                     <p>
                         <p>1. (TV / invent / Baird) <b>TV was invented by Baird.</b></p>
-                        <p>2. (Pyramids / build / Egyptians) <input type="text" name="grammar596-1" placeholder="Responda aqui" required /></p>
-                        <p>3. (milk / produce / cows) <input type="text" name="grammar596-2" placeholder="Responda aqui" required /></p>
-                        <p>4. (coffee / grow / in Brazil) <input type="text" name="grammar596-3" placeholder="Responda aqui" required /></p>
-                        <p>5. (chopsticks / use / in China) <input type="text" name="grammar596-4" placeholder="Responda aqui" required /></p>
-                        <p>6. (plants / water / every day) <input type="text" name="grammar596-5" placeholder="Responda aqui" required /></p>
-                        <p>7. (the thief / arrest / policeman / yesterday) <input type="text" name="grammar596-6" placeholder="Responda aqui" required /></p>
-                        <p>8. (the injured man / take to a hospital / now) <input type="text" name="grammar596-7" placeholder="Responda aqui" required /></p>
-                        <p>9. (the car / repair / tomorrow) <input type="text" name="grammar596-8" placeholder="Responda aqui" required /></p>
-                        <p>10. (the letter / send / last week) <input type="text" name="grammar596-9" placeholder="Responda aqui" required /></p>
+                        <p>2. (Pyramids / build / Egyptians) <input type="text" name="grammar596-1" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
+                        <p>3. (milk / produce / cows) <input type="text" name="grammar596-2" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
+                        <p>4. (coffee / grow / in Brazil) <input type="text" name="grammar596-3" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
+                        <p>5. (chopsticks / use / in China) <input type="text" name="grammar596-4" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
+                        <p>6. (plants / water / every day) <input type="text" name="grammar596-5" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
+                        <p>7. (the thief / arrest / policeman / yesterday) <input type="text" name="grammar596-6" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
+                        <p>8. (the injured man / take to a hospital / now) <input type="text" name="grammar596-7" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
+                        <p>9. (the car / repair / tomorrow) <input type="text" name="grammar596-8" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
+                        <p>10. (the letter / send / last week) <input type="text" name="grammar596-9" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
                     </p>
 
                     <div class="clear"></div>

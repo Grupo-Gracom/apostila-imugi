@@ -37,7 +37,7 @@
 			</p>
 			<p>
 				<b>Jake:</b> Very good point John. We now many sad stories of guys who made mistakes and
-				were smashed. That’s why we need to think if we really want to go into this new World. <b>(to be continued)</b>
+				were smashed. That’s why we need to think if we really want to go into this new World. (to be continued)
 			</p>
 
 			<div style="margin-top: 36px">

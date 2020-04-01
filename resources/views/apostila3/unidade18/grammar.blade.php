@@ -43,7 +43,7 @@
                     <tr>
                         <td><p>Might + Have + Past Participle</p></td>
                         <td><p>Used to express soft assumptions about the past.</p></td>
-                        <td><p>They <b>might have faced</b> problems to upload the video. It was to heavy..</p></td>
+                        <td><p>They <b>might have faced</b> problems to upload the video. It was to heavy.</p></td>
                     </tr>
                     <tr>
                         <td><p>Should + Have + Past Participle</p></td>
@@ -106,7 +106,7 @@
                         <p>9. <b>P:</b> The man was being taken to hospital. He <input type="text" name="grammar592-9" placeholder="Responda aqui" required /> (have) an accident.</p>
                         <p><b>R:</b> Yes, I’m sure he had an accident.</p>
                         <p>10. <b>P:</b> Will you come to my birthday party tomorrow?</p>
-                        <p><b>R:</b> I <input type="text" name="grammar592-10" placeholder="Responda aqui" required /> (come) to your party because I have to look aft er my little sister.</p>
+                        <p><b>R:</b> I <input type="text" name="grammar592-10" placeholder="Responda aqui" required /> (come) to your party because I have to look after my little sister.</p>
                         <p>11. <b>P:</b> I’m going to do a parachute jump next week.</p>
                         <p>
                             <b>R:</b> You are going to jump out of an airplane! But you’re 73 years old! You <input type="text" name="grammar592-11" placeholder="Responda aqui" required /> (be)

@@ -19,7 +19,7 @@
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and answer the questions below.</h5>
             <form id="unidade16listening586" method="post">
-                <p>1 - What’s is the main idea of the passage?</p>
+                <p>1. What’s is the main idea of the passage?</p>
                 <textarea name="listening586-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                 <div class="clear"></div>

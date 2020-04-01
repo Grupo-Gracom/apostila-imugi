@@ -21,18 +21,18 @@
             <form id="unidade27listening691" method="post">
                 <p>
                     People are <input type="text" name="listening691-1" placeholder="Responda aqui" required /> much more 
-                    Being <input type="text" name="listening691-2" placeholder="Responda aqui" required /> to  after the 
-                    Being <input type="text" name="listening691-3" placeholder="Responda aqui" required /> to  of social media. It’s very
-                    common to see people from different Being <input type="text" name="listening691-4" placeholder="Responda aqui" required /> 
-                    to  sharing ideas or just being friends. In the past, our relationships were 
-                    Being <input type="text" name="listening691-5" placeholder="Responda aqui" required /> to  to geographic 
-                    Being <input type="text" name="listening691-6" placeholder="Responda aqui" required /> to . Although we may
+                    <input type="text" name="listening691-2" placeholder="Responda aqui" required />after the 
+                    <input type="text" name="listening691-3" placeholder="Responda aqui" required />of social media. It’s very
+                    common to see people from different <input type="text" name="listening691-4" placeholder="Responda aqui" required /> 
+                    sharing ideas or just being friends. In the past, our relationships were 
+                    <input type="text" name="listening691-5" placeholder="Responda aqui" required />to geographic 
+                    <input type="text" name="listening691-6" placeholder="Responda aqui" required />. Although we may
                     have friends who live far from us, the 
-                    Being <input type="text" name="listening691-7" placeholder="Responda aqui" required /> to  today is about the superficiality of our
+                    <input type="text" name="listening691-7" placeholder="Responda aqui" required />today is about the superficiality of our
                     relationships. Are we 
-                    Being <input type="text" name="listening691-8" placeholder="Responda aqui" required /> to  able to 
-                    Being <input type="text" name="listening691-9" placeholder="Responda aqui" required /> to  solid relationships in the 
-                    Being <input type="text" name="listening691-10" placeholder="Responda aqui" required /> to  era?
+                    <input type="text" name="listening691-8" placeholder="Responda aqui" required /> able to 
+                    <input type="text" name="listening691-9" placeholder="Responda aqui" required /> solid relationships in the 
+                    <input type="text" name="listening691-10" placeholder="Responda aqui" required /> era?
                 </p>
 
                 <div class="clear"></div>

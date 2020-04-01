@@ -17,7 +17,7 @@
                 <source src="{{ asset('assets/audio/apostila2/UNIT 17/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fi ll in the blanks with the missing words.</h5>
+            <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
             <form id="unidade17listening589" method="post">
                 <p>
                     Many companies <input type="text" name="listening589-1" placeholder="Responda aqui" required /> for not having understood the <input type="text" name="listening589-2" placeholder="Responda aqui" required /> 

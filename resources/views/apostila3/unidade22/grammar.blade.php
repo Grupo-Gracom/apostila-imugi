@@ -58,9 +58,9 @@
                         <td>
                             <h5 class="barlow">REPORTED SPEECH</h5>
                             <p>Simple Past</p>
-                            <p>Simple past/Past Perfect</p>
+                            <p>Simple past (No change)/Past Perfect</p>
                             <p>Past Continuous</p>
-                            <p>Past Continuous or Past Perfect</p>
+                            <p>Past Continuous or Past Perfect Continuous</p>
                             <p>Past Perfect</p>
                             <p>Past Perfect Continuous</p>
                             <p>Past Perfect (no change)</p>
@@ -130,7 +130,11 @@
                 </form>
 
                 <h5 class="barlow" style="margin-top:16px">2 - What does the policeman want to know?</h5>
-                <form id="unidade22grammar671" method="post" class="metade">
+                <figure>
+					<img src="{{ asset('assets/img/masteroflanguage/unit22/grammar.jpg') }}" alt="casal em paris">
+                </figure>
+                <div class="clear"></div>
+                <form id="unidade22grammar671" method="post" class="metade" style="margin-top:16px">
                     <p>
                         <p>1. What’s your name?</p>
                         <p><b>The policeman wants to know what my name is.</b></p>
@@ -192,11 +196,6 @@
                     <input type="hidden" name="atividade_id" value="671">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                
-                
-                <figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit22/grammar.jpg') }}" alt="casal em paris">
-				</figure>
             </div>
         </div>
 </main>

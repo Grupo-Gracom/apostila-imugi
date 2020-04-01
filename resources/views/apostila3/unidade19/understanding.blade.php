@@ -31,7 +31,7 @@
                             <input type="text" name="understanding600-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 -  What happened aft er the book became famous? 
+                            5 -  What happened after the book became famous? 
                             <input type="text" name="understanding600-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
 

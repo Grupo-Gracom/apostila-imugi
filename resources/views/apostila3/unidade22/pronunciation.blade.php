@@ -17,7 +17,7 @@
 				<source src="{{ asset('assets/audio/apostila3/UNIT 64/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
 			</audio>
 			<div class="clear"></div>
-			<h5 class="barlow" style="margin-top:16px">A - Minimal pairs 03</h5>
+			<h5 class="barlow" style="margin-top:16px">A - Minimal pairs 04</h5>
 			<p>Observe the pairs and practice pronouncing them.</p>
 			<table class="espacamento center-align">
 				<tr>

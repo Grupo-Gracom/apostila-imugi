@@ -40,6 +40,8 @@
 				<li>
 					<p><b>Pop Up</b></p>
 				</li>
+			</ul>
+			<ul class="lista-inline upper" style="margin-top: 16px">
 				<li>
 					<p><b>Make Up</b></p>
 				</li>

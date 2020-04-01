@@ -30,6 +30,8 @@
 				<li>
 					<p><b>Taken</b></p>
 				</li>
+			</ul>
+			<ul class="lista-inline upper" style="margin-top: 16px">
 				<li>
 					<p><b>To code</b></p>
 				</li>

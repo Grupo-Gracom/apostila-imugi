@@ -19,7 +19,7 @@
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the question below.</h5>
             <form id="unidade24listening679" method="post">
-                <p>1 - Why videos are becoming more effective on social media platforms?</p>
+                <p>1. Why videos are becoming more effective on social media platforms?</p>
                 <textarea name="listening679-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                 <div class="clear"></div>

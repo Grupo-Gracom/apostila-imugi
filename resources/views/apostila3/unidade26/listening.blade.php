@@ -19,7 +19,7 @@
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the questions below.</h5>
             <form id="unidade26listening687" method="post">
-                <p>1 - “Information is Power” . What’s the idea the passage brings about this topic? </p>
+                <p>1. “Information is Power” . What’s the idea the passage brings about this topic? </p>
                 <textarea name="listening687-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                 <div class="clear"></div>

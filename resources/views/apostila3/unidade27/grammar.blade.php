@@ -47,12 +47,9 @@
                     Giving advice by using suggestions:
                 </p>
                 <h5 class="barlow" style="margin-top:16px"><b>Example:</b></h5>
-                <p>
-                    <b>Why don’t you</b> start deciding what your objective is.
-                    <b>Don’t you think</b> it could be a nice idea to have someone to help you with
-                    the posting schedule?
-                </p>
-                <p><b>Giving advice by raising hypothesis:</b></p>
+                <p><b>Why don’t you</b> start deciding what your objective is.</p>
+                <p><b>Don’t you think</b> it could be a nice idea to have someone to help you with the posting schedule?</p>
+                <p style="margin-top:32px"><b>Giving advice by raising hypothesis:</b></p>
                 <h5 class="barlow" style="margin-top:16px"><b>Example:</b></h5> 
                 <p>
                     <b>If I were</b> you, <b>I would start</b> by deciding what my objective is.

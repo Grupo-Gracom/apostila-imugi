@@ -59,7 +59,7 @@
                         <td><p>(Yesterday)</p><p><b>John:</b> Laura, I’ll get a laptop <b>tonight.</b><p></td>
                         <td>
                             <p>(Today)</p><p><b>Akira:</b> Laura, Did John get the laptop?</p>
-                            <p><b>Laura:</b> I think so, he told me <b>he would get one last night.</b></p>
+                            <p><b>Laura:</b> I think so, he told me <b>he would get</b> one <b>last night.</b></p>
                         </td>
                     </tr>  
                     <tr>  
@@ -86,7 +86,7 @@
                             <td>
                                 <p>
                                     <b>Sally asked Diane if she had applied for the
-                                    job Diane told her</b> <input type="text" name="grammar681-1" class="inputMedio left-align" placeholder="Responda aqui" required />
+                                    job Diane told her</b> <input type="text" name="grammar681-1" class="inputpequeno left-align" placeholder="Responda aqui" required />
                                 </p>
                             </td>
                         </tr>

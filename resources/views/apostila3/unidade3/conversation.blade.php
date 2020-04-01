@@ -42,7 +42,7 @@
 				they sold it to Google for 1.6 billion of dollars in 2006.
 			</p>
 			<p><b>Akira:</b> Man, I didn’t know that.</p>
-			<p><b>Jake:</b> Yeah my dear friends. Welcome to the fascinating world of causing impact through YouTube.<b> (To be continued)</b></p>
+			<p><b>Jake:</b> Yeah my dear friends. Welcome to the fascinating world of causing impact through YouTube. (To be continued)</p>
 		</div>
 	</div>
 </main>

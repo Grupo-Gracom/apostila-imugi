@@ -18,7 +18,7 @@
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - PASSIVE VOICE (2)</h5>
+                <h5 class="barlow">A - REPORTED SPEECH (4) – QUESTIONS</h5>
                 <p>
                     When reporting questions, we should introduce the reporting sentence with the
                     verb <b>To Ask</b> and <b>turn the question to the affirmative.</b>
@@ -38,7 +38,7 @@
                         <td class="left-align">
                             <p>Jake <b>asked</b> Akira <b>if</b> he needed any help</p>
                             <p>Laura <b>asked</b> John <b>if</b> he could call Akira.</p>
-                            <p>Akira <b>asked</b> John <b>if</b> he had gott en a laptop to use.</p>
+                            <p>Akira <b>asked</b> John <b>if</b> he had gotten a laptop to use.</p>
                         </td>
                     </tr>
                 </table>
@@ -64,7 +64,7 @@
 
                 <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
                 <h5 class="barlow">1 - Wh- questions:</h5>
-                <h5 class="barlow" style="margin-top:16px"><b>Examples</b></h5>
+                <h5 class="barlow" style="margin-top:16px"><b>Examples:</b></h5>
                 <p><b>* “What is the ti me?” he asked</b></p>
                 <p><b>He asked me <u>what the time was.</u></b></p>
                 <p style="margin-top:32px"><b>* “Where do you live?” he asked Mary.</b></p>
@@ -133,7 +133,7 @@
                 </figure>
                 <div class="clear"></div>
                 <h5 class="barlow"style="margin-top:16px">2 - Yes / No questions:</h5>
-                <h5 class="barlow" style="margin-top:16px"><b>Examples</b></h5>
+                <h5 class="barlow" style="margin-top:16px"><b>Examples:</b></h5>
                 <p><b>* “Are you busy?” he asked me.</b></p>
                 <p><b>He asked me <u>IF I was busy.</u></b></p>
                 <p style="margin-top:32px"><b>* “Do you like banana?” he asked his friends.</b></p>

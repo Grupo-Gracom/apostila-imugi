@@ -18,27 +18,22 @@
                 </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
-            <div style="margin-top: 17px">
+            <div style="margin-top:16px">
                 <h5 class="barlow">A - MUST + PERFECT INFINITIVE.</h5>
                 <p>
                     As we saw during the lesson on Modal Verbs review (lesson 15) , <b>Must</b> may be used
                     to express different ideas such as obligation, assumpti on and prohibition. It’s also
                     possible to use <b>Must + Perfect Infinitive</b> to express assumptions about the past.
                 </p>
-                <table class="espacamento left-align bordered" style="margin-top:32px;">
-                    <tr>
-                        <td>
-                            <h5 class="barlow center-align">Subject + Must + Have + Main verb in the past participle + Complement</h5>
-                        </td>
-                    </tr>
-                    <tr class="bordered">
-                        <td>
-                            <p>Laura <b>must have loved</b> her trip to London. So far, she hasn’t showed up for class.</p>
-                            <p>Akira <b>must have had</b> a hard time to edit the video. He ran out of time because of the problem he had with his computer.</p>
-                            <p>We <b>must have gotten </b>a nice grade in the final project. We worked hard for that.</p>
-                        </td>
-                    </tr>
-                </table>
+                <div class="center-align">   
+                    <p class="contentVerde" style="margin-top:32px;">Subject + Must + Have + Main verb in the past participle + Complement</p>
+                </div>
+                <h5 class="barlow" style="margin-top:16px;"><b>Examples:</b></h5>
+                <ul class="lista-vertical">
+                    <li><p>• Laura <b>must have loved</b> her trip to London. So far, she hasn’t showed up for class.</p></li>
+                    <li><p>• Akira <b>must have had</b> a hard time to edit the video. He ran out of time because of the problem he had with his computer.</p></li>
+                    <li><p>• We <b>must have gotten </b>a nice grade in the final project. We worked hard for that.</p></li>
+                </ul>
                 <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
                 <h5 class="barlow">1 - Think of 5 famous Youtubers and write 2 sentences for each one of them. Be prepared
                     to explain each sentence.</h5>

@@ -15,7 +15,7 @@
                 <div class="metade">
                     <form id="unidade21understanding669" method="post">
                         <p>
-                            1 -  According to John, what’s the problem after he got to know the educati onal sites?
+                            1 -  According to John, what’s the problem after he got to know the educational sites?
                             <input type="text" name="understanding669-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>

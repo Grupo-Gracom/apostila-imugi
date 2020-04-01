@@ -167,7 +167,7 @@
                     <p>Anne <input type="text" name="grammar585-1" placeholder="Responda aqui" required /> her bike next week. <b>(to repair)</b></p>
                     <p><input type="text" name="grammar585-2" placeholder="Responda aqui" required /> the washing by 8 o’clock. <b>(to do)</b></p>
                     <p>She <input type="text" name="grammar585-3" placeholder="Responda aqui" required /> Paris by the end of next year. <b>(to visit)</b></p>
-                    <p>I <input type="text" name="grammar585-4" placeholder="Responda aqui" required /> this by 6 o’clock. <b>(to fi nish)</b></p>
+                    <p>I <input type="text" name="grammar585-4" placeholder="Responda aqui" required /> this by 6 o’clock. <b>(to finish)</b></p>
                     <p>Sam <input type="text" name="grammar585-5" placeholder="Responda aqui" required /> by next week. <b>(to leave)</b></p>
 
                     <div class="clear"></div>

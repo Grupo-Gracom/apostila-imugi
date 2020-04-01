@@ -40,10 +40,10 @@
                     can keep the verb form used in the original dialogue.
                 </p>
 
-                <table class="espacamento center-align borderedfull">
+                <table class="espacamento left-align borderedfull">
                     <tr>
                         <td>
-                            <h5 class="barlow">Maintaining the verb.</h5>
+                            <h5 class="barlow center-align">Maintaining the verb.</h5>
                             <p>
                                 When the speaker retells the story on the same
                                 day it happened or when the intention is to make
@@ -52,7 +52,7 @@
                             </p>
                         </td>
                         <td>
-                            <h5 class="barlow">Changing the main Verb (Backshift)</h5>
+                            <h5 class="barlow center-align">Changing the main Verb (Backshift)</h5>
                             <p> 
                                 When the speaker retells the story days later or when
                                 the speaker chooses to do so to emphasize the story
@@ -105,7 +105,7 @@
                         <td><p>He wanted to talk to you</p></td>
                     </tr>
                     <tr>
-                        <td><p>Direct speech:</p></td>
+                        <td><p><b>Direct speech:</b></p></td>
                         <td><p>Carl - I want to talk to Mary.</p></td>
                     </tr>
                 </table>
@@ -182,11 +182,15 @@
                 </form>
 
                 <h5 class="barlow">2 - Write sentences about Jane’s trip to Paris:</h5>
-                <form id="unidade21grammar667" method="post" class="metade">
+                <figure>
+					<img src="{{ asset('assets/img/masteroflanguage/unit21/grammar.jpg') }}" alt="casal em paris">
+                </figure>
+                <div class="clear"></div>
+                <form id="unidade21grammar667" method="post" class="metade" style="margin-top:16px">
                     <p>
                         <p>
                             1. We’re taking the nine o’clock plane.
-                            <p><b>Jane told me they were taking the nine o’clock plane.</b></p>
+                            <p>Jane told me <b>they were taking the nine o’clock plane.</b></p>
                         </p>
                         <p>2. I’ll have to get up early</p>
                         <p>She said<input type="text" name="grammar667-1" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
@@ -220,9 +224,7 @@
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
                 
-                <figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit21/grammar.jpg') }}" alt="casal em paris">
-				</figure>
+                
             </div>
         </div>
 </main>

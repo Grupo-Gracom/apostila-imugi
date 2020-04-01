@@ -40,6 +40,8 @@
 				<li>
 					<p><b>Reach</b></p>
 				</li>
+			</ul>
+			<ul class="lista-inline upper" style="margin-top: 16px">
 				<li>
 					<p><b>Otherwise</b></p>
 				</li>
