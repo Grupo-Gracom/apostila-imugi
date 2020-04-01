@@ -33,7 +33,7 @@
             </p>
 			<div style="margin-top: 36px">
 				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit31/conversation1.jpg') }}" alt="dashboard">
+					<img src="{{ asset('assets/img/masteroflanguage/unit31/conversation.png') }}" alt="dashboard">
 				</figure>
             </div>
             <div class="clear"></div>
@@ -62,7 +62,7 @@
 
             <div style="margin-top: 32px">
 				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit31/conversation2.jpg') }}" alt="dashboard">
+					<img src="{{ asset('assets/img/masteroflanguage/unit31/conversation.jpg') }}" alt="dashboard">
 				</figure>
             </div>
             <p style="margin-top: 16px">

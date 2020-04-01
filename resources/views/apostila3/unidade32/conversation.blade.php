@@ -30,12 +30,6 @@
                 <p><b>Students :</b> Great teacher</p>
                 <p><b>Jake :</b> It’s a long text, but I’m sure it’s worth reading it. Let’s go?</p>
             </p>
-			<div style="margin-top: 36px">
-				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit32/conversation1.jpg') }}" alt="dashboard">
-				</figure>
-            </div>
-            <div class="clear"></div>
             
             <h5 class="barlow" style="margin-top:32px"><b>Emotional intelligence: What it is and why you need it</b></h5>
             <p>
@@ -51,7 +45,7 @@
             </p>
             <div style="margin-top: 32px">
 				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit32/conversation2.jpg') }}" alt="dashboard">
+					<img src="{{ asset('assets/img/masteroflanguage/unit32/conversation1.png') }}" alt="dashboard">
 				</figure>
             </div>
             <p style="margin-top: 16px">
@@ -80,7 +74,7 @@
             </p>
             <div style="margin-top: 32px">
                 <figure>
-                    <img src="{{ asset('assets/img/masteroflanguage/unit32/conversation2.jpg') }}" alt="dashboard">
+                    <img src="{{ asset('assets/img/masteroflanguage/unit32/conversation2.png') }}" alt="dashboard">
                 </figure>
             </div>
             <p style="margin-top: 16px">
@@ -104,9 +98,10 @@
 
             <div style="margin-top: 32px">
                 <figure>
-                    <img src="{{ asset('assets/img/masteroflanguage/unit32/conversation2.jpg') }}" alt="dashboard">
+                    <img src="{{ asset('assets/img/masteroflanguage/unit32/conversation3.jpg') }}" alt="dashboard">
                 </figure>
             </div>
+            <div class="clear"></div>
             <p style="margin-top: 16px">
                 Of all the people we’ve studied at work, we’ve found that 90% of top performers are also
                 high in emotional intelligence. On the flip side, just 20% of bott om performers are high in
@@ -133,7 +128,7 @@
             </p>
             <div style="margin-top: 32px">
                 <figure>
-                    <img src="{{ asset('assets/img/masteroflanguage/unit32/conversation2.jpg') }}" alt="dashboard">
+                    <img src="{{ asset('assets/img/masteroflanguage/unit32/conversation4.png') }}" alt="dashboard">
                 </figure>
             </div>
         </div>

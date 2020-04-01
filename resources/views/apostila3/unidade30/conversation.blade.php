@@ -37,12 +37,12 @@
             </p>
 			<div style="margin-top: 36px">
 				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit30/conversation.jpg') }}" alt="dashboard">
+					<img src="{{ asset('assets/img/masteroflanguage/unit30/conversation.png') }}" alt="dashboard">
 				</figure>
             </div>
             <div class="clear"></div>
             
-            <h5 class="barlow"><b>Text</b></h5>
+            <h5 class="barlow" style="margin-top:16px"><b>Text</b></h5>
             
             <p><b>What is Big Data Concepts?</b></p>
             <p>

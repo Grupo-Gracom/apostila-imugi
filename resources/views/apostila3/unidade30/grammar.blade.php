@@ -38,7 +38,7 @@
             </form>
             <div style="margin-top: 36px">
 				<figure>
-					<img src="{{ asset('assets/img/masteroflanguage/unit30/grammar.jpg') }}" alt="web design">
+					<img src="{{ asset('assets/img/masteroflanguage/unit30/grammar.png') }}" alt="web design">
 				</figure>
             </div>
         </div>
