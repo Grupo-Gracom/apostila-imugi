@@ -12,12 +12,11 @@
         <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade15" data-etapa="grammar">
             <h3 class="barlow">UNIT 15 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <!-- <span class="play-audio">( Aperte o play )</span> -->
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
-            <!-- nao tem audio ainda -->
-            <div class="clear"></div>     
+            <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/apostila3/UNIT 15/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+            </audio>
+            <div class="clear"></div>      
             <h5 class="barlow">A – MODAL VERBS – REVIEW</h5>
             <p><b>Modal verbs</b> are used as auxiliary verbs and express the speaker’s mood, such as 
             obligation, possibility, necessity, etc.</p>                            

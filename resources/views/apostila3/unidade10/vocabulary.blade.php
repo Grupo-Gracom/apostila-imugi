@@ -14,7 +14,7 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 29/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila3/UNIT 10/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>		
 								
 				<h5 class="barlow" style="margin-top: 16px">A -  SOCIAL MEDIA GLOSSARY</h5>				
@@ -24,7 +24,10 @@
 					<li><p><b>Bio</b></p></li>												
 				</ul>
 				<p><a href="https://www.hopperhq.com/social-media-marketing-glossary-2018/">https://www.hopperhq.com/social-media-marketi ng-glossary-2018/</a></p>
-				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>				
+				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila3/UNIT 10/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>				
 				<ul class="lista-inline upper" style="margin-top:16px">
 					<li><p><b>Rest</b></p></li>
 					<li><p><b>Kind Of</b></p></li>

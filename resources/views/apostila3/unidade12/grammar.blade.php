@@ -12,11 +12,10 @@
         <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade12" data-etapa="grammar">
             <h3 class="barlow">UNIT 12 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <!-- <span class="play-audio">( Aperte o play )</span> -->
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
-            <!-- nao tem audio ainda -->
+            <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/apostila3/UNIT 12/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+            </audio>
             <div class="clear"></div>     
             <h5 class="barlow">A –  CONDITIONALS - REVIEW</h5>
             <p>We use conditional sentences to express <b>Hypothesis, Conditions, Uncertain Events or
