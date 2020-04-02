@@ -21,41 +21,42 @@
             <h5 class="barlow">A –  CONDITIONALS - REVIEW</h5>
             <p>We use conditional sentences to express <b>Hypothesis, Conditions, Uncertain Events or
             Situations.</b></p>                            
-            <table class="espacamento center-align bordered" style="margin-top:32px;">
+            <table class="espacamento left-align bordered" style="margin-top:32px;">
                 <tr>
-                    <td><h5 class="barlow">Conditionals</h5></td>                    
-                    <td><h5 class="barlow">Examples</h5></td>                              
+                    <td><h5 class="barlow center-align">Conditionals</h5></td>                    
+                    <td><h5 class="barlow center-align">Examples</h5></td>                              
                 </tr>
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td>
                     <p><b>Zero Conditional</b></p>
                     <p>If + Simple present + simple present</p>                    
                     </td>
                     <td><p><b>If you click</b> on this icon, <b>you activate</b> the tool.</p></td>                                                            
                 </tr>                          
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td>
                     <p><b>First Conditional</b></p>
                     <p>If + Simple present + Will</p>
                     </td>
                     <td><p><b>If she finishes</b> the report in time, <b>she’ll send</b> it to him.</p></td>                    
                 </tr>                          
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td>
                     <p><b>Second Conditional</b></p>
                     <p>If + Simple past + Would</p>
                     </td>
                     <td><p><b>If she finished</b> the report in time, <b>She would send</b> it to him.</p></td>
                 </tr>                                         
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td>
                     <p><b>Third Conditional</b></p>
                     <p>If + Past Perfect + Would + Perfect</p>
                     </td>
                     <td><p><b>If she had finished</b> the report in time, <b>she would have sent</b> it to him..</p></td>                    
                 </tr>                                                 
-            </table>                   
-            <h5 class="barlow">A -  Finish these sentences:</h5>            
+            </table>
+            <h5 class="barlow" style="margin-top:32px"><b>EXERCICES</b></h5>                   
+            <h5 class="barlow">1 -  Finish these sentences:</h5>            
             <form id="unidade12grammar567" method="post">            
                 <p>1. If you drive very fast, 
                 <input type="text" name="grammar567-1" class="inputpequeno left-align" placeholder="Responda aqui" required></p>
@@ -94,7 +95,7 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">B - Think about your life and write some things you would do differently.</h5>
+            <h5 class="barlow">2 - Think about your life and write some things you would do differently.</h5>
             <h5 class="barlow">Example:</h5>
             <p><b>If I had</b> more time, <b>I would take</b> another course.</p>
             <p><b>I’ll travel</b> to Rio <b>if I find</b> a cheaper ticket.</p>

@@ -17,26 +17,26 @@
 				<source src="{{ asset('assets/audio/apostila2/UNIT 05/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
 
-			<p style="margin-top:16px"><b>Jake:</b> Hey you guys, what’s up.</p>
-			<p><b>Students:</b> Not much teacher. Just thinking about the millions we’ll make with our channels.</p>
-			<p><b>Jake:</b> Wow! We haven’t started yet and you guys are thinking about the money you’re gonna get?</p>
-			<p><b>Students:</b> Business teacher! Business!</p>
-			<p><b>Akira:</b> Just kidding teacher.</p>
-			<p><b>Jake:</b> I know guys. But let’s be sincere. It’s very appealing, isn’t it?</p>
-			<p><b>Laura:</b> Yes. For sure. Many people want to be famous and make money.</p>
-			<p><b>John:</b> Yeah, But on the other hand, most of them are not prepared to deal with this level of exposition.</p>
-			<p><b>Jake:</b> What do you wanna mean with that John?</p>
+			<p style="margin-top:16px"><b>Jake :</b> Hey you guys, what’s up.</p>
+			<p><b>Students :</b> Not much teacher. Just thinking about the millions we’ll make with our channels.</p>
+			<p><b>Jake :</b> Wow! We haven’t started yet and you guys are thinking about the money you’re gonna get?</p>
+			<p><b>Students :</b> Business teacher! Business!</p>
+			<p><b>Akira :</b> Just kidding teacher.</p>
+			<p><b>Jake :</b> I know guys. But let’s be sincere. It’s very appealing, isn’t it?</p>
+			<p><b>Laura :</b> Yes. For sure. Many people want to be famous and make money.</p>
+			<p><b>John :</b> Yeah, But on the other hand, most of them are not prepared to deal with this level of exposition.</p>
+			<p><b>Jake :</b> What do you wanna mean with that John?</p>
 			<p>
-				<b>John:</b> Teacher, it’s necessary a lot of preparation to have , for example, your private life
+				<b>John :</b> Teacher, it’s necessary a lot of preparation to have , for example, your private life
 				exposed to the media. There’s a lot of haters waiting for you to make a mistake to criticize you.
 			</p>
-			<p><b>Laura:</b> Ops, sorry! Could you repeat that? I didn’t get what you said John.</p>
+			<p><b>Laura :</b> Ops, sorry! Could you repeat that? I didn’t get what you said John.</p>
 			<p>
-				<b>John:</b> No problem. I said that the wanna be famous, are not prepared to deal with the
+				<b>John :</b> No problem. I said that the wanna be famous, are not prepared to deal with the
 				side effects of being famous. The haters are just waiting to crucify them publicly.
 			</p>
 			<p>
-				<b>Jake:</b> Very good point John. We now many sad stories of guys who made mistakes and
+				<b>Jake :</b> Very good point John. We now many sad stories of guys who made mistakes and
 				were smashed. That’s why we need to think if we really want to go into this new World. (to be continued)
 			</p>
 

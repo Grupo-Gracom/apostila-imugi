@@ -17,9 +17,10 @@
                 <source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow">A – Homophones 11</h5>
+            <h5 class="barlow" style="margin-top:16px">A – Homographs 1</h5>
             <p><b>Homographs</b> are words that have the same spelling but may have different meaning, origin or pronunciation.</p>
-            <p>Examples: <b>Quarter/Quarter</b></p>
+            <h5 class="barlow"><b>Examples:</b></h5> 
+            <p><b>Quarter/Quarter</b></p>
             <p>Observe the meaning of the words based on the context.</p>
             <p>It’s a <b>quarter</b> past 2 pm.</p>
             <p>I used a <b>quarter</b> coin in the parking meter.</p>

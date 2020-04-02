@@ -17,24 +17,24 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>                
-                <h5 class="barlow">A -  Listen to the audio and answer the questions below.</h5>                
+                <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the questions below.</h5>                
                 <form id="unidade11listening565" method="post">                    
-                    <p>You tube is as 
-                    <input type="text" name="listening565-1" class="inputequeno left-align" placeholder="Responda aqui" required>
-                    way to start 
-                    <input type="text" name="listening565-2" class="inputequeno left-align" placeholder="Responda aqui" required> 
-                    yourself or your business.
-                    Besides being very simple to be used , 
-                    <input type="text" name="listening565-3" class="inputequeno left-align" placeholder="Responda aqui" required> 
-                    can start a channel just by
-                    <input type="text" name="listening565-4" class="inputequeno left-align" placeholder="Responda aqui" required> 
-                    a simple cell phone 
-                    <input type="text" name="listening565-5" class="inputequeno left-align" placeholder="Responda aqui" required>. 
-                    Many famous Youtubers started
-                    their <input type="text" name="listening565-6" class="inputequeno left-align" placeholder="Responda aqui" required> 
-                    like this and after 
-                    <input type="text" name="listening565-7" class="inputequeno left-align" placeholder="Responda aqui" required> 
-                    time became very famous.</p>                                        
+                    <p>
+                        You tube is as <input type="text" name="listening565-1"  placeholder="Responda aqui" required>
+                        way to start <input type="text" name="listening565-2"  placeholder="Responda aqui" required> 
+                        yourself or your business. Besides being very simple to be used, 
+                        <input type="text" name="listening565-3"  placeholder="Responda aqui" required> 
+                        can start a channel just by
+                        <input type="text" name="listening565-4"  placeholder="Responda aqui" required> 
+                        a simple cell phone 
+                        <input type="text" name="listening565-5"  placeholder="Responda aqui" required>. 
+                        Many famous Youtubers started
+                        their <input type="text" name="listening565-6"  placeholder="Responda aqui" required> 
+                        like this and after 
+                        <input type="text" name="listening565-7"  placeholder="Responda aqui" required> 
+                        time became very famous.
+                    </p>
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="11">

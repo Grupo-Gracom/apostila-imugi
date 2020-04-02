@@ -17,30 +17,28 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>                
-                <h5 class="barlow">A - Listen to the audio and fill in the blanks with the missing words.</h5>
-                <p>How did the internet change our lives?</p>
+                <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade15listening581" method="post">
-                
                     <p>Any person can cause a 
-                    <input type="text" name="listening581-1" class="inputpequeno left-align" placeholder="Responda aqui" required> 
+                    <input type="text" name="listening581-1"  placeholder="Responda aqui" required> 
                     impact through social media. In the past we
                     couldn’t 
-                    <input type="text" name="listening581-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening581-2"  placeholder="Responda aqui" required>
                     our voices without 
-                    <input type="text" name="listening581-3" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening581-3"  placeholder="Responda aqui" required>
                     tons of money to do so. Internet has
-                    <input type="text" name="listening581-4" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening581-4"  placeholder="Responda aqui" required>
                     equally, the 
-                    <input type="text" name="listening581-5" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening581-5"  placeholder="Responda aqui" required>
                     of speaking. A simple idea may 
-                    <input type="text" name="listening581-6" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening581-6"  placeholder="Responda aqui" required>
                     the whole
                     world. We have seen the 
-                    <input type="text" name="listening581-7" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening581-7"  placeholder="Responda aqui" required>
                     media losing power after some social media
-                    <input type="text" name="listening581-8" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening581-8"  placeholder="Responda aqui" required>
                     started to be used. So let’s be 
-                    <input type="text" name="listening581-9" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening581-9"  placeholder="Responda aqui" required>
                     for what we want to say.</p>
                                                                                                      
                     <input type="hidden" name="_token" value="{{csrf_token()}}">

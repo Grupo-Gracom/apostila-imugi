@@ -18,17 +18,19 @@
 				</audio>		
 								
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>				
-				<ul class="lista-inline">
+				<ul class="lista-inline upper" style="margin-top:16px">
 					<li><p><b>Geofilter</b></p></li>
 					<li><p><b>Handle</b></p></li>
 					<li><p><b>Hashtag</b></p></li>												
 				</ul>				
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>				
-				<ul class="lista-inline">
+				<ul class="lista-inline upper" style="margin-top:16px">
 					<li><p><b>Eye opening</b></p></li>
 					<li><p><b>Approach</b></p></li>
 					<li><p><b>Doubts</b></p></li>
 					<li><p><b>Poll</b></p></li>
+				</ul>
+				<ul class="lista-inline upper" style="margin-top:16px">
 					<li><p><b>Useful</b></p></li>
 					<li><p><b>Draw</b></p></li>
 					<li><p><b>Suggest</b></p></li>													

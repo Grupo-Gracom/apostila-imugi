@@ -17,8 +17,10 @@
                 <source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow">A – Homophones 5</h5>            
-            <p>Examples: <b>Back/Back</b></p>
+            <h5 class="barlow" style="margin-top:16px">A – Homographs 5</h5>            
+            <h5 class="barlow"><b>Examples:</b></h5>
+            <p><b>Back/Back</b></p>
+            <p>Observe the meaning of the words based on the context.</p>
             <p>The verbs list is in the <b>back</b> cover of the book.</p>
             <p>’ll be <b>back</b> in a minute ok..</p>            
         </div>

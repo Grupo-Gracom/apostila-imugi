@@ -18,16 +18,16 @@
 				</audio>
 
 				<p style="margin-top:16px">
-					<b>Jake Paul:</b> Hello everybody. Welcome to your new level in the course. We’re gonna
+					<b>Jake Paul :</b> Hello everybody. Welcome to your new level in the course. We’re gonna
 					start book 3 and everything related to social media and internet. More specifically
 					we’ll be talking about Youtube, videos, how to engage your audience and etc. It’s
 					simply awesome to have the opportunity to share some nice information with you
 					guys. I know you’ve been studying together since the second part of the course,
 					right? So, let me introduce myself.
 				</p>
-				<p><b>Students:</b> Yes teacher.</p>
+				<p><b>Students :</b> Yes teacher.</p>
 				<p>
-					<b>Jake:</b> Well, I’ve been in the market of internet, social media and this stuff about
+					<b>Jake :</b> Well, I’ve been in the market of internet, social media and this stuff about
 					creating your brand on the Web since I graduated in Marketing. It’s been 7 years now
 					involved in this area. Because of my experience, I decided to teach and then, Gleen
 					gave the news that the school was in need of a new teacher. So, here I am. I met
@@ -39,12 +39,12 @@
 					I started teaching last year and I have a lot of fun in class.
 					Well, I spoke too much yeah?
 				</p>
-				<p><b>Students:</b> Oh teacher. We’re eager to start shooting our videos.</p>
-				<p><b>Akira:</b> The experience of preparing our video in book 2 was great.</p>
-				<p><b>Laura:</b> Yeah! We learned a lot.</p>
-				<p><b>John:</b> I also loved the experience. When can we start teacher?</p>
+				<p><b>Students :</b> Oh teacher. We’re eager to start shooting our videos.</p>
+				<p><b>Akira :</b> The experience of preparing our video in book 2 was great.</p>
+				<p><b>Laura :</b> Yeah! We learned a lot.</p>
+				<p><b>John :</b> I also loved the experience. When can we start teacher?</p>
 				<p>
-					<b>Jake:</b> Wow! Gleen told me about how interested you guys were. I can see that it’s was
+					<b>Jake :</b> Wow! Gleen told me about how interested you guys were. I can see that it’s was
 					not a joke. We start in the next Class ok. Get ready guys. There’s a lot of nice things
 					for us to do together ok. That’s it for today. I see you in the next class.
 				</p>

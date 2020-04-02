@@ -17,8 +17,9 @@
                 <source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow">A – Homophones 4</h5>            
-            <p>Examples: <b>Left /Lef</b></p>
+            <h5 class="barlow" style="margin-top:16px">A – Homographs 4</h5>            
+            <h5 class="barlow"><b>Examples:</b></h5> 
+            <p><b>Left /Lef</b></p>
             <p>Observe the meaning of the words based on the context.</p>
             <p>The building is on the <b>left</b> side of the street.</p>
             <p>They <b>left</b> to the park some minutes ago.</p>

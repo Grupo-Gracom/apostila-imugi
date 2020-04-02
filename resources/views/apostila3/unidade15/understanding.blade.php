@@ -19,7 +19,7 @@
                             <input type="text" name="understanding582-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 - According to Jake what are the possible consequences for selfi shness?<br>
+                            2 - According to Jake what are the possible consequences for selfishness?<br>
                             <input type="text" name="understanding582-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>

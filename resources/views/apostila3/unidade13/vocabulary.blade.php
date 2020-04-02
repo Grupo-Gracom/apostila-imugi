@@ -18,13 +18,13 @@
 				</audio>		
 								
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>				
-				<ul class="lista-inline">
+				<ul class="lista-inline upper" style="margin-top:16px">
 					<li><p><b>Feed</b></p></li>
 					<li><p><b>Filter</b></p></li>
 					<li><p><b>Follower</b></p></li>												
 				</ul>				
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>				
-				<ul class="lista-inline">
+				<ul class="lista-inline upper" style="margin-top">
 					<li><p><b>Awesome</b></p></li>
 					<li><p><b>Exchange</b></p></li>
 					<li><p><b>Share</b></p></li>

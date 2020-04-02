@@ -17,13 +17,8 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>                
-<<<<<<< HEAD
-                <h5 class="barlow">A -  Listen to the audio and answer the questions below.</h5>
-                <p>What’s is the passage all about and its importance?</p>
-=======
                 <h5 class="barlow" style="margin-top:16px;">A -  Listen to the audio and answer the questions below.</h5>
                 <p>1. What’s is the passage all about and its importance?</p>
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
                 <form id="unidade10listening561" method="post">
                     <textarea name="listening561-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">

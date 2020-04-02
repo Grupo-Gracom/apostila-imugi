@@ -18,17 +18,19 @@
 				</audio>		
 								
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>				
-				<ul class="lista-inline">
+				<ul class="lista-inline upper" style="margin-top:16px">
 					<li><p><b>Direct Message</b></p></li>
 					<li><p><b>Engagement</b></p></li>
 					<li><p><b>Engagement rate</b></p></li>												
 				</ul>				
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>				
-				<ul class="lista-inline">
+				<ul class="lista-inline upper" style="margin-top:16px">
 					<li><p><b>Fellas</b></p></li>
 					<li><p><b>Tools</b></p></li>
 					<li><p><b>Empathy</b></p></li>
 					<li><p><b>Insights</b></p></li>
+				</ul>
+				<ul class="lista-inline upper" style="margin-top:16px">
 					<li><p><b>Enough</b></p></li>
 					<li><p><b>Reach</b></p></li>
 					<li><p><b>Shoot</b></p></li>								

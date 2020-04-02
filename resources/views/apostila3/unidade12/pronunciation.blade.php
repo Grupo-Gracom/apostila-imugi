@@ -17,8 +17,9 @@
                 <source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow">A – Homophones 12</h5>            
-            <p>Examples: <b>Bat/Bat</b></p>
+            <h5 class="barlow" style="margin-top:16px">A – Homographs 2</h5>            
+            <h5 class="barlow"><b>Examples:</b></h5> 
+            <p><b>Bat/Bat</b></p>
             <p>Observe the meaning of the words based on the context.</p>
             <p>I’m afraid of <b>bats</b>.</p>
             <p>In a baseball game we use a <b>bat</b> to hit the ball.</p>
