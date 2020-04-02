@@ -37,7 +37,7 @@
 					<td><p>fine</p></td>
 				</tr>
 				<tr>
-					<td><p>pit</p></td>
+					<td><p>pill</p></td>
 					<td><p>fill</p></td>
 				</tr>
 				<tr>

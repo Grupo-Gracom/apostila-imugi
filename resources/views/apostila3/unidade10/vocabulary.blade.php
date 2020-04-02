@@ -18,18 +18,20 @@
 				</audio>		
 								
 				<h5 class="barlow" style="margin-top: 16px">A -  SOCIAL MEDIA GLOSSARY</h5>				
-				<ul class="lista-inline">
+				<ul class="lista-inline upper">
 					<li><p><b>Algorithm</b></p></li>
 					<li><p><b>Analytics</b></p></li>
 					<li><p><b>Bio</b></p></li>												
 				</ul>
-				<P><a href="https://www.hopperhq.com/social-media-marketi ng-glossary-2018/">https://www.hopperhq.com/social-media-marketi ng-glossary-2018/</a></p>
+				<p><a href="https://www.hopperhq.com/social-media-marketing-glossary-2018/">https://www.hopperhq.com/social-media-marketi ng-glossary-2018/</a></p>
 				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>				
-				<ul class="lista-inline">
+				<ul class="lista-inline upper" style="margin-top:16px">
 					<li><p><b>Rest</b></p></li>
 					<li><p><b>Kind Of</b></p></li>
 					<li><p><b>Still</b></p></li>
 					<li><p><b>Increase</b></p></li>
+				</ul>
+				<ul class="lista-inline upper" style="margin-top:16px">
 					<li><p><b>Triggers</b></p></li>
 					<li><p><b>Huge</b></p></li>
 					<li><p><b>Guess</b></p></li>								

@@ -18,7 +18,11 @@
                 </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>     
-            <h5 class="barlow">A – TALKING ABOUT THE PAST.</h5>
+            <h5 class="barlow" style="margin-top:16px">A – TALKING ABOUT THE PAST.</h5>
+            <p>
+                There are different ways to talk about the past. It all depends on the message you
+                want to communicate. Pay attention to some possibilities on the table.
+            </p>
             <table class="espacamento center-align bordered" style="margin-top:32px;">
                 <tr>
                     <td><h5 class="barlow">Verb Tense</h5></td>                    
@@ -37,8 +41,8 @@
                 </tr>                          
                 <tr class="bordered center-align">
                     <td><p>Used to</p></td>
-                    <td><p>An action that started and finished in a specific time in the past.</p></td>
-                    <td><p>Laura, started her channel last January.</p></td>
+                    <td><p>Used to express a past habit.</p></td>
+                    <td><p>Before Adobe, we used to edit our movies using Microsoft Movie Making.</p></td>
                 </tr>                          
                 <tr class="bordered center-align">
                     <td><p>Present perfect</p></td>
@@ -51,21 +55,21 @@
                     <td><p>When I decided to start my channel, my friend had already become a digital influencer.</p></td>
                 </tr>                          
             </table>
-            <h5 class="barlow">EXERCISES :</h5>
-            <h5 class="barlow">A -  Put the verbs in the correct tense. Use the SIMPLE PAST or the PRESENT PERFECT:</h5>
+            <h5 class="barlow" style="margin-top:32px"><b>EXERCISES :</b></h5>
+            <h5 class="barlow">1 -  Put the verbs in the correct tense. Use the SIMPLE PAST or the PRESENT PERFECT:</h5>
             <form id="unidade7grammar531" method="post">
-                <p><b>1.</b> <input type="text" name="grammar531-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                Tim<input type="text" name="grammar531-2" class="inputpequeno left-align" placeholder="Responda aqui" required> 
+                <p>1. <input type="text" name="grammar531-1"  placeholder="Responda aqui" required>
+                Tim<input type="text" name="grammar531-2"  placeholder="Responda aqui" required> 
                 (finish) his work yet?</p>
-                <p><b>2.</b> <input type="text" name="grammar531-3" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                he <input type="text" name="grammar531-4" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                <p>2. <input type="text" name="grammar531-3"  placeholder="Responda aqui" required>
+                he <input type="text" name="grammar531-4"  placeholder="Responda aqui" required>
                 (finish) it yesterday?</p>
-                <p><b>3.</b> They <input type="text" name="grammar531-5" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                <p>3. They <input type="text" name="grammar531-5"  placeholder="Responda aqui" required>
                 (just / go) out.</p>
-                <p><b>4.</b> They <input type="text" name="grammar531-6" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                <p>4. They <input type="text" name="grammar531-6"  placeholder="Responda aqui" required>
                 (go) out a minute ago.</p>
-                <p><b>5.</b> <input type="text" name="grammar531-7" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                Ann <input type="text" name="grammar531-8" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                <p>5. <input type="text" name="grammar531-7"  placeholder="Responda aqui" required>
+                Ann <input type="text" name="grammar531-8"  placeholder="Responda aqui" required>
                 (study) yesterday afternoon?</p>                
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
@@ -74,22 +78,22 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">B -  Supply a suitable SIMPLE PAST or PAST PERFECT TENSE:</h5>
+            <h5 class="barlow">2 -  Supply a suitable SIMPLE PAST or PAST PERFECT TENSE:</h5>
             <form id="unidade7grammar532" method="post">
-                <p><b>1.</b> They<input type="text" name="grammar532-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                (go) home after they <input type="text" name="grammar532-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                <p>1. They<input type="text" name="grammar532-1"  placeholder="Responda aqui" required>
+                (go) home after they <input type="text" name="grammar532-2"  placeholder="Responda aqui" required>
                 (finish) their work.</p>
-                <p><b>2.</b> She<input type="text" name="grammar532-3" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                <p>2. She<input type="text" name="grammar532-3"  placeholder="Responda aqui" required>
                 (just / go) out when I called her.</p>
-                <p><b>3.</b> My brother<input type="text" name="grammar532-4" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                <p>3. My brother<input type="text" name="grammar532-4"  placeholder="Responda aqui" required>
                 (eat) all the pie before we got back.</p>
-                <p><b>4.</b> He wondered why I <input type="text" name="grammar532-5" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                <p>4. He wondered why I <input type="text" name="grammar532-5"  placeholder="Responda aqui" required>
                 (not / visit) him before.</p>
-                <p><b>5.</b> She said that she <input type="text" name="grammar532-6" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                <p>5. She said that she <input type="text" name="grammar532-6"  placeholder="Responda aqui" required>
                 (already / see) the Pyramids.</p>
-                <p><b>6.</b> The fire <input type="text" name="grammar532-7" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                <p>6. The fire <input type="text" name="grammar532-7"  placeholder="Responda aqui" required>
                 (spread) to the next building before the firemen
-                <input type="text" name="grammar532-8" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                <input type="text" name="grammar532-8"  placeholder="Responda aqui" required>
                 (arrive).</p>                
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
@@ -98,20 +102,20 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">C - Rewrite the sentences using USED TO:</h5>
+            <h5 class="barlow">3 - Rewrite the sentences using USED TO:</h5>
             <form id="unidade7grammar533" method="post">
-                <p><b>1.</b> When she was a child, she lived in a small village.
-                <input type="text" name="grammar533-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                When she was a child, she used to live in a small village. 
-                <input type="text" name="grammar533-2" class="inputpequeno left-align" placeholder="Responda aqui" required></p>
-                <p><b>2.</b> When he was a young man, he enjoyed playing basketball.
-                <input type="text" name="grammar533-3" class="inputpequeno left-align" placeholder="Responda aqui" required></p>
-                <p><b>3.</b> In ancient Rome, wall painti ngs were a popular form of advertising.
-                <input type="text" name="grammar533-4" class="inputpequeno left-align" placeholder="Responda aqui" required></p>
-                <p><b>4.</b> Before she learned to read, her parents read stories to her.
-                <input type="text" name="grammar533-5" class="inputpequeno left-align" placeholder="Responda aqui" required></p>
-                <p><b>5.</b> Before he came to Ankara, life was cheap in Turkey.
-                <input type="text" name="grammar533-6" class="inputpequeno left-align" placeholder="Responda aqui" required></p>
+                <p>1. When she was a child, she lived in a small village.
+                <input type="text" name="grammar533-1"  placeholder="Responda aqui" required>
+                <b>When she was a child, she used to live in a small village.</b> 
+                <input type="text" name="grammar533-2"  placeholder="Responda aqui" required></p>
+                <p>2. When he was a young man, he enjoyed playing basketball.
+                <input type="text" name="grammar533-3"  placeholder="Responda aqui" required></p>
+                <p>3. In ancient Rome, wall paintings were a popular form of advertising.
+                <input type="text" name="grammar533-4"  placeholder="Responda aqui" required></p>
+                <p>4. Before she learned to read, her parents read stories to her.
+                <input type="text" name="grammar533-5"  placeholder="Responda aqui" required></p>
+                <p>5. Before he came to Ankara, life was cheap in Turkey.
+                <input type="text" name="grammar533-6"  placeholder="Responda aqui" required></p>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="7">

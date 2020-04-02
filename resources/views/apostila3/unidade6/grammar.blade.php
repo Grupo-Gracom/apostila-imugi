@@ -18,8 +18,12 @@
                 </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>            
-            <h5 class="barlow" style="margin-top: 16px">EXERCISES:</h5>
-            <h5 class="barlow">A – At the game store. You didn´t understand the salesperson explanation.</h5>
+            <h5 class="barlow">A – EXPLAINING PROCEDURES: REVIEW</h5>
+            <p><b>Pay attention to the “Explaining Procedures” sequence:</b></p>
+            <p style="margin-top:16px">a. Organize instructions in a Sequence.</p>
+            <p>b. Remind of important steps</p>
+            <p>c. Ask for clarification</p>
+            <p>d. Add further information</p>
             <table class="espacamento center-align bordered" style="margin-top:32px;">
                 <tr>
                     <td><h5 class="barlow"></h5></td>                    
@@ -57,11 +61,12 @@
                     </td>                    
                 </tr>                
             </table>
-            <h5 class="barlow">A - Pick one of the pieces of paper from a plastic bag and follow the instructions. Based on
+            <h5 class="barlow" style="margin-top:32px"><b>EXERCICES</b></h5>
+            <h5 class="barlow">1 - Pick one of the pieces of paper from a plastic bag and follow the instructions. Based on
             the explanation of the procedure, you have to find out what the procedure is. In order to
             check the possible outcomes, be prepared to make yes/no questions.</h5>
             <form id="unidade6grammar525" method="post">
-                <textarea name="grammar525-1" class="left-align" placeholder="Responda aqui" required></textarea>
+                <textarea name="grammar525-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="6">
@@ -69,11 +74,11 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">B - Brainstorm about serious issues and have a quick debate on the topic. Organize your
+            <h5 class="barlow">2 - Brainstorm about serious issues and have a quick debate on the topic. Organize your
             ideas in a piece of paper and be prepared to interact with your colleagues using the target
             language from the grammar box.</h5>
             <form id="unidade6grammar526" method="post">
-                <textarea name="grammar526-1" class="left-align" placeholder="Responda aqui" required></textarea>
+                <textarea name="grammar526-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="6">
@@ -81,6 +86,12 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
+            <figure class="metade esquerda">
+                <img src="{{ asset('assets/img/masteroflanguage/unit6/grammar1.png') }}" alt="foto masculina">
+            </figure>
+            <figure class="metade direita">
+                <img src="{{ asset('assets/img/masteroflanguage/unit6/grammar2.png') }}" alt="foto feminina">
+            </figure>
         </div>
     </div>
 </main>

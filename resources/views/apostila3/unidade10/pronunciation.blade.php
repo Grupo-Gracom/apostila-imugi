@@ -17,9 +17,9 @@
                 <source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow">A – Homophones 10</h5>
+            <h5 class="barlow" style="margin-top:16px;">A – Homophones 10</h5>
             <p>Observe the list of homophones below and try to contextualize them,</p>
-            <table class="espacamento center-align bordered" style="margin-top:32px;">
+            <table class="espacamento center-align borderedfull" style="margin-top:32px;">
                 <tr>
                     <td><h5 class="barlow espacamento">hi</h5></td>                    
                     <td><h5 class="barlow espacamento">high</h5></td>                              
@@ -69,7 +69,7 @@
                     <td><h5 class="barlow espacamento">Sea</h5></td>                              
                 </tr>                                                         
             </table>
-            <p>For more examples of homophones, check on the net. There are plenty of useful lists to help
+            <p style="margin-top:32px;">For more examples of homophones, check on the net. There are plenty of useful lists to help
             you improve your pronunciation.</p>
         </div>
     </div>

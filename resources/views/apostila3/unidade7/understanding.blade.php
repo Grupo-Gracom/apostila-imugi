@@ -31,7 +31,7 @@
                             <input type="text" name="understanding536-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 - Who hit the fi rst million views on Youtube?<br>
+                            5 - Who hit the first million views on Youtube?<br>
                             <input type="text" name="understanding536-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

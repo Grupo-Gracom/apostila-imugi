@@ -17,18 +17,18 @@
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>                
-                <h5 class="barlow">A - Listen to the audio and fill in the blanks with the missing words.</h5>
+                <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade9listening550" method="post">
-                    <p>I believe that <input type="text" name="listening550-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    of the year new features will be <input type="text" name="listening550-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <p>I believe that <input type="text" name="listening550-1"   placeholder="Responda aqui" required>
+                    of the year new features will be <input type="text" name="listening550-2"   placeholder="Responda aqui" required>
                     to Instagram. The platform is
-                    <input type="text" name="listening550-3" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening550-3"   placeholder="Responda aqui" required>
                     more and more att racti ve and 
-                    <input type="text" name="listening550-4" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    . Millennials rea <input type="text" name="listening550-5" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening550-4"   placeholder="Responda aqui" required>
+                    . Millennials rea <input type="text" name="listening550-5"   placeholder="Responda aqui" required>
                     into instagram. Older people 
-                    <input type="text" name="listening550-6" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    use Facebook. <input type="text" name="listening550-7" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening550-6"   placeholder="Responda aqui" required>
+                    use Facebook. <input type="text" name="listening550-7"   placeholder="Responda aqui" required>
                     are great for doing business.</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">

@@ -17,14 +17,15 @@
                 <source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow">A – Homophones 6</h5>
-            <p class="espacamentoesquerda3">Examples: <b>Blew/Blue</b></p>
-            <h5 class="barlow">Complete the sentences below with the appropriate word.</h5>
+            <h5 class="barlow" style="margin-top:16px">A – Homophones 6</h5>
+            <h5 class="barlow"><b>Examples:</b></h5> 
+            <p><b>Blew/Blue</b></p>
+            <h5 class="barlow">1- Complete the sentences below with the appropriate word.</h5>
             <form id="unidade6pronunciation527" method="post">
-                <p><b>1</b> - He painted the ceiling
+                <p>1. He painted the ceiling
                 <input type="text" name="pronunciation527-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
                 </p>
-                <p><b>2</b> - The wind
+                <p>2. The wind
                     <input type="text" name="pronunciation527-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
                     Her hat off.
                 </p>
