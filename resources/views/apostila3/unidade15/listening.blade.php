@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 10 | Listening')
+@section('titulo','Unit 15 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,22 +9,44 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade10" data-etapa="listening">
-				<h3 class="barlow">UNIT 10</h3>
+			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade15" data-etapa="listening">
+				<h3 class="barlow">UNIT 15</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>                
-                <h5 class="barlow">A -  Listen to the audio and answer the questions below.</h5>
-                <p>What’s is the passage all about and its importance?</p>
-                <form id="unidade10listening561" method="post">
-                    <textarea name="listening561-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
+                <h5 class="barlow">A - Listen to the audio and fill in the blanks with the missing words.</h5>
+                <p>How did the internet change our lives?</p>
+                <form id="unidade15listening581" method="post">
+                
+                    <p>Any person can cause a 
+                    <input type="text" name="listening581-1" class="inputpequeno left-align" placeholder="Responda aqui" required> 
+                    impact through social media. In the past we
+                    couldn’t 
+                    <input type="text" name="listening581-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    our voices without 
+                    <input type="text" name="listening581-3" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    tons of money to do so. Internet has
+                    <input type="text" name="listening581-4" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    equally, the 
+                    <input type="text" name="listening581-5" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    of speaking. A simple idea may 
+                    <input type="text" name="listening581-6" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    the whole
+                    world. We have seen the 
+                    <input type="text" name="listening581-7" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    media losing power after some social media
+                    <input type="text" name="listening581-8" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    started to be used. So let’s be 
+                    <input type="text" name="listening581-9" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    for what we want to say.</p>
+                                                                                                     
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="10">
-                    <input type="hidden" name="atividade_id" value="561">
+                    <input type="hidden" name="unidade_id" value="15">
+                    <input type="hidden" name="atividade_id" value="581">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>                                
@@ -39,14 +61,22 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade10listening561").submit(function(e){
+
+        $("#unidade15listening581").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade10listening561 textarea').attr("name")+'":"'+$('#unidade10listening561 textarea').val()+'"}';
-            if($('#unidade10listening561 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade10listening561'), respostas);
+            var respostas = '{';
+            $('#unidade15listening581 input[type="text"]').each(function(index){
+                if(($('#unidade15listening581 input[type="text"]').length - 1) == index){
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
+                }else{
+                    respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
+                }
+            });
+            if($('#unidade15listening581 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade15listening581'), respostas);
             }else{
-                enviarAtividade($('#unidade10listening561'), respostas);
+                enviarAtividade($('#unidade15listening581'), respostas);
             }
         });
 
@@ -66,14 +96,14 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade10listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
-                        $('#unidade10listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade10listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade10listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade10listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade15listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
+                        $('#unidade15listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade15listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade15listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade15listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade10listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade10listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade15listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade15listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

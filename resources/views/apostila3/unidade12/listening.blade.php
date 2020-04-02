@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 10 | Listening')
+@section('titulo','Unit 12 | Listening')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,8 +9,8 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade10" data-etapa="listening">
-				<h3 class="barlow">UNIT 10</h3>
+			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade12" data-etapa="listening">
+				<h3 class="barlow">UNIT 12</h3>
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
@@ -18,13 +18,13 @@
 				</audio>
                 <div class="clear"></div>                
                 <h5 class="barlow">A -  Listen to the audio and answer the questions below.</h5>
-                <p>What’s is the passage all about and its importance?</p>
-                <form id="unidade10listening561" method="post">
-                    <textarea name="listening561-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
+                <p>How do companies create and launch new products?</p>
+                <form id="unidade12listening569" method="post">                    
+                    <textarea name="listening565-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                                                            
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="10">
-                    <input type="hidden" name="atividade_id" value="561">
+                    <input type="hidden" name="unidade_id" value="12">
+                    <input type="hidden" name="atividade_id" value="569">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>                                
@@ -39,14 +39,15 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade10listening561").submit(function(e){
+        
+        $("#unidade12listening569").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade10listening561 textarea').attr("name")+'":"'+$('#unidade10listening561 textarea').val()+'"}';
-            if($('#unidade10listening561 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade10listening561'), respostas);
+            var respostas = '{"'+$('#unidade12listening569 textarea').attr("name")+'":"'+$('#unidade12listening569 textarea').val()+'"}';
+            if($('#unidade12listening569 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade12listening569'), respostas);
             }else{
-                enviarAtividade($('#unidade10listening561'), respostas);
+                enviarAtividade($('#unidade12listening569'), respostas);
             }
         });
 
@@ -66,14 +67,14 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade10listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
-                        $('#unidade10listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade10listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
-                        $('#unidade10listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade10listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade12listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
+                        $('#unidade12listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade12listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade12listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade12listening'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade10listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade10listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade12listening'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade12listening'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

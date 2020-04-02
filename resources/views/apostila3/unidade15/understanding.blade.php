@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 10 | Understanding')
+@section('titulo','Unit 15 | Understanding')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,35 +9,35 @@
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
-			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade10" data-etapa="understanding">
-				<h3 class="barlow">UNIT 10</h3>
+			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade15" data-etapa="understanding">
+				<h3 class="barlow">UNIT 15</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
                 <div class="metade">
-                    <form id="unidade10understanding562" method="post">                    
+                    <form id="unidade15understanding582" method="post">                    
                         <p>
-                            1 - According to Jake, what is there behind the use of social media?<br>
-                            <input type="text" name="understanding562-1" class="full left-align" placeholder="Responda aqui" required>
+                            1 - What can be interpreted as selfishness?<br>
+                            <input type="text" name="understanding582-1" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            2 - How did the students react when they got to know these new concepts?<br>
-                            <input type="text" name="understanding562-2" class="full left-align" placeholder="Responda aqui" required>
+                            2 - According to Jake what are the possible consequences for selfi shness?<br>
+                            <input type="text" name="understanding582-2" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            3 - Is Jake gonna explore the new concepts? Why?<br>
-                            <input type="text" name="understanding562-3" class="full left-align" placeholder="Responda aqui" required>
+                            3 - What’s necessary to have a good relationship with your followers?<br>
+                            <input type="text" name="understanding582-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            4 - Where can students fi nd more informati on on the new concepts?<br>
-                            <input type="text" name="understanding562-4" class="full left-align" placeholder="Responda aqui" required>
+                            4 - How many platforms does Jake recommend you to start with?<br>
+                            <input type="text" name="understanding582-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 - Did you know anything about these new concepts? What’s your opinion about them?<br>
-                            <input type="text" name="understanding562-5" class="full left-align" placeholder="Responda aqui" required>
+                            5 - What could happen if you have many platforms to take care?<br>
+                            <input type="text" name="understanding582-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>                    
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
-                        <input type="hidden" name="unidade_id" value="10">
-                        <input type="hidden" name="atividade_id" value="562">
+                        <input type="hidden" name="unidade_id" value="15">
+                        <input type="hidden" name="atividade_id" value="582">
                         <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                     </form>
                 </div>
@@ -52,21 +52,21 @@
             checkAtividade(atividade_id);
         });
 
-        $("#unidade10understanding562").submit(function(e){
+        $("#unidade15understanding582").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);
             var respostas = '{';
-            $('#unidade10understanding562 input[type="text"]').each(function(index){
-                if(($('#unidade10understanding562 input[type="text"]').length - 1) == index){
+            $('#unidade15understanding582 input[type="text"]').each(function(index){
+                if(($('#unidade15understanding582 input[type="text"]').length - 1) == index){
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
                 }else{
                     respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
                 }
             });
-            if($('#unidade10understanding562 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade10understanding562'), respostas);
+            if($('#unidade15understanding582 input[name="resposta_id"').val() != 0){
+                atualizarAtividade($('#unidade15understanding582'), respostas);
             }else{
-                enviarAtividade($('#unidade10understanding562'), respostas);
+                enviarAtividade($('#unidade15understanding582'), respostas);
             }
         });
 
@@ -86,11 +86,11 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade10understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-                        $('#unidade10understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+                        $('#unidade15understanding'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+                        $('#unidade15understanding'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                     }
-                    $('#unidade10understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-                    $('#unidade10understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+                    $('#unidade15understanding'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+                    $('#unidade15understanding'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
                 }
             });
         }

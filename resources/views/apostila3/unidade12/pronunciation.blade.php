@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 10 | Pronunciation')
+@section('titulo','Unit 12 | Pronunciation')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,68 +9,19 @@
 <main>
     <!-- Conteúdo principal central -->
     <div class="dashboard">
-        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade10" data-etapa="pronunciation">
-            <h3 class="barlow">UNIT 10</h3>
+        <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade12" data-etapa="pronunciation">
+            <h3 class="barlow">UNIT 12</h3>
             <h5 class="barlow">4 - PRONUNCIATION</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
                 <source src="{{ asset('assets/audio/apostila2/UNIT 29/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
-            <h5 class="barlow">A – Homophones 10</h5>
-            <p>Observe the list of homophones below and try to contextualize them,</p>
-            <table class="espacamento center-align bordered" style="margin-top:32px;">
-                <tr>
-                    <td><h5 class="barlow espacamento">hi</h5></td>                    
-                    <td><h5 class="barlow espacamento">high</h5></td>                              
-                    <td><h5 class="barlow espacamento">hole</h5></td>                    
-                    <td><h5 class="barlow espacamento">Whole</h5></td>                              
-                </tr>
-                <tr>
-                    <td><h5 class="barlow espacamento">Our</h5></td>                    
-                    <td><h5 class="barlow espacamento">Hour</h5></td>                              
-                    <td><h5 class="barlow espacamento">Eye</h5></td>                    
-                    <td><h5 class="barlow espacamento">I</h5></td>                              
-                </tr>
-                <tr>
-                    <td><h5 class="barlow espacamento">Knew</h5></td>                    
-                    <td><h5 class="barlow espacamento">New</h5></td>                              
-                    <td><h5 class="barlow espacamento">Know</h5></td>                    
-                    <td><h5 class="barlow espacamento">No</h5></td>                              
-                </tr>
-                <tr>
-                    <td><h5 class="barlow espacamento">Not</h5></td>                    
-                    <td><h5 class="barlow espacamento">Knot</h5></td>                              
-                    <td><h5 class="barlow espacamento">Knight</h5></td>                    
-                    <td><h5 class="barlow espacamento">night</h5></td>                              
-                </tr>
-                <tr>
-                    <td><h5 class="barlow espacamento">male</h5></td>                    
-                    <td><h5 class="barlow espacamento">mail</h5></td>                              
-                    <td><h5 class="barlow espacamento">meet</h5></td>                    
-                    <td><h5 class="barlow espacamento">meat</h5></td>                              
-                </tr>
-                <tr>
-                    <td><h5 class="barlow espacamento">Pear</h5></td>                    
-                    <td><h5 class="barlow espacamento">Pair</h5></td>                              
-                    <td><h5 class="barlow espacamento">Piece</h5></td>                    
-                    <td><h5 class="barlow espacamento">Peace</h5></td>                              
-                </tr>
-                <tr>
-                    <td><h5 class="barlow espacamento">You're</h5></td>                    
-                    <td><h5 class="barlow espacamento">Your</h5></td>                              
-                    <td><h5 class="barlow espacamento">Won</h5></td>                    
-                    <td><h5 class="barlow espacamento">One</h5></td>                              
-                </tr>
-                <tr>
-                    <td><h5 class="barlow espacamento">Where</h5></td>                    
-                    <td><h5 class="barlow espacamento">Wear</h5></td>                              
-                    <td><h5 class="barlow espacamento">See</h5></td>                    
-                    <td><h5 class="barlow espacamento">Sea</h5></td>                              
-                </tr>                                                         
-            </table>
-            <p>For more examples of homophones, check on the net. There are plenty of useful lists to help
-            you improve your pronunciation.</p>
+            <h5 class="barlow">A – Homophones 12</h5>            
+            <p>Examples: <b>Bat/Bat</b></p>
+            <p>Observe the meaning of the words based on the context.</p>
+            <p>I’m afraid of <b>bats</b>.</p>
+            <p>In a baseball game we use a <b>bat</b> to hit the ball.</p>
         </div>
     </div>
 </main>
