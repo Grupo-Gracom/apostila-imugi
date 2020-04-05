@@ -447,8 +447,7 @@
                 </tr>
                 <tr class="bordered">
                     <td>
-                        <h5 class="barlow">Have English classes</h5</td> <td>
-                            <p></p>
+                        <h5 class="barlow">Have English classes</h5></td><td>
                     </td>
                     <td>
                         <p></p>

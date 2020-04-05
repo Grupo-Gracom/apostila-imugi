@@ -25,7 +25,6 @@
                         <td colspan="2">
                             <h5 class="barlow"><b>SUPERIORITY</b></h5>
                         </td>
-
                     </tr>
                     <tr>
                         <td>
@@ -250,11 +249,12 @@
                             <p>
                                 9. (Python / expensive / C)
                                 <input type="text" name="grammar135-9" class="full left-align" placeholder="Responda aqui" required />
-                                <p>
-                                    10. (C / Short / Python)
-                                    <input type="text" name="grammar135-10" class="full left-align" placeholder="Responda aqui" required />
-                                </p>
                             </p>
+                            <p>
+                                10. (C / Short / Python)
+                                <input type="text" name="grammar135-10" class="full left-align" placeholder="Responda aqui" required />
+                            </p>
+                        </p>
                     </div>
                     <div class="clear"></div>
 
