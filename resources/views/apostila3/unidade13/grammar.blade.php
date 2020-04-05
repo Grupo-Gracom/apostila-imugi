@@ -17,7 +17,7 @@
                 <source src="{{ asset('assets/audio/apostila3/UNIT 13/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>     
-            <h5 class="barlow">A – RELATIVE PRONOUNS REVIEW.</h5>
+            <h5 class="barlow" style="margin-top:16px">A – RELATIVE PRONOUNS REVIEW.</h5>
             <p>We use <b>relative pronouns to connect</b> references, ideas and general info previously
             mentioned within sentences. In short, we may connect sentences to make the speech more
             fluid. Depending on the type of reference, we pick different relative pronouns as you can see
@@ -160,8 +160,6 @@
         var atividade_id = $(this).find('input[name="atividade_id"]').val();
         checkAtividade(atividade_id);
     });
-    
-    
 
         $("#unidade13grammar571").submit(function(e){
             e.preventDefault();
@@ -208,7 +206,6 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade13grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
                     $('#unidade13grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
                     $('#unidade13grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                     $('#unidade13grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);

@@ -19,7 +19,7 @@
             </audio>
 
             <div class="clear"></div>
-            <h5 class="barlaw" style="margin-top:16px"><b>VERB TO BE</b></h5>
+            <h5 class="barlaw" style="margin-top:16px"><b>A - VERB TO BE</b></h5>
             <table class="metade center-align" style="margin-top:16px">
                 <tr>
                     <td>
@@ -165,7 +165,7 @@
             <p><b>Contractions: </b>Is + no = <b>isn’t</b> | are + not =<b> aren’t</b></p>
 
             <h5 style="margin-top:16px"><b>EXERCISES:</b></h5>
-            <h5 class="barlow">A - Choose the best answer:</h5>
+            <h5 class="barlow">1 - Choose the best answer:</h5>
             <form id="unidade1grammar100" method="post">
                 <p>1. Maggie and Carol <input type="text" name="grammar100-1" placeholder="Responda aqui" required> designers.</p>
                 <p class="espacamentoWord">a)am - b)are - c)is - d)isn’t</p>
@@ -186,7 +186,7 @@
             </form>
 
 
-            <h5 class="barlow">B - Complete this card by using “AM, IS, ARE, AM NOT , ISN’T, AREN’T”:</h5>
+            <h5 class="barlow">2 - Complete this card by using “AM, IS, ARE, AM NOT , ISN’T, AREN’T”:</h5>
             <form id="unidade1grammar101" method="post">
                 <p>Hello!</p>
                 <p>My name <input type="text" name="grammar101-1" placeholder="Responda aqui" required>is<input type="text" name="grammar101-2" placeholder="Responda aqui" required>
@@ -204,7 +204,7 @@
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
 
-            <h5 class="barlow">C - Build up good sentences.</h5>
+            <h5 class="barlow">3 - Build up good sentences.</h5>
             <form id="unidade1grammar102" method="post">
                 <p>1. Mike / photographer (-) <input type="text" name="grammar102-1" placeholder="Responda aqui" required>
                     Mike isn’t a photographer<input type="text" name="grammar102-2" placeholder="Responda aqui" required></p>
@@ -227,7 +227,7 @@
 
             <div class="clear"></div>
 
-            <h5 class="barlow" style="margin-top:32px">D - Prepare your personal presentation. Tell us your name, age, profession, nationality and any other thing you want to share.</h5>
+            <h5 class="barlow" style="margin-top:32px">4 - Prepare your personal presentation. Tell us your name, age, profession, nationality and any other thing you want to share.</h5>
             <form id="unidade1grammar103" method="post">
                 <textarea name="grammar103-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 

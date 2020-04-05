@@ -16,7 +16,7 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila3/UNIT 1/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 				</audio>
-
+				<div class="clear"></div>
 				<p style="margin-top:16px">
 					<b>Jake Paul :</b> Hello everybody. Welcome to your new level in the course. We’re gonna
 					start book 3 and everything related to social media and internet. More specifically

@@ -151,8 +151,8 @@
             </form>
             <div style="margin-top: 36px">
                 <figure>
-                    <img src="{{ asset('assets/img/playgo/unit40/pagina-1.png') }}" alt="vaso hercules">
-                </figure>
+					<img src="{{ asset('assets/img/dominating/unit40/grammar.png') }}" alt="vaso hercules">
+				</figure>
             </div>
 
             <h5 class="barlow" style="margin-top: 36px">4 - Think of a game, movie, anime and write 5 sentences about it. Use WHICH/THAT to give information about it.</h5>

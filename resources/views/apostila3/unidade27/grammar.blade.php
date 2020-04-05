@@ -18,7 +18,7 @@
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - ARGUMENTATION (2) – Advice-giving strategies.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - ARGUMENTATION (2) – Advice-giving strategies.</h5>
 
                 <table class="espacamento left-align borderedfull">
                     <tr>

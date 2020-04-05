@@ -32,11 +32,15 @@
 			<p>
 				<b>Gleen :</b> A big name in Hollywood. Ok guys. That’s it for today. I see you in the next class. Take care.
 			</p>
-			<div style="margin-top: 36px">
-				<figure>
-					<img src="{{ asset('assets/img/playgo/unit54/pagina-1.png') }}" alt="atores">
-				</figure>
-			</div>
+			<figure class="umterco">
+				<img src="{{ asset('assets/img/dominating/unit54/conversation1.png') }}" alt="atores">
+			</figure>
+			<figure class="umterco">
+				<img src="{{ asset('assets/img/dominating/unit54/conversation2.png') }}" alt="atores">
+			</figure>
+			<figure class="umterco">
+				<img src="{{ asset('assets/img/dominating/unit54/conversation3.png') }}" alt="atores">
+			</figure>
 		</div>
 	</div>
 </main>

@@ -16,6 +16,7 @@
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 18/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 			</audio>
+			<div class="clear"></div>
 			<h5 class="barlow" style="margin-top: 18px">A - WORDS AND EXPRESSIONS</h5>
 			<ul class="lista-inline upper" style="margin-top: 16px">
 				<li><p><b>User-generated content</b></p></li>

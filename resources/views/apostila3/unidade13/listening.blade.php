@@ -54,8 +54,6 @@
             var atividade_id = $(this).find('input[name="atividade_id"]').val();
             checkAtividade(atividade_id);
         });
-
-        
         
         $("#unidade13listening573").submit(function(e){
             e.preventDefault();
@@ -91,7 +89,6 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade13listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
                         $('#unidade13listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade13listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade13listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);

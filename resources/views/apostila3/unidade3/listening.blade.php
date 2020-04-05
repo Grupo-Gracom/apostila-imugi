@@ -85,7 +85,6 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade3listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
                         $('#unidade3listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade3listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade3listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);

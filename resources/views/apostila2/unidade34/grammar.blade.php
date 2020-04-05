@@ -156,10 +156,10 @@
                 <input type="hidden" name="atividade_id" value="261">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <figure>
+            <figure class="metade esquerda">
                 <img src="{{ asset('assets/img/dominating/unit34/grammar1.png') }}" alt="desenhista">
             </figure>
-            <figure>
+            <figure class="metade direita">
                 <img src="{{ asset('assets/img/dominating/unit34/grammar2.png') }}" alt="desenho personagem">
             </figure>
         </div>

@@ -17,7 +17,7 @@
                 <source src="{{ asset('assets/audio/apostila3/UNIT 15/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>      
-            <h5 class="barlow">A – MODAL VERBS – REVIEW</h5>
+            <h5 class="barlow" style="margin-top:16px">A – MODAL VERBS – REVIEW</h5>
             <p><b>Modal verbs</b> are used as auxiliary verbs and express the speaker’s mood, such as 
             obligation, possibility, necessity, etc.</p>                            
             <table class="espacamento left-align bordered" style="margin-top:32px;">
@@ -196,8 +196,6 @@
         var atividade_id = $(this).find('input[name="atividade_id"]').val();
         checkAtividade(atividade_id);
     });
-    
-    
 
         $("#unidade15grammar579").submit(function(e){
             e.preventDefault();
@@ -251,7 +249,6 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade15grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
                     $('#unidade15grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
                     $('#unidade15grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                     $('#unidade15grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);

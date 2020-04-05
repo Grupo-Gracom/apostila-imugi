@@ -16,8 +16,8 @@
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 9/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
-
-			<p style="margin-top :16px"><b>Jake : </b>Welcome back my dear potential youtubers. How are you guys?</p>
+			<div class="clear"></div>
+			<p style="margin-top:16px"><b>Jake : </b>Welcome back my dear potential youtubers. How are you guys?</p>
 			<p><b>Students : </b>Great teacher. Everything is ok.</p>
 			<p><b>Akira : </b>Thoughtful about the power my voice can have teacher. I’m really concerned with that.</p>
 			<p>

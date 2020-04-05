@@ -12,14 +12,14 @@
         <div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade53" data-etapa="grammar">
             <h3 class="barlow">UNIT 53 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
+            <!-- <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+            </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - PRESENT PERFECT CONTINUOUS</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - PRESENT PERFECT CONTINUOUS</h5>
                 <p>
                     We use the Present Perfect Continuous to show that something started in the past and
                     has continued up until now. “For five minutes,” “for two weeks,” and “since Tuesday”
@@ -185,11 +185,11 @@
             </form>
             <div style="margin-top: 36px">
                 <figure>
-                    <img src="{{ asset('assets/img/playgo/unit53/pagina-1.png') }}" alt="basquete">
+                    <img src="{{ asset('assets/img/dominating/unit53/grammar.png') }}" alt="basquete">
                 </figure>
             </div>
 
-            <h5 class="barlow metade" style="margin-top: 36px">4 - The biggest movie makers in the world are preparing their new releases for the next year. Write about what they have been doing lately.</h5>
+            <h5 class="barlow" style="margin-top: 36px">4 - The biggest movie makers in the world are preparing their new releases for the next year. Write about what they have been doing lately.</h5>
             <form id="unidade53grammar364" method="post">
                 <textarea name="grammar364-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 

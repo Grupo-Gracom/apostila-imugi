@@ -16,6 +16,7 @@
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 13/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
+			<div class="clear"></div>
 			<p style="margin-top :16px">
 				<b>Jake : </b>By the way guys, just to make some comments on the Empathy Map, I worked
 				with a guy who was a specialist on that. The marketing agency results were awesome because of that.

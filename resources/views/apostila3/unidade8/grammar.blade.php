@@ -17,7 +17,7 @@
                 <source src="{{ asset('assets/audio/apostila3/UNIT 8/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>     
-            <h5 class="barlow">A – TALKING ABOUT THE PRESENT.</h5>
+            <h5 class="barlow" style="margin-top:16px">A – TALKING ABOUT THE PRESENT.</h5>
                 <p>There are different ways to talk about the present. It also depends on the message
                 you want to communicate. Pay attention to some possibilities on the table.</p>
             <table class="espacamento center-align bordered" style="margin-top:32px;">
@@ -283,7 +283,6 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade8grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
                     $('#unidade8grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
                     $('#unidade8grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                     $('#unidade8grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);

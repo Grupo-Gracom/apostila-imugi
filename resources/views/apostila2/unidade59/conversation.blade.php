@@ -31,11 +31,6 @@
 			<p>
 				<b>Laura :</b> Good hint teacher. (to be continued)
 			</p>
-			<div style="margin-top: 36px">
-				<figure>
-					<img src="{{ asset('assets/img/playgo/unit59/pagina-1.png') }}" alt="ioga e desenhando">
-				</figure>
-			</div>
 		</div>
 	</div>
 </main>

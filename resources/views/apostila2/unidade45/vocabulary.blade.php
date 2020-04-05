@@ -16,7 +16,7 @@
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila2/UNIT 45/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 			</audio>
-			<h5 class="barlow" class="espacamento">A - WORDS AND EXPRESSIONS</h5>
+			<h5 class="barlow" style="margin-top:16px">A - WORDS AND EXPRESSIONS</h5>
 			<div class="espacamento">
 				<p><b>TO CANCEL </b>/ a meeting / a date</p>
 				<p><b>TO CRY </b>/ TO BREAK INTO TEARS / TO WEEP</p>

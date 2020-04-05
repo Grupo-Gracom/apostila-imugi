@@ -37,11 +37,11 @@
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
             <iframe style="margin-top:16px" width="480" height="360" src="https://www.youtube.com/embed/cqdDv3kniBU?list=PLmBK9jc1368IrWWyU7sS_lMWXUd6F4NPG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <figure class="umterco">
+            <div class="clear"></div>
+            <figure class="metade esquerda">
                 <img src="{{ asset('assets/img/dominating/unit33/listening1.png') }}" alt="moça lava roupa">
             </figure>
-            <figure class="umterco">
+            <figure class="metade direita">
                 <img src="{{ asset('assets/img/dominating/unit33/listening2.png') }}" alt="criança lava roupa">
             </figure>
         </div>

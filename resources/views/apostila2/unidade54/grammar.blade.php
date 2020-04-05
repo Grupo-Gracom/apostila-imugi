@@ -12,14 +12,14 @@
         <div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade54" data-etapa="grammar">
             <h3 class="barlow">UNIT 54 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
+            <!-- <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+            </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - SIMPLE PAST X PRESENT PERFECT</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - SIMPLE PAST X PRESENT PERFECT</h5>
                 <p>It is important to select the grammar structure according to the message you want communicate. Pay attention to difference between Simple Past and Present perfect.</p>
                 <div class="metade">
                     <table class=" center-align bordered">
@@ -233,7 +233,7 @@
             </form>
             <div style="margin-top: 36px">
                 <figure>
-                    <img src="{{ asset('assets/img/playgo/unit54/pagina-1.png') }}" alt="star wars">
+                    <img src="{{ asset('assets/img/dominating/unit54/grammar.png') }}" alt="star wars">
                 </figure>
             </div>
         </div>

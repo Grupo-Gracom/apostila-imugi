@@ -132,7 +132,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade #joguin1{margin: 0 auto;margin-top: 50px;display: block;}
 #unidade .caixa{border: 1px solid #333;width: 35%;}
 #unidade .manipulaimagem{width:60%;margin-left:20%; margin-top:16px;}
-#unidade figure.umterco img{height:500px;}
+#unidade figure.umterco img{height:350px;}
 #unidade figure.umquarto img{height:250px;}
 #unidade figure.metade img{height:400px;}
 

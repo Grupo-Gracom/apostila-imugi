@@ -47,7 +47,7 @@
                     <p><b>Negative:</b> SUBJECT + WAS/WERE + NOT</p>
                     <p>EXAMPLE: WE WERE NOT ON TIME FOR THE EVENT</p>             
                 </div>
-				<h5 class="barlow">A - Complete the exercise with the verb to be in the past.</h5>
+				<h5 class="barlow" style="margin-top: 16px">A - Complete the exercise with the verb to be in the past.</h5>
 				<form id="unidade17grammar48" method="post">
                     <p>1 - <input type="text" name="grammar48-1" placeholder="Responda aqui" required>You And Your Friend At The Party Yesterday?</p>
                     <p>2 - I<input type="text" name="grammar48-2" placeholder="Responda aqui" required>Sick On The Day Of The Test.</p>

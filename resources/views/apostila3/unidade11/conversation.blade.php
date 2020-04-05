@@ -16,7 +16,7 @@
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 11/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
-
+			<div class="clear"></div>
 			<p style="margin-top :16px">
 				<b>Jake : </b>So guys, let’s start talking about how to build a nice audience on the web. We
 				have brainstormed some ideas so far and now it’s time to dive deep into these ideas.

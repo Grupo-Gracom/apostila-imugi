@@ -18,7 +18,7 @@
 				</audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and answer the questions below.</h5>
-                <p>What’s the advice of the speaker about the content to be delivered.</p>
+                <p>1. What’s the advice of the speaker about the content to be delivered.</p>
                 <form id="unidade4listening518" method="post">
                     <textarea name="listening518-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -66,7 +66,6 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade4listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
                         $('#unidade4listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade4listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade4listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);

@@ -16,6 +16,7 @@
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 12/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
+			<div class="clear"></div>
 			<p style="margin-top :16px"><b>Jake : </b>Hey, What’s up fellas? Welcome back to the class. Let’s start?</p>
 			<p><b>Students : </b>For sure teacher.</p>
 			<p><b>Jake : </b>Did you think of strategies to decide who your audience is or is gonna be?</p>

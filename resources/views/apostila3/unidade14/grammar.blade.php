@@ -17,7 +17,7 @@
                 <source src="{{ asset('assets/audio/apostila3/UNIT 14/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>     
-            <h5 class="barlow">A – PAIRED CONJUNCTIONS – REVIEW</h5>
+            <h5 class="barlow" style="margin-top:16px">A – PAIRED CONJUNCTIONS – REVIEW</h5>
             <p><b>We use paired conjunctions to :</b></p>                            
             <table class="espacamento left-align bordered" style="margin-top:32px;">
                 <tr>
@@ -123,8 +123,6 @@
         var atividade_id = $(this).find('input[name="atividade_id"]').val();
         checkAtividade(atividade_id);
     });
-    
-    
 
         $("#unidade14grammar575").submit(function(e){
             e.preventDefault();
@@ -171,7 +169,6 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade14grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
                     $('#unidade14grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
                     $('#unidade14grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                     $('#unidade14grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);

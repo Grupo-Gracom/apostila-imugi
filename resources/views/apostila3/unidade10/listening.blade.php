@@ -66,10 +66,6 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-<<<<<<< HEAD
-                        $('#unidade10listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
-=======
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
                         $('#unidade10listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade10listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade10listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);

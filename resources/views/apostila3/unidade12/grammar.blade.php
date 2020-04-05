@@ -17,7 +17,7 @@
                 <source src="{{ asset('assets/audio/apostila3/UNIT 12/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>     
-            <h5 class="barlow">A –  CONDITIONALS - REVIEW</h5>
+            <h5 class="barlow" style="margin-top:16px">A –  CONDITIONALS - REVIEW</h5>
             <p>We use conditional sentences to express <b>Hypothesis, Conditions, Uncertain Events or
             Situations.</b></p>                            
             <table class="espacamento left-align bordered" style="margin-top:32px;">
@@ -119,8 +119,6 @@
         var atividade_id = $(this).find('input[name="atividade_id"]').val();
         checkAtividade(atividade_id);
     });
-    
-    
 
         $("#unidade12grammar567").submit(function(e){
             e.preventDefault();
@@ -167,7 +165,6 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade12grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
                     $('#unidade12grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
                     $('#unidade12grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                     $('#unidade12grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);

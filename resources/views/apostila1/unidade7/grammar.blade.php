@@ -50,7 +50,7 @@
                         <td><p>Do they give ?</p></td>
                     </tr>
                 </table>
-				<h5 class="barlow">A - Complete the sentences using the correct verb form.</h5>
+				<h5 class="barlow" style="margin-top: 16px">A - Complete the sentences using the correct verb form.</h5>
 				<form id="unidade7grammar23" method="post">
                     <p><b>1 - </b>Carlos <input type="text" name="grammar23-1" placeholder="Responda aqui" required>  (use/uses) the Adjustment Panel for his pictures.</p>
                     <p><b>2 - </b>My friend and I <input type="text" name="grammar23-2" placeholder="Responda aqui" required>   (need/needs) it to edit our photos.</p>

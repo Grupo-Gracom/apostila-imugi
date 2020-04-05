@@ -12,14 +12,14 @@
         <div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade51" data-etapa="grammar">
             <h3 class="barlow">UNIT 51 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
+            <!-- <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+            </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - PRESENT PERFECT (2)</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - PRESENT PERFECT (2)</h5>
                 <p><b>Adverbs Yet, Already, Ever and Never.</b></p>
                 <p class="metade">
                     <b>It is very common to see some adverbs being used with present perfect. They add an
@@ -163,11 +163,15 @@
                 <input type="hidden" name="atividade_id" value="351">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <div style="margin-top: 36px">
-                <figure>
-                    <img src="{{ asset('assets/img/playgo/unit40/pagina-1.png') }}" alt="esporte aereo">
-                </figure>
-            </div>
+            <figure class="umterco">
+                <img src="{{ asset('assets/img/dominating/unit51/grammar1.png') }}" alt="esporte aereo">
+            </figure>
+            <figure class="umterco">
+                <img src="{{ asset('assets/img/dominating/unit51/grammar2.png') }}" alt="esporte aereo">
+            </figure>
+            <figure class="umterco">
+                <img src="{{ asset('assets/img/dominating/unit51/grammar3.png') }}" alt="esporte aereo">
+            </figure>
         </div>
 </main>
 <script>

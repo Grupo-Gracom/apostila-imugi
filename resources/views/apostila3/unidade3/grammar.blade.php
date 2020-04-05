@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/apostila3/UNIT 2/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A - EXPLAINING PROCEDURES: EXPRESSING SEQUENCE</p>
+                <h5 class="barlow" style="margin-top:16px">A - EXPLAINING PROCEDURES: EXPRESSING SEQUENCE</p>
                 <figure>
                     <img src="{{ asset('assets/img/masteroflanguage/unit3/grammar.png') }}" alt="mapa">
                 </figure>
@@ -110,7 +110,6 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade3grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
                         $('#unidade3grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade3grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade3grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);

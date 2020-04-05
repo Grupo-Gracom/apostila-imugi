@@ -17,7 +17,7 @@
 					<source src="{{ asset('assets/audio/apostila3/UNIT 4/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <div class="center-align">
+                <div class="center-align" style="margin-top:46px">
                     <p class="contentVerde">Call attention to important steps - Reminders<p>
                 </div>
                 <h5 class="barlow" style="margin-top:16px">A -  EXPLAINING PROCEDURES: REMINDERS</h5>                
@@ -102,7 +102,6 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade4grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
                         $('#unidade4grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade4grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade4grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);

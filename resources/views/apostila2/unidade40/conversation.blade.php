@@ -41,8 +41,8 @@
 			<div style="margin-top: 36px">
 				<iframe width="640" height="360" src="https://www.youtube.com/embed/N63vaUVQHoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<div class="clear"></div>
-				<figure style="margin-top: 16px">
-					<img src="{{ asset('assets/img/playgo/unit38/pagina-1.png') }}" alt="atores">
+				<figure style="margin-top:32px">
+					<img src="{{ asset('assets/img/dominating/unit40/conversation.png') }}" alt="estudos">
 				</figure>
 			</div>
 		</div>

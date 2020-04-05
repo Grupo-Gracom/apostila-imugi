@@ -12,14 +12,14 @@
         <div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade63" data-etapa="grammar">
             <h3 class="barlow">UNIT 63</h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
+            <!-- <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - Choose the correct tense.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Choose the correct tense.</h5>
                 <form id="unidade63grammar413" method="post">
                     <p>
                         <p>
@@ -56,7 +56,7 @@
                             11. I (<input type="radio" name="grammar413-11" value="1" required /> <b>have gone /</b><input type="radio" name="grammar413-11" value="2" required /> <b>went</b>) to a modern art exhibition last week.
                         </p>
                         <p>
-                            12. I (<input type="radio" name="grammar413-12" value="1" required /> <b>have been reading /</b><input type="radio" name="grammar413-12" value="2" required /> <b>have read</b>) a new novel by John Grisham. It’s so thrilling I can’t put it down !
+                            12. I (<input type="radio" name="grammar413-12" value="1" required /> <b>have been reading /</b><input type="radio" name="grammar413-12" value="2" required /> <b>have read</b>) a new novel by John Grisham. It’s so thrilling I can’t put it down!
                         </p>
                         <p>
                             13. I (<input type="radio" name="grammar413-13" value="1" required /> <b>had been waited /</b><input type="radio" name="grammar413-13" value="2" required /> <b>had waited</b>) for ages for her to write before the letter finally arrived.
@@ -94,7 +94,7 @@
                 </form>
                 <div style="margin-top: 36px">
                     <figure>
-                        <img src="{{ asset('assets/img/playgo/unit63/pagina-1.png') }}" alt="avistando">
+                        <img src="{{ asset('assets/img/dominating/unit63/grammar.png') }}" alt="avistando">
                     </figure>
                 </div>
             </div>

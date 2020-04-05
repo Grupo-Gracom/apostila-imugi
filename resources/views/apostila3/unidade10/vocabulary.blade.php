@@ -16,8 +16,8 @@
 				<audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/apostila3/UNIT 10/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>		
-								
-				<h5 class="barlow" style="margin-top: 16px">A -  SOCIAL MEDIA GLOSSARY</h5>				
+				<div class="clear"></div>
+				<h5 class="barlow" style="margin-top:16px">A -  SOCIAL MEDIA GLOSSARY</h5>				
 				<ul class="lista-inline upper">
 					<li><p><b>Algorithm</b></p></li>
 					<li><p><b>Analytics</b></p></li>

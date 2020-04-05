@@ -16,7 +16,8 @@
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 15/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
-			<p style="margin-top :16px"><b>Students : </b>Teacher, what about the content? How can we produce a nice content for
+			<div class="clear"></div>
+			<p style="margin-top:16px"><b>Students : </b>Teacher, what about the content? How can we produce a nice content for
 			our audience?</p>
 			<p><b>Jake : </b>Well, after you have an idea of what your audience is more into, you have to
 			start researching the content. Some people just write whatever crosses their minds

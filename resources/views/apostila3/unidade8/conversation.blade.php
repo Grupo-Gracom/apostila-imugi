@@ -16,7 +16,7 @@
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 8/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
-
+			<div class="clear"></div>
 				<p style="margin-top:16px">
 					<b>John : </b>Jake, this simple idea is so powerful that it can change people’s lives. Today
 					people are much more used to it . People are used to posting good, useful and stupid

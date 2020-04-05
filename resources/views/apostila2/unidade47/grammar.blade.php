@@ -13,10 +13,10 @@
             <h3 class="barlow">UNIT 47</h3>
             <h5 class="barlow">3 – GRAMMAR</h5>
 
-            <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
+            <!-- <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+            </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
 
@@ -97,8 +97,12 @@
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
 
-            <br>
-            <h5 class="barlow">2 - As a visual art professional, it’s usually necessary to work in teams. In your opinion,
+            <figure>
+				<img src="{{ asset('assets/img/dominating/unit47/grammar.png') }}" alt="preocupada">
+            </figure>
+            <div class="clear"></div>
+
+            <h5 class="barlow" style="margin-top:16px">2 - As a visual art professional, it’s usually necessary to work in teams. In your opinion,
                 what behavior or situations must be observed if you want to have a good environment to
                 work. Use NEITHER/NOR to write about it.</h5>
             <form id="unidade47grammar329" class="metade" action="post">

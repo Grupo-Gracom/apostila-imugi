@@ -15,7 +15,8 @@
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 22/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
-			</audio>
+            </audio>
+            <div class="clear"></div>
             <p style="margin-top: 16px">
                 <p><b>Jake :</b> Ok guys. Let’s go on talking about our channels. It’s ti me to get back to the objective of the course.</p>
                 <p>

@@ -12,14 +12,14 @@
         <div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade58" data-etapa="grammar">
             <h3 class="barlow">UNIT 58 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
+        <!-- <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+            </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A -FUTURE PERFECT CONTINUOUS.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A -FUTURE PERFECT CONTINUOUS.</h5>
                 <p>
                     We use the Future Perfect Continuous to show that something will continue up until a particular event or time in the future. “For five minutes,” “for two weeks,” and “since Friday”
                     are all durations which can be used with the Future Perfect Continuous. Notice that this is
@@ -102,7 +102,7 @@
             </form>
             <div style="margin-top: 36px">
                 <figure>
-                    <img src="{{ asset('assets/img/playgo/unit58/pagina-1.png') }}" alt="vaticano">
+                    <img src="{{ asset('assets/img/dominating/unit58/grammar.png') }}" alt="vaticano">
                 </figure>
             </div>
         </div>

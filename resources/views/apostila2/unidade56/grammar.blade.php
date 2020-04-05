@@ -19,7 +19,7 @@
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - PAST PERFECT CONTINUOUS</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - PAST PERFECT CONTINUOUS</h5>
                 <p>
                     We use the Past Perfect Continuous to show that something started in the past and continued up until another time in the past. “For five minutes” and “for two weeks” are both
                     durations which can be used with the Past Perfect Continuous. Notice that this is related to
@@ -84,11 +84,11 @@
                         <p>4. She was too fat because she <input type="text" name="grammar381-4" placeholder="Responda aqui" required /> (not / keep) her doctor’s advice.</p>
                         <p>5. I took my car to the garage because the brakes <input type="text" name="grammar381-5" placeholder="Responda aqui" required /> (not / work).</p>
                         <p>6. She had to go to the dentist because she <input type="text" name="grammar381-6" placeholder="Responda aqui" required /> (not / clean) her teeth.
-                            <p>7. He got bad marks because he <input type="text" name="grammar381-7" placeholder="Responda aqui" required /> (not / study) hard.
-                                <p>8. She wasn’t at home. She <input type="text" name="grammar381-8" placeholder="Responda aqui" required /> (go) out with her boyfriend.
-                                    <p>9. I thought I <input type="text" name="grammar381-9" placeholder="Responda aqui" required /> (behave) like an idiot.
-                                        <p>10. He <input type="text" name="grammar381-10" placeholder="Responda aqui" required /> (study) English) very hard for the last few days.
-                                        </p>
+                        <p>7. He got bad marks because he <input type="text" name="grammar381-7" placeholder="Responda aqui" required /> (not / study) hard.</p>
+                        <p>8. She wasn’t at home. She <input type="text" name="grammar381-8" placeholder="Responda aqui" required /> (go) out with her boyfriend.</p>
+                        <p>9. I thought I <input type="text" name="grammar381-9" placeholder="Responda aqui" required /> (behave) like an idiot.</p>
+                        <p>10. He <input type="text" name="grammar381-10" placeholder="Responda aqui" required /> (study) English) very hard for the last few days.</p>
+                    </p>
                 </div>
 
                 <div class="clear"></div>
@@ -117,7 +117,7 @@
             </form>
             <div style="margin-top: 36px">
                 <figure>
-                    <img src="{{ asset('assets/img/playgo/unit56/pagina-1.png') }}" alt="sobrepeso">
+                    <img src="{{ asset('assets/img/dominating/unit56/grammar.png') }}" alt="sobrepeso">
                 </figure>
             </div>
         </div>

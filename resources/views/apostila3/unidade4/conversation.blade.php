@@ -16,7 +16,7 @@
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 4/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
-
+			<div class="clear"></div>
 			<p style="margin-top:16px">
 				<b>Jake :</b> Well guys. Let’s have a brainstorm here. Who are the most famous Youtubers
 				you know? Don’t forget to tell us why do you believe they are famous and what

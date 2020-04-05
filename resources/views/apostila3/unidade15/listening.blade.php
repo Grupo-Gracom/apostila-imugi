@@ -40,7 +40,7 @@
                     started to be used. So let’s be 
                     <input type="text" name="listening581-9"  placeholder="Responda aqui" required>
                     for what we want to say.</p>
-                                                                                                     
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="15">
@@ -94,7 +94,6 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade15listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
                         $('#unidade15listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade15listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade15listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
