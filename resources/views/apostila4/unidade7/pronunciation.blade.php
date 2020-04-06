@@ -12,10 +12,10 @@
 		<div id="unidade" class="box" data-apostila="apostila4" data-unidade="unidade7" data-etapa="pronunciation">
 			<h3 class="barlow">UNIT 7</h3>
 			<h5 class="barlow">4 - PRONUNCIATION</h5>
-			<span class="play-audio">( Aperte o play )</span>
+			{{-- <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
                 <source src="{{ asset('assets/audio/apostila3/UNIT 7/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
-            </audio>
+            </audio> --}}
             <div class="clear"></div>
 			<h5 class="barlow" style="margin-top:16px">A - Minimal pairs 14</h5>
 			<p>Observe the pairs and practice pronouncing them.</p>

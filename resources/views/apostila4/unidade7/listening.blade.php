@@ -12,10 +12,10 @@
         <div id="unidade" class="box" data-apostila="apostila4" data-unidade="unidade7" data-etapa="listening">
             <h3 class="barlow">UNIT 7</h3>
             <h5 class="barlow">5 - LISTENING</h5>
-            <span class="play-audio">( Aperte o play )</span>
+            {{-- <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
                 <source src="{{ asset('assets/audio/apostila3/UNIT 7/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
-            </audio>
+            </audio> --}}
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A -  Watch the video and summarize what emotional intelligence is.</h5>
             <iframe width="640" height="360" src="https://www.youtube.com/embed/3-jzWFQLopk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

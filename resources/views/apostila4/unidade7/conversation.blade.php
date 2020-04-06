@@ -12,10 +12,10 @@
 		<div id="unidade" class="box" data-apostila="apostila4" data-unidade="unidade7" data-etapa="conversation">
 			<h3 class="barlow">UNIT 7</h3>
 			<h5 class="barlow">2 - CONVERSATION</h5>
-			<span class="play-audio">( Aperte o play )</span>
+			{{-- <span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 7/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
-            </audio>
+            </audio> --}}
             <div class="clear"></div>
             <p style="margin-top: 16px">
                 <p><b>Jake :</b> Hey you guys. Welcome to the last day of your course.</p>
