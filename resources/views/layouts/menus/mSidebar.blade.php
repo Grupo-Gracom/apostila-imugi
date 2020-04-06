@@ -546,7 +546,6 @@
                 </li>
             </ul>
         </li>
-
         <!--APOSTILA DOMINATING-->
         <li class="item apostila-dominating" data-apostila="apostila2">
             <a class="click submenu">
@@ -1583,7 +1582,6 @@
                 </li>
             </ul>
         </li>
-
         <!-- APOSTILA MASTER OF LANGUAGE -->
         <li class="item apostila-MASTER-OF-LANGUAGE" data-apostila="apostila3">
             <a class="click submenu">
@@ -2097,10 +2095,32 @@
             </ul>
         </li>
         <!-- APOSTILA PHOTOSHOP -->
-        <li class="item apostila-photoshop" data-apostila="apostila4">
-            <a href="https://imugi.com.br/portaldoaluno/demo/imugi/photoshop.html" target="_blank">
+        <li class="item apostila-PHOTOSHOP" data-apostila="apostila4">
+            <a class="click submenu">
                 <i class="material-icons">flag</i> PHOTOSHOP
             </a>
+            <ul>
+                <!-- INTRO 4 -->
+                <li class="item" data-unidade="intro4">
+                    <a href="{{route('apostila4', ['intro4', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRODUCTION</a>
+                </li>
+                <!--UNIDADE 7-->
+                <li class="item" data-unidade="unidade7">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 7
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila4', ['unidade7', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila4', ['unidade7', 'conversation'])}}" data-etapa="conversation"><i class="material-icons suave">forum</i> Conversation</a>
+                            <a href="{{route('apostila4', ['unidade7', 'grammar'])}}" data-etapa="grammar"><i class="material-icons suave">edit</i> Grammar</a>
+                            <a href="{{route('apostila4', ['unidade7', 'pronunciation'])}}" data-etapa="pronunciation"><i class="material-icons suave">record_voice_over</i> Pronunciation</a>
+                            <a href="{{route('apostila4', ['unidade7', 'listening'])}}" data-etapa="listening"><i class="material-icons suave">hearing</i> Listening</a>
+                            <a href="{{route('apostila4', ['unidade7', 'understanding'])}}" data-etapa="understanding"><i class="material-icons suave">local_library</i> Understanding</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </li>
         <!-- APOSTILA GAMES AND ANIMATION -->
         <li class="item apostila-games" data-apostila="apostila5">
