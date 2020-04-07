@@ -136,6 +136,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade figure.umterco img{height:350px;}
 #unidade figure.umquarto img{height:250px;}
 #unidade figure.metade img{height:400px;}
+#unidade .iconex{display: inline-block;margin:-5px;margin-left:20px;margin-right:20px; position: relative;width: 8%; height: auto;}
 
 #unidade .espacamento{margin: 16px;}
 #unidade .espacamentoesquerda3{margin: 0 0 16px 10%;}
@@ -216,5 +217,6 @@ main .capas li.deactive img{filter: grayscale(1);}
     #unidade .caixa{border: 1px solid #333;width: 100%;}
     #unidade form p .inputMedio{width: 268px;}
     #unidade .otimizarimagem {width:100%}
+    #unidade .iconex{display: inline-block;margin:-5px;margin-left: 25px; position: relative;width: 25%;}
 
 }

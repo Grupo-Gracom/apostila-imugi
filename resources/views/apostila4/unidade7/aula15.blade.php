@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 7 | Aula 15 - Smart Objects e Filters')
+@section('titulo','Unit 7 | Aula 15 - Smart Objects e Smart Filters')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -11,7 +11,7 @@
 	<div class="dashboard">
 		<div id="unidade" class="box" data-apostila="apostila4" data-unidade="unidade7" data-etapa="aula15">
 			<h3 class="barlow">UNIT 7</h3>
-			<h5 class="barlow upper">Aula 15 - Smart Objects e Filters</h5>
+			<h5 class="barlow upper">Aula 15 - Smart Objects e Smart Filters</h5>
 			{{-- <span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 7/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">

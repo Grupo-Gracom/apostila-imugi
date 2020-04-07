@@ -154,7 +154,7 @@
 			</p>
 
 			<h5 class="barlow upper center-align" style="margin-top:10%">A T I V I D A D E S</h5>
-			<p style="margin-top:32px">
+			<p style="margin-top:5%">
 				1. Criar mockup para camisa, cartão de visitas, capa de livro e capa de revista usando
 				smart objects e estilos de camadas.
 			</p>
