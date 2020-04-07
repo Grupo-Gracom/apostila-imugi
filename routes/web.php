@@ -1093,20 +1093,20 @@ Route::get('/apostila3/unidade32/understanding/respostasCheck/{atividade_id}', '
 
 
 
-//UNIDADE 7
-Route::post('/apostila4/unidade7/grammar/respostas', 'RespostaController@store');
-Route::get('/apostila4/unidade7/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
-Route::post('/apostila4/unidade7/listening/respostas', 'RespostaController@store');
-Route::get('/apostila4/unidade7/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
-Route::post('/apostila4/unidade7/understanding/respostas', 'RespostaController@store');
-Route::get('/apostila4/unidade7/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
-//UNIDADE 8
-Route::post('/apostila4/unidade8/grammar/respostas', 'RespostaController@store');
-Route::get('/apostila4/unidade8/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
-Route::post('/apostila4/unidade8/listening/respostas', 'RespostaController@store');
-Route::get('/apostila4/unidade8/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
-Route::post('/apostila4/unidade8/understanding/respostas', 'RespostaController@store');
-Route::get('/apostila4/unidade8/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+// //UNIDADE 7
+// Route::post('/apostila4/unidade7/grammar/respostas', 'RespostaController@store');
+// Route::get('/apostila4/unidade7/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+// Route::post('/apostila4/unidade7/listening/respostas', 'RespostaController@store');
+// Route::get('/apostila4/unidade7/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+// Route::post('/apostila4/unidade7/understanding/respostas', 'RespostaController@store');
+// Route::get('/apostila4/unidade7/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
+// //UNIDADE 8
+// Route::post('/apostila4/unidade8/grammar/respostas', 'RespostaController@store');
+// Route::get('/apostila4/unidade8/grammar/respostasCheck/{atividade_id}', 'RespostaController@check');
+// Route::post('/apostila4/unidade8/listening/respostas', 'RespostaController@store');
+// Route::get('/apostila4/unidade8/listening/respostasCheck/{atividade_id}', 'RespostaController@check');
+// Route::post('/apostila4/unidade8/understanding/respostas', 'RespostaController@store');
+// Route::get('/apostila4/unidade8/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
 
 
