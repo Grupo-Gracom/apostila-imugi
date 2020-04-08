@@ -2129,6 +2129,19 @@
                         </li>
                     </ul>
                 </li>
+                <!--UNIDADE 9-->
+                <li class="item" data-unidade="unidade9">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 9
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila4', ['unidade9', 'aula20'])}}" data-etapa="aula20"><i class="material-icons suave">mouse</i>AULA 20</a>
+                            <a href="{{route('apostila4', ['unidade9', 'aula21'])}}" data-etapa="aula21"><i class="material-icons suave">crop</i>AULA 21</a>
+                            <a href="{{route('apostila4', ['unidade9', 'aula22'])}}" data-etapa="aula22"><i class="material-icons suave">crop</i>AULA 22</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </li>
         <!-- APOSTILA GAMES AND ANIMATION -->
