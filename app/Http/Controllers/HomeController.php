@@ -65,8 +65,20 @@ class HomeController extends Controller
         }
     }
 
+    public function site()
+    {
+        return view('site/home/index');
+    }
+
+    public function depoimentos()
+    {
+        return view('site/depoimento/index');
+    }
+    
     public function materialDidatico(){
-        return view('portal/material/index');
+        $matricula = Auth::user()->id;
+        $aluno = User::find($matricula);
+        return view('portal/material/index',compact('aluno'));
     }
 
 }

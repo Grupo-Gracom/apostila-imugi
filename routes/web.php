@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('auth/login');
+    return view('site.home.index');
 });
 Auth::routes();
 
@@ -1106,6 +1106,15 @@ Route::post('/enviar-frequencia', 'FrequenciaController@enviar');
 Route::post('/atualizar-perfil/{id}', 'UserController@update');
 Route::get('/atualiza-senha','UserController@atualizaSenha');
 
+// Rotas Site Imugi
+Route::get('/site', 'HomeController@site')->name('site');
+Route::get('/site/depoimentos', 'HomeController@depoimentos')->name('depoimentos');
+Route::get('/site/contato', 'ContatoController@siteContato')->name('siteContato');
+Route::get('/site/portaldoaluno', 'HomeController@portalAluno')->name('portalAluno');
+Route::get('/site/franquia', 'ContatoController@franquia')->name('franquia');
+Route::post('/contato-aluno', 'ContatoController@contatoAluno')->name('alunoContato');
+Route::post('/contato-franquia', 'ContatoController@contatoFranquia')->name('contatoFranquia');
+Route::post('/enviar', 'ContatoController@enviar')->name('enviarContato');
 
 /******************************************************************OUTRAS ROTAS**************************************************************/
 
