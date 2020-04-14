@@ -27,11 +27,7 @@
                             <input type="text" name="understanding562-3" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-<<<<<<< HEAD
-                            4 - Where can students fi nd more informati on on the new concepts?<br>
-=======
                             4 - Where can students find more information on the new concepts?<br>
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
                             <input type="text" name="understanding562-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>

@@ -271,15 +271,6 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-<<<<<<< HEAD
-            <h5 class="barlow">E)</h5>
-            <form id="unidade10grammar556" method="post">
-                <ul class="lista-inline">					
-                    <li><p><b>1 - How much countries you</b></p></li>
-                    <li><p><b>2 - How many countries Have you</b></p></li>
-                    <li><p><b>3 - What countries you have</b></p></li>
-                </ul>
-=======
             <p><b>Question 5</b></p>
             <ul class="lista-inline">					
                 <li><p>A - How much countries you</p></li>
@@ -287,7 +278,6 @@
                 <li><p>C - What countries you have</p></li>
             </ul>
             <form id= "unidade10grammar556" method="post">
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
                 <p>”<input type="text" name="grammar556-1" class="inputpequeno left-align" placeholder="Responda aqui" required>  been to?”</p>
                 <p>“Four - Mexico, Argentina, Uruguay, and Chile.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -297,15 +287,6 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-<<<<<<< HEAD
-            <h5 class="barlow">F)</h5>
-            <form id="unidade10grammar557" method="post">
-                <ul class="lista-inline">					
-                    <li><p><b>1 - Where are you</b></p></li>
-                    <li><p><b>2 - When you will</b></p></li>
-                    <li><p><b>3 - When will you</b></p></li>
-                </ul>
-=======
             <p><b>Question 6</b></p>
             <ul class="lista-inline">					
                 <li><p>A - Where are you</p></li>
@@ -313,7 +294,6 @@
                 <li><p>C - When will you</p></li>
             </ul>
             <form id= "unidade10grammar557" method="post">
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
                 <p>”<input type="text" name="grammar557-1" class="inputpequeno left-align" placeholder="Responda aqui" required> send me the file”</p>
                 <p>“By tomorrow afternoon at the latest.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -323,15 +303,6 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-<<<<<<< HEAD
-            <h5 class="barlow">G)</h5>
-            <form id="unidade10grammar558" method="post">
-                <ul class="lista-inline">					
-                    <li><p><b>1 - Where are we</b></p></li>
-                    <li><p><b>2 - Where we</b></p></li>
-                    <li><p><b>3 - Where will we</b></p></li>
-                </ul>
-=======
             <p><b>Question 7</b></p>
             <ul class="lista-inline">					
                 <li><p>A - Where are we</p></li>
@@ -339,7 +310,6 @@
                 <li><p>C - Where will we</p></li>
             </ul>
             <form id= "unidade10grammar558" method="post">
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
                 <p>”<input type="text" name="grammar558-1" class="inputpequeno left-align" placeholder="Responda aqui" required>  going to put all these books? There’s no space in the office.”</p>
                 <p>“Let’s see if we can store them in the basement for now.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -349,15 +319,6 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-<<<<<<< HEAD
-            <h5 class="barlow">H)</h5>
-            <form id="unidade10grammar559" method="post">
-                <ul class="lista-inline">					
-                    <li><p><b>1 - Why someone</b></p></li>
-                    <li><p><b>2 - Why would anyone</b></p></li>
-                    <li><p><b>3 - Why anyone does</b></p></li>
-                </ul>
-=======
             <p><b>Question 8</b></p>
             <ul class="lista-inline">					
                 <li><p>A - Why someone</p></li>
@@ -365,7 +326,6 @@
                 <li><p>C - Why anyone does</p></li>
             </ul>
             <form id= "unidade10grammar559" method="post">
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
                 <p>”<input type="text" name="grammar559-1" class="inputpequeno left-align" placeholder="Responda aqui" required> want to pay $1000 for a watch?”</p>
                 <p>“Maybe because it’s a status symbol.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -385,16 +345,6 @@
             questionnaire with 5 yes/no questions and 5 Content questions. Be ready to answer some
             questions as well.</h5>
             <form id="unidade10grammar560" method="post">
-<<<<<<< HEAD
-                    <textarea name="grammar560-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="10">
-                    <input type="hidden" name="atividade_id" value="560">
-                    <div class="clear"></div>
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>            
-=======
                 <textarea name="grammar560-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
@@ -403,7 +353,6 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>            
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
         </div>
     </div>
 </main>
