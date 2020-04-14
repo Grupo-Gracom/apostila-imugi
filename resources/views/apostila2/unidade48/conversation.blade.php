@@ -29,9 +29,6 @@
 			<p><b>Gleen:</b> That’s it. This is the game.</p>
 			<br>
 			<p>(to be continued)</p>
-			<figure>
-				<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
-			</figure>
 		</div>
 	</div>
 </main>

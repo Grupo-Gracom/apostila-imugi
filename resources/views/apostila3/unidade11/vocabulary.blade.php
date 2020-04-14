@@ -14,21 +14,26 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 29/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila3/UNIT 11/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 				</audio>		
-								
+				<div class="clear"></div>			
 				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>				
-				<ul class="lista-inline">
+				<ul class="lista-inline upper" style="margin-top: 16px">
 					<li><p><b>Caption</b></p></li>
 					<li><p><b>Content Curation</b></p></li>
 					<li><p><b>Chronological Feed</b></p></li>												
 				</ul>				
-				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>				
-				<ul class="lista-inline">
+				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila3/UNIT 11/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
+				</audio>				
+				<ul class="lista-inline upper" style="margin-top: 16px">
 					<li><p><b>Brainstorm</b></p></li>
 					<li><p><b>Dive Into</b></p></li>
 					<li><p><b>Pragmatic</b></p></li>
 					<li><p><b>Meaningful</b></p></li>
+				</ul>
+				<ul class="lista-inline upper" style="margin-top: 16px">
 					<li><p><b>Forget</b></p></li>
 					<li><p><b>Such As</b></p></li>
 					<li><p><b>Target</b></p></li>								

@@ -12,21 +12,20 @@
         <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade14" data-etapa="grammar">
             <h3 class="barlow">UNIT 14 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <!-- <span class="play-audio">( Aperte o play )</span> -->
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
-            <!-- nao tem audio ainda -->
+            <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/apostila3/UNIT 14/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+            </audio>
             <div class="clear"></div>     
-            <h5 class="barlow">A – PAIRED CONJUNCTIONS – REVIEW</h5>
-            <p>We use paired conjunctions to : </p>                            
-            <table class="espacamento center-align bordered" style="margin-top:32px;">
+            <h5 class="barlow" style="margin-top:16px">A – PAIRED CONJUNCTIONS – REVIEW</h5>
+            <p><b>We use paired conjunctions to :</b></p>                            
+            <table class="espacamento left-align bordered" style="margin-top:32px;">
                 <tr>
-                    <td><h5 class="barlow">Function</h5></td>                    
-                    <td><h5 class="barlow">Paired conjunctions</h5></td>
-                    <td><h5 class="barlow">Examples</h5></td>
+                    <td><h5 class="barlow center-align">Function</h5></td>                    
+                    <td><h5 class="barlow center-align">Paired conjunctions</h5></td>
+                    <td><h5 class="barlow center-align">Examples</h5></td>
                 </tr>
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td><p>Give options</p></td>
                     <td><p><B>Either … or</B></p></td>
                     <td>
@@ -34,7 +33,7 @@
                         <P>• We love <b>either</b> DC movies <b>or</b> marvel movies.</P>                        
                     </td>
                 </tr>                          
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td><p>To deny both options</p></td>
                     <td><p><b>Neither … nor</b></p></td>
                     <td>
@@ -42,7 +41,7 @@
                         <p>• I like <b>neither</b> terror movies <b>nor</b> comedy ones.</p>
                     </td>
                 </tr>                          
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td><p>Add information</p></td>
                     <td><p><b>Not only… but also /both…and</b></p></td>
                     <td>
@@ -51,39 +50,44 @@
                     </td>
                 </tr>                                                        
             </table>
-            <p><b>VERB AGREEMENT.</b></p>
+            <h5 class="barlow" style="margin-top:16px"><b>VERB AGREEMENT.</b></h5>
             <div class="metade esquerda">
-                <p>Either…or/Neither..nor/ not only…but also Both…and</p>
+                <p><b>Either…or/Neither..nor/ not only…but also</b></p>
+                <p><b>Both…and</b></p>
             </div>
             <div class="metade direita">
                 <p>- The verb agrees with the last subject</p>
                 <p>- The verb agrees with both subjects.</p>
             </div>
-
-            <h5 class="barlow">A -  Complete the sentences with WHO / WHICH / WHERE / WHOSE:</h5>            
-            <form id="unidade14grammar575" method="post">
-                <p>1. The hotel wasn’t clean. And it wasn’t comfortable.
-                The hotel was 
-                <input type="text" name="grammar575-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                2. It was a very boring movie. It was very long too.
-                The movie was 
-                <input type="text" name="grammar575-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                3. Is that man’s name Richard? Or is it Robert? It’s one of the two.
-                That man’s name 
-                <input type="text" name="grammar575-3" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                4. I don’t have the time to take a vacation. And I don’t have the money.
-                I have
-                <input type="text" name="grammar575-4" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                5. We can leave today or we can leave tomorrow- whichever you prefer.
-                We
-                <input type="text" name="grammar575-5" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                6. He gave up his job because he needed a change. Also because the pay was low.
-                He gave up his job both
-                <input type="text" name="grammar575-6" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                7. Laura doesn’t smoke. And she doesn’t eat meat.
-                <input type="text" name="grammar575-7" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                8. The front of the house needs painting. The back needs painting too.
-                <input type="text" name="grammar575-8" class="inputpequeno left-align" placeholder="Responda aqui" required></p>                                                                      
+            <div class="clear"></div>
+            <h5 class="barlow" style="margin-top:16px"><b>EXERCICES</b></h5>
+            <h5 class="barlow">1 -  Make sentences BOTH ….AND…. / EITHER ….OR …. / NEITHER …. NOR …. :</h5>          
+            <h5 class="barlow"><b>Examples:</b></h5> 
+            <p><b>* Tom was late. So was Ann. Both Tom and Ann were late.</b></p>
+            <p><b>* He didn’t write. He didn’t telephone. He neither wrote nor telephoned.</b></p>  
+            <form id="unidade14grammar575" method="post" style="margin-top:32px" class="metade">
+                <p>
+                    <p>1. The hotel wasn’t clean. And it wasn’t comfortable.</p>
+                    <p>The hotel was <input type="text" name="grammar575-1" class="inputMedio left-align" placeholder="Responda aqui" required></p>
+                    <p>2. It was a very boring movie. It was very long too.</p>
+                    <p>The movie was <input type="text" name="grammar575-2" class="inputMedio left-align" placeholder="Responda aqui" required></p>
+                    <p>3. Is that man’s name Richard? Or is it Robert? It’s one of the two.</p>
+                    <p>That man’s name <input type="text" name="grammar575-3" class="inputMedio left-align" placeholder="Responda aqui" required></p>
+                    <p>4. I don’t have the time to take a vacation. And I don’t have the money.</p>
+                    <p>I have <input type="text" name="grammar575-4" class="inputMedio left-align" placeholder="Responda aqui" required></p>
+                    <p>5. We can leave today or we can leave tomorrow- whichever you prefer.</p>
+                    <p>We <input type="text" name="grammar575-5" class="inputMedio left-align" placeholder="Responda aqui" required></p>
+                    <p>6. He gave up his job because he needed a change. Also because the pay was low.</p>
+                    <p>He gave up his job both <input type="text" name="grammar575-6" class="inputpequeno left-align" placeholder="Responda aqui" required></p>
+                    <p>
+                        7. Laura doesn’t smoke. And she doesn’t eat meat.
+                        <input type="text" name="grammar575-7" class="full left-align" placeholder="Responda aqui" required>
+                    </p>
+                    <p>
+                        8. The front of the house needs painting. The back needs painting too.
+                        <input type="text" name="grammar575-8" class="full left-align" placeholder="Responda aqui" required>
+                    </p>                                                                      
+                </p>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="14">
@@ -91,7 +95,7 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">B -  In groups, think about do’s and don’ts you have to pay attention to, before starting a
+            <h5 class="barlow">2 -  In groups, think about do’s and don’ts you have to pay attention to, before starting a
             new Youtube channel, for example. Make sure you use the paired conjunctions in your
             production. Be ready to share your group’s ideas with the whole class.</h5>
                                     
@@ -103,7 +107,12 @@
                 <input type="hidden" name="atividade_id" value="576">
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-            </form>                        
+            </form>   
+            <div style="margin-top:32px">
+				<figure>
+					<img src="{{ asset('assets/img/masteroflanguage/unit14/grammar.jpg') }}" alt="x-men">
+				</figure>
+			</div>                     
         </div>
     </div>
 </main>
@@ -114,8 +123,6 @@
         var atividade_id = $(this).find('input[name="atividade_id"]').val();
         checkAtividade(atividade_id);
     });
-    
-    
 
         $("#unidade14grammar575").submit(function(e){
             e.preventDefault();
@@ -162,7 +169,6 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade14grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
                     $('#unidade14grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
                     $('#unidade14grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                     $('#unidade14grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);

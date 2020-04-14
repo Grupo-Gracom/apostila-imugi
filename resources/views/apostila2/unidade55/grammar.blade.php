@@ -12,14 +12,14 @@
         <div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade55" data-etapa="grammar">
             <h3 class="barlow">UNIT 55 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
+            <!-- <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+            </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - PRESENT PERFECT CONTINUOUS</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - PRESENT PERFECT CONTINUOUS</h5>
                 <p>
                     The Past Perfect expresses the idea that something occurred before another action in the
                     past. It can also show that something happened before a specific time in the past.
@@ -191,11 +191,15 @@
                 <input type="hidden" name="atividade_id" value="377">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <div style="margin-top: 36px">
-                <figure>
-                    <img src="{{ asset('assets/img/playgo/unit55/pagina-1.png') }}" alt="spider-man">
-                </figure>
-            </div>
+            <figure class="umterco">
+                <img src="{{ asset('assets/img/dominating/unit55/grammar1.png') }}" alt="spider-man">
+            </figure>
+            <figure class="umterco">
+                <img src="{{ asset('assets/img/dominating/unit55/grammar2.png') }}" alt="spider-man">
+            </figure>
+            <figure class="umterco">
+                <img src="{{ asset('assets/img/dominating/unit55/grammar3.png') }}" alt="spider-man">
+            </figure>
         </div>
     </div>
 </main>

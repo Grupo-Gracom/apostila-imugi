@@ -14,23 +14,23 @@
             <h5 class="barlow">6 - UNDERSTANDING</h5>
             <form id="unidade11understanding152" method="post" class="metade">
                 <p>
-                    1 - What’s Gleen’s opinion about Mr. Smith presentation?<br>
+                    1 - What’s Gleen’s opinion about Mr. Smith presentation?
                     <input type="text" name="understanding152-1" class="full left-align" placeholder="Responda aqui" required>
                 </p>
                 <p>
-                    2 - What is Laura doing at the moment?<br>
+                    2 - What is Laura doing at the moment?
                     <input type="text" name="understanding152-2" class="full left-align" placeholder="Responda aqui" required>
                 </p>
                 <p>
-                    3 - How many possible jobs Does Laura have?<br>
+                    3 - How many possible jobs Does Laura have?
                     <input type="text" name="understanding152-3" class="full left-align" placeholder="Responda aqui" required>
                 </p>
                 <p>
-                    4 - What are Akira’s plans?<br>
+                    4 - What are Akira’s plans?
                     <input type="text" name="understanding152-4" class="full left-align" placeholder="Responda aqui" required>
                 </p>
                 <p>
-                    5 - Why will John accept the job on the Games magazine?<br>
+                    5 - Why will John accept the job on the Games magazine?
                     <input type="text" name="understanding152-5" class="full left-align" placeholder="Responda aqui" required>
                 </p>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">

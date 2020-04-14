@@ -18,7 +18,7 @@
                 </audio>
                 <div class="clear" style="margin-bottom: 16px;"></div>
 				<div class="metade esquerda">
-                    <h5 class="barlow">A - Answer the questions. Use short answers.</h5>
+                    <h5 class="barlow" style="margin-top: 16px">A - Answer the questions. Use short answers.</h5>
                     <form id="unidade2grammar6" method="post">
                         <p><b>1 - </b> Do you have Photoshop in your computer? <input type="text" name="grammar6-1" placeholder="Responda aqui" required ></p>
                         <p><b>2 - </b> Do you use Photoshop to edit photos? <input type="text" name="grammar6-2" placeholder="Responda aqui" required></p>

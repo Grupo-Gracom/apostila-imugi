@@ -24,8 +24,8 @@
             <table class="metade center-align">
                 <tr>
                     <td>
-                        <h5 class="barlow">Will (Future Decisions/Unquestionable Facts)</h5</td> <td>
-                            <h5 class="barlow">To be going to (Future plans/intensions)</h5>
+                        <h5 class="barlow">Will (Future Decisions/Unquestionable Facts)</h5>
+                        <h5 class="barlow">To be going to (Future plans/intensions)</h5>
                     </td>
                 </tr>
                 <tr>

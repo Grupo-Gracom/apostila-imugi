@@ -132,9 +132,11 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade #joguin1{margin: 0 auto;margin-top: 50px;display: block;}
 #unidade .caixa{border: 1px solid #333;width: 35%;}
 #unidade .manipulaimagem{width:60%;margin-left:20%; margin-top:16px;}
-#unidade figure.umterco img{height:500px;}
+#unidade .otimizarimagem{width:50%;height:auto}
+#unidade figure.umterco img{height:350px;}
 #unidade figure.umquarto img{height:250px;}
 #unidade figure.metade img{height:400px;}
+#unidade .iconex{display: inline-block;margin:-5px;margin-left:20px;margin-right:20px; position: relative;width: 8%; height: auto;}
 
 #unidade .espacamento{margin: 16px;}
 #unidade .espacamentoesquerda3{margin: 0 0 16px 10%;}
@@ -214,5 +216,7 @@ main .capas li.deactive img{filter: grayscale(1);}
     #unidade figure.metade{margin:5px;}
     #unidade .caixa{border: 1px solid #333;width: 100%;}
     #unidade form p .inputMedio{width: 268px;}
+    #unidade .otimizarimagem {width:100%}
+    #unidade .iconex{display: inline-block;margin:-5px;margin-left: 25px; position: relative;width: 25%;}
 
 }

@@ -37,5 +37,10 @@ class ApostilaController extends Controller
         $aluno = User::find($id);
         return view('apostila3'.'/'.$unidade.'/'.$item.'', compact('aluno'));
     }
+    public function apostila4($unidade,$item){
+        $id = Auth::user()->id;
+        $aluno = User::find($id);
+        return view('apostila4'.'/'.$unidade.'/'.$item.'', compact('aluno'));
+    }
 
 }

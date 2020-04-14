@@ -15,7 +15,8 @@
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 31/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
-			</audio>
+            </audio>
+            <div class="clear"></div>
             <p style="margin-top: 16px">
                 <p><b>Jake :</b> Hey you guys. What’s up? Did you like the last subject?</p>
                 <p><b>Students :</b> Yes teacher. It was fantastic. We didn’t know anything about that.</p>

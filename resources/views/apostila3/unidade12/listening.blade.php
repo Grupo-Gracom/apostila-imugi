@@ -14,11 +14,11 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila3/UNIT 12/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>                
-                <h5 class="barlow">A -  Listen to the audio and answer the questions below.</h5>
-                <p>How do companies create and launch new products?</p>
+                <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and answer the questions below.</h5>
+                <p>1. How do companies create and launch new products?</p>
                 <form id="unidade12listening569" method="post">                    
                     <textarea name="listening565-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                                                            
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -67,7 +67,6 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade12listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
                         $('#unidade12listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade12listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade12listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);

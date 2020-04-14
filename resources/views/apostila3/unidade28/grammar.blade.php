@@ -14,11 +14,11 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/Unit28/Grammar/completo.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/UNIT 28/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - HOW TO DESCRIBE, EXPLAIN, DEFEND AND ANALYZE IDEAS. DEFINING BASIC CONCEPTS.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - HOW TO DESCRIBE, EXPLAIN, DEFEND AND ANALYZE IDEAS. DEFINING BASIC CONCEPTS.</h5>
 
                 <table class="espacamento left-align borderedfull">
                     <tr>
@@ -89,7 +89,7 @@
 
 
                 <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
-                <h5 class="barlow">1- In groups, write the presentations of Laura, Akira and John. Get ready to present the project to the class.</h5>
+                <h5 class="barlow">1 - In groups, write the presentations of Laura, Akira and John. Get ready to present the project to the class.</h5>
                 <p><b>John(Description): ???</b></p>
                 <form id="unidade28grammar693" method="post" style="margin-top:32px">
                     <textarea name="grammar693-1" class="metade left-align" placeholder="Responda aqui" required></textarea>

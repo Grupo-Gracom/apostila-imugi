@@ -16,7 +16,7 @@
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila3/UNIT 17/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
 			</audio>
-
+            <div class="clear"></div>
             <p style="margin-top: 16px">
                 <p>
                     <b>Students :</b> Teacher, While I was researching and checking some sites and channels, I

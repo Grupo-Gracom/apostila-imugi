@@ -12,50 +12,50 @@
         <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade12" data-etapa="grammar">
             <h3 class="barlow">UNIT 12 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <!-- <span class="play-audio">( Aperte o play )</span> -->
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
-            <!-- nao tem audio ainda -->
+            <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/apostila3/UNIT 12/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+            </audio>
             <div class="clear"></div>     
-            <h5 class="barlow">A –  CONDITIONALS - REVIEW</h5>
+            <h5 class="barlow" style="margin-top:16px">A –  CONDITIONALS - REVIEW</h5>
             <p>We use conditional sentences to express <b>Hypothesis, Conditions, Uncertain Events or
             Situations.</b></p>                            
-            <table class="espacamento center-align bordered" style="margin-top:32px;">
+            <table class="espacamento left-align bordered" style="margin-top:32px;">
                 <tr>
-                    <td><h5 class="barlow">Conditionals</h5></td>                    
-                    <td><h5 class="barlow">Examples</h5></td>                              
+                    <td><h5 class="barlow center-align">Conditionals</h5></td>                    
+                    <td><h5 class="barlow center-align">Examples</h5></td>                              
                 </tr>
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td>
                     <p><b>Zero Conditional</b></p>
                     <p>If + Simple present + simple present</p>                    
                     </td>
                     <td><p><b>If you click</b> on this icon, <b>you activate</b> the tool.</p></td>                                                            
                 </tr>                          
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td>
                     <p><b>First Conditional</b></p>
                     <p>If + Simple present + Will</p>
                     </td>
                     <td><p><b>If she finishes</b> the report in time, <b>she’ll send</b> it to him.</p></td>                    
                 </tr>                          
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td>
                     <p><b>Second Conditional</b></p>
                     <p>If + Simple past + Would</p>
                     </td>
                     <td><p><b>If she finished</b> the report in time, <b>She would send</b> it to him.</p></td>
                 </tr>                                         
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td>
                     <p><b>Third Conditional</b></p>
                     <p>If + Past Perfect + Would + Perfect</p>
                     </td>
                     <td><p><b>If she had finished</b> the report in time, <b>she would have sent</b> it to him..</p></td>                    
                 </tr>                                                 
-            </table>                   
-            <h5 class="barlow">A -  Finish these sentences:</h5>            
+            </table>
+            <h5 class="barlow" style="margin-top:32px"><b>EXERCICES</b></h5>                   
+            <h5 class="barlow">1 -  Finish these sentences:</h5>            
             <form id="unidade12grammar567" method="post">            
                 <p>1. If you drive very fast, 
                 <input type="text" name="grammar567-1" class="inputpequeno left-align" placeholder="Responda aqui" required></p>
@@ -94,7 +94,7 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">B - Think about your life and write some things you would do differently.</h5>
+            <h5 class="barlow">2 - Think about your life and write some things you would do differently.</h5>
             <h5 class="barlow">Example:</h5>
             <p><b>If I had</b> more time, <b>I would take</b> another course.</p>
             <p><b>I’ll travel</b> to Rio <b>if I find</b> a cheaper ticket.</p>
@@ -119,8 +119,6 @@
         var atividade_id = $(this).find('input[name="atividade_id"]').val();
         checkAtividade(atividade_id);
     });
-    
-    
 
         $("#unidade12grammar567").submit(function(e){
             e.preventDefault();
@@ -167,7 +165,6 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade12grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
                     $('#unidade12grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
                     $('#unidade12grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                     $('#unidade12grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);

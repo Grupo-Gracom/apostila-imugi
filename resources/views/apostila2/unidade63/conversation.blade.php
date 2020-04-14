@@ -33,7 +33,7 @@
 			</p>
 			<div style="margin-top: 36px">
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit63/pagina-1.png') }}" alt="amigos">
+					<img src="{{ asset('assets/img/dominating/unit63/conversation.png') }}" alt="amigos">
 				</figure>
 			</div>
 		</div>

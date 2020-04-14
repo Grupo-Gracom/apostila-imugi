@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('auth/login');
+    return view('site.home.index');
 });
 Auth::routes();
 
@@ -22,6 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/apostila1/{unidade}/{item}', "ApostilaController@apostila1")->name('apostila1');
 Route::get('/apostila2/{unidade}/{item}', "ApostilaController@apostila2")->name('apostila2');
 Route::get('/apostila3/{unidade}/{item}', "ApostilaController@apostila3")->name('apostila3');
+Route::get('/apostila4/{unidade}/{item}', "ApostilaController@apostila4")->name('apostila4');
 
 
 /*****************************************************************************************************************************************/
@@ -1092,10 +1093,6 @@ Route::get('/apostila3/unidade32/understanding/respostasCheck/{atividade_id}', '
 
 
 
-
-
-
-
 //Rotas para o Portal do Aluno
 Route::get('/portal', 'HomeController@homePortal')->name('portal');
 Route::get('/material', 'HomeController@materialDidatico')->name('material');
@@ -1109,6 +1106,15 @@ Route::post('/enviar-frequencia', 'FrequenciaController@enviar');
 Route::post('/atualizar-perfil/{id}', 'UserController@update');
 Route::get('/atualiza-senha','UserController@atualizaSenha');
 
+// Rotas Site Imugi
+Route::get('/site', 'HomeController@site')->name('site');
+Route::get('/site/depoimentos', 'HomeController@depoimentos')->name('depoimentos');
+Route::get('/site/contato', 'ContatoController@siteContato')->name('siteContato');
+Route::get('/site/portaldoaluno', 'HomeController@portalAluno')->name('portalAluno');
+Route::get('/site/franquia', 'ContatoController@franquia')->name('franquia');
+Route::post('/contato-aluno', 'ContatoController@contatoAluno')->name('alunoContato');
+Route::post('/contato-franquia', 'ContatoController@contatoFranquia')->name('contatoFranquia');
+Route::post('/enviar', 'ContatoController@enviar')->name('enviarContato');
 
 /******************************************************************OUTRAS ROTAS**************************************************************/
 

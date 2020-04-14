@@ -1,21 +1,31 @@
-@extends('layouts.app')
-
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Acesso Portal </div>
-
-                <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
+@extends('layouts.site.template')
+@section('titulo','Imugi Tecnologia e Educação')
+@section('conteudo')
+            <!-- start countdown section -->
+            <section class="p-0 bg-extra-light-gray">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-lg-6 full-screen p-0 cover-background d-none d-lg-block" style="background-image:url({{asset('assets/site/images/portal_imugi.jpg')}});"></div>
+                    <div class="store_portal">
+                        Baixe nosso app <br>
+                        <a href="https://play.google.com/store/apps/details?id=com.developer.guilherme&hl=pt_BR" target="_blank">
+                         <img src="{{asset('assets/site/images/play_store.png')}}" alt="" class="logo_store_portal">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6 full-screen bg-black p-0">
+                        <div class="position-relative full-screen">
+                            <div class="slider-typography text-center sm-overflow-auto">
+                                <div class="slider-text-middle-main">
+                                    <div style="margin-top:80px;">
+                                        <div class="margin-nine-bottom md-margin-50px-bottom sm-margin-15px-bottom">
+                                            <img src="{{asset('assets/site/images/logo_imugi.png')}}" data-rjs="{{asset('assets/site/images/logo_imugi.png')}}" alt="Imugi"></div>
+                                        <div class="mostrar bg-extra-dark-gray padding-eight-all border-radius-6 width-70 lg-width-80 sm-width-100 mx-auto sm-padding-30px-all">
+                                        <form method="POST" action="{{ route('login') }}">
                         @csrf
-
+                      <h6 class="text-white"> LOGIN </h6>
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Seu Email'  ) }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                            <div class="col-md-12">
+                                <input id="email" type="email" class="form-control bg-transparent text-white border-color-medium-dark-gray medium-input @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Seu Email">
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -26,10 +36,8 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Sua Senha') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                            <div class="col-md-12">
+                                <input id="password" type="password" class="form-control bg-transparent text-white border-color-medium-dark-gray medium-input @error('password') is-invalid @enderror" name="password" required autocomplete="current-password"placeholder="Senha">
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -38,30 +46,31 @@
                                 @enderror
                             </div>
                         </div>
-
-                        <div class="form-group row">
-                            <div class="col-md-6 offset-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('lembre me') }}
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-success">
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-success btn-rounded btn-large margin-20px-top sm-no-margin-top">
                                     {{ __('Login') }}
                                 </button>
                             </div>
                         </div>
                     </form>
+                                        </div>
+                                        <br>
+                                        <span class="mt-4 mostrar">Não possue conta? <a href="{{url('register')}}" class="ocultar" style="background:none; border:none; color:#fff;">Inscreva-se</a> </span>
+                                        <br>
+                                        <span class="mt-4 recuperar">Esqueceu a senha? <a href="{{url('password/reset')}}" class="ocultar" style="background:none; border:none; color:#fff;">Recuperar</a> </span>
+                                    </div>
+                                </div>
+                                <div class="store_portal mobile hidden">
+                                    Baixe nosso app <br>
+                                    <a href="https://play.google.com/store/apps/details?id=com.developer.guilherme&hl=pt_BR" target="_blank">
+                                    <img src="{{asset('assets/site/images/play_store.png')}}" alt="" class="logo_store_portal_mobile">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-@endsection
+        </section>
+ @endsection

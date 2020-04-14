@@ -12,8 +12,8 @@
         <div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade29" data-etapa="grammar">
             <h3 class="barlow">UNIT 29 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
+            <!-- <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio> -->
             <!-- nao tem audio ainda -->
@@ -121,14 +121,14 @@
 
             <h5 class="barlow metade" style="margin-top: 36px">2 - Circle the appropriate form of OUGHT TO or OUGHT NOT TO.</h5>
             <form id="unidade29grammar234" method="post">
-                <p>1 - <input type="radio" name="grammar234-1" value="1" required /> You (ought to/ought not to) smoke to heavily.</p>
-                <p>2 - <input type="radio" name="grammar234-1" value="2" required /> You (ought to/ought not to) lie in bed late every day.</p>
-                <p>3 - <input type="radio" name="grammar234-1" value="3" required /> You (ought to/ought not to) be selfish.</p>
-                <p>4 - <input type="radio" name="grammar234-1" value="4" required /> She (ought to/ought not to) avoid pasta. She’s on a low carb diet.</p>
-                <p>5 - <input type="radio" name="grammar234-1" value="5" required /> We (ought to/ought not to) make a tour alone. The city is very complex.</p>
-                <p>6 - <input type="radio" name="grammar234-1" value="6" required /> You (ought to/ought not to) follow the manual instructions. It’s a very delicate equipment.</p>
-                <p>7 - <input type="radio" name="grammar234-1" value="7" required /> They (ought to/ought not to) finish the video in three days. The client is extremely punctual.</p>
-                <p>8 - <input type="radio" name="grammar234-1" value="8" required /> John (ought to/ought not to) to get some images from an image bank. The quality is much superior.</p>
+                <p>1 - You (<input type="radio" name="grammar234-1" value="1" required /> ought to/<input type="radio" name="grammar234-1" value="2" required /> ought not to) smoke to heavily.</p>
+                <p>2 - You (<input type="radio" name="grammar234-2" value="1" required /> ought to/<input type="radio" name="grammar234-2" value="2" required /> ought not to) lie in bed late every day.</p>
+                <p>3 - You (<input type="radio" name="grammar234-3" value="1" required /> ought to/<input type="radio" name="grammar234-3" value="2" required /> ought not to) be selfish.</p>
+                <p>4 - She (<input type="radio" name="grammar234-4" value="1" required /> ought to/<input type="radio" name="grammar234-4" value="2" required /> ought not to) avoid pasta. She’s on a low carb diet.</p>
+                <p>5 - We (<input type="radio" name="grammar234-5" value="1" required /> ought to/<input type="radio" name="grammar234-5" value="2" required /> ought not to) make a tour alone. The city is very complex.</p>
+                <p>6 - You (<input type="radio" name="grammar234-6" value="1" required /> ought to/<input type="radio" name="grammar234-6" value="2" required /> ought not to) follow the manual instructions. It’s a very delicate equipment.</p>
+                <p>7 - They (<input type="radio" name="grammar234-7" value="1" required /> ought to/<input type="radio" name="grammar234-7" value="2" required /> ought not to) finish the video in three days. The client is extremely punctual.</p>
+                <p>8 - John (<input type="radio" name="grammar234-8" value="1" required /> ought to/<input type="radio" name="grammar234-8" value="2" required /> ought not to) to get some images from an image bank. The quality is much superior.</p>
 
                 <div class="clear"></div>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">

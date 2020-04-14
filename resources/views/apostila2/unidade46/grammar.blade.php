@@ -150,8 +150,11 @@
                 <input type="hidden" name="atividade_id" value="324">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <br>
-            <h5 class="barlow">2 - As a visual art professional, what suggestions would you give for a person who wants to improve his/her
+            <figure>
+				<img src="{{ asset('assets/img/dominating/unit46/grammar.png') }}" alt="filmes">
+            </figure>
+            <div class="clear"></div>
+            <h5 class="barlow" style="margin-top:16px">2 - As a visual art professional, what suggestions would you give for a person who wants to improve his/her
                 Story Telling Skill. Use EITHER / OR to write your suggestions. Be prepared to present your ideas to your classmates.</h5>
             <form id="unidade46grammar325" action="post">
                 <textarea name="grammar325-1" class="metade left-align" placeholder="Responda aqui"></textarea>

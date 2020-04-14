@@ -29,8 +29,14 @@
 			<p><b>Akira:</b> Awesome teacher. I like the idea of telling the story not in a chronological way. In
 				my opinion it’s more challenging for us to produce and have a good result.
 				(to be continued)</p>
-			<figure>
-				<img src="{{ asset('assets/img/dominating/unit46/conversation.png') }}" alt="filmes">
+			<figure class="umterco">
+				<img src="{{ asset('assets/img/dominating/unit46/conversation1.png') }}" alt="filmes">
+			</figure>
+			<figure class="umterco">
+				<img src="{{ asset('assets/img/dominating/unit46/conversation2.png') }}" alt="filmes">
+			</figure>
+			<figure class="umterco">
+				<img src="{{ asset('assets/img/dominating/unit46/conversation3.png') }}" alt="filmes">
 			</figure>
 		</div>
 	</div>

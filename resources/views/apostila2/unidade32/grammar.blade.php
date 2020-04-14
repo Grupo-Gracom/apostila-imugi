@@ -13,8 +13,8 @@
             <h3 class="barlow">UNIT 32</h3>
             <h5 class="barlow">3 – GRAMMAR / EXERCISES REVIEW.</h5>
 
-            <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
+            <!-- <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio> -->
             <!-- nao tem audio ainda -->

@@ -546,7 +546,6 @@
                 </li>
             </ul>
         </li>
-
         <!--APOSTILA DOMINATING-->
         <li class="item apostila-dominating" data-apostila="apostila2">
             <a class="click submenu">
@@ -1583,7 +1582,6 @@
                 </li>
             </ul>
         </li>
-
         <!-- APOSTILA MASTER OF LANGUAGE -->
         <li class="item apostila-MASTER-OF-LANGUAGE" data-apostila="apostila3">
             <a class="click submenu">
@@ -2097,10 +2095,54 @@
             </ul>
         </li>
         <!-- APOSTILA PHOTOSHOP -->
-        <li class="item apostila-photoshop" data-apostila="apostila4">
-            <a href="https://imugi.com.br/portaldoaluno/demo/imugi/photoshop.html" target="_blank">
+        <li class="item apostila-PHOTOSHOP" data-apostila="apostila4">
+            <a class="click submenu">
                 <i class="material-icons">flag</i> PHOTOSHOP
             </a>
+            <ul>
+                <!-- INTRO 4 -->
+                <li class="item" data-unidade="intro4">
+                    <a href="{{route('apostila4', ['intro4', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRODUCTION</a>
+                </li>
+                <!--UNIDADE 7-->
+                <li class="item" data-unidade="unidade7">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 7
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila4', ['unidade7', 'aula15'])}}" data-etapa="aula15"><i class="material-icons suave">mouse</i>AULA 15</a>
+                            <a href="{{route('apostila4', ['unidade7', 'aula16'])}}" data-etapa="aula16"><i class="material-icons suave">crop</i> AULA 16</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 8-->
+                <li class="item" data-unidade="unidade8">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 8
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila4', ['unidade8', 'aula17'])}}" data-etapa="aula17"><i class="material-icons suave">mouse</i>AULA 17</a>
+                            <a href="{{route('apostila4', ['unidade8', 'aula18'])}}" data-etapa="aula18"><i class="material-icons suave">crop</i>AULA 18</a>
+                            <a href="{{route('apostila4', ['unidade8', 'aula19'])}}" data-etapa="aula19"><i class="material-icons suave">crop</i>AULA 19</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 9-->
+                <li class="item" data-unidade="unidade9">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 9
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila4', ['unidade9', 'aula20'])}}" data-etapa="aula20"><i class="material-icons suave">mouse</i>AULA 20</a>
+                            <a href="{{route('apostila4', ['unidade9', 'aula21'])}}" data-etapa="aula21"><i class="material-icons suave">crop</i>AULA 21</a>
+                            <a href="{{route('apostila4', ['unidade9', 'aula22'])}}" data-etapa="aula22"><i class="material-icons suave">crop</i>AULA 22</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </li>
         <!-- APOSTILA GAMES AND ANIMATION -->
         <li class="item apostila-games" data-apostila="apostila5">

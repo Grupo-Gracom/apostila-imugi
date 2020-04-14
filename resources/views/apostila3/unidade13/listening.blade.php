@@ -14,29 +14,28 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila2/UNIT 29/4. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila3/UNIT 13/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
 				</audio>
                 <div class="clear"></div>                
-                <h5 class="barlow">A - Listen to the audio and fill in the blanks with the missing words.</h5>                
+                <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                
                 <form id="unidade13listening573" method="post">
                     <p>Hey you guys. I 
-                    <input type="text" name="listening573-1" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening573-1"  placeholder="Responda aqui" required>
                     a lady who is in charge of the
-                    <input type="text" name="listening573-2" class="inputpequeno left-align" placeholder="Responda aqui" required>
-                    <input type="text" name="listening573-3" class="inputpequeno left-align" placeholder="Responda aqui" required> of a
+                    <input type="text" name="listening573-2"  placeholder="Responda aqui" required> of a
                     cosmetics company. I think you’ve already 
-                    <input type="text" name="listening573-4" class="inputpequeno left-align" placeholder="Responda aqui" required> 
+                    <input type="text" name="listening573-3"  placeholder="Responda aqui" required> 
                     of this company. It’s the Brazilian
                     company which became 
-                    <input type="text" name="listening573-5" class="inputpequeno left-align" placeholder="Responda aqui" required> 
+                    <input type="text" name="listening573-4"  placeholder="Responda aqui" required> 
                     producing 
-                    <input type="text" name="listening573-6" class="inputpequeno left-align" placeholder="Responda aqui" required> using Amazon
-                    <input type="text" name="listening573-7" class="inputpequeno left-align" placeholder="Responda aqui" required>. 
+                    <input type="text" name="listening573-5"  placeholder="Responda aqui" required> using Amazon
+                    <input type="text" name="listening573-6"  placeholder="Responda aqui" required>. 
                     By the way, they 
-                    <input type="text" name="listening573-8" class="inputpequeno left-align" placeholder="Responda aqui" required> 
+                    <input type="text" name="listening573-7"  placeholder="Responda aqui" required> 
                     they bought a big American cosmetics
                     company that has 
-                    <input type="text" name="listening573-9" class="inputpequeno left-align" placeholder="Responda aqui" required>
+                    <input type="text" name="listening573-8"  placeholder="Responda aqui" required>
                     all over the world.</p>                                                            
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -55,8 +54,6 @@
             var atividade_id = $(this).find('input[name="atividade_id"]').val();
             checkAtividade(atividade_id);
         });
-
-        
         
         $("#unidade13listening573").submit(function(e){
             e.preventDefault();
@@ -92,7 +89,6 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade13listening'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
                         $('#unidade13listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade13listening'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade13listening'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);

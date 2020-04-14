@@ -12,13 +12,12 @@
         <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade10" data-etapa="grammar">
             <h3 class="barlow">UNIT 10 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <!-- <span class="play-audio">( Aperte o play )</span> -->
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
-            <!-- nao tem audio ainda -->
+            <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/apostila3/UNIT 10/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+            </audio>
             <div class="clear"></div>     
-            <h5 class="barlow">A –  MAKING GOOD QUESTIONS - REVIEW</h5>
+            <h5 class="barlow" style="margin-top:16px">A -  MAKING GOOD QUESTIONS – REVIEW</h5>
             <p>
                 Making good questions is a key skill for those who want to master any language. In
                 English, there are two different types of question. The ones called <b>Yes/No questions</b>
@@ -158,19 +157,6 @@
                     <td><p><b>What</b> is this tool good <b>for?</b></p></td>                    
                 </tr>                                         
             </table>
-<<<<<<< HEAD
-            <p>(*) It’s possible to create different expressions using <b>HOW + ADJECTIVE.</b> The meaning is
-            gonna be related to the adjecti ve meaning. <b>Examples: How far, How deep, How crazy, How
-            heavy, How beauti ful , etc.</b></p>
-            <h5 class="barlow">A)</h5>
-            <form id="unidade10grammar552" method="post">
-                <ul class="lista-inline">					
-                    <li><p><b>1 - How oft en do you</b></p></li>
-                    <li><p><b>2 - How oft en do you</b></p></li>
-                    <li><p><b>3 - How oft en you do</b></p></li>
-                </ul>
-
-=======
             <p style="margin-top:32px">(*) It’s possible to create different expressions using <b>HOW + ADJECTIVE.</b> The meaning is
             gonna be related to the adjective meaning. <b>Examples: How far, How deep, How crazy, How
             heavy, How beautiful , etc.</b></p>
@@ -183,7 +169,6 @@
                 <li><p>C - How often you do</p></li>
             </ul>
             <form id="unidade10grammar552" method="post">
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
                 <p>”<input type="text" name="grammar552-1" class="inputpequeno left-align" placeholder="Responda aqui" required> exercise?”</p>
                 <p>“About three times a week.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -193,15 +178,6 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-<<<<<<< HEAD
-            <h5 class="barlow">B)</h5>
-            <form id="unidade10grammar553" method="post">
-                <ul class="lista-inline">					
-                    <li><p><b>1 - Why did you</b></p></li>
-                    <li><p><b>2 - Why you did</b></p></li>
-                    <li><p><b>3 - Why you.</b></p></li>
-                </ul>
-=======
             <p><b>Question 2</b></p>
             <ul class="lista-inline">					
                 <li><p>A - Why did you</p></li>
@@ -209,7 +185,6 @@
                 <li><p>C - Why you.</p></li>
             </ul>
             <form id= "unidade10grammar553" method="post">
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
                 <p>”<input type="text" name="grammar553-1" class="inputpequeno left-align" placeholder="Responda aqui" required>  quit your job?”</p>
                 <p>“I wanted to look for some better career opportunities elsewhere.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -219,15 +194,6 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-<<<<<<< HEAD
-            <h5 class="barlow">C)</h5>
-            <form id="unidade10grammar554" method="post">
-                <ul class="lista-inline">					
-                    <li><p><b>1 - What are Shirley and Dana</b></p></li>
-                    <li><p><b>2 - What Shirley and Dana is</b></p></li>
-                    <li><p><b>3 - What do Shirley and Dana</b></p></li>
-                </ul>                
-=======
             <p><b>Question 3</b></p>
             <ul class="lista-inline">					
                 <li><p>A - What are Shirley and Dana</p></li>
@@ -235,7 +201,6 @@
                 <li><p>C - What do Shirley and Dana</p></li>
             </ul>
             <form id= "unidade10grammar554" method="post">
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
                 <p>”<input type="text" name="grammar554-1" class="inputpequeno left-align" placeholder="Responda aqui" required> working on?”</p>
                 <p>“It looks like they’re preparing a presentation.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -245,15 +210,6 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-<<<<<<< HEAD
-            <h5 class="barlow">D)</h5>
-            <form id="unidade10grammar555" method="post">
-                <ul class="lista-inline">					
-                    <li><p><b>1 - What were your mother</b></p></li>
-                    <li><p><b>2 - What your mother was</b></p></li>
-                    <li><p><b>3 - What was your mother</b></p></li>
-                </ul>
-=======
             <p><b>Question 4</b></p>
             <ul class="lista-inline">					
                 <li><p>A - What were your mother</p></li>
@@ -261,7 +217,6 @@
                 <li><p>C - What was your mother</p></li>
             </ul>
             <form id= "unidade10grammar555" method="post">
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
                 <p>”<input type="text" name="grammar555-1" class="inputpequeno left-align" placeholder="Responda aqui" required>  making? It smelled delicious?”</p>
                 <p>“Her famous chicken soup! You’re welcome to join us for dinner later tonight.”</p>                       
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -508,18 +463,6 @@
         }
     });
 
-<<<<<<< HEAD
-        $("#unidade10grammar560").submit(function(e){
-            e.preventDefault();
-            $(this).find('button').prop('disabled', true);
-            var respostas = '{"'+$('#unidade10grammar560 textarea').attr("name")+'":"'+$('#unidade10grammar560 textarea').val()+'"}';
-            if($('#unidade10grammar560 input[name="resposta_id"').val() != 0){
-                atualizarAtividade($('#unidade10grammar560'), respostas);
-            }else{
-                enviarAtividade($('#unidade10grammar560'), respostas);
-            }
-        });
-=======
     $("#unidade10grammar560").submit(function(e){
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
@@ -530,7 +473,6 @@
             enviarAtividade($('#unidade10grammar560'), respostas);
         }
     });
->>>>>>> ba20392e59a725bdde140233be56553df25eb725
 
 
     function checkAtividade(atividade_id) {

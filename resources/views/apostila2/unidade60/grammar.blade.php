@@ -12,14 +12,14 @@
         <div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade60" data-etapa="grammar">
             <h3 class="barlow">UNIT 60</h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
+            <!-- <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+            </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - CONDITIONAL II – PRESENT UNREAL CONDITIONAL</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - CONDITIONAL II – PRESENT UNREAL CONDITIONAL</h5>
                 <table class="metade espacamento center-align">
                     <tr>
                         <td>
@@ -121,7 +121,7 @@
             </form>
             <div style="margin-top: 36px">
                 <figure>
-                    <img src="{{ asset('assets/img/playgo/unit60/pagina-1.png') }}" alt="brasilia">
+                    <img src="{{ asset('assets/img/dominating/unit60/grammar.png') }}" alt="brasilia">
                 </figure>
             </div>
             <h5 class="barlow" style="margin-top: 36px">

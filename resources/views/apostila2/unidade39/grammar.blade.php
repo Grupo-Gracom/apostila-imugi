@@ -178,10 +178,10 @@
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
             <div style="margin-top: 36px">
-                <figure>
-                    <img src="{{ asset('assets/img/playgo/unit38/pagina-1.png') }}" alt="carro policia">
-                </figure>
-            </div>
+				<figure>
+					<img src="{{ asset('assets/img/dominating/unit39/grammar.png') }}" alt="carro policia">
+				</figure>
+			</div>
 
             <h5 class="barlow" style="margin-top: 36px">3 - Write about a famous actor or actress. Use WHO/THAT to give information about him/her.</h5>
             <form id="unidade39grammar287" method="post">

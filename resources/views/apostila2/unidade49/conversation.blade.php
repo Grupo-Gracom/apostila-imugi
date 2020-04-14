@@ -30,8 +30,11 @@
 			<p><b>Gleen:</b> Awesome guys. Fantastic observations and conclusions. Guys, that’s it for today.
 				I see you guys in the next class ok.</p>
 
-			<figure>
-				<img src="{{ asset('assets/img/dominating/unit49/conversation.png') }}" alt="Garotos festejando">
+			<figure class="metade esquerda">
+				<img src="{{ asset('assets/img/dominating/unit49/conversation1.png') }}" alt="jerry">
+			</figure>
+			<figure class="metade direita">
+				<img src="{{ asset('assets/img/dominating/unit49/conversation2.png') }}" alt="tom">
 			</figure>
 		</div>
 	</div>

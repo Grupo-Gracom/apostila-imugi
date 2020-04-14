@@ -16,7 +16,8 @@
 			<audio controls="" controlslist="nodownload" class="suave">
 				<source src="{{ asset('assets/audio/apostila2/UNIT 42/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
 			</audio>
-			<h5 class="barlow" class="espacamento">A - WORDS AND EXPRESSIONS</h5>
+			<div class="clear"></div>
+			<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
 			<div class="espacamento">
 				<p><b>TO ARRIVE </b>/ early / on time / late / at home / at work</p>
 				<p><b>TO CARRY </b>/ a book / on a conversation / on doing something</p>

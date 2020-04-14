@@ -36,8 +36,6 @@
                 <input type="hidden" name="atividade_id" value="247">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-
-            </form>
         </div>
     </div>
 </main>

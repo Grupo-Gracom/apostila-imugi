@@ -12,14 +12,14 @@
         <div id="unidade" class="box" data-apostila="apostila2" data-unidade="unidade64" data-etapa="grammar">
             <h3 class="barlow">UNIT 64</h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
+            <!-- <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
 					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
                 </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
             <div style="margin-top: 16px">
-                <h5 class="barlow">A - Fill in the correct tenses of the words given .</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Fill in the correct tenses of the words given .</h5>
                 <form id="unidade64grammar416" method="post">
                     <p>
                         <p>
@@ -56,11 +56,6 @@
                     <input type="hidden" name="atividade_id" value="416">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <div style="margin-top: 36px">
-                    <figure>
-                        <img src="{{ asset('assets/img/playgo/unit64/pagina-1.png') }}" alt="sanduiche">
-                    </figure>
-                </div>
             </div>
         </div>
 </main>

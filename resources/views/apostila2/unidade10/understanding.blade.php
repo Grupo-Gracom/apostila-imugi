@@ -15,23 +15,23 @@
             <div class="metade">
                 <form id="unidade10understanding147" method="post">
                     <p>
-                        1 - What is going to happen in the class?<br>
+                        1 - What is going to happen in the class?
                         <input type="text" name="understanding147-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        2 - Who is going to speak?<br>
+                        2 - Who is going to speak?
                         <input type="text" name="understanding147-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        3 - What is his position in the company?<br>
+                        3 - What is his position in the company?
                         <input type="text" name="understanding147-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        4 - What is he gonna show in the class?<br>
+                        4 - What is he gonna show in the class?
                         <input type="text" name="understanding147-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        5 - What can you do with the new software?<br>
+                        5 - What can you do with the new software?
                         <input type="text" name="understanding147-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
 

@@ -183,7 +183,7 @@
         </div>
         <div style="margin-top: 36px">
             <figure>
-                <img src="{{ asset('assets/img/playgo/unit37/pagina-1.png') }}" alt="games">
+                <img src="{{ asset('assets/img/dominating/unit37/grammar.png') }}" alt="escolher console">
             </figure>
         </div>
 

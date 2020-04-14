@@ -30,7 +30,7 @@
 			<br>
 			<p>(to be continued)</p>
 			<figure>
-				<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+				<img src="{{ asset('assets/img/dominating/unit47/conversation.png') }}" alt="aula">
 			</figure>
 		</div>
 	</div>

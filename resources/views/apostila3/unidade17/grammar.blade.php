@@ -13,13 +13,12 @@
             <h3 class="barlow">UNIT 17</h3>
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
-            <!-- nao tem audio ainda -->
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/apostila3/UNIT 17/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+            </audio>
             <div class="clear"></div>
             <div style="margin-top:16px">
-                <h5 class="barlow">A - MUST + PERFECT INFINITIVE.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - MUST + PERFECT INFINITIVE.</h5>
                 <p>
                     As we saw during the lesson on Modal Verbs review (lesson 15) , <b>Must</b> may be used
                     to express different ideas such as obligation, assumpti on and prohibition. It’s also

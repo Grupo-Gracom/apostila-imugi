@@ -12,13 +12,12 @@
         <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade9" data-etapa="grammar">
             <h3 class="barlow">UNIT 9 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <!-- <span class="play-audio">( Aperte o play )</span> -->
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
-            <!-- nao tem audio ainda -->
+            <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/apostila3/UNIT 9/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+            </audio>
             <div class="clear"></div>     
-            <h5 class="barlow">A –  TALKING ABOUT THE FUTURE.</h5>                
+            <h5 class="barlow" style="margin-top:16px">A –  TALKING ABOUT THE FUTURE.</h5>                
             <table class="espacamento center-align bordered" style="margin-top:32px;">
                 <tr>
                     <td><h5 class="barlow">Verb Tense</h5></td>                    
@@ -118,7 +117,7 @@
             </form>
             <h5 class="barlow">3 - Look at Tom and Sally’s diary below. Then, use the PRESENT CONTINUOUS form to
             say what their arrangements are for this week, as in the example:</h5>
-            <div style="margin-top : 36px">
+            <div style="margin-top:36px">
 				<figure>
 					<img src="{{ asset('assets/img/masteroflanguage/unit9/grammar.jpg') }}" alt="calendario">
 				</figure>
@@ -330,7 +329,6 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade9grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
                     $('#unidade9grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
                     $('#unidade9grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                     $('#unidade9grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);

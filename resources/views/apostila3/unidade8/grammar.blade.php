@@ -12,13 +12,12 @@
         <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade8" data-etapa="grammar">
             <h3 class="barlow">UNIT 8 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <!-- <span class="play-audio">( Aperte o play )</span> -->
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
-            <!-- nao tem audio ainda -->
+            <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/apostila3/UNIT 8/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+            </audio>
             <div class="clear"></div>     
-            <h5 class="barlow">A – TALKING ABOUT THE PRESENT.</h5>
+            <h5 class="barlow" style="margin-top:16px">A – TALKING ABOUT THE PRESENT.</h5>
                 <p>There are different ways to talk about the present. It also depends on the message
                 you want to communicate. Pay attention to some possibilities on the table.</p>
             <table class="espacamento center-align bordered" style="margin-top:32px;">
@@ -284,7 +283,6 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade8grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
                     $('#unidade8grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
                     $('#unidade8grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                     $('#unidade8grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);

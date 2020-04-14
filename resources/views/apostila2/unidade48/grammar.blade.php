@@ -13,10 +13,10 @@
             <h3 class="barlow">UNIT 48</h3>
             <h5 class="barlow">3 – GRAMMAR</h5>
 
-            <span class="play-audio">( Aperte o play )</span>
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
+            <!-- <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
+            </audio> -->
             <!-- nao tem audio ainda -->
             <div class="clear"></div>
 
@@ -26,7 +26,7 @@
             <br>
             <p>Not only … but also.</p>
             <figure>
-                <img src="{{ asset('assets/img/dominating/unit48/grammar1.png') }}" alt="titanic">
+                <img src="{{ asset('assets/img/dominating/unit48/grammar.png') }}" alt="titanic">
             </figure>
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b></h5>
@@ -98,8 +98,11 @@
                 <input type="hidden" name="atividade_id" value="332">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <figure>
-                <img src="{{ asset('assets/img/dominating/unit48/grammar1.png') }}" alt="dançando coral">
+            <figure class="metade esquerda">
+                <img src="{{ asset('assets/img/dominating/unit48/grammar1.png') }}" alt="dança">
+            </figure>
+            <figure class="metade direita">
+                <img src="{{ asset('assets/img/dominating/unit48/grammar2.png') }}" alt="coral">
             </figure>
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">2 - Organization is essential in life. For both personal and professional lives. How can a

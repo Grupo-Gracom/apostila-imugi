@@ -15,23 +15,23 @@
             <div class="metade">
                 <form id="unidade9understanding142" method="post">
                     <p>
-                        1 - Does John have any favorite software?<br>
+                        1 - Does John have any favorite software?
                         <input type="text" name="understanding142-1" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        2 - Why does he know better these softwares?<br>
+                        2 - Why does he know better these softwares?
                         <input type="text" name="understanding142-2" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        3 - What are the positive characteristics of his favorite softaware?<br>
+                        3 - What are the positive characteristics of his favorite softaware?
                         <input type="text" name="understanding142-3" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        4 - What are negative characteristics of it ?<br>
+                        4 - What are negative characteristics of it ?
                         <input type="text" name="understanding142-4" class="full left-align" placeholder="Responda aqui" required>
                     </p>
                     <p>
-                        5 - What’s your favorite image editing software, and why?<br>
+                        5 - What’s your favorite image editing software, and why?
                         <input type="text" name="understanding142-5" class="full left-align" placeholder="Responda aqui" required>
                     </p>
 

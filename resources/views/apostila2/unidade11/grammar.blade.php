@@ -23,9 +23,9 @@
                 <table class="metade center-align">
                     <tr>
                         <td>
-                            <h5 class="barlow">Subject</h5</td> <td>
-                                <h5 class="barlow">Verb(inf)</h5</td> <td>
-                                    <h5 class="barlow">Future decision / fact</h5</td> </tr> <tr>
+                            <h5 class="barlow">Subject</h5></td> <td>
+                            <h5 class="barlow">Verb(inf)</h5></td> <td>
+                            <h5 class="barlow">Future decision / fact</h5></td> </tr> <tr>
                         <td>
                             <p>Akira</p>
                         </td>
@@ -62,8 +62,8 @@
                 <table class="metade center-align">
                     <tr>
                         <td>
-                            <h5 class="barlow">To be (future with will)</h5</td> <td>
-                                <h5 class="barlow">Other verbs (future with will)</h5</td> </tr> <tr>
+                            <h5 class="barlow">To be (future with will)</h5></td> <td>
+                            <h5 class="barlow">Other verbs (future with will)</h5></td> </tr> <tr>
                         <td>
                             <p>(+) Comic Com <b>will be</b> fantastic.</p>
                         </td>
@@ -143,8 +143,8 @@
                     <tr>
                         <td></td>
                         <td>
-                            <h5 class="barlow">preposition</h5</td> <td>
-                                <h5 class="barlow">Verb(ing)</h5</td> <td>
+                            <h5 class="barlow">preposition</h5></td> <td>
+                            <h5 class="barlow">Verb(ing)</h5></td> <td>
                         </td>
                     </tr>
                     <tr>

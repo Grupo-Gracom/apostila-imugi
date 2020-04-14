@@ -12,29 +12,28 @@
         <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade11" data-etapa="grammar">
             <h3 class="barlow">UNIT 11 </h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <!-- <span class="play-audio">( Aperte o play )</span> -->
-            <!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
-            <!-- nao tem audio ainda -->
+            <span class="play-audio">( Aperte o play )</span>
+            <audio controls="" controlslist="nodownload" class="suave">
+                <source src="{{ asset('assets/audio/apostila3/UNIT 11/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+            </audio>
             <div class="clear"></div>     
-            <h5 class="barlow">A –  CONECTORS – REVIEW</h5>                            
-            <table class="espacamento center-align bordered" style="margin-top:32px;">
+            <h5 class="barlow" style="margin-top:16px">A -  CONECTORS – REVIEW</h5>                            
+            <table class="espacamento left-align bordered" style="margin-top:32px;">
                 <tr>
-                    <td><h5 class="barlow">Connectors</h5></td>                    
-                    <td><h5 class="barlow">Examples</h5></td>                              
+                    <td colspan="2"><h5 class="barlow center-align">Connectors</h5></td>                    
+                    <td><h5 class="barlow center-align">Examples</h5></td>                              
                 </tr>
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td><p>Addition</p></td>
                     <td><p><b>And</b></p> <p><b>Besides that</b></p> <p><b>Moreover</b></p> <p><b>Furthermore</b></p></td>                    
-                    <td><p>Akira loves comic books and he’s also a fan of GOT. 
-                    Youtube is a great tool. Besides that it’s free. 
+                    <td><p>Akira loves comic books <b>and</b>  he’s also a fan of GOT. 
+                    Youtube is a great tool. <b>Besides that</b> it’s free. 
                     A good content is the secret for a good audience. 
-                    Moreover, it helps you to add value to your brand. 
+                    <b>Moreover</b>, it helps you to add value to your brand. 
                     Facebook is still the most powerful social media. 
-                    Furthermore it has fantastic metric tools.</p></td>                    
+                    <b>Furthermore</b> it has fantastic metric tools.</p></td>                    
                 </tr>                          
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td><p>Contrast</p></td>
                     <td>
                         <p><b>But</b></p>
@@ -49,16 +48,12 @@
                         <p>memorize all the available tools for treating photos.</p>
                         <p>Photoshop is awesome. <b>However</b>, it’s difficult to memorize all the</p>
                         <p>available tools for treating photos.</p>
-                        <p>Despite being awesome, It’s difficult to memorize all Photo Shop</p>
+                        <p><b>Despite</b> being awesome, It’s difficult to memorize all Photo Shop</p>
                         <p>available tools for treating photos.</p>
                     </td>
                 </tr>                          
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td><p>Conclusion</p></td>
-                    <td><p><b>Did you see</b> the last GOT episode? <b>Did she send</b> the report?</p></td>
-                </tr>                                         
-                <tr class="bordered center-align">
-                    <td><p>Simple Future</p></td>
                     <td>
                         <p><b>So</b></p>
                         <p><b>As a conclusion</b></p>
@@ -74,13 +69,7 @@
                         <p><b>Because of that</b>, I think we should invest in a nice channel for the company.</p>
                     </td>
                 </tr>                                                 
-            </table>
-            <table class="espacamento center-align bordered" style="margin-top:32px;">
-                <tr>
-                    <td><h5 class="barlow">Connectors</h5></td>                    
-                    <td><h5 class="barlow">Examples</h5></td>                              
-                </tr>
-                <tr class="bordered center-align">
+                <tr class="bordered">
                     <td><p>Exemplification</p></td>
                     <td>
                         <p><b>For instance</b></p>
@@ -97,9 +86,10 @@
                     </td>
                 </tr>
             </table>       
-            <h5 class="barlow">A -  In groups, create a dialogue and use at least one connector of each type: adding,
+            <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
+            <h5 class="barlow">1 -  In groups, create a dialogue and use at least one connector of each type: adding,
             contrasting, concluding and giving examples. Use the topics below or any other you find interesting. </h5>
-            <p>• Visiti ng Youtube headquarters.</p>
+            <p>• Visiting Youtube headquarters.</p>
             <p>• Preparing yourself for your 3rd Comic.com.</p>
             <p>• Deciding on what program to use in a project. </p>
             <form id="unidade11grammar563" method="post">                
@@ -111,14 +101,15 @@
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
-            <h5 class="barlow">B -  Based on the topics below, create one sentence for each type of connector.</h5>
-            <p>• Home offi ce work.</p>
+            <h5 class="barlow">2 -  Based on the topics below, create one sentence for each type of connector.</h5>
+            <p>• Home office work.</p>
             <p>• Living abroad.</p>
             <p>• Working for a company x being a self-employee.</p>
-            <form id="unidade11grammar564" method="post">                            
+            <form id="unidade11grammar564" method="post" class="metade">                            
                 <p>1. <input type="text" name="grammar564-1" class="full left-align" placeholder="Responda aqui" required></p>
                 <p>2. <input type="text" name="grammar564-2" class="full left-align" placeholder="Responda aqui" required></p>
                 <p>3. <input type="text" name="grammar564-3" class="full left-align" placeholder="Responda aqui" required></p>
+                <p>4. <input type="text" name="grammar564-4" class="full left-align" placeholder="Responda aqui" required></p>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="11">
@@ -184,7 +175,6 @@
                 var chaves = Object.keys(objeto);
                 var respostas = Object.values(objeto);
                 for (j = 0; j < respostas.length; j++) {
-                    $('#unidade11grammar' + atividade_id + ' input[name="' + chaves[j] + '"][value="' + respostas[j] + '"]').attr("checked", true);
                     $('#unidade11grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').val(respostas[j]);
                     $('#unidade11grammar' + atividade_id + ' textarea[name="' + chaves[j] + '"]').attr("value", respostas[j]);
                     $('#unidade11grammar' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);

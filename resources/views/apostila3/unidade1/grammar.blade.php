@@ -12,13 +12,12 @@
 			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade1" data-etapa="grammar">
 				<h3 class="barlow">UNIT 1 </h3>
 				<h5 class="barlow">3 - GRAMAR</h5>
-				<!-- <span class="play-audio">( Aperte o play )</span> -->
-				<!-- <audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/Unit6/Grammar/completo.ogg') }}" type="audio/ogg">
-                </audio> -->
-                <!-- nao tem audio ainda -->
+				<span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+					<source src="{{ asset('assets/audio/apostila3/UNIT 1/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                </audio>
                 <div class="clear"></div>
-                <h5 class="barlow">A - BASIC REPORTING SENTENCES</h5>
+                <h5 class="barlow" style="margin-top:16px">A - BASIC REPORTING SENTENCES</h5>
                 <p>Sentences used to report a story or to retell a story.</p>
                 <p>When retelling a story we usually use the verbs <b>Say (something), Tell (a story),</b> and
                 <b>ask (a question or favor)</b></p>
@@ -109,7 +108,6 @@
                     var chaves = Object.keys(objeto);
                     var respostas = Object.values(objeto);
                     for(j = 0; j < respostas.length; j++){
-                        $('#unidade1grammar'+atividade_id+' input[name="'+chaves[j]+'"][value="'+respostas[j]+'"]').attr("checked", true);
                         $('#unidade1grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').val(respostas[j]);
                         $('#unidade1grammar'+atividade_id+' textarea[name="'+chaves[j]+'"]').attr("value", respostas[j]);
                         $('#unidade1grammar'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);

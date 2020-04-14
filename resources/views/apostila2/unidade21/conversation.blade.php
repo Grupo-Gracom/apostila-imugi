@@ -29,9 +29,6 @@
 			<p><b>Laura:</b> Teacher, I was kind of nerd. I loved to study Physics and I used to watch The Big
 				Bang theory. It was my favorite sitcom.</p>
 			<p><b>Gleen:</b> Cool guys. Nice to now about your childhood.</p>
-			<figure>
-				<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
-			</figure>
 		</div>
 	</div>
 </main>
