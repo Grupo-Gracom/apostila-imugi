@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use DB;
 use App\User;
+use App\Unidade;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -106,8 +107,10 @@ class UserController extends Controller
         // $aluno = User::find($matricula);
 
         $alunos = DB::table('users')->where('matricula', $matricula)->get();
-     
-        return view('portal.editarAluno.index', compact('alunos'));
+        $unidades = Unidade::where('matricula', '=',$matricula)
+        ->select('cod_unidade')
+        ->get('cod_unidade');
+        return view('portal.editarAluno.index', compact('alunos','unidades'));
     }
 
     public function update(Request $request, $id){
