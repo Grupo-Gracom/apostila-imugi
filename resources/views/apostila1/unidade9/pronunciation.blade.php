@@ -17,9 +17,9 @@
 					<source src="{{ asset('assets/audio/unit9/pronunciation/pronunciation.ogg') }}" type="audio/ogg">
                 </audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top: 16px">A - Listen to your teacher first, and then repeat the tittles of address to practice pronunciation. </h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Listen to your teacher first, and then repeat the Titles of address to practice pronunciation. </h5>
 				<div class="espacamento">
-					<p><b>Tittles of address</b></p>
+					<p><b>Titles of address</b></p>
 					<p>Miss (single females)</p>
 					<p>Mrs. (married females) </p>
 					<p>Ms. (single or married females)</p>
