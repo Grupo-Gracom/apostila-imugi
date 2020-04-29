@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
+use App\Unidade;
 use App\Mail\SendMail;
 use App\Mail\ContatoSite;
 use App\Mail\ContatoFranquia;
@@ -16,8 +17,11 @@ class ContatoController extends Controller
     public function index() {
         $id = Auth::user()->id;
         $aluno = User::find($id);
-
-        return view('portal.contato.index',compact('aluno'));
+        $matricula = Auth::user()->matricula;
+        $unidades = Unidade::where('matricula', '=',$matricula)
+        ->select('cod_unidade')
+        ->get('cod_unidade');
+        return view('portal.contato.index',compact('aluno','unidades'));
     }
 
     public function siteContato() {

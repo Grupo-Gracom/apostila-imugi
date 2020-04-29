@@ -7,6 +7,7 @@ use App\Resposta;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\O_Turma;
+use App\Unidade;
 
 class HomeController extends Controller
 {
@@ -58,8 +59,13 @@ class HomeController extends Controller
 
     public function homePortal()
     {
+
         if(Auth::check()){
-            return view('portal/home/index');
+            $matricula = Auth::user()->matricula;
+            $unidades = Unidade::where('matricula', '=',$matricula)
+            ->select('cod_unidade')
+            ->get('cod_unidade');
+            return view('portal/home/index', compact('unidades'));
         }else{
             return redirect('/');
         }
@@ -76,9 +82,13 @@ class HomeController extends Controller
     }
     
     public function materialDidatico(){
-        $matricula = Auth::user()->id;
-        $aluno = User::find($matricula);
-        return view('portal/material/index',compact('aluno'));
+        $id = Auth::user()->id;
+        $matricula = Auth::user()->matricula;
+        $unidades = Unidade::where('matricula', '=',$matricula)
+        ->select('cod_unidade')
+        ->get('cod_unidade');
+        $aluno = User::find($id);
+        return view('portal/material/index',compact('aluno','unidades'));
     }
 
 }
