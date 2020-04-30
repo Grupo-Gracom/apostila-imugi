@@ -12,11 +12,14 @@ class NotaController extends Controller
     {
         $matricula = Auth::user()->matricula;
         $alunos = DB::table('turmas')->where('matricula', $matricula)->get();
+<<<<<<< HEAD
         
         $nota = DB::table('notas')->where('matricula', $matricula)->get();
 
         $alunos = DB::table('turmas')->where('matricula', $matricula)->get();
 
+=======
+>>>>>>> 3e93df142f23f8ae7c33d6e1be8d5bc4d81e9489
         $notaAluno = DB::table('notas')->where('matricula', $matricula)->get();
           
         foreach ($notaAluno as $notaKey => $notaData) {

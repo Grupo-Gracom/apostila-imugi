@@ -20,7 +20,7 @@
                 <div class="espacamento">
                     <p>I am a teacher <b>and</b> a photographer. (addition)</p>
                     <p>My hobby is wildlife photography, <b>but</b> my profession is fashion photography. (contrast)</p>
-                    <p>My work is published in magazines and websites, so I need the photos to be perfect. (conclusion)</p>
+                    <p>My work is published in magazines and websites, <b>so</b> I need the photos to be perfect. (conclusion)</p>
                 </div>
 				<h5 class="barlow" style="margin-top: 16px">A - Complete the sentences with the appropriate conjunction. Use "and", "but" or "so".</h5>
 				<form id="unidade3grammar11" method="post">
