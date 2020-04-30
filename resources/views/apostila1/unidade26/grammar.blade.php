@@ -25,7 +25,7 @@
                     <h5 class="barlow">Past Continuous</h5>
                     <p>To Talk About An Action That Was In Progress In The Past.</p>
                 </div>
-                <h5 class="barlow">A - Use the "simple past", "past continuous" or "used to" to complete the sentences.</h5>
+                <h5 class="barlow" style="margin-top: 16px">A - Use the "simple past", "past continuous" or "used to" to complete the sentences.</h5>
                 <form id="unidade26grammar67" method="post">
                     <p>1 - I <input type="text" name="grammar67-1" placeholder="Responda aqui" required>   (Run) Every Day When I Was Young.</p>
                     <p>2 - <input type="text" name="grammar67-2" placeholder="Responda aqui" required> You <input type="text" name="grammar67-3" placeholder="Responda aqui" required> (Talk) On The Phone When I Called You?</p>

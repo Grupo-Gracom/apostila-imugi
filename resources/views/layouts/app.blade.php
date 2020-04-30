@@ -10,6 +10,7 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+  <!--   <link rel="stylesheet" type="text/css" href="{{asset('assets/css/login.css')}}"> -->
 </head>
 <body style="background-image: url(../assets/img/login.jpg); background-size:cover;">
     <div id="app">

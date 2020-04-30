@@ -15,6 +15,7 @@
 						<img src="{{ asset('assets/img/playgo/intro/bg-intro.jpg') }}" alt="">
 					</figure>
 					<h3 class="barlow center-align">Seja Bem Vindo Ao Play GO</h3>
+	
 					<div class="bem-vindo-conteudo">
 						<p>Curso projetado para artistas ou amadores que procuram treinamento de efeitos gráficos e visuais ensinado interdisciplinarmente com a língua inglesa.</p>
 						<p>Vivemos em um mundo digital, onde a interatividade está cada vez mais presente na vida das pessoas. Com as ferramentas certas do CG você irá dominar esse universo.</p>

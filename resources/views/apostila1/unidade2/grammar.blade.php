@@ -18,7 +18,7 @@
                 </audio>
                 <div class="clear" style="margin-bottom: 16px;"></div>
 				<div class="metade esquerda">
-                    <h5 class="barlow">A - Answer the questions. Use short answers.</h5>
+                    <h5 class="barlow" style="margin-top: 16px">A - Answer the questions. Use short answers.</h5>
                     <form id="unidade2grammar6" method="post">
                         <p><b>1 - </b> Do you have Photoshop in your computer? <input type="text" name="grammar6-1" placeholder="Responda aqui" required ></p>
                         <p><b>2 - </b> Do you use Photoshop to edit photos? <input type="text" name="grammar6-2" placeholder="Responda aqui" required></p>
@@ -42,7 +42,7 @@
                     <h5 class="barlow">B - Organize the sentences. Use DO when necessary.</h5>
                     <form id="unidade2grammar7" method="post">
                         <p>1 - You/with/work/photography <input class="full left-align" type="text" name="grammar7-1" placeholder="Responda aqui" required></p>
-                        <p>2 - They/a soft ware/need/to edit/photos <input class="full left-align" type="text" name="grammar7-2" placeholder="Responda aqui" required></p>
+                        <p>2 - They/a software/need/to edit/photos <input class="full left-align" type="text" name="grammar7-2" placeholder="Responda aqui" required></p>
                         <p>3 - Have/you/ a computer <input class="full left-align" type="text" name="grammar7-3" placeholder="Responda aqui" required></p>
                         <p>4 - We/Photoshop/use/for work <input class="full left-align" type="text" name="grammar7-4" placeholder="Responda aqui" required></p>                        
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

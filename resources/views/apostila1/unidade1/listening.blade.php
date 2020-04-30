@@ -46,6 +46,7 @@
     </main>
     <script>
         activeMenu();
+        console.log(window.location.pathname);
 
         $("form").each(function(){
             var atividade_id = $(this).find('input[name="atividade_id"]').val();

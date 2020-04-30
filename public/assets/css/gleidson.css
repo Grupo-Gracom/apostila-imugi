@@ -5,6 +5,7 @@
 *::-webkit-scrollbar-track {background-color: #333;}
 *::-webkit-scrollbar-thumb {background: #999;}
 *::-webkit-scrollbar-button{background-color: #999;}
+a{display: block; color: #7dc242;} /* reseta links para display block */
 body{background-color: rgba(125, 194, 66, 0.15);}
 .mini-title{font-size: 14px;letter-spacing: 1px;font-weight: bold;}
 .marcador{outline: 1px solid red;outline-offset: -1px;}
@@ -21,9 +22,19 @@ body{background-color: rgba(125, 194, 66, 0.15);}
 .left-align{text-align: left !important;}
 .right-align{text-align: right !important;}
 .metade{width: calc(50% - 8px);}
+.quasefull{width: calc(95% - 8px);}
+/* #unidade form input[type="text"].quasefull{width: calc(95% - 8px);} */
 .metade.esquerda{float: left;}
+.esquerda{float: left;}
 .metade.direita{float: right;}
+.direita{float: right;}
 .umterco{width: calc(33.333% - 11px);float:left;}
+.umquarto{width: calc(25% - 8px);float:left;}
+
+figure.umterco{margin: 5px;} /*joao */
+figure.umquarto{margin: 4px;}
+figure.imagemdupla{margin: 5px;}
+figure.metade{margin: 3px;}
 .umterco:nth-child(2){margin:0 16px;}
 .doisterco{width: calc(66.666% - 11px);}
 .espacamentoWord{word-spacing: 34px;}
@@ -67,7 +78,7 @@ nav ul li.active-item a.submenu::before{border-top-color: white;}
 nav ul li a.submenu.active::before{transform: rotate(180deg);border-top-color: white;}
 nav ul li a.submenu + ul a.active{background-color: rgba(255,255,255,.15);}
 nav ul li a.submenu + ul ul a.active{background-color: #7dc242;}
-
+.menu-hidden{display: none;}
 .menu-btn{width: 50px;height: 50px;line-height: 50px !important;text-align: center;position: absolute;top: 10px;left: 10px;z-index: 999;color: white;display: none;}
 .menu-btn.active{color: #7dc242;}
 
@@ -80,8 +91,8 @@ main{width: calc(100% - 300px);height: calc(100vh - 70px);position: fixed;bottom
 main figure img{display: block;border-radius: 15px;width: 100%;}
 main .dashboard{width: 100%;}
 main .dashboard h3{margin-bottom: 10px;text-transform: capitalize;color: #7dc242;border-bottom: 1px solid #7dc242;padding-bottom: 16px;}
-main .capas{overflow: hidden;width: 100%;margin: 60px auto;list-style: none;}
-main .capas li{width: 20%;float: left;padding: 16px;box-sizing: border-box;}
+main .capas{overflow: hidden;width: 100%;margin: 30px auto;list-style: none; margin-right: -20%;}
+main .capas li{width: 18%; float: left;box-sizing: border-box; margin-bottom: 10px;}
 main .capas li.deactive img{filter: grayscale(1);}
 
 #unidade .bem-vindo{width: 60%;margin: 26px auto;}
@@ -90,23 +101,25 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade .bem-vindo-conteudo{padding: 50px 16px;}
 #unidade .bem-vindo-conteudo p{margin-bottom: 16px;}
 
-#unidade h5, h6{color: #7dc242;}
+#unidade h5{color: #7dc242;}
+#unidade h5 b{color: #4b9906;}
 #unidade audio:hover{box-shadow: 0px 5px 8px rgba(0, 0, 0, .15);}
 #unidade form {padding-left: 16px;box-sizing: border-box;margin-bottom: 26px;}
 #unidade form input[type="text"]{width: 150px;background-color: white;outline: none;border: 0;border-bottom: 1px solid #333;text-align: center;font-size: 18px;font-family: Arial, Helvetica, sans-serif !important;color: #7dc242;}
-#unidade form p .inputMedio{width: 500px;}
-#unidade form p .inputpequeno{width: 250px;}
+#unidade form p .inputMedio{width: 300px;}
+#unidade form p .inputpequeno{width: 220px;}
+#unidade form p .quasefull{width: calc(90% - 8px);}
 #unidade form input[type="text"]:focus{border-bottom: 1px solid #7dc242;}
 #unidade form input[type="text"].full{width: 100%;}
-#unidade form textarea{border: 1px solid #777;border-radius: 10px;padding: 10px 16px;box-sizing: border-box;font-size: 18px;font-family: Arial, Helvetica, sans-serif !important;outline: 0;}
+#unidade form textarea{border: 1px solid #777;border-radius: 10px;padding: 10px 16px;box-sizing: border-box;font-size: 18px;font-family: Arial, Helvetica, sans-serif !important;outline: 0; color: #7dc242}
 #unidade form textarea:focus{background-color: white;border: 1px solid #7dc242;}
 #unidade form button{padding: 0 26px;display: inline-block;line-height: 50px;border-radius: 5px;border: 0;background-color: #7dc242;color: white;margin-top: 16px;}
 #unidade form button:hover{box-shadow: 0px 5px 8px rgba(0, 0, 0, .15);}
 #unidade .play-audio{width: 300px;text-align: center;display: block;font-size: 12px;color: #777;}
 #unidade .lista-inline{display: flex;list-style: none;margin: 16px;}
-#unidade .lista-inline li{flex: 1;text-align: center;}
+#unidade .lista-inline li{flex: 1;text-align: center; }
 #unidade .lista-inline li h5,
-#unidade .lista-inline li p{margin: 0;}
+#unidade .lista-inline li p{margin: 8px;}
 #unidade .espacamentoEsquerda {margin-right: -60px;}
 #unidade .lista-vertical{list-style: none;border-radius: 5px;margin-left: 0;margin-right: 0;font-size: 18px;}
 #unidade .tabelagrammar{background-color: #7dc242;width: 50%;border-collapse: collapse;}
@@ -117,20 +130,42 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade #unidade6listening22 textarea,
 #unidade #unidade8listening83 textarea{height: 150px}
 #unidade #joguin1{margin: 0 auto;margin-top: 50px;display: block;}
-#unidade .caixa{border: 1px solid #333;width: 50%;}
+#unidade .caixa{border: 1px solid #333;width: 35%;}
+#unidade .manipulaimagem{width:60%;margin-left:20%; margin-top:16px;}
+#unidade .otimizarimagem{width:50%;height:auto}
+#unidade figure.umterco img{height:350px;}
+#unidade figure.umquarto img{height:250px;}
+#unidade figure.metade img{height:400px;}
+#unidade .iconex{display: inline-block;margin:-5px;margin-left:20px;margin-right:20px; position: relative;width: 8%; height: auto;}
 
 #unidade .espacamento{margin: 16px;}
+#unidade .espacamentoesquerda3{margin: 0 0 16px 10%;}
+#unidade table{ width: unset;}
 #unidade table,
 #unidade table tr,
 #unidade table td{border: none;}
+#unidade table .vertical-align {vertical-align: middle;}
 #unidade table h5,
 #unidade table p{margin: 0;}
+#unidade .bordered{border: 1px solid #eee;}
+#unidade .borderedfull tr td{border: 1px solid #eee;}
+#unidade .centralizap{margin-top: 30%;}
 .versus{text-align: center; margin: 50% ; background-color: #dddddd; }
 #unidade20understanding56 form {padding-right: 26px;}
 .bordaSilples{border: solid 2px black; position: 16px; width: 55%; padding: 5px;}
-.bordaVerde{border: solid 2px #7dc242; position: 16px; width: 55%; padding: 10px;}
+.bordaVerde{border: solid 2px #7dc242; display: inline-block; padding: 10px;}
+.contentVerde{background-color:#7dc242; display: inline-block; padding: 10px; color: white;}
 .marginCustomizada{margin-bottom: 3px;}
 .tabelaGramar11 {width: 60%;}
+.quadradoVerdeGrande p{background-color: #3bac44; color: black; display: inline-block; padding: 16px; font-size: 80px; width: 240px;} /* (joao) quadrado unidade 17 gramar apostila 2 */
+
+#encostado{ margin: 3px;}
+#unidade table.bordered.direita:not(#encostado){width: 43%;}
+
+#unidade .recuoEsquerda p:not(.center-align){margin-left: 30%;}
+#unidade .recuoEsquerda span, #unidade form p b {color: #7dc242;}
+#unidade .numeradorverde p b {color: #7dc242;}
+
 
 /* #tabelaGramar12 {width: 80%;} */
 
@@ -146,13 +181,14 @@ main .capas li.deactive img{filter: grayscale(1);}
     .metade.direita{float: none;}
     .umterco{float: none;}
     .umterco:nth-child(2){margin: 0;}
+    .quadradoVerdeGrande p{background-color: #3bac44; color: black; display: inline-block; padding: 16px; font-size: 80px; width: 100%;}
 
     nav{left: -100%;}
     nav.active{left: 0;}
     header{width: 100%;}
     main{width: 100%;padding: 6px;}
     main .dashboard h3{font-size: 22px;}
-    main .capas{width: 100%;}
+    main .capas{width: 100%;margin-right: auto;}
     main .capas li{width: 100%;float: none;}
 
     .menu-btn{display: block;}
@@ -167,5 +203,20 @@ main .capas li.deactive img{filter: grayscale(1);}
     #unidade .lista-inline li{flex: initial;text-align: initial;}
 
     #unidade form button{width: 100%;}
+    #unidade table.bordered.direita{width: 100% !important;}
+    #unidade form.espacamento, table{width: 100%; overflow-x: auto !important;}
+
+    #unidade figure.umterco{width: calc(33.333% - 11px) !important;float:left !important; }
+    #unidade figure.umquarto{width: calc(25% - 8px)!important;float:left !important;}
+    #unidade figure.metade{width: calc(50% - 11px) !important;float:left !important; }
+    #unidade figure.umterco img{height: 110px;}
+    #unidade figure.umquarto img{height: 70px;}
+    #unidade figure.metade img{height: 130px;}
+    #unidade iframe.metade{height: 200px;}
+    #unidade figure.metade{margin:5px;}
+    #unidade .caixa{border: 1px solid #333;width: 100%;}
+    #unidade form p .inputMedio{width: 268px;}
+    #unidade .otimizarimagem {width:100%}
+    #unidade .iconex{display: inline-block;margin:-5px;margin-left: 25px; position: relative;width: 25%;}
 
 }

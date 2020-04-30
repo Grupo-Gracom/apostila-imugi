@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/range.css')}}"> -->
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/gleidson.css')}}">
+    <!-- <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style2.css')}}"> -->
     <style type="text/css">
         .cont::-webkit-scrollbar-track {
             background-color: #F4F4F4;

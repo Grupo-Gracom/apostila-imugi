@@ -35,7 +35,7 @@
                 </div>
                 <div class="metade">
                     <div class="clear"></div>
-                    <h5 class="barlow">A - Complete the exercise by putting the verbs in the gerund form</h5>
+                    <h5 class="barlow" style="margin-top: 16px">A - Complete the exercise by putting the verbs in the gerund form</h5>
                     <form id="unidade10grammar31" method="post">
                         <p>1. She likes <input type="text" name="grammar31-1" placeholder="Responda aqui" required> (study) English.</p>
                         <p>2. He loves <input type="text" name="grammar31-2" placeholder="Responda aqui" required> (take) pictures of animals.</p>

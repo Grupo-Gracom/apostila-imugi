@@ -22,7 +22,7 @@
                     <p>My hobby is wildlife photography, <b>but</b> my profession is fashion photography. (contrast)</p>
                     <p>My work is published in magazines and websites, so I need the photos to be perfect. (conclusion)</p>
                 </div>
-				<h5 class="barlow">A - Complete the sentences with the appropriate conjunction. Use "and", "but" or "so".</h5>
+				<h5 class="barlow" style="margin-top: 16px">A - Complete the sentences with the appropriate conjunction. Use "and", "but" or "so".</h5>
 				<form id="unidade3grammar11" method="post">
                     <p>1. Sophia works with teaching <input type="text" name="grammar-11-1" placeholder="Responda aqui" required> photography.</p>
                     <p>2. My photos are published in magazines, <input type="text" name="grammar-11-2" placeholder="Responda aqui" required> they need to be perfect.</p>

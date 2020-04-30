@@ -6,6 +6,7 @@ use App\User;
 use App\Resposta;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\O_Turma;
 
 class HomeController extends Controller
 {
@@ -29,17 +30,55 @@ class HomeController extends Controller
     public function index()
     {
         //$ultimasNoticias = Noticia::orderBy('noticia_id', 'desc')->simplePaginate(10);
-        return view('home/index');
+        if(Auth::check()){
+            $matricula = Auth::user()->id;
+            $aluno = User::find($matricula);
+            return view('home/index',compact('aluno'));
+        }else{
+            return redirect('/');
+        }
     }
 
     public function apostila1Intro()
     {
-        return view('apostila1/intro1/intro');
+        if(Auth::check()){
+            $matricula = Auth::user()->id;
+            $aluno = User::find($matricula);
+    
+            return view('apostila1/intro1/intro',compact('aluno'));
+        }
     }
 
     public function apostila2Intro()
     {
-        return view('apostila2/intro2/intro');
+        $aluno = User::find(request()->user()->matricula);
+
+        return view('apostila2/intro2/intro',compact('aluno'));
+    }
+
+    public function homePortal()
+    {
+        if(Auth::check()){
+            return view('portal/home/index');
+        }else{
+            return redirect('/');
+        }
+    }
+
+    public function site()
+    {
+        return view('site/home/index');
+    }
+
+    public function depoimentos()
+    {
+        return view('site/depoimento/index');
+    }
+    
+    public function materialDidatico(){
+        $matricula = Auth::user()->id;
+        $aluno = User::find($matricula);
+        return view('portal/material/index',compact('aluno'));
     }
 
 }
