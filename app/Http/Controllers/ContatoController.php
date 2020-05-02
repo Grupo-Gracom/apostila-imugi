@@ -2,33 +2,38 @@
 
 namespace App\Http\Controllers;
 
+use App\Unidade;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SendMail;
 use App\Mail\ContatoSite;
 use App\Mail\ContatoFranquia;
-use App\User;
 use Redirect;
 
 class ContatoController extends Controller
 {
-    public function index() {
+    public function index()
+    {
         $id = Auth::user()->id;
         $aluno = User::find($id);
 
         return view('portal.contato.index',compact('aluno'));
     }
 
-    public function siteContato() {
+    public function siteContato()
+    {
         return view('site.contato.index');
     }
 
-    public function franquia() {
+    public function franquia()
+    {
         return view('site.franquia.index');
     }
 
-    public function enviar(Request $request){
+    public function enviar(Request $request)
+    {
         $this->validate($request, [
             'nome'     =>  'required',
             'telefone'  =>  'required',

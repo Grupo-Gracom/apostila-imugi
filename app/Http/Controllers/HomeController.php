@@ -2,15 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Unidade;
 use App\User;
-use App\Resposta;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\O_Turma;
 
 class HomeController extends Controller
 {
-    
+
     protected $usuario;
 
     public function __construct()
@@ -30,22 +30,22 @@ class HomeController extends Controller
     public function index()
     {
         //$ultimasNoticias = Noticia::orderBy('noticia_id', 'desc')->simplePaginate(10);
-        if(Auth::check()){
+        if (Auth::check()) {
             $matricula = Auth::user()->id;
             $aluno = User::find($matricula);
-            return view('home/index',compact('aluno'));
-        }else{
+            return view('home/index', compact('aluno'));
+        } else {
             return redirect('/');
         }
     }
 
     public function apostila1Intro()
     {
-        if(Auth::check()){
+        if (Auth::check()) {
             $matricula = Auth::user()->id;
             $aluno = User::find($matricula);
-    
-            return view('apostila1/intro1/intro',compact('aluno'));
+
+            return view('apostila1/intro1/intro', compact('aluno'));
         }
     }
 
@@ -53,7 +53,7 @@ class HomeController extends Controller
     {
         $aluno = User::find(request()->user()->matricula);
 
-        return view('apostila2/intro2/intro',compact('aluno'));
+        return view('apostila2/intro2/intro', compact('aluno'));
     }
 
     public function homePortal()

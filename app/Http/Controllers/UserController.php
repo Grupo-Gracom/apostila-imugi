@@ -39,7 +39,7 @@ class UserController extends Controller
     public function store(Request $request)
     {
         $data = $request->all();
-        
+
         if($request->has('e_usuario_id')){
             $usuario = User::find($data['e_usuario_id']);
             $usuario->name = $data['e_usuario_nome'];
@@ -50,7 +50,7 @@ class UserController extends Controller
             $usuario->status = $data['e_usuario_status'];
             $usuario->save();
             return "2";
-        }else{    
+        }else{
             $usuario = new User();
             $usuario->name = $data['usuario_nome'];
             $usuario->email = $data['usuario_email'];
@@ -118,9 +118,9 @@ class UserController extends Controller
     );
 
         $validator = Validator::make($request->all(), $rules);
-        
-        
-        
+
+
+
         if ($validator->fails())
         {
             return Redirect::to('/perfil')->withInput()->withErrors($validator);
@@ -132,7 +132,7 @@ class UserController extends Controller
             $usuario->save();
             return back()->with('success','Atualizado com Sucesso!');
         }
-       
+
     }
 
 }
