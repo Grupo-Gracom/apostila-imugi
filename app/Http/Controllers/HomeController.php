@@ -7,10 +7,6 @@ use App\Resposta;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\O_Turma;
-<<<<<<< HEAD
-=======
-use App\Unidade;
->>>>>>> 3e93df142f23f8ae7c33d6e1be8d5bc4d81e9489
 
 class HomeController extends Controller
 {
@@ -62,18 +58,8 @@ class HomeController extends Controller
 
     public function homePortal()
     {
-<<<<<<< HEAD
         if(Auth::check()){
             return view('portal/home/index');
-=======
-
-        if(Auth::check()){
-            $matricula = Auth::user()->matricula;
-            $unidades = Unidade::where('matricula', '=',$matricula)
-            ->select('cod_unidade')
-            ->get('cod_unidade');
-            return view('portal/home/index', compact('unidades'));
->>>>>>> 3e93df142f23f8ae7c33d6e1be8d5bc4d81e9489
         }else{
             return redirect('/');
         }
@@ -90,19 +76,9 @@ class HomeController extends Controller
     }
     
     public function materialDidatico(){
-<<<<<<< HEAD
         $matricula = Auth::user()->id;
         $aluno = User::find($matricula);
         return view('portal/material/index',compact('aluno'));
-=======
-        $id = Auth::user()->id;
-        $matricula = Auth::user()->matricula;
-        $unidades = Unidade::where('matricula', '=',$matricula)
-        ->select('cod_unidade')
-        ->get('cod_unidade');
-        $aluno = User::find($id);
-        return view('portal/material/index',compact('aluno','unidades'));
->>>>>>> 3e93df142f23f8ae7c33d6e1be8d5bc4d81e9489
     }
 
 }

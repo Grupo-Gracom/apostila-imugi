@@ -36,7 +36,7 @@ class FrequenciaController extends Controller
                   'mensagem' => $request->mensagem
               );
       
-           Mail::to('wrodrigues153@gmail.com')->send(new Frequencia($data));
+           Mail::to('smtp@imugi.com.br')->send(new Frequencia($data));
            return back()->with('success', 'Email enviado com sucesso !');
       
           }
