@@ -1,12 +1,11 @@
 <!-- DASHBOARD MENU -->
 <nav class="suave">
     <!-- verificar tipo da unidade e modulo doaluno -->
-    @if($aluno->turma->tipo->tipo_unidade == 0)
-			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
+    @if($aluno->turma->tipo_unidade == 0)
+			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
 		@else
-			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
+			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
 		@endif
-
 
     <div class="logo">
         <a href="{{route('home')}}">
@@ -2104,8 +2103,6 @@
                 <li class="item" data-unidade="intro4">
                     <a href="{{route('apostila4', ['intro4', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRODUCTION</a>
                 </li>
-<<<<<<< HEAD
-=======
                 <!--UNIDADE 1-->
                 <li class="item" data-unidade="unidade1">
                     <a class="click submenu">
@@ -2188,7 +2185,6 @@
                         </li>
                     </ul>
                 </li>
->>>>>>> 3e93df142f23f8ae7c33d6e1be8d5bc4d81e9489
                 <!--UNIDADE 7-->
                 <li class="item" data-unidade="unidade7">
                     <a class="click submenu">
@@ -2227,8 +2223,6 @@
                         </li>
                     </ul>
                 </li>
-<<<<<<< HEAD
-=======
                 <!--UNIDADE 10-->
                 <li class="item" data-unidade="unidade10">
                     <a class="click submenu">
@@ -2253,16 +2247,10 @@
                         </li>
                     </ul>
                 </li>
->>>>>>> 3e93df142f23f8ae7c33d6e1be8d5bc4d81e9489
             </ul>
         </li>
         <!-- APOSTILA GAMES AND ANIMATION -->
         <li class="item apostila-games" data-apostila="apostila5">
-<<<<<<< HEAD
-            <a  href="https://imugi.com.br/portaldoaluno/demo/imugi/cinema4d.html" target="_blank">
-                <i class="material-icons">flag</i> GAMES AND ANIMATION
-            </a>
-=======
             <a class="click submenu">
                 <i class="material-icons">flag</i> GAMES AND ANIMATION
             </a>
@@ -2287,7 +2275,6 @@
                     </ul>
                 </li>
             </ul>
->>>>>>> 3e93df142f23f8ae7c33d6e1be8d5bc4d81e9489
         </li>
         <!-- APOSTILA VIDEO EDITION -->
         <li class="item apostila-video" data-apostila="apostila6">

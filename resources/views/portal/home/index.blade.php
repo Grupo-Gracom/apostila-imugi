@@ -11,11 +11,6 @@
         <div class="carousel slide">
 			<div class="carousel-inner">
 				<div class="item active">
-<<<<<<< HEAD
-					<a href="http://futuronopresente.com.br/cadastro-escola-parceira/" target="_blank">
-					      <img src="{{asset('assets/portal/images/portal_fp.jpg')}}" alt="Portal do Aluno">
-					</a>
-=======
 				    <form method="POST" action="https://www.fpeduc.com/ava/index.php" target="_blank" style="background-color:#fff;">
 						<input type="image" src="{{asset('assets/portal/images/aovivo/aovivo.jpg')}}" alt="Submit" style="width:100%;">
 						<input type="hidden" name="matricula_portal" value="{{ Auth::user()->matricula}}">
@@ -25,7 +20,6 @@
 						<input type="hidden" name="unidade_portal" value="{{ $unidade->cod_unidade}}">
 					    @endforeach
 					</form>
->>>>>>> 3e93df142f23f8ae7c33d6e1be8d5bc4d81e9489
 				</div>
 			</div>
 			<section class="be-section-pad clearfix" style="padding-bottom:60px; padding-top: 60px;  background-color: #ffffff;">

@@ -102,12 +102,10 @@ class UserController extends Controller
     } */
 
     public function edit(){
-        $matricula = Auth::user()->matricula;
-        // $aluno = User::find($matricula);
-
-        $alunos = DB::table('users')->where('matricula', $matricula)->get();
-     
-        return view('portal.editarAluno.index', compact('alunos'));
+        $id = Auth::user()->id;
+        $aluno = User::find($id);
+        
+        return view('portal.editarAluno.index', compact('aluno'));
     }
 
     public function update(Request $request, $id){

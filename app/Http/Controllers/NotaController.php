@@ -11,34 +11,30 @@ class NotaController extends Controller
     {
         $matricula = Auth::user()->matricula;
         $alunos = DB::table('turmas')->where('matricula', $matricula)->get();
-        
-        $nota = DB::table('notas')->where('matricula', $matricula)->get();
-
-        $alunos = DB::table('turmas')->where('matricula', $matricula)->get();
-
         $notaAluno = DB::table('notas')->where('matricula', $matricula)->get();
 
         foreach ($notaAluno as $notaKey => $notaData) {
-            /* dd($notaAluno);  */
+           
 
-            $photoshopPratica = $notaAluno[0]->notas ? $notaAluno[1]->notas : "--";
-            $dominatingTrabalho = $notaAluno[1]->notas ? $notaAluno[1]->notas : "--";
-            $dominatingTeorica = $notaAluno[2]->notas ? $notaAluno[2]->notas : "--";
-            $gamesPratica = $notaAluno[3]->notas ? $notaAluno[3]->notas : "--";
-            $masterTrabalho = $notaAluno[4]->notas ? $notaAluno[4]->notas : "--";
-            $masterTeorica = $notaAluno[5]->notas ? $notaAluno[5]->notas : "--";
-            $videoTeorica = $notaAluno[6]->notas ? $notaAluno[6]->notas : "--";
-            $playTeorica = $notaAluno[7]->notas ? $notaAluno[7]->notas : "--";
-            $photoshopTrabalho = $notaAluno[8]->notas ? $notaAluno[8]->notas : "--";
-            $gamesTrabalho = $notaAluno[9]->notas ? $notaAluno[9]->notas : "--";
-            $playPratica = $notaAluno[10]->notas ? $notaAluno[10]->notas : "--";
-            $playTrabalho = $notaAluno[11]->notas ? $notaAluno[11]->notas : "--";
-            $photoshopTeorica = $notaAluno[12]->notas ? $notaAluno[12]->notas : "--";
-            $dominatingPratica = $notaAluno[13]->notas ? $notaAluno[13]->notas : "--";
-            $gamesTeorica = $notaAluno[14]->notas ? $notaAluno[14]->notas : "--";
-            $masterPratica = $notaAluno[15]->notas ? $notaAluno[15]->notas : "--";
-            $videoPratica = $notaAluno[16]->notas ? $notaAluno[16]->notas : "--";
-            $videoTrabalho = $notaAluno[17]->notas ? $notaAluno[17]->notas : "--";
+            $photoshopPratica = isset($notaAluno[0]->notas) ? $notaAluno[0]->notas : "--";
+            $dominatingTrabalho = isset($notaAluno[1]->notas) ? $notaAluno[1]->notas : "--";
+            
+            $dominatingTeorica = isset($notaAluno[2]->notas) ? $notaAluno[2]->notas : "--";
+            $gamesPratica = isset($notaAluno[3]->notas) ? $notaAluno[3]->notas : "--";
+            $masterTrabalho = isset($notaAluno[4]->notas) ? $notaAluno[4]->notas : "--";
+            $masterTeorica = isset($notaAluno[5]->notas) ? $notaAluno[5]->notas : "--";
+            $videoTeorica = isset($notaAluno[6]->notas) ? $notaAluno[6]->notas : "--";
+            $playTeorica = isset($notaAluno[7]->notas) ? $notaAluno[7]->notas : "--";
+            $photoshopTrabalho = isset($notaAluno[8]->notas) ? $notaAluno[8]->notas : "--";
+            $gamesTrabalho = isset($notaAluno[9]->notas) ? $notaAluno[9]->notas : "--";
+            $playPratica = isset($notaAluno[10]->notas) ? $notaAluno[10]->notas : "--";
+            $playTrabalho = isset($notaAluno[11]->notas) ? $notaAluno[11]->notas : "--";
+            $photoshopTeorica = isset($notaAluno[12]->notas) ? $notaAluno[12]->notas : "--";
+            $dominatingPratica = isset($notaAluno[13]->notas) ? $notaAluno[13]->notas : "--";
+            $gamesTeorica = isset($notaAluno[14]->notas) ? $notaAluno[14]->notas : "--";
+            $masterPratica = isset($notaAluno[15]->notas) ? $notaAluno[15]->notas : "--";
+            $videoPratica = isset($notaAluno[16]->notas) ? $notaAluno[16]->notas : "--";
+            $videoTrabalho = isset($notaAluno[17]->notas) ? $notaAluno[17]->notas : "--";
 
             if (is_numeric($playTeorica) && is_numeric($playPratica) && is_numeric($playTrabalho)) {
                 $playMedia = ($playTeorica + $playPratica + $playTrabalho) / 3;
