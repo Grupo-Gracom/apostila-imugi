@@ -25,9 +25,8 @@
                       <h6 class="text-white"> LOGIN </h6>
                         <div class="form-group row">
                             <div class="col-md-12">
-                                <input id="email" type="email" class="form-control bg-transparent text-white border-color-medium-dark-gray medium-input @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Seu Email">
-
-                                @error('email')
+                                <input id="matricula" type="text" class="form-control bg-transparent text-white border-color-medium-dark-gray medium-input @error('matricula') is-invalid @enderror" name="matricula" value="{{ old('matricula') }}" required autocomplete="matricula" autofocus placeholder="Matrícula">
+                                @error('matricula')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>

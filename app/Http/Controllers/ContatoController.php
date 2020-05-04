@@ -2,37 +2,38 @@
 
 namespace App\Http\Controllers;
 
+use App\Unidade;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
-use App\Unidade;
 use App\Mail\SendMail;
 use App\Mail\ContatoSite;
 use App\Mail\ContatoFranquia;
-use App\User;
 use Redirect;
 
 class ContatoController extends Controller
 {
-    public function index() {
+    public function index()
+    {
         $id = Auth::user()->id;
         $aluno = User::find($id);
-        $matricula = Auth::user()->matricula;
-        $unidades = Unidade::where('matricula', '=',$matricula)
-        ->select('cod_unidade')
-        ->get('cod_unidade');
-        return view('portal.contato.index',compact('aluno','unidades'));
+
+        return view('portal.contato.index',compact('aluno'));
     }
 
-    public function siteContato() {
+    public function siteContato()
+    {
         return view('site.contato.index');
     }
 
-    public function franquia() {
+    public function franquia()
+    {
         return view('site.franquia.index');
     }
 
-    public function enviar(Request $request){
+    public function enviar(Request $request)
+    {
         $this->validate($request, [
             'nome'     =>  'required',
             'telefone'  =>  'required',
@@ -49,14 +50,14 @@ class ContatoController extends Controller
                   'mensagem' =>   $request->mensagem
               );
       
-           Mail::to('wrodrigues153@gmail.com')->send(new SendMail($data));
+           Mail::to('smtp@imugi.com.br')->send(new SendMail($data));
            return back()->with('success', 'Email enviado com sucesso !');
       
     }
         
           public function contatoAluno(Request $request){
             
-            Mail::to('wrodrigues153@gmail.com')->send(new ContatoSite($request));
+            Mail::to('smtp@imugi.com.br')->send(new ContatoSite($request));
 
                $notification = array(
                 'message' => 'Mensagem enviada com sucesso!', 
@@ -81,7 +82,7 @@ class ContatoController extends Controller
                           'telefone'   =>  $request->telefone,
                       );
               
-                   Mail::to('wrodrigues153@gmail.com')->send(new ContatoFranquia($data));
+                   Mail::to('smtp@imugi.com.br')->send(new ContatoFranquia($data));
                    return back()->with('success', 'Email enviado com sucesso !');
             }
     }

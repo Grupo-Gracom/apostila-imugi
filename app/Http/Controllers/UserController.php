@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use DB;
 use App\User;
-use App\Unidade;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -40,7 +39,7 @@ class UserController extends Controller
     public function store(Request $request)
     {
         $data = $request->all();
-        
+
         if($request->has('e_usuario_id')){
             $usuario = User::find($data['e_usuario_id']);
             $usuario->name = $data['e_usuario_nome'];
@@ -51,7 +50,7 @@ class UserController extends Controller
             $usuario->status = $data['e_usuario_status'];
             $usuario->save();
             return "2";
-        }else{    
+        }else{
             $usuario = new User();
             $usuario->name = $data['usuario_nome'];
             $usuario->email = $data['usuario_email'];
@@ -107,10 +106,8 @@ class UserController extends Controller
         // $aluno = User::find($matricula);
 
         $alunos = DB::table('users')->where('matricula', $matricula)->get();
-        $unidades = Unidade::where('matricula', '=',$matricula)
-        ->select('cod_unidade')
-        ->get('cod_unidade');
-        return view('portal.editarAluno.index', compact('alunos','unidades'));
+     
+        return view('portal.editarAluno.index', compact('alunos'));
     }
 
     public function update(Request $request, $id){
@@ -121,9 +118,9 @@ class UserController extends Controller
     );
 
         $validator = Validator::make($request->all(), $rules);
-        
-        
-        
+
+
+
         if ($validator->fails())
         {
             return Redirect::to('/perfil')->withInput()->withErrors($validator);
@@ -135,7 +132,7 @@ class UserController extends Controller
             $usuario->save();
             return back()->with('success','Atualizado com Sucesso!');
         }
-       
+
     }
 
 }
