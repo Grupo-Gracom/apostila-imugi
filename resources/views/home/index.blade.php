@@ -12,10 +12,10 @@
 			<div id="bem-vindo" class="box">
 				<h3 class="barlow">Seu material didático exclusivo!</h3>
 
-				@if($aluno->turma->tipo_unidade == 0)
-					<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
+				@if($aluno->turma->tipo->tipo_unidade == 0)
+					<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
 				@else
-					<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
+					<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
 				@endif
 				<ul class="capas">
 					<!-- PLAYGO -->

@@ -1,11 +1,12 @@
 <!-- DASHBOARD MENU -->
 <nav class="suave">
     <!-- verificar tipo da unidade e modulo doaluno -->
-    @if($aluno->turma->tipo_unidade == 0)
-			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
+    @if($aluno->turma->tipo->tipo_unidade == 0)
+			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
 		@else
-			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
+			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
 		@endif
+
 
     <div class="logo">
         <a href="{{route('home')}}">
