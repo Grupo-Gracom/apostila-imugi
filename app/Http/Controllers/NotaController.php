@@ -94,9 +94,14 @@ class NotaController extends Controller
                     $playMedia, $photoshopMedia, $dominatingMedia, $gamesMedia, $masterMedia, $videoMedia,
                 ],
             ];
+            dd($notas);
         }
+        if(isset($notas)){
+            return view('portal/nota/index', compact('alunos', 'notas'));
+        }else{
 
-        return view('portal/nota/index', compact('alunos', 'notas'));
+        return view('portal/nota/index', compact('alunos'));
+       }
     }
 
 }
