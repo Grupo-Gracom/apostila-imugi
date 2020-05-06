@@ -1,7 +1,7 @@
  <!-- HEADER -->
  <i class="material-icons menu-btn">menu</i>
  <header>
-     <a href="" class="mini-title"><i class="material-icons">arrow_back</i> Voltar</a>
+     <a href="{{url('/portal')}}" class="mini-title"><i class="material-icons">arrow_back</i> Voltar</a>
 </header>
 <!-- /HEADER -->
 <script>

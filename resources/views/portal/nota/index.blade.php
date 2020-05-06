@@ -51,6 +51,7 @@
                                         </tr>
                                 </thead>
 								<tbody>
+								@if(isset($notas))
 								@foreach($notas['prova_teorica'] as $key => $prova_teorica)
 							  
 							  	<tr>
@@ -60,7 +61,15 @@
 									<td> {{$notas['trabalhos'][$key] }}</td>
 									<td> {{$notas['media'][$key] }}</td>
 								</tr>
-								@endforeach
+								@endforeach;
+								@else
+								<tr>
+								  <th colspan="5">
+								   <p class="text-center"> Não Possue Notas </p>
+								   </th>
+								</tr>
+								@endif
+								
 							  </tbody>
 							  
 							</table>

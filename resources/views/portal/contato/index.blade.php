@@ -13,9 +13,7 @@
 						<input type="hidden" name="matricula_portal" value="{{ Auth::user()->matricula}}">
 						<input type="hidden" name="email_portal" value="{{ Auth::user()->email}}">
 						<input type="hidden" name="nome_portal" value="{{ Auth::user()->name}}">
-						@foreach($unidades as $unidade)
-						<input type="hidden" name="unidade_portal" value="{{ $unidade->cod_unidade}}">
-					    @endforeach
+						<input type="hidden" name="unidade_portal" value="{{$aluno->turma->cod_unidade}}">
 					</form>
 					    </div>
 					  </div>

@@ -28,6 +28,6 @@ class ContatoFranquia extends Mailable
      */
     public function build()
     {
-        return $this->from('wrodrigues153@gmail.com')->subject('Contato Franquia - Imugi Tecnologia e Educação')->view('site.email.franquia' )->with('data', $this->data);
+        return $this->from('smtp@imugi.com.br')->subject('Contato Franquia - Imugi Tecnologia e Educação')->view('site.email.franquia' )->with('data', $this->data);
     }
 }

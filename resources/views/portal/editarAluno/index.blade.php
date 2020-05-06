@@ -21,9 +21,8 @@
 						<input type="hidden" name="matricula_portal" value="{{ Auth::user()->matricula}}">
 						<input type="hidden" name="email_portal" value="{{ Auth::user()->email}}">
 						<input type="hidden" name="nome_portal" value="{{ Auth::user()->name}}">
-						@foreach($unidades as $unidade)
-						<input type="hidden" name="unidade_portal" value="{{ $unidade->cod_unidade}}">
-					    @endforeach
+						<input type="hidden" name="unidade_portal" value="{{$aluno->turma->cod_unidade}}">
+						
 					</form>
 					    </div>
 					  </div>
@@ -75,8 +74,7 @@
 														<strong>{{ $message }}</strong>
 												</div>
 												@endif
-												
-													   @foreach($alunos as $aluno)
+											
 												    <form method="post" action="{{url('/atualizar-perfil', $aluno->id)}}">
 														{{csrf_field()}}
 													
@@ -91,7 +89,7 @@
 												    <input type="submit" value="Editar Informações" class="btn_salvar">
 												    <div class="clearfix"></div>
 												    </form>
-													@endforeach
+													
 												</div>
 			                                </div>
 			                            </div>
