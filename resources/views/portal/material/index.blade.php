@@ -39,7 +39,7 @@
 			<div class="carousel slide">
 				<div class="carousel-inner">
 					<div class="item active">
-						<a href="/home" target="_blank" title="clique para acessar seu material didático">
+						<a href="/home" title="clique para acessar seu material didático">
 					    	<img src="{{asset('assets/portal/images/portal.jpg')}}" alt="Portal do Aluno">
 						</a>
 				</div>

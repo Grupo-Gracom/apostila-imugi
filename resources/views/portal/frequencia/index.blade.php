@@ -47,7 +47,7 @@
 						</div>
 						<div class="col-lg-6 mt-50">
 							@foreach($frequencia as $freq)
-							<p class="circle porcentagem-frequencia"><strong> {{$freq->p_presenca}}%</strong></p>
+							<p class="circle porcentagem-frequencia"><strong> {{$freq->per_presenca}}%</strong></p>
 							@endforeach
 						</div>
 					</div>

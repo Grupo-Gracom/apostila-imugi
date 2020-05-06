@@ -14,7 +14,7 @@ class FrequenciaController extends Controller
     {
         $matricula = Auth::user()->matricula;
         $alunos = DB::table('turmas')->where('matricula', $matricula)->get();
-        $frequencia = DB::table('frequencia')->select('per_presenca')->where('codigo', $matricula)->get('per_presenca');
+        $frequencia = DB::table('frequencia')->select('per_presenca')->where('codigo', $matricula)->limit(1)->get('per_presenca');
         return view('portal/frequencia/index', compact('frequencia', 'alunos'));
     }
 
