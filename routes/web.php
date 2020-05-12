@@ -1091,7 +1091,15 @@ Route::get('/apostila3/unidade32/listening/respostasCheck/{atividade_id}', 'Resp
 Route::post('/apostila3/unidade32/understanding/respostas', 'RespostaController@store');
 Route::get('/apostila3/unidade32/understanding/respostasCheck/{atividade_id}', 'RespostaController@check');
 
+/***********************************************************************************************************************************************/
 
+/* ROTAS PARA O CRUD APOSTILA 05 */
+//UNIDADE 1
+
+Route::post('/apostila5/unidade1/atividades/respostas', 'RespostaController@store');
+Route::get('/apostila5/unidade1/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
+
+/***********************************************************************************************************************************************/
 
 //Rotas para o Portal do Aluno
 Route::get('/portal', 'HomeController@homePortal')->name('portal');

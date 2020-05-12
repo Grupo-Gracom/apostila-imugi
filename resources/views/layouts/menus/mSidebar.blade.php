@@ -2260,13 +2260,19 @@
                     <a href="{{route('apostila5', ['intro5', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRODUCTION</a>
                 </li>
                 <!--UNIDADE 1-->
-                <li class="item" data-unidade="unidade5">
+                <li class="item" data-unidade="unidade1">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 1
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade1', 'aula1'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i>Softwares e Hardwares</a>
+                            <a href="{{route('apostila5', ['unidade1', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i>Apresentação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade1', 'sistema_informacao'])}}" data-etapa="sistema_informacao"><i class="material-icons suave">record_voice_over</i>Sistema de Informação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade1', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
                         </li>
                     </ul>
                 </li>

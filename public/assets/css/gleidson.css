@@ -131,6 +131,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade #unidade8listening83 textarea{height: 150px}
 #unidade #joguin1{margin: 0 auto;margin-top: 50px;display: block;}
 #unidade .caixa{border: 1px solid #333;width: 35%;}
+#unidade .caixa2{border: 1px solid #333;width: 100%; margin-top:16px; margin-bottom: 16px;}
 #unidade .manipulaimagem{width:60%;margin-left:20%; margin-top:16px;}
 #unidade .otimizarimagem{width:50%;height:auto}
 #unidade figure.umterco img{height:350px;}
