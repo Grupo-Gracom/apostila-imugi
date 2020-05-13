@@ -2276,6 +2276,74 @@
                         </li>
                     </ul>
                 </li>
+                <!--UNIDADE 2-->
+                <li class="item" data-unidade="unidade2">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 2
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade2', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i>Apresentação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade2', 'sistema_informacao'])}}" data-etapa="sistema_informacao"><i class="material-icons suave">record_voice_over</i>Sistema de Informação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade2', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 3-->
+                <li class="item" data-unidade="unidade3">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 3
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade3', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i>Apresentação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade3', 'sistema_informacao'])}}" data-etapa="sistema_informacao"><i class="material-icons suave">record_voice_over</i>Sistema de Informação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade3', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 4-->
+                <li class="item" data-unidade="unidade4">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 4
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade4', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i>Apresentação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade4', 'sistema_informacao'])}}" data-etapa="sistema_informacao"><i class="material-icons suave">record_voice_over</i>Sistema de Informação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade4', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 5-->
+                <li class="item" data-unidade="unidade5">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 5
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade5', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i>Apresentação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade5', 'sistema_informacao'])}}" data-etapa="sistema_informacao"><i class="material-icons suave">record_voice_over</i>Sistema de Informação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade5', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </li>
         <!-- APOSTILA VIDEO EDITION -->
