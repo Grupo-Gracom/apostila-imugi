@@ -2286,7 +2286,7 @@
                             <a href="{{route('apostila5', ['unidade2', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i>Apresentação</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade2', 'sistema_informacao'])}}" data-etapa="sistema_informacao"><i class="material-icons suave">record_voice_over</i>Sistema de Informação</a>
+                            <a href="{{route('apostila5', ['unidade2', 'mercado_trabalho'])}}" data-etapa="sistema_informacao"><i class="material-icons suave">record_voice_over</i>Mercado de trabalho</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade2', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
