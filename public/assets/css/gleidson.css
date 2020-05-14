@@ -44,6 +44,7 @@ figure.metade{margin: 3px;}
 .container .elemento2 img{width: 80%;}
 .elemento{width: 50%; float: left; transform: translate(15%, 0%);}
 .elemento2{float: left; transform: translate(30%, 0%); width: 25%;}
+.elemento3{float: left; transform: translate(30%, 0%); width: 35%;}
 
 figure{margin: 0;}
 video, img{display: block;}

@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 2 | AULA 1 – Atividades')
+@section('titulo','Unit 2 | Atividades')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -12,7 +12,7 @@
 		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade2" data-etapa="atividades">
 			<h3 class="barlow">UNIT 2</h3>
 			<h5 class="barlow upper">Aula 1 – Atividades</h5>
-                <form id="unidade1atividade800" method="post" class="metade">
+                <form method="post" class="metade">
 					<p>1 - Abra o cinema 4D. 
 						<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true">
 					</p>

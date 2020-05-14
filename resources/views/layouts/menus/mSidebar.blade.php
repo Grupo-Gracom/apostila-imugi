@@ -2300,10 +2300,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade3', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i>Apresentação</a>
+                            <a href="{{route('apostila5', ['unidade3', 'cinema_4D'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i>Cinema 4D</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade3', 'sistema_informacao'])}}" data-etapa="sistema_informacao"><i class="material-icons suave">record_voice_over</i>Sistema de Informação</a>
+                            <a href="{{route('apostila5', ['unidade3', 'navegacao'])}}" data-etapa="sistema_informacao"><i class="material-icons suave">record_voice_over</i>Navegação</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade3', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>

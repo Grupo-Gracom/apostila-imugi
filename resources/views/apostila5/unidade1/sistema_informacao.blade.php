@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 1 | AULA 1 – SISTEMA DE INFORMAÇÃO E SEUS VALORES')
+@section('titulo','Unit 1 | SISTEMA DE INFORMAÇÃO E SEUS VALORES')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
