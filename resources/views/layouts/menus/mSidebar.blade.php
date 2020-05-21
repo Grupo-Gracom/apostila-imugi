@@ -2344,6 +2344,91 @@
                         </li>
                     </ul>
                 </li>
+                <!--UNIDADE 6-->
+                <li class="item" data-unidade="unidade6">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 6
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade6', 'modelagem_basica'])}}" data-etapa="modelagem_basica"><i class="material-icons suave">record_voice_over</i>Modelagem Básica</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade6', 'criando_objetos'])}}" data-etapa="criando_objetos"><i class="material-icons suave">record_voice_over</i>Criando objetos</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade6', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 7-->
+                <li class="item" data-unidade="unidade7">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 7
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade7', 'objetos_edicao'])}}" data-etapa="objetos_edicao"><i class="material-icons suave">record_voice_over</i>Objetos e Edição</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade7', 'model_mode'])}}" data-etapa="model_mode"><i class="material-icons suave">record_voice_over</i>Model Mode</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade7', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 8-->
+                <li class="item" data-unidade="unidade8">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 8
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade8', 'objetos_edicao'])}}" data-etapa="objetos_edicao"><i class="material-icons suave">record_voice_over</i>Objetos e Edição</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade8', 'model_mode'])}}" data-etapa="model_mode"><i class="material-icons suave">record_voice_over</i>Model Mode</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade8', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 9-->
+                <li class="item" data-unidade="unidade9">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 9
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade9', 'objetos_edicao'])}}" data-etapa="objetos_edicao"><i class="material-icons suave">record_voice_over</i>Objetos e Edição</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade9', 'model_mode'])}}" data-etapa="model_mode"><i class="material-icons suave">record_voice_over</i>Model Mode</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade9', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 10-->
+                <li class="item" data-unidade="unidade10">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 10
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade10', 'objetos_edicao'])}}" data-etapa="objetos_edicao"><i class="material-icons suave">record_voice_over</i>Objetos e Edição</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade10', 'model_mode'])}}" data-etapa="model_mode"><i class="material-icons suave">record_voice_over</i>Model Mode</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade10', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </li>
         <!-- APOSTILA VIDEO EDITION -->
