@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 1 | AULA 1 – Atividades')
+@section('titulo','Unit 5 | Atividades')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,35 +9,25 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade1" data-etapa="atividades">
-			<h3 class="barlow">UNIT 1</h3>
+		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade5" data-etapa="atividades">
+			<h3 class="barlow">UNIT 5</h3>
 			<h5 class="barlow upper">Aula 1 – Atividades</h5>
-                <form id="unidade1atividade800" method="post" class="metade">
-					<p>1 - Qual a capacidade de memória Ram do seu computador?
-						<input type="text" name="atividade800-1" class="full left-align" placeholder="Responda aqui" required>
-					</p>
-                    <p>2 - Qual a velocidade do seu sitema operacional?
-						<input type="text" name="atividade800-2" class="full left-align" placeholder="Responda aqui" required> 
-					</p>
-					<p>3 - Qual a capacidade de armazenamento do seu computador?
-						<input type="text" name="atividade800-3" class="full left-align" placeholder="Responda aqui" required>						
-					</p>
-					<p>4 - Qual o seu processador?
-						<input type="text" name="atividade800-4" class="full left-align" placeholder="Responda aqui" required>
-					</p>
-					<p>5 - Quantos bits existem em 1 Giga?
-						<input type="text" name="atividade800-5" class="full left-align" placeholder="Responda aqui" required>
-					</p>
-					<p>6 - Crie uma pasta dentro da pasta imagens com seu nome. É de sua total responsabilidade
-						manter todo seu material organizado, peça ajuda ao seu professor pra realizar essas tarefas.
-						<input type="text" class="full left-align" placeholder="Atividade Prática" required disabled="true">
-					</p>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="800">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+			<form method="post" class="metade">
+				<p>1 -  Crie um cubo e com ele selecionado ative a opção macke editable na barra de ferramentas, 
+					depois selecione a ferramenta face e subdivida uma das
+					superfícies 3 vezes seguidas. 
+					<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true">
+				</p>
+				<p>2 - Crie um novo cubo, ative novamente a ferramenta macke editable e dessa vez faça
+					a subdivisão no objeto inteiro usando os atalhos “U” e em seguida pressione Shift+S,
+					marque a opção smooth.
+					<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true"> 
+				</p>
+				<p>3 - Através das subdivisões tente modelar um objeto do seu cotidiano, pode ser seu celular
+					por exemplo. Atenção aos detalhes, são eles que vão fazer você ter orgulho do trabalho.					
+					<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true">						
+				</p>
+			</form>
         </div>
     </div>
 	    

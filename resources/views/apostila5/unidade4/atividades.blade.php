@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 1 | AULA 1 – Atividades')
+@section('titulo','Unit 4 | Atividades')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,35 +9,25 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade1" data-etapa="atividades">
-			<h3 class="barlow">UNIT 1</h3>
+		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade4" data-etapa="atividades">
+			<h3 class="barlow">UNIT 4</h3>
 			<h5 class="barlow upper">Aula 1 – Atividades</h5>
-                <form id="unidade1atividade800" method="post" class="metade">
-					<p>1 - Qual a capacidade de memória Ram do seu computador?
-						<input type="text" name="atividade800-1" class="full left-align" placeholder="Responda aqui" required>
-					</p>
-                    <p>2 - Qual a velocidade do seu sitema operacional?
-						<input type="text" name="atividade800-2" class="full left-align" placeholder="Responda aqui" required> 
-					</p>
-					<p>3 - Qual a capacidade de armazenamento do seu computador?
-						<input type="text" name="atividade800-3" class="full left-align" placeholder="Responda aqui" required>						
-					</p>
-					<p>4 - Qual o seu processador?
-						<input type="text" name="atividade800-4" class="full left-align" placeholder="Responda aqui" required>
-					</p>
-					<p>5 - Quantos bits existem em 1 Giga?
-						<input type="text" name="atividade800-5" class="full left-align" placeholder="Responda aqui" required>
-					</p>
-					<p>6 - Crie uma pasta dentro da pasta imagens com seu nome. É de sua total responsabilidade
-						manter todo seu material organizado, peça ajuda ao seu professor pra realizar essas tarefas.
-						<input type="text" class="full left-align" placeholder="Atividade Prática" required disabled="true">
-					</p>
-                    <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="800">
-                    <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>
+			<form method="post" class="metade">
+				<p>1 - Crie 5 caixas iguais.
+					<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true">
+				</p>
+				<p>2 - Posicione uma sobre a outra até formar uma torre, use as telas que permitem ver
+					posições específicas do objeto: front, top, left, right e boton, alinhandos todos o máximo possível.
+					<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true"> 
+				</p>
+				<p>3 - Usando as ferramentas de seleção, imprima com precisão uma torção progressiva a
+					partir da base de 20º no eixo “Y”.					
+					<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true">						
+				</p>
+				<p>4 - Imprima uma rotação de 20º no eixo X sucessivamente em todos os objetos.					
+					<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true">						
+				</p>
+			</form>
         </div>
     </div>
 	    

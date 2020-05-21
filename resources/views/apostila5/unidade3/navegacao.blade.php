@@ -9,7 +9,7 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade3" data-etapa="navegação">
+		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade3" data-etapa="navegacao">
 			<h3 class="barlow">UNIT 3</h3>
 			<h5 class="barlow upper">Aula 1 – Navegação</h5>
 			<p>

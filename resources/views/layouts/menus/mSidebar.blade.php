@@ -2300,10 +2300,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade3', 'cinema_4D'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i>Cinema 4D</a>
+                            <a href="{{route('apostila5', ['unidade3', 'cinema_4D'])}}" data-etapa="cinema_4D"><i class="material-icons suave">record_voice_over</i>Cinema 4D</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade3', 'navegacao'])}}" data-etapa="sistema_informacao"><i class="material-icons suave">record_voice_over</i>Navegação</a>
+                            <a href="{{route('apostila5', ['unidade3', 'navegacao'])}}" data-etapa="navegacao"><i class="material-icons suave">record_voice_over</i>Navegação</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade3', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
@@ -2317,10 +2317,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade4', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i>Apresentação</a>
+                            <a href="{{route('apostila5', ['unidade4', 'navegacao'])}}" data-etapa="navegacao"><i class="material-icons suave">record_voice_over</i>Navegação</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade4', 'sistema_informacao'])}}" data-etapa="sistema_informacao"><i class="material-icons suave">record_voice_over</i>Sistema de Informação</a>
+                            <a href="{{route('apostila5', ['unidade4', 'criando_objetos'])}}" data-etapa="criando_objetos"><i class="material-icons suave">record_voice_over</i>Criando Objetos</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade4', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
@@ -2334,10 +2334,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade5', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i>Apresentação</a>
+                            <a href="{{route('apostila5', ['unidade5', 'objetos_edicao'])}}" data-etapa="objetos_edicao"><i class="material-icons suave">record_voice_over</i>Objetos e Edição</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade5', 'sistema_informacao'])}}" data-etapa="sistema_informacao"><i class="material-icons suave">record_voice_over</i>Sistema de Informação</a>
+                            <a href="{{route('apostila5', ['unidade5', 'model_mode'])}}" data-etapa="model_mode"><i class="material-icons suave">record_voice_over</i>Model Mode</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade5', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
