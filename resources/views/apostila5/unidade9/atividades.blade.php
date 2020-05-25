@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 1 | Atividades')
+@section('titulo','Unit 9 | Atividades')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,33 +9,26 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade1" data-etapa="atividades">
-			<h3 class="barlow">UNIT 1</h3>
+		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade9" data-etapa="atividades">
+			<h3 class="barlow">UNIT 9</h3>
 			<h5 class="barlow upper">Aula 1 – Atividades</h5>
-                <form id="unidade1atividade800" method="post" class="metade">
-					<p>1 - Qual a capacidade de memória Ram do seu computador?
-						<input type="text" name="atividade800-1" class="full left-align" placeholder="Responda aqui" required>
+                <form id="unidade9atividade803" method="post" class="metade">
+					<p>1 - O que é perspectiva?
+						<input type="text" name="atividade803-1" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-                    <p>2 - Qual a velocidade do seu sitema operacional?
-						<input type="text" name="atividade800-2" class="full left-align" placeholder="Responda aqui" required> 
+                    <p>2 - Em qual modo de visão do HUD devo fazer a inserção da minha planta baixa?
+						<input type="text" name="atividade803-2" class="full left-align" placeholder="Responda aqui" required> 
 					</p>
-					<p>3 - Qual a capacidade de armazenamento do seu computador?
-						<input type="text" name="atividade800-3" class="full left-align" placeholder="Responda aqui" required>						
+					<p>3 - De que formas podemos realizar cortes na superfície de uma forma?
+						<input type="text" name="atividade803-3" class="full left-align" placeholder="Responda aqui" required>						
 					</p>
-					<p>4 - Qual o seu processador?
-						<input type="text" name="atividade800-4" class="full left-align" placeholder="Responda aqui" required>
-					</p>
-					<p>5 - Quantos bits existem em 1 Giga?
-						<input type="text" name="atividade800-5" class="full left-align" placeholder="Responda aqui" required>
-					</p>
-					<p>6 - Crie uma pasta dentro da pasta imagens com seu nome. É de sua total responsabilidade
-						manter todo seu material organizado, peça ajuda ao seu professor pra realizar essas tarefas.
-						<input type="text" class="full left-align" placeholder="Atividade Prática" required disabled="true">
-					</p>
+					<p>4 - Descreva os passos necessários para tranformar linhas em uma superfície editável?
+						<input type="text" name="atividade803-4" class="full left-align" placeholder="Responda aqui" required>
+					</p>	
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="800">
+                    <input type="hidden" name="atividade_id" value="803">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
         </div>
@@ -51,21 +44,21 @@
         checkAtividade(atividade_id);
     });
 
-	$("#unidade1atividade800").submit(function(e){
+	$("#unidade9atividade803").submit(function(e){
 		e.preventDefault();
 		$(this).find('button').prop('disabled', true);
 		var respostas = '{';
-		$('#unidade1atividade800 input[type="text"]').each(function(index){
-			if(($('#unidade1atividade800 input[type="text"]').length - 1) == index){
+		$('#unidade9atividade803 input[type="text"]').each(function(index){
+			if(($('#unidade9atividade803 input[type="text"]').length - 1) == index){
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
 			}else{
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
 			}
 		});
-		if($('#unidade1atividade800 input[name="resposta_id"').val() != 0){
-			atualizarAtividade($('#unidade1atividade800'), respostas);
+		if($('#unidade9atividade803 input[name="resposta_id"').val() != 0){
+			atualizarAtividade($('#unidade9atividade803'), respostas);
 		}else{
-			enviarAtividade($('#unidade1atividade800'), respostas);
+			enviarAtividade($('#unidade9atividade803'), respostas);
 		}
 	});
 
@@ -85,11 +78,11 @@
 				var chaves = Object.keys(objeto);
 				var respostas = Object.values(objeto);
 				for(j = 0; j < respostas.length; j++){
-					$('#unidade1atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-					$('#unidade1atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+					$('#unidade9atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+					$('#unidade9atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
 				}
-				$('#unidade1atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-				$('#unidade1atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+				$('#unidade9atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+				$('#unidade9atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
 			}
 		});
     }

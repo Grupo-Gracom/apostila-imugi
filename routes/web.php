@@ -1095,9 +1095,21 @@ Route::get('/apostila3/unidade32/understanding/respostasCheck/{atividade_id}', '
 
 /* ROTAS PARA O CRUD APOSTILA 05 */
 //UNIDADE 1
-
 Route::post('/apostila5/unidade1/atividades/respostas', 'RespostaController@store');
 Route::get('/apostila5/unidade1/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
+//UNIDADE 7
+Route::post('/apostila5/unidade7/atividades/respostas', 'RespostaController@store');
+Route::get('/apostila5/unidade7/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
+//UNIDADE 8
+Route::post('/apostila5/unidade8/atividades/respostas', 'RespostaController@store');
+Route::get('/apostila5/unidade8/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
+//UNIDADE 9
+Route::post('/apostila5/unidade9/atividades/respostas', 'RespostaController@store');
+Route::get('/apostila5/unidade9/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
+//UNIDADE 10
+Route::post('/apostila5/unidade10/atividades/respostas', 'RespostaController@store');
+Route::get('/apostila5/unidade10/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
+
 
 /***********************************************************************************************************************************************/
 
