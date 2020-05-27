@@ -1109,6 +1109,9 @@ Route::get('/apostila5/unidade9/atividades/respostasCheck/{atividade_id}', 'Resp
 //UNIDADE 10
 Route::post('/apostila5/unidade10/atividades/respostas', 'RespostaController@store');
 Route::get('/apostila5/unidade10/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
+//UNIDADE 11
+Route::post('/apostila5/unidade11/atividades/respostas', 'RespostaController@store');
+Route::get('/apostila5/unidade11/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
 
 
 /***********************************************************************************************************************************************/
