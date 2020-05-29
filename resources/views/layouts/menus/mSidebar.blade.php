@@ -2438,7 +2438,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade12', 'formas_simetricas'])}}" data-etapa="formas_simetricas"><i class="material-icons suave">record_voice_over</i>Formas Simétricas</a>
+                            <a href="{{route('apostila5', ['unidade12', 'animacao_jogos'])}}" data-etapa="animacao_jogos"><i class="material-icons suave">record_voice_over</i>Animação para jogos</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade12', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
@@ -2452,7 +2452,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade13', 'formas_simetricas'])}}" data-etapa="formas_simetricas"><i class="material-icons suave">record_voice_over</i>Formas Simétricas</a>
+                            <a href="{{route('apostila5', ['unidade13', 'animacao_render'])}}" data-etapa="animacao_render"><i class="material-icons suave">record_voice_over</i>Animação para render</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade13', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
@@ -2466,7 +2466,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade14', 'formas_simetricas'])}}" data-etapa="formas_simetricas"><i class="material-icons suave">record_voice_over</i>Formas Simétricas</a>
+                            <a href="{{route('apostila5', ['unidade14', 'animacao'])}}" data-etapa="animacao"><i class="material-icons suave">record_voice_over</i>Animação</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade14', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
@@ -2480,7 +2480,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade15', 'formas_simetricas'])}}" data-etapa="formas_simetricas"><i class="material-icons suave">record_voice_over</i>Formas Simétricas</a>
+                            <a href="{{route('apostila5', ['unidade15', 'simulacao_materiais'])}}" data-etapa="simulacao_materiais"><i class="material-icons suave">record_voice_over</i>Simulação de materiais</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade15', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>

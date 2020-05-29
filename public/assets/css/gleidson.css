@@ -30,6 +30,7 @@ body{background-color: rgba(125, 194, 66, 0.15);}
 .direita{float: right;}
 .umterco{width: calc(33.333% - 11px);float:left;}
 .umquarto{width: calc(25% - 8px);float:left;}
+.tresquarto{width: calc(68% - 11px);}
 
 figure.umterco{margin: 5px;} /*joao */
 figure.umquarto{margin: 4px;}

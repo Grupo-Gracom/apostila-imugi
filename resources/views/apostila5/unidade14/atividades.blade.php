@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 10 | Atividades')
+@section('titulo','Unit 14 | Atividades')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,29 +9,29 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade10" data-etapa="atividades">
-			<h3 class="barlow">UNIT 10</h3>
-			<h5 class="barlow upper">Aula 10 – Atividades</h5>
-                <form id="unidade10atividade804" method="post" class="metade">
-					<p>1 - Qual a função do joint tool?
-						<input type="text" name="atividade804-1" class="full left-align" placeholder="Responda aqui" required>
+		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade14" data-etapa="atividades">
+			<h3 class="barlow">UNIT 14</h3>
+			<h5 class="barlow upper">Aula 1 – Atividades</h5>
+                <form id="unidade14atividade808" method="post" class="metade">
+					<p>1 - Crie uma pasta e faça o donwload que vai servir de base para seus materiais.
+						<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true">
 					</p>
-                    <p>2 - Descreva os passos que precisa realizar para unir o modelo a estrutura de movimentos?
-						<input type="text" name="atividade804-2" class="full left-align" placeholder="Responda aqui" required> 
+                    <p>2 - Organize suas pastas separando objetos e materiais, para facilitar suas edições futuras.
+						<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true">
 					</p>
-					<p>3 - Como fazer para aplicar um movimento ao mesh depois do esqueleto atribuído?
-						<input type="text" name="atividade804-3" class="full left-align" placeholder="Responda aqui" required>						
+					<p>3 - Qual a diferença entre material e textura?
+						<input type="text" name="atividade808-3" class="full left-align" placeholder="Responda aqui" required>						
 					</p>
-					<p>4 - Qual o comando necessário para realizar a inserção dos ossos?
-						<input type="text" name="atividade804-4" class="full left-align" placeholder="Responda aqui" required>
+					<p>4 - Como eu faço para aplicar uma textura no objeto da minha área de edição?
+						<input type="text" name="atividade808-4" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-					<p>5 -  Posso usar esse recurso para articular objetos separados ou que não pertencem ao mesmo mesh?						
-						<input type="text" name="atividade804-5" class="full left-align" placeholder="Responda aqui" required>
+					<p>5 - Eu posso alterar as configurações de uma textura já realizada?						
+						<input type="text" name="atividade808-5" class="full left-align" placeholder="Responda aqui" required>
 					</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="804">
+                    <input type="hidden" name="atividade_id" value="808">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
         </div>
@@ -47,21 +47,21 @@
         checkAtividade(atividade_id);
     });
 
-	$("#unidade10atividade804").submit(function(e){
+	$("#unidade14atividade808").submit(function(e){
 		e.preventDefault();
 		$(this).find('button').prop('disabled', true);
 		var respostas = '{';
-		$('#unidade10atividade804 input[type="text"]').each(function(index){
-			if(($('#unidade10atividade804 input[type="text"]').length - 1) == index){
+		$('#unidade14atividade808 input[type="text"]').each(function(index){
+			if(($('#unidade14atividade808 input[type="text"]').length - 1) == index){
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
 			}else{
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
 			}
 		});
-		if($('#unidade10atividade804 input[name="resposta_id"').val() != 0){
-			atualizarAtividade($('#unidade10atividade804'), respostas);
+		if($('#unidade14atividade808 input[name="resposta_id"').val() != 0){
+			atualizarAtividade($('#unidade14atividade808'), respostas);
 		}else{
-			enviarAtividade($('#unidade10atividade804'), respostas);
+			enviarAtividade($('#unidade14atividade808'), respostas);
 		}
 	});
 
@@ -81,11 +81,11 @@
 				var chaves = Object.keys(objeto);
 				var respostas = Object.values(objeto);
 				for(j = 0; j < respostas.length; j++){
-					$('#unidade10atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-					$('#unidade10atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+					$('#unidade14atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+					$('#unidade14atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
 				}
-				$('#unidade10atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-				$('#unidade10atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+				$('#unidade14atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+				$('#unidade14atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
 			}
 		});
     }

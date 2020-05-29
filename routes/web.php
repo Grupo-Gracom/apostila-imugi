@@ -1112,6 +1112,18 @@ Route::get('/apostila5/unidade10/atividades/respostasCheck/{atividade_id}', 'Res
 //UNIDADE 11
 Route::post('/apostila5/unidade11/atividades/respostas', 'RespostaController@store');
 Route::get('/apostila5/unidade11/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
+//UNIDADE 12
+Route::post('/apostila5/unidade12/atividades/respostas', 'RespostaController@store');
+Route::get('/apostila5/unidade12/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
+//UNIDADE 13
+Route::post('/apostila5/unidade13/atividades/respostas', 'RespostaController@store');
+Route::get('/apostila5/unidade13/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
+//UNIDADE 14
+Route::post('/apostila5/unidade14/atividades/respostas', 'RespostaController@store');
+Route::get('/apostila5/unidade14/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
+//UNIDADE 15
+Route::post('/apostila5/unidade15/atividades/respostas', 'RespostaController@store');
+Route::get('/apostila5/unidade15/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
 
 
 /***********************************************************************************************************************************************/
