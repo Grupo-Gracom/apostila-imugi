@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 15 | Atividades')
+@section('titulo','Unit 19 | Atividades')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,39 +9,37 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade15" data-etapa="atividades">
-			<h3 class="barlow">UNIT 15</h3>
+		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade19" data-etapa="atividades">
+			<h3 class="barlow">UNIT 19</h3>
 			<h5 class="barlow upper">Aula 1 – Atividades</h5>
-                <form id="unidade15atividade809" method="post" class="metade">
-					<p>1 - O render realiza melhor o processo de renderização com menos opções de effects?
-						<input type="text" name="atividade809-1" class="full left-align" placeholder="Responda aqui" required>
+                <form id="unidade19atividade813" method="post" class="metade">
+					<p>1 - Como se chama o recurso de usar um vídeo e lhe sobrepor uma animação?
+						<input type="text" name="atividade813-1" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-                    <p>2 - Quais são os formatos de tela que eu posso configurar para ter uma renderização em HD?
-						<input type="text" name="atividade809-2" class="full left-align" placeholder="Responda aqui" required> 
+                    <p>2 - Posso inserir uma exibição de vídeo sem usar textura? Explique.
+						<input type="text" name="atividade813-2" class="full left-align" placeholder="Responda aqui" required> 
 					</p>
-					<p>3 - Qual a função do modificador bump na janela material editor?
-						<input type="text" name="atividade809-3" class="full left-align" placeholder="Responda aqui" required>						
+					<p>3 - Qual é a taxa de quadros usada no cinema?
+						<input type="text" name="atividade813-3" class="full left-align" placeholder="Responda aqui" required>						
 					</p>
-					<p>4 - Aplicar beckmann faz meu objeto se tornar transparente? Descreva o processo.
-						<input type="text" name="atividade809-4" class="full left-align" placeholder="Responda aqui" required>
+					<p>4 - Posso usar a mesma taxa de quadros pro cinema e para animação? Por que?
+						<input type="text" name="atividade813-4" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-					<p>5 - Por que o vidro tem um comportamento diferente de outros objetos translúcidos?						
-						<input type="text" name="atividade809-5" class="full left-align" placeholder="Responda aqui" required>
+					<p>5 - Para criar nosso vídeo, como foi feito o arquivo com todas as imagens?						
+						<input type="text" name="atividade813-5" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-					<p>6 - Como se chama a distorção causada pela luz por meio aquoso?						
-						<input type="text" name="atividade809-6" class="full left-align" placeholder="Responda aqui" required>
-					</p>
-					<p>7 - Como se chama o tipo de plástico que imita o vidro?						
-						<input type="text" name="atividade809-7" class="full left-align" placeholder="Responda aqui" required>
+					<p>6 - Como se chama o recurso onde eu uso mais de um programa para obter meu resultado?						
+						<input type="text" name="atividade813-6" class="full left-align" placeholder="Responda aqui" required>
 					</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="809">
+                    <input type="hidden" name="atividade_id" value="813">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
         </div>
     </div>
+	    
 </main>
 
 <script>
@@ -52,21 +50,21 @@
         checkAtividade(atividade_id);
     });
 
-	$("#unidade15atividade809").submit(function(e){
+	$("#unidade19atividade813").submit(function(e){
 		e.preventDefault();
 		$(this).find('button').prop('disabled', true);
 		var respostas = '{';
-		$('#unidade15atividade809 input[type="text"]').each(function(index){
-			if(($('#unidade15atividade809 input[type="text"]').length - 1) == index){
+		$('#unidade19atividade813 input[type="text"]').each(function(index){
+			if(($('#unidade19atividade813 input[type="text"]').length - 1) == index){
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
 			}else{
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
 			}
 		});
-		if($('#unidade15atividade809 input[name="resposta_id"').val() != 0){
-			atualizarAtividade($('#unidade15atividade809'), respostas);
+		if($('#unidade19atividade813 input[name="resposta_id"').val() != 0){
+			atualizarAtividade($('#unidade19atividade813'), respostas);
 		}else{
-			enviarAtividade($('#unidade15atividade809'), respostas);
+			enviarAtividade($('#unidade19atividade813'), respostas);
 		}
 	});
 
@@ -86,11 +84,11 @@
 				var chaves = Object.keys(objeto);
 				var respostas = Object.values(objeto);
 				for(j = 0; j < respostas.length; j++){
-					$('#unidade15atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-					$('#unidade15atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+					$('#unidade19atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+					$('#unidade19atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
 				}
-				$('#unidade15atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-				$('#unidade15atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+				$('#unidade19atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+				$('#unidade19atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
 			}
 		});
     }

@@ -2487,6 +2487,76 @@
                         </li>
                     </ul>
                 </li>
+                <!--UNIDADE 16-->
+                <li class="item" data-unidade="unidade16">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 16
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade16', 'animacao_engine'])}}" data-etapa="animacao_engine"><i class="material-icons suave">record_voice_over</i>Animação engine</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade16', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 17-->
+                <li class="item" data-unidade="unidade17">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 17
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade17', 'animacao_engineReativos'])}}" data-etapa="animacao_engineReativos"><i class="material-icons suave">record_voice_over</i>Animação engine Reativos</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade17', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 18-->
+                <li class="item" data-unidade="unidade18">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 18
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade18', 'renderizacao'])}}" data-etapa="renderizacao"><i class="material-icons suave">record_voice_over</i>Renderização</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade18', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 19-->
+                <li class="item" data-unidade="unidade19">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 19
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade19', 'renderizacao_propriedades'])}}" data-etapa="renderizacao_propriedades"><i class="material-icons suave">record_voice_over</i>Renderização Propriedades</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade19', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 20-->
+                <li class="item" data-unidade="unidade20">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 20
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade20', 'iluminacao'])}}" data-etapa="iluminacao"><i class="material-icons suave">record_voice_over</i>Iluminação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade20', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </li>
         <!-- APOSTILA VIDEO EDITION -->
