@@ -1147,7 +1147,7 @@ Route::post('/apostila5/unidade22/atividades/respostas', 'RespostaController@sto
 Route::get('/apostila5/unidade22/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
 //UNIDADE 23
 Route::post('/apostila5/unidade23/atividades/respostas', 'RespostaController@store');
-Route::get('/apostila5/unidade24/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
+Route::get('/apostila5/unidade23/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');
 //UNIDADE 24
 Route::post('/apostila5/unidade24/atividades/respostas', 'RespostaController@store');
 Route::get('/apostila5/unidade24/atividades/respostasCheck/{atividade_id}', 'RespostaController@check');

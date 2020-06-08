@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 20 | Atividades')
+@section('titulo','Unit 22 | Atividades')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,32 +9,30 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade20" data-etapa="atividades">
-			<h3 class="barlow">UNIT 20</h3>
+		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade22" data-etapa="atividades">
+			<h3 class="barlow">UNIT 22</h3>
 			<h5 class="barlow upper">Aula 1 – Atividades</h5>
-                <form id="unidade20atividade814" method="post" class="metade">
-					<p>1 - Qual o comportamento do ponto de luz spot light?
-						<input type="text" name="atividade814-1" class="full left-align" placeholder="Responda aqui" required>
+                <form id="unidade22atividade816" method="post" class="metade">
+					<p>1 - A regra principal para camera ativa é que ela não esteja parada?
+						<input type="text" name="atividade816-1" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-                    <p>2 - Quais efeitos devo habilitar no painel configurações para ter um melhor resultado dos meus
-						pontos emissores de luz?
-						<input type="text" name="atividade814-2" class="full left-align" placeholder="Responda aqui" required> 
+                    <p>2 - O que define uma camera ativa?
+						<input type="text" name="atividade816-2" class="full left-align" placeholder="Responda aqui" required> 
 					</p>
-					<p>3 - Como pode ser feito emissão de luz sem o uso de um dos pontos de luz padrão do programa?
-						<input type="text" name="atividade814-3" class="full left-align" placeholder="Responda aqui" required>						
+					<p>3 - Eu posso usar uma camera ativa em motion track? Por que?
+						<input type="text" name="atividade816-3" class="full left-align" placeholder="Responda aqui" required>						
 					</p>
-					<p>4 - Posso usar um material com uma textura luminescente, mas onde eu configuro isso?
-						<input type="text" name="atividade814-4" class="full left-align" placeholder="Responda aqui" required>
+					<p>4 - Como eu devo fazer para criar uma navegação de camera livre?
+						<input type="text" name="atividade816-4" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-					<p>5 - Crie diversos pontos de iluminação diferentes e renderize objetos texturizados com diferentes
-						tipos de material, use essas imagens para fazer um vídeo usando os recursos de projeção em
-						background.
-						<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true"> 
+					<p>5 - Uma camera que segue um objeto presa a ele sem executar movimentos é ativa ou
+						estática? Por que?						
+						<input type="text" name="atividade816-5" class="full left-align" placeholder="Responda aqui" required>
 					</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="814">
+                    <input type="hidden" name="atividade_id" value="816">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
         </div>
@@ -50,21 +48,21 @@
         checkAtividade(atividade_id);
     });
 
-	$("#unidade20atividade814").submit(function(e){
+	$("#unidade22atividade816").submit(function(e){
 		e.preventDefault();
 		$(this).find('button').prop('disabled', true);
 		var respostas = '{';
-		$('#unidade20atividade814 input[type="text"]').each(function(index){
-			if(($('#unidade20atividade814 input[type="text"]').length - 1) == index){
+		$('#unidade22atividade816 input[type="text"]').each(function(index){
+			if(($('#unidade22atividade816 input[type="text"]').length - 1) == index){
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
 			}else{
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
 			}
 		});
-		if($('#unidade20atividade814 input[name="resposta_id"').val() != 0){
-			atualizarAtividade($('#unidade20atividade814'), respostas);
+		if($('#unidade22atividade816 input[name="resposta_id"').val() != 0){
+			atualizarAtividade($('#unidade22atividade816'), respostas);
 		}else{
-			enviarAtividade($('#unidade20atividade814'), respostas);
+			enviarAtividade($('#unidade22atividade816'), respostas);
 		}
 	});
 
@@ -84,11 +82,11 @@
 				var chaves = Object.keys(objeto);
 				var respostas = Object.values(objeto);
 				for(j = 0; j < respostas.length; j++){
-					$('#unidade20atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-					$('#unidade20atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+					$('#unidade22atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+					$('#unidade22atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
 				}
-				$('#unidade20atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-				$('#unidade20atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+				$('#unidade22atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+				$('#unidade22atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
 			}
 		});
     }

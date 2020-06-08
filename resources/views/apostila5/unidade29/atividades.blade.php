@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 21 | Atividades')
+@section('titulo','Unit 20 | Atividades')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,29 +9,32 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade21" data-etapa="atividades">
-			<h3 class="barlow">UNIT 21</h3>
+		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade20" data-etapa="atividades">
+			<h3 class="barlow">UNIT 20</h3>
 			<h5 class="barlow upper">Aula 1 – Atividades</h5>
-                <form id="unidade21atividade815" method="post" class="metade">
-					<p>1 - O que é motion track?
-						<input type="text" name="atividade815-1" class="full left-align" placeholder="Responda aqui" required>
+                <form id="unidade20atividade814" method="post" class="metade">
+					<p>1 - Qual o comportamento do ponto de luz spot light?
+						<input type="text" name="atividade814-1" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-                    <p>2 - O que faz o recurso full solver?
-						<input type="text" name="atividade815-2" class="full left-align" placeholder="Responda aqui" required> 
+                    <p>2 - Quais efeitos devo habilitar no painel configurações para ter um melhor resultado dos meus
+						pontos emissores de luz?
+						<input type="text" name="atividade814-2" class="full left-align" placeholder="Responda aqui" required> 
 					</p>
-					<p>3 - Como o programa reconhece os pontos de folga no vídeo inserido?
-						<input type="text" name="atividade815-3" class="full left-align" placeholder="Responda aqui" required>						
+					<p>3 - Como pode ser feito emissão de luz sem o uso de um dos pontos de luz padrão do programa?
+						<input type="text" name="atividade814-3" class="full left-align" placeholder="Responda aqui" required>						
 					</p>
-					<p>4 - Qual processo deve ser realizado no vídeo antes de usá-lo como motion track?
-						<input type="text" name="atividade815-4" class="full left-align" placeholder="Responda aqui" required>
+					<p>4 - Posso usar um material com uma textura luminescente, mas onde eu configuro isso?
+						<input type="text" name="atividade814-4" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-					<p>5 - Liste os programas podem ser usados para separar todos os quadros de um vídeo?
-						<input type="text" name="atividade815-5" class="full left-align" placeholder="Responda aqui" required>
+					<p>5 - Crie diversos pontos de iluminação diferentes e renderize objetos texturizados com diferentes
+						tipos de material, use essas imagens para fazer um vídeo usando os recursos de projeção em
+						background.
+						<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true"> 
 					</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="1">
-                    <input type="hidden" name="atividade_id" value="815">
+                    <input type="hidden" name="atividade_id" value="814">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
         </div>
@@ -47,21 +50,21 @@
         checkAtividade(atividade_id);
     });
 
-	$("#unidade21atividade815").submit(function(e){
+	$("#unidade20atividade814").submit(function(e){
 		e.preventDefault();
 		$(this).find('button').prop('disabled', true);
 		var respostas = '{';
-		$('#unidade21atividade815 input[type="text"]').each(function(index){
-			if(($('#unidade21atividade815 input[type="text"]').length - 1) == index){
+		$('#unidade20atividade814 input[type="text"]').each(function(index){
+			if(($('#unidade20atividade814 input[type="text"]').length - 1) == index){
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
 			}else{
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
 			}
 		});
-		if($('#unidade21atividade815 input[name="resposta_id"').val() != 0){
-			atualizarAtividade($('#unidade21atividade815'), respostas);
+		if($('#unidade20atividade814 input[name="resposta_id"').val() != 0){
+			atualizarAtividade($('#unidade20atividade814'), respostas);
 		}else{
-			enviarAtividade($('#unidade21atividade815'), respostas);
+			enviarAtividade($('#unidade20atividade814'), respostas);
 		}
 	});
 
@@ -81,11 +84,11 @@
 				var chaves = Object.keys(objeto);
 				var respostas = Object.values(objeto);
 				for(j = 0; j < respostas.length; j++){
-					$('#unidade21atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-					$('#unidade21atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+					$('#unidade20atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+					$('#unidade20atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
 				}
-				$('#unidade21atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-				$('#unidade21atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+				$('#unidade20atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+				$('#unidade20atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
 			}
 		});
     }
