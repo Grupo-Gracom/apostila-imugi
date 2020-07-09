@@ -32,7 +32,7 @@ class HomeController extends Controller
         if (Auth::check()) {
             $matricula = Auth::user()->id;
             $aluno = User::find($matricula);
-            return view('home/index', compact('aluno'));
+            return view('portal/home/index', compact('aluno'));
         } else {
             return redirect('/');
         }
@@ -61,7 +61,6 @@ class HomeController extends Controller
         if (Auth::check()) {
             $id = Auth::user()->id;
             $matricula = Auth::user()->matricula;
-            $id = Auth::user()->id;
             $aluno = User::find($id);
             $unidades = Unidade::where('matricula', '=', $matricula)
                 ->select('cod_unidade')

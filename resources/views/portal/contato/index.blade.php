@@ -5,13 +5,19 @@
 <div id="main-wrapper">
 	<div id="main" class="ajaxable layout-wide">
         @include('layouts.portal.header')
-		<div class="carousel-inner">
-				<div class="item active">
-					<form method="GET" action="http://fpeduc.com/aluno-portal/{{ Auth::user()->name}}/{{ Auth::user()->email}}/{{ Auth::user()->matricula}}/@foreach($unidades as $unidade){{ $unidade->cod_unidade}}@endforeach" target="_blank" style="background-color:#fff; margin-top:-20px;">
+		@if($aluno->turma == "")
+		<div class="alert alert-warning" style="margin:0!important;">
+            <strong>Atenção!</strong> Para acesso completo ao portal aguarde o prazo de até 48h.
+        </div>
+        @endif
+		<div class="carousel slide">
+					  <div class="carousel-inner">
+					    <div class="item active">
+						<form method="GET" action="http://fpeduc.com/aluno-portal/{{ Auth::user()->name}}/{{ Auth::user()->email}}/{{ Auth::user()->matricula}}/@if($aluno->turma){{$aluno->turma->cod_unidade}}@else 0 @endif" target="_blank" style="background-color:#fff; margin-top:-20px;">
 						<input type="image" src="{{asset('assets/portal/images/aovivo/aovivo.jpg')}}" alt="Submit" style="width:100%;">
 					</form>
-				</div>
-			</div>
+					    </div>
+					  </div>
 
 		<!-- END HEADER -->
 

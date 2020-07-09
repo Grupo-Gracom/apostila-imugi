@@ -7,15 +7,18 @@ use DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
+use App\User;
 
 class FrequenciaController extends Controller
 {
     public function index()
     {
         $matricula = Auth::user()->matricula;
+        $id = Auth::user()->id;
+        $aluno = User::find($id);
         $alunos = DB::table('turmas')->where('matricula', $matricula)->get();
         $frequencia = DB::table('frequencia')->select('per_presenca')->where('codigo', $matricula)->limit(1)->get('per_presenca');
-        return view('portal/frequencia/index', compact('frequencia', 'alunos'));
+        return view('portal/frequencia/index', compact('frequencia', 'alunos','aluno'));
     }
 
     public function enviar(Request $request)

@@ -5,18 +5,16 @@
 <div id="main-wrapper">
 	<div id="main" class="ajaxable layout-wide">
 		@include('layouts.portal.header')
-		
+		@if($aluno->turma == "")
+		<div class="alert alert-warning" style="margin:0!important;">
+            <strong>Atenção!</strong> Para acesso completo ao portal aguarde o prazo de até 48h.
+        </div>
+        @endif
 		<div class="carousel slide">
 			<div class="carousel-inner">
 				<div class="item active">
-				<form method="POST" action="https://www.fpeduc.com/ava/index.php" target="_blank" style="background-color:#fff;">
+				<form method="GET" action="http://fpeduc.com/aluno-portal/{{ Auth::user()->name}}/{{ Auth::user()->email}}/{{ Auth::user()->matricula}}/@if($aluno->turma){{$aluno->turma->cod_unidade}}@else 0 @endif" target="_blank" style="background-color:#fff; margin-top:-20px;">
 						<input type="image" src="{{asset('assets/portal/images/aovivo/aovivo.jpg')}}" alt="Submit" style="width:100%;">
-						<input type="hidden" name="matricula_portal" value="{{ Auth::user()->matricula}}">
-						<input type="hidden" name="email_portal" value="{{ Auth::user()->email}}">
-						<input type="hidden" name="nome_portal" value="{{ Auth::user()->name}}">
-						@foreach($alunos as $aluno)
-						<input type="hidden" name="unidade_portal" value="{{ $aluno->cod_unidade}}">
-					    @endforeach
 					</form>
 				</div>
 			</div>

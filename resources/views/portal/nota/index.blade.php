@@ -13,14 +13,8 @@
 		<div  class="carousel slide">
 			<div class="carousel-inner">
 				<div class="item active">
-				    <form method="POST" action="https://www.fpeduc.com/ava/index.php" target="_blank" style="background-color:#fff;">
+				<form method="GET" action="http://fpeduc.com/aluno-portal/{{ Auth::user()->name}}/{{ Auth::user()->email}}/{{ Auth::user()->matricula}}/@foreach($alunos as $aluno){{ $aluno->cod_unidade}}@endforeach" target="_blank" style="background-color:#fff; margin-top:-20px;">
 						<input type="image" src="{{asset('assets/portal/images/aovivo/aovivo.jpg')}}" alt="Submit" style="width:100%;">
-						<input type="hidden" name="matricula_portal" value="{{ Auth::user()->matricula}}">
-						<input type="hidden" name="email_portal" value="{{ Auth::user()->email}}">
-						<input type="hidden" name="nome_portal" value="{{ Auth::user()->name}}">
-						@foreach($alunos as $aluno)
-						<input type="hidden" name="unidade_portal" value="{{ $aluno->cod_unidade}}">
-					    @endforeach
 					</form>
 				</div>
 			</div>
@@ -33,12 +27,16 @@
 			    <div class="be-section-pad clearfix" style="padding-top:10px;padding-bottom:40px; background-color: #ffffff;">
                		<div class="be-row be-wrap clear">
  					    <div class="col-md-6" style="margin-top: 90px;">
+						 @if(sizeOf($alunos) > 0)
 						 @foreach($alunos as $aluno)
  							<h3><strong> Aluno(a): {{$aluno->nome}} </strong></h3>
 							<h3><strong> Nome da Turma: {{$aluno->turma}} </h3>
 							<h3><strong> Matricula: {{$aluno->matricula}} </h3>
 							<h3><strong> Módulo: {{$aluno->curso}} </h3>
 						@endforeach
+						@else
+						  Suas infomações estão sendo processadas
+						@endif
 						</div>
 					</div>
 				</div>
