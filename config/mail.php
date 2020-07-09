@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'wrodrigues153@gmail.com', 'name' => 'Willamis Rodrigues'],//default :'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'smtp@imugi.com.br', 'name' => 'Imugi Tecnologia e Educacao'],//default :'from' => ['address' => null, 'name' => null],
 
     /*
     |--------------------------------------------------------------------------

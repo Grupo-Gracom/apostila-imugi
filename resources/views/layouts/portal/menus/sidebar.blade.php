@@ -11,12 +11,14 @@
                         <span class="century left font-14"> HOME</span>
                     </a>
                 </li>
+                @if($aluno->turma != "")
                 <li class="@if(Route::current()->getName() == 'material') active @endif">
                     <a href="/material">
                         <i class="icon_book font-16"></i>
                         <span class="century left font-14"> MATERIAL DIDÁTICO</span>
                     </a>
                 </li>
+                @endif
                 <li class="@if(Route::current()->getName() == 'nota') active @endif">
                     <a href="/nota">
                         <i class="icon-desktop font-16"></i>
@@ -41,12 +43,14 @@
                         <span class="century left font-14"> CONTATO</span>
                     </a>
                 </li>
+                @if($aluno->turma != "")
                 <li class="@if(Route::current()->getName() == 'perfil') active @endif">
                     <a href='/perfil'>
                         <i class="icon icon_cog font-16"></i>
                         <span class="century left font-14"> CONFIGURACÕES</span>
                     </a>
                 </li>
+                @endif
                 
             </ul>
         </nav>

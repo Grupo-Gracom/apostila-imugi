@@ -5,6 +5,11 @@
 <div id="main-wrapper">
 	<div id="main" class="ajaxable layout-wide">
     @include('layouts.portal.header')
+	@if($aluno->turma == "")
+		<div class="alert alert-warning" style="margin:0!important;">
+    <strong>Atenção!</strong> Para acesso completo ao portal aguarde o prazo de até 48h.
+  </div>
+  @endif
 		<div  class="carousel slide">
 			<div class="carousel-inner">
 				<div class="item active">

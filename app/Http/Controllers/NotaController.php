@@ -4,12 +4,15 @@ namespace App\Http\Controllers;
 
 use DB;
 use Illuminate\Support\Facades\Auth;
+use App\User;
 
 class NotaController extends Controller
 {
     public function index()
     {
+        $id = Auth::user()->id;
         $matricula = Auth::user()->matricula;
+        $aluno = User::find($id);
         $alunos = DB::table('turmas')->where('matricula', $matricula)->get();
         $notaAluno = DB::table('notas')->where('matricula', $matricula)->get();
 
@@ -94,13 +97,12 @@ class NotaController extends Controller
                     $playMedia, $photoshopMedia, $dominatingMedia, $gamesMedia, $masterMedia, $videoMedia,
                 ],
             ];
-            dd($notas);
         }
         if(isset($notas)){
-            return view('portal/nota/index', compact('alunos', 'notas'));
+            return view('portal/nota/index', compact('alunos', 'notas','aluno'));
         }else{
 
-        return view('portal/nota/index', compact('alunos'));
+        return view('portal/nota/index', compact('alunos','aluno'));
        }
     }
 

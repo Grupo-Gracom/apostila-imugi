@@ -5,18 +5,13 @@
 <div id="main-wrapper">
 	<div id="main" class="ajaxable layout-wide">
         @include('layouts.portal.header')
-		<div class="carousel slide">
-					  <div class="carousel-inner">
-					    <div class="item active">
-						<form method="POST" action="https://www.fpeduc.com/ava/index.php" target="_blank" style="background-color:#fff;">
+		<div class="carousel-inner">
+				<div class="item active">
+					<form method="GET" action="http://fpeduc.com/aluno-portal/{{ Auth::user()->name}}/{{ Auth::user()->email}}/{{ Auth::user()->matricula}}/@foreach($unidades as $unidade){{ $unidade->cod_unidade}}@endforeach" target="_blank" style="background-color:#fff; margin-top:-20px;">
 						<input type="image" src="{{asset('assets/portal/images/aovivo/aovivo.jpg')}}" alt="Submit" style="width:100%;">
-						<input type="hidden" name="matricula_portal" value="{{ Auth::user()->matricula}}">
-						<input type="hidden" name="email_portal" value="{{ Auth::user()->email}}">
-						<input type="hidden" name="nome_portal" value="{{ Auth::user()->name}}">
-						<input type="hidden" name="unidade_portal" value="{{$aluno->turma->cod_unidade}}">
 					</form>
-					    </div>
-					  </div>
+				</div>
+			</div>
 
 		<!-- END HEADER -->
 

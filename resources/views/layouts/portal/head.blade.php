@@ -21,5 +21,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<script type='text/javascript' src="{{asset('assets/portal/js/jquery.js')}}"></script>
 	<script type='text/javascript' src="{{asset('assets/portal/js/jquery-migrate.min.js')}}"></script>
+	
 </head>
 <body class="left-header" >

@@ -22,11 +22,13 @@
                             <li class="active">
                                 <a href="/portal">Home</a>
                             </li>
+							@if($aluno->turma != "")
                             <li class="menu-item">
                                 <a href="/material">
                                     Material Didático
                                 </a>
                             </li>
+							@endif
                             <li class="menu-item">
                                 <a href="/nota">
                                     Notas
@@ -47,11 +49,13 @@
                                     Contato
                                 </a>
                             </li>
+							@if($aluno->turma != "")
                             <li class="menu-item">
                                 <a href="/perfil">
                                     Configuração
                                 </a>
                             </li>
+							@endif
                         </ul>
                     </div>
 				</nav>
@@ -63,10 +67,12 @@
 							<i class="icon_house_alt font-12"></i>
 							<span> Home </span></a>
 						</li>
+						@if($aluno->turma != "")
 						<li><a href="/material">
 							<i class="icon_book font-12"></i>
 							<span> Material Didático </span></a>
 						</li>
+						@endif
 						<li><a href="/nota">
 							<i class="icon_desktop font-12"></i>
 							<span> Notas </span></a>
@@ -84,10 +90,12 @@
 							<i class="icon_group font-12"></i>
 							<span> Contato </span></a>
 						</li>
+						@if($aluno->turma != "")
 						<li><a href="/perfil">
 							<i class="icon_cog font-12"></i>
 							<span>Configuração </span></a>
 						</li>
+						@endif
 					</ul>
 				</div>
 			</div>
