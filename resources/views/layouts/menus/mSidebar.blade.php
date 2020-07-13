@@ -1583,7 +1583,7 @@
             </ul>
         </li>
         <!-- APOSTILA MASTER OF LANGUAGE -->
-        <li class="item apostila-MASTER-OF-LANGUAGE" data-apostila="apostila3">
+        <li class="item apostila-master" data-apostila="apostila3">
             <a class="click submenu">
                 <i class="material-icons">flag</i> MASTER OF LANGUAGE
             </a>
@@ -2747,7 +2747,7 @@
                 $(".apostila-dominating").addClass("menu-hidden");
                 $(".apostila-games").addClass("menu-hidden");
                 $(".apostila-video").addClass("menu-hidden");
-            }else if(material == "CG FLY"){
+            }else if(material == "CGFLY"){
                 $(".apostila-master").addClass("menu-hidden");
                 $(".apostila-video").addClass("menu-hidden");
             }
