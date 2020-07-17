@@ -32,7 +32,7 @@ class HomeController extends Controller
         if (Auth::check()) {
             $matricula = Auth::user()->id;
             $aluno = User::find($matricula);
-            return view('home/index', compact('aluno'));
+            return view('portal/home/index', compact('aluno'));
         } else {
             return redirect('/');
         }
