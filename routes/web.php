@@ -18,6 +18,7 @@ Auth::routes();
 /* ROTAS PARA AS VIEWS */
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/acesso-material', 'HomeController@acessomaterial')->name('home');
 Route::get('/apostila1/{unidade}/{item}', "ApostilaController@apostila1")->name('apostila1');
 Route::get('/apostila2/{unidade}/{item}', "ApostilaController@apostila2")->name('apostila2');
 Route::get('/apostila3/{unidade}/{item}', "ApostilaController@apostila3")->name('apostila3');

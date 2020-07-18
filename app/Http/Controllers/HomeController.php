@@ -72,6 +72,20 @@ class HomeController extends Controller
         }
     }
 
+    public function acessomaterial()
+    {
+
+        if (Auth::check()) {
+            $id = Auth::user()->id;
+            $matricula = Auth::user()->matricula;
+            $aluno = User::find($id);
+            return view('home/index', compact('aluno'));
+
+        } else {
+            return redirect('/');
+        }
+    }
+
     public function site()
     {
         return view('site/home/index');
