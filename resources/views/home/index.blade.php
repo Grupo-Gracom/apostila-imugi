@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','UNIMUGI | Home')
+@section('titulo','Portal do Aluno | Material Didático')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -27,7 +27,7 @@
 					<!-- PHOTOSHOP -->
 					<li class="deactive photoshop">
 						<figure>
-							<a href="https://imugi.com.br/portaldoaluno/demo/imugi/photoshop.html" target="_blank">
+							<a href="apostila4/intro4/intro">
 								<img src="{{ asset('assets/img/photoshop.png') }}" alt="Photoshop">
 							</a>
 						</figure>
