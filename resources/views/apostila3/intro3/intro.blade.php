@@ -12,9 +12,9 @@
 			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="intro3" data-etapa="intro">
 				<div class="bem-vindo">
 					<figure class="banner">
-						<img src="{{ asset('assets/img/playgo/intro/bg-intro.jpg') }}" alt="">
+						<img src="{{ asset('assets/img/masteroflanguage/intro/bg-intro.jpg') }}" alt="">
 					</figure>
-					<h3 class="barlow center-align">Seja Bem Vindo Ao Play GO</h3>
+					<h3 class="barlow center-align">Seja Bem Vindo Ao Master of Language</h3>
 
 					<div class="bem-vindo-conteudo">
 						<p>Curso projetado para artistas ou amadores que procuram treinamento de efeitos gráficos e visuais ensinado interdisciplinarmente com a língua inglesa.</p>
