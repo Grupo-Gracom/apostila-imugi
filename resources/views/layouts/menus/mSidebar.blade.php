@@ -2165,7 +2165,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade29', 'iluminacao'])}}" data-etapa="iluminacao"><i class="material-icons suave">record_voice_over</i>Iluminação</a>
+                            <a href="{{route('apostila5', ['unidade29', 'renderizacao'])}}" data-etapa="renderizacao"><i class="material-icons suave">record_voice_over</i>Renderização</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade29', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
