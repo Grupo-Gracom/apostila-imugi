@@ -25,6 +25,10 @@
 					<p>4 - Como faço para mudar o layout do meu programa?
 						<input type="text" name="atividade821-4" class="full left-align" placeholder="Responda aqui" required>
 					</p>
+					<p>5 - Se as opções de pincel não estiverem a disposição na minha aba attributes, como eu as
+						torno visíveis?
+						<input type="text" name="atividade821-5" class="full left-align" placeholder="Responda aqui" required>
+					</p>
 					
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
