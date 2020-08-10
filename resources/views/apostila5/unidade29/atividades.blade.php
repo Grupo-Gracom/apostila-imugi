@@ -12,35 +12,35 @@
 		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade20" data-etapa="atividades">
 			<h3 class="barlow">UNIT 29</h3>
 			<h5 class="barlow upper">Aula 29 – Atividades</h5>
-			<form id="unidade20atividade814" method="post" class="metade">
+			<form id="unidade29atividade823" method="post" class="metade">
 				<p>1 - O que é frame hate?
-					<input type="text" name="atividade814-1" class="full left-align" placeholder="Responda aqui" required>
+					<input type="text" name="atividade823-1" class="full left-align" placeholder="Responda aqui" required>
 				</p>
 				<p>2 - Qual o nome dado a taxa de formação de quadros?
-					<input type="text" name="atividade814-2" class="full left-align" placeholder="Responda aqui" required>
+					<input type="text" name="atividade823-2" class="full left-align" placeholder="Responda aqui" required>
 				</p>
 				<p>3 - O que vai acontecer se o formato da imagem for incompatível com o da tela de reprodução?
-					<input type="text" name="atividade814-3" class="full left-align" placeholder="Responda aqui" required>
+					<input type="text" name="atividade823-3" class="full left-align" placeholder="Responda aqui" required>
 				</p>
 				<p>4 - Em que posição devo usar o telefone celular para que a imagem seja compatível com minha
 					tv? Por que?
-					<input type="text" name="atividade814-4" class="full left-align" placeholder="Responda aqui" required>
+					<input type="text" name="atividade823-4" class="full left-align" placeholder="Responda aqui" required>
 				</p>
 				<p>5 - É possível exibir imagens hd em miniaturas como nas telas do celular? Explique
-					<input type="text" class="full left-align" placeholder="Responda aqui" required>
+					<input type="text" name="atividade823-5" class="full left-align" placeholder="Responda aqui" required>
 				</p>
 
 				<p>6 - O que é tecnologia de retina?
-					<input type="text" class="full left-align" placeholder="Responda aqui" required>
+					<input type="text" name="atividade823-6" class="full left-align" placeholder="Responda aqui" required>
 				</p>
 
 				<p>7 - O que é FPS?
-					<input type="text" class="full left-align" placeholder="Responda aqui" required>
+					<input type="text" name="atividade823-7"class="full left-align" placeholder="Responda aqui" required>
 				</p>
 				<input type="hidden" name="_token" value="{{csrf_token()}}">
 				<input type="hidden" name="resposta_id" value="0">
 				<input type="hidden" name="unidade_id" value="1">
-				<input type="hidden" name="atividade_id" value="814">
+				<input type="hidden" name="atividade_id" value="823">
 				<button type="submit" class="mini-title suave click suave">Salvar resposta</button>
 			</form>
 		</div>
@@ -56,21 +56,21 @@
 		checkAtividade(atividade_id);
 	});
 
-	$("#unidade20atividade814").submit(function(e) {
+	$("#unidade29atividade823").submit(function(e) {
 		e.preventDefault();
 		$(this).find('button').prop('disabled', true);
 		var respostas = '{';
-		$('#unidade20atividade814 input[type="text"]').each(function(index) {
-			if (($('#unidade20atividade814 input[type="text"]').length - 1) == index) {
+		$('#unidade29atividade823 input[type="text"]').each(function(index) {
+			if (($('#unidade29atividade823 input[type="text"]').length - 1) == index) {
 				respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '"}';
 			} else {
 				respostas += '"' + $(this).attr("name") + '":"' + $(this).val() + '",';
 			}
 		});
-		if ($('#unidade20atividade814 input[name="resposta_id"').val() != 0) {
-			atualizarAtividade($('#unidade20atividade814'), respostas);
+		if ($('#unidade29atividade823 input[name="resposta_id"').val() != 0) {
+			atualizarAtividade($('#unidade29atividade823'), respostas);
 		} else {
-			enviarAtividade($('#unidade20atividade814'), respostas);
+			enviarAtividade($('#unidade29atividade823'), respostas);
 		}
 	});
 
@@ -90,11 +90,11 @@
 				var chaves = Object.keys(objeto);
 				var respostas = Object.values(objeto);
 				for (j = 0; j < respostas.length; j++) {
-					$('#unidade20atividade' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
-					$('#unidade20atividade' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
+					$('#unidade29atividade' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
+					$('#unidade29atividade' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
 				}
-				$('#unidade20atividade' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
-				$('#unidade20atividade' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+				$('#unidade29atividade' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
+				$('#unidade29atividade' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
 			}
 		});
 	}
