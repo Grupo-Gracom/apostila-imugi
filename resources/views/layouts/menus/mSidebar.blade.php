@@ -2137,7 +2137,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade27', 'iluminacao'])}}" data-etapa="iluminacao"><i class="material-icons suave">record_voice_over</i>Iluminação</a>
+                            <a href="{{route('apostila5', ['unidade27', 'texturas'])}}" data-etapa="texturas"><i class="material-icons suave">record_voice_over</i>Texturas - Colorização, texturização e maping de material</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade27', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
