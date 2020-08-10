@@ -2123,7 +2123,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade26', 'iluminacao'])}}" data-etapa="iluminacao"><i class="material-icons suave">record_voice_over</i>Iluminação</a>
+                            <a href="{{route('apostila5', ['unidade26', 'maping'])}}" data-etapa="maping"><i class="material-icons suave">record_voice_over</i>Maping - Texturização avançada</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade26', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>

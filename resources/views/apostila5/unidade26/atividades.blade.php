@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 20 | Atividades')
+@section('titulo','Unit 26 | Atividades')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,27 +9,27 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade20" data-etapa="atividades">
-			<h3 class="barlow">UNIT 20</h3>
-			<h5 class="barlow upper">Aula 1 – Atividades</h5>
-                <form id="unidade20atividade814" method="post" class="metade">
-					<p>1 - Qual o comportamento do ponto de luz spot light?
-						<input type="text" name="atividade814-1" class="full left-align" placeholder="Responda aqui" required>
+		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade26" data-etapa="atividades">
+			<h3 class="barlow">UNIT 26</h3>
+			<h5 class="barlow upper">Maping - Texturização avançada</h5>
+                <form id="unidade26atividade820" method="post" class="metade">
+					<p>1 - Material e textura são a mesma coisa? Explique.
+						<input type="text" name="atividade820-1" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-                    <p>2 - Quais efeitos devo habilitar no painel configurações para ter um melhor resultado dos meus
-						pontos emissores de luz?
-						<input type="text" name="atividade814-2" class="full left-align" placeholder="Responda aqui" required> 
+                    <p>2 - O material está dentro da textura?
+						<input type="text" name="atividade820-2" class="full left-align" placeholder="Responda aqui" required> 
 					</p>
-					<p>3 - Como pode ser feito emissão de luz sem o uso de um dos pontos de luz padrão do programa?
-						<input type="text" name="atividade814-3" class="full left-align" placeholder="Responda aqui" required>						
+					<p>3 - Qual o processo para fazer um maping?
+						<input type="text" name="atividade820-3" class="full left-align" placeholder="Responda aqui" required>						
 					</p>
-					<p>4 - Posso usar um material com uma textura luminescente, mas onde eu configuro isso?
-						<input type="text" name="atividade814-4" class="full left-align" placeholder="Responda aqui" required>
+					<p>4 - Quais são as opções de projeção de objetos em Uv Maping?
+						<input type="text" name="atividade820-4" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-					<p>5 - Crie diversos pontos de iluminação diferentes e renderize objetos texturizados com diferentes
-						tipos de material, use essas imagens para fazer um vídeo usando os recursos de projeção em
-						background.
-						<input type="text" class="full left-align" placeholder="Atividade Prática" disabled="true"> 
+					<p>5 - O que devo fazer para realizar a seleção de toda uma sequência de linhas?
+					<input type="text" name="atividade820-5" class="full left-align" placeholder="Responda aqui" required>
+					</p>
+					<p>6 - Qual a ferramenta que me permite selecionar um loop de faces, pontos ou vértices?
+						<input type="text" name="atividade820-6" class="full left-align" placeholder="Responda aqui" disabled="true"> 
 					</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
@@ -50,21 +50,21 @@
         checkAtividade(atividade_id);
     });
 
-	$("#unidade20atividade814").submit(function(e){
+	$("#unidade26atividade820").submit(function(e){
 		e.preventDefault();
 		$(this).find('button').prop('disabled', true);
 		var respostas = '{';
-		$('#unidade20atividade814 input[type="text"]').each(function(index){
-			if(($('#unidade20atividade814 input[type="text"]').length - 1) == index){
+		$('#unidade26atividade820 input[type="text"]').each(function(index){
+			if(($('#unidade26atividade820 input[type="text"]').length - 1) == index){
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
 			}else{
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
 			}
 		});
-		if($('#unidade20atividade814 input[name="resposta_id"').val() != 0){
-			atualizarAtividade($('#unidade20atividade814'), respostas);
+		if($('#unidade26atividade820 input[name="resposta_id"').val() != 0){
+			atualizarAtividade($('#unidade26atividade820'), respostas);
 		}else{
-			enviarAtividade($('#unidade20atividade814'), respostas);
+			enviarAtividade($('#unidade26atividade820'), respostas);
 		}
 	});
 
@@ -84,11 +84,11 @@
 				var chaves = Object.keys(objeto);
 				var respostas = Object.values(objeto);
 				for(j = 0; j < respostas.length; j++){
-					$('#unidade20atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-					$('#unidade20atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+					$('#unidade26atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+					$('#unidade26atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
 				}
-				$('#unidade20atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-				$('#unidade20atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+				$('#unidade26atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+				$('#unidade26atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
 			}
 		});
     }
