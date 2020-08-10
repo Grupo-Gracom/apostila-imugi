@@ -2151,7 +2151,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade28', 'iluminacao'])}}" data-etapa="iluminacao"><i class="material-icons suave">record_voice_over</i>Iluminação</a>
+                            <a href="{{route('apostila5', ['unidade28', 'body_ik'])}}" data-etapa="body_ik"><i class="material-icons suave">record_voice_over</i>Body ik - Mecânica para movimento de corpos</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade28', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
