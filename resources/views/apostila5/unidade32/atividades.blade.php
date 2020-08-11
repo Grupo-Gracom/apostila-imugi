@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 20 | Atividades')
+@section('titulo','Unit 32 | Atividades')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -12,7 +12,7 @@
 		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade32" data-etapa="atividades">
 			<h3 class="barlow">UNIT 32</h3>
 			<h5 class="barlow upper">Aula 1 – Atividades</h5>
-                <form id="unidade20atividade826" method="post" class="metade">
+                <form id="unidade32atividade826" method="post" class="metade">
 					<p>1 - Por que usar o cinema 4D para modelar seus materiais?
 						<input type="text" name="atividade826-1" class="full left-align" placeholder="Responda aqui" required>
 					</p>
@@ -30,7 +30,7 @@
 					</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
-                    <input type="hidden" name="unidade_id" value="1">
+                    <input type="hidden" name="unidade_id" value="5">
                     <input type="hidden" name="atividade_id" value="826">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
@@ -47,21 +47,21 @@
         checkAtividade(atividade_id);
     });
 
-	$("#unidade20atividade826").submit(function(e){
+	$("#unidade32atividade826").submit(function(e){
 		e.preventDefault();
 		$(this).find('button').prop('disabled', true);
 		var respostas = '{';
-		$('#unidade20atividade826 input[type="text"]').each(function(index){
-			if(($('#unidade20atividade826 input[type="text"]').length - 1) == index){
+		$('#unidade32atividade826 input[type="text"]').each(function(index){
+			if(($('#unidade32atividade826 input[type="text"]').length - 1) == index){
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'"}';
 			}else{
 				respostas += '"'+$(this).attr("name")+'":"'+$(this).val()+'",';
 			}
 		});
-		if($('#unidade20atividade826 input[name="resposta_id"').val() != 0){
-			atualizarAtividade($('#unidade20atividade826'), respostas);
+		if($('#unidade32atividade826 input[name="resposta_id"').val() != 0){
+			atualizarAtividade($('#unidade32atividade826'), respostas);
 		}else{
-			enviarAtividade($('#unidade20atividade826'), respostas);
+			enviarAtividade($('#unidade32atividade826'), respostas);
 		}
 	});
 
@@ -81,11 +81,11 @@
 				var chaves = Object.keys(objeto);
 				var respostas = Object.values(objeto);
 				for(j = 0; j < respostas.length; j++){
-					$('#unidade20atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
-					$('#unidade20atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+					$('#unidade32atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+					$('#unidade32atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
 				}
-				$('#unidade20atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
-				$('#unidade20atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+				$('#unidade32atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+				$('#unidade32atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
 			}
 		});
     }
