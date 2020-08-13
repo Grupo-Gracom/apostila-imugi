@@ -92,7 +92,7 @@
 
 			<div class="container">
 				<figure>
-					<img src="{{ asset('assets/img/games_and_animation/unit29/imagem_unit29_4.png') }}" alt="guia1">
+					<img src="{{ asset('assets/img/games_and_animation/unit29/imagem_unit29_4.png') }}" alt="guia4">
 				</figure>
 			</div>
 
