@@ -17,6 +17,9 @@
 				necessário para produção da parte visual e simulações que usam extruturas lógicas, essas
 				partes separadas podem ser usadas para diversos objetivos como produzir imagens, vídeos e
 				mesh, recurso que será usado no nosso próximo módulo para criar um jogo.
+				
+			</p>
+			<p>
 				Devemos ficar atentos ao nosso objetivo final, se desejamos criar um filme curta ou longa
 				metragem precisamos ficar atentos as configurações de saída do arquivo e principalmente o
 				ambiente de reprodução, sem esquecer também da qualidade da captura do arquivo, iluminação,
@@ -30,11 +33,15 @@
 				</figure>
 			</div>
 
-			<p> Escrever ajuda a manter pensamentos mais claros, improvisos quase sempre trazem maus
+			<p>
+				Escrever ajuda a manter pensamentos mais claros, improvisos quase sempre trazem maus
 				resultados, mas um bom planejamento e execução pode tranformar seu projeto em algo com
 				qualidade e valor, então é importante saber cobrar pelo tempo destinado ao desenvolvimento.
+			</p>
+
+			<p>
 				Hoje o mercado permite dezenas de formatos de exibição em superfícies de telas planas
-				e suscetíveis ao toque (Touchscreen), televisores com capacidade de montar imagens
+				e suscetíveis ao toque <b>(Touchscreen)</b>, televisores com capacidade de montar imagens
 				cada vez maiores. Seu material precisa ser intercambiável ou exibível de várias formas, temos
 				as projeções em quadro esférico já que o tubo de raiz catódica das tvs antigas é uma lente,
 				sucedendo eles vieram as telas planas, onde surgiu o termo wildscreen com mais imagens na
@@ -49,7 +56,8 @@
 				</figure>
 			</div>
 
-			<p>Almentando ainda mais as definições e proporções de imagem pulamos de 900X400 720p
+			<p>
+			    Almentando ainda mais as definições e proporções de imagem pulamos de 900X400 720p
 				para 1080X720 1080p, o formato HD(High difinition), posteriormente sucedidos pelas telas
 				LCD imagens ultraHD com tamanho de 1980X1080 1080p, aproximando a exibição residencial
 				das exibições nas grandes telas, que também receberam modificações tendo imagens capturadas
@@ -105,11 +113,10 @@
 
 			<h5>Taxa de formação de quadros</h5>
 				
-
 			<p>
 				Imagens estáticas são compostas por um único quadro ou frame, uma animação ou vídeo
 				é uma ilusão provocada pela velocidade com que as animações são trocadas na sua frente,
-				essa velocidade é chamada de taxa de formação de quadros ou frame hate, quando configuramos
+				essa velocidade é chamada de <b>taxa de formação</b> de quadros ou <b>frame hate</b>, quando configuramos
 				o painel de renderização no cinema 4D estamos configurando como vamos receber
 				essa saída, como um único quadro ou como uma sequência deles.
 			</p>
@@ -132,7 +139,7 @@
 
 			<p>O que acontece quando eu reproduzo um vídeo em uma tela com formatos incompatíveis?
 				Mesmo com o planejamento isso pode acontecer, para corrigir o fato da tela ser incapaz de
-				realizar a reprodução existe um processo chamado downgraed, onde a imagem vai se encaixar
+				realizar a reprodução existe um processo chamado <b>downgraed</b>, onde a imagem vai se encaixar
 				as proporções da tela de reprodução criando linhas no topo e na base da imagem. O mesmo
 				também acontece quando se captura um vídeo com o telefone celular e se reproduz o mesmo
 				em uma tv, a imagem não terá comprimento suficiente para preencher a tela, decida se seu
@@ -141,6 +148,7 @@
 			</p>
 
 			<h5>Avi, hdv.263, mkv, ultra formatos</h5>
+
 			<p>
 				Para salvar o arquivo e armazenar essas informações garantindo a reprodução de maneira
 				eficaz os computadores usam formatos digitais, esses formatos são definições e propriedades
