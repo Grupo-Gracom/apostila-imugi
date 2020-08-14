@@ -51,10 +51,10 @@
 <script>
 	activeMenu();
 
-	$("form").each(function() {
-		var atividade_id = $(this).find('input[name="atividade_id"]').val();
-		checkAtividade(atividade_id);
-	});
+	$("form").each(function(){
+        var atividade_id = $(this).find('input[name="atividade_id"]').val();
+        checkAtividade(atividade_id);
+    });
 
 	$("#unidade29atividade823").submit(function(e) {
 		e.preventDefault();
@@ -74,83 +74,94 @@
 		}
 	});
 
-	function checkAtividade(atividade_id) {
+	function checkAtividade(atividade_id){
 		request = $.ajax({
-			url: window.location.pathname + '/respostasCheck/' + atividade_id,
+			url: window.location.pathname+'/respostasCheck/'+atividade_id,
 			type: 'get',
-			error: function() {
+			error: function(){
 				console.log("Erro de retorno de dados.");
 			}
 		});
-		request.done(function(response) {
-			if (response == 0) {
+		request.done(function(response){
+			if(response == 0){
 				console.log("não veio nada");
-			} else {
+			}else{
 				var objeto = JSON.parse(response[0].resposta_respostas);
 				var chaves = Object.keys(objeto);
 				var respostas = Object.values(objeto);
+<<<<<<< HEAD
 				for (j = 0; j < respostas.length; j++) {
 					$('#unidade29atividade' + atividade_id + ' input[name="' + chaves[j] + '"]').val(respostas[j]);
 					$('#unidade29atividade' + atividade_id + ' input[name="' + chaves[j] + '"]').attr("value", respostas[j]);
 				}
 				$('#unidade29atividade' + atividade_id + ' input[name="resposta_id"]').val(response[0].resposta_id);
 				$('#unidade29atividade' + atividade_id + ' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+=======
+				for(j = 0; j < respostas.length; j++){
+					$('#unidade20atividade'+atividade_id+' input[name="'+chaves[j]+'"]').val(respostas[j]);
+					$('#unidade20atividade'+atividade_id+' input[name="'+chaves[j]+'"]').attr("value", respostas[j]);
+				}
+				$('#unidade20atividade'+atividade_id+' input[name="resposta_id"]').val(response[0].resposta_id);
+				$('#unidade20atividade'+atividade_id+' input[name="resposta_id"]').attr("value", response[0].resposta_id);
+>>>>>>> uni-30
 			}
 		});
-	}
+    }
 
-	function enviarAtividade(formId, respostas) {
+	function enviarAtividade(formId, respostas){
 		console.log(formId);
 		console.log(respostas);
 		var resposta = {
-			"_token": formId.find('input[name="_token"]').val(),
-			"resposta_respostas": respostas,
-			"atividade_id": formId.find('input[name="atividade_id"]').val(),
-			"unidade_id": formId.find('input[name="unidade_id"]').val()
+			"_token" : formId.find('input[name="_token"]').val(),
+			"resposta_respostas" : respostas,
+			"atividade_id" : formId.find('input[name="atividade_id"]').val(),
+			"unidade_id" : formId.find('input[name="unidade_id"]').val()
 		};
 		request = $.ajax({
-			url: window.location.pathname + '/respostas',
+			url: window.location.pathname+'/respostas',
 			data: resposta,
 			type: 'post',
-			error: function() {
+			error: function(){
 				console.log("Erro de envio.");
 			}
 		});
-		request.done(function(response) {
-			if (response == "1") {
+		request.done(function(response){
+			if(response == "1"){
 				alert("Respostas salvas");
 				window.location.reload();
-			} else if (response == 2) {
+			}else if(response == 2){
 				alert("Respostas atualizadas");
 				window.location.reload();
 			}
 		});
 	}
 
-	function atualizarAtividade(formId, respostas) {
+	function atualizarAtividade(formId, respostas){
 		var resposta = {
-			"_token": formId.find('input[name="_token"]').val(),
-			"resposta_id": formId.find('input[name="resposta_id"]').val(),
-			"resposta_respostas": respostas
+			"_token" : formId.find('input[name="_token"]').val(),
+			"resposta_id" : formId.find('input[name="resposta_id"]').val(),
+			"resposta_respostas" : respostas
 		};
 		request = $.ajax({
-			url: window.location.pathname + '/respostas',
+			url: window.location.pathname+'/respostas',
 			data: resposta,
 			type: 'post',
-			error: function() {
+			error: function(){
 				console.log("Erro de envio.");
 			}
 		});
-		request.done(function(response) {
-			if (response == "1") {
+		request.done(function(response){
+			if(response == "1"){
 				alert("Respostas salvas");
 				window.location.reload();
-			} else if (response == 2) {
+			}else if(response == 2){
 				alert("Respostas atualizadas");
 				window.location.reload();
 			}
 		});
 	}
+
+
 </script>
 
 @endsection

@@ -12,24 +12,24 @@
 		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade30" data-etapa="atividades">
 			<h3 class="barlow">UNIT 30</h3>
 			<h5 class="barlow upper">Aula 1 – Atividades</h5>
-                <form id="unidade30atividade824" method="post" class="metade">
-					<p>1 - Qual o comportamento do ponto de luz spot light?
-						<input type="text" name="atividade824-1" class="full left-align" placeholder="Responda aqui" required>
+                <form id="unidade20atividade814" method="post" class="metade">
+					<p>1 - Quais foram as primeiras manifestações atribuídas aos jogos?
+						<input type="text" name="atividade814-1" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-                    <p>2 - Quais efeitos devo habilitar no painel configurações para ter um melhor resultado dos meus
-						pontos emissores de luz?
-						<input type="text" name="atividade824-2" class="full left-align" placeholder="Responda aqui" required> 
+                    <p>2 - Quais tecnologias podem ser consideradas isoladas e únicas?
+						<input type="text" name="atividade814-2" class="full left-align" placeholder="Responda aqui" required> 
 					</p>
-					<p>3 - Como pode ser feito emissão de luz sem o uso de um dos pontos de luz padrão do programa?
-						<input type="text" name="atividade824-3" class="full left-align" placeholder="Responda aqui" required>						
+					<p>3 - O que é um RPG?
+						<input type="text" name="atividade814-3" class="full left-align" placeholder="Responda aqui" required>						
 					</p>
-					<p>4 - Posso usar um material com uma textura luminescente, mas onde eu configuro isso?
-						<input type="text" name="atividade824-4" class="full left-align" placeholder="Responda aqui" required>
+					<p>4 - Quando posso dizer que o jogo tem uma conotação ligada ao azar?
+						<input type="text" name="atividade814-4" class="full left-align" placeholder="Responda aqui" required>
 					</p>
-					<p>5 - Crie diversos pontos de iluminação diferentes e renderize objetos texturizados com diferentes
-						tipos de material, use essas imagens para fazer um vídeo usando os recursos de projeção em
-						background.
-						<input type="text" name="atividade824-5" class="full left-align" placeholder="Responda aqui" required> 
+					<p>5 - Como são classificados os jogos?
+						<input type="text" class="full left-align" placeholder="Responda aqui" required> 
+					</p>
+					<p>6 - Qual a função dos jogos no desenvolvimento infantil?
+					<input type="text" class="full left-align" placeholder="Responda aqui" required>
 					</p>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
