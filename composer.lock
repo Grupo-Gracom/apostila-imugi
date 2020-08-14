@@ -870,12 +870,15 @@
                 "sftp",
                 "storage"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://offset.earth/frankdejonge",
                     "type": "other"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-26T07:20:36+00:00"
         },
         {
@@ -953,6 +956,7 @@
                 "logging",
                 "psr-3"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://github.com/Seldaek",
@@ -963,6 +967,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-23T08:35:51+00:00"
         },
         {
@@ -1032,12 +1038,15 @@
                 "php",
                 "utf-8"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://www.paypal.me/mpdf",
                     "type": "custom"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-15T09:48:00+00:00"
         },
         {
@@ -1171,6 +1180,7 @@
                 "datetime",
                 "time"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://opencollective.com/Carbon",
@@ -1181,6 +1191,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-08-04T19:12:46+00:00"
         },
         {
@@ -1394,6 +1406,7 @@
                 "php",
                 "type"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -1404,6 +1417,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-20T17:29:33+00:00"
         },
         {
@@ -1915,6 +1930,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1929,6 +1945,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-06T13:18:39+00:00"
         },
         {
@@ -2053,6 +2071,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2067,6 +2086,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-23T08:31:43+00:00"
         },
         {
@@ -2124,6 +2145,7 @@
             ],
             "description": "Symfony ErrorHandler Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2138,6 +2160,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-23T08:35:20+00:00"
         },
         {
@@ -2208,6 +2232,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2222,6 +2247,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-06-18T17:59:13+00:00"
         },
         {
@@ -2347,6 +2374,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2361,6 +2389,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-05T09:39:30+00:00"
         },
         {
@@ -2416,6 +2446,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2430,6 +2461,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-23T09:48:09+00:00"
         },
         {
@@ -2521,6 +2554,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2535,6 +2569,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-24T04:10:09+00:00"
         },
         {
@@ -2598,6 +2634,7 @@
                 "mime",
                 "mime-type"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2612,6 +2649,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-23T10:04:31+00:00"
         },
         {
@@ -2674,6 +2713,7 @@
                 "polyfill",
                 "portable"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2688,6 +2728,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-14T12:35:20+00:00"
         },
         {
@@ -2751,6 +2793,7 @@
                 "portable",
                 "shim"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2765,6 +2808,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-14T12:35:20+00:00"
         },
         {
@@ -2836,6 +2881,7 @@
                 "portable",
                 "shim"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2850,6 +2896,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-08-04T06:02:08+00:00"
         },
         {
@@ -2917,6 +2965,7 @@
                 "portable",
                 "shim"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -2931,6 +2980,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-14T12:35:20+00:00"
         },
         {
@@ -2994,6 +3045,7 @@
                 "portable",
                 "shim"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3008,6 +3060,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-14T12:35:20+00:00"
         },
         {
@@ -3071,6 +3125,7 @@
                 "portable",
                 "shim"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3085,6 +3140,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-14T12:35:20+00:00"
         },
         {
@@ -3144,6 +3201,7 @@
                 "portable",
                 "shim"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3158,6 +3216,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-14T12:35:20+00:00"
         },
         {
@@ -3220,6 +3280,7 @@
                 "portable",
                 "shim"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3234,6 +3295,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-14T12:35:20+00:00"
         },
         {
@@ -3300,6 +3363,7 @@
                 "portable",
                 "shim"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3314,6 +3378,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-14T12:35:20+00:00"
         },
         {
@@ -3363,6 +3429,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3377,6 +3444,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-23T08:31:43+00:00"
         },
         {
@@ -3453,6 +3522,7 @@
                 "uri",
                 "url"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3467,6 +3537,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-05T09:39:30+00:00"
         },
         {
@@ -3771,6 +3843,7 @@
                 "debug",
                 "dump"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3785,6 +3858,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-06-24T13:34:53+00:00"
         },
         {
@@ -3897,6 +3972,7 @@
                 "env",
                 "environment"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -3907,6 +3983,8 @@
                     "type": "tidelift"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-14T19:04:52+00:00"
         }
     ],
@@ -5580,12 +5658,15 @@
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://github.com/theseer",
                     "type": "github"
                 }
             ],
+=======
+>>>>>>> apostila_game_unidade_31
             "time": "2020-07-12T23:59:07+00:00"
         },
         {

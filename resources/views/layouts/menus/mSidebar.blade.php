@@ -609,7 +609,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila4', ['unidade4', 'aula9'])}}" data-etapa="aula9"><i class="material-icons suave">mouse</i>AULA 09</a>                            
+                            <a href="{{route('apostila4', ['unidade4', 'aula9'])}}" data-etapa="aula9"><i class="material-icons suave">mouse</i>AULA 09</a>
                         </li>
                     </ul>
                 </li>
@@ -620,8 +620,8 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila4', ['unidade5', 'aula10'])}}" data-etapa="aula10"><i class="material-icons suave">mouse</i>AULA 10</a>                            
-                            <a href="{{route('apostila4', ['unidade5', 'aula11'])}}" data-etapa="aula11"><i class="material-icons suave">mouse</i>AULA 11</a>                            
+                            <a href="{{route('apostila4', ['unidade5', 'aula10'])}}" data-etapa="aula10"><i class="material-icons suave">mouse</i>AULA 10</a>
+                            <a href="{{route('apostila4', ['unidade5', 'aula11'])}}" data-etapa="aula11"><i class="material-icons suave">mouse</i>AULA 11</a>
                         </li>
                     </ul>
                 </li>
@@ -632,9 +632,9 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila4', ['unidade6', 'aula12'])}}" data-etapa="aula12"><i class="material-icons suave">mouse</i>AULA 12</a>                            
-                            <a href="{{route('apostila4', ['unidade6', 'aula13'])}}" data-etapa="aula13"><i class="material-icons suave">mouse</i>AULA 13</a>                            
-                            <a href="{{route('apostila4', ['unidade6', 'aula14'])}}" data-etapa="aula14"><i class="material-icons suave">mouse</i>AULA 14</a>                            
+                            <a href="{{route('apostila4', ['unidade6', 'aula12'])}}" data-etapa="aula12"><i class="material-icons suave">mouse</i>AULA 12</a>
+                            <a href="{{route('apostila4', ['unidade6', 'aula13'])}}" data-etapa="aula13"><i class="material-icons suave">mouse</i>AULA 13</a>
+                            <a href="{{route('apostila4', ['unidade6', 'aula14'])}}" data-etapa="aula14"><i class="material-icons suave">mouse</i>AULA 14</a>
                         </li>
                     </ul>
                 </li>
@@ -684,7 +684,7 @@
                     <ul>
                         <li>
                             <a href="{{route('apostila4', ['unidade10', 'aula23'])}}" data-etapa="aula23"><i class="material-icons suave">mouse</i>AULA 23</a>
-                            <a href="{{route('apostila4', ['unidade10', 'aula24'])}}" data-etapa="aula24"><i class="material-icons suave">crop</i>AULA 24</a>                            
+                            <a href="{{route('apostila4', ['unidade10', 'aula24'])}}" data-etapa="aula24"><i class="material-icons suave">crop</i>AULA 24</a>
                         </li>
                     </ul>
                 </li>
@@ -696,7 +696,7 @@
                     <ul>
                         <li>
                             <a href="{{route('apostila4', ['unidade11', 'aula25'])}}" data-etapa="aula25"><i class="material-icons suave">mouse</i>AULA 25</a>
-                            <a href="{{route('apostila4', ['unidade11', 'aula26'])}}" data-etapa="aula26"><i class="material-icons suave">crop</i>AULA 26</a>                            
+                            <a href="{{route('apostila4', ['unidade11', 'aula26'])}}" data-etapa="aula26"><i class="material-icons suave">crop</i>AULA 26</a>
                         </li>
                     </ul>
                 </li>
@@ -1739,7 +1739,7 @@
             </ul>
         </li>
          <!-- APOSTILA GAMES AND ANIMATION -->
-         
+
         <li class="item apostila-games" data-apostila="apostila5">
             <a class="click submenu">
                 <i class="material-icons">flag</i> GAMES AND ANIMATION
@@ -2193,7 +2193,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade31', 'iluminacao'])}}" data-etapa="iluminacao"><i class="material-icons suave">record_voice_over</i>Iluminação</a>
+                            <a href="{{route('apostila5', ['unidade31', 'player_modeling'])}}" data-etapa="player_modeling"><i class="material-icons suave">record_voice_over</i>Player Modeling</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade31', 'player_character'])}}" data-etapa="player_character"><i class="material-icons suave">record_voice_over</i>Player ou Character</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade31', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
@@ -2207,7 +2210,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade32', 'iluminacao'])}}" data-etapa="iluminacao"><i class="material-icons suave">record_voice_over</i>Iluminação</a>
+                            <a href="{{route('apostila5', ['unidade32', 'cenario_ambiente'])}}" data-etapa="cenario_ambiente"><i class="material-icons suave">record_voice_over</i>Cenário Ambiente</a>
                         </li>
                         <li>
                             <a href="{{route('apostila5', ['unidade32', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
@@ -2728,8 +2731,8 @@
                 </li>
             </ul>
         </li>
-        
-       
+
+
         <!-- APOSTILA VIDEO EDITION -->
         <li class="item apostila-video" data-apostila="apostila6">
             <a href="https://imugi.com.br/portaldoaluno/demo/imugi/video_edition.html" target="_blank">
