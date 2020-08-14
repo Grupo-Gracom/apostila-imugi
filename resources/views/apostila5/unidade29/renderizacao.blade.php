@@ -9,7 +9,7 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade29" data-etapa="camera_passiva">
+		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade29" data-etapa="renderizacao">
 			<h3 class="barlow">Unit 29 - Capítulo VI Renderização</h3>
 			<h5 class="barlow upper">Aula 29 – Telas - Arquivo final</h5>
 			<p>

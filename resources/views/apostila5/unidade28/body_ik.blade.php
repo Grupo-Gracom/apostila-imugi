@@ -63,9 +63,7 @@
 				serpenticulares. Por isso precisamos planejar e estudar olhando para nosso projeto.
 			</p>
 
-			<p>
-				<b>IK - Inverse Kinematic</b>
-			</p>
+			<h5>IK - Inverse Kinematic</h5>
 
 			<p>
 				Para aplicar o <b>IK</b> precisamos selecionar o grupo de <b>joint points</b> que será ativo dentro da
@@ -95,9 +93,7 @@
 			</div>
 
 
-			<p>
-				<b>FIK - Front Inverse Kinematic</b>
-			</p>
+			<h5>FIK - Front Inverse Kinematic</h5>
 
 			<p>
 				O processo de <b>FIK</b> é nada menos que a configuração das propriedades do seu <b>IK</b>, para isso
@@ -121,9 +117,7 @@
 				</figure>
 			</div>
 
-			<p>
-				<b>Esqueleto adicionado a objeto mesh</b>
-			</p>
+			<h5>Esqueleto adicionado a objeto mesh</h5>
 
 			<p>
 				Quando todo o corpo do personagem estiver montado vai ficar díficil manipular tantos

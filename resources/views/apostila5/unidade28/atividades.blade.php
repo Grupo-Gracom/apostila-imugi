@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 27 | Body ik')
+@section('titulo','Unit 28 | Body ik')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -10,7 +10,7 @@
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
 		<div id="unidade" class="box" data-apostila="apostila5" data-unidade="unidade28" data-etapa="atividades">
-			<h3 class="barlow">UNIT 27</h3>
+			<h3 class="barlow">UNIT 28</h3>
 			<h5 class="barlow upper">Aula 1 – Atividades</h5>
                 <form id="unidade28atividade822" method="post" class="metade">
 					<p>1 - Como posso aplicar física de movimento inverso a um dos grupos de joint point?

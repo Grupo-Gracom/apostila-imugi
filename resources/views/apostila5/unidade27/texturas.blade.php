@@ -30,9 +30,7 @@
 				no processo de modelagem de maneira desorganizada.
 			</p>
 
-			<p>
-				<b>Projeção</b>
-			</p>
+			<h5>Projeção</h5>
 
 			<p>
 				Para melhorar nossa projeção vamos realizar seleções de maneira a separar em partes as
@@ -67,9 +65,7 @@
 				</figure>
 			</div>
 			
-			<p>
-				<b>Tipos de projeção</b>
-			</p>
+			<h5>Tipos de projeção</h5>
 
 			<p>
 				No painel <b>projections</b> temos diversos tipos de simulações de projeção ou sugestões de envelopamento,
@@ -88,9 +84,7 @@
 				respeitando os limites de dimensões da textura.
 			</p>
 
-			<p>
-				<b>Materiais</b>
-			</p>
+			<h5>Materiais</h5>
 
 			<p>
 				Ainda não vimos nossa textura aplicada ao objeto, estávamos preparando ela e assim
@@ -134,9 +128,7 @@
 				</figure>
 			</div>
 			
-			<p>
-				<b>Atribuições</b>
-			</p>
+			<h5>Atribuições</h5>
 
 			<p>
 				Agora com os objetos mapeados e texturas prontas, vamos baixar os nossas texturas que

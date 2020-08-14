@@ -39,9 +39,9 @@
 				Transforme o objeto que pretende modelar em objeto editável, pressisone <b>“C”</b>.
 			</p>
 
-			<p>
+			<h5>
 				<b>Apresentando a janela</b>
-			</p>
+			</h5>
 
 			<p>
 				A posição de alguns do painéis conhecidos muda, o HUD está um pouco menor e o painel
@@ -57,9 +57,9 @@
 				</figure>
 			</div>
 
-			<p>
-				<b>Criando textura a partir de objeto</b>
-			</p>	
+			<h5>
+				Criando textura a partir de objeto
+			</h5>	
 
 			<p>
 				No painel <b>UV maping</b> crie em file, em seguida na opção <b>new texture</b> vai abrir uma caixa de
@@ -94,9 +94,7 @@
 				</figure>
 			</div>
 
-			<p>
-				<b>Projeções</b>																							
-			</p>
+			<h5>Projeções</h5>
 
 			<p>
 					Durante o processo de UV maping é importante relatar que a posição da sua visualização
@@ -129,9 +127,7 @@
 				mesmo painel podemos fornecer uma nova leitura, a texturização.
 			</p>
 
-			<p>
-				<b>Materiais</b>																							
-			</p>
+			<h5>Materiais</h5>
 			
 			<p>
 				Ao criar uma textura e finalizá-la, volte ao modo <b>startup</b> notará que o novo material foi
@@ -147,9 +143,7 @@
 				bastante tempo fazendo isso
 			</p>
 
-			<p>
-				<b>Uv Maping</b>
-			</p>
+			<h5>Uv Maping</h5>
 
 			<p>
 				Faça a seleção em sua superfície 3D de maneira a escolher como quer cortar seu objeto,
