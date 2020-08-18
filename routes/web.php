@@ -24,6 +24,7 @@ Route::get('/apostila2/{unidade}/{item}', "ApostilaController@apostila2")->name(
 Route::get('/apostila3/{unidade}/{item}', "ApostilaController@apostila3")->name('apostila3');
 Route::get('/apostila4/{unidade}/{item}', "ApostilaController@apostila4")->name('apostila4');
 Route::get('/apostila5/{unidade}/{item}', "ApostilaController@apostila5")->name('apostila5');
+Route::get('/apostila6/{unidade}/{item}', "ApostilaController@apostila6")->name('apostila6');
 
 
 /*****************************************************************************************************************************************/

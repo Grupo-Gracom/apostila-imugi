@@ -2735,11 +2735,82 @@
 
         <!-- APOSTILA VIDEO EDITION -->
         <li class="item apostila-video" data-apostila="apostila6">
-            <a href="https://imugi.com.br/portaldoaluno/demo/imugi/video_edition.html" target="_blank">
-                <i class="material-icons">flag</i> VIDEO EDITION
-            </a>
+                <a class="click submenu">
+                    <i class="material-icons">flag</i> VIDEO EDITION
+                </a>
+            <ul>
+                <!-- INTRO 1 -->
+                <li class="item" data-unidade="intro6">
+                    <a href="{{route('apostila6', ['intro6', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRODUCTION</a>
+                </li>
+                <!--UNIDADE 1-->
+                <li class="item" data-unidade="unidade1">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 1
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade1', 'und6'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 2-->
+                <li class="item" data-unidade="unidade2">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 2
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila3', ['unidade2', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 3-->
+                <li class="item" data-unidade="unidade3">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 3
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila3', ['unidade3', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 4-->
+                <li class="item" data-unidade="unidade4">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 4
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila3', ['unidade4', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 5-->
+                <li class="item" data-unidade="unidade5">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 5
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila3', ['unidade5', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 6-->
+                <li class="item" data-unidade="unidade5">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 6
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila3', ['unidade5', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                        </li>
+                    </ul>
+                </li>
+             </ul>
         </li>
-    </ul>
 </nav>
 <!-- /DASHBOARD MENU -->
 <script>
