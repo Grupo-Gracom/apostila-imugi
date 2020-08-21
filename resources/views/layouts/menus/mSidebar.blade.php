@@ -2772,7 +2772,12 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila3', ['unidade3', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade3', 'tipos_de_corte'])}}" data-etapa="tipos_de_corte"><i class="material-icons suave">record_voice_over</i>Tipos de Corte</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade3', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
                         </li>
                     </ul>
                 </li>
@@ -2783,7 +2788,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila3', ['unidade4', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade4', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
                         </li>
                     </ul>
                 </li>
@@ -2794,7 +2799,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila3', ['unidade5', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade5', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
                         </li>
                     </ul>
                 </li>
@@ -2805,7 +2810,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila3', ['unidade5', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade5', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
                         </li>
                     </ul>
                 </li>
