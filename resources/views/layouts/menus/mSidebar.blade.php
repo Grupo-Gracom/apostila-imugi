@@ -2770,6 +2770,9 @@
                         <li>
                             <a href="{{route('apostila6', ['unidade2', 'planos_de_enquadramentos_e_movimentos_de_camera'])}}" data-etapa="planos_de_enquadramentos_e_movimentos_de_camera"><i class="material-icons suave">record_voice_over</i> Planos de Enquadramentos e Movimentos de Câmera</a>
                         </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade2', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li>
                     </ul>
                 </li>
                 <!--UNIDADE 3-->

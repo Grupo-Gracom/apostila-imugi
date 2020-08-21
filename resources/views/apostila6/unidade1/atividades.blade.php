@@ -10,7 +10,7 @@
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
 		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade1" data-etapa="atividades">
-			<h3 class="barlow">UNIT 3</h3>
+			<h3 class="barlow">UNIT 1</h3>
 			<h5 class="barlow upper">Aula 1 – Atividades</h5>
                 <form method="post" class="metade">
 					<p>1 - Criar um projeto e orgazinar arquivos de clip de video na pasta de origem.
