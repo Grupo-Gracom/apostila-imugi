@@ -2754,6 +2754,9 @@
                             <a href="{{route('apostila6', ['unidade1', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i> Apresentação</a>
                         </li>
                         <li>
+                            <a href="{{route('apostila6', ['unidade1', 'aula_2'])}}" data-etapa="aula_2"><i class="material-icons suave">record_voice_over</i> Aula 2</a>
+                        </li>
+                        <li>
                             <a href="{{route('apostila6', ['unidade1', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
                         </li>
                     </ul>
@@ -2765,7 +2768,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila3', ['unidade2', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade2', 'planos_de_enquadramentos_e_movimentos_de_camera'])}}" data-etapa="planos_de_enquadramentos_e_movimentos_de_camera"><i class="material-icons suave">record_voice_over</i> Planos de Enquadramentos e Movimentos de Câmera</a>
                         </li>
                     </ul>
                 </li>
