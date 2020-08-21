@@ -2743,6 +2743,7 @@
                 <li class="item" data-unidade="intro6">
                     <a href="{{route('apostila6', ['intro6', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRODUCTION</a>
                 </li>
+                
                 <!--UNIDADE 1-->
                 <li class="item" data-unidade="unidade1">
                     <a class="click submenu">
@@ -2750,7 +2751,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila6', ['unidade1', 'und6'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade1', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i> Apresentação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade1', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
                         </li>
                     </ul>
                 </li>
