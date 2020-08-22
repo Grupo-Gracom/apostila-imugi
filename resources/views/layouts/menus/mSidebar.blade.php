@@ -2,10 +2,10 @@
 <nav class="suave">
     <!-- verificar tipo da unidade e modulo doaluno -->
     @if($aluno->turma->tipo->tipo_unidade == 0)
-			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
-		@else
-			<input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
-		@endif
+    <input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->turma->curso ?? ''}}">
+    @else
+    <input type="hidden" name="liberaMaterial" data-tipo="{{ $aluno->turma->tipo->tipo_unidade }}" data-material="{{$aluno->material->nivel ?? ''}}">
+    @endif
 
 
     <div class="logo">
@@ -182,7 +182,7 @@
                         <i class="material-icons">flag</i> UNIT 10
                     </a>
                     <ul>
-                    <li>
+                        <li>
                             <a href="{{route('apostila1', ['unidade10', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
                             <a href="{{route('apostila1', ['unidade10', 'conversation'])}}" data-etapa="conversation"><i class="material-icons suave">forum</i> Conversation</a>
                             <a href="{{route('apostila1', ['unidade10', 'grammar'])}}" data-etapa="grammar"><i class="material-icons suave">edit</i> Grammar</a>
@@ -782,7 +782,7 @@
                         <i class="material-icons">flag</i> UNIT 5
                     </a>
                     <ul>
-                    <li>
+                        <li>
                             <a href="{{route('apostila2', ['unidade5', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">format_size</i> Vocabulary</a>
                             <a href="{{route('apostila2', ['unidade5', 'conversation'])}}" data-etapa="conversation"><i class="material-icons suave">forum</i> Conversation</a>
                             <a href="{{route('apostila2', ['unidade5', 'grammar'])}}" data-etapa="grammar"><i class="material-icons suave">edit</i> Grammar</a>
@@ -1738,7 +1738,7 @@
                 </li>
             </ul>
         </li>
-         <!-- APOSTILA GAMES AND ANIMATION -->
+        <!-- APOSTILA GAMES AND ANIMATION -->
 
         <li class="item apostila-games" data-apostila="apostila5">
             <a class="click submenu">
@@ -2735,14 +2735,15 @@
 
         <!-- APOSTILA VIDEO EDITION -->
         <li class="item apostila-video" data-apostila="apostila6">
-                <a class="click submenu">
-                    <i class="material-icons">flag</i> VIDEO EDITION
-                </a>
+            <a class="click submenu">
+                <i class="material-icons">flag</i> VIDEO EDITION
+            </a>
             <ul>
                 <!-- INTRO 1 -->
                 <li class="item" data-unidade="intro6">
                     <a href="{{route('apostila6', ['intro6', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRODUCTION</a>
                 </li>
+
                 <!--UNIDADE 1-->
                 <li class="item" data-unidade="unidade1">
                     <a class="click submenu">
@@ -2750,7 +2751,13 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila6', ['unidade1', 'und6'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade1', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i> Apresentação</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade1', 'aula_2'])}}" data-etapa="aula_2"><i class="material-icons suave">record_voice_over</i> Aula 2</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade1', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
                         </li>
                     </ul>
                 </li>
@@ -2761,7 +2768,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila3', ['unidade2', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade2', 'planos_de_enquadramentos_e_movimentos_de_camera'])}}" data-etapa="planos_de_enquadramentos_e_movimentos_de_camera"><i class="material-icons suave">record_voice_over</i> Planos de Enquadramentos e Movimentos de Câmera</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade2', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
                         </li>
                     </ul>
                 </li>
@@ -2772,10 +2782,20 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila3', ['unidade3', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade3', 'tipos_de_corte'])}}" data-etapa="tipos_de_corte"><i class="material-icons suave">record_voice_over</i>Tipos de Corte</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade3', 'atividades_tiposde_de_corte'])}}" data-etapa="atividades_tiposde_de_corte"><i class="material-icons suave">record_voice_over</i>Atividades Tipos de corte</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade3', 'projetct_manager_adoble_clip'])}}" data-etapa="projetct_manager_adoble_clip"><i class="material-icons suave">record_voice_over</i>Project Manager e Adobe Clip</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade3', 'atividades_project_manager_adobe_clip'])}}" data-etapa="atividades_project_manager_adobe_clip"><i class="material-icons suave">record_voice_over</i>Atividades Project Manager Adobe Clip</a>
                         </li>
                     </ul>
                 </li>
+
                 <!--UNIDADE 4-->
                 <li class="item" data-unidade="unidade4">
                     <a class="click submenu">
@@ -2783,7 +2803,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila3', ['unidade4', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade4', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
                         </li>
                     </ul>
                 </li>
@@ -2814,36 +2834,36 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila3', ['unidade5', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade5', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
                         </li>
                     </ul>
                 </li>
-             </ul>
+            </ul>
         </li>
 </nav>
 <!-- /DASHBOARD MENU -->
 <script>
-    $(document).ready(function(){
+    $(document).ready(function() {
         var material = $('input[name="liberaMaterial"]').attr("data-material");
         var tipo = $('input[name="liberaMaterial"]').attr("data-tipo");
         console.log(material);
-        if(tipo == 0){
-            if(material == "PLAY GO + PHOTOSHOP"){
+        if (tipo == 0) {
+            if (material == "PLAY GO + PHOTOSHOP") {
                 $(".apostila-master").addClass("menu-hidden");
                 $(".apostila-dominating").addClass("menu-hidden");
                 $(".apostila-games").addClass("menu-hidden");
                 $(".apostila-video").addClass("menu-hidden");
-            }else if(material == "CGFLY"){
+            } else if (material == "CGFLY") {
                 $(".apostila-master").addClass("menu-hidden");
                 $(".apostila-video").addClass("menu-hidden");
             }
-        }else{
-            if(material == 1){
+        } else {
+            if (material == 1) {
                 $(".apostila-master").addClass("menu-hidden");
                 $(".apostila-dominating").addClass("menu-hidden");
                 $(".apostila-games").addClass("menu-hidden");
                 $(".apostila-video").addClass("menu-hidden");
-            }else if(material == 2){
+            } else if (material == 2) {
                 $(".apostila-master").addClass("menu-hidden");
                 $(".apostila-video").addClass("menu-hidden");
             }
