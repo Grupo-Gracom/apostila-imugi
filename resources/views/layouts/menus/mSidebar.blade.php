@@ -2794,7 +2794,16 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila3', ['unidade5', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade5', 'exportacao_arquivos'])}}" data-etapa="exportacao_arquivos"><i class="material-icons suave">record_voice_over</i> Exportacao de Arquivos</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade5', 'multicamera'])}}" data-etapa="multicamera"><i class="material-icons suave">record_voice_over</i>Multicamera e Estabilização</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade5', 'sequencia_destino'])}}" data-etapa="sequencia_destino"><i class="material-icons suave">record_voice_over</i>Sequencia Multicamera</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade5', 'tempo_camera'])}}" data-etapa="tempo_camera"><i class="material-icons suave">record_voice_over</i>Speed Durat on</a>
                         </li>
                     </ul>
                 </li>
