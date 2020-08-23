@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 2 | Planos de Enquadramentos e Movimentos de Câmera')
+@section('titulo','Unit 2 | Ferramentas de Edição')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -9,135 +9,264 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade2" data-etapa="planos_de_enquadramentos_e_movimentos_de_camera">
+		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade2" data-etapa="ferramentas_de_edicao">
 			<h3 class="barlow">UNIT 2</h3>
-			<h5 class="barlow upper">Aula 03 – Planos de Enquadramentos e Movimentos de Câmera</h5>
-
-			<h5>Linguagem Cinematográfica</h5>
-			<p>
-				A Linguagem Cinematográfica é o que os envolvidos em produção audiovisual chamam de
-				uma linguagem que é específica para quem trabalha na área ou busca uma visão mais aprofundada 
-				e crítica sobre o funcionamento de um filme. Essa linguagem surgiu naturalmente ao
-				mesmo tempo em que a necessidade de se usá-la surgiu.
-			</p>
+			<h5 class="barlow upper">Aula 05 - Ferramentas de Edição</h5>
 
 			<p>
-				As interferências da Linguagem Cinematográfica no cinema são tão profundas que podem
-				alterar completamente a forma como uma mensagem é passada, ou como uma narrativa é
-				construída. Isto pode acontecer desde mudanças e recursos bruscos e perceptí veis até detalhes muito sutis.
+				Cada ícone neste painel representa uma ferramenta que executa um Função, normalmente
+				um tipo de edição em uma seqüência.
 			</p>
 
-			<h5>Termos Fundamentais</h5>
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_17.png') }}" alt="guia1">
+				</figure>
+			</div>
+
+			<h5>Selection Tool</h5>
 
 			<p>
-				<b>Plano</b> – É tudo o que se passa no momento da filmagem, ou seja, sempre que a câmera é
-				ligada para capturar imagens e termina quando ela é desligada. ortanto, o plano é um trecho 
-				de filme rodado ininterruptamente, ou que parece ter sido rodado sem interrupção.
+				A maneira mais simples de selecionar um clip em uma seqüência é clicar nele. Tenha cuidado
+				para não clicar duas vezes pois isso abrirá o clip no Source Monitor, pronto para o ajuste das
+				marcações In ou Out. Porém, caso isso seja feito, as alterações sejam feitas no painel Source,
+				elas automati camente serão atualizadas na ti mline. Para acioná-la podemos clicar no botão
+				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_18.png') }}" alt="guia"> 
+				ou através da tecla de atalho “V”. Se você pressionar a tecla Shift enquanto clica com a
+				Selection Tool, você pode selecionar ou deselecionar clips adicionais. Você pode também criar
+				seleções de clips criando caixas de seleção ao arrastar eo mouse na ti meline.
 			</p>
 
-			<p>
-				<b>Sequência</b> – É uma sequência de planos, geralmente tendo algum significado quando juntos.
-			</p>
+			<h5>Track Select Forward Tool</h5>
+
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_19.png') }}" alt="guia1">
+				</figure>
+			</div>
 
 			<p>
-				<b>Tomada – No filme pronto</b>, a “tomada” deixa de existir, ou então torna-se sinônimo de plano.
+				Usando a Track Select Forward, cada clipe, em cada faixa, aparti r da faixa que você seleciona
+				até o fi nal da seqüência é selecionado.<br/>
+				Isso pode ser úti l se você quiser adicionar uma lacuna à sua seqüência para criar espaço para
+				mais clips. Você pode arrastar todos os clipes selecionados para a direita para introduzir uma
+				lacuna.
 			</p>
 
-			<p>
-				<b>Campo</b> – Compreende tudo o que está presente na imagem: cenários, personagens, acessórios.
-			</p>
+			<h5>Track Select Backward Tool</h5>
+
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_20.png') }}" alt="guia1">
+				</figure>
+			</div>
 
 			<p>
-				<b>Extra-campo</b> – Remete ao que, embora perfeitamente presente, não se vê. É o que não se
-				encontra na tela, mas que complementa aquilo que vemos. Designa o que existe alhures,
-				ao lado ou em volta do que está enquadrado.
+				Usando a Track Select Backward, cada clipe até aquele que você clicou é selecionado.
 			</p>
 
-			<p>
-				<b>Contra-plano</b> – Dialoga com o plano e pode ser definido como uma tomada feita com a
-					câmera orientada em direção oposta à posição da tomada anterior.
-			</p>
+			<h5>Selecionando apenas áudio ou vídeo</h5>
 
 			<p>
-				<b>Plano seqüência</b> – É a filmagem de toda uma ação contínua através de um único plano (sem cortes).
-			</p>
-			<p>
-				<b>Cena</b>  – Todo o roteiro é dividido em cenas, unidades dramáticas de ação contínua. Seqüência 
-				dramática com unidade de lugar e tempo, que pode ser “coberta” de vários ângulos no momento da filmagem.
-			</p>
-			<p>
-				<b>Ângulos</b>  – São determinados pela posição da câmera em relação ao objeto filmado.
-			</p>
-			<p>
-				<b>Argumento</b> – Resumo de uma história, para roteirização de um filme, que pode ser
-				original ou adaptado de uma obra literária.
-			</p>
-			<p>
-				<b>Corte seco</b> – É quando há uma transição imediata, direta de uma cena para outra. Foi um
-				dos primeiros procedimentos da montagem, usado na hora da transição de um filme para
-				outro. Usado quando se quer obter imagens que se sucedem dentro de um enredo. 
-			</p>
-			<p>
-				<b>Cortina</b> – É uma forma de transição de planos que ocorre quando uma cena encobre outra
-				(geralmente entrando no eixo horizontal, mas pode ocorrer também no sentido vertical,
-				diagonal, em íris e em uma infinidade de formas). Pode ocorrer também através de uma
-				linha que corre o quadro, mudando as ações.
-			</p>
-			<p>
-				<b>Movimentos de câmera</b> – Constituem a base técnica do plano em movimento. São definidos 
-				levando-se em conta se o movimento da câmera é de rotação (em torno do seu eixo)
-				ou de translação (locomovendo-se em avanço ou recuo, subindo ou descendo).
-			</p>
-
-			<h5>Planos de Enquadramento</h5>
-
-			<p>
-				A noção de enquadramento é a mais importante da linguagem cinematográfica. Quando estudamos 
-				a linguagem cinematográfica de planos e movimentos, fazemos referência, em primeiro lugar, 
-				a um conjunto de sinais empregados em uma forma de comunicação.
+				É comum adicionar um clipe a uma seqüência e depois perceber que não precisa do áudio ou
+				do vídeo ou parte deles. Você pode querer remover um ou outro para manter sua Timeline
+				arrumada, e há uma maneira fácil de fazer a seleção correta: se a seleção vinculada esti ver
+				ati vada, você pode temporariamente substi tuí-lo.
 			</p>
 
 			<p>
-				Enquadrar é decidir o que faz parte do filme em cada momento de sua realização. Enquadrar 
-				também é determinar o modo como o espectador perceberá o mundo que está	sendo criado pelo filme.
+				Clique na Selecti on Tool e tente clicar em alguns segmentos de sua Timeline mantendo a tecla
+				Alt pressionada. Premiere Pro ignora o link entre partes de vídeo e áudio de seus clips.
+			</p>
+
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_21.png') }}" alt="guia1">
+				</figure>
+			</div>
+
+			<h5>Dividindo Clips</h5>
+
+			<p>
+				Também é comum adicionar um clipe a uma seqüência e então perceber que você precisa divide-lo 
+				em duas partes. Talvez você queira pegar apenas uma seção de um clipe e usá-lo como
+				um corte, ou talvez você queira separar o início e o fi m para criar espaço para novos clips.
 			</p>
 
 			<p>
-				O cinema e a TV utilizam dois meios para estabelecer a comunicação: a imagem e o som.
-				O som se divide em três categorias: locução, trilha sonora e efeito sonoro.
+				Razor Tool
+				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_22.png') }}" alt="guia"> 
+				– Use a Razor Tool apenas clicando nas trilhas desejadas. Essa técnica não
+				exige que a Timeline esteja selecionada, basta apontar na parte da trilha que deseja, e se
+				orientar pela linha que marca o corte.
+			</p>
+
+			<h5>Dividir usando o Telcado</h5>
+
+			<p>
+				Pressione CTRL+K para realizer um corte aparti r do posicionamento defi nido pelo marcador de tempo na trilha desejada.
 			</p>
 
 			<p>
-				Já a imagem, constrói sua comunicação de duas formas: pelo conteúdo da imagem e pela
-				forma com que captamos este conteúdo. O conteúdo é responsável pelo sentido lógico e racional. 
-				A forma potencializa ou minimiza a dramaticidade do conteúdo.
+				Os clipes que eram originalmente contí nuos conti nuarão a ser reproduzidos conti nuarão a
+				ser reproduzidos da mesma forma, a menos que você os mova uu faça ajustes separados em
+				diferentes partes.
+			</p>
+
+			<h5>Juntando Edições</h5>
+
+			<p>
+				Você pode juntar os clips divididos, caso eles ainda estejam na mesma ordem. Para isso, clique
+				Timeline Display Setti ngs e selecionar a opção Show Through Edits para exibir um no botão
+				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_23.png') }}" alt="guia"> 
+				ícone especial entre as edições.
+			</p>
+
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_24.png') }}" alt="guia1">
+				</figure>
+			</div>
+
+			<p>
+				Você pode juntar clips que possuem o ícone Through Edits, clique com o botão direito do mouse 
+				e escolha a opção Join Through Edits.<br/>
+				Também é possível juntar os clips deletando o ícone Through Edits.
+			</p>
+
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_25.png') }}" alt="guia1">
+				</figure>
+			</div>
+		
+			<h5>Vinculando e desvinculando clipes</h5>
+		
+			<p>
+				Você pode desligar e ligar o link entre um vídeo conectado e um segmento de áudio facilmente. 
+				Basta selecionar o clip ou os clips que deseja alterar, clique com o botão direito do mouse
+				em cada um deles e escolha Unlink. Você irá perceber o desvinculo através do sumiço de uma
+				letra “V” que encontrava-se na trilha, representando este vínculo. 
+			</p>
+
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_26.png') }}" alt="guia1">
+				</figure>
+			</div>
+
+			<p>
+				Você pode vincular um clipe com seu áudio novamente selecionando os dois segmentos do
+				clips, clicando com o botão direito do mouse em umdeles, e escolhendo Link. A letra “V” representando 
+				o vínculo, retornará. Não há nenhum dano em vincular ou desvincular clips, isso
+				não mudará a forma com que o Premiere Pro reproduz sua sequência. Isso apenas lhe dá a
+				fl exibilidade para trabalhar com clipes da maneira que você deseja.
+			</p>
+
+			<h5>Arrastando Clips</h5>
+
+			<p>
+				No topo da Timeline, você verá o Snap Butt on
+				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_27.png') }}" alt="guia"> 
+				clips irão se encaixar automati camente entre suas margens quando arrastados. Esse recurso
+				será úti l para evitar que clips sejam sobescrevidos.
+			</p>
+
+			<h5>Aparar na Timeline</h5>
+
+			<p>
+			Ao clicar no ponto de edição com a Selecti on Tool, a ferramenta apresenta as escolhas Trim in
+			<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_28.png') }}" alt="guia"> 
+			ou Trim out 
+			<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_29.png') }}" alt="guia"> 
+			, dependendo de que lado do ponto de edição você clica.
 			</p>
 
 			<p>
-				O enquadramento depende de três elementos: o plano, a altura do ângulo e o lado do ângulo. 
-				Plano é uma das palavras mais comuns e mais escorregadias do cinema. Além de ser
-				uma noção da estrutura do filme, ele também é o principal componente do enquadramento.
-				Basicamente, poderíamos dizer que escolher o plano é determinar qual é distância entre a
-				câmera e o objeto que está sendo filmado, levando em consideração o tipo de lente que está
-				sendo usado. Mas, em vez de explicar com conceitos, é bem mais fácil explicar como as coisas
-				funcionam na prática.
+				Você pode alterar o ponto In ou Out do clip, arrastando seu ponto de edição com a ferramenta
+				de seleção no painel Timeline. À medida que você arrasta, o ponto In ou Out atual aparece
+				no Monitor de Programa.
+			</p>
+
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_30.png') }}" alt="guia1">
+				</figure>
+			</div>
+
+			<p>
+				Uma dica de ferramenta exibe o número de quadros que você está cortando: um valor negati -
+				vo se você esti ver arrastando a borda em direção ao início da seqüência e um número positi vo
+				se você esti ver arrastando para o fi nal da seqüência.
+			</p>
+
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_31.png') }}" alt="guia1">
+				</figure>
+			</div>
+
+			<p>
+				Você não pode cortar os pontos de entrada e saída originais da fonte.
+			</p>
+
+			<h5>Rippe Edit e Rollig Edit</h5>
+
+			<p>
+				Quando você deseja ajustar o corte, ou o ponto de edição, entre dois clipes, use variações de
+				corte simples, conhecidas como ripple edits e rolling edits.<br/>
+				Usar ferramentas especializadas, faz ajustes em uma única ação que de outra forma exigiria
+				várias etapas para realizar.
 			</p>
 
 			<p>
-				A distância do plano em que a câmera capta o personagem é igual à distância do personagem para o espectador.
+				Quando você usa Ripple Edit e Rolling Edit com ferramentas de corte, os quadros afetados
+				aparecem no Programa Monitor lado a lado.
 			</p>
 
+			<h5>
+				Rollig Edit
+				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_32.png') }}" alt="guia"> 
+			
+			</h5>
+
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_33.png') }}" alt="guia1">
+				</figure>
+			</div>
+
 			<p>
-				Plano de câmera é o nome dado a uma imagem capturada por uma câmera de cinema ou
-				vídeo, que enquadre algo, geralmente um ser humano, de uma forma previamente definida.
-				O primeiro cineasta a nomear e padronizar estes enquadramentos foi o norte-americano David Griffith 
-				e, por esta razão, ele é considerado por algumas escolas de cinema o pai da linguagem cinematográfica.<br/>
-				Criada em uma época em que o cinema ainda era mudo, a linguagem de planos e movimentos
-				tem o importante papel de desenvolver uma narrativa visual compreensível a todos. De certa
-				forma, a linguagem deu ao cinema a oportunidade de ser o primeiro veículo de comunicação
-				de massas globalizado; foi sua incapacidade de transmitir sons sincronizados que forçou o
-				cinema a desenvolver a narrativa visual como única forma de comunicação. O resultado foi a
-				produção de filmes que podiam ser exibidos sem nenhum tipo de adaptação.
+				Uma edição rolling move de modo efi ciente o ponto de edição entre clips, preservando a posição 
+				de outros clips no tempo e mantendo a duração total da sequência. Pressionando a Tecla
+				Alt ao arrastar o ponto de edição, permite alterar a posição do ponto, ignorando a ligação
+				entre o video e o áudio. Com essa ação, podemos criar um corte do ti po J-Cut ou L-Cut.
+			</p>
+
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_34.png') }}" alt="guia1">
+				</figure>
+			</div>
+
+			<h5>
+				Ripple Edit
+				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_35.png') }}" alt="guia"> 
+			</h5>
+
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_36.png') }}" alt="guia1">
+				</figure>
+			</div>
+
+			<p>
+				Uma edição de ripple apara um clipe e altera os clipes subseqüentes na faixa pela quanti dade
+				que você cortar. Cortar um clipe pela edição de ripple muda todos os clipes após o corte no
+				tempo; por outro lado, estender um clipe desloca os clipes que seguem o corte em frente no
+				tempo. Quando você está fazendo uma edição de ripple, o espaço vazio de um lado do corte
+				é tratado como um clipe e as mudanças no tempo, assim como um clipe seria. Pressionando a
+				Tecla Alt, quando você começa a executar uma edição ripple ignora o link entre vídeo e áudio.
 			</p>
 
 
