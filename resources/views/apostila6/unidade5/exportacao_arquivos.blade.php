@@ -53,12 +53,13 @@
 				Caso o Adobe Media Encoder não esteja carregado quando o vídeo for adicionado a fila, ele
 				será adicionado imediatamente quando o programa for carregado.
 				Para concluir a exportação, basta clicar no botão Start Queue
+				 <span style="float: right; margin:0px"><img src="{{ asset('assets/img/video_edition/unit5/imagem_unit5_4.png') }}" alt="guia1"></span>
 			</p>
-			<div class="direita">
+			{{-- <div class="direita">
 					<figure>
 							<img src="{{ asset('assets/img/video_edition/unit5/imagem_unit5_4.png') }}" alt="guia1">
 					</figure>
-			</div>
+			</div> --}}
 			<h5>Formatos de Exportação</h5>
 			<p>Para exportar um arquivo usando o Adobe Media Encoder, selecione um formato na caixa de diálogo
 				</p>
