@@ -2774,6 +2774,9 @@
                             <a href="{{route('apostila6', ['unidade2', 'ferramentas_de_edicao'])}}" data-etapa="ferramentas_de_edicao"><i class="material-icons suave">record_voice_over</i>Ferramentas de Edição</a>
                         </li>
                         <li>
+                            <a href="{{route('apostila6', ['unidade2', 'ajuste_de_audio'])}}" data-etapa="ajuste_de_audio"><i class="material-icons suave">record_voice_over</i>Ajuste de audio</a>
+                        </li>
+                        <li>
                             <a href="{{route('apostila6', ['unidade2', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
                         </li>
                     </ul>
