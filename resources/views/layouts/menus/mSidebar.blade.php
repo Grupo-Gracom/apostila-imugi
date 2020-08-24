@@ -2754,9 +2754,6 @@
                             <a href="{{route('apostila6', ['unidade1', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i> Apresentação</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila6', ['unidade1', 'aula_2'])}}" data-etapa="aula_2"><i class="material-icons suave">record_voice_over</i> Aula 2</a>
-                        </li>
-                        <li>
                             <a href="{{route('apostila6', ['unidade1', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
                         </li>
                     </ul>
@@ -2776,9 +2773,6 @@
                         <li>
                             <a href="{{route('apostila6', ['unidade2', 'ajuste_de_audio'])}}" data-etapa="ajuste_de_audio"><i class="material-icons suave">record_voice_over</i>Ajuste de audio</a>
                         </li>
-                        <li>
-                            <a href="{{route('apostila6', ['unidade2', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
-                        </li>
                     </ul>
                 </li>
                 <!--UNIDADE 3-->
@@ -2791,19 +2785,10 @@
                             <a href="{{route('apostila6', ['unidade3', 'tipos_de_corte'])}}" data-etapa="tipos_de_corte"><i class="material-icons suave">record_voice_over</i>Tipos de Corte</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila6', ['unidade3', 'atividades_tiposde_de_corte'])}}" data-etapa="atividades_tiposde_de_corte"><i class="material-icons suave">record_voice_over</i>Atividades Tipos de corte</a>
-                        </li>
-                        <li>
                             <a href="{{route('apostila6', ['unidade3', 'projetct_manager_adoble_clip'])}}" data-etapa="projetct_manager_adoble_clip"><i class="material-icons suave">record_voice_over</i>Project Manager e Adobe Clip</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila6', ['unidade3', 'atividades_project_manager_adobe_clip'])}}" data-etapa="atividades_project_manager_adobe_clip"><i class="material-icons suave">record_voice_over</i>Atividades - Project Manager Adobe Clip</a>
-                        </li>
-                        <li>
                             <a href="{{route('apostila6', ['unidade3', 'aula_09'])}}" data-etapa="aula_09"><i class="material-icons suave">record_voice_over</i>Title, Effects Controls, Créditos finais</a>
-                        </li>
-                        <li>
-                            <a href="{{route('apostila6', ['unidade3', 'atividades_aula_09'])}}" data-etapa="atividades_aula_09"><i class="material-icons suave">record_voice_over</i>Atividades - Title, Effects Controls, Créditos finais</a>
                         </li>
                     </ul>
                 </li>

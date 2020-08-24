@@ -46,13 +46,13 @@
 				<i> Resulting Project</i> – Cria um novo projeto com novos arquivos de mídia com base apenas em
 				partes cortadas de clipes que você incluiu em suas seqüências ou cria um novo projeto que
 				tenha cópias completas dos clips que você incluiu em suas seqüências, seja em seu format
-				original ou como versões transcodifi cadas.
+				original ou como versões transcodificadas.
 			</p>
 
 			<p>
-				<i> Include Handles</i> – Se você esti ver criando um projeto aparado, usando a opção Consolidate
-				and Transcode, adiciona o número de quadros que você especifi ca as novas versões cortadas
-				em suas sequências. O conteúdo extra oferece fl exbilidade para cortar e ajustar o tempo em
+				<i> Include Handles</i> – Se você estiver criando um projeto aparado, usando a opção Consolidate
+				and Transcode, adiciona o número de quadros que você especifica as novas versões cortadas
+				em suas sequências. O conteúdo extra oferece flexbilidade para cortar e ajustar o tempo em
 				suas edições mais tarde.
 			</p>
 			<p>
@@ -196,7 +196,12 @@
 				<figure>
 					<img src="{{ asset('assets/img/video_edition/unit3/imagem_unit3_15.png') }}" alt="L – Cut">
 				</figure>
-			</div><br>
+			</div>
+
+			<h5 class="barlow center-align">A T I V I D A D E S</h5>
+            <p style="margin-top: 16px"><b>1.</b>  Configurar projetos anteriores usando o project manager.</p>
+			<p style="margin-top: 16px"><b>2.</b>  Realizar ediçoes basicas usando o Adobe Clip.</p>
+
 
 
 		</div>

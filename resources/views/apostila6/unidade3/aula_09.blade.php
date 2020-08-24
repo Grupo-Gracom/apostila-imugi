@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 3 | Title, Eff ects Controls, Créditos fi nais
+@section('titulo','Unit 3 | Title, Eff ects Controls, Créditos finais
 Type')
 @section('conteudo')
 <!-- WRAPPER ALL -->
@@ -14,7 +14,7 @@ Type')
 			<h3 class="barlow">UNIT 3</h3>
 			<h5 class="barlow upper">Aula 09 – Title, Effects Controls, Créditos finais
 				Type</h5>
-			<h5>Type Tool (Title) e o Painel Essenti al Graphics</h5>
+			<h5>Type Tool (Title) e o Painel Essential Graphics</h5>
 			<p>
 				Ao adicionar texto a um título, você pode usar qualquer fonte no seu sistema. Você pode
 				copiar e colar objetos de texto formatados entre o Premiere Pro Titler e outros aplicativos.
@@ -30,8 +30,8 @@ Type')
 			</p><br>
 			<h5>Type Text sem limites</h5>
 			<p>
-				Escolha entre as ferramentas Type Tool e Verti cal Type Tool para digitar um texto na horizontal
-				e verti cal respecti vamente.
+				Escolha entre as ferramentas Type Tool e Vertical Type Tool para digitar um texto na horizontal
+				e vertical respectivamente.
 			</p><br>
 			<div class="container">
 				<figure>
@@ -102,7 +102,7 @@ Type')
 				da imagem. Assim, a posição padrão para um clipe de 1280 × 720 seria de 640,360; Isto é, o
 				centro exato.
 			</p><br>
-			<h5>Scale(Scale Height, quando a opção Uniform Scale esti ver desabilitada)</h5>
+			<h5>Scale(Scale Height, quando a opção Uniform Scale estiver desabilitada)</h5>
 			<p>
 				Os clipes estão configurados ao máximo tamanho por padrão (100%). Para reduzir um clipe,
 				reduza este número. Você pode escalar até 10 000%, mas isso tornará a imagem pixelada
@@ -112,12 +112,12 @@ Type')
 				Desmarque Uniform Scale para tornar disponível a Largura de Escala. Isso permite que você
 				altere a largura e a altura do grampo independentemente.
 			</p>
-			<h5>Rotati on</h5>
+			<h5>Rotation</h5>
 			<p>
 				Você pode girar uma imagem ao longo do eixo z Girando o controle giratório para cima. Você
 				pode inserir graus ou um número de rotações. Por exemplo, 450 é o mesmo que 1 x 90 (o 1
-				conta como um total de 360-Giro em grau). Os números positi vos fornecem rotação no senti -
-				do horário, e os números negati vos dão rotação anti -horária.
+				conta como um total de 360-Giro em grau). Os números positivos fornecem rotação no sentido 
+				horário, e os números negativos dão rotação anti-horária.
 			</p><br>
 			<h5>Anchor Point</h5>
 			<p>
@@ -161,7 +161,7 @@ Type')
 				</figure>
 			</div><br>
 			<p>
-				Adicionando modelos Moti on Graphics a sua sequência <br>
+				Adicionando modelos Motion Graphics a sua sequência <br>
 				1.Selecione o modelo que deseja usar e arraste-o para uma faixa de vídeo em sua seqüência.
 			</p><br>
 			<div class="container">
@@ -210,8 +210,8 @@ Type')
 			<p>
 				1.Clicar no menu File–New–Legacy Title. <br>
 				2.No painel New Title, configurar Width and Height (largura e altura do quadro), Timebase
-				(taxa de quadros), Pixel Aspect Ratio (aspecto de tela), ou simplesmente manter as confi -
-				gurações atuais, escolher o nome do Title, para em seguida clicar em OK.
+				(taxa de quadros), Pixel Aspect Ratio (aspecto de tela), ou simplesmente manter as configurações 
+				atuais, escolher o nome do Title, para em seguida clicar em OK.
 			</p><br>
 			<div class="container">
 				<figure>
@@ -266,10 +266,9 @@ Type')
 				usando as opções Preroll, Ease In, Ease Out ou Postroll.
 			</p>
 
-
-
-
-
+			<h5 class="barlow center-align">A T I V I D A D E S</h5>
+            <p style="margin-top: 16px"><b>1.</b>  Criar creditos inicais de abertura para um video ou curta.</p>
+			<p style="margin-top: 16px"><b>2.</b>  Criar creditos finais para encerramento de um video ou curta.</p>
 
 
 		</div>

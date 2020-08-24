@@ -14,36 +14,36 @@
 			<h5 class="barlow upper">Aula 07 – Tipos de Corte, Transições</h5>
 			<h5>Tipos de Corte</h5>
 			<p>
-				Determinar “onde corta” é o objeti vo principal da montagem. O corte está previsto na decupagem
-				e, na hora da fi lmagem, quando o diretor grita “CORTA!” está determinando que a
-				câmara pode ser desligada, pois o ponto de corte que ele prevê para o fi lme já passou, geralmente
+				Determinar “onde corta” é o objetivo principal da montagem. O corte está previsto na decupagem
+				e, na hora da filmagem, quando o diretor grita “CORTA!” está determinando que a
+				câmara pode ser desligada, pois o ponto de corte que ele prevê para o filme já passou, geralmente
 				alguns segundos atrás. Mas é o montador, mais tarde, que vai escolher exatamente em
 				que momento o plano “A” será interrompido para dar lugar ao plano “B”.
 			</p><br>
 			<p>
 				Essa noção de “A”/B” é muito importante na montagem. O corte sempre estabelece uma
-				relação entre dois planos, com exceção do começo e do fi m do fi lme, quando a relação se dá
-				com os créditos (“letreiros”) iniciais e fi nais. Numa conversa com o montador, ao se discuti r
+				relação entre dois planos, com exceção do começo e do fim do filme, quando a relação se dá
+				com os créditos (“letreiros”) iniciais e finais. Numa conversa com o montador, ao se discutir
 				o ponto exato de um corte, é comum que sejam usadas frases como: “O plano A está muito
 				longo”, ou “Tira dois quadros do início do plano B”, ou “Precisamos de mais um segundo no
-				fi nal do plano A”.
+				final do plano A”.
 			</p><br>
 
 			<p>
-				Quando corta, o montador está organizando e dando ritmo ao fi lme. Além disso, ele deve tomar
+				Quando corta, o montador está organizando e dando ritmo ao filme. Além disso, ele deve tomar
 				cuidado com a <b>CONTINUIDADE</b>, isto é, a sensação que o espectador tem de que a história
-				segue em frente “naturalmente”, sem dar pulos incômodos ou que desorientam a narrati va. É
+				segue em frente “naturalmente”, sem dar pulos incômodos ou que desorientam a narrativa. É
 				claro que você pode querer exatamente isso: incomodar e desorientar o espectador.
-				(fonte: www.primeirofi lme.com.br)
+				(fonte: www.primeirofilme.com.br)
 			</p>
 
 			<h5>Hard Cut (The Standart)</h5>
 
 			<p>
-				O Hard Cut é o corte básico na edição. Esse ti po de corte é uti lizado quando quando você quer
-				cortar de um clip para outro sem nenhum ti po de transição, ou quando você corte do fi m de
-				um clip para o incio de outro. O único lado ruim do Hard Cut é ele dá a menor quanti dade de
-				signifi cado visual.
+				O Hard Cut é o corte básico na edição. Esse tipo de corte é utilizado quando quando você quer
+				cortar de um clip para outro sem nenhum tipo de transição, ou quando você corte do fim de
+				um clip para o incio de outro. O único lado ruim do Hard Cut é ele dá a menor quantidade de
+				significado visual.
 			</p>
 
 			<h5>Jump Cut</h5>
@@ -52,13 +52,13 @@
 				O Jump Cut é um corte seco feito em uma sequência de imagem do mesmo plano onde se
 				avança no tempo. É muito usado por youtubers para deixar o vídeo mais dinâmico, cortando
 				a “respiração” e pausas. No cinema a aplicação do jump cut é mais abrangente, serve para
-				transmiti r urgência ou criar a sensação de avanço no tempo.
+				transmitir urgência ou criar a sensação de avanço no tempo.
 			</p>
 
 			<h5>L – Cut e J-Cut</h5>
 
 			<p>
-				O L-Cut é um ti po de corte que acontece quando o áudio do primeiro corte se prolonga e é
+				O L-Cut é um tipo de corte que acontece quando o áudio do primeiro corte se prolonga e é
 				transferido para o segundo.
 			</p>
 
@@ -204,6 +204,11 @@
 					<img src="{{ asset('assets/img/video_edition/unit3/imagem_unit3_8.png') }}" alt="L – Cut">
 				</figure>
 			</div><br>
+
+			<h5 class="barlow center-align">A T I V I D A D E S</h5>
+            <p style="margin-top: 16px"><b>1.</b>  Criar transições entre cenas de videos capturados com a camera.</p>
+			<p style="margin-top: 16px"><b>2.</b>  Aplicar tecnicas de tipos de corte apresentados em sala usando tecnicas de edição.</p>
+
 		</div>
 	</div>
 

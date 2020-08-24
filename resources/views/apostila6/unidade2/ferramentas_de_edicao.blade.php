@@ -30,11 +30,11 @@
 				A maneira mais simples de selecionar um clip em uma seqüência é clicar nele. Tenha cuidado
 				para não clicar duas vezes pois isso abrirá o clip no Source Monitor, pronto para o ajuste das
 				marcações In ou Out. Porém, caso isso seja feito, as alterações sejam feitas no painel Source,
-				elas automati camente serão atualizadas na ti mline. Para acioná-la podemos clicar no botão
+				elas automaticamente serão atualizadas na timline. Para acioná-la podemos clicar no botão
 				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_18.png') }}" alt="guia"> 
 				ou através da tecla de atalho “V”. Se você pressionar a tecla Shift enquanto clica com a
 				Selection Tool, você pode selecionar ou deselecionar clips adicionais. Você pode também criar
-				seleções de clips criando caixas de seleção ao arrastar eo mouse na ti meline.
+				seleções de clips criando caixas de seleção ao arrastar eo mouse na timeline.
 			</p>
 
 			<h5>Track Select Forward Tool</h5>
@@ -46,9 +46,9 @@
 			</div>
 
 			<p>
-				Usando a Track Select Forward, cada clipe, em cada faixa, aparti r da faixa que você seleciona
-				até o fi nal da seqüência é selecionado.<br/>
-				Isso pode ser úti l se você quiser adicionar uma lacuna à sua seqüência para criar espaço para
+				Usando a Track Select Forward, cada clipe, em cada faixa, apartir da faixa que você seleciona
+				até o final da seqüência é selecionado.<br/>
+				Isso pode ser útil se você quiser adicionar uma lacuna à sua seqüência para criar espaço para
 				mais clips. Você pode arrastar todos os clipes selecionados para a direita para introduzir uma
 				lacuna.
 			</p>
@@ -70,12 +70,12 @@
 			<p>
 				É comum adicionar um clipe a uma seqüência e depois perceber que não precisa do áudio ou
 				do vídeo ou parte deles. Você pode querer remover um ou outro para manter sua Timeline
-				arrumada, e há uma maneira fácil de fazer a seleção correta: se a seleção vinculada esti ver
-				ati vada, você pode temporariamente substi tuí-lo.
+				arrumada, e há uma maneira fácil de fazer a seleção correta: se a seleção vinculada estiver
+				ativada, você pode temporariamente substituí-lo.
 			</p>
 
 			<p>
-				Clique na Selecti on Tool e tente clicar em alguns segmentos de sua Timeline mantendo a tecla
+				Clique na Selection Tool e tente clicar em alguns segmentos de sua Timeline mantendo a tecla
 				Alt pressionada. Premiere Pro ignora o link entre partes de vídeo e áudio de seus clips.
 			</p>
 
@@ -90,7 +90,7 @@
 			<p>
 				Também é comum adicionar um clipe a uma seqüência e então perceber que você precisa divide-lo 
 				em duas partes. Talvez você queira pegar apenas uma seção de um clipe e usá-lo como
-				um corte, ou talvez você queira separar o início e o fi m para criar espaço para novos clips.
+				um corte, ou talvez você queira separar o início e o fim para criar espaço para novos clips.
 			</p>
 
 			<p>
@@ -104,11 +104,11 @@
 			<h5>Dividir usando o Telcado</h5>
 
 			<p>
-				Pressione CTRL+K para realizer um corte aparti r do posicionamento defi nido pelo marcador de tempo na trilha desejada.
+				Pressione CTRL+K para realizer um corte apartir do posicionamento definido pelo marcador de tempo na trilha desejada.
 			</p>
 
 			<p>
-				Os clipes que eram originalmente contí nuos conti nuarão a ser reproduzidos conti nuarão a
+				Os clipes que eram originalmente contí nuos continuarão a ser reproduzidos continuarão a
 				ser reproduzidos da mesma forma, a menos que você os mova uu faça ajustes separados em
 				diferentes partes.
 			</p>
@@ -117,7 +117,7 @@
 
 			<p>
 				Você pode juntar os clips divididos, caso eles ainda estejam na mesma ordem. Para isso, clique
-				Timeline Display Setti ngs e selecionar a opção Show Through Edits para exibir um no botão
+				Timeline Display Settings e selecionar a opção Show Through Edits para exibir um no botão
 				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_23.png') }}" alt="guia"> 
 				ícone especial entre as edições.
 			</p>
@@ -168,14 +168,14 @@
 			<p>
 				No topo da Timeline, você verá o Snap Butt on
 				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_27.png') }}" alt="guia"> 
-				clips irão se encaixar automati camente entre suas margens quando arrastados. Esse recurso
-				será úti l para evitar que clips sejam sobescrevidos.
+				clips irão se encaixar automaticamente entre suas margens quando arrastados. Esse recurso
+				será útil para evitar que clips sejam sobescrevidos.
 			</p>
 
 			<h5>Aparar na Timeline</h5>
 
 			<p>
-			Ao clicar no ponto de edição com a Selecti on Tool, a ferramenta apresenta as escolhas Trim in
+			Ao clicar no ponto de edição com a Selection Tool, a ferramenta apresenta as escolhas Trim in
 			<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_28.png') }}" alt="guia"> 
 			ou Trim out 
 			<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit2/imagem_unit2_29.png') }}" alt="guia"> 
@@ -195,9 +195,9 @@
 			</div>
 
 			<p>
-				Uma dica de ferramenta exibe o número de quadros que você está cortando: um valor negati -
-				vo se você esti ver arrastando a borda em direção ao início da seqüência e um número positi vo
-				se você esti ver arrastando para o fi nal da seqüência.
+				Uma dica de ferramenta exibe o número de quadros que você está cortando: um valor negativo 
+				se você estiver arrastando a borda em direção ao início da seqüência e um número positivo
+				se você estiver arrastando para o final da seqüência.
 			</p>
 
 			<div class="container">
@@ -237,10 +237,10 @@
 			</div>
 
 			<p>
-				Uma edição rolling move de modo efi ciente o ponto de edição entre clips, preservando a posição 
+				Uma edição rolling move de modo eficiente o ponto de edição entre clips, preservando a posição 
 				de outros clips no tempo e mantendo a duração total da sequência. Pressionando a Tecla
 				Alt ao arrastar o ponto de edição, permite alterar a posição do ponto, ignorando a ligação
-				entre o video e o áudio. Com essa ação, podemos criar um corte do ti po J-Cut ou L-Cut.
+				entre o video e o áudio. Com essa ação, podemos criar um corte do tipo J-Cut ou L-Cut.
 			</p>
 
 			<div class="container">
@@ -261,7 +261,7 @@
 			</div>
 
 			<p>
-				Uma edição de ripple apara um clipe e altera os clipes subseqüentes na faixa pela quanti dade
+				Uma edição de ripple apara um clipe e altera os clipes subseqüentes na faixa pela quantidade
 				que você cortar. Cortar um clipe pela edição de ripple muda todos os clipes após o corte no
 				tempo; por outro lado, estender um clipe desloca os clipes que seguem o corte em frente no
 				tempo. Quando você está fazendo uma edição de ripple, o espaço vazio de um lado do corte
@@ -294,7 +294,7 @@
 			<p>
 				Uma edição slip muda os pontos de entrada e saída de um clip para frente ou para trás pelo
 				mesmo número de quadros em uma única ação. Ao arrastar com a ferramenta Slip, você pode
-				alterar os quadros iniciais e fi nais de um clip sem alterar a duração ou afetar clips adjacentes.
+				alterar os quadros iniciais e finais de um clip sem alterar a duração ou afetar clips adjacentes.
 			</p>
 
 			<div class="container">
@@ -331,9 +331,9 @@
 			<h5>Adobe Media Encoder</h5>
 
 			<p>
-				Premiere Pro e outras aplicações empregam o Adobe Media Encoder; um aplicati vo de codificação 
-				autônomo. Quando você especifi ca confi gurações de exportação na caixa de diálogo
-				Export Setti ngs e clica em Queue, o Premiere Pro envia a solicitação de exportação para o
+				Premiere Pro e outras aplicações empregam o Adobe Media Encoder; um aplicativo de codificação 
+				autônomo. Quando você especifica configurações de exportação na caixa de diálogo
+				Export Settings e clica em Queue, o Premiere Pro envia a solicitação de exportação para o
 				Adobe Media Encoder.
 			</p>
 
@@ -346,8 +346,8 @@
 
 			<p>
 				Quando o Adobe Media Encoder está sendo processado e exportado em segundo plano, você
-				pode conti nuar a trabalhar no Premiere Pro. Adobe Media Encoder codifi ca a versão mais recente 
-				de cada sequência na fi la.
+				pode continuar a trabalhar no Premiere Pro. Adobe Media Encoder codifica a versão mais recente 
+				de cada sequência na fila.
 			</p>
 
 			<div class="container">
