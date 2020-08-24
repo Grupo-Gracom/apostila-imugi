@@ -2791,7 +2791,13 @@
                             <a href="{{route('apostila6', ['unidade3', 'projetct_manager_adoble_clip'])}}" data-etapa="projetct_manager_adoble_clip"><i class="material-icons suave">record_voice_over</i>Project Manager e Adobe Clip</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila6', ['unidade3', 'atividades_project_manager_adobe_clip'])}}" data-etapa="atividades_project_manager_adobe_clip"><i class="material-icons suave">record_voice_over</i>Atividades Project Manager Adobe Clip</a>
+                            <a href="{{route('apostila6', ['unidade3', 'atividades_project_manager_adobe_clip'])}}" data-etapa="atividades_project_manager_adobe_clip"><i class="material-icons suave">record_voice_over</i>Atividades - Project Manager Adobe Clip</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade3', 'aula_09'])}}" data-etapa="aula_09"><i class="material-icons suave">record_voice_over</i>Title, Effects Controls, Créditos finais</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade3', 'atividades_aula_09'])}}" data-etapa="atividades_aula_09"><i class="material-icons suave">record_voice_over</i>Atividades - Title, Effects Controls, Créditos finais</a>
                         </li>
                     </ul>
                 </li>
