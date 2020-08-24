@@ -116,7 +116,7 @@ Type')
 			<p>
 				Você pode girar uma imagem ao longo do eixo z Girando o controle giratório para cima. Você
 				pode inserir graus ou um número de rotações. Por exemplo, 450 é o mesmo que 1 x 90 (o 1
-				conta como um total de 360-Giro em grau). Os números positivos fornecem rotação no sentido 
+				conta como um total de 360-Giro em grau). Os números positivos fornecem rotação no sentido
 				horário, e os números negativos dão rotação anti-horária.
 			</p><br>
 			<h5>Anchor Point</h5>
@@ -210,7 +210,7 @@ Type')
 			<p>
 				1.Clicar no menu File–New–Legacy Title. <br>
 				2.No painel New Title, configurar Width and Height (largura e altura do quadro), Timebase
-				(taxa de quadros), Pixel Aspect Ratio (aspecto de tela), ou simplesmente manter as configurações 
+				(taxa de quadros), Pixel Aspect Ratio (aspecto de tela), ou simplesmente manter as configurações
 				atuais, escolher o nome do Title, para em seguida clicar em OK.
 			</p><br>
 			<div class="container">
@@ -240,23 +240,17 @@ Type')
 			<p>
 				2.Na janela de creiação do Title, clique na área de edição e arraste para criar uma caixa de
 				texto, ou use o botão Área Type Tool.
-				<div class="container">
-					<figure>
-						<img src="{{ asset('assets/img/video_edition/unit3/imagem_unit3_28.png') }}" alt="Type Text sem limites">
-					</figure>
-				</div><br>
+				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit3/imagem_unit3_28.png') }}" alt="Área Type Tool">
+				
 				<p>
 					3.Digite o cole o texto na caixa criada e em seguida clique na Selection Tool para
 					finalizar a edição.
 				</p>
 				<p>
 					4.Após aplicar as formatações desejadas, clique no botão Roll/Crawl Options
+					<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit3/imagem_unit3_29.png') }}" alt="Roll/Crawl">
 				</p>
-				<div class="container">
-					<figure>
-						<img src="{{ asset('assets/img/video_edition/unit3/imagem_unit3_29.png') }}" alt="Type Text sem limites">
-					</figure>
-				</div><br>
+				
 			</p>
 			<p>
 				5.No painel Roll/Crawl Options, escolha Roll no gropo de opões Title Type. <br>
@@ -267,8 +261,8 @@ Type')
 			</p>
 
 			<h5 class="barlow center-align">A T I V I D A D E S</h5>
-            <p style="margin-top: 16px"><b>1.</b>  Criar creditos inicais de abertura para um video ou curta.</p>
-			<p style="margin-top: 16px"><b>2.</b>  Criar creditos finais para encerramento de um video ou curta.</p>
+			<p style="margin-top: 16px"><b>1.</b> Criar creditos iniciais de abertura para um video ou curta.</p>
+			<p style="margin-top: 16px"><b>2.</b> Criar creditos finais para encerramento de um video ou curta.</p>
 
 
 		</div>
