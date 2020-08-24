@@ -49,7 +49,12 @@
 				você não se preocupe tanto com a velocidade do vídeo, você só precisa se certificar de que preenche essa lacuna a qualquer velocidade que precisa ser. O Rate Stretch calcula o suficiente, permitindo que você est que ou comprima a velocidade para o percentual necessário.
 			</p>
 			<p>
+<<<<<<< HEAD
 				Você pode alterar a velocidade de um clipe para se ajustar a uma duração usando a ferramenta Rate Stretch span <img src="{{ asset('assets/img/video_edition/unit5/imagem_unit5_17.png') }}" alt="">
+=======
+				Você pode alterar a velocidade de um clipe para se ajustar a uma duração usando a ferramenta Rate Stretch
+				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit5/imagem_unit5_17.png') }}" alt="guia"> 
+>>>>>>> 9913e140285995c7d1f3983e4aa9d9e6bdb48d1f
 				no Premiere Pro. Selecione a ferramenta Rate Stretch e arraste a borda de um clipe no painel Timeline.
 			</p>
 			<h5>Time Remapping</h5>
@@ -62,7 +67,9 @@
 				executando para frente ou de modo reverso.
 			</p>
 			<p>
-				Na faixa do clip na timeline, expanda a trilha clicando no menu Timeline Display Settings <img src="{{ asset('assets/img/video_edition/unit5/imagem_unit5_18.png') }}" alt=""> e escolha Expand All Tracks. (Certifique-se que a opção Show Video Keyframes, encontra-se marcada.
+				Na faixa do clip na timeline, expanda a trilha clicando no menu Timeline Display Settings 
+				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit5/imagem_unit5_18.png') }}" alt=""> 
+				e escolha Expand All Tracks. (Certifique-se que a opção Show Video Keyframes, encontra-se marcada.
 			</p>
 				<p>
 					Clique com o botão direito no rotulo Fx da faixa de clip e escolha a opção Time Rmapping > Speed.

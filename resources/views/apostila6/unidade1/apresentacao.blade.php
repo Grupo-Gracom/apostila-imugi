@@ -28,9 +28,9 @@
 
 			<p>
 				Atualmente existe uma enorme demanda por conteúdo de vídeo de alta qualidade, e os produtores
-				e editores trabalham em uma constante mudança de tecnologias anti gas para novas.
-				Apesar de toda essa mudança rápida, no entanto, o objeti vo da edição de vídeo é o mesmo:
-				você quer capturar suas fi lmagens e moldá-las , guiado por sua visão original, para que você
+				e editores trabalham em uma constante mudança de tecnologias antigas para novas.
+				Apesar de toda essa mudança rápida, no entanto, o objetivo da edição de vídeo é o mesmo:
+				você quer capturar suas filmagens e moldá-las , guiado por sua visão original, para que você
 				possa se comunicar com seu público.
 			</p>
 
@@ -40,7 +40,7 @@
 				Um arquivo de projeto do Premiere Pro armazena links para todos os arquivos de vídeo e som
 				no seu projeto Premiere Pro. Você também criará pelo menos uma seqüência - ou seja, uma
 				série de clipes que tocam, um após o outro, com efeitos especiais, tí tulos e som, para formar
-				seu trabalho criati vo concluído. Você escolherá quais partes de seus clipes usar e em que ordem
+				seu trabalho criativo concluído. Você escolherá quais partes de seus clipes usar e em que ordem
 				serão tocados. A beleza da edição com o Premiere Pro é que você pode mudar sua mente
 				sobre quase qualquer coisa.
 			</p>
@@ -48,7 +48,7 @@
 			<p>
 				Os arquivos de projeto do Premiere Pro têm a extensão de arquivo .prproj. Iniciar um novo
 				projeto do Premiere Pro é simples. Você cria um novo arquivo de projeto, escolhe uma Seqüência
-				predefi nida e inicia a edição.
+				predefinida e inicia a edição.
 			</p>
 
 			<h5>Configurando um projeto</h5>
@@ -72,7 +72,7 @@
 
 			<p>
 				<b>Open Project</b>: Clique nesse botão para abrir um arquivo de projeto do Adobe Premiere 
-				previamente salvo, e conti nuar a editá-lo.
+				previamente salvo, e continuar a editá-lo.
 			</p>
 
 			<p>
@@ -86,31 +86,31 @@
 			</div>
 
 			<p>
-				Essa caixa de diálog contém duas abas: General e Scratch Disks. Todas as confi gurações nessa
-				caixa de diálogo podem ser modifi cadas posteriormente. Na maioria dos casos, você irá 
+				Essa caixa de diálog contém duas abas: General e Scratch Disks. Todas as configurações nessa
+				caixa de diálogo podem ser modificadas posteriormente. Na maioria dos casos, você irá 
 				preferir daixá-las como estão.
 			</p>
 
 			<h5>Video rendering and playback settings</h5>
 
 			<p>
-				Equanto esti ver trabalhando com clips de vídeo em suas sequencias, é bem provável que você
+				Equanto estiver trabalhando com clips de vídeo em suas sequencias, é bem provável que você
 				queria aplicar alguns efeitos visuais. Alguns efeitos podem ser executados imediatamente,
 				combinando seu vídeo original com o efeito e exibindo os resultados assim que você clica em
 				Play. Quando isso acontece, chamamos de Real-Time Playback.<br/>
-				O Real-ti me playback é preferível pois você pode exibir assisti r os resultados de suas decisões
-				criati vas imediatamente.
+				O Real-time playback é preferível pois você pode exibir assistir os resultados de suas decisões
+				criativas imediatamente.
 			</p>
 
 			<p>
-				Se você usa alguns efeitos ou usa efeitos que não foram projetados para o real-ti me playback,
+				Se você usa alguns efeitos ou usa efeitos que não foram projetados para o real-time playback,
 				seu computador pode não ser capaz de exibir os resultados na taxa de quadros completa.<br/>
 				Entao, o Adobe Premiere Pro irá tentar exibir seus clips de vídeo combinados com os efeitos,
 				mas não mostrará cada quadro por segundo. Quando isso acontece, chamamos de dropping
 				frames.
 			</p>
 			<p>
-				O Premiere Pro exibe linhas coloridas ao longo do topo da ti meline, para mostrar quando um
+				O Premiere Pro exibe linhas coloridas ao longo do topo da timeline, para mostrar quando um
 				trabalho extra é requerido para tocar seu vídeo.
 			</p>
 
@@ -121,23 +121,23 @@
 			</div>
 
 			<p>
-				Caso na caixa de diálogo New Project, o menu Render esti ver disponível, signifi ca que você
-				tem um hardware de gráfi cos em seu computador, que encontra o mínimo de requerimento
+				Caso na caixa de diálogo New Project, o menu Render estiver disponível, significa que você
+				tem um hardware de gráficos em seu computador, que encontra o mínimo de requerimento
 				para aceleração da GPU (graphics processing unit), e está instalado corretamente.
 			</p>
 
 			<h5>Este menu contém duas opções</h5>
 
 			<p>
-				Mercury Playback Engine GPU Accelerati on: Se você escolher essa opção, o Adobe Premiere
-				Pro irá mandar muitas tarefas de playback para o hardware gráfi co em seu computador, dando
-				muitos efeitos real-ti me e fáceis playbacks de formatos mistos em suas sequencias.
+				Mercury Playback Engine GPU Acceleration: Se você escolher essa opção, o Adobe Premiere
+				Pro irá mandar muitas tarefas de playback para o hardware gráfico em seu computador, dando
+				muitos efeitos real-time e fáceis playbacks de formatos mistos em suas sequencias.
 			</p>
 
 			<p>
 				Mercury Playback Engine Soft ware Only: Este é ainda uma maior forma de desempenho e
 				performance, usando nessa performance, todo poder disponível do computador para esse
-				playback. Se você não ti ver acelação de gráfi cos poderodos o sufi ciente em seu computador,
+				playback. Se você não tiver acelação de gráficos poderodos o suficiente em seu computador,
 				somente essa opção estará disponível nesse menu, e você não será capaz de clicar nesse
 				menu.
 			</p>
@@ -148,7 +148,7 @@
 				As próximas duas opções, informa ao Premiere Pro como o tempo de seus clips de vídeo e
 				áudio serão medidos.<br/>
 				Na maioria dos cados, você escolherá as opões padrão: Timecode for video and Samples for
-				audio. Essas confi gurações não mudam a forma com que o Premier Pro executa os clips de
+				audio. Essas configurações não mudam a forma com que o Premier Pro executa os clips de
 				áudio e ou vídeo, apenas a forma com que serão medidos.
 			</p>
 
@@ -156,15 +156,15 @@
 
 			<p>
 				É mais comum gravar vídeos como arquivos de dados com os quais você pode trabalhar imediatamente. 
-				Contudo, se você esti ver trabalhando com material de arquivo, talvez seja necessário
-				capturar a fi ta de vídeo. O Capture Format Setti ngs indica ao Premiere Pro qual formato
-				de fi ta de vídeo você está usando.
+				Contudo, se você estiver trabalhando com material de arquivo, talvez seja necessário
+				capturar a fita de vídeo. O Capture Format Settings indica ao Premiere Pro qual formato
+				de fita de vídeo você está usando.
 			</p>
 
 			<h5>Project item names and label colors</b>
 
 			<p>
-				Uma caixa de verifi cação na parte inferior da caixa de diálogo New Project, se marcada, permite 
+				Uma caixa de verificação na parte inferior da caixa de diálogo New Project, se marcada, permite 
 				você exibir o nome do item do projeto e a cor do rotulo para todas as instancias.
 			</p>
 
@@ -194,7 +194,7 @@
 				Using a project-based setup: Por padrão, o Premiere Pro mantém qualquer mídia recém-criada 
 				em conjunto com o arquivo de projeto (essa opção é a mesma do local do projeto). Manter
 				tudo junto dessa maneira, torna a procura de arquivos associados ao projeto mais simples.
-				Você pode fi car ainda mais organizado movendo quaisquer arquivos de mídia que você pretende 
+				Você pode ficar ainda mais organizado movendo quaisquer arquivos de mídia que você pretende 
 				importar para o seu projeto para a mesma pasta antes de importá-los. Quando você
 				terminar com seu projeto, você pode remover tudo do seu sistema excluindo a pasta em que
 				seu arquivo de projeto é armazenado.
@@ -202,9 +202,9 @@
 
 			<p>
 				Ao lado de cada opção, o botão Browse, é exibido com o intuito de apontar qual pasta será
-				a localização do Scratch Disk confi gurado. Na maioria dos casos, você pode deixar o valor
-				Same as Project que atribui à mesma pasta do projeto confi gurada na aba anterior. Porem, ao
-				indicar uma pasta especifi ca na primeira opçao, basta verificar se as demais apontam para o
+				a localização do Scratch Disk configurado. Na maioria dos casos, você pode deixar o valor
+				Same as Project que atribuià mesma pasta do projeto configurada na aba anterior. Porem, ao
+				indicar uma pasta especifica na primeira opçao, basta verificar se as demais apontam para o
 				mesmo diretório e em seguida, clicar em OK.
 			</p>
 
@@ -223,7 +223,7 @@
 			</div>
 
 			<p>
-				O Workspace Editi ng é o padrão e mais apropriado para projetos em geral. Porém, outros
+				O Workspace Editing é o padrão e mais apropriado para projetos em geral. Porém, outros
 				workspaces para trabalhos específicos, são apresentados como opção. Em todos os casos, o
 				ajuste dos paineis do Adobe Premiere é possivel para costumizar a ampliação ou redução destes, 
 				visando uma forma de trabalho mais apropriada de acordo com o tamanho de sua tela.
@@ -271,9 +271,9 @@
 
 			<p>
 				À medida que você personaliza um Workspace , o aplicativo rastreia suas alterações, armaze-
-				nando o layout mais recente. Para armazenar um layout específi co de forma mais permanente, 
+				nando o layout mais recente. Para armazenar um layout específico de forma mais permanente, 
 				salve um workspace personalizado.<br/>
-				Personalizados salvos aparecem no menu workspace, onde você pode retornar e redefi ni-los.
+				Personalizados salvos aparecem no menu workspace, onde você pode retornar e redefini-los.
 			</p>
 
 			<div class="container">
@@ -288,7 +288,7 @@
 				Você pode encaixar painéis juntos, movê-los para dentro ou para fora dos grupos e desancálos
 				para que eles fl utuem acima da janela do aplicativo.<br/>
 				À medida que você arrasta um painel, zonas de encaixe - áreas nas quais você pode mover o
-				painel – fi cam destacadas. A zona de encaixe que você escolhe determina onde o painel está
+				painel – ficam destacadas. A zona de encaixe que você escolhe determina onde o painel está
 				inserido, e é encaixado e agrupado com outros painéis.
 			</p>
 
@@ -329,9 +329,9 @@
 				Qualquer coisa que você importe no seu projeto Adobe Premiere Pro CC aparecerá no Project
 				Panel. Além de oferecer excelentes ferramentas para navegar em seus clipes e trabalhar com
 				seus metadados, o Project Panel possui pastas especiais, chamadas de bins, que você pode
-				usar para o projeto fi car organizado.<br/>
+				usar para o projeto ficar organizado.<br/>
 				Qualquer coisa que apareça em uma seqüência deve estar no Project Panel. Se você excluir
-				um clipe no Project Panel que já é usado em uma seqüência, o clipe será automati camente
+				um clipe no Project Panel que já é usado em uma seqüência, o clipe será automaticamente
 				removido da sequência. O Premiere Pro avisará se a exclusão de um clipe afetará uma seqüência existente.
 			</p>
 
@@ -344,7 +344,7 @@
 			<h5>Trabalhando com Bins</h5>
 
 			<p>
-				Os Bins (comparti mentos) permitem organizar os clipes dividindo-os em grupos.
+				Os Bins (compartimentos) permitem organizar os clipes dividindo-os em grupos.
 			</p>
 
 			<div class="container">
@@ -363,7 +363,7 @@
 			<p>
 				Cada item no painel do Project possui uma cor de rótulo. Na exibição de lista, a coluna Rótulo
 				mostra a cor do rótulo para cada clipe. Quando você adiciona clipes a uma seqüência, eles são
-				exibidos no painel da ti meline com esta cor do rótulo.
+				exibidos no painel da timeline com esta cor do rótulo.
 			</p>
 
 			<div class="container">
@@ -387,8 +387,8 @@
 
 			<p>
 				Quando você importa itens em um projeto Premiere Pro, você está criando um link do arquivo
-				de mídia original para um item que reside dentro do projeto. Isso signifi ca que você não está
-				realmente modifi cando os arquivos originais, você está apenas manipulando-os em um gerenciamento
+				de mídia original para um item que reside dentro do projeto. Isso significa que você não está
+				realmente modificando os arquivos originais, você está apenas manipulando-os em um gerenciamento
 				 não-destrutivo. Por exemplo, se você optar por editar apenas parte de um clipe em
 				sua sequência, você não está jogando fora a midia não utilizada.
 			</p>
@@ -406,20 +406,20 @@
 
 			<p>
 				Nos seus projetos do Premiere Pro você criará seqüências, nas quais você colocará o videoclipe, 
-				clipes de áudio e gráfi cos. Se necessário, o Premiere Pro adapta vídeos e clipes de áudio
-				que você colocou em uma seqüência para que eles correspondam as confi gurações para essa
+				clipes de áudio e gráficos. Se necessário, o Premiere Pro adapta vídeos e clipes de áudio
+				que você colocou em uma seqüência para que eles correspondam as configurações para essa
 				seqüência.
 			</p>
 
 			<p>
-				Cada seqüência em seu projeto pode ter confi gurações diferentes e você irá escolher configurações 
+				Cada seqüência em seu projeto pode ter configurações diferentes e você irá escolher configurações 
 				que correspondam à mídia original tão precisamente quanto possível. Isso reduz o trabalho que seu sistema deve fazer para reproduzir seus clipes, melhorar o desempenho em
 				tempo real e maximizar a qualidade.
 			</p>
 
 			<p>
-				Criando uma seqüência que combina automati camente com sua fonte
-				Se você não tem certeza de quais confi gurações de seqüência você deve escolher, não se preocupe, 
+				Criando uma seqüência que combina automaticamente com sua fonte
+				Se você não tem certeza de quais configurações de seqüência você deve escolher, não se preocupe, 
 				o Premiere Pro CC tem um atalho especial para criar uma sequência baseada em sua
 				mídia original.
 			</p>
@@ -427,12 +427,12 @@
 			<p>
 				Na parte inferior do painel Project há um menu New Item
 				Você pode usar este menu Para criar novos itens, como seqüências e títulos.
-				Para criar automati camente uma sequência que corresponde à sua mídia, arraste e solte qualquer
+				Para criar automaticamente uma sequência que corresponde à sua mídia, arraste e solte qualquer
 				 clipe (ou multiplos clips) no painel Project até esse New Item.
 			</p>
 
 			<p>
-				Outra forma de criar uma nova sequencia combinando auti mati camente com sua fonte é escolhendo
+				Outra forma de criar uma nova sequencia combinando autimaticamente com sua fonte é escolhendo
 				 a opção New Sequence form Clip, clicando com o botão direito do mouse sob o ícone
 				da mídia no painel Project.
 			</p>
@@ -443,11 +443,11 @@
 				</figure>
 			</div>
 			
-			<h5>PEscolhendo a predefi nição correta</h5>
+			<h5>PEscolhendo a predefinição correta</h5>
 
 			<p>
-				Se você sabe exatamente quais confi gurações você precisa, o Premiere Pro oferece acesso a
-				todas as opções para confi gurar uma seqüência. Se você não tem tanta certeza, pode escolher
+				Se você sabe exatamente quais configurações você precisa, o Premiere Pro oferece acesso a
+				todas as opções para configurar uma seqüência. Se você não tem tanta certeza, pode escolher
 				uma lista de Presets.
 			</p>
 
@@ -464,31 +464,31 @@
 			</div>
 
 			<p>
-				A aba Sequence Presets torna a confi guração de uma sequência muito mais fácil. Quando você
-				escolhe um Preset, o Premiere Pro escolhe as confi gurações para sua seqüência que se aproximam 
+				A aba Sequence Presets torna a configuração de uma sequência muito mais fácil. Quando você
+				escolhe um Preset, o Premiere Pro escolhe as configurações para sua seqüência que se aproximam 
 				de um determinado formato de vídeo e áudio. Depois de escolher uma predefinição,
-				você pode ajustar essas configurações na aba Setti ngs.
+				você pode ajustar essas configurações na aba Settings.
 			</p>
 			<p>
-				Você encontrará uma ampla gama de opções de confi guração predefi nidas para os mais usados
-				 Tipos de mídia suportados. Essas confi gurações são organizadas com base em formatos
-				de câmera (com confi gurações específi cas dentro de uma pasta com o nome do formato de
+				Você encontrará uma ampla gama de opções de configuração predefinidas para os mais usados
+				 Tipos de mídia suportados. Essas configurações são organizadas com base em formatos
+				de câmera (com configurações específicas dentro de uma pasta com o nome do formato de
 				gravação).
 			</p>
 
 			<h5>Personalizando a Sequência</h5>
 
 			<p>
-				Uma vez que você selecionou a predefi nição de seqüência que mais se aproxima do seu vídeo
-				de origem, você pode querer ajustar as confi gurações para se adequar às especifi cidades de
+				Uma vez que você selecionou a predefinição de seqüência que mais se aproxima do seu vídeo
+				de origem, você pode querer ajustar as configurações para se adequar às especificidades de
 				sua seqüência.
 			</p>
 
 			<p>
-				Para começar a fazer ajustes, clique na aba Setti ngs e escolha as opções que melhor se adequam 
+				Para começar a fazer ajustes, clique na aba Settings e escolha as opções que melhor se adequam 
 				à como você gostaria do Premiere Pro para reproduzir seus arquivos de vídeo e áudio.
-				Lembre-se, O Premiere Pro irá adaptar automati camente os clipes que você adiciona à sua
-				Timeline para que ele corresponda suas confi gurações de seqüência, dando-lhe uma taxa de
+				Lembre-se, O Premiere Pro irá adaptar automaticamente os clipes que você adiciona à sua
+				Timeline para que ele corresponda suas configurações de seqüência, dando-lhe uma taxa de
 				quadros padrão e tamanho de moldura, independentemente da Formato original. Este processo
 				 é chamado de conformidade.
 			</p>
@@ -508,9 +508,9 @@
 			</div>
 
 			<p>
-				No lado superior esquerdo do workspace Editi ng do Adobe Premiere Pro, encontramos o painel 
+				No lado superior esquerdo do workspace Editing do Adobe Premiere Pro, encontramos o painel 
 				Source (painel Origem). Podemos usar esse painel para escolher dentre toda a sequência,
-				intervalos pre-defi nidos através de marcações de Entrada e Saida defi nidos na Timeline deste
+				intervalos pre-definidos através de marcações de Entrada e Saida definidos na Timeline deste
 				painel para arrastá-los para uma sequÊncia.<br/>
 				Mark In – O botão Mark In, determina a entrada do intervalo que desejamos inserir
 				na sequência. Ou usar a tecla de atalho “I”.
@@ -534,10 +534,10 @@
 			</div>
 
 			<p>
-				Uma vez que você pre-defi niu as marcações de entrada e saída para os intervalo, podemos
+				Uma vez que você pre-definiu as marcações de entrada e saída para os intervalo, podemos
 				inserí-lo na Timeline de uma sequência já criada ou criar uma nova sequência, apenas arrastando 
 				esse trecho para o painel Timeline ainda sem sequência.
-				Porém, existem diferentes formas de inserir esse trecho na ti meline:
+				Porém, existem diferentes formas de inserir esse trecho na timeline:
 			</p>
 
 			<p>
@@ -546,8 +546,8 @@
 				Source, manter o botão do mouse pressionado, arrastá-lo e soltá-lo na timeline quando o
 				ícone com o sinal de mão com o sinal de adição aparecer.
 				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit1/imagem_unit1_23.png') }}" alt="guia"><br/>
-				Drag Vídeo Only – Essa forma permite inserirmos apenas o vídeo na ti meline, sem que a track
-				de áudio o acompanhe. Podemos uti lizar essa técnica para trabalhar com outro áudio na sequência, 
+				Drag Vídeo Only – Essa forma permite inserirmos apenas o vídeo na timeline, sem que a track
+				de áudio o acompanhe. Podemos utilizar essa técnica para trabalhar com outro áudio na sequência, 
 				não importando o original do vídeo.
 
 			</p>
@@ -555,7 +555,7 @@
 			<p>
 				Para arrastar apenas o vídeo, devemos clicar no ícone Drag Vídeo Only
 				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit1/imagem_unit1_24.png') }}" alt="guia">, 
-				localizado na parte inferior da tela do painel source, arrastá-lo e soltá-lo na ti meline quando o ícone com o
+				localizado na parte inferior da tela do painel source, arrastá-lo e soltá-lo na timeline quando o ícone com o
 				sinal de mão com o sinal de adição aparecer.
 				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit1/imagem_unit1_23.png') }}" alt="guia"><br/>
 				Drag Áudio Only – Essa forma permite inserirmos apenas o áudio na timeline, sem que a
@@ -566,7 +566,7 @@
 			<p>
 				Para arrastar apenas o áudio, devemos clicar no ícone Drag Áudio Only
 				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit1/imagem_unit1_25.png') }}" alt="guia">
-				, localizado na	parte inferior da tela do painel source, arrastá-lo e soltá-lo na ti meline quando o ícone com o
+				, localizado na	parte inferior da tela do painel source, arrastá-lo e soltá-lo na timeline quando o ícone com o
 				sinal de mão com o sinal de adição aparecer.
 				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit1/imagem_unit1_23.png') }}" alt="guia">
 			</p>
@@ -574,7 +574,7 @@
 			<h5>Marcando trechos para definir intervalos</h5>
 
 			<p>
-				Os botões Mark In e Mark Out permitem defi nir apenas um intervalo por vez, podemos predefinir 
+				Os botões Mark In e Mark Out permitem definir apenas um intervalo por vez, podemos predefinir 
 				os pontos desses intervalos através de marcadores personalizados, que nos permitem navegar até 
 				extamente os ponto para em seguida, definir as marcações de entrada e saída.
 			</p>
@@ -582,21 +582,21 @@
 			<p>
 				Esses marcadores personalizados chamamos de Markers
 				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit1/imagem_unit1_26.png') }}" alt="guia">.<br/>
-				Para inserir um Marker em um ponto na ti meline devemos:<br/>
+				Para inserir um Marker em um ponto na timeline devemos:<br/>
 				1.Arrastar o ponteiro marcador de tempo da timeline para o ponto que desejar, e em
 				seguida clicar no botão Add Marker
 				<img style="display: inline-block;" src="{{ asset('assets/img/video_edition/unit1/imagem_unit1_27.png') }}" alt="guia"> 
 				localizado na parte inferior do painel Source.
 				Entretanto, para que os markers inseridos não se tornem confusos, podemos personali-
-				zá-los afi m de que indiquem atraves de uma cor e, ou um rótulo, o intervalo que iremos
+				zá-los afim de que indiquem atraves de uma cor e, ou um rótulo, o intervalo que iremos
 				marcar.
 			</p>
 
 			<p>
 				<b>Para personalizar o Marker com cores ou rótulos, devemos:</b><br/>
-				1.Clicar com o botão direito do mouse sobre o ícone do Marker na ti meline e escolher
+				1.Clicar com o botão direito do mouse sobre o ícone do Marker na timeline e escolher
 				a opção Add Chapter Marker.<br/>
-				2.Na caixa de diálogo do Marker indicando o tempo na ti meline que este ocupa, podemos
+				2.Na caixa de diálogo do Marker indicando o tempo na timeline que este ocupa, podemos
 				digitar um nome para o chapter, adicionar uma descrição ou comentário e escolher uma
 				cor no grupo Chapter color.
 			</p>
@@ -616,7 +616,7 @@
 			</p>
 			<p>
 				Para limpar entradas ou saídas de marcações devemos:<br/>
-				1. Clicar com o botão direito do mouse na ti meline do painel source e escolher:<br/>
+				1. Clicar com o botão direito do mouse na timeline do painel source e escolher:<br/>
 				a. Clear In: Para limpar a marcação do trecho de entrada do intervalo;<br/>
 				b. Clear Out: Para limpar a marcação do trecho de saída do intervalo;<br/>
 				c. Clear In and Out: Para limpar ambas marcações de uma vez.
@@ -627,9 +627,9 @@
 			<p>
 				Quando você adiciona um vídeo ou um clipe de áudio a uma seqüência, você colocá-lo em
 				uma faixa. As tracks ou trilhas, são áreas horizontais na sequência que mantêm os clipes em
-				uma posição específi ca no tempo. Se você tem mais de uma faixa de vídeo, todos os clipes de
+				uma posição específica no tempo. Se você tem mais de uma faixa de vídeo, todos os clipes de
 				vídeo colocados em uma faixa superior aparecerão na frente de clipes em uma faixa inferior.
-				Por exemplo, se você tiver um texto ou um gráfi co no seu segundo vídeo faixa e um clipe de
+				Por exemplo, se você tiver um texto ou um gráfico no seu segundo vídeo faixa e um clipe de
 				vídeo em sua primeira faixa de vídeo, você os verá na frente do vídeo.
 			</p>
 			<p>
@@ -662,7 +662,7 @@
 			</div>
 
 			<p>
-				A navegação na ti meline pode ser realizada usando o Playhead ou o TimeCode, que se diferenciam 
+				A navegação na timeline pode ser realizada usando o Playhead ou o TimeCode, que se diferenciam 
 				entre o posicionamento geral, ou um posicionamento por um tempo especifico na
 				linha de tempo.
 			</p>
@@ -706,7 +706,7 @@
 			</div>
 
 			<p>
-				Após escolher um preset na caixa Format, as confi gurações desse formato são exibidas como
+				Após escolher um preset na caixa Format, as configurações desse formato são exibidas como
 				um padrão desse preset. As opções de exportação do audio e ou vídeo são disponibilizadas
 				logo abaixo do link com o nome do arquivo, que permite escolher o local de exportação.
 			</p>
@@ -730,10 +730,10 @@
 			</div>
 
 			<p>
-				Contudo, mesmo que a escolha adequada para o formato de saída seja pre-defi nida corretamente, 
+				Contudo, mesmo que a escolha adequada para o formato de saída seja pre-definida corretamente, 
 				é comum ainda termos resultados com tamanhos elevados de arquivo. A solução
 				para essa otmização, termos acesso em capitulos posteriores, onde trataremos da exportação
-				usando o Adobe Media Encoder como aplicati vo principal de renderização.
+				usando o Adobe Media Encoder como aplicativo principal de renderização.
 			</p>
 
 			<h5>Salvar Projeto</h5>
@@ -744,10 +744,14 @@
 				− Para salvar o projeto atual, vá em Save – Project.<br/>
 				− Para salvar uma copia do projeto atual, vá em File - Save as, especifique o local e o
 				nome do arquivo e clique em Save.<br/>
-				− Para salvar uma copia do projeto atual e conti nuar trabalhando no projeto original, vá
-				em File - Save a Copy, especifi que o local e o nome do arquivo e clique em Save.
+				− Para salvar uma copia do projeto atual e continuar trabalhando no projeto original, vá
+				em File - Save a Copy, especifique o local e o nome do arquivo e clique em Save.
 
 			</p>
+
+			<h5 class="barlow center-align">A T I V I D A D E S</h5>
+            <p style="margin-top: 16px"><b>1.</b> Capturar videos com a camera e fazer a importaçao para um projeto.</p>
+            <p style="margin-top: 16px"><b>2.</b> Criar uma sequencia apartir de tracks de video obtidos no pré-corte.</p>            
 			
 		</div>
     </div>

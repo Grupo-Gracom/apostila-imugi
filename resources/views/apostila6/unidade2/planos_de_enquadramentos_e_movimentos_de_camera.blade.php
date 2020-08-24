@@ -528,6 +528,15 @@
 				da câmera no momento de gravação.
 			</p>
 
+
+			<h5 class="barlow center-align">A T I V I D A D E S</h5>
+            <p style="margin-top: 16px"><b>1.</b> Separar trechos de um plano sequencia fornecido pelo professor, apontando quais 
+				planos de enquadramento e movimentos de camera se tratam.</p>
+			<p style="margin-top: 16px"><b>2.</b> Aplicar conceitos sobre planos de enquadramento e movimentos de camera para novas 
+				capas de video.</p>
+			<p style="margin-top:16px"><b>3.</b> Realizar edições em um novo projeto.</p>
+
+
 		</div>
     </div>
 
