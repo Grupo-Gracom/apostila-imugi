@@ -12,7 +12,7 @@
 			<div id="unidade" class="box" data-apostila="apostila6" data-unidade="intro6" data-etapa="intro">
 				<div class="bem-vindo">
 					<figure class="banner">
-						<img src="{{ asset('assets/img/playgo/intro/bg-intro.jpg') }}" alt="">
+						<img src="{{ asset('assets/img/video_edition/intro/bg-intro.jpg') }}" alt="">
 					</figure>
 					<h3 class="barlow center-align">Seja Bem Vindo A Video Edition</h3>
 

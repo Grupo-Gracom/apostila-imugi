@@ -12,7 +12,7 @@
 			<div id="unidade" class="box" data-apostila="apostila5" data-unidade="intro5" data-etapa="intro">
 				<div class="bem-vindo">
 					<figure class="banner">
-						<img src="{{ asset('assets/img/playgo/intro/bg-intro.jpg') }}" alt="">
+						<img src="{{ asset('assets/img/games_and_animation/intro/bg-intro.jpg') }}" alt="">
 					</figure>
 					<h3 class="barlow center-align">Seja Bem Vindo Ao Game and Animation</h3>
 
@@ -25,12 +25,12 @@
 							realizadas nele são padrões em softwares de modelagem 3d.
 						</p>
 						<p>Sabendo a importância do conhecimento somático vamos usá-lo para explicar todas as
-							partes ligadas a animação, com cuidados específicos para quando montarmos um vídeo 
+							partes ligadas a animação, com cuidados específicos para quando montarmos um vídeo
 							renderizando ou modelando animações e personagens para uso em jogos e animações 3d. Falaremos sobre
 							criação, navegação, animação, anatomia, proporção, iluminação, cores, characteres,
 							entre outros recursos explorados pelo programa para desenvolver nossas criações.
 						</p>
-						
+
 					</div>
 					<div class="bem-vindo-video">
 						<video controls="" controlslist="nodownload" disablepictureinpicture="" src="{{ asset('assets/video/intro_playgo.mp4') }}" style="width:100%;"></video>
