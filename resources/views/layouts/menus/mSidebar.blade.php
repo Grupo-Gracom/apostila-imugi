@@ -2829,13 +2829,31 @@
                     </ul>
                 </li>
                 <!--UNIDADE 6-->
-                <li class="item" data-unidade="unidade5">
+                <li class="item" data-unidade="unidade6">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 6
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila6', ['unidade5', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade6', 'tecnica_roteiro'])}}" data-etapa="tecnica_roteiro"><i class="material-icons suave">record_voice_over</i> Técnicas de Roteiro</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade6', 'chroma'])}}" data-etapa="chroma"><i class="material-icons suave">record_voice_over</i> Gravações para uso de chroma</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade6', 'chroma_key'])}}" data-etapa="chroma-key"><i class="material-icons suave">record_voice_over</i> Chroma Key</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade6', 'prova_pratica'])}}" data-etapa="prova-pratica"><i class="material-icons suave">record_voice_over</i> Prova Prática I</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade6', 'prova_pratica_dois'])}}" data-etapa="prova-pratica-dois"><i class="material-icons suave">record_voice_over</i> Prova Prática II</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade6', 'revisar_prova'])}}" data-etapa="revisar-prova"><i class="material-icons suave">record_voice_over</i> Revisar Prova</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade6', 'prova_teorica'])}}" data-etapa="prova-teorica"><i class="material-icons suave">record_voice_over</i> Prova Teórica</a>
                         </li>
                     </ul>
                 </li>
