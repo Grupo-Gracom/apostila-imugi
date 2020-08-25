@@ -2809,6 +2809,12 @@
                         <li>
                             <a href="{{route('apostila6', ['unidade4', 'aula_12'])}}" data-etapa="aula_12"><i class="material-icons suave">record_voice_over</i>Censura de Vídeo</a>
                         </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade4', 'aula_13'])}}" data-etapa="aula_13"><i class="material-icons suave">record_voice_over</i>Correção de Cores</a>
+                        </li>
+                        <!-- <li>
+                            <a href="{{route('apostila6', ['unidade4', 'aula_14'])}}" data-etapa="aula_14"><i class="material-icons suave">record_voice_over</i>Aula pratica de Edição III</a>
+                        </li> -->
                     </ul>
                 </li>
                 <!--UNIDADE 5-->
