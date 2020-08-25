@@ -261,7 +261,7 @@ Type')
 			</p>
 
 			<h5 class="barlow center-align">A T I V I D A D E S</h5>
-			<p style="margin-top: 16px"><b>1.</b> Criar creditos iniciais de abertura para um video ou curta.</p>
+			<p style="margin-top: 16px"><b>1.</b> Criar creditos inicais de abertura para um video ou curta.</p>
 			<p style="margin-top: 16px"><b>2.</b> Criar creditos finais para encerramento de um video ou curta.</p>
 
 

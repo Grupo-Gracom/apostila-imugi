@@ -2804,7 +2804,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila6', ['unidade4', 'vocabulary'])}}" data-etapa="vocabulary"><i class="material-icons suave">record_voice_over</i> Vocabulary</a>
+                            <a href="{{route('apostila6', ['unidade4', 'aula_11'])}}" data-etapa="aula_11"><i class="material-icons suave">record_voice_over</i>Censura de Áudio</a>
                         </li>
                     </ul>
                 </li>
