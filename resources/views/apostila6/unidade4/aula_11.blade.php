@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 3 | Censura de Áudio')
+@section('titulo','Unit 4 | Censura de Áudio')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -150,6 +150,11 @@
 				3.No painel Effects Control, clique no botão Edit para escolher presets de ajustes
 				ou realiza-los através dos controles Semi-tones e Cents.
 			</p>
+			<div class="container">
+				<figure>
+					<img src="{{ asset('assets/img/video_edition/unit4/imagem_unit4_7.png') }}" alt="Wave Form do áudio">
+				</figure>
+			</div><br>
 
 			<h5 class="barlow center-align">A T I V I D A D E S</h5>
 			<p style="margin-top: 16px"><b>1.</b>Censurar videos alterando o trecho escolhido por um sinal de bip ou outro som.</p>

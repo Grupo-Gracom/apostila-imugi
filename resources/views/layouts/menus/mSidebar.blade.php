@@ -2806,6 +2806,9 @@
                         <li>
                             <a href="{{route('apostila6', ['unidade4', 'aula_11'])}}" data-etapa="aula_11"><i class="material-icons suave">record_voice_over</i>Censura de Áudio</a>
                         </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade4', 'aula_12'])}}" data-etapa="aula_12"><i class="material-icons suave">record_voice_over</i>Censura de Vídeo</a>
+                        </li>
                     </ul>
                 </li>
                 <!--UNIDADE 5-->
