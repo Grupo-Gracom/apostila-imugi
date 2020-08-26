@@ -9,7 +9,7 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade3" data-etapa="projetct_manager_adoble_clip">
+		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade3" data-etapa="aula_08">
 			<h3 class="barlow">UNIT 3</h3>
 			<h5 class="barlow upper">Aula 08 – Project Manager e Adobe Clip</h5>
 			<h5>Usando o Project Manager</h5>

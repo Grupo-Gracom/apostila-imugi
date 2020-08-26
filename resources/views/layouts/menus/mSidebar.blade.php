@@ -2782,10 +2782,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila6', ['unidade3', 'tipos_de_corte'])}}" data-etapa="tipos_de_corte"><i class="material-icons suave">record_voice_over</i>Tipos de Corte</a>
+                            <a href="{{route('apostila6', ['unidade3', 'aula_07'])}}" data-etapa="aula_07"><i class="material-icons suave">record_voice_over</i>Tipos de Corte</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila6', ['unidade3', 'projetct_manager_adoble_clip'])}}" data-etapa="projetct_manager_adoble_clip"><i class="material-icons suave">record_voice_over</i>Project Manager e Adobe Clip</a>
+                            <a href="{{route('apostila6', ['unidade3', 'aula_08'])}}" data-etapa="aula_08"><i class="material-icons suave">record_voice_over</i>Project Manager e Adobe Clip</a>
                         </li>
                         <li>
                             <a href="{{route('apostila6', ['unidade3', 'aula_09'])}}" data-etapa="aula_09"><i class="material-icons suave">record_voice_over</i>Title, Effects Controls, Créditos finais</a>
