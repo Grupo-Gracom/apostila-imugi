@@ -2782,17 +2782,17 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila6', ['unidade3', 'aula_07'])}}" data-etapa="aula_07"><i class="material-icons suave">record_voice_over</i>Tipos de Corte</a>
+                            <a href="{{route('apostila6', ['unidade3', 'Tipos_de _Corte_Transições'])}}" data-etapa="Tipos_de _Corte_Transições"><i class="material-icons suave">record_voice_over</i>Tipos de Corte, Transições</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila6', ['unidade3', 'aula_08'])}}" data-etapa="aula_08"><i class="material-icons suave">record_voice_over</i>Project Manager e Adobe Clip</a>
+                            <a href="{{route('apostila6', ['unidade3', 'Project_Manager_Adobe_Clip'])}}" data-etapa="Project_Manager_Adobe_Clip"><i class="material-icons suave">record_voice_over</i>Project Manager e Adobe Clip</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila6', ['unidade3', 'aula_09'])}}" data-etapa="aula_09"><i class="material-icons suave">record_voice_over</i>Title, Effects Controls, Créditos finais</a>
+                            <a href="{{route('apostila6', ['unidade3', 'Title_Effects_Controls_Créditos_finais'])}}" data-etapa="Title_Effects_Controls_Créditos_finais"><i class="material-icons suave">record_voice_over</i>Title, Effects Controls, Créditos finais</a>
                         </li>
 
                         <li>
-                            <a href="{{route('apostila6', ['unidade3', 'aula_10'])}}" data-etapa="aula_10"><i class="material-icons suave">record_voice_over</i>Video Musical e Apresentação de projetos Finais</a>
+                            <a href="{{route('apostila6', ['unidade3', 'video_musical'])}}" data-etapa="video_musical"><i class="material-icons suave">record_voice_over</i>Video Musical e Apresentação de projetos Finais</a>
                         </li>
                     </ul>
                 </li>

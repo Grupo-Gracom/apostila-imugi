@@ -10,7 +10,7 @@ Type')
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade3" data-etapa="aula_10">
+		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade3" data-etapa="video_musical">
 			<h3 class="barlow">UNIT 3</h3>
 			<h5 class="barlow upper">Aula 10 – Video Musical e Apresentação de projetos Finais</h5>
 			<h5>Type Tool (Title) e o Painel Essential Graphics</h5>

@@ -9,7 +9,7 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade3" data-etapa="aula_07">
+		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade3" data-etapa="Tipos_de _Corte_Transições">
 			<h3 class="barlow">UNIT 3</h3>
 			<h5 class="barlow upper">Aula 07 – Tipos de Corte, Transições</h5>
 			<h5>Tipos de Corte</h5>
