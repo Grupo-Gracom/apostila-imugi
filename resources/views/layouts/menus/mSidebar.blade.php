@@ -2867,6 +2867,20 @@
                     </ul>
                 </li>
                 <!-- UNIDADE 7 -->
+                <li class="item" data-unidade="unidade1">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 7
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade7', 'apresentacao'])}}" data-etapa="apresentacao"><i class="material-icons suave">record_voice_over</i> Apresentação</a>
+                        </li>
+                        <!-- <li>
+                            <a href="{{route('apostila6', ['unidade7', 'atividades'])}}" data-etapa="atividades"><i class="material-icons suave">record_voice_over</i>Atividades</a>
+                        </li> -->
+                    </ul>
+                </li>
+
                 <!-- UNIDADE 8 -->
                 <!-- UNIDADE 9 -->
                 <li class="item" data-unidade="unidade6">
