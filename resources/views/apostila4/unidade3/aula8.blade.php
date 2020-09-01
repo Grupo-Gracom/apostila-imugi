@@ -26,7 +26,7 @@
 			<p>I. Clicar no ícone da ferramenta padrão (Dodge Tool) e clicar seta do menu desdobrável.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit3/imagem21.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit3/imagem21.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>II. Ou simplesmente teclar “O” para acionar a ferramenta e manter pressionada a
@@ -43,19 +43,19 @@
 			<p>II. Clicar no menu Filter – Blur – Gaussian Blur.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit3/imagem22.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit3/imagem22.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>III. Clicar no controle deslizante Radius da janela Gaussian Blur, para aumentar o percentual de desfoque.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit3/imagem23.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit3/imagem23.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>Observe o resultado:</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit3/imagem24.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit3/imagem24.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlaw">Surface Blur (Desfoque de Superfície)</h5>
@@ -69,14 +69,14 @@
 			<p>II. Clicar no menu Filter – Blur – Surface Blur.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit3/imagem25.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit3/imagem25.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>III. Clicar nos controles deslizantes Radius e Threshold da janela Surface Blur, para
 			aumentar o percentual de borrão e o limiar do desfoque.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit3/imagem26.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit3/imagem26.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlaw center align">A T I V I D A D E S</h5>
