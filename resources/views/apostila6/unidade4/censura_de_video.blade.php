@@ -9,7 +9,7 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade4" data-etapa="aula_12">
+		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade4" data-etapa="censura_de_video">
 			<h3 class="barlow">UNIT 4</h3>
 			<h5 class="barlow upper">Aula 12 – Censura de Vídeo</h5>
 
