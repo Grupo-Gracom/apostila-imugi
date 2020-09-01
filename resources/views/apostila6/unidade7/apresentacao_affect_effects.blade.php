@@ -9,8 +9,8 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade1" data-etapa="apresentacao">
-			<h3 class="barlow">UNIT 7</h3>
+		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade7" data-etapa="apresentacao_affect_effects">
+			<h3 class="barlow">UNIT 7 - After Effects CC</h3>
 			<h5 class="barlow upper">AULA 01 - APRESENTAÇÃO DO PROGRAMA</h5>
 
 			<h5>Apresentação</h5>
