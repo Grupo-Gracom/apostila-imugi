@@ -2880,6 +2880,16 @@
                     </ul>
                 </li>
                 <!-- UNIDADE 10 -->
+                <li class="item" data-unidade="unidade6">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 10
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade10', 'capitulo_4'])}}" data-etapa="capitulo_4"><i class="material-icons suave">record_voice_over</i>TIPOGRAFIA</a>
+                        </li>
+                    </ul>
+                </li>
                 <!-- UNIDADE 11 -->
                 <!-- UNIDADE 12 -->
             </ul>
