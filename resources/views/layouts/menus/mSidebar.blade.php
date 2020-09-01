@@ -2875,6 +2875,9 @@
                         <li>
                             <a href="{{route('apostila6', ['unidade7', 'apresentacao_affect_effects'])}}" data-etapa="apresentacao_affect_effects"><i class="material-icons suave">record_voice_over</i> Apresentação</a>
                         </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade7', 'animacao_basica'])}}" data-etapa="animacao_basica"><i class="material-icons suave">record_voice_over</i> Animação Básica</a>
+                        </li>
                     </ul>
                 </li>
 
