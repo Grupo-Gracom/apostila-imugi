@@ -29,7 +29,7 @@
             aplicação.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem15.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem15.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Principais ajustes</h5>
@@ -45,7 +45,7 @@
             digital ou telefone não se apresenta com o brilho correto para exposição.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem16.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem16.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Levels</h5>
@@ -59,7 +59,7 @@
             como modelo para o início de um ajuste personalizado.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem17.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem17.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">No Levels, ao arrastar o slider (controle deslizante) 
@@ -71,7 +71,7 @@
             e as altas luzes mais claras.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem18.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem18.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Curves</h5>
@@ -95,7 +95,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem19.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem19.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Outra vantagem do Curves é a opção de clicar e arrastar 
@@ -103,7 +103,7 @@
             e clicando numa determinada área da imagem</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem20.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem20.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Hue / Saturation</h5>
@@ -117,7 +117,7 @@
             dispositivo de saída. </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem21.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem21.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Marcando a opção Colorize da 
@@ -128,7 +128,7 @@
             CTRL+U.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem22.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem22.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Color Balance</h5>
@@ -138,7 +138,7 @@
             adicionando cores na imagem inteira.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem23.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem23.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Podemos escolher ajustar entre 
@@ -154,7 +154,7 @@
             CTRL+B.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem24.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem24.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Vibrance</h5>
@@ -168,7 +168,7 @@
             tons de pele de se tornarem muito saturados.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem25.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem25.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Black and White</h5>
@@ -183,7 +183,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem26.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem26.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Invert</h5>
@@ -211,7 +211,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem27.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem27.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Threshold</h5>
@@ -225,7 +225,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem28.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem28.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Gradient Map</h5>
@@ -245,7 +245,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem29.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem29.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Mesmo escolhendo uma das pre-definiçoes 
@@ -260,7 +260,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem30.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem30.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Selective Color</h5>
@@ -277,7 +277,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem31.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem31.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Shadow/Highlights</h5>
@@ -299,7 +299,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem32.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem32.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Desaturaté</h5>
@@ -331,7 +331,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem33.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem33.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">II. Clicando no menu do painel 
@@ -339,7 +339,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem34.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem34.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">III. Clicando com o botão 
@@ -348,7 +348,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem35.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem35.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">IV. Clicando com o botão 
@@ -359,7 +359,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem36.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem36.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">V. Combinando as teclas CTRL+J 
@@ -382,7 +382,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem37.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem37.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">I. Size diameter – Altera o 
@@ -394,7 +394,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem38.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem38.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Porém, uma boa dica para acelerar 
@@ -410,7 +410,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem39.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem39.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Durante o processo de seleção, podemos escolher criar uma seleção nova, adicionar ou
@@ -419,7 +419,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem40.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem40.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">I. New Selecti on - Cria uma nova seleção em outra área da imagem.</p>
@@ -431,21 +431,21 @@
             uma nova alteração ou refazê-la novamente.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem41.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem41.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Para isto, basta escolher na lista de etapas do histórico qual destas desejamos retroceder. Ao clicar, o Photoshop nos leva ao estado em que a imagem se encontrava
             quando realizamos aquela alteração.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem42.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem42.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Porém, devemos ficar cientes que quando retornarmos àquela etapa e realizarmos
             uma nova alteração a partir desta, todo o histórico após esta etapa será perdido.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem43.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem43.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Configurando etapas do Painel Histórico</h5>
@@ -455,20 +455,20 @@
             Performance (Desempenho) do menu Edit.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem44.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem44.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">A opção History Statés apresenta um controle deslizante que permite alterar a quantidade de etapas do histórico.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem45.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem45.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">A opção History Statés apresenta um controle deslizante que 
             permite alterar a quantidade de etapas do histórico.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem46.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem46.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Vale lembrar que podemos expandir essa quantidade somente 
@@ -476,7 +476,7 @@
             etapas.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem47.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem47.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper">Atalhos para desfazer e refazer 
@@ -505,7 +505,7 @@
             <p style="margin-top: 16px">Para isso vá ao menu do painel do histórico e escolha New Snapshot.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem48.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem48.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">A janela de new snapshot surge ao solicitar um 
@@ -513,7 +513,7 @@
             snapshot.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem48.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem48.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow upper center-align">A T I V I D A D E S</h5>
