@@ -20,7 +20,7 @@
 			<h5>Interpolação temporal e gráfico de valores</h5>
 			<p>O gráfico de valores exibe valores x como vermelho, valores y como verdes e z (apenas 3D) como azul e fornece informações completas sobre o valor dos keyframes em qualquer ponto de uma composição, permitindo que você as controle. No painel informações é possível saber o método de interpolação temporal de um keyframe selecionado. Usando o gráfico de valores, no editor de gráficos, é possível fazer ajustes precisos nos keyframes da propriedade temporal.</p>
 
-			<h5>Interpolação espacial e moti on path</h5>
+			<h5>Interpolação espacial e motion path</h5>
 			<p>No painel informações é possível saber o método de interpolação espacial de um keyframe No painel informações é possível saber o método de interpolação espacial de um keyframe selecionado. Ao aplicar ou alterar a interpolação espacial para uma propriedade como, por exemplo, posição, é preciso ajustar o motion path no painel composição. Os diferentes keyframes no motion path fornecem informações sobre o tipo de interpolação em qualquer ponto no tempo.</p>
 			<p>Quando o usuário cria mudanças espaciais em uma layer, o after usa o bézier automático como a interpolação especial padrão. Para alterar o padrão para interpolação linear: acesse editar > preferências > geral e selecione interpolação espacial padrão para linear.</p>
 
