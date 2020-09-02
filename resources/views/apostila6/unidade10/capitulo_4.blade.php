@@ -10,8 +10,8 @@
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
 		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade10" data-etapa="capitulo_4">
-			<h3 class="barlow">AFTER EFFECTS CC - CAPÍTULO 04 </h3>
-			<h5 class="barlow upper"> TIPOGRAFIA</h5>
+			<h3 class="barlow">UNIT 10 - AFTER EFFECTS CC - CAPÍTULO 04 </h3>
+			<h5 class="barlow upper"> AULA 05 - MOTION - TIPOGRAFIA</h5>
 
 			<h5>Animação de texto</h5>
 			<p>
