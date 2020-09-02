@@ -31,7 +31,7 @@
 				<li>Efeito: renderiza a camada com efeitos (o interruptor não afeta a configuração para efeitos individuais na layer)</li>
 				<li>Frame Blend: define a combinação de moldura em um dos três estados: frame mix, pixel motion ou desligado (se o parâmetro ativar combinação de composição de moldura não for selecionado, a configuração de combinação de quadros da layer é irrelevante</li>
 				<li>Motion Blur: alterna o borrão de movimento para ligar ou desligar para a layer (se o parâmetro enable motion blur composition não estiver selecionado, a configuração de desfocagem de movimento da layer é irrelevante)</li>
-				<li>Adjustment Layer: identifi ca a layer como uma layer de ajuste 3D layer: identifica a layer como uma layer 3D (se a layer for uma layer 3D com subcamadas 3D, como é o caso de uma layer de texto com propriedades 3D per-character, a opção usa esse ícone)</li>
+				<li>Adjustment Layer: identifica a layer como uma layer de ajuste 3D layer: identifica a layer como uma layer 3D (se a layer for uma layer 3D com subcamadas 3D, como é o caso de uma layer de texto com propriedades 3D per-character, a opção usa esse ícone)</li>
 			</ul>
 
 			<h5>Blend modes</h5>
