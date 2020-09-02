@@ -2882,6 +2882,21 @@
                 </li>
 
                 <!-- UNIDADE 8 -->
+                <li class="item" data-unidade="unidade6">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 8
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade8', 'conceitos_animacao_01'])}}" data-etapa="conceitos_animacao_01"><i class="material-icons suave">record_voice_over</i>Conceitos de animação 01</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade8', 'conceitos_animacao_02'])}}" data-etapa="conceitos_animacao_02"><i class="material-icons suave">record_voice_over</i>Conceitos de animação 02</a>
+                        </li>                        
+                    </ul>
+                </li>
+
+
                 <!-- UNIDADE 9 -->
                 <li class="item" data-unidade="unidade6">
                     <a class="click submenu">
