@@ -2904,7 +2904,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila6', ['unidade9', 'capitulo_3'])}}" data-etapa="capitulo_3"><i class="material-icons suave">record_voice_over</i>RENDERIZAÇÃO</a>
+                            <a href="{{route('apostila6', ['unidade9', 'renderizacao'])}}" data-etapa="renderizacao"><i class="material-icons suave">record_voice_over</i>RENDERIZAÇÃO</a>
                         </li>
                     </ul>
                 </li>
@@ -2915,7 +2915,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila6', ['unidade10', 'capitulo_4'])}}" data-etapa="capitulo_4"><i class="material-icons suave">record_voice_over</i>TIPOGRAFIA</a>
+                            <a href="{{route('apostila6', ['unidade10', 'tipografia'])}}" data-etapa="tipografia"><i class="material-icons suave">record_voice_over</i>TIPOGRAFIA</a>
                         </li>
                     </ul>
                 </li>
