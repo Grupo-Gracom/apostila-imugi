@@ -9,7 +9,7 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade32" data-etapa="cenario_ambiente">
+		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade32" data-etapa="exportacao_arquivos">
 			<h3 class="barlow">UNIT 5</h3>
 			<h5 class="barlow upper">Aula 15 – Exportação de Arquivos</h5>
 			<h5>Adobe Media Encoder</h5>

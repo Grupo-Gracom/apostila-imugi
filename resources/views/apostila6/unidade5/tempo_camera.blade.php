@@ -9,7 +9,7 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade32" data-etapa="cenario_ambiente">
+		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade32" data-etapa="tempo_camera">
 			<h3 class="barlow">UNIT 5</h3>
 			<h5 class="barlow upper">Aula 17 – Alteração do tempo e Camera Lenta</h5>
 			<h5>Speed Durat on</h5>

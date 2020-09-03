@@ -2892,7 +2892,7 @@
                         </li>
                         <li>
                             <a href="{{route('apostila6', ['unidade8', 'conceitos_animacao_02'])}}" data-etapa="conceitos_animacao_02"><i class="material-icons suave">record_voice_over</i>Conceitos de animação 02</a>
-                        </li>                        
+                        </li>
                     </ul>
                 </li>
 
@@ -2920,7 +2920,33 @@
                     </ul>
                 </li>
                 <!-- UNIDADE 11 -->
+                   <li class="item" data-unidade="unidade6">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 11
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade11', 'layer_luz_camera'])}}" data-etapa="layer_luz_camera"><i class="material-icons suave">record_voice_over</i>Layer 3D, Luz e Câmera</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade11', 'configuracao_camera'])}}" data-etapa="configuracao_camera"><i class="material-icons suave">record_voice_over</i>Configurações da câmera</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade11', 'configuracao_luz'])}}" data-etapa="configuracao_luz"><i class="material-icons suave">record_voice_over</i>Configurações da luz</a>
+                        </li>
+                    </ul>
+                </li>
                 <!-- UNIDADE 12 -->
+                   <li class="item" data-unidade="unidade6">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 12
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade12', 'cinema_4d'])}}" data-etapa="cinema_4d"><i class="material-icons suave">record_voice_over</i>Cinema 4D Lite</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </li>
 </nav>
