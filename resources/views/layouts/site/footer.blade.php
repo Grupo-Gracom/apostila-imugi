@@ -50,7 +50,7 @@
                                
                                 <li class="media suporte">
                                     <span class="text-white">Suporte 
-                                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5519994567998" target="_blank">
+                                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=554184608944" target="_blank">
                                             <img src="{{asset('assets/site/images/icone_what.png')}}" alt="">
                                         </a>
                                     </span>
