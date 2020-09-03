@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 5 |  Configurações de luz')
+@section('titulo','Unit 11 |  Configurações de luz')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -10,7 +10,7 @@
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
 		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade11" data-etapa="configuracao_luz">
-			<h3 class="barlow">UNIT 6</h3>
+			<h3 class="barlow">UNIT 11</h3>
 			<h5>Tipo de luz</h5>
 			<ul class="unidade_6_5">
 					<li>
@@ -30,7 +30,7 @@
 				Por exemplo, se uma camada já estiver acesa, criar uma luz direcional com valores negativos
 				também apontando para aquela camada escurece uma área na camada.
 			</p>
-			<p>Cor - a cor da luz.</p>
+			<p>Cor-a cor da luz.</p>
 			<h5>Ângulo do cone</h5>
 			<p>
 				O ângulo do cone que envolve a fonte de uma luz, que determina a largura do feixe a uma

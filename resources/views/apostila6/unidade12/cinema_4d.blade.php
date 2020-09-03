@@ -1,5 +1,5 @@
 @extends('layouts.template')
-@section('titulo','Unit 5 |  Cinema 4D Lite')
+@section('titulo','Unit 12 |  Cinema 4D Lite')
 @section('conteudo')
 <!-- WRAPPER ALL -->
 
@@ -10,7 +10,7 @@
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
 		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade12" data-etapa="cinema_4d">
-			<h3 class="barlow">UNIT 6</h3>
+			<h3 class="barlow">UNIT 12</h3>
 			<h5 class="barlow upper">Aula 07 – Cinema 4D Lite</h5>
 			<h5>Cinema 4D</h5>
 			<div class="container">
