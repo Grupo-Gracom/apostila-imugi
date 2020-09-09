@@ -2947,6 +2947,17 @@
                         </li>
                     </ul>
                 </li>
+                <!-- UNIDADE 14 -->
+                <li class="item" data-unidade="unidade14">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 14
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade14', 'motion_graphics_effects'])}}" data-etapa="motion_graphics_effects"><i class="material-icons suave">record_voice_over</i>Motion graphics effects e liquid motion</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </li>
 </nav>
