@@ -2947,6 +2947,28 @@
                         </li>
                     </ul>
                 </li>
+                <!-- UNIDADE 17 -->
+                   <li class="item" data-unidade="unidade6">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 17
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade17', 'parallax'])}}" data-etapa="parallax"><i class="material-icons suave">record_voice_over</i>Parallax</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- UNIDADE 18 -->
+                   <li class="item" data-unidade="unidade6">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 18
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade18', 'colorizacao'])}}" data-etapa="colorizacao"><i class="material-icons suave">record_voice_over</i>Colorizacao</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </li>
 </nav>
