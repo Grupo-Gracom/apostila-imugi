@@ -2920,7 +2920,7 @@
                     </ul>
                 </li>
                 <!-- UNIDADE 11 -->
-                   <li class="item" data-unidade="unidade6">
+                <li class="item" data-unidade="unidade6">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 11
                     </a>
@@ -2937,13 +2937,24 @@
                     </ul>
                 </li>
                 <!-- UNIDADE 12 -->
-                   <li class="item" data-unidade="unidade6">
+                <li class="item" data-unidade="unidade6">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 12
                     </a>
                     <ul>
                         <li>
                             <a href="{{route('apostila6', ['unidade12', 'cinema_4d'])}}" data-etapa="cinema_4d"><i class="material-icons suave">record_voice_over</i>Cinema 4D Lite</a>
+                        </li>
+                    </ul>
+                </li>
+                 <!-- UNIDADE 13 -->
+                <li class="item" data-unidade="unidade6">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 13
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade13', 'particulas'])}}" data-etapa="particulas"><i class="material-icons suave">record_voice_over</i>Partículas</a>
                         </li>
                     </ul>
                 </li>
