@@ -2920,7 +2920,7 @@
                     </ul>
                 </li>
                 <!-- UNIDADE 11 -->
-                   <li class="item" data-unidade="unidade6">
+                <li class="item" data-unidade="unidade6">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 11
                     </a>
@@ -2937,7 +2937,7 @@
                     </ul>
                 </li>
                 <!-- UNIDADE 12 -->
-                   <li class="item" data-unidade="unidade6">
+                <li class="item" data-unidade="unidade6">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 12
                     </a>
@@ -2947,15 +2947,44 @@
                         </li>
                     </ul>
                 </li>
+<<<<<<< HEAD
                 <!-- UNIDADE 13 -->
                 <!-- UNIDADE 14 -->
                 <!-- UNIDADE 15 -->
                 <li class="item" data-unidade="unidade6">
+=======
+                 <!-- UNIDADE 13 -->
+                <li class="item" data-unidade="unidade13">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 13
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade13', 'particulas'])}}" data-etapa="particulas"><i class="material-icons suave">record_voice_over</i>Partículas</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- UNIDADE 14 -->
+                <li class="item" data-unidade="unidade14">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 14
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade14', 'motion_graphics_effects'])}}" data-etapa="motion_graphics_effects"><i class="material-icons suave">record_voice_over</i>Motion graphics effects e liquid motion</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- UNIDADE 15 -->
+                <li class="item" data-unidade="unidade15">
+>>>>>>> bcd262ea8e0030504bdf9e04928243d7e6810d25
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 15
                     </a>
                     <ul>
                         <li>
+<<<<<<< HEAD
                             <a href="{{route('apostila6', ['unidade15', 'expressions'])}}" data-etapa="expressions"><i class="material-icons suave">record_voice_over</i>EXPRESSIONS</a>
                         </li>
                     </ul>
@@ -2964,6 +2993,13 @@
                 <!-- UNIDADE 17 -->
                 <!-- UNIDADE 18 -->
                 <!-- UNIDADE 19 -->
+=======
+                            <a href="{{route('apostila6', ['unidade15', 'expressions'])}}" data-etapa="expressions"><i class="material-icons suave">record_voice_over</i>Expressions</a>
+                        </li>
+                    </ul>
+                </li>
+
+>>>>>>> bcd262ea8e0030504bdf9e04928243d7e6810d25
             </ul>
         </li>
 </nav>
