@@ -34,7 +34,7 @@
             camadas.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem50.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem50.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow">Selecionando camadas</h5>
@@ -50,7 +50,7 @@
             camada do final da sequência. </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem51.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem51.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">II. Para selecionar camadas alternadas, devemos 
@@ -58,7 +58,7 @@
             enquanto clicamos nas camadas desejadas.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem52.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem52.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow">Movendo camadas</h5>
@@ -69,7 +69,7 @@
             arrastar para a posição desejada.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem53.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem53.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">O cursor da mãozinha fechada 
@@ -89,14 +89,14 @@
             Layer.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem54.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem54.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">II. Dar um clique duplo 
             no nome da camada no painel Layers.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem55.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem55.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlow">Movendo o conteúdo das camadas</h5>
@@ -112,7 +112,7 @@
             através do painel de camadas.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem56.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem56.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Uma constatação que podemos 
@@ -125,7 +125,7 @@
             abaixo:</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem57.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem57.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">O cursor da ferramenta 
@@ -135,7 +135,7 @@
             é a do “carro na estrada”.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem58.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem58.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Quando arrastarmos a 
@@ -146,7 +146,7 @@
             estejamos apontando para ele.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem59.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem59.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Isso se dá por estarmos com 
@@ -157,7 +157,7 @@
             para isso:</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem60.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem60.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Porém, em uma composição 
@@ -179,7 +179,7 @@
             verificação da opção.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem61.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem61.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">A partir de agora, sempre 
@@ -196,33 +196,33 @@
             sistema operacional.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem62.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem62.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>Ao retornarmos ao Photoshop para colar este conteúdo, ele surgirá na forma de uma
             nova camada.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem63.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem63.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>II. Para criar uma camada vazia no Adobe Photoshop podemos:</p>
             <p>a. Clicar na opção New Layer do menu do painel de camadas.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem64.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem64.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>b. No menu principal Layer, escolher a opção New – Layer</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem65.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem65.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>c. Clicando no botão Creaté New Layer do painel de camadas.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem66.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem66.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>d. Ou simples mente combinando as teclas CTRL+SHIFT+N</p>
@@ -234,13 +234,13 @@
             <p>I. Selecionar a camada do conteúdo desejado, podemos ir ao menu Edit – Free Transform.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem67.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem67.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>II. Move da barra de ferramentas e habilitando a opção Show Transform Controls.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem68.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem68.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>III. Combinando as teclas CTRL+T.</p>
@@ -248,14 +248,14 @@
             escalonamento:</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem69.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem69.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>Aproximando o mouse dos controles nas diagonais, podemos utilizar o comando
             de rotação:</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem70.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem70.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>Para ambos os casos, podemos contar com o auxílio de teclas de controle para tornar a
@@ -273,11 +273,11 @@
             <p>I. Selecionar as camadas desejadas</p>
             <h5 class="barlaw">Bloqueando camadas</h5>
             <p>Em algumas ocasiões, precisamos manter o conteúdo de uma camada bloqueado para
-            que este não interfira na edição do conteúdo de outra camada. Para bloquear uma camada podemos clicar no ícone do cadeado<img style="display: inline;" src="{{ asset('assets/img/photoshop/unit2/imagem71.png') }}" alt="guia"> localizado no painel de camadas.</p>
+            que este não interfira na edição do conteúdo de outra camada. Para bloquear uma camada podemos clicar no ícone do cadeado<img style="display: inline;" src="{{ asset('assets/img/photoshop/unit2/imagem71.PNG') }}" alt="guia"> localizado no painel de camadas.</p>
             <p>Assim, ao tentarmos arrastar o conteúdo de uma camada bloqueada, veremos a seguinte mensagem:</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem72.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem72.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>Ela indica que o conteúdo da camada encontra-se bloqueado e por isso não pode ser
@@ -287,14 +287,14 @@
             nos permita desenhar um caminho no qual nós mesmos queremos incluir na seleção.</p>
             <p>E para criar esses caminhos, o photoshop dispõe de um grupo de formas básicas (shapes) que quando configurados para criar apenas caminhos, servirão como base para
             uma seleção. E entre todas as formas, a mais indicada para desenhar em áreas difíceis é
-            a Pentool (caneta).<img style="display: inline;" src="{{ asset('assets/img/photoshop/unit2/imagem73.png') }}" alt="guia"></p>
+            a Pentool (caneta).<img style="display: inline;" src="{{ asset('assets/img/photoshop/unit2/imagem73.PNG') }}" alt="guia"></p>
             <p>Para iniciar uma seleção usando a Pentool, primeiramente devemos mudar o modo que
             a caneta irá trabalhar.</p>
             <p>I. Escolha a fermenta Pentool e na barra de propriedades, altere o Pentool Mode de Shape
             para Path</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem74.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem74.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>Isso fará com que ao invés de desenharmos uma forma que assumirá uma nova camada, tenhamos apenas o caminho desse desenho demarcado na tela.</p>
@@ -304,13 +304,13 @@
             <p>I. Inicie clicando em uma área bem próxima a que deseja selecionar.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem75.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem75.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>II. Para ligar dois nós basta clicar em outra área que um caminho em linha reta será criado.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem76.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem76.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>III. Para desenhar uma curva, escolha uma área que abranja a curva que deseja recriar e ao
@@ -319,14 +319,14 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem77.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem77.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>IV. Para fechar uma curva e iniciar um novo caminho em linha reta, clique no nó
             final desta curva mantendo a tecla ALT pressionada.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem78.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem78.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>V. Mantendo a tecla de ESPAÇO e o botão do mouse pressionado, podemos
@@ -334,7 +334,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem79.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem79.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>VI. Mas caso deseje redefinir algum nó já criado, selecione a ferramenta Direct
@@ -342,7 +342,7 @@
             nó.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem80.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem80.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>VII. Pode-se ainda adicionar novos nós, removê-los ou converter algum em curva
@@ -350,7 +350,7 @@
             da Pentool para usar as outras opões.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem81.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem81.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>Os nós devem ser criados segundo a área que desejamos selecionar até que encontremos o nó inicial do caminho. Quando apontarmos para ele, um pequeno círculo surgirá</p>
@@ -359,13 +359,13 @@
             e escolher a opção Make Selection.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem82.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem82.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>II. Combinar as teclas CTRL+ENTER.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem83.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem83.PNG') }}" alt="guia">
                 </figure>
             </div>
             <h5 class="barlaw">Refine Edge</h5>
@@ -378,14 +378,14 @@
             limite da seleção.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem84.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem84.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>Um bom modo de trabalhar com o Refine Edge é usando o background da imagem como
             Black configurando temporariamente através do Painel Mode.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem85.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem85.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>O modo Black permite um favorável contraste entre a área selecionada e o fundo preto,
@@ -394,7 +394,7 @@
             praticamente resolvendo a remoção das arestas.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem86.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem86.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>Ainda podemos contar com o Smoot, o Faether e o Contrast que ajudam respectivamente no equilíbrio da suavidade, e cores das arestas.</p>
@@ -402,7 +402,7 @@
             Edge, podemos então escolher qual a forma de saída da seleção através da caixa de listagem Output to.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem87.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem87.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p>Das opões disponíveis temos:</p>
@@ -422,7 +422,7 @@
             Corresponder Cor funciona apenas no modo RGB.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem88.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem88.PNG') }}" alt="guia">
                 </figure>
             </div>
             <h5 class="brlaw center-align">A T I V I D A D E S</h5>

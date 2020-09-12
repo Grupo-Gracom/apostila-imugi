@@ -25,12 +25,12 @@
 							realizadas nele são padrões em softwares de modelagem 3d.
 						</p>
 						<p>Sabendo a importância do conhecimento somático vamos usá-lo para explicar todas as
-							partes ligadas a animação, com cuidados específicos para quando montarmos um vídeo 
+							partes ligadas a animação, com cuidados específicos para quando montarmos um vídeo
 							renderizando ou modelando animações e personagens para uso em jogos e animações 3d. Falaremos sobre
 							criação, navegação, animação, anatomia, proporção, iluminação, cores, characteres,
 							entre outros recursos explorados pelo programa para desenvolver nossas criações.
 						</p>
-						
+
 					</div>
 				</div>
 			</div>

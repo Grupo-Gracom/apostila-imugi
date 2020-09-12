@@ -19,7 +19,7 @@
 			montar fotos colocadas lado a lado tanto no sentido horizontal quanto no vertical.</p>			
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem14.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem14.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p><b>Tirar fotos para Photomerge</b></p>
@@ -53,7 +53,7 @@
 			<p>• Vá em File – Automaté – Photomerge</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem15.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem15.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Na caixa de diálogo do Photomerge, em Arquivos de origem, escolha uma das
@@ -62,7 +62,7 @@
 			<p>• Pastas: Usa todas as imagens armazenadas em uma pasta a fim de criar a composição do Photomerge.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem16.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem16.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Especifique quais imagens usar seguindo um destes procedimentos:</p>
@@ -84,7 +84,7 @@
 			de Perspectiva, Cilíndrico ou Esférico, dependendo de qual produzir um photomerge melhor. </p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem17.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem17.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Perspective: Cria uma composição consistente especificando uma das imagens
@@ -93,7 +93,7 @@
 			necessário) para que o conteúdo sobreposto em camadas seja correspondido.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem18.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem18.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Cilindrical: Reduz a distorção “gravata borboleta” que pode ocorrer com o layout Perspectiva, exibindo imagens individuais em um cilindro exposto. Sobrepor conteúdo entre arquivos é ainda correspondente. A imagem de referência é colocada no
@@ -101,14 +101,14 @@
 			<p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem19.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem19.PNG') }}" alt="guia">
                 </figure>
             </div>
 			</p>
 			<p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem20.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem20.PNG') }}" alt="guia">
                 </figure>
             </div>
 			</p>
@@ -119,21 +119,21 @@
 			com outros conjuntos de arquivo.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem21.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem21.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Collage: Alinha as camadas, faz a correspondência de conteúdo sobreposto e
 			transforma (dimensiona ou gira) todas as camadas de origem.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem22.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem22.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Reposition: Alinha as camadas e corresponde o conteúdo sobreposto, mas não
 			transforma (ajusta ou inclina) nenhuma das camadas de origem.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem23.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem23.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Selecione uma dessas opções:</p>
@@ -149,7 +149,7 @@
 			<p>• Content Aware Fill Transparent Areas: Preenche as áreas transparentes de forma contínua com conteúdo similar de uma imagem próxima.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem24.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem24.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Clique em OK.</p>
@@ -182,27 +182,27 @@
 			Stack).</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem25.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem25.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Escolha Select – All Layers.</p>
 			<p>• Clique em Edit – Auto-Align Layers.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem26.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem26.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Selecione Auto como opção de alinhamento. Se Auto não criar um bom alinhamento para suas camadas, tente a opção Repositon.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem27.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem27.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Clique em Layer – Smart Object - Convert to Smart Object.</p>
 			<p>• Clique em Layer – Smart Object – Stack Mode e escolha um Stack Mode.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem28.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem28.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p><b>Export Layers to files</b></p>
@@ -212,7 +212,7 @@
 			<p>I. Clicar em File – Export – Layers to Files.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem29.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem29.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>II. Na caixa de diálogo Export Layers to files, escolha:</p>
@@ -223,7 +223,7 @@
 			<p>• File Type: Escolha entre as opções de tipos de arquivo de imagens.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem30.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem30.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>III. Marcando a opção Visible Layers Only, permite que possamos exportar apenas as camadas que estão visíveis no painel Layers.</p>

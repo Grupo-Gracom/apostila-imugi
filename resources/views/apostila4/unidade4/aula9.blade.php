@@ -27,7 +27,7 @@
 			ferramenta de pintura ou modifi cá-la com um filtro. Depois de sair do modo Quick Mask,
 			a máscara é convertida de volta para uma seleção na imagem.
 			<p>Para acessar o modo máscara rápida podemos:</p>
-			<p>I. Clicar no botão Edit in Quick Mask Mode<img style="display: inline;" src="{{ asset('assets/img/photoshop/unit4/imagem1.png') }}" alt="guia">.</p>
+			<p>I. Clicar no botão Edit in Quick Mask Mode<img style="display: inline;" src="{{ asset('assets/img/photoshop/unit4/imagem1.PNG') }}" alt="guia">.</p>
 			<p>II. Ou simplesmente, teclar a “Q”.</p>
 			<p>Vale lembrar que quando na máscara rápida, as áreas na cor vermelha representam
 			áreas não selecionadas, e transparentes, áreas selecionadas. Portanto, caso iniciemos
@@ -46,7 +46,7 @@
 			<p>I. Acessar o painel channels do Adobe Photoshop.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit4/imagem2.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit4/imagem2.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>II. Selecionar o canal Blue, para isolá-lo.</p>
@@ -54,28 +54,28 @@
 			de contraste entre as cores preto e branco para criar a máscara.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit4/imagem3.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit4/imagem3.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>III. Em seguida, devemos criar uma cópia desse canal, calculando o diferencial entre
 			áreas mais claras e escuras para que ele possa receber ajustes. Para isso, acesse o recurso Calculations do menu Image.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit4/imagem4.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit4/imagem4.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>IV. Quando a janela Calculations surgir, mantenha a opção result como New Chanel
 			para que este crie uma cópia do canal atual, mantendo-o intacto no resultado final.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit4/imagem5.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit4/imagem5.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>V. A partir de então, o canal Alpha1 surgirá no painel Channels, disponível para
 			edição da máscara.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit4/imagem6.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit4/imagem6.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>VI. Para obtermos a silhueta preta e branca da imagem (que facilitará o isolamento
@@ -87,7 +87,7 @@
 			no modo normal de cores. </p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit4/imagem7.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit4/imagem7.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>O próximo passo é carregar a seleção do canal Alpha1 no modo RGB da imagem para
@@ -95,13 +95,13 @@
 			<p>I. De volta ao modo RGB clicar no menu Select – Load Selection.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit4/imagem8.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit4/imagem8.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>II. Na janela que surgir, selecione Alpha1 na opção Channel.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit4/imagem9.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit4/imagem9.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlaw center-align">A T I V I D A D E S</h5>

@@ -7,7 +7,7 @@
             <ul>
                 <li  class="@if(Route::current()->getName() == 'portal') active @endif">
                     <a href='/portal'>
-                        <i class="icon_house_alt font-16" style=""></i>
+                        <i class="icon_house_alt font-16"></i>
                         <span class="century left font-14"> HOME</span>
                     </a>
                 </li>

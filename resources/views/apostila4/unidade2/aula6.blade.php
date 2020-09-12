@@ -99,7 +99,7 @@
 			agrupar camadas no painel a fim de organizá-las entre as demais camadas.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem100.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem100.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>Para criar um grupo usando camadas selecionadas, podemos:</p>
@@ -107,14 +107,14 @@
 			botão New Layer Group.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem101.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem101.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>II. Selecionar de modo sequencial ou alternando as camadas desejadas, e clicar na
 			opção New Group. </p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem102.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem102.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>III. Selecionar de modo sequencial ou alternando as camadas desejadas, e combinar as teclas CTRL+G.</p>
@@ -128,7 +128,7 @@
 			<p>I. No painel camadas, clicar no controle deslizante da opção Opacity.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem103.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem103.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>II. Selecionar a camada e com a ferramenta Move selecionada, digitar no teclado numérico o número correspondente ao índice de opacidade, que varia entre 0
@@ -148,19 +148,19 @@
 			camada que servirá como camadas de corte.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem104.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem104.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>Em seguida, posicione o cursor na linha entre as duas camadas e ao aparecer o ícone,
-			<img style="display: inline;" src="{{ asset('assets/img/photoshop/unit2/imagem105.png') }}" alt="guia">clique com o botão esquerdo do mouse.</p>
+			<img style="display: inline;" src="{{ asset('assets/img/photoshop/unit2/imagem105.PNG') }}" alt="guia">clique com o botão esquerdo do mouse.</p>
 			<p>II. No painel layers, posicione a camada que será cortada diretamente acima da
 			camada que servirá como camadas de corte. Em seguida, escolha a opção Creaté Clipping Mask no menu do painel de layers.</p>
 			<p>Ao inserir uma camada de ajuste para uma composição, esta tem a função de repassar
 			esse ajuste para todas as camadas abaixo dela no painel de layers. Porém, quando precisarmos delimitar a aplicação desse ajuste somente a camada diretamente abaixo do
 			ajuste, podemos utilizar o clipping mask da seguinte forma:</p>
 			<p>III. Clicando na camada e escolhendo a camada de ajuste clicando no botão</p>
-			<p><img style="display: inline;" src="{{ asset('assets/img/photoshop/unit2/imagem106.png') }}" alt="guia">. E em seguida clicando no botão This adjustment clips to the Layer.</p>
-			<p><img style="display: inline;" src="{{ asset('assets/img/photoshop/unit2/imagem107.png') }}" alt="guia">.</p>
+			<p><img style="display: inline;" src="{{ asset('assets/img/photoshop/unit2/imagem106.PNG') }}" alt="guia">. E em seguida clicando no botão This adjustment clips to the Layer.</p>
+			<p><img style="display: inline;" src="{{ asset('assets/img/photoshop/unit2/imagem107.PNG') }}" alt="guia">.</p>
 			<h5 class="barlaw"> Auto-Blend Layers</h5>
 			<p>Use o comando Auto-Blend Layers para costurar ou combinar imagens com transições suaves
 			na imagem final composta. Auto-Blend Layers aplica máscaras de camada conforme necessário
@@ -177,7 +177,7 @@
 			através do clique com o botão direito do mouse sobre a seleção. </p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem108.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem108.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>II. Usando a mesma seleção, realizar a exclusão (DELETE) dos pixels do conteúdo da
@@ -186,13 +186,13 @@
 			SHIFT.IV. Clicar no menu Edit - Auto-Blend Layers.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem109.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem109.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>V. Escolha Panorama para um ajuste automático que combine as duas imagens.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem110.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem110.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlaw center-align">A T I V I D A D E S</h5>

@@ -77,7 +77,7 @@
 			<p><b>Origem: Wikipédia, a enciclopédia livre.</b></p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit6/imagem1.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit6/imagem1.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlaw center-align">A T I V I D A D E S</h5>

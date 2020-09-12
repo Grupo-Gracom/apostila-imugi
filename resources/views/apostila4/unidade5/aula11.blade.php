@@ -12,13 +12,13 @@
 		<div id="unidade" class="box" data-apostila="apostila4" data-unidade="unidade5" data-etapa="aula11">
 			<h3 class="barlow">UNIT 5</h3>
 			<h5 class="barlow upper">Aula 11 – Distorções e Perspectivas II</h5>
-			<h5 class="barlaw">Transform Warp <img style="display: inline;" src="{{ asset('assets/img/photoshop/unit5/imagem37.png') }}" alt="guia"></h5>
+			<h5 class="barlaw">Transform Warp <img style="display: inline;" src="{{ asset('assets/img/photoshop/unit5/imagem37.PNG') }}" alt="guia"></h5>
 			<p>O comando Warp permite arrastar pontos de controle para manipular a forma de imagens, formas ou caminhos, e assim por diante. Podemos deformar usando uma forma no
 			menu pop-up na barra de opções. As formas no menu pop-up deformação também são
 			maleáveis; Arraste seus pontos de controle.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit5/imagem38.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit5/imagem38.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>I. Selecione a camada que você deseja entortar com o warp.
@@ -30,7 +30,7 @@
 			<p>II. Clique em Edit – Transform – Perspective.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit5/imagem39.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit5/imagem39.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>III. Ou combine as teclas CTRL + T e clicando com o botão direito do mouse sob a
@@ -42,7 +42,7 @@
 			<p>II. Clique em Edit – Transform – Skew.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit5/imagem40.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit5/imagem40.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>III. Ou combine as teclas CTRL + T e clicando com o botão direito do mouse sob a
@@ -56,7 +56,7 @@
 			Inteligentes.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit5/imagem41.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit5/imagem41.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>Para utilizarmos o Puppet Warp devemos:</p>
@@ -66,7 +66,7 @@
 			<p>• Mode: Determina a elasticidade geral da malha.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit5/imagem42.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit5/imagem42.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>Escolha Distort para uma malha altamente elástica, boa para deformar imagens de
@@ -74,25 +74,25 @@
 			<p>• Density: Determina o espaçamento dos pontos de malha. Mais pontos aumenta a precisão, mas exige mais tempo de processamento; Menos pontos faz o oposto.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit5/imagem43.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit5/imagem43.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Expansion: Expande ou contrai a borda externa da malha.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit5/imagem44.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit5/imagem44.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Show Mesh: Desmarque para mostrar somente os pinos de ajuste, proporcionando uma visualização mais clara de suas transformações.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit5/imagem45.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit5/imagem45.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Na janela de imagem, clique para adicionar pinos às áreas que deseja transformar e às áreas que deseja ancorar no local.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit5/imagem46.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit5/imagem46.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>Para reposicionar ou remover pinos, faça conforme abaixo:</p>
@@ -101,7 +101,7 @@
 			nos botões de profundidade de pinagem na barra de opções.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit5/imagem47.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit5/imagem47.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Para remover os pinos selecionados, pressione DELETE. Para remover outros

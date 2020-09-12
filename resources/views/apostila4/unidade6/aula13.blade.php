@@ -9,7 +9,7 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila4" data-unidade="unidade6" data-etapa="aula12">
+		<div id="unidade" class="box" data-apostila="apostila4" data-unidade="unidade6" data-etapa="aula13">
 			<h3 class="barlow">UNIT 6</h3>
 			<h5 class="barlaw">Aula 13 – Composição Temática II</h5>
 			<h5 class="barlaw">Composição Steampunk</h5>
@@ -41,7 +41,7 @@
 			Sterling é creditado frequentemente como o principal divulgador do steampunk.</p>	
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit6/imagem2.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit6/imagem2.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p><b>Origem: Wikipédia, a enciclopédia livre.</b></p>

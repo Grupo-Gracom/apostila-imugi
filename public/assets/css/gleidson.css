@@ -52,6 +52,9 @@ figure{margin: 0;}
 video, img{display: block;}
 p{font-size: 18px;color: #333;margin-bottom: 16px; text-align: justify;}
 p b{color: black;}
+.recuo { margin-left: 50px; margin-right: 50px}
+
+.unidade_6_5{font-size: 18px;color: #333;margin-bottom: 20px; margin-left: 40px; text-align: justify;}
 
 audio::-webkit-media-controls-panel{background-color: #7dc242;}
 audio::-webkit-media-controls-play-button{filter: invert(1);background-color: rgba(255,255,255,.3);height: 32px;border-radius: 20px;}

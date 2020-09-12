@@ -43,9 +43,7 @@
 					<!-- GAMES AND ANIMATION -->
 					<li class="deactive games">
 						<figure>
-							<a href="https://imugi.com.br/portaldoaluno/demo/imugi/cinema4d.html" target="_blank">
-								<img src="{{ asset('assets/img/gamesandanimation.png') }}" alt="Games">
-							</a>
+							<a href="apostila5/intro5/intro"><img src="{{ asset('assets/img/gamesandanimation.png') }}" alt="Games"></a>
 						</figure>
 					</li>
 					<!-- MASTER OF LANGUAGE -->
@@ -57,9 +55,7 @@
 					<!-- VIDEO EDITION -->
 					<li class="deactive video">
 						<figure>
-							<a href="https://imugi.com.br/portaldoaluno/demo/imugi/video_edition.html" target="_blank">
-								<img src="{{ asset('assets/img/videoedition.png') }}" alt="Video Edition">
-							</a>
+							<a href="apostila6/intro6/intro"><img src="{{ asset('assets/img/videoedition.png') }}" alt="Video Edition"></a>
 						</figure>
 					</li>
 				</ul>

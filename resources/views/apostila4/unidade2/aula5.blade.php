@@ -23,19 +23,19 @@
 			<p>I. Através do menu principal Layer – New adjustment Layer</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem89.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem89.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>II. Através do botão Creaté New Fill or Adjustment Layer do painel Layers.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem90.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem90.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>III. Através do Painel Adjustments no lado direito da tela do programa.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem91.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem91.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlaw"> Editando Camadas de Ajuste</h5>
@@ -45,19 +45,19 @@
 			ajuste:</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem92.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem92.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem93.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem93.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>Além de uma camada nova acima da camada da imagem, teremos acoplada a ela um
 			ícone de miniatura branca que é a representação de uma máscara de camada.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem94.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem94.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>Podemos então escolher a forma como aplicaremos o ajuste Photo Filter a essa imagem:</p>
@@ -65,20 +65,20 @@
 			blue, Underwatér, etc.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem95.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem95.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>II. Escolhendo a opção color e clicando no ícone da cor para selecionar uma
 			especifica na janela Color Picker.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem96.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem96.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>O ajuste Photo Filter ainda apresenta um botão deslizante que ao arrastarmos para direita ou para esquerda, aumentamos ou reduzimos a intensidade do filtro aplicado.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem97.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem97.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>Marcando a opção Preserve Luminosity, a iluminação original da imagem prevalece mesmo com a intensidade do filtro.</p>
@@ -89,7 +89,7 @@
 			Isso caracteriza que estamos em modo de máscara.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem98.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem98.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>Para alterar exibição ou ocultação do filtro na camada, podemos fazer uso da ferramenta
@@ -108,7 +108,7 @@
 			de diálogo Brush Presets Picker.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem99.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem99.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>Mover o controle deslizante da opção Size.</p>

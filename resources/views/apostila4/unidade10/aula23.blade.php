@@ -27,7 +27,7 @@
 			<h5 class="barlaw">Painel Actions</h5>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem1.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem1.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>Usamos o painel Actions para gravar, reproduzir, editar e excluir ações individuais. Este
@@ -36,7 +36,7 @@
 			ative-o clicando em Window – Actions. Ou simplesmente combine as teclas ALT + F9.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem2.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem2.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<h5 class="barlaw">Diretrizes para gravar ações</h5>
@@ -71,7 +71,7 @@
 			<p>• Color: Assigns a color for display in Button mode.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem3.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem3.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Clique em Record. O botão Begin Recording no painel Ações fica vermelho.</p>
@@ -87,7 +87,7 @@
 			<p>I. Clicar no botão do menu do painel Actions e escolher a opção Load Actions.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem4.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem4.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>II. Localizar o arquivo no formato .atn, onde ele estiver armazenado em disco.</p>
@@ -98,13 +98,13 @@
 			<p>I. Clicar no menu do painel Actions e escolher a opção Reset Actions.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem5.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem5.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>II. Clicar em OK na caixa de confirmação Replace the current actions.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem6.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem6.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p><b>Set de Actions</b></p>
@@ -115,14 +115,14 @@
 			<p>II. Definir um nome para o set de actions na caixa de diálogo New Set.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem7.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem7.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>III. O ícone de uma pasta representando o set de actions surgirá no painel Actions.
 			Daí por diante, basta arrastar para dentro da pasta as actions já criadas ou manter selecionada a pasta do set quando for criar uma nova action.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem8.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem8.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p><b>Organizando conteúdo e recursos usando o Adobe Bridge</b></p>
@@ -133,7 +133,7 @@
 			necessário, visualizar arquivos e até mesmo adicionar metadados (informações de arquivo), tornando os arquivos mais fáceis de localizar.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem9.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem9.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>File browsing: No Adobe Bridge você pode visualizar, pesquisar, classificar, filtrar,
@@ -153,7 +153,7 @@
 			<p><b>Clique em Tools – Photoshop – Batch</b></p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem10.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem10.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Especifique a ação que você deseja usar para processar arquivos nos menus
@@ -162,13 +162,13 @@
 			vir sua ação.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem11.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem11.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Escolha os arquivos a serem processados no menu pop-up Origem:</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem12.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem12.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Folder: Processa arquivos em uma pasta que você especificar. Clique em
@@ -180,7 +180,7 @@
 			<p>Para obter descrições das configurações da caixa de diálogo Lote.</p>
 			<div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit10/imagem13.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit10/imagem13.PNG') }}" alt="guia">
                 </figure>
             </div>
 			<p>• Clique em OK</p>

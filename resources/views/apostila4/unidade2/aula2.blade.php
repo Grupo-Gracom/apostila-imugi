@@ -92,12 +92,15 @@
             podemos contar com outros modos de seleção para combinarmos com os principais.</p>
             <p style="margin-top: 16px">I. New Selection – Esse é o modo básico que já vem ativo 
             por padrão nas ferramentas onde ao clicar em uma área não selecionada, ele cria uma 
-            nova seleção, cancelando a anterior.</p>
+            nova seleção, cancelando a anterior.
+            </p>
+
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
                     <img src="{{ asset('assets/img/photoshop/unit2/imagem7.png') }}" alt="guia">
                 </figure>
             </div>
+            
             <p style="margin-top: 16px">II. Intersect with Selection – Esse modo cria uma intersecção em uma ou mais
             áreas já selecionada, cancelando a seleção nas áreas fora dessa intersecção.</p>
 			<h5 class="barlow">Invertendo Seleção</h5>
@@ -123,7 +126,7 @@
             Select - Modify:</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem8.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem8.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px"><b>I. </b>Border – Desenha uma borda a parti r do limite da seleção para fora.</p>
@@ -137,7 +140,7 @@
             Move (V), que se encontra na barra de ferramentas do programa. </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem9.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem9.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">É importante observar que ao apontarmos o mouse com a ferramenta Move selecionada,
@@ -174,7 +177,7 @@
             <p style="margin-top: 16px"><b>III.</b> Através da combinação das teclas SHIFT + F5.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem10.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem10.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">Entre as opções da janela Fill temos:</p>
@@ -182,7 +185,7 @@
             cor que se encontra configurada na botão de cor de primeiro plano.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem11.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem11.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">II. Foreground color - Preenche o documento inteiro ou área selecionada com a
@@ -190,7 +193,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem12.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem12.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">III. Color – Abre a janela Color Picker (Fill color), 
@@ -199,7 +202,7 @@
             </p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem13.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem13.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">IV. Content Aware – Esta opção será melhor abordada em 
@@ -212,7 +215,7 @@
             Photoshop.</p>
             <div style="margin-top:16px">
                 <figure class="otimizarimagem">
-                    <img src="{{ asset('assets/img/photoshop/unit2/imagem14.png') }}" alt="guia">
+                    <img src="{{ asset('assets/img/photoshop/unit2/imagem14.PNG') }}" alt="guia">
                 </figure>
             </div>
             <p style="margin-top: 16px">VI. Black - Preenche o documento inteiro ou área selecionada com a cor preta.</p>
