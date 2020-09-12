@@ -2947,12 +2947,6 @@
                         </li>
                     </ul>
                 </li>
-<<<<<<< HEAD
-                <!-- UNIDADE 13 -->
-                <!-- UNIDADE 14 -->
-                <!-- UNIDADE 15 -->
-                <li class="item" data-unidade="unidade6">
-=======
                  <!-- UNIDADE 13 -->
                 <li class="item" data-unidade="unidade13">
                     <a class="click submenu">
@@ -2978,28 +2972,37 @@
 
                 <!-- UNIDADE 15 -->
                 <li class="item" data-unidade="unidade15">
->>>>>>> bcd262ea8e0030504bdf9e04928243d7e6810d25
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 15
                     </a>
                     <ul>
                         <li>
-<<<<<<< HEAD
-                            <a href="{{route('apostila6', ['unidade15', 'expressions'])}}" data-etapa="expressions"><i class="material-icons suave">record_voice_over</i>EXPRESSIONS</a>
-                        </li>
-                    </ul>
-                </li>
-                <!-- UNIDADE 16 -->
-                <!-- UNIDADE 17 -->
-                <!-- UNIDADE 18 -->
-                <!-- UNIDADE 19 -->
-=======
                             <a href="{{route('apostila6', ['unidade15', 'expressions'])}}" data-etapa="expressions"><i class="material-icons suave">record_voice_over</i>Expressions</a>
                         </li>
                     </ul>
                 </li>
-
->>>>>>> bcd262ea8e0030504bdf9e04928243d7e6810d25
+                  <!-- UNIDADE 17 -->
+                   <li class="item" data-unidade="unidade17">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 17
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade17', 'parallax'])}}" data-etapa="parallax"><i class="material-icons suave">record_voice_over</i>Parallax</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- UNIDADE 18 -->
+                   <li class="item" data-unidade="unidade18">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 18
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade18', 'colorizacao'])}}" data-etapa="colorizacao"><i class="material-icons suave">record_voice_over</i>Colorizacao</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </li>
 </nav>
