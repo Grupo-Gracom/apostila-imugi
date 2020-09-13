@@ -3018,6 +3018,22 @@
                         </li>
                     </ul>
                 </li>
+
+                <!-- UNIDADE 20 -->
+                <li class="item" data-unidade="unidade20">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 20
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade20', 'rotoscopia'])}}" data-etapa="rotoscopia"><i class="material-icons suave">record_voice_over</i>Rotoscopia</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade20', 'matte_painting'])}}" data-etapa="matte_painting"><i class="material-icons suave">record_voice_over</i>Matte Painting</a>
+                        </li>
+                    </ul>
+                </li>
+
             </ul>
         </li>
 </nav>
