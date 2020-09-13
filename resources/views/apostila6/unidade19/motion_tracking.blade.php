@@ -32,12 +32,12 @@
 			</p>
 
 			<h5>Rastreamento de um ponto</h5>
-			<p>Acompanhe um único padrão de referência (uma pequena área de pixels) em um clipe de fifi lme para gravar dados de posição.</p>
+			<p>Acompanhe um único padrão de referência (uma pequena área de pixels) em um clipe de filme para gravar dados de posição.</p>
 
 			<h5>Rastreamento de dois pontos</h5>
 			<p>Rastreie dois padrões de referência em um clipe de filme e use a relação entre os dois pontos rastreados para registrar a posição, a escala e os dados de rotação.</p>
 
-			<h5>sRastreamento de quatro pontos ou faixa de pino de canto</h5>
+			<h5>Rastreamento de quatro pontos ou faixa de pino de canto</h5>
 			<p>Acompanhe quatro padrões de referência em um clipe de filme para registrar a posição, a escala e os dados de rotação. Os quatro rastreadores analisam a relação entre quatro padrões de referência, como os cantos de uma moldura ou monitor de televisão. Estes dados são aplicados em cada canto de uma imagem ou clipe para “pino” o clipe para que ele apareça bloqueado na moldura ou monitor de televisão.</p>
 
 			<h5>Rastreamento de múltiplos pontos</h5>
