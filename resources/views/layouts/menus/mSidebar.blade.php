@@ -3019,6 +3019,21 @@
                     </ul>
                 </li>
 
+                <!-- UNIDADE 18 -->
+                <li class="item" data-unidade="unidade19">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 19
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade19', 'motion_tracking'])}}" data-etapa="motion_tracking"><i class="material-icons suave">record_voice_over</i>Motion tracking</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade19', 'camera_tracking_3d'])}}" data-etapa="camera_tracking_3d"><i class="material-icons suave">record_voice_over</i>Camera tracking 3D</a>
+                        </li>
+                    </ul>
+                </li>
+
                 <!-- UNIDADE 20 -->
                 <li class="item" data-unidade="unidade20">
                     <a class="click submenu">
@@ -3029,7 +3044,7 @@
                             <a href="{{route('apostila6', ['unidade20', 'rotoscopia'])}}" data-etapa="rotoscopia"><i class="material-icons suave">record_voice_over</i>Rotoscopia</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila6', ['unidade20', 'matte_painting'])}}" data-etapa="matte_painting"><i class="material-icons suave">record_voice_over</i>Matte Painting</a>
+                            <a href="{{route('apostila6', ['unidade20', 'matte_painting'])}}" data-etapa="matte_painting"><i class="material-icons suave">record_voice_over</i>Matte painting</a>
                         </li>
                     </ul>
                 </li>
