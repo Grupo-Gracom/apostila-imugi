@@ -2947,7 +2947,7 @@
                         </li>
                     </ul>
                 </li>
-                 <!-- UNIDADE 13 -->
+                <!-- UNIDADE 13 -->
                 <li class="item" data-unidade="unidade13">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 13
@@ -2981,8 +2981,23 @@
                         </li>
                     </ul>
                 </li>
-                  <!-- UNIDADE 17 -->
-                   <li class="item" data-unidade="unidade17">
+                <!-- UNIDADE 16 -->
+                <li class="item" data-unidade="unidade16">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 16
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade16', 'animacao_personagem'])}}" data-etapa="animacao_personagem"><i class="material-icons suave">record_voice_over</i>Animação de personagem</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila6', ['unidade16', 'puppet_pin'])}}" data-etapa="puppet_pin"><i class="material-icons suave">record_voice_over</i>Puppet Pin</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- UNIDADE 17 -->
+                <li class="item" data-unidade="unidade17">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 17
                     </a>
@@ -2993,7 +3008,7 @@
                     </ul>
                 </li>
                 <!-- UNIDADE 18 -->
-                   <li class="item" data-unidade="unidade18">
+                <li class="item" data-unidade="unidade18">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 18
                     </a>
