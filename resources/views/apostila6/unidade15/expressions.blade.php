@@ -10,7 +10,7 @@
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
 		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade15" data-etapa="expressions">
-			<h3 class="barlow">UNIT 15 - EXPRESSIONS</h3>
+			<h3 class="barlow">UNIT 15</h3>
 			<h5 class="barlow upper">AULA 13 - EXPRESSIONS</h5>
 
 			<p>Uma expressão é uma pequena parte de um software - muito parecido com um script - que
