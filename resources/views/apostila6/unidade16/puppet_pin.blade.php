@@ -10,9 +10,7 @@
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
 		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade16" data-etapa="puppet_pin">
-			<h3 class="barlow">UNIT 16 - PUPPET PIN
-
-			</h3>
+			<h3 class="barlow">UNIT 16</h3>
 			<h5 class="barlow upper">AULA 16 - PUPPET PIN</h5>
 			<div class="container">
 				<figure>

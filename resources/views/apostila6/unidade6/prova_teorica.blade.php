@@ -9,7 +9,7 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade2" data-etapa="prova-teorica">
+		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade6" data-etapa="prova-teorica">
 			<h3 class="barlow">UNIT 6</h3>
 			<h5 class="barlow upper">Aula 24 – ProvaTeórica</h5>
 			<p>

@@ -2898,29 +2898,29 @@
 
 
                 <!-- UNIDADE 9 -->
-                <li class="item" data-unidade="unidade6">
+                <li class="item" data-unidade="unidade9">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 9
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila6', ['unidade9', 'renderizacao'])}}" data-etapa="renderizacao"><i class="material-icons suave">record_voice_over</i>RENDERIZAÇÃO</a>
+                            <a href="{{route('apostila6', ['unidade9', 'renderizacao'])}}" data-etapa="renderizacao"><i class="material-icons suave">record_voice_over</i>Renderização</a>
                         </li>
                     </ul>
                 </li>
                 <!-- UNIDADE 10 -->
-                <li class="item" data-unidade="unidade6">
+                <li class="item" data-unidade="unidade10">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 10
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila6', ['unidade10', 'tipografia'])}}" data-etapa="tipografia"><i class="material-icons suave">record_voice_over</i>TIPOGRAFIA</a>
+                            <a href="{{route('apostila6', ['unidade10', 'tipografia'])}}" data-etapa="tipografia"><i class="material-icons suave">record_voice_over</i>Tipografia</a>
                         </li>
                     </ul>
                 </li>
                 <!-- UNIDADE 11 -->
-                <li class="item" data-unidade="unidade6">
+                <li class="item" data-unidade="unidade11">
                     <a class="click submenu">
                         <i class="material-icons">flag</i> UNIT 11
                     </a>
