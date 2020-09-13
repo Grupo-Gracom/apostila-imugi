@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\User;
+use App\Cargo;
 
 class AdminController extends Controller
 {
@@ -25,6 +26,11 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('admin/index');
+        return view('gestao/index');
+    }
+
+    public function menusLista(){
+        $cargos = Cargo::all();
+        return view("layouts/gestao/menus/menus", compact('cargos'));
     }
 }

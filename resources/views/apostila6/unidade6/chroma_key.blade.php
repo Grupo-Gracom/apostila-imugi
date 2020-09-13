@@ -9,7 +9,7 @@
 <main>
 	<!-- Conteúdo principal central -->
 	<div class="dashboard">
-		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade20" data-etapa="chroma-key">
+		<div id="unidade" class="box" data-apostila="apostila6" data-unidade="unidade6" data-etapa="chroma-key">
 			<h3 class="barlow">UNIT 6</h3>
 			<h5 class="barlow upper">Aula 20 – Chroma Key</h5>
 			<h5>Ultra key</h5>

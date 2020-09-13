@@ -1204,9 +1204,11 @@ Route::post('/contato-aluno', 'ContatoController@contatoAluno')->name('alunoCont
 Route::post('/contato-franquia', 'ContatoController@contatoFranquia')->name('contatoFranquia');
 Route::post('/enviar', 'ContatoController@enviar')->name('enviarContato');
 
-/******************************************************************OUTRAS ROTAS**************************************************************/
+/******************************************************************Rotas Gestao Professor e Coordenador**************************************************************/
 
-//Route::get('/admin', ['as'=>'admin','uses'=>'AdminController@index']);
+Route::get('/gestao', ['as'=>'admin','uses'=>'AdminController@index']);
+Route::get('menus', 'AdminController@menusLista');
+Route::get('gestao-frequencia', 'frequenciaController@listafrequencia');
 // Route::resource('topicos', 'TopicoController');
 // Route::resource('conteudos', 'ConteudoController');
 // Route::resource('pdf', 'PdfController');

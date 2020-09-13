@@ -32,9 +32,6 @@
 						</p>
 
 					</div>
-					<div class="bem-vindo-video">
-						<video controls="" controlslist="nodownload" disablepictureinpicture="" src="{{ asset('assets/video/intro_playgo.mp4') }}" style="width:100%;"></video>
-					</div>
 				</div>
 			</div>
 		</div>
