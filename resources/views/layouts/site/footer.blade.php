@@ -26,10 +26,10 @@
                         <div class="col-lg-2 col-md-6 widget md-margin-30px-bottom">
                             <ul class="latest-post position-relative">
                                 <li class="media">
-                                    <a href="" class="text-white menu_rodape">Home</a>
+                                    <a href="{{route('site')}}" class="text-white menu_rodape">Home</a>
                                 </li>
                                 <li class="media">
-                                    <a href="" class="text-white menu_rodape">Seja Franqueado</a>
+                                    <a href="{{route('franquia')}}" class="text-white menu_rodape">Seja Franqueado</a>
                                 </li>
                                 @if(Route::current()->getName() == 'site') 
                                 <li class="media">
@@ -37,10 +37,10 @@
                                 </li>
                                 @endif
                                 <li class="media">
-                                    <a href="" class="text-white menu_rodape">Contato</a>
+                                    <a href="{{route('siteContato')}}" class="text-white menu_rodape">Contato</a>
                                 </li>
                                 <li class="media">
-                                    <a class="text-white menu_rodape">Portal do Aluno</a>
+                                    <a href="{{route('login')}}" class="text-white menu_rodape">Portal do Aluno</a>
                                 </li>
                             </ul>
                         </div>
@@ -72,9 +72,9 @@
                                <div style="height: 2px;"></div>
                                <span class="texto_franqueado_2"> Franqueado </span>
                             </div>
-                            <form method="post" action="" target="_blank">
+                            <a href="{{route('franquia')}}">
                                 <button class="mt-4 btn_franquia">Quero ter uma imugi</button>
-                            </form>
+                            </a>
                         </div>
                         <!-- end newsletter -->
                         <!-- start instagram -->

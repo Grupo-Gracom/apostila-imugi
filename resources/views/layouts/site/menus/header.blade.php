@@ -23,10 +23,9 @@
                                     </a>
                                 </li>
                                 <!-- end menu item -->
-                                @if(Route::current()->getName() == 'site')
-                                <li><a href="#curso">Cursos</a>
+                                <li class="@if(Route::current()->getName() == 'cursos') ativo @endif">
+                                    <a href="{{route('cursos')}}">Cursos</a>
                                  </li>
-                                @endif
                                 <li class="@if(Route::current()->getName() == 'depoimentos') ativo @endif">
                                     <a href="{{route('depoimentos')}}">Depoimentos</a>
                                 </li>

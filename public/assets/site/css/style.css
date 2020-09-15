@@ -200,6 +200,25 @@ html{
     color: #7aba17;
 }
 
+.faca-imugi{
+    font-family: Arista;
+    font-size: 40pt;
+    text-transform: uppercase;
+    color: #7aba17;
+    line-height: 50px;
+}
+
+.mercado-trabalho{
+    margin-top: 100px;
+    font-size: 24pt;
+    font-weight: bold;
+    margin-bottom: 0px!important;
+}
+
+.desc-mercado{
+    margin:0!important;
+}
+
 .titulo_portal{
     font-family: Arista;
     text-transform: uppercase;
@@ -257,6 +276,14 @@ html{
     color: #fff;
 }
 
+.btn_curso_sobre{
+    background-color: #8F06F0;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 8px;
+    color: #fff;
+}
+
 .obs_lead{
     color: #fff;
     font-size: 10pt;
@@ -307,11 +334,49 @@ html{
     font-size: 15pt;
     color: #7aba17!important;
 }
+
+.preparese{
+    font-family: arista;
+    text-transform: uppercase;
+    font-size: 26pt;
+    line-height: 31px;
+    color: #7aba17!important;
+}
+
 .quadrado_3{
     position:absolute;
     width:450px; 
     top:65%; 
     left:41%;
+}
+.divisao-cg{
+    background-color: #7aba17;
+    height: 2px;
+    width: 130px;
+    margin: 0 auto;
+    display: block;
+}
+.seja-bilingue{
+    font-family: arista;
+    margin:0px!important;
+    font-size: 15pt;
+    color: #7aba17!important;
+}
+.seta{
+    position:absolute;
+    width:50px; 
+    bottom:60px;
+    left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+}
+
+.titulo-curso{
+    font-family: arista;
+    font-size: 30pt;
+    margin: 0px!important;
+    color: #7aba17!important;
 }
 .quadrado_2{
     position: absolute; left:75%; top:298%; z-index:100;

@@ -1194,6 +1194,7 @@ Route::post('/atualizar-perfil/{id}', 'UserController@update');
 Route::get('/atualiza-senha','UserController@atualizaSenha');
 
 // Rotas Site Imugi
+Route::get('/cursos', 'HomeController@cursos')->name('cursos');
 Route::get('/site', 'HomeController@site')->name('site');
 Route::get('/site/depoimentos', 'HomeController@depoimentos')->name('depoimentos');
 Route::get('/site/contato', 'ContatoController@siteContato')->name('siteContato');
