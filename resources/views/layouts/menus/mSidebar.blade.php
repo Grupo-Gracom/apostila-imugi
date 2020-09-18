@@ -3026,11 +3026,12 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila6', ['unidade19', 'motion_tracking'])}}" data-etapa="motion_tracking"><i class="material-icons suave">record_voice_over</i>Motion tracking</a>
+                            <a href="{{route('apostila6', ['unidade19', 'tracking'])}}" data-etapa="tracking"><i class="material-icons suave">record_voice_over</i>Tracking</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila6', ['unidade19', 'camera_tracking_3d'])}}" data-etapa="camera_tracking_3d"><i class="material-icons suave">record_voice_over</i>Camera tracking 3D</a>
+                            <a href="{{route('apostila6', ['unidade19', 'camera_tracking_3d'])}}" data-etapa="camera_tracking_3d"><i class="material-icons suave">record_voice_over</i>Câmera tracking 3D</a>
                         </li>
+                       
                     </ul>
                 </li>
 
