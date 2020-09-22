@@ -22,7 +22,7 @@
 				everything you can imagine. Of course I want to participate of the 4 days, but I can’t wait
 				for Kris Costa’s workshop. He is a reference for me.</p>
 			<p><b>Laura: </b>Can you tell us a bit about him. I don’t know anything about him.</p>
-			<p><b>John: </b>I researched something about him last week. He’s from Rio de Janeiro Brasil. He
+			<p><b>John: </b>I researched something about him last week. He’s from Rio de Janeiro Brazil. He
 				started drawing when he was 4 years old but he discovered CG at age of 16. At that time,
 				he worked for a bank in Brazil and in his free time, he studied CG. He only decided to
 				work with CG at age of 21. His story is very inspiring.</p>

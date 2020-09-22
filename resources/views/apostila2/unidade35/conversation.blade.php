@@ -26,8 +26,11 @@
 				they can, they start brainstorming what to do. What do you think about it?</p>
 			<p><b>John:</b> Awesome. What if we start watching at least 4 different animations. We would be
 				in touch with real productions that could inspire us.
-				tLaura: That’s it. So let’s start ok. For the next week, we should watch at least 4 different
-				animations and bring as many notes as we can.</p>
+			</p>
+			<p>
+				<b>Laura</b>: That’s it. So let’s start ok. For the next week, we should watch at least 4 different
+				animations and bring as many notes as we can.
+			</p>
 			<p><b>Gleen:</b> Great guys. See you I the next class ok.</p>
 
 			<figure>

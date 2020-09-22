@@ -21,10 +21,13 @@
 			<p style="margin-top:16px"><b>Gleen:</b> Hey you guys. How’s everything? As I told you, in this class and in the next, we’re
 				gonna have a review ok. So far, we had the chance to talk about many things. First of all
 				I’d like to know what was the most important topic for you so far? Who wants to start?
-				Akira: Teacher, every class I learn something different. For me, having the opportunity
+			</p>
+			<p>
+				<b>Akira</b>: Teacher, every class I learn something different. For me, having the opportunity
 				to talk with professional of other areas is very nice. It was great to share some of my
 				knowledge about games and general stuff like my addiction to Kris Costas’ work. It was
-				very cool.</p>
+				very cool.
+			</p>
 			<p><b>Gleen:</b> Great Akira. For sure sharing knowledge is the best way to learn as a person and
 				as a professional. The more you give the more you receive. That’s the universal growth
 				law. Thanks Akira.</p>
