@@ -91,9 +91,14 @@ class HomeController extends Controller
         return view('site/home/index');
     }
 
-    public function cursos()
+    public function cgfly()
     {
-        return view('site/cursos/index');
+        return view('site/cursos/cgfly');
+    }
+
+    public function codeblock()
+    {
+        return view('site/cursos/codeblock');
     }
 
     public function depoimentos()

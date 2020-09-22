@@ -7,11 +7,11 @@
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-6 text-center md-margin-50px-bottom sm-margin-30px-bottom">
                             <div class="text-center text-lg-left md-no-padding-lr">
-                                <img src="{{asset('assets/site/images/logo-cgfly.png')}}" alt="">
+                                <img src="{{asset('assets/site/images/logo-cgfly.png')}}" alt="" class="logo-curso">
                                 
                             </div>
                         </div>
-                        <div class="col-md-1"></div>
+                        <div class="col-md-2"></div>
                         <div class="col-xs-4 col-lg-4">
                             <div class="card lead" style="z-index:400;">
                             
@@ -50,12 +50,12 @@
             </section>
             <img src="{{asset('assets/site/images/seta.png')}}" alt="" class="seta">
             
-        <section class="wow fadeIn bg_bvd" style="padding: 20px 0px!important;">
+            <section class="wow fadeIn bg_bvd" style="padding: 20px 0px!important;">
             <div class="container ">
                 <div class="row">
                     <!-- start features box item -->
                     <div class="col-12 col-lg-3 col-md-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
-                       <img src="{{asset('assets/site/images/icone-aprimorar.png')}}" alt="" width="160">
+                       <img src="{{asset('assets/site/images/icones/modulos.png')}}" alt="" width="160">
                         <p class="">
                         3. Módulos
                         </p>
@@ -63,7 +63,7 @@
                     <!-- end features box item -->
                     <!-- start features box item -->
                     <div class="col-12 col-lg-3 col-md-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
-                          <img src="{{asset('assets/site/images/icone-aprimorar.png')}}" alt="" width="160">
+                          <img src="{{asset('assets/site/images/icones/calendario.png')}}" alt="" width="160">
                         <p class="">
                             12. Meses
                             </p>
@@ -71,26 +71,27 @@
                     <!-- end features box item -->
                     <!-- start features box item -->
                     <div class="col-12 col-lg-3 col-md-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
-                            <img src="{{asset('assets/site/images/icone-aprimorar.png')}}" alt="" width="160">
+                            <img src="{{asset('assets/site/images/icones/horas.png')}}" alt="" width="160">
                             <p class="">144. Horas</p>
                         </div>
                         <div class="col-12 col-lg-3 col-md-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
-                            <img src="{{asset('assets/site/images/icone-aprimorar.png')}}" alt="" width="160">
+                            <img src="{{asset('assets/site/images/icones/idade-minima.png')}}" alt="" width="160">
                             <p class="">Idade Mínima <br> 12 anos</p>
                         </div>
                     <!-- end features box item -->
                 </div>
-                <div style="height: 130px;"></div>
+                <div style="height: 130px;" class="espaco-mobile"></div>
                 <div class="row mb-4">
                     <div class="col-12 text-center wow fadeIn">
-                    <h6 class="seja-bilingue">Seja CG Bilingue</h6>
+                    <h6 class="seja-bilingue">Inglês com Robótica</h6>
                         <h5>
-                        Aprenda Inglês e Computação Gráfica na Imugi
+                        Aprenda IA (Inteligência Artificial), através de projetos de automação <br> 
+                        que serão propostos no decorrer do curso.
                         </h5>
                         <div class="divisao-cg"></div>
                     </div>
                 </div>
-                <div style="height: 140px;"></div>
+                <div style="height: 140px;" class="espaco-mobile"></div>
                 <div class="row align-items-center"> 
                     <div class="col-12 col-lg-5 md-margin-50px-bottom">
                          <h5 class="preparese">
@@ -100,9 +101,9 @@ internacional
                        </h5>
 
                     </div>
-                    <img src="{{asset('assets/site/images/modulos.png')}}" alt="" style="position:absolute; width:60%; absolute; right:0px;">
+                    <img src="{{asset('assets/site/images/modulos-robotica.png')}}" alt="" class="modulos" style="position:absolute; width:60%; absolute; right:0px;">
                 </div>
-                <div style="height: 100px;"></div>
+                <div style="height: 100px;" class="espaco-mobile"></div>
             </div>
         </section>
         <!-- end information section -->
@@ -186,8 +187,8 @@ internacional
                 <div class="row">
                     <!-- start features box item -->
                     <div class="col-12 col-lg-3 col-md-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
-                       <img src="{{asset('assets/site/images/icone-aprimorar.png')}}" alt="" width="160">
-                       <div class=" text-uppercase font-weight-600 titulo_vantagens margin-5px-bottom mt-4">Material Didático</div>
+                       <img src="{{asset('assets/site/images/icones/material-didatico.png')}}" alt="" width="160">
+                       <div class="titulo_diferenciais margin-5px-bottom mt-4">Material Didático</div>
                         <p class="">
                         Altamente tecnológico
                         e sempre atualizado por professores atuantes no mercado.
@@ -196,8 +197,8 @@ internacional
                     </div>
                     <!-- end features box item -->
                     <div class="col-12 col-lg-3 col-md-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
-                       <img src="{{asset('assets/site/images/icone-aprimorar.png')}}" alt="" width="160">
-                       <div class=" text-uppercase font-weight-600 titulo_vantagens margin-5px-bottom mt-4">Central de Estágios</div>
+                       <img src="{{asset('assets/site/images/icones/central-estagio.png')}}" alt="" width="160">
+                       <div class="titulo_diferenciais margin-5px-bottom mt-4">Central de Estágios</div>
                         <p class="">
                         Realiza uma ponte entre nossos alunos
 e o mercado de trabalho.
@@ -206,17 +207,16 @@ e o mercado de trabalho.
                     </div>
                     <!-- start features box item -->
                     <div class="col-12 col-lg-3 col-md-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
-                       <img src="{{asset('assets/site/images/icone-aprimorar.png')}}" alt="" width="160">
-                       <div class=" text-uppercase font-weight-600 titulo_vantagens margin-5px-bottom mt-4">Programa Aprimorar</div>
+                       <img src="{{asset('assets/site/images/icones/aprimorar.png')}}" alt="" width="160">
+                       <div class="titulo_diferenciais margin-5px-bottom mt-4">Programa Aprimorar</div>
                         <p class="">
-                        Programa Aprimorar
                         Cronograma de palestras extracurriculares com contéudos necessários para uma carreira profissional abordados  interdisciplinarmente.
 
                         </p>
                     </div>
                     <div class="col-12 col-lg-3 col-md-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
-                       <img src="{{asset('assets/site/images/icone-aprimorar.png')}}" alt="" width="160">
-                       <div class=" text-uppercase font-weight-600 titulo_vantagens margin-5px-bottom mt-4">Reposição de Aulas</div>
+                       <img src="{{asset('assets/site/images/icones/reposicao.png')}}" alt="" width="160">
+                       <div class="titulo_diferenciais margin-5px-bottom mt-4">Reposição de Aulas</div>
                         <p class="">
                         Os alunos receberão aulas
 de reposição para faltas justificadas e todo um acompanhamento pedagógico no decorrer do curso.

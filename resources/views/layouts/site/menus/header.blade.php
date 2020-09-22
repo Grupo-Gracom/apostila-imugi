@@ -17,15 +17,23 @@
                         </button>
                         <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
                             <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal">
+                              
                                 <!-- start menu item -->
                                 <li class="@if(Route::current()->getName() == 'site') ativo @endif">
                                     <a href="{{route('site')}}">Home
                                     </a>
                                 </li>
-                                <!-- end menu item -->
-                                <li class="@if(Route::current()->getName() == 'cursos') ativo @endif">
-                                    <a href="{{route('cursos')}}">Cursos</a>
-                                 </li>
+                                 <!-- end menu item -->
+                                 <li class="dropdown simple-dropdown " ><a href="#"  data-toggle="dropdown">Cursos <i class="fas fa-angle-down text-dark"></i> </a>
+                                    <!-- start sub menu -->
+                                    <i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i> 
+                                    <ul class="dropdown-menu menu" role="menu" style="top:50px!important;">
+                                        <li><a  href="{{route('cg-fly')}}"> CG FLY <i class="fas fa-angle-right"></i></a>
+                                        </li>
+                                        <li><a href="{{route('code-block')}}"> CODE BLOCK <i class="fas fa-angle-right"></i></a>
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li class="@if(Route::current()->getName() == 'depoimentos') ativo @endif">
                                     <a href="{{route('depoimentos')}}">Depoimentos</a>
                                 </li>
