@@ -65,14 +65,14 @@
                     <div class="col-12 col-lg-3 col-md-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
                           <img src="{{asset('assets/site/images/icones/calendario.png')}}" alt="" width="160">
                         <p class="">
-                            12. Meses
+                            32. Meses
                             </p>
                         </div>
                     <!-- end features box item -->
                     <!-- start features box item -->
                     <div class="col-12 col-lg-3 col-md-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
                             <img src="{{asset('assets/site/images/icones/horas.png')}}" alt="" width="160">
-                            <p class="">144. Horas</p>
+                            <p class="">384. Horas</p>
                         </div>
                         <div class="col-12 col-lg-3 col-md-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin">
                             <img src="{{asset('assets/site/images/icones/idade-minima.png')}}" alt="" width="160">
@@ -83,7 +83,7 @@
                 <div style="height: 130px;"></div>
                 <div class="row mb-4">
                     <div class="col-12 text-center wow fadeIn">
-                    <h6 class="seja-bilingue">Inglês com Robótica</h6>
+                    <h6 class="seja-bilingue"> Faça Inglês + Robótica</h6>
                         <h5>
                         Aprenda IA (Inteligência Artificial), através de projetos de automação <br> 
                         que serão propostos no decorrer do curso.
