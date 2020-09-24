@@ -3031,7 +3031,7 @@
                         <li>
                             <a href="{{route('apostila6', ['unidade19', 'camera_tracking_3d'])}}" data-etapa="camera_tracking_3d"><i class="material-icons suave">record_voice_over</i>Câmera tracking 3D</a>
                         </li>
-                       
+
                     </ul>
                 </li>
 
@@ -3044,9 +3044,9 @@
                         <li>
                             <a href="{{route('apostila6', ['unidade20', 'rotoscopia'])}}" data-etapa="rotoscopia"><i class="material-icons suave">record_voice_over</i>Rotoscopia</a>
                         </li>
-                        <li>
+                        {{-- <li>
                             <a href="{{route('apostila6', ['unidade20', 'matte_painting'])}}" data-etapa="matte_painting"><i class="material-icons suave">record_voice_over</i>Matte painting</a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </li>
 

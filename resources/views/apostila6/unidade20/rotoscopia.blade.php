@@ -39,7 +39,13 @@
 			<p>As informações de segmentação Frozen Roto Brush & Refine Edge são armazenadas em cache e bloqueadas enquanto o aplicativo está sendo executado e as informações em cache são salvas com o projeto.</p>
 
 			<h5 class="barlow center-align">A T I V I D A D E S</h5>
-            <p style="margin-top: 16px"><b>01.</b> Criar máscaras para retirar pessoas ou objetos de cenário para inclusão em diferentes cenas da composição.</p>
+						<p style="margin-top: 16px"><b>01.</b> Criar máscaras para retirar pessoas ou objetos de cenário para inclusão em diferentes cenas da composição.</p>
+
+			<h5 class="barlow upper">AULA 23 - MATTE PAINTING</h5>
+			<p>Fazer atividade baseado nos capítulos passados de Matte Painting, incorporando personagens a um cenário.</p>
+
+			<h5 class="barlow center-align">A T I V I D A D E S</h5>
+            <p style="margin-top: 16px"><b>01.</b> Aplicar efeito de Matte Painting para compor um vídeo para inclusão de pessoas em cenário fictício.</p>
 		</div>
     </div>
 
