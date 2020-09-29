@@ -27,14 +27,15 @@
                                             <input type="text" required class="telefone form-control btn_lead" name="telefone" placeholder="Telefone">
                                         </div>
                                         <div class="form-group">
-                                            <select name="unidade" class = "btn_lead_select">
+                                        <select name="unidade" class = "btn_lead_select">
                                                 <option value="--" selected>Escolha a imugi mais próxima ;)</option>
-                                                <option value="Fortaleza Centro"> Fortaleza / CE </option>
-                                                <option value="Fortaleza Messejana">Messejana / CE</option>
-                                                <option value="Macéio">Macéio / AL</option>
-                                                <option value="São Luís">São Luís / MA</option>
-                                                <option value="Manaus">Manaus / AM </option>
+                                                <option value="Anápolis">Anápolis / GO</option>
                                                 <option value="Arapiraca">Arapiraca / AL</option>
+                                                <option value="Fortaleza Centro"> Fortaleza / CE </option>
+                                                <option value="Macéio">Macéio / AL</option>
+                                                <option value="Manaus">Manaus / AM </option>
+                                                <option value="Fortaleza Messejana">Messejana / CE</option>
+                                                <option value="São Luís">São Luís / MA</option>  
                                             </select>
                                         </div>
                                         <div class="form-group">
