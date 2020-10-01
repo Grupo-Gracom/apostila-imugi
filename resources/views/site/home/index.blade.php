@@ -232,7 +232,7 @@
                                 </p>
                                 <figure class="mt-2">
                                     <img src="{{asset('assets/site/images/centrofp.png')}}" alt="" width="140">
-                                    <img src="{{asset('assets/images/logofp.png')}}" alt=""  width="100" class="ml-4">
+                                    <img src="{{asset('assets/site/images/logofp.png')}}" alt=""  width="100" class="ml-4">
                                 </figure>
                             </div>
                         </div>

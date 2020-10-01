@@ -5,7 +5,7 @@
                 <div class="container nav-header-container">
                     <!-- start logo -->
                     <div class="col-auto pl-lg-0">
-                        <a href="" title="Imugi Tecnologia e Educação" class="logo"><img src="{{asset('assets/site/images/logo.png')}}" data-rjs="{{asset('assets/site/images/logo@2x.png')}}" class="logo-dark" alt="Logo Imugi"><img src="{{asset('assets/site/images/logo.png')}}" data-rjs="{{asset('assets/site/images/logo.png')}}" alt="Logo FP" class="logo-light default"></a>
+                        <a href="{{route('site')}}" title="Imugi Tecnologia e Educação" class="logo"><img src="{{asset('assets/site/images/logo.png')}}" data-rjs="{{asset('assets/site/images/logo@2x.png')}}" class="logo-dark" alt="Logo Imugi"><img src="{{asset('assets/site/images/logo.png')}}" data-rjs="{{asset('assets/site/images/logo.png')}}" alt="Logo FP" class="logo-light default"></a>
                     </div>
                     <!-- end logo -->
                     <div class="col accordion-menu pr-0 pr-md-3">

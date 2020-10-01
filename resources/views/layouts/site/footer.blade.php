@@ -84,7 +84,7 @@
                                 <img src="{{asset('assets/site/images/icone_face.png')}}" alt="" width="40"> 
                             </a>
                             <a href="https://www.instagram.com/imugieducacao/" target="_blank">
-                                <img src="{{asset('assets/site/images/site/icone_insta.png')}}" alt="" width="40">
+                                <img src="{{asset('assets/site/images/icone_insta.png')}}" alt="" width="40">
                             </a>
                             <a href="https://www.linkedin.com/company/imugi/" target="_blank">
                                 <img src="{{asset('assets/site/images/icone_lkd.png')}}" alt="" width="40">
