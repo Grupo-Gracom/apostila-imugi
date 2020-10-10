@@ -2,194 +2,152 @@
 @section('titulo','Imugi Tecnologia e Educação')
 @section('conteudo')
 @include('layouts.site.menus.header')
-<div style="height:80px;"></div>
-<section class="wow fadeIn bg_cota_img" style="background-image: url({{asset('assets/site/images/socio-cota.png')}}); background-repeat:no-repeat; background-position: center top;">
+<section class="wow fadeIn bem_vindo_img" style="background-image: url({{asset('assets/site/images/bg_franquia.png')}}); background-repeat:no-repeat; background-position: bottom center;">
                 <div class="container">
-                    <div class="row">
-                        <div class="md-margin-50px-bottom sm-margin-30px-bottom">
-                            <div class="md-no-padding-lr">
-                            
-                                <h4 class="titulo_franquia_cotista text-white">
-                                    Seja nosso <br> Franqueado ou <br> Sócio Cotista 
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-12 text-center md-margin-50px-bottom sm-margin-30px-bottom">
+                            <div class="text-center md-no-padding-lr">
+                            <div style="height:270px;"></div>
+                                <h4 class="titulo_franquia text-white">
+                                    Seja nosso <br> Franqueado 
                                 </h4>
-                                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521976980055" target="_blank" class="btn falar-franquia"> <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i> Atendimento via WhatsApp</a>
                             </div>
                         </div>
                     </div>
                 </div>
 </section>
-<img src="{{asset('assets/site/images/seta.png')}}" alt="" class="seta_franquia">
-<section class="wow fadeIn pd-quem_somos" style="padding: 50px 0!important; margin-top:80px!important;">
+<section class="wow fadeIn" style="padding: 50px 0!important; margin-top:150px!important;">
                 <div class="container"> 
                     <div class="row align-items-center">
-                    <div class="col-12 col-lg-5 wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.2s">
-                                <div class="top_centro"></div>
-                                <span  class="quem_somos_franquia">
-                                    Quem Somos:
-                                 </span>
-                                <p class="mt-4 desc-somos">
-                                Fazemos parte do Grupo Gracom  que possui mais de 10 anos administrando redes com escolas próprias e franqueadas por todas as regiões do Brasil.
-                                </p>
-                                </p>
-                                <p class="mt-4 desc-somos">
-A Imugi é uma escola de Tecnologia e Educação que utiliza uma metodologia de ensino única abordando interdisciplinarmente conteúdos das áreas de: Robótica, game, programação, inglês e computação gráfica. 
-Um novo mundo cria novas oportunidades! 
-
-                                </p>
-                            </div>
-                        <div class="col-12 col-lg-7 text-center wow fadeInLeft">
-                                <img src="{{asset('assets/site/images/qum_somos_franquia.png')}}" alt="" class="w-100">
-                        </div> 
-                       
-                    </div>
-                </div>
-            </section>
-            <div style="height:80px;"></div>
-            <section class="wow fadeIn bg_cota_img" style="background-image: url({{asset('assets/site/images/bg-modalidade.png')}}); background-repeat:no-repeat; background-size: cover;">
-                <div class="container">
-                    <div class="row">
-                        <div class="md-margin-50px-bottom sm-margin-30px-bottom">
-                            <div class="md-no-padding-lr">
-                               <h2 class="imugi-oferece">A Imugi Oferece </h2>
-                                <h4 class="titulo_franquia_cotista">
-                                    2 Modalidades<br> para o Investidor 
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row box-franquia">
-                    <!-- start feature box -->
-                    <div class="col-12 col-md-6 sm-margin-30px-bottom text-center text-md-left wow fadeInUp last-paragraph-no-margin" style="visibility: visible; animation-name: fadeInUp;">
-                        <div class="row m-0">
-                            <div class="col-12 col-lg-3 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
-                                <img src="{{asset('assets/site/images/icones/cotista.png')}}" alt="">
-                            </div>
-                            <div class="col-12 col-lg-9 col-md-8 p-0">
-                                <span class="margin-5px-bottom  d-block sm-margin-10px-bottom titulo-investidor">SÓCIO COTISTA</span>
-                                <p class="lg-width-100 desc-investidor text-white">Adquire no mínimo 10% de cota de uma unidade escolar no valor de R$23 mil reais, tendo a franqueadora como gestora e responsável pela prestação de contas e divisão dos lucros. 
- </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end feature box -->
-                    <!-- start feature box -->
-                    <div class="col-12 col-md-6 sm-margin-30px-bottom text-center text-md-left wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <div class="row m-0">
-                            <div class="col-12 col-lg-3 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
-                            <img src="{{asset('assets/site/images/icones/franqueado.png')}}" alt="">
-                            </div>
-                            <div class="col-12 col-lg-9 col-md-8 p-0">
-                                <span class="margin-5px-bottom d-block  sm-margin-10px-bottom titulo-investidor">FRANQUEADO</span>
-                                <p class="lg-width-100 desc-investidor text-white">Realiza o investimento para
-a aquisição, montagem e operação da unidade escolar. Receberá treinamento, Know How 
-de todo o negócio e ficará responsável por
-100% da operação. 
- </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-</section>
-            <section class="wow fadeIn" style="padding: 30px 0!important; margin-top:50px!important;">
-                <div class="container"> 
-                    <div class="row align-items-center">
-                    <div class="col-12 col-lg-6 wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.2s">
-                            <div class="padding-eight-lr text-center text-lg-left sm-no-padding w-100">
-                                <span  class="titulo_n_sucesso">
-                                NÚMEROS DE UMA <br> FRANQUIA DE SUCESSO
-                                 </span>
-                                 <div class="row">
-                    <!-- start feature box -->
-                    <div class="col-12 col-md-12 sm-margin-30px-bottom text-center text-md-left wow fadeInUp last-paragraph-no-margin" style="visibility: visible; animation-name: fadeInUp;">
-                        <div class="row m-0">
-                            <div class="col-12 col-lg-2 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
-                                <img src="{{asset('assets/site/images/icones/previsao_faturamento.png')}}" alt="" class="mt-4">
-                            </div>
-                            <div class="col-12 col-lg-9 col-md-8 p-0">
-                                <p class="desc-sucesso lg-width-100 mt-4">Previsão de Faturamento: <br>
-<span class="desc-sucesso-desc"> R$120 Mil Reais Mensais </span> </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end feature box -->
-                    <!-- start feature box -->
-                    <div class="col-12 col-md-12 sm-margin-30px-bottom text-center text-md-left wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <div class="row m-0">
-                            <div class="col-12 col-lg-2 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
-                            <img src="{{asset('assets/site/images/icones/faturamento.png')}}" alt="" class="mt-4">
-                            </div>
-                            <div class="col-12 col-lg-9 col-md-8 p-0">
-                            <p class="desc-sucesso lg-width-100 mt-4">Lucro: <br> 
-                            <span class="desc-sucesso-desc"> 25% </span> </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-9 col-md-8 p-0">
-                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521976980055" target="_blank" class="btn falar-franquia btn-sucesso"> <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i> Atendimento via WhatsApp</a>
-                    </div>
-                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6 text-center wow fadeInLeft">
+                        <div class="col-12 col-lg-5 text-center wow fadeInLeft">
                                 <img src="{{asset('assets/site/images/img_franquia.png')}}" alt="" class="w-100">
                         </div> 
-                       
+                        <div class="col-12 col-lg-7 wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.2s">
+                            <div class="padding-eight-lr text-center text-lg-left sm-no-padding w-100">
+                                <div class="top_centro"></div>
+                                <span  class="titulo_centro">
+                                    Quem Somos:
+                                 </span>
+                                <p class="mt-4 text-justify center">
+                                Escola de tecnologia e educação que utiliza uma metodologia <br>
+                                de ensino única abordando interdisciplinarmente <br>
+                                contéudos das áreas de Robótica, Game, <br>
+                                Programação, Inglês e Computação Gráfica. <br>
+                                 Um novo mundo cria novas oportunidades.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section style="padding:10px 0px 0px 0px!important;">
-            <div class="container-fluid position-relative">
-                <hr>
-                <div class="row align-items-center"> 
-                    <div class="col-12 col-lg-6 text-center md-margin-50px-bottom sm-margin-30px-bottom wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                        <img src="{{asset('assets/site/images/investimento.png')}}" alt="" class="investimento">
-                    </div> 
-                    <div class="col-12 col-lg-6 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
-                        <div class="width-75 lg-width-100 padding-three-lr sm-no-padding-lr">
-                            <div class="row m-0">
-                            <div class="col-12 col-lg-2 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
-                            <img src="{{asset('assets/site/images/icones/franqueado-1.png')}}" alt="" class="mt-4 mg-mobile">
+              <!-- start services section -->
+        <section class="wow fadeIn">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h5 class="text-uppercase margin-20px-bottom numeros_franquia font-weight-700 md-width-100">
+                        Números de uma <br> </h5>
+                        <h5><span class="n_franquia"> Franquia de Sucesso </span>
+                        </h5>
+                        
+                    </div>
+                    <div class="col-12 margin-100px-top md-margin-70px-top sm-margin-50px-top">                    
+                        <div class="row">
+                            <!-- start services item -->
+                            <div class="col-md-2"></div>
+                            <div class="col-12 col-md-3 team-block text-left feature-box-15 sm-margin-40px-bottom last-paragraph-no-margin wow fadeInUp center">
+                                <figure>
+                                    <figcaption>
+                                        <div class="margin-25px-top">
+                                            <div class="item_franquia">Taxa de  Franquia</div> 
+                                            <p class="item_franquia green">R$25.000.00</p>
+                                        </div>   
+                                    </figcaption>
+                                </figure>
                             </div>
-                            <div class="col-12 col-lg-9 col-md-8 p-0">
-                            <p class="width-75 lg-width-100 mt-4 saiba-titulo">Investimento do <br> Franqueado</p>
+                            <!-- end services item -->
+                           <!-- start services item -->
+                           <div class="col-12 col-md-3 team-block text-left feature-box-15 sm-margin-40px-bottom last-paragraph-no-margin wow fadeInUp center">
+                                <figure>
+                                    <figcaption>
+                                        <div class="margin-25px-top">
+                                            <div class="item_franquia green">14 a 18 MESES</div> 
+                                            <p class="item_franquia">Prazo médio de retorno <br> no  investimento</p>
+                                        </div>   
+                                    </figcaption>
+                                </figure>
                             </div>
-                        </div>
-                            <ul class="p-0 list-style-4 margin-30px-bottom list-style-color">
-                                <li><span class="item-lista">Taxa de franquia R$25.000.00  </span></li>
-                                <li> <span class="item-lista">Prazo médio de retorno no<br> 
-                                investimento: 14 a 18 MESES </span> </li>
-                                <li><span class="item-lista"> Área mínima: 180m<sup>2</sup> </span> </li>
-                                <li> <span class="item-lista"> Investimento total estimado: 150 MIL </span> </li>
-                            </ul>
-                        </div>
-                        <div class="width-75 lg-width-100 padding-three-lr sm-no-padding-lr box-socio-cotista">
-                            <div class="row m-0">
-                            <div class="col-12 col-lg-2 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
-                            <img src="{{asset('assets/site/images/icones/cotista-1.png')}}" alt="" class="mt-4 mg-mobile">
+                            <!-- end services item -->
+                            <!-- start services item -->
+                            <div class="col-12 col-md-3 team-block text-left feature-box-15 sm-margin-40px-bottom last-paragraph-no-margin wow fadeInUp center">
+                                <figure>
+                                    <figcaption>
+                                        <div class="margin-25px-top">
+                                            <div class="item_franquia"> Área Mínima </div> 
+                                            <p class="item_franquia green">150m</p>
+                                        </div>   
+                                    </figcaption>
+                                </figure>
                             </div>
-                            <div class="col-12 col-lg-9 col-md-8 p-0">
-                            <p class="width-75 lg-width-100 mt-4 saiba-titulo">Investimento do <br> Sócio Cotista</p>
+                            <!-- end services item -->
+                        </div>
+                        <div class="row mt-4">
+                        <div class="col-md-2"></div>
+                            <!-- start services item -->
+                            <div class="col-12 col-md-3 team-block text-left feature-box-15 sm-margin-40px-bottom last-paragraph-no-margin wow fadeInUp center">
+                                <figure>
+                                    <figcaption>
+                                        <div>
+                                            <div class="item_franquia green">25%</div> 
+                                            <p class="item_franquia">Margem média <br>
+                                            de lucro
+                                            </p>
+                                        </div>   
+                                    </figcaption>
+                                </figure>
                             </div>
+                            <!-- end services item -->
+                           <!-- start services item -->
+                           <div class="col-12 col-md-3 team-block text-left feature-box-15 sm-margin-40px-bottom last-paragraph-no-margin wow fadeInUp center">
+                                <figure>
+                                    <figcaption>
+                                        <div class="margin-25px-top">
+                                            <p class="item_franquia">
+                                            Investimento <br> Total Estimado <br> 
+                                            <span class="green">150 MIL
+                                            </p> 
+                                        </div>   
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <!-- end services item -->
+                            <!-- start services item -->
+                            <div class="col-12 col-md-3 team-block text-left feature-box-15 sm-margin-40px-bottom last-paragraph-no-margin wow fadeInUp center">
+                                <figure>
+                                    <figcaption>
+                                        <div class="margin-25px-top">
+                                            <div class="item_franquia">
+                                            Previsão de <br> Faturamento.
+                                            </div> 
+                                            <p class="item_franquia green">R$100 MIL A <br> R$130 MIL</p>
+                                        </div>   
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <!-- end services item -->
                         </div>
-                            <ul class="p-0 list-style-4 margin-30px-bottom list-style-color">
-                                <li><span class="item-lista">10% por R$23 MIL Reais </span> </li>
-                                <li><span class="item-lista">Previsão de lucro mensal: R$3 MIL Reais a cada 10% de cota </span> </li>
-                            </ul>
-                        </div>
-                    </div> 
+                    </div>
                 </div>
-            </div>
+            </div> 
         </section>
-        <section class="wow fadeIn bem_vindo_img" style="background-color:#7aba17; padding:50px 0px !important;">
+        <section class="wow fadeIn bem_vindo_img" style="background-color:#7aba17;">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-12 text-center md-margin-50px-bottom sm-margin-30px-bottom">
                             <div class="text-center md-no-padding-lr">
                                 <h4 class="text-white">
-                                    Não cobramos taxa de <br> Royalties e Publicidade 
+                                    <span class="taxa_royaltie">Não cobramos taxa de </span>  <br> Royalties e Publicidade 
                                 </h4>
-                                <h5 class="text-center text-white faturamento-unidade">100% do faturamento é da unidade<h5>
                             </div>
                         </div>
                     </div>
