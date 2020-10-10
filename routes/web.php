@@ -1198,6 +1198,7 @@ Route::get('/atualiza-senha','UserController@atualizaSenha');
 Route::get('/cursos/cgfly', 'HomeController@cgfly')->name('cg-fly');
 Route::get('/cursos/codeblock', 'HomeController@codeblock')->name('code-block');
 Route::get('/site', 'HomeController@site')->name('site');
+Route::get('/nova-pagina', 'HomeController@franquiaCota')->name('franquiaCota');
 Route::get('/site/depoimentos', 'HomeController@depoimentos')->name('depoimentos');
 Route::get('/site/contato', 'ContatoController@siteContato')->name('siteContato');
 Route::get('/site/portaldoaluno', 'HomeController@portalAluno')->name('portalAluno');

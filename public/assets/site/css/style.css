@@ -105,6 +105,18 @@ html{
     margin-top:-90px;
 }
 
+.titulo_franquia_cotista{
+    font-family: arista;
+    text-transform: uppercase;
+    font-size: 66px;
+    line-height: 71px;
+    letter-spacing: 2px;
+    color: #94C14E;
+}
+.box-franquia{
+    margin-top: 50px;
+}
+
 .item_franquia{
     font-size: 16pt;
 }
@@ -196,6 +208,21 @@ html{
 .titulo_centro{
     font-family: Arista;
     font-size: 40pt;
+    text-transform: uppercase;
+    color: #7aba17;
+}
+
+.titulo_n_sucesso{
+    font-family: Arista;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #7aba17;
+}
+
+.quem_somos_franquia{
+    font-family: Arista;
+    font-size: 64px;
     text-transform: uppercase;
     color: #7aba17;
 }
@@ -383,12 +410,36 @@ margin-left:auto;
 margin-right:auto;
 }
 
+.seta_franquia{
+    position:absolute;
+    width:50px; 
+    bottom:100px;
+    left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+}
+
 .titulo-curso{
     font-family: arista;
     font-size: 30pt;
     margin: 0px!important;
     color: #7aba17!important;
 }
+
+.titulo-investidor{
+    font-family: arista;
+    font-size: 36px;
+    color: #94C14E;
+}
+
+.desc-investidor{
+    margin-top: 25px;
+    font-size: 'Roboto';
+    font-size: 18px;
+    width: 80%;
+}
+
 .quadrado_2{
     position: absolute; left:75%; top:298%; z-index:100;
 }
@@ -405,6 +456,46 @@ margin-right:auto;
 }
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
+    .mg-mobile{
+        display: block;
+        margin: 0 auto;
+    }
+    .saiba-titulo{
+        text-align: center;
+    }
+    .titulo_franquia_cotista{
+        font-size: 34px;
+        line-height: 35px;
+        margin-left: 10px;
+    }
+
+    .quem_somos_franquia{
+        font-size: 36px;
+    }
+
+    .imugi-oferece{
+        margin: 0 auto!important;
+        display: block;
+    }
+
+    .pd-quem_somos{
+       padding: 0px!important;
+    }
+
+    .seta_franquia{
+        bottom: 200px;
+    }
+
+    .desc-somos{
+        margin-bottom: 50px!important;
+    }
+
+    .falar-franquia{
+        font-size: 10pt!important;
+        width: 300px!important;
+        margin-left: 10px;
+    }
+   
     .logo-curso{
         margin-top: 100px;
     }
@@ -516,6 +607,11 @@ margin-right:auto;
     .bem_vindo_img{
         background-position: top !important;
         background-size: 500%;
+    }
+
+    .bg_cota_img{
+        background-position: center top !important;
+        background-size: cover;
     }
 
     .depoimento_img{
@@ -3661,11 +3757,17 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 
 /* list style 4 */
 .list-style-4 { list-style: none; margin: 0; padding: 0;}
-.list-style-4 li { position: relative; padding: 0 0 10px 22px; margin: 0 0 10px 0; border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
+.list-style-4 li { position: relative; padding: 0 0 10px 26px; margin: 0 0 10px 0; border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
 .list-style-4 li:before { content: "\f00c"; position: absolute; top: 1px; left: 0; font-family: Font Awesome\ 5 Free; font-weight: 900; }
 .list-style-4 li:last-child {border-bottom: 0;}
 .list-style-4.list-style-color li {border-color: rgba(255,255,255,.15);}
-.list-style-4.list-style-color li:before {color: #ff214f;}
+.list-style-4.list-style-color li:before {    color: #fff;
+    background-color: #7ABA17;
+    width: 20px;
+    height: 20px;
+    font-size: 7pt!important;
+    text-align: center;
+    border-radius: 30px}
 
 /* list style 5 */
 .list-style-5 { list-style: none; margin: 0; padding: 0;}
@@ -4373,4 +4475,82 @@ aside .latest-post li figure {width: 75px;}
 
 .hidden{
     display: none;
+}
+
+.falar-franquia{
+    width: 310px;
+    height: 57px;
+    background-color: #7DC242;
+    color: #fff;
+    line-height: 40px;
+    border-radius: 5px!important;
+}
+
+.falar-franquia:hover{
+    color: #fff!important;
+}
+
+.falar-franquia:active{
+    color: #fff!important;
+}
+
+.btn-sucesso{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.item-lista{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.box-socio-cotista{
+  padding: 80px 0px;
+}
+
+.investimento{
+    width: 100%;
+}
+
+.faturamento-unidade{
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    margin-bottom: 0px!important;
+}
+
+.saiba-titulo{
+    font-family: arista;
+    font-size: 36px;
+    color: #94C14E;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+.desc-somos{
+    font-family: 'Roboto';
+    width: 95%;
+    font-size: 18px;
+}
+
+.desc-sucesso{
+    font-family: 'Roboto';
+    font-size:  24px;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.desc-sucesso-desc{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.imugi-oferece{
+    margin: 0!important;
+    font-family: 'Arista';
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    
 }

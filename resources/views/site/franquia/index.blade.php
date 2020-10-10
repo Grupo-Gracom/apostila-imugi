@@ -163,111 +163,75 @@
                     </div>
                 </div>
                 <div class="row margin-100px-top md-margin-70px-top sm-margin-50px-top">
-                    <!-- start blog post item -->
-                    <div class="col-12 col-lg-4 col-md-6 md-margin-50px-bottom sm-margin-30px-bottom last-paragraph-no-margin wow fadeInUp">
+                    <div class="col-12 col-lg-4 col-md-6  last-paragraph-no-margin wow fadeInUp">
                         <div>
                             <div>
                                     <img src="{{asset('assets/site/images/razoes/1.png')}}" alt="" class="width-40 vantagens_suporte">
                             </div>
                             <div class="post-details">
                                 <h6 class="mt-4 text-center diferenciais_itens">UNIVERSIDADE <br> CORPORATIVA</h6>
-                                <p class="width-90 text-center sm-width-100">
-                                    A Imugi participa da Unigracom
-                                    (Universidade Corporativa) que auxilia no treinamento para capacitação
-                                    operacional e desenvolvimento
-                                    de habilidades gerenciais
-                                </p>
+                              
                             </div>
                         </div>
                     </div>
-                    <!-- end blog post item -->
-                    <!-- start blog post item -->
-                    <div class="col-12 col-lg-4 col-md-6 md-margin-50px-bottom sm-margin-30px-bottom last-paragraph-no-margin wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-12 col-lg-4 col-md-6 last-paragraph-no-margin wow fadeInUp">
                         <div>
                             <div>
-                                <img src="{{asset('assets/site/images/razoes/2.png')}}" alt="" class="width-40 vantagens_suporte">
+                                    <img src="{{asset('assets/site/images/razoes/2.png')}}" alt="" class="width-40 vantagens_suporte">
                             </div>
                             <div class="post-details">
                                 <h6 class="mt-4 text-center diferenciais_itens">ANÁLISE DE PONTO <br> COMERCIAL</h6>
-                                <p class="width-90 sm-width-100 center">
-                                Possui profissional que auxilia na prospecção e na 
-                                análise de pontos que sejam 
-                                pertinentes ao modelo de negócio
-                                </p>
+                              
                             </div>
                         </div>
                     </div>
-                    <!-- end blog post item -->
-                    <!-- start blog post item -->
-                    <div class="col-12 col-lg-4 col-md-6 sm-margin-30px-bottom last-paragraph-no-margin sm-clear-both wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-12 col-lg-4 col-md-6  last-paragraph-no-margin wow fadeInUp">
                         <div>
                             <div>
-                                <img src="{{asset('assets/site/images/razoes/3.png')}}" alt="" class="width-40 vantagens_suporte">
+                                    <img src="{{asset('assets/site/images/razoes/3.png')}}" alt="" class="width-40 vantagens_suporte">
                             </div>
                             <div class="post-details">
-                                <h6 class="mt-4 text-center diferenciais_itens"> MÉDIA DE <br> LUCRATIVIDADE</h6>
-                                <p class="width-90 text-center sm-width-100">
-                                O modelo de operação gera uma das maiores médias de 
-                                lucratividade do mercado que está 
-                                entre 25% a 30% do faturamento bruto
-                                </p>
+                                <h6 class="mt-4 text-center diferenciais_itens">MÉDIA DE LUCRATIVIDADE <br> 25% a 30%</h6>
+                              
                             </div>
                         </div>
                     </div>
-                    <!-- end blog post item -->
-                    <div class="row margin-100px-top md-margin-70px-top sm-margin-50px-top">
-                    <!-- start blog post item -->
+                </div>
+                <div class="row margin-100px-top md-margin-70px-top sm-margin-50px-top">
                     <div class="col-12 col-lg-4 col-md-6 md-margin-50px-bottom sm-margin-30px-bottom last-paragraph-no-margin wow fadeInUp">
                         <div>
                             <div>
-                                <img src="{{asset('assets/site/images/razoes/4.png')}}" alt="" class="width-40 vantagens_suporte">
+                                    <img src="{{asset('assets/site/images/razoes/4.png')}}" alt="" class="width-40 vantagens_suporte">
                             </div>
                             <div class="post-details">
-                                <h6 class="mt-4 text-center diferenciais_itens"> EQUIPE </h6>
-                                <p class="width-90 text-center sm-width-100">
-                                A Imugi possui um departamento 
-                                que auxilia na seleção e 
-                                contratação da primeira equipe
-                                </p>
+                                <h6 class="mt-4 text-center diferenciais_itens">SELEÇÃO E CONTRATAÇÃO <br> DA PRIMEIRA EQUIPE</h6>
+                              
                             </div>
                         </div>
                     </div>
-                    <!-- end blog post item -->
-                    <!-- start blog post item -->
-                    <div class="col-12 col-lg-4 col-md-6 md-margin-50px-bottom sm-margin-30px-bottom last-paragraph-no-margin wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-12 col-lg-4 col-md-6 md-margin-50px-bottom sm-margin-30px-bottom last-paragraph-no-margin wow fadeInUp">
                         <div>
                             <div>
-                                <img src="{{asset('assets/site/images/razoes/5.png')}}" alt="" class="width-40 vantagens_suporte">
+                                    <img src="{{asset('assets/site/images/razoes/5.png')}}" alt="" class="width-40 vantagens_suporte">
                             </div>
                             <div class="post-details">
-                                <h6 class="mt-4 text-center diferenciais_itens">NÃO COBRAMOS ROYALTY <br> E TAXA DE PUBLICIDADE </h6>
-                                <p class="width-90 sm-width-100 text-center">
-                                A Imugi possui um departamento 
-                                que auxilia na seleção e 
-                                contratação da primeira equipe
-                                </p>
+                                <h6 class="mt-4 text-center diferenciais_itens">NÃO COBRAMOS ROYALTY <br> E TAXA DE PUBLICIDADE</h6>
+                              
                             </div>
                         </div>
                     </div>
-                    <!-- end blog post item -->
-                    <!-- start blog post item -->
-                    <div class="col-12 col-lg-4 col-md-6 sm-margin-30px-bottom last-paragraph-no-margin sm-clear-both wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-12 col-lg-4 col-md-6 md-margin-50px-bottom sm-margin-30px-bottom last-paragraph-no-margin wow fadeInUp">
                         <div>
                             <div>
-                                <img src="{{asset('assets/site/images/razoes/6.png')}}" alt="" class="width-40 vantagens_suporte">
+                                    <img src="{{asset('assets/site/images/razoes/6.png')}}" alt="" class="width-40 vantagens_suporte">
                             </div>
                             <div class="post-details">
-                                <h6 class="mt-4 text-center diferenciais_itens"> CONSULTOR DE <br> TREINAMENTO</h6>
-                                <p class="width-90 text-center sm-width-100">
-                                A Imugi Possui um consultor de treinamento especifico para 
-                                o início da operação com acompanhamento presencial
-                                </p>
+                                <h6 class="mt-4 text-center diferenciais_itens">CONSULTOR DE <br> TREINAMENTO</h6>
+                              
                             </div>
                         </div>
                     </div>
-                    <!-- end blog post item -->
                 </div>
-            </div>
         </section>
         <section class="wow fadeIn">
             <div class="container">

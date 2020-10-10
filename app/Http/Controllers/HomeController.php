@@ -96,6 +96,11 @@ class HomeController extends Controller
         return view('site/cursos/cgfly');
     }
 
+    public function franquiaCota()
+    {
+        return view('site/franquia/franquia');
+    }
+
     public function codeblock()
     {
         return view('site/cursos/codeblock');
