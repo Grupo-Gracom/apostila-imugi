@@ -146,7 +146,7 @@ de todo o negócio e ficará responsável por
                         <img src="{{asset('assets/site/images/investimento.png')}}" alt="" class="investimento">
                     </div> 
                     <div class="col-12 col-lg-6 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
-                        <div class="width-75 lg-width-100 padding-three-lr sm-no-padding-lr">
+                        <div class="width-75 lg-width-100">
                             <div class="row m-0">
                             <div class="col-12 col-lg-2 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
                             <img src="{{asset('assets/site/images/icones/franqueado-1.png')}}" alt="" class="mt-4 mg-mobile">
