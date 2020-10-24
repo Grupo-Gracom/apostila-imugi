@@ -185,7 +185,7 @@
                             <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">VITÓRIA / ES</div>
                             <p class="width-75 mx-auto">
                             Av Jerônimo Monteiro 145 / Centro <br>
-                            (27)3207-1125
+                            (27) 3207-1125
                             </p>
                         </div>
                     </div>

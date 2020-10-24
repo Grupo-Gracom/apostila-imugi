@@ -36,6 +36,8 @@
                                                 <option value="Manaus">Manaus / AM </option>
                                                 <option value="Fortaleza Messejana">Messejana / CE</option>
                                                 <option value="São Luís">São Luís / MA</option>  
+                                                <option value="Sorocaba">Sorocaba / SP</option> 
+                                                <option value="Vitória">Vitória / ES</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
