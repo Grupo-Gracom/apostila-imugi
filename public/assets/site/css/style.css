@@ -4566,3 +4566,25 @@ aside .latest-post li figure {width: 75px;}
     margin-top:-250px; 
     width:370px;
 }
+
+
+.ribbon {
+    width: 160px;
+    height: 42px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+    background: #4dbe3b;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -42px;
+    top: 20px;
+    padding-top: 7px;
+    line-height: 16px;
+  }
+
+  .card-unidade{
+    overflow: hidden;
+  }
