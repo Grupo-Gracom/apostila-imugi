@@ -4554,3 +4554,15 @@ aside .latest-post li figure {width: 75px;}
     color: #fff;
     
 }
+
+
+/* land leads franquia estilos */
+.lead-franquia{
+    background: #F7F7F7;
+    box-shadow: 0px 3px 6px 3px rgba(19, 43, 11, 0.25);
+    border-radius: 5px;
+    z-index:400; 
+    position:fixed; 
+    margin-top:-250px; 
+    width:370px;
+}

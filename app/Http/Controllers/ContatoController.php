@@ -32,6 +32,11 @@ class ContatoController extends Controller
         return view('site.franquia.index');
     }
 
+    public function socioInvestidor()
+    {
+        return view('site.socio-investidor.index');
+    }
+
     public function enviar(Request $request)
     {
         $this->validate($request, [

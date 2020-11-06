@@ -137,7 +137,8 @@
                         <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-deep-green"></i></div>
                             <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">MANAUS / AM</div>
                             <p class="width-75 mx-auto">
-                                Av. Getúlio Vargas, 204 - Centro
+                                Av. Getúlio Vargas, 204 - Centro <br>
+                                (92) 98441-1132
                             </p>
                         </div>
                     </div>
@@ -148,7 +149,8 @@
                         <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-deep-green"></i></div>
                             <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">ARAPIRACA / AL</div>
                             <p class="width-75 mx-auto">
-                               Rua São Francisco, 941, Centro - Arapiraca
+                               Rua São Francisco, 941, Centro - Arapiraca <br>
+                               (82) 99958-8210
                             </p>
                         </div>
                     </div>
@@ -161,7 +163,7 @@
                             <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-deep-green"></i></div>
                             <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">ANÁPOLIS / GO</div>
                             <p class="width-75 mx-auto">
-                            Rua Barão de Cotegipe, 333 / Centro <br>
+                            Rua Barão de Cotegipe, 333 - Centro <br>
                             (62) 3702-7950
                             </p>
                         </div>
@@ -173,7 +175,8 @@
                             <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-deep-green"></i></div>
                             <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">SOROCABA / SP</div>
                             <p class="width-75 mx-auto">
-                            Rua Padre Luiz 387 / Centro
+                            Rua Padre Luiz 387 - Centro <br>
+                            (15) 3233-9312
                             </p>
                         </div>
                     </div>
@@ -184,35 +187,38 @@
                             <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-deep-green"></i></div>
                             <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">VITÓRIA / ES</div>
                             <p class="width-75 mx-auto">
-                            Av Jerônimo Monteiro 145 / Centro <br>
+                            Av Jerônimo Monteiro 145 - Centro <br>
                             (27) 3207-1125
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-4">
+                  <!-- start features box item -->
+                  <div class="col-12 col-lg-4 col-md-6 md-margin-four-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                        <div class="bg-white border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
+                            <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-deep-green"></i></div>
+                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Belém / PA</div>
+                            <p class="width-75 mx-auto">
+                                Travessa Padre Eutiquio, 981 - Batista Campos  <br>
+                                (91) 3115-4471
+                            </p>
+                        </div>
+                    </div>
                     <!-- end features box item -->
                     <div class="col-12 col-lg-4 col-md-6 wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
                         <div class="bg-white border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
                             <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-dark-gray"></i></div>
                             <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">TERESINA / PI</div>
                             <p class="width-75 mx-auto">
-                                em implantação
+                                em implantação <br>
+                                (86) 99530-7337
                             </p>
                         </div>
                     </div>
                     <!-- end features box item -->
 
-                     <!-- start features box item -->
-                     <div class="col-12 col-lg-4 col-md-6 md-margin-four-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                        <div class="bg-white border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
-                            <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-dark-gray"></i></div>
-                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Belém / PA</div>
-                            <p class="width-75 mx-auto">
-                                Travessa Padre Eutiquio, 981 - Batista Campos 
-                            </p>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </section>

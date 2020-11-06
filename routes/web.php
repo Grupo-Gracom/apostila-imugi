@@ -1212,6 +1212,10 @@ Route::post('/enviar', 'ContatoController@enviar')->name('enviarContato');
 Route::get('/gestao', ['as'=>'admin','uses'=>'AdminController@index']);
 Route::get('menus', 'AdminController@menusLista');
 Route::get('gestao-frequencia', 'frequenciaController@listafrequencia');
+
+//paginas para campanha de leads
+Route::get('/socio-investidor', 'ContatoController@socioInvestidor')->name('socio-investidor');
+
 // Route::resource('topicos', 'TopicoController');
 // Route::resource('conteudos', 'ConteudoController');
 // Route::resource('pdf', 'PdfController');
