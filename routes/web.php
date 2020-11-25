@@ -1204,6 +1204,7 @@ Route::get('/site/contato', 'ContatoController@siteContato')->name('siteContato'
 Route::get('/site/portaldoaluno', 'HomeController@portalAluno')->name('portalAluno');
 Route::get('/site/franquia', 'ContatoController@franquia')->name('franquia');
 Route::post('/contato-aluno', 'ContatoController@contatoAluno')->name('alunoContato');
+
 Route::post('/contato-franquia', 'ContatoController@contatoFranquia')->name('contatoFranquia');
 Route::post('/enviar', 'ContatoController@enviar')->name('enviarContato');
 
@@ -1215,6 +1216,9 @@ Route::get('gestao-frequencia', 'frequenciaController@listafrequencia');
 
 //paginas para campanha de leads
 Route::get('/socio-investidor', 'ContatoController@socioInvestidor')->name('socio-investidor');
+Route::get('/nosso-franqueado', 'ContatoController@nossoFranqueado')->name('nosso-franqueado');
+Route::post('/contato-socio', 'ContatoController@contatoSocioInvestidor')->name('contatoSocio');
+Route::post('/contato-franqueado', 'ContatoController@contatoFranqueado')->name('contatoFranqueado');
 
 // Route::resource('topicos', 'TopicoController');
 // Route::resource('conteudos', 'ConteudoController');

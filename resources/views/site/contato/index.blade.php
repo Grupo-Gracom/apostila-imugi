@@ -212,8 +212,8 @@
                         <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-dark-gray"></i></div>
                             <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">TERESINA / PI</div>
                             <p class="width-75 mx-auto">
-                                em implantação <br>
-                                (86) 99530-7337
+                            Avenida Frei Serafim 1948 - Centro <br>
+                                (86) 3029-8952
                             </p>
                         </div>
                     </div>
@@ -240,6 +240,18 @@
                             <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">CAMPO GRANDE / RJ</div>
                             <p class="width-75 mx-auto">
                                em implantação
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                  <div class="col-12 col-lg-4 col-md-6 md-margin-four-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                        <div class="bg-white card-unidade border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
+                        <div class="ribbon"> inauguração <br> <strong> EM BREVE! </strong> </div>    
+                        <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-dark-gray"></i></div>
+                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">LAURO DE FREITAS / BA</div>
+                            <p class="width-75 mx-auto">
+                                Rua Romualdo de Brito, 74 - Centro  
                             </p>
                         </div>
                     </div>

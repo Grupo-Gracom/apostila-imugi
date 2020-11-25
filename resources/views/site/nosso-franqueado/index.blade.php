@@ -1,7 +1,7 @@
 @extends('layouts.site.template')
 @section('titulo','Imugi Tecnologia e Educação')
 @section('conteudo')
-<section class="wow fadeIn bg_cota" style="background-image: url({{asset('assets/site/images/bg-socio-investidor.png')}}); background-repeat:no-repeat; background-size: cover; padding:50px 0px 50px 0px;">
+<section class="wow fadeIn bg_cota" style="background-image: url({{asset('assets/site/images/bg-franqueado.png')}}); background-repeat:no-repeat; background-size: cover; padding:50px 0px 50px 0px;">
 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-6 text-center md-margin-50px-bottom sm-margin-30px-bottom">
@@ -9,13 +9,13 @@
                                 <img src="{{asset('assets/img/logo_imugi.png')}}" alt="" class="logo-land">
                                 <div style="height:50px;"></div>
                                 <h5 class="seja-socio text-white-2">
-                                    SEJA NOSSO SÓCIO
+                                    SEJA NOSSO
                                     <div style="height:10px;"></div>
-                                    <span class="titulo_2"> INVESTIDOR </span>
+                                    <span class="titulo_2"> FRANQUEADO </span>
                                     
                                 <p class="desc-investimento width-90 font-weight-300 md-width-100">
-                                <span class="destaque-investimento"> Invista </span> R$ 23MIL <span class="destaque-investimento"> e tenha lucro <br>
-                                 mensal de </span>  R$ 3.500,00
+                                <span class="destaque-investimento"> Franquia de Educação <br>
+                                com Tecnologia </span> 
                                 </p>
                                 <div style="height:150px;"></div>
                             </div>
@@ -30,7 +30,7 @@
                                     </p>
                                     
                                         
-                                        <form method="POST" action="{{route('contatoSocio')}}">
+                                        <form method="POST" action="{{route('contatoFranqueado')}}">
                                         {{ csrf_field() }}
                                         <div class="form-group">
                                             <input type="text" required class="form-control btn_socio" name="nome" placeholder="Informe seu Nome e Sobrenome">
@@ -83,18 +83,17 @@ Um novo mundo cria novas oportunidades!
                             <img src="{{asset('assets/site/images/icones/franqueado.png')}}" alt="" class="img-franqueado">
                             </div>
                             <div class="col-12 col-lg-9 col-md-8 p-0">
-                                <span class="margin-5px-bottom d-block  sm-margin-10px-bottom titulo-socio">O QUE É O SÓCIO INVESTIDOR?</span>
+                                <span class="margin-5px-bottom d-block  sm-margin-10px-bottom titulo-socio">O QUE É SER <br> FRANQUEADO?</span>
                             </div>
-                            <p class="lg-width-100 desc-invest">Adquire no mínimo 10% de cota de uma unidade escolar no valor de R$23 mil reais, 
-                                tendo a franqueadora como gestora e responsável pela prestação de contas <br>
-e divisão dos lucros. 
-
+                            <p class="lg-width-100 desc-invest">Realiza o investimento para a aquisição, montagem
+e operação da unidade escolar. Receberá treinamento, Know How  de todo o negócio e ficará responsável
+por 100% da operação. 
  </p>
                         </div>
                     </div>
                 </div>
             </section>
-            <div style="height:80px;"></div>
+            <div style="height:80px;" class="mobile"></div>
             <section class="wow fadeIn bg_cota_img" style="background-image: url({{asset('assets/site/images/bg-land.png')}}); background-repeat:no-repeat; background-size: cover; padding:80px 0px;">
                 <div class="container">
                     <div class="row">
@@ -110,7 +109,32 @@ e divisão dos lucros.
                 </div>
             </div>
 </section>
-            <section class="border-top border-color-extra-light-gray wow fadeIn" style="padding: 100px 0px 0px 0px!important;">
+<section style="padding:130px 0px; background: #E5E5E5;">
+            <div class="container">
+                <div class="row"> 
+                    <div class="col-12 col-lg-5 col-md-6 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+                        <div class=" lg-width-100">
+                            <div class="row m-0">
+                            <div class="col-12 col-lg-2 col-md-4 pl-0 sm-no-padding-lr float-left sm-margin-15px-bottom">
+                            <img src="{{asset('assets/site/images/icones/franqueado-1.png')}}" alt="" class="mt-4 mg-mobile">
+                            </div>
+                            <div class="col-12 col-lg-9 col-md-8 p-0">
+                            <p class="width-75 lg-width-100 mt-4 saiba-titulo">Investimento do <br> Franqueado</p>
+                            </div>
+                        </div>
+                            <ul class="p-0 list-style-4 margin-30px-bottom list-style-color">
+                                <li><span class="item-lista">Taxa de franquia R$25.000.00  </span></li>
+                                <li> <span class="item-lista">Prazo médio de retorno no
+                                investimento: 14 a 18 MESES </span> </li>
+                                <li><span class="item-lista"> Área mínima: 180m<sup>2</sup> </span> </li>
+                                <li> <span class="item-lista"> Investimento total estimado: 150 MIL </span> </li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+            <section class="wow fadeIn" style="padding: 100px 0px 0px 0px!important;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">

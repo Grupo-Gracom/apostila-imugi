@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\Mail;
 use App\Mail\SendMail;
 use App\Mail\ContatoSite;
 use App\Mail\ContatoFranquia;
+use App\Mail\SocioMail;
+use App\Mail\FranqueadoMail;
 use Redirect;
 
 class ContatoController extends Controller
@@ -37,6 +39,11 @@ class ContatoController extends Controller
         return view('site.socio-investidor.index');
     }
 
+    public function nossoFranqueado()
+    {
+        return view('site.nosso-franqueado.index');
+    }
+
     public function enviar(Request $request)
     {
         $this->validate($request, [
@@ -60,7 +67,7 @@ class ContatoController extends Controller
       
     }
         
-          public function contatoAluno(Request $request){
+        public function contatoAluno(Request $request){
             
             Mail::to('smtp@imugi.com.br')->send(new ContatoSite($request));
 
@@ -70,6 +77,36 @@ class ContatoController extends Controller
             );
             
             return Redirect::to('/site')->with($notification);
+        
+        }
+
+        public function contatoSocioInvestidor(Request $request){
+            
+            Mail::to('expansao@imugi.com.br')
+            ->cc(['Pirolla.rfs@gmail.com','carlos.eduardo@grupogracom.com.br'])
+            ->send(new SocioMail($request));
+
+               $notification = array(
+                'message' => 'Mensagem enviada com sucesso!', 
+                'alert-type' => 'success'
+            );
+            
+            return Redirect::to('/socio-investidor')->with($notification);
+        
+        }
+
+        public function contatoFranqueado(Request $request){
+            
+            Mail::to('expansao@imugi.com.br')
+            ->cc(['Pirolla.rfs@gmail.com','carlos.eduardo@grupogracom.com.br'])
+            ->send(new FranqueadoMail($request));
+
+               $notification = array(
+                'message' => 'Mensagem enviada com sucesso!', 
+                'alert-type' => 'success'
+            );
+            
+            return Redirect::to('/nosso-franqueado')->with($notification);
         
         }
 

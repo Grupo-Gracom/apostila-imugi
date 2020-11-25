@@ -4568,6 +4568,8 @@ aside .latest-post li figure {width: 75px;}
 }
 
 
+
+
 .ribbon {
     width: 160px;
     height: 42px;
@@ -4585,6 +4587,363 @@ aside .latest-post li figure {width: 75px;}
     line-height: 16px;
   }
 
+  .seja-socio{
+    font-family: arista;
+    text-transform: uppercase;
+    font-size: 26pt;
+    letter-spacing: 2px;
+}
+
+.desc-investimento{
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-transform: none!important;
+    letter-spacing: 1px;
+    line-height: 23.2px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.destaque-investimento{
+    color: #559742;
+    font-weight: 700!important;
+}
+
+.titulo_socio{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    color:#151515;
+    margin-top: 30px;
+}
+
+.sub_socio{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color:#5B5B5B;
+}
+
+.btn_socio{
+    margin: 0 auto;
+width: 288px;
+height: 53px;
+background: #EAEAEA;
+border: 1px solid #A5A5A5;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.btn_submit_socio{
+width: 288px!important;
+margin: 0 auto;
+text-transform: uppercase;
+height: 57px;
+background: #559742;
+border-radius: 5px;
+font-family: 'Roboto';
+font-weight: 700;
+font-style: normal;
+font-size: 18px;
+color: #fff;
+}
+
+.obs_socio{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: 'normal';
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+     color: #5B5B5B;
+}
+
   .card-unidade{
     overflow: hidden;
   }
+
+.seta_socio{
+    position:absolute;
+    width:50px; 
+    bottom:80px;
+}
+
+.institucional-sobre{
+    margin: 60px 0px;
+}
+
+.icone-play{
+    top: 70%!important;
+    width: 40%!important;
+}
+
+.img-franqueado{
+    width: 100%;
+}
+
+.desc-invest{
+    margin-top: 25px;
+    font-size: 'Roboto';
+    font-size: 18px;
+    width: 85%;
+}
+
+.titulo-socio{
+    font-family: arista;
+    font-size: 36px;
+    color: #94C14E;
+    line-height: 36px;
+}
+
+.titulo_cotas{
+    font-family: arista;
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.desc-royalt{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 25px;
+    color: #94C14E;
+}
+
+.diferenciais-land{
+    font-family: arista;
+    text-transform: uppercase;
+    font-size: 36pt;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color:#7aba17;
+}
+
+.diferenciais-item-land{
+    font-family: arista;
+    text-transform: uppercase;
+    font-size: 18pt;
+    color: #061B06;
+    line-height: 30px;
+}
+
+.carousel {
+	width: 650px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.carousel .carousel-item {
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	min-height: 340px;
+}
+.carousel .carousel-item a {
+	color: #eb7245;
+}
+
+.carousel .img-box {
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {	
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	text-align: center;
+	padding-bottom: 5px;
+}
+.carousel .overview b {
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+	display: block;	
+	padding-bottom: 5px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #999;
+	text-shadow: none;
+	top: 4px;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover{
+    background-color: #7ABA17;
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 20px;
+	margin-right: 2px;
+}
+.carousel-control-prev {
+    top: 40px;
+	left: 130px;
+}
+
+.carousel-control-next {
+    top: 40px;
+	right: 130px;
+}
+.carousel-control-next i {
+	margin-right: -2px;
+}
+.carousel .carousel-indicators {
+	bottom: 15px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #e2e2e2;
+	border: none;
+}
+.carousel-indicators li.active {		
+	background: #7ABA17;		
+}
+
+.depoimentos{
+    margin-top: 80px;
+    font-family: arista;
+    color:#7aba17;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.desc_depoimentos{
+    margin: 30px auto;
+    width: 470px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.sobre_dp_franqueado{
+    margin: 30px auto;
+    width: 470px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #2D2D2D;
+}
+
+.franquia{
+  font-weight: 400!important;
+}
+
+.faturar_escola{
+    margin: 0!important;
+    font-family: 'Arista';
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+.logo-land{
+  margin-top: 50px;
+}
+
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .video_inst{
+       width: 300px;
+    }
+    
+    .lead-franquia{
+        position: relative!important;
+        width: 290px;
+        margin-top: -200px;
+    }
+
+    .logo-land{
+        margin-top: 0px;
+    }
+
+    .seta_socio{
+        display: none;
+    }
+
+    .titulo_socio{
+        line-height: 32px;
+        margin-top: 0px;
+    }
+    
+    .bg_cota{
+        background-position: left left !important;
+    }
+
+    .img-franqueado{
+        width: 50%;
+    }
+
+    .titulo_cotas{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .desc-royalt{
+        text-align: center;
+    }
+
+    .carousel {
+        width: 300px;
+    }
+
+    .desc_depoimentos{
+        width: 300px;
+    }
+
+    .faturar_escola{
+        font-size:20px;
+        text-align: center;
+    }
+
+    .comece-faturar{
+        margin:0 auto;
+    }
+    .titulo_franquia_cotista{
+        text-align: center;
+    }
+    .sobre_dp_franqueado{
+        width: 300px;
+    }
+
+    .carousel-control-next{
+        right: 5px;
+    }
+
+    .carousel-control-prev{
+        left: 5px;
+    }
+
+    .mobile{
+        display: none!important;
+    }
+}
