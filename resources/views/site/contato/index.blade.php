@@ -227,8 +227,7 @@
                 <div class="row mt-4">
                   
                     <div class="col-12 col-lg-4 col-md-6 sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
-                        <div class="bg-white card-unidade border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
-                        <div class="ribbon"> inauguração <br> <strong> EM BREVE! </strong> </div>     
+                        <div class="bg-white card-unidade border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">   
                         <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-dark-gray"></i></div>
                             <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">TERESINA / PI</div>
                             <p class="width-75 mx-auto">
