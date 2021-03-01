@@ -66,7 +66,7 @@ Um novo mundo cria novas oportunidades!
                             </div>
                             <div class="col-12 col-lg-9 col-md-8 p-0">
                                 <span class="margin-5px-bottom  d-block sm-margin-10px-bottom titulo-investidor">SÓCIO COTISTA</span>
-                                <p class="lg-width-100 desc-investidor text-white">Adquire no mínimo 10% de cota de uma unidade escolar no valor de R$23 mil reais, tendo a franqueadora como gestora e responsável pela prestação de contas e divisão dos lucros. 
+                                <p class="lg-width-100 desc-investidor text-white">Adquire no mínimo 10% de cota de uma unidade escolar no valor de R$28 mil reais, tendo a franqueadora como gestora e responsável pela prestação de contas e divisão dos lucros. 
  </p>
                             </div>
                         </div>
@@ -173,7 +173,7 @@ de todo o negócio e ficará responsável por
                             </div>
                         </div>
                             <ul class="p-0 list-style-4 margin-30px-bottom list-style-color">
-                                <li><span class="item-lista">10% por R$23 MIL Reais </span> </li>
+                                <li><span class="item-lista">10% por R$28 MIL Reais </span> </li>
                                 <li><span class="item-lista">Previsão de lucro mensal: R$3 MIL <br> Reais a cada 10% de cota </span> </li>
                             </ul>
                         </div>
