@@ -14,11 +14,11 @@
             <h5 class="barlow">4 - PRONUNCIATION</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 8/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 08/05_PRONUNCIATION/PRONUNCIATION_08.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A – Homophones 8</h5>
-            <h5 class="barlow"><b>Examples:</b></h5> 
+            <h5 class="barlow"><b>Examples:</b></h5>
             <p><b>Right/Write</b></p>
             <h5 class="barlow">1 - Complete the sentences below with the appropriate word.</h5>
             <form id="unidade8pronunciation541" method="post">
@@ -27,7 +27,7 @@
                     Leg and was taken to the hospital.
                 </p>
                 <p>2. I used a blue pen to <input type="text" name="pronunciation541-2" class="inputpequeno left-align" placeholder="Responda aqui" required> The letter.</p>
-                
+
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="8">

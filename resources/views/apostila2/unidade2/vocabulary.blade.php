@@ -20,7 +20,7 @@
 
 			<ul class="lista-inline" style="margin-top: 16px">
 				<li>
-					<p><b>BRASILIAN</b></p>
+					<p><b>BRAZILIAN</b></p>
 				</li>
 				<li>
 					<p><b>AMERICAN</b></p>

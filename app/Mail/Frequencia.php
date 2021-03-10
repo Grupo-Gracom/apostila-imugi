@@ -28,6 +28,6 @@ class Frequencia extends Mailable
      */
     public function build()
     {
-        return $this->from('smtp@imugi.com.br')->subject('Contato Imugi Tecnologia e Educação Frequencia')->view('portal.email.frequencia')->with('data', $this->data);
+        return $this->from('contato@gracomonline.com.br')->subject('Contato Imugi Tecnologia e Educação Frequencia')->view('portal.email.frequencia')->with('data', $this->data);
     }
 }

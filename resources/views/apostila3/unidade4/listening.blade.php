@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -14,20 +14,20 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 4/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
-				</audio>
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 04/06_LISTENING/LISTENING_04.mp3') }}" type="audio/mp3">
+                </audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and answer the questions below.</h5>
                 <p>1. What’s the advice of the speaker about the content to be delivered.</p>
                 <form id="unidade4listening518" method="post">
-                    <textarea name="listening518-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
+                    <textarea name="listening518-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="4">
                     <input type="hidden" name="atividade_id" value="518">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                                
+                </form>
             </div>
 		</div>
     </main>

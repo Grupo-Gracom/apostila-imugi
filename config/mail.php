@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'smtp@imugi.com.br', 'name' => 'Imugi Tecnologia e Educacao'],//default :'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'futuronopresnete@gmail.com', 'name' => 'Imugi Tecnologia e Educacao'],//default :'from' => ['address' => null, 'name' => null],
 
     /*
     |--------------------------------------------------------------------------

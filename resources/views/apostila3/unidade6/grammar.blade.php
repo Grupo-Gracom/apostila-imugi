@@ -14,9 +14,9 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 6/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 06/03_GRAMMAR/GRAMMAR_06.mp3') }}" type="audio/mp3">
             </audio>
-            <div class="clear"></div>            
+            <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A – EXPLAINING PROCEDURES: REVIEW</h5>
             <p><b>Pay attention to the “Explaining Procedures” sequence:</b></p>
             <p style="margin-top:16px">a. Organize instructions in a Sequence.</p>
@@ -25,40 +25,40 @@
             <p>d. Add further information</p>
             <table class="espacamento center-align bordered" style="margin-top:32px;">
                 <tr>
-                    <td><h5 class="barlow"></h5></td>                    
-                    <td><h5 class="barlow">Explaining Procedures – Structure</h5></td>                    
-                    <td><h5 class="barlow"></h5></td>                    
-                </tr>                
+                    <td><h5 class="barlow"></h5></td>
+                    <td><h5 class="barlow">Explaining Procedures – Structure</h5></td>
+                    <td><h5 class="barlow"></h5></td>
+                </tr>
 
                 <tr class="bordered center-align">
                     <td><p><b>Organizing a Sequence</b></p> <p>“Explain the sequence of the events”</p></td>
                     <td><p><b>Reminders</b></p> <p>“draw the listener’s attention to important steps that can’t be skipped”</p></td>
                     <td><p><b>Adding further Information</b></p> <p>“Clarify steps if necessary”</p></td>
-                </tr>                
+                </tr>
                 <tr class="bordered center-align">
-                    <td>                        
+                    <td>
                         <p>First, Second, Third…</p>
                         <p>Right After</p>
                         <p>After that</p>
                         <p>Then</p>
                         <p>Start with…</p>
-                        <p>Finish by…</p>                        
-                    </td>                    
-                    <td>                        
+                        <p>Finish by…</p>
+                    </td>
+                    <td>
                         <p>Make sure you…</p>
                         <p>Don’t forget to…</p>
                         <p>Remember to…</p>
                         <p>Bear in mind that…</p>
                         <p>Keep in mind that…</p>
                         <p>It’s important to…</p>
-                    </td>                    
-                    <td>                        
+                    </td>
+                    <td>
                         <p>You should…</p>
                         <p>You must…</p>
                         <p>You are supposed to…</p>
                         <p>You have to…</p>
-                    </td>                    
-                </tr>                
+                    </td>
+                </tr>
             </table>
             <h5 class="barlow" style="margin-top:32px"><b>EXERCICES</b></h5>
             <h5 class="barlow">1 - Pick one of the pieces of paper from a plastic bag and follow the instructions. Based on

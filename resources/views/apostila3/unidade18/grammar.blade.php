@@ -14,7 +14,7 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 18/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 18/03_GRAMMAR/GRAMMAR_18.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
@@ -75,7 +75,7 @@
                         </p>
                         <p>You <input type="text" name="grammar591-10" placeholder="Responda aqui" required /> go and see “Batman”. It’s a great film.</p>
                         <p>
-                            He came home alone. You <input type="text" name="grammar591-11" placeholder="Responda aqui" required /> (let) him do that; he 
+                            He came home alone. You <input type="text" name="grammar591-11" placeholder="Responda aqui" required /> (let) him do that; he
                             <input type="text" name="grammar591-12" placeholder="Responda aqui" required /> (get) lost.
                         </p>
                     </p>
@@ -96,7 +96,7 @@
                         <p>2. Bob <input type="text" name="grammar592-2" placeholder="Responda aqui" required /> (be) at school because I haven’t seen him today.</p>
                         <p>3. Mr. Treves hasn’t come to work yet. He has never been late for work. He <input type="text" name="grammar591-3" placeholder="Responda aqui" required /> (miss) the bus.</p>
                         <p>
-                            4. Timmy is a very good boy. He isn’t naughty, so he <input type="text" name="grammar592-4" placeholder="Responda aqui" required /> (break) that 
+                            4. Timmy is a very good boy. He isn’t naughty, so he <input type="text" name="grammar592-4" placeholder="Responda aqui" required /> (break) that
                             window. Someone else <input type="text" name="grammar592-5" placeholder="Responda aqui" required /> (break) it.
                         </p>
                         <p>5. I’m sure that I dropped my key in the car. It <input type="text" name="grammar592-6" placeholder="Responda aqui" required /> (be) there at the moment.</p>
@@ -134,13 +134,13 @@
                     feature to the app. The possibility of uploading stories. Brainstorm with the class possible
                     assumptions or attitudes regarding this situation. Use the modals + past participle in your
                     production.</h5>
-                <h5 class="barlow"><b>Example:</b></h5> 
+                <h5 class="barlow"><b>Example:</b></h5>
                 <p>Snapchat <b>should have invested</b> in marketing.</p>
                 <form id="unidade18grammar593" method="post" style="margin-top:32px">
                     <textarea name="grammar593-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-    
+
                     <div class="clear"></div>
-    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="18">

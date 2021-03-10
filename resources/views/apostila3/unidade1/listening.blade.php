@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -14,20 +14,20 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 1/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila3/LESSON 01/06_LISTENING/LISTENING_01.mp3') }}" type="audio/mp3">
 				</audio>
                 <div class="clear"></div>
-                <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>                
-                <form id="unidade1listening502" method="post">                    
-                    <p>Hey Jake, how’s it 
+                <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
+                <form id="unidade1listening502" method="post">
+                    <p>Hey Jake, how’s it
                     <input type="text" name="listening502-1" class="left-align" placeholder="Responda aqui" required>
-                    ? Let me ask you something. Glenn 
+                    ? Let me ask you something. Glenn
                     <input type="text" name="listening502-2" class="left-align" placeholder="Responda aqui" required> That in
-                    the next class we’re gonna starting 
+                    the next class we’re gonna starting
                     <input type="text" name="listening502-3" class="left-align" placeholder="Responda aqui" required>
                     details about how to <input type="text" name="listening502-4" class="left-align" placeholder="Responda aqui" required>
-                    a Youtube <input type="text" name="listening502-5" class="left-align" placeholder="Responda aqui" required>. 
-                    Is that true? Because if it is, I’ll rearrange my 
+                    a Youtube <input type="text" name="listening502-5" class="left-align" placeholder="Responda aqui" required>.
+                    Is that true? Because if it is, I’ll rearrange my
                     <input type="text" name="listening502-6" class="left-align" placeholder="Responda aqui" required> cause
                     tomorrow I’d have an <input type="text" name="listening502-7" class="left-align" placeholder="Responda aqui" required>
                     at time of the class.</p>
@@ -36,7 +36,7 @@
                     <input type="hidden" name="unidade_id" value="1">
                     <input type="hidden" name="atividade_id" value="502">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
             </div>
 		</div>
     </main>

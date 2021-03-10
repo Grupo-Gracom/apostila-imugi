@@ -14,7 +14,7 @@
 			<h5 class="barlow">2 - CONVERSATION</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
-				<source src="{{ asset('assets/audio/apostila3/UNIT 31/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 31/02_CONVERSATION/CONVERSATION_31.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <p style="margin-top: 16px">
@@ -38,7 +38,7 @@
 				</figure>
             </div>
             <div class="clear"></div>
-            
+
             <h5 class="barlow" style="margin-top:32px"><b>What new jobs will exist in 2035?</b></h5>
             <p>
                 By 2035, workplace changes will see us looking for jobs as remote pilots or online chaperones.
@@ -82,7 +82,7 @@
             </p>
             <p>
                 A new category of “personalized preventative health helpers” will also emerge. These workers
-                will possess great people skills, and the ability to interpret and understand health and wellbeing data. 
+                will possess great people skills, and the ability to interpret and understand health and wellbeing data.
                 They “will help their clients avoid chronic and diet-related illness, improve cognitive
                 function, achieve improved mental health and achieve improved lifestyles overall.” As the global
                 population ages, such a role will become increasingly important, and the report argues the

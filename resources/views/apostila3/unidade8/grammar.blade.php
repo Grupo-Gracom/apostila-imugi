@@ -14,37 +14,37 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 8/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 08/03_GRAMMAR/GRAMMAR_08.mp3') }}" type="audio/mp3">
             </audio>
-            <div class="clear"></div>     
+            <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A – TALKING ABOUT THE PRESENT.</h5>
                 <p>There are different ways to talk about the present. It also depends on the message
                 you want to communicate. Pay attention to some possibilities on the table.</p>
             <table class="espacamento center-align bordered" style="margin-top:32px;">
                 <tr>
-                    <td><h5 class="barlow">Verb Tense</h5></td>                    
-                    <td><h5 class="barlow">Explanation</h5></td>                    
-                    <td><h5 class="barlow">Use</h5></td>                    
+                    <td><h5 class="barlow">Verb Tense</h5></td>
+                    <td><h5 class="barlow">Explanation</h5></td>
+                    <td><h5 class="barlow">Use</h5></td>
                 </tr>
                 <tr class="bordered center-align">
                     <td><p>Simple Present</p></td>
                     <td><p>Used to express general facts and habitual/regular action in the present.</p></td>
                     <td><p>Gleen <b>teaches</b> in many different courses nowadays.</p></td>
-                </tr>                          
+                </tr>
                 <tr class="bordered center-align">
                     <td><p>Present Continuous</p></td>
                     <td><p>A progressive or temporary situation in the present.</p></td>
                     <td><p>John <b>is taking</b> a course on photoshop. He said <b>it’s being</b> awesome.</p></td>
-                </tr>                          
+                </tr>
                 <tr class="bordered center-align">
                     <td><p>To be Used to</p></td>
                     <td><p>Used to express a present habit.</p></td>
                     <td><p>Carlos <b>is used</b> to many different video editing tools. He <b>is used to dealing</b> with different necessities when editing his videos. </p></td>
-                </tr>                                         
+                </tr>
             </table>
             <h5 class="barlow" style="margin-top:32px"><b>EXERCISES :</b></h5>
             <h5 class="barlow">1 -  Write sentences. Use the PRESENT SIMPLE or the PRESENT CONTINUOUS:</h5>
-            <h5 class="barlow"><b>Example:</b></h5> 
+            <h5 class="barlow"><b>Example:</b></h5>
             <p>(Usually she / work / at the office, but this week she / work / at home.)</p>
             <p>Usually she works at the office, but this week she’s working at home</p>
             <form id="unidade8grammar537" method="post" class="metade" style="margin-top:32px">
@@ -63,7 +63,7 @@
                 <p>7. (She / speak / three languages.)
                 <input type="text" name="grammar537-7" class="full left-align" placeholder="Responda aqui" required></p>
                 <p>8. (The sun / shine /. It’s a beautiful day!)
-                <input type="text" name="grammar537-8" class="full left-align" placeholder="Responda aqui" required></p>                                
+                <input type="text" name="grammar537-8" class="full left-align" placeholder="Responda aqui" required></p>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="8">
@@ -88,13 +88,13 @@
                 <input type="text" name="grammar538-4" class="full left-align" placeholder="Responda aqui" required></p>
                     <p>5. (David / sing / in a group / this year?)
                     <input type="text" name="grammar538-5" class="full left-align" placeholder="Responda aqui" required></p>
-                </div>                                
+                </div>
                 <div class="metade direita">
                     <p>(No, she / study / in Mexico)</p>
                     <p>No. She’s studying in Mexico.</p>
 
                     <p style="margin-top: 32px;">(Yes, I / work / hard.)
-                    <input type="text" name="grammar538-6" class="full left-align" placeholder="Responda aqui" required></p> 
+                    <input type="text" name="grammar538-6" class="full left-align" placeholder="Responda aqui" required></p>
                     <p>(No, they / play / CDs.)
                     <input type="text" name="grammar538-7" class="full left-align" placeholder="Responda aqui" required></p>
                     <p>(Yes, he / have / a bath.)
@@ -103,7 +103,7 @@
                     <input type="text" name="grammar538-9" class="full left-align" placeholder="Responda aqui" required></p>
                     <p>(No, he / work / in a restaurant.)
                     <input type="text" name="grammar538-10" class="full left-align" placeholder="Responda aqui" required></p>
-                </div><div class="clear"></div>                                
+                </div><div class="clear"></div>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="8">
@@ -147,7 +147,7 @@
                 <p>9. What time does he go to bed?
                 <input type="text" name="grammar539-9" class="full left-align" placeholder="Responda aqui" required></p>
                 <p>10. What time is he going to bed now?
-                <input type="text" name="grammar539-10" class="full left-align" placeholder="Responda aqui" required></p>                
+                <input type="text" name="grammar539-10" class="full left-align" placeholder="Responda aqui" required></p>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="8">
@@ -161,10 +161,10 @@
                 (live) in Finland, but now I live in France.</p>
                 <p>2. He <input type="text" name="grammar540-2" placeholder="Responda aqui" required>
                 (sit) in the back of the classroom, but now he prefers to sit in the front row.</p>
-                <p>3. When I was a child, I 
-                <input type="text" name="grammar540-3" placeholder="Responda aqui" required> 
+                <p>3. When I was a child, I
+                <input type="text" name="grammar540-3" placeholder="Responda aqui" required>
                 (play) games with my friends in a big field near my house after school every day.</p>
-                <p>4. It’s hard for my children to stay inside on a cold, rainy day. They 
+                <p>4. It’s hard for my children to stay inside on a cold, rainy day. They
                 <input type="text" name="grammar540-4" placeholder="Responda aqui" required>
                 (play) outside in the big field near our house. They play there almost every day.</p>
                 <p>5. People <input type="text" name="grammar540-5" placeholder="Responda aqui" required>
@@ -177,7 +177,7 @@
                 <p>8. You and I are from different cultures. You
                 <input type="text" name="grammar540-8" placeholder="Responda aqui" required>
                 (have) fish for breakfast. I <input type="text" name="grammar540-9" placeholder="Responda aqui" required>
-                (have) cheese and bread for breakfast.</p>                                
+                (have) cheese and bread for breakfast.</p>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="8">
@@ -196,7 +196,7 @@
         checkAtividade(atividade_id);
     });
 
-    
+
     $("#unidade8grammar537").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);

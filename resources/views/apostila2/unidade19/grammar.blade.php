@@ -33,20 +33,20 @@
                         <p><b>I like</b> to study about the movie production.<p>
                     </td>
                     <td>
-                        <p>One month ago <b>I was</b> Japan for a Java course.<p>
+                        <p>One month ago <b>I was AT </b> Japan for a Java course.<p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p><b>Marveel releases</b> a new movie every year.<p>
+                        <p><b>Marvel releases</b> a new movie every year.<p>
                     </td>
                     <td>
-                        <p>Last week<b>we visited</b> universal studios.<p>
+                        <p>Last week <b>we visited</b> universal studios.<p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p><b>Glen reads</b>everything about the movies.<p>
+                        <p><b>Glen reads </b>everything about the movies.<p>
                     </td>
                     <td>
                         <p><b>Laura spent</b> hours to finish her presentation.<p>

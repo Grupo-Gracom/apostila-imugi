@@ -14,12 +14,12 @@
             <h5 class="barlow">4 - PRONUNCIATION</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 11/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 11/05_PRONUNCIATION/PRONUNCIATION_11.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A – Homographs 1</h5>
             <p><b>Homographs</b> are words that have the same spelling but may have different meaning, origin or pronunciation.</p>
-            <h5 class="barlow"><b>Examples:</b></h5> 
+            <h5 class="barlow"><b>Examples:</b></h5>
             <p><b>Quarter/Quarter</b></p>
             <p>Observe the meaning of the words based on the context.</p>
             <p>It’s a <b>quarter</b> past 2 pm.</p>

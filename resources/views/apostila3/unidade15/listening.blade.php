@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -14,30 +14,30 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 15/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
-				</audio>
-                <div class="clear"></div>                
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 15/06_LISTENING/LISTENING_15.mp3') }}" type="audio/mp3">
+                </audio>
+                <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade15listening581" method="post">
-                    <p>Any person can cause a 
-                    <input type="text" name="listening581-1"  placeholder="Responda aqui" required> 
+                    <p>Any person can cause a
+                    <input type="text" name="listening581-1"  placeholder="Responda aqui" required>
                     impact through social media. In the past we
-                    couldn’t 
+                    couldn’t
                     <input type="text" name="listening581-2"  placeholder="Responda aqui" required>
-                    our voices without 
+                    our voices without
                     <input type="text" name="listening581-3"  placeholder="Responda aqui" required>
                     tons of money to do so. Internet has
                     <input type="text" name="listening581-4"  placeholder="Responda aqui" required>
-                    equally, the 
+                    equally, the
                     <input type="text" name="listening581-5"  placeholder="Responda aqui" required>
-                    of speaking. A simple idea may 
+                    of speaking. A simple idea may
                     <input type="text" name="listening581-6"  placeholder="Responda aqui" required>
                     the whole
-                    world. We have seen the 
+                    world. We have seen the
                     <input type="text" name="listening581-7"  placeholder="Responda aqui" required>
                     media losing power after some social media
                     <input type="text" name="listening581-8"  placeholder="Responda aqui" required>
-                    started to be used. So let’s be 
+                    started to be used. So let’s be
                     <input type="text" name="listening581-9"  placeholder="Responda aqui" required>
                     for what we want to say.</p>
 
@@ -47,7 +47,7 @@
                     <input type="hidden" name="atividade_id" value="581">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                                
+                </form>
             </div>
 		</div>
     </main>

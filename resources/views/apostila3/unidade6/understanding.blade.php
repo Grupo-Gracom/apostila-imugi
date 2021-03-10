@@ -5,15 +5,19 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade6" data-etapa="understanding">
 				<h3 class="barlow">UNIT 6</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 06/07_UNDERSTANDING/UNDERSTANDING_06.mp3') }}" type="audio/mp3">
+                </audio>
                 <div class="metade">
-                    <form id="unidade6understanding529" method="post">                                      
+                    <form id="unidade6understanding529" method="post">
                         <p>
                             1 - What does Jake ask in the beginning of the class?<br>
                             <input type="text" name="understanding529-1" class="full left-align" placeholder="Responda aqui" required>
@@ -33,7 +37,7 @@
                         <p>
                             5 - And you? What did you understand from this text?<br>
                             <input type="text" name="understanding529-5" class="full left-align" placeholder="Responda aqui" required>
-                        </p>                    
+                        </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="6">

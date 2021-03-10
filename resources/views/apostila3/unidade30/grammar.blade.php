@@ -13,9 +13,6 @@
             <h3 class="barlow">UNIT 30</h3>
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
-            <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 30/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
-            </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
             <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b><h5>
@@ -24,7 +21,7 @@
                 its desires. Think about products or services that are likely to be developed and offered in
                 a near future. Search for “Useful gadgets” on Youtube to get inspired.
             </h5>
-            
+
             <form id="unidade30grammar701" method="post" style="margin-top:32px">
                 <textarea name="grammar701-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 

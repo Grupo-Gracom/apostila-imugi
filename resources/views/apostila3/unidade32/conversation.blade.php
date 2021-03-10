@@ -14,7 +14,7 @@
 			<h5 class="barlow">2 - CONVERSATION</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
-				<source src="{{ asset('assets/audio/apostila3/UNIT 32/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 32/02_CONVERSATION/CONVERSATION_32.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <p style="margin-top: 16px">
@@ -31,7 +31,7 @@
                 <p><b>Students :</b> Great teacher</p>
                 <p><b>Jake :</b> It’s a long text, but I’m sure it’s worth reading it. Let’s go?</p>
             </p>
-            
+
             <h5 class="barlow" style="margin-top:32px"><b>Emotional intelligence: What it is and why you need it</b></h5>
             <p>
                 When emotional intelligence first appeared to the masses, it served as the missing link in a
@@ -63,7 +63,7 @@
             </p>
             <p><b>- Social Awareness</b> is your ability to accurately pick up on emotions in other people and understand what is really going on.</p>
             <p><b>- Relationship Management</b> is your ability to use awareness of your emotions and the others’ emotions to manage interactions successfully.</p>
-            
+
             <p><b>Emotional Intelligence, IQ, and Personality Are Different</b></p>
             <p>
                 Emotional intelligence taps into a fundamental element of human behavior that is distinct from your intellect.
@@ -85,7 +85,7 @@
                 intelligence. Also like IQ, personality is stable over a lifetime and doesn’t change. IQ,
                 emotional intelligence, and personality each cover unique ground and help to explain what
                 makes a person tick.
-            </p>    
+            </p>
             <p><b>Emotional Intelligence Predicts Performance</b></p>
             <p>
                 How much of an impact does emotional intelligence have on your professional success?

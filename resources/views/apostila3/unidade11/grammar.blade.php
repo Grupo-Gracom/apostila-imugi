@@ -14,25 +14,25 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 11/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 11/03_GRAMMAR/GRAMMAR_11.mp3') }}" type="audio/mp3">
             </audio>
-            <div class="clear"></div>     
-            <h5 class="barlow" style="margin-top:16px">A -  CONECTORS – REVIEW</h5>                            
+            <div class="clear"></div>
+            <h5 class="barlow" style="margin-top:16px">A -  CONECTORS – REVIEW</h5>
             <table class="espacamento left-align bordered" style="margin-top:32px;">
                 <tr>
-                    <td colspan="2"><h5 class="barlow center-align">Connectors</h5></td>                    
-                    <td><h5 class="barlow center-align">Examples</h5></td>                              
+                    <td colspan="2"><h5 class="barlow center-align">Connectors</h5></td>
+                    <td><h5 class="barlow center-align">Examples</h5></td>
                 </tr>
                 <tr class="bordered">
                     <td><p>Addition</p></td>
-                    <td><p><b>And</b></p> <p><b>Besides that</b></p> <p><b>Moreover</b></p> <p><b>Furthermore</b></p></td>                    
-                    <td><p>Akira loves comic books <b>and</b>  he’s also a fan of GOT. 
-                    Youtube is a great tool. <b>Besides that</b> it’s free. 
-                    A good content is the secret for a good audience. 
-                    <b>Moreover</b>, it helps you to add value to your brand. 
-                    Facebook is still the most powerful social media. 
-                    <b>Furthermore</b> it has fantastic metric tools.</p></td>                    
-                </tr>                          
+                    <td><p><b>And</b></p> <p><b>Besides that</b></p> <p><b>Moreover</b></p> <p><b>Furthermore</b></p></td>
+                    <td><p>Akira loves comic books <b>and</b>  he’s also a fan of GOT.
+                    Youtube is a great tool. <b>Besides that</b> it’s free.
+                    A good content is the secret for a good audience.
+                    <b>Moreover</b>, it helps you to add value to your brand.
+                    Facebook is still the most powerful social media.
+                    <b>Furthermore</b> it has fantastic metric tools.</p></td>
+                </tr>
                 <tr class="bordered">
                     <td><p>Contrast</p></td>
                     <td>
@@ -40,7 +40,7 @@
                         <p><b>Although/even though</b></p>
                         <p><b>However</b></p>
                         <p><b>Despite</b></p>
-                    </td>                   
+                    </td>
                     <td>
                         <p>PhotoShop is awesome <b>but</b> it difficult to memorize all the</p>
                         <p>available tools for treating photos.</p>
@@ -51,7 +51,7 @@
                         <p><b>Despite</b> being awesome, It’s difficult to memorize all Photo Shop</p>
                         <p>available tools for treating photos.</p>
                     </td>
-                </tr>                          
+                </tr>
                 <tr class="bordered">
                     <td><p>Conclusion</p></td>
                     <td>
@@ -59,7 +59,7 @@
                         <p><b>As a conclusion</b></p>
                         <p><b>As we have seen</b></p>
                         <p><b>Because of that</b></p>
-                    </td>                    
+                    </td>
                     <td>
                         <p>Youtube is an outstanding branding tool. <b>So</b> I think we should</p>
                         <p>invest in a nice channel for the company.</p>
@@ -68,14 +68,14 @@
                         <p><b>As we have seen</b>, Youtube is an outstanding branding tool.</p>
                         <p><b>Because of that</b>, I think we should invest in a nice channel for the company.</p>
                     </td>
-                </tr>                                                 
+                </tr>
                 <tr class="bordered">
                     <td><p>Exemplification</p></td>
                     <td>
                         <p><b>For instance</b></p>
                         <p><b>As an example</b></p>
                         <p><b>Such as</b></p>
-                    </td>                    
+                    </td>
                     <td>
                         <p>There are many good channels on Youtube. <b>For instance</b>, Lucas Neto</p>
                         <p>channel is awesome for kids.</p>
@@ -85,15 +85,15 @@
                         <p>channels <b>such as</b> Whindesron Nunes channel.</p>
                     </td>
                 </tr>
-            </table>       
+            </table>
             <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
             <h5 class="barlow">1 -  In groups, create a dialogue and use at least one connector of each type: adding,
             contrasting, concluding and giving examples. Use the topics below or any other you find interesting. </h5>
             <p>• Visiting Youtube headquarters.</p>
             <p>• Preparing yourself for your 3rd Comic.com.</p>
             <p>• Deciding on what program to use in a project. </p>
-            <form id="unidade11grammar563" method="post">                
-                <textarea name="grammar552-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                                       
+            <form id="unidade11grammar563" method="post">
+                <textarea name="grammar552-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="11">
@@ -105,7 +105,7 @@
             <p>• Home office work.</p>
             <p>• Living abroad.</p>
             <p>• Working for a company x being a self-employee.</p>
-            <form id="unidade11grammar564" method="post" class="metade">                            
+            <form id="unidade11grammar564" method="post" class="metade">
                 <p>1. <input type="text" name="grammar564-1" class="full left-align" placeholder="Responda aqui" required></p>
                 <p>2. <input type="text" name="grammar564-2" class="full left-align" placeholder="Responda aqui" required></p>
                 <p>3. <input type="text" name="grammar564-3" class="full left-align" placeholder="Responda aqui" required></p>
@@ -116,7 +116,7 @@
                 <input type="hidden" name="atividade_id" value="564">
                 <div class="clear"></div>
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-            </form>                        
+            </form>
         </div>
     </div>
 </main>
@@ -127,8 +127,8 @@
         var atividade_id = $(this).find('input[name="atividade_id"]').val();
         checkAtividade(atividade_id);
     });
-    
-    
+
+
         $("#unidade11grammar563").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);

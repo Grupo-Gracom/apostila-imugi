@@ -12,6 +12,10 @@
 			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade28" data-etapa="understanding">
 				<h3 class="barlow">UNIT 28</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 28/07_UNDERSTANDING/UNDERSTANDING_28.mp3') }}" type="audio/mp3">
+                </audio>
                 <div class="metade">
                     <form id="unidade28understanding697" method="post">
                         <p>
@@ -31,7 +35,7 @@
                             <input type="text" name="understanding697-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 -  What do you think the “4th revolution” is? Try to explain with your own words  
+                            5 -  What do you think the “4th revolution” is? Try to explain with your own words
                             <input type="text" name="understanding697-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
 

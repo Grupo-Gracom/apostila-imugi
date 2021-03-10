@@ -14,8 +14,8 @@
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 2/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
-                </audio>
+					<source src="{{ asset('assets/audio/apostila3/LESSON 02/03_GRAMMAR/GRAMMAR_02.mp3') }}" type="audio/mp3">
+				</audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px">A - GIVING GOOD AND BAD NEWS</b></h5>
 
@@ -25,15 +25,15 @@
                 <p>Here is some great News…</p>
                 <p>I’m glad to tell you…</p>
                 <p>I’m really thrilled that…</p>
-                <p>I am happy to say that …</p>                
-                
+                <p>I am happy to say that …</p>
+
                 <p style="margin-top:32px;"><b>Giving Bad news:</b></p>
                 <p style="margin-top:16px;">The bad news is …</p>
                 <p>Unfortunately …</p>
                 <p>How can I put this…</p>
                 <p>I regret to say that…</p>
                 <p>I’m sorry to say that…</p>
-                <p>I’m afraid that …</p>                
+                <p>I’m afraid that …</p>
 
                 <h5 class="barlow">Information – No plural form.</h5>
                 <p>Information is an uncountable noun meaning ‘facts about someone or
@@ -77,24 +77,24 @@
 
                 <h5 class="barlow espacamento" style="margin-top:16px">Dialogue 1 – Giving Bad news.</h5>
                 <form id="unidade2grammar504" method="post">
-                    <textarea name="grammar504-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
+                    <textarea name="grammar504-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="2">
                     <input type="hidden" name="atividade_id" value="504">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
                 <h5 class="barlow espacamento">Dialogue 2 – Giving good news.</h5>
                 <form id="unidade2grammar505" method="post">
-                    <textarea name="grammar505-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
+                    <textarea name="grammar505-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="2">
                     <input type="hidden" name="atividade_id" value="505">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
 			</div>
 		</div>
     </main>

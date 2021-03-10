@@ -14,17 +14,17 @@
             <h5 class="barlow">4 - PRONUNCIATION</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 7/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 07/05_PRONUNCIATION/PRONUNCIATION_07.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A – Homophones 7</h5>
-            <h5 class="barlow"><b>Examples:</b></h5> 
+            <h5 class="barlow"><b>Examples:</b></h5>
             <p><b>Threw/Through</b></p>
             <h5 class="barlow">1 - Complete the sentences below with the appropriate word.</h5>
             <form id="unidade7pronunciation534" method="post">
                 <p>1. I <input type="text" name="pronunciation534-1" class="inputpequeno left-align" placeholder="Responda aqui" required> the moldy apple in the bin.</p>
                 <p>2. She looked <input type="text" name="pronunciation534-2" class="inputpequeno left-align" placeholder="Responda aqui" required> binoculars.</p>
-                
+
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="7">

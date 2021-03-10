@@ -22,7 +22,7 @@
                     <p><b>ow sound /aʊ/</b></p>
                 </li>
                 <li>
-                    <p><b>FoundHouse</b></p>
+                    <p><b>Found House</b></p>
                 </li>
                 <li>
                     <p><b>Brown</b></p>
@@ -38,7 +38,7 @@
                 </li>
             </ul>
             <div class="clear"></div>
-            <p style="margin-top:32px">I founf a brown house in south down town.</p>
+            <p style="margin-top:32px">I found a brown house in south down town.</p>
         </div>
     </div>
 </main>

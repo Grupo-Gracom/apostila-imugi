@@ -14,7 +14,7 @@
 			<h5 class="barlow">2 - CONVERSATION</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
-				<source src="{{ asset('assets/audio/apostila3/UNIT 30/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 30/02_CONVERSATION/CONVERSATION_30.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <p style="margin-top: 16px">
@@ -42,9 +42,9 @@
 				</figure>
             </div>
             <div class="clear"></div>
-            
+
             <h5 class="barlow" style="margin-top:16px"><b>Text</b></h5>
-            
+
             <p><b>What is Big Data Concepts?</b></p>
             <p>
                 Every organization today has enormous data that keeps on increasing every minute. To
@@ -54,7 +54,7 @@
                 It will help the business to understand the information in a more better manner. It will help
                 the business to identify the data that is more important to the organization.
             </p>
-            
+
             <p><b>Why is big data concepts analytics important?</b></p>
             <p>
                 Big data has been in the major focus since its inception in the business field. Many
@@ -64,7 +64,7 @@
                 customers. In today’s world, Big data concepts are considered more important due to the
                 following reasons
             </p>
-            
+
             <p>
                 <b>Reduced cost</b> – big data technologies are more cost-effective. And it is the best tool to store
                 huge data at a lower cost. It also helps to identify more efficient ways of doing business.
@@ -88,7 +88,7 @@
                 to harness the data and derive value from it. Few types of organizations that use this
                 technology are listed below:
             </p>
-            
+
             <div class="lista-vertical">
                 <li><p>• Travel and Hospitality</p></li>
                 <li><p>• Health Care</p></li>

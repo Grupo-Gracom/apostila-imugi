@@ -14,7 +14,7 @@
 				<h5 class="barlow">3 - GRAMAR</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 2/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 03/03_GRAMMAR/GRAMMAR_03.mp3') }}" type="audio/mp3">
                 </audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px">A - EXPLAINING PROCEDURES: EXPRESSING SEQUENCE</p>
@@ -34,33 +34,33 @@
                     <p><b>After that/Afterwards, After</b></p>
                     <p><b>Finish by</b></p>
                     <p><b>Start by.</b></p>
-                </div>    
+                </div>
                 <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES:</b></h5>
                 <p>Think of 2 different procedures and explain how to execute on them step by step.</p>
                 <p>Examples: Uploading a video on Youtube; Opening a Facebook account; uploading
                 a story on instagram.</p>
                 <p>Have in mind that you are supposed to use as many sequence words as you can. If you want,
-                you can write about a different procedure. Be prepared to share your ideas.</p>              
+                you can write about a different procedure. Be prepared to share your ideas.</p>
                 <h5 class="barlow">Procedure 1</h5>
                 <form id="unidade3grammar510" method="post">
-                    <textarea name="grammar510-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
+                    <textarea name="grammar510-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="3">
                     <input type="hidden" name="atividade_id" value="510">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
                 <h5 class="barlow">Procedure 2</h5>
                 <form id="unidade3grammar511" method="post">
-                    <textarea name="grammar511-1" class="metade left-align" placeholder="Responda aqui" required></textarea>                    
+                    <textarea name="grammar511-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="3">
                     <input type="hidden" name="atividade_id" value="511">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
 			</div>
 		</div>
     </main>

@@ -14,19 +14,19 @@
             <h5 class="barlow">5 - LISTENING</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 25/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 25/06_LISTENING/LISTENING_25.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
             <form id="unidade25listening683" method="post">
                 <p>
-                    Being <input type="text" name="listening683-1" placeholder="Responda aqui" required /> to 
-                    <input type="text" name="listening683-2" placeholder="Responda aqui" required /> 
+                    Being <input type="text" name="listening683-1" placeholder="Responda aqui" required /> to
+                    <input type="text" name="listening683-2" placeholder="Responda aqui" required />
                     your business <input type="text" name="listening683-3" placeholder="Responda aqui" required /> constantly, gives you the
-                    power to <input type="text" name="listening683-4" placeholder="Responda aqui" required /> 
-                    between your plan and its <input type="text" name="listening683-5" placeholder="Responda aqui" required />. 
-                    Improvements come from the <input type="text" name="listening683-6" placeholder="Responda aqui" required /> 
-                    upon the way you are doing things and from your <input type="text" name="listening683-7" placeholder="Responda aqui" required /> 
+                    power to <input type="text" name="listening683-4" placeholder="Responda aqui" required />
+                    between your plan and its <input type="text" name="listening683-5" placeholder="Responda aqui" required />.
+                    Improvements come from the <input type="text" name="listening683-6" placeholder="Responda aqui" required />
+                    upon the way you are doing things and from your <input type="text" name="listening683-7" placeholder="Responda aqui" required />
                     to change what is necessary. Bear in mind that the more you <input type="text" name="listening683-8" placeholder="Responda aqui" required /> about the product you
                     <input type="text" name="listening683-9" placeholder="Responda aqui" required />, the better the solutions are gonna be.
                 </p>

@@ -12,6 +12,10 @@
 			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade32" data-etapa="understanding">
 				<h3 class="barlow">UNIT 32</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 32/07_UNDERSTANDING/UNDERSTANDING_32.mp3') }}" type="audio/mp3">
+                </audio>
                 <div class="metade">
                     <form id="unidade32understanding779" method="post">
                         <p>
@@ -31,7 +35,7 @@
                             <input type="text" name="understanding779-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 -  How can you increase you emotional intelligence?  
+                            5 -  How can you increase you emotional intelligence?
                             <input type="text" name="understanding779-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
 

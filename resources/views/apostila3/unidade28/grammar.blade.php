@@ -14,7 +14,7 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 28/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 28/03_GRAMMAR/GRAMMAR_28.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
@@ -93,9 +93,9 @@
                 <p><b>John(Description): ???</b></p>
                 <form id="unidade28grammar693" method="post" style="margin-top:32px">
                     <textarea name="grammar693-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-    
+
                     <div class="clear"></div>
-    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="28">
@@ -105,9 +105,9 @@
                 <p><b>Laura(Narration):???</b></p>
                 <form id="unidade28grammar694" method="post" style="margin-top:32px">
                     <textarea name="grammar694-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-    
+
                     <div class="clear"></div>
-    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="28">
@@ -117,9 +117,9 @@
                 <p><b>Akira(Explanation):???</b></p>
                 <form id="unidade28grammar695" method="post" style="margin-top:32px">
                     <textarea name="grammar695-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-    
+
                     <div class="clear"></div>
-    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="28">

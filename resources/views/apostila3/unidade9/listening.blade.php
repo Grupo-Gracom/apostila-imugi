@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -14,19 +14,19 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 9/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
-				</audio>
-                <div class="clear"></div>                
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 09/06_LISTENING/LISTENING_09.mp3') }}" type="audio/mp3">
+                </audio>
+                <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade9listening550" method="post">
                     <p>I believe that <input type="text" name="listening550-1"   placeholder="Responda aqui" required>
                     of the year new features will be <input type="text" name="listening550-2"   placeholder="Responda aqui" required>
                     to Instagram. The platform is
                     <input type="text" name="listening550-3"   placeholder="Responda aqui" required>
-                    more and more att racti ve and 
+                    more and more att racti ve and
                     <input type="text" name="listening550-4"   placeholder="Responda aqui" required>
                     . Millennials rea <input type="text" name="listening550-5"   placeholder="Responda aqui" required>
-                    into instagram. Older people 
+                    into instagram. Older people
                     <input type="text" name="listening550-6"   placeholder="Responda aqui" required>
                     use Facebook. <input type="text" name="listening550-7"   placeholder="Responda aqui" required>
                     are great for doing business.</p>
@@ -36,7 +36,7 @@
                     <input type="hidden" name="atividade_id" value="550">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                                
+                </form>
             </div>
 		</div>
     </main>

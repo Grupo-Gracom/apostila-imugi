@@ -1195,16 +1195,15 @@ Route::post('/atualizar-perfil/{id}', 'UserController@update');
 Route::get('/atualiza-senha','UserController@atualizaSenha');
 
 // Rotas Site Imugi
+Route::get('/franquia-imugi', 'HomeController@franquiaCota')->name('franquia-imugi');
 Route::get('/cursos/cgfly', 'HomeController@cgfly')->name('cg-fly');
 Route::get('/cursos/codeblock', 'HomeController@codeblock')->name('code-block');
 Route::get('/site', 'HomeController@site')->name('site');
-Route::get('/franquia-imugi', 'HomeController@franquiaCota')->name('franquia-imugi');
 Route::get('/site/depoimentos', 'HomeController@depoimentos')->name('depoimentos');
 Route::get('/site/contato', 'ContatoController@siteContato')->name('siteContato');
 Route::get('/site/portaldoaluno', 'HomeController@portalAluno')->name('portalAluno');
 Route::get('/site/franquia', 'ContatoController@franquia')->name('franquia');
 Route::post('/contato-aluno', 'ContatoController@contatoAluno')->name('alunoContato');
-
 Route::post('/contato-franquia', 'ContatoController@contatoFranquia')->name('contatoFranquia');
 Route::post('/enviar', 'ContatoController@enviar')->name('enviarContato');
 
@@ -1213,13 +1212,6 @@ Route::post('/enviar', 'ContatoController@enviar')->name('enviarContato');
 Route::get('/gestao', ['as'=>'admin','uses'=>'AdminController@index']);
 Route::get('menus', 'AdminController@menusLista');
 Route::get('gestao-frequencia', 'frequenciaController@listafrequencia');
-
-//paginas para campanha de leads
-Route::get('/socio-investidor', 'ContatoController@socioInvestidor')->name('socio-investidor');
-Route::get('/nosso-franqueado', 'ContatoController@nossoFranqueado')->name('nosso-franqueado');
-Route::post('/contato-socio', 'ContatoController@contatoSocioInvestidor')->name('contatoSocio');
-Route::post('/contato-franqueado', 'ContatoController@contatoFranqueado')->name('contatoFranqueado');
-
 // Route::resource('topicos', 'TopicoController');
 // Route::resource('conteudos', 'ConteudoController');
 // Route::resource('pdf', 'PdfController');
@@ -1239,3 +1231,8 @@ Route::post('/contato-franqueado', 'ContatoController@contatoFranqueado')->name(
 //     Route::get('/destroy{categoria_id}', 'CategoriaController@destroy')->name('destroy');
 // });
 
+//paginas para campanha de leads
+Route::get('/socio-investidor', 'ContatoController@socioInvestidor')->name('socio-investidor');
+Route::get('/nosso-franqueado', 'ContatoController@nossoFranqueado')->name('nosso-franqueado');
+Route::post('/contato-socio', 'ContatoController@contatoSocioInvestidor')->name('contatoSocio');
+Route::post('/contato-franqueado', 'ContatoController@contatoFranqueado')->name('contatoFranqueado');

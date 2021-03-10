@@ -14,7 +14,7 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 26/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 26/03_GRAMMAR/GRAMMAR_26.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
@@ -51,7 +51,7 @@
                 </div>
 
                 <h5 class="barlow" style="margin-top:32px"><b>Example of technique to expose data and support opinion convincingly.</b></h5>
-                <p><b>Analyzing Pros and Cons.</b></p>  
+                <p><b>Analyzing Pros and Cons.</b></p>
 
                 <p>
                     Taking into consideration positive and negative aspects helps make a reasonable
@@ -73,9 +73,9 @@
                 </h5>
                 <form id="unidade26grammar685" method="post" style="margin-top:32px">
                     <textarea name="grammar685-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-    
+
                     <div class="clear"></div>
-    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="26">
@@ -89,9 +89,9 @@
                 </h5>
                 <form id="unidade26grammar686" method="post" style="margin-top:32px">
                     <textarea name="grammar686-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-    
+
                     <div class="clear"></div>
-    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="26">

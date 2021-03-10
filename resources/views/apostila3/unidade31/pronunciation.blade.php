@@ -14,8 +14,8 @@
 			<h5 class="barlow">4 - PRONUNCIATION</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
-				<source src="{{ asset('assets/audio/apostila3/UNIT 64/3. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
-			</audio>
+                <source src="{{ asset('assets/audio/apostila3/LESSON 31/05_PRONUNCIATION/PRONUNCIATION_31.mp3') }}" type="audio/mp3">
+            </audio>
 			<div class="clear"></div>
 			<h5 class="barlow" style="margin-top:16px">A - Minimal pairs 13</h5>
 			<p>Observe the pairs and practice pronouncing them.</p>

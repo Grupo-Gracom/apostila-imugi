@@ -14,7 +14,7 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 21/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 21/03_GRAMMAR/GRAMMAR_21.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
@@ -53,7 +53,7 @@
                         </td>
                         <td>
                             <h5 class="barlow center-align">Changing the main Verb (Backshift)</h5>
-                            <p> 
+                            <p>
                                 When the speaker retells the story days later or when
                                 the speaker chooses to do so to emphasize the story
                                 happened in the past.
@@ -63,7 +63,7 @@
                 </table>
 
                 <p style="margin-top:32px"><b>If you opt to change, here are some backshifts you can make.</b></p>
-                
+
                 <table class="espacamento left-align borderedfull" style="margin-top:32px">
                     <tr>
                         <td>
@@ -95,7 +95,7 @@
                 </table>
 
                 <p><b>General Structure of reported speech.</b></p>
-                
+
                 <table class="espacamento center-align borderedfull">
                     <tr>
                         <td colspan="2"><h5 class="barlow">Reporting Clause (With or without a conjunction) + Reported statement</h5></td>
@@ -127,7 +127,7 @@
 
                 <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></p>
                 <h5 class="barlow">1 - Change the following sentences from DIRECT to INDIRECT SPEECH:</h5>
-                
+
                 <form id="unidade21grammar666" method="post" class="metade" style="margin-top:32px">
                     <p>
                         <p>
@@ -204,7 +204,7 @@
                         <p>She said<input type="text" name="grammar667-5" class="inputMedio left-align" placeholder="Responda aqui" required /></p>
                         <p>7. We’ve been to Paris before.</p>
                         <p>
-                            She told me <input type="text" name="grammar667-6" class="left-align" placeholder="Responda aqui" required /> a 
+                            She told me <input type="text" name="grammar667-6" class="left-align" placeholder="Responda aqui" required /> a
                             <input type="text" name="grammar667-6" class="left-align" placeholder="Responda aqui" required />
                         </p>
                         <p>8. But we didn’t see everything.</p>
@@ -223,8 +223,8 @@
                     <input type="hidden" name="atividade_id" value="667">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                
-                
+
+
             </div>
         </div>
 </main>

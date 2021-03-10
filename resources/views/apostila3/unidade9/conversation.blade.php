@@ -14,8 +14,8 @@
 			<h5 class="barlow">2 - CONVERSATION</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
-				<source src="{{ asset('assets/audio/apostila3/UNIT 9/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
-			</audio>
+                <source src="{{ asset('assets/audio/apostila3/LESSON 09/02_CONVERSATION/CONVERSATION_09.mp3') }}" type="audio/mp3">
+            </audio>
 			<div class="clear"></div>
 			<p style="margin-top:16px"><b>Jake : </b>Welcome back my dear potential youtubers. How are you guys?</p>
 			<p><b>Students : </b>Great teacher. Everything is ok.</p>

@@ -28,7 +28,7 @@ class ContatoSite extends Mailable
      */
     public function build()
     {
-        return $this->from('smtp@imugi.com.br')->subject('Contato Site - Imugi Tecnologia e Educação')->view('site.email.index' )->with('data', $this->data);
+        return $this->from('contato@gracomonline.com.br')->subject('Contato Site - Imugi Tecnologia e Educação')->view('site.email.index' )->with('data', $this->data);
     }
 
 }

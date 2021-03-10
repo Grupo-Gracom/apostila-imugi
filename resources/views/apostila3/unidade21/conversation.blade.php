@@ -14,7 +14,7 @@
 			<h5 class="barlow">2 - CONVERSATION</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
-				<source src="{{ asset('assets/audio/apostila3/UNIT 21/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 21/02_CONVERSATION/CONVERSATION_04.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <p style="margin-top: 16px">
@@ -48,7 +48,7 @@
                 </p>
                 <p><b>Students :</b> Wow. Great.</p>
                 <p>
-                    <b>Jake :</b> Sometimes, we got surprised with the quality of some products. That’s the power of the web. 
+                    <b>Jake :</b> Sometimes, we got surprised with the quality of some products. That’s the power of the web.
                     Freedom to choose what’s the best for you. (To be continued)
                 </p>
             </p>

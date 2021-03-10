@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -14,18 +14,18 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 1/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila3/LESSON 01/05_PRONUNCIATION/PRONUNCIATION_01.mp3') }}" type="audio/mp3">
 				</audio>
 				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top:16px">A – Homophones 1</h5>
-				<p><b>Homophones are words that sound the same but have different 
+				<p><b>Homophones are words that sound the same but have different
 				spellings and meanings.</b></p>
                 <h5 class="barlow"><b>Example:</b></h5>
                 <p><b>Flew/Flu</b></p>
 				<h5 class="barlow">1 - Complete the sentences below with the appropriate word.</h5>
-				<form id="unidade1pronunciation501" method="post">					
+				<form id="unidade1pronunciation501" method="post">
 					<p>1. I’ve had the<input type="text" name="pronunciation501-1" placeholder="Responda aqui" required> Since Monday.</p>
-					
+
 					<p>2. The birds<input type="text" name="pronunciation501-2" placeholder="Responda aqui" required> to their nests.</p>
 
 					<input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -33,7 +33,7 @@
 					<input type="hidden" name="unidade_id" value="1">
 					<input type="hidden" name="atividade_id" value="501">
 					<button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-				</form>				
+				</form>
 			</div>
 		</div>
     </main>

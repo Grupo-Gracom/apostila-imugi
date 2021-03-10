@@ -12,6 +12,10 @@
 			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade29" data-etapa="understanding">
 				<h3 class="barlow">UNIT 29</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 29/07_UNDERSTANDING/UNDERSTANDING_29.mp3') }}" type="audio/mp3">
+                </audio>
                 <div class="metade">
                     <form id="unidade29understanding700" method="post">
                         <p>
@@ -31,7 +35,7 @@
                             <input type="text" name="understanding700-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 -  What’s the most important skill to be developed according to the article.  
+                            5 -  What’s the most important skill to be developed according to the article.
                             <input type="text" name="understanding700-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
 

@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -14,20 +14,20 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 2/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila3/LESSON 02/06_LISTENING/LISTENING_02.mp3') }}" type="audio/mp3">
 				</audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and answer the questions below.</h5>
                 <p>1. What’s the main message about the use of social media in general?</p>
                 <form id="unidade2listening507" method="post">
-                    <textarea name="listening507-1" class=" metade left-align" placeholder="Responda aqui" required></textarea>                    
+                    <textarea name="listening507-1" class=" metade left-align" placeholder="Responda aqui" required></textarea>
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="2">
                     <input type="hidden" name="atividade_id" value="507">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form> 
+                </form>
             </div>
 		</div>
     </main>

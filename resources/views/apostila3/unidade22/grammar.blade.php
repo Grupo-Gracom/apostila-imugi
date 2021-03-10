@@ -14,7 +14,7 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 22/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 22/03_GRAMMAR/GRAMMAR_22.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
@@ -26,7 +26,7 @@
                 <h5 class="barlow">Reported Speech</h5>
                 <p><b>Jake :</b> Guys, what about John?</p>
                 <p><b>Students :</b> He said he had a meeting till late and he wouldn’t arrive on time for the class.</p>
-                
+
                 <h5 class="barlow" style="margin-top:32px"><b>Example 2</b></h5>
                 <h5 class="barlow">Direct Speech</h5>
                 <p><b>Akira : I can’t</b> finish it by myself. I <b>need</b> help.</p>
@@ -87,14 +87,14 @@
                     <tr>
                         <td><p>“Where do you live?”</p></td>
                         <td><p><b>She asked him where he lived</b></p></td>
-                        
+
                     </tr>
                     <tr>
                         <td><p>“Have you worked before?”</p></td>
                         <td><p><b>She asked him if he had worked before.</b></p></td>
                     </tr>
                 </table>
-                
+
                 <form id="unidade22grammar670" method="post" class="metade" style="margin-top:32px">
                     <p>
                         <p>1. “Why do you want the job?”</p>
@@ -141,7 +141,7 @@
                         <p>
                             2. What’s your job?
                             <input type="text" name="grammar671-1" class="full left-align" placeholder="Responda aqui" required />
-                        </p> 
+                        </p>
                         <p>
                             3. Where do you work?
                             <input type="text" name="grammar671-2" class="full left-align" placeholder="Responda aqui" required />

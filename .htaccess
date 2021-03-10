@@ -1,17 +1,11 @@
-<IfModule mod_rewrite.c> 
-   RewriteEngine On 
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-   RewriteRule ^(.*)$ public/$1 [L] 
-</IfModule>
-# Use PHP71 as default
-AddHandler application/x-httpd-php71 .php
-<IfModule mod_suphp.c>
-    suPHP_ConfigPath /opt/php71/lib
-</IfModule>
+DirectoryIndex index.php
+<IfModule mod_rewrite.c>
 
+    RewriteEngine On
+    RewriteBase /test/
 
-# php -- BEGIN cPanel-generated handler, do not edit
-# Este domínio herda o pacote “PHP”.
-# php -- END cPanel-generated handler, do not edit
+    RewriteRule ^$ public/index.php [L]
+
+    RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+
+</IfModule>

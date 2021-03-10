@@ -14,7 +14,7 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 20/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 20/03_GRAMMAR/GRAMMAR_20.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
@@ -67,9 +67,9 @@
                 <p>Step 3: Include the verb <b>To Be</b> conjugated in the same form as the main verb of the <b>active voice.</b></p>
                 <p>Step 4: Use the main verb in the <b>past participle.</b></p>
                 <p>Step 5: Use the subject of the <b>active voice</b> preceded by the preposition by (optional)</p>
-                
+
                 <p style="margin-top:32px"><b>Passive voice: The report was being written by Akira.</b></p>
-                
+
                 <table class="espacamento center-align bordered" style="margin-top:32px">
                     <tr>
                         <td colspan="5"><h5 class="barlow"><b>Passive voice</b></h5></td>
@@ -98,7 +98,7 @@
                 </table>
                 <h5 class="barlow" style="margin-top:32px"><b>Example 2:</b></h5>
                 <p><b>Active voice: Laura sent the final video.</b></p>
-                
+
                 <table class="espacamento center-align bordered ">
                     <tr>
                         <td colspan="3"><h5 class="barlow"><b>Active voice</b></td>
@@ -181,7 +181,7 @@
                 <p>Step 2: Repeat the auxiliary verb (if there is one).</p>
                 <p>Step 3: Include the verb <b>To Be</b> conjugated in the same form as the main verb of the <b>active voice</b>.</p>
                 <p>Step 4: Use the main verb in the <b>past participle</b>.</p>
-                <p><s>Step 5: Use the subject of the active voice preceded by the preposition by (optional)</s></p> 
+                <p><s>Step 5: Use the subject of the active voice preceded by the preposition by (optional)</s></p>
 
                 <p><b>Passive voice: The new room is being painted.</b></p>
 
@@ -215,7 +215,7 @@
                     <tr>
                         <td colspan="2"><h5 class="barlow center-align">Hotel Information</td>
                     </tr>
-                    <tr> 
+                    <tr>
                         <td>
                             <p>Breakfast</p>
                             <p>In Pierrot’s Restaurant 7-9:30 am</p>
@@ -351,9 +351,9 @@
                 </p>
                 <form id="unidade20grammar603" method="post" style="margin-top:32px">
                     <textarea name="grammar603-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-    
+
                     <div class="clear"></div>
-    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="20">

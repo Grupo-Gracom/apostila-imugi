@@ -14,7 +14,7 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 27/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 27/03_GRAMMAR/GRAMMAR_27.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
@@ -40,7 +40,7 @@
                     <b>Giving advice using imperatives:</b> The use of imperatives is a common resource. it’s
                     important to mind your tone of voice when using it.
                 </p>
-                <h5 class="barlow" style="margin-top:16px"><b>Example:</b></h5> 
+                <h5 class="barlow" style="margin-top:16px"><b>Example:</b></h5>
                 <p>
                     <b>Decide</b> what your objective is. After that, <b>think about</b> the content you want to
                     share. If possible, <b>have</b> someone to help you with the posting schedule.
@@ -50,7 +50,7 @@
                 <p><b>Why don’t you</b> start deciding what your objective is.</p>
                 <p><b>Don’t you think</b> it could be a nice idea to have someone to help you with the posting schedule?</p>
                 <p style="margin-top:32px"><b>Giving advice by raising hypothesis:</b></p>
-                <h5 class="barlow" style="margin-top:16px"><b>Example:</b></h5> 
+                <h5 class="barlow" style="margin-top:16px"><b>Example:</b></h5>
                 <p>
                     <b>If I were</b> you, <b>I would start</b> by deciding what my objective is.
                     After that, <b>I would get</b> someone to help me with the posting schedule <b>if I could.</b>
@@ -70,9 +70,9 @@
 
                 <form id="unidade27grammar689" method="post" style="margin-top:32px">
                     <textarea name="grammar689-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-    
+
                     <div class="clear"></div>
-    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="27">
@@ -82,16 +82,16 @@
                 <h5 class="barlow" style="margin-top:16px">2 - Write 5 possible advices to solve the problems.</h5>
                 <form id="unidade27grammar690" method="post" style="margin-top:32px">
                     <textarea name="grammar690-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
-    
+
                     <div class="clear"></div>
-    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="27">
                     <input type="hidden" name="atividade_id" value="690">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                
+
                 <figure>
 					<img src="{{ asset('assets/img/masteroflanguage/unit27/grammar.png') }}" alt="almoço em família">
                 </figure>

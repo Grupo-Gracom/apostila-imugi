@@ -25,9 +25,13 @@
 			<p><b>Laura:</b> You guys are completely right. Now that we have the characters and we know
 				about them, it’s time to start thinking about what Gleen has mentioned. I feel comfortable with the idea of a linear story and of having a common problem for them to solve.
 				I believe it would be neither very simple nor very demanding for us. I’m sure we could
-				do a great job. Akira and john: Great Laura. So, let’s do this way. A linear story and a
-				common problem ok.</p>
+				do a great job. 
+				</p>
 			<br>
+			<p>
+				<b>Akira and john:</b> Great Laura. So, let’s do this way. A linear story and a
+				common problem ok.
+			</p>
 			<p>(to be continued)</p>
 			<figure>
 				<img src="{{ asset('assets/img/dominating/unit47/conversation.png') }}" alt="aula">

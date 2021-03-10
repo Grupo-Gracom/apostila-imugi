@@ -5,15 +5,19 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
 			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade7" data-etapa="understanding">
 				<h3 class="barlow">UNIT 7</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 07/07_UNDERSTANDING/UNDERSTANDING_07.mp3') }}" type="audio/mp3">
+                </audio>
                 <div class="metade">
-                    <form id="unidade7understanding536" method="post">                                      
+                    <form id="unidade7understanding536" method="post">
                         <p>
                             1 - What is Jake gonna do in this class?<br>
                             <input type="text" name="understanding536-1" class="full left-align" placeholder="Responda aqui" required>
@@ -33,7 +37,7 @@
                         <p>
                             5 - Who hit the first million views on Youtube?<br>
                             <input type="text" name="understanding536-5" class="full left-align" placeholder="Responda aqui" required>
-                        </p>                    
+                        </p>
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <input type="hidden" name="resposta_id" value="0">
                         <input type="hidden" name="unidade_id" value="7">

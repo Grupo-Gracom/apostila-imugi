@@ -12,6 +12,10 @@
 			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade25" data-etapa="understanding">
 				<h3 class="barlow">UNIT 25</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 25/07_UNDERSTANDING/UNDERSTANDING_25.mp3') }}" type="audio/mp3">
+                </audio>
                 <div class="metade">
                     <form id="unidade25understanding684" method="post">
                         <p>
@@ -31,7 +35,7 @@
                             <input type="text" name="understanding684-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 -  What’s Jake’s advice regarding investing in new equipment? 
+                            5 -  What’s Jake’s advice regarding investing in new equipment?
                             <input type="text" name="understanding684-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
 

@@ -14,7 +14,7 @@
 			<h5 class="barlow">2 - CONVERSATION</h5>
 			<span class="play-audio">( Aperte o play )</span>
 			<audio controls="" controlslist="nodownload" class="suave">
-				<source src="{{ asset('assets/audio/apostila3/UNIT 20/2. CONVERSATION/CONVERSATION.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 20/02_CONVERSATION/CONVERSATION_20.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <p style="margin-top: 16px">
@@ -50,7 +50,7 @@
                     and the project became a reality. Many students around the world are reached by
                     this idea. The classes are now being translated into many different languages, so
                     more people from non-speaking English countries can access the classes as well.
-                    
+
                 </p>
                 <p><b>Students & Jake :</b> Great Laura. Nice contribution.
                 <p>

@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -14,19 +14,16 @@
 				<h5 class="barlow">1 - VOCABULARY</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 13/1. VOCABULARY/1. VOCABULARY.ogg') }}" type="audio/ogg">
-				</audio>		
+					<source src="{{ asset('assets/audio/apostila3/LESSON 13/01_VOCABULARY/VOCABULARY_13.mp3') }}" type="audio/mp3">
+				</audio>
 				<div class="clear"></div>
-				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>				
+				<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
 				<ul class="lista-inline upper" style="margin-top:16px">
 					<li><p><b>Feed</b></p></li>
 					<li><p><b>Filter</b></p></li>
-					<li><p><b>Follower</b></p></li>												
-				</ul>				
-				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>	
-				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 13/1. VOCABULARY/2. VOCABULARY.ogg') }}" type="audio/ogg">
-				</audio>			
+					<li><p><b>Follower</b></p></li>
+				</ul>
+				<h5 class="barlow" style="margin-top: 16px">B -  WORDS IN CONTEXT</h5>
 				<ul class="lista-inline upper" style="margin-top">
 					<li><p><b>Awesome</b></p></li>
 					<li><p><b>Exchange</b></p></li>
@@ -34,7 +31,7 @@
 					<li><p><b>Saw</b></p></li>
 					<li><p><b>Value</b></p></li>
 					<li><p><b>Said</b></p></li>
-					<li><p><b>Called</b></p></li>													
+					<li><p><b>Called</b></p></li>
 				</ul>
 			</div>
 		</div>

@@ -14,7 +14,7 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 25/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 25/03_GRAMMAR/GRAMMAR_25.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
@@ -50,7 +50,7 @@
                     <tr>
                         <td><p>(Today in the morning)</p><p><b>Laura:</b> Akira, <b>Jake is</b> gonna have a meeting <b>tonight.</b><p></td>
                         <td>
-                            <p>(Today in the afternoon)</p> 
+                            <p>(Today in the afternoon)</p>
                             <p><b>John:</b> Hey guys, what about Jake. Where is he?<p>
                             <p><b>Akira:</b> Laura told me that <b>he was</b> gonna have a meeting <b>tonight</b></p>
                         </td>
@@ -61,11 +61,11 @@
                             <p>(Today)</p><p><b>Akira:</b> Laura, Did John get the laptop?</p>
                             <p><b>Laura:</b> I think so, he told me <b>he would get</b> one <b>last night.</b></p>
                         </td>
-                    </tr>  
-                    <tr>  
+                    </tr>
+                    <tr>
                         <td><p>(Aug 2nd)</p><p><b>Jake:</b> Laura. <b>I have</b> a very important meeting <b>tonight.</b><p></td>
                         <td>
-                            <p>(Aug 9th)</p> 
+                            <p>(Aug 9th)</p>
                                 <p>
                                     <b>John:</b> Hey guys, What about Jake? I Haven’t seen him lately.
                                 </p>
@@ -126,11 +126,11 @@
                     <input type="hidden" name="atividade_id" value="681">
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                
+
                 <h5 class="barlow" style="margin-top:32px"><b>EXERCISES</b></h5>
                 <h5 class="barlow" style="margin-top:16px">2 - Write what the family said at the dinner table:</h5>
-                
-                
+
+
                 <form id="unidade25grammar682" method="post" class="metade" style="margin-top:32px">
                     <p>
                         <p>1. Mother: “Does anyone want some more potatoes?”</p>

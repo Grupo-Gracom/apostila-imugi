@@ -43,9 +43,4 @@ class FrequenciaController extends Controller
         return back()->with('success', 'Email enviado com sucesso !');
 
     }
-
-    public function listaFrequencia(){
-        $paginas = User::count();
-        return view("gestao.frequencia",compact("paginas"));
-    }
 }

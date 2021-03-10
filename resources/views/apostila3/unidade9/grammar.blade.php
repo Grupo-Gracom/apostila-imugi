@@ -14,74 +14,74 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 9/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 09/03_GRAMMAR/GRAMMAR_09.mp3') }}" type="audio/mp3">
             </audio>
-            <div class="clear"></div>     
-            <h5 class="barlow" style="margin-top:16px">A –  TALKING ABOUT THE FUTURE.</h5>                
+            <div class="clear"></div>
+            <h5 class="barlow" style="margin-top:16px">A –  TALKING ABOUT THE FUTURE.</h5>
             <table class="espacamento center-align bordered" style="margin-top:32px;">
                 <tr>
-                    <td><h5 class="barlow">Verb Tense</h5></td>                    
-                    <td><h5 class="barlow">Explanation</h5></td>                    
-                    <td><h5 class="barlow">Use</h5></td>                    
+                    <td><h5 class="barlow">Verb Tense</h5></td>
+                    <td><h5 class="barlow">Explanation</h5></td>
+                    <td><h5 class="barlow">Use</h5></td>
                 </tr>
                 <tr class="bordered center-align">
                     <td><p>Simple Future (Will)</p></td>
                     <td><p>Predictions based on the speaker’s opinion and decisions made at the moment of speaking.</p></td>
                     <td><p>I think <b>I’ll have</b> some ice cream today. Out of the blue I thought about that. I thing I need some iced sugar.</p></td>
-                </tr>                          
+                </tr>
                 <tr class="bordered center-align">
                     <td><p>Future Contiuous</p></td>
                     <td><p>Express emphasis on a futures action</p></td>
                     <td><p>Sorry. I can’t go out tomorrow. <B>I’ll be preparing</B> my project presentation. </p></td>
-                </tr>                          
+                </tr>
                 <tr class="bordered center-align">
                     <td><p>To be + Going to</p></td>
                     <td><p>Plans and predictions based on future evidences.</p></td>
                     <td><p>Avengers the ultimate is for sure, <b>going to be nominated</b> to the special effects Oscar next year. </p></td>
-                </tr>                                         
+                </tr>
                 <tr class="bordered center-align">
                     <td><p>Simple Present</p></td>
                     <td><p>Actions that are part of a schedule that are considered facts</p></td>
                     <td><p>I <b>travel</b> to comic com on Monday night.</p></td>
-                </tr>                                         
+                </tr>
                 <tr class="bordered center-align">
                     <td><p>Present continuous</p></td>
                     <td><p>Appointments and prearranged activities</p></td>
                     <td><p><b>I’m giving</b> a speech on how to develop presence on the net using social media. </p></td>
-                </tr>                                         
-            </table>            
+                </tr>
+            </table>
             <h5 class="barlow" style="margin-top:32px">1 - Fill in the blanks with the correct FUTURE forms: (Will / Going to / Present Conti nuous / Simple Present)</h5>
             <form id="unidade9grammar544" method="post">
                 <p>1. <b>P:</b> What <input type="text" name="grammar544-1"   placeholder="Responda aqui" required>
                 you <input type="text" name="grammar544-2"   placeholder="Responda aqui" required> (do) when you grow up?</p>
                 <p> <b>R:</b> I <input type="text" name="grammar544-3"   placeholder="Responda aqui" required>
                 (be) an acrobat in a circus.</p>
-                <p>2. I haven’t seen him for a long time but I think I 
+                <p>2. I haven’t seen him for a long time but I think I
                 <input type="text" name="grammar544-4"   placeholder="Responda aqui" required> (recognize) him.</p>
                 <p>3. <b>P:</b> I need some tokens to telephone my friend.</p>
                 <p> <b>R:</b> I <input type="text" name="grammar544-5"   placeholder="Responda aqui" required> (give) you some.</p>
-                <p>4. I got the plane tickets. I 
+                <p>4. I got the plane tickets. I
                 <input type="text" name="grammar544-6"   placeholder="Responda aqui" required>
                 (fly) on Sunday.</p>
                 <p>5. <b>P:</b> Have you got any plans for the summer?</p>
                 <p> <b>R:</b> Yes, we <input type="text" name="grammar544-7"   placeholder="Responda aqui" required>
                 (go) to Italy in June.</p>
-                <p>6. Don’t play with those matches; you 
-                <input type="text" name="grammar544-8"   placeholder="Responda aqui" required> 
+                <p>6. Don’t play with those matches; you
+                <input type="text" name="grammar544-8"   placeholder="Responda aqui" required>
                 burn yourself.</p>
                 <p>7. <b>P:</b> Whose is that night dress?</p>
-                <p> <b>R:</b> It’s mine. I <input type="text" name="grammar544-9"   placeholder="Responda aqui" required> 
+                <p> <b>R:</b> It’s mine. I <input type="text" name="grammar544-9"   placeholder="Responda aqui" required>
                 (wear) it at John’s graduation party.</p>
                 <p>8. <b>P:</b> Why did you call your grandma?</p>
-                <p> <b>R:</b> I <input type="text" name="grammar544-10"   placeholder="Responda aqui" required> 
+                <p> <b>R:</b> I <input type="text" name="grammar544-10"   placeholder="Responda aqui" required>
                 (visit) her at the weekend.</p>
-                <p>9. If your passport isn’t valid any more, you 
-                <input type="text" name="grammar544-11"   placeholder="Responda aqui" required> 
+                <p>9. If your passport isn’t valid any more, you
+                <input type="text" name="grammar544-11"   placeholder="Responda aqui" required>
                 (not / be able to) go abroad this month.</p>
                 <p>10. <b>P:</b> What are you doing with that brush?</p>
-                <p> <b>R:</b> I <input type="text" name="grammar544-12"   placeholder="Responda aqui" required> 
-                (paint) my room.</p>                                     
-                
+                <p> <b>R:</b> I <input type="text" name="grammar544-12"   placeholder="Responda aqui" required>
+                (paint) my room.</p>
+
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="9">
@@ -97,17 +97,17 @@
                 <p>2. <b>P:</b> Tea or coffee?</p>
                 <p> <b>R:</b> I <input type="text" name="grammar545-2"   placeholder="Responda aqui" required>
                 (have) coff ee, please.</p>
-                <p>3. There isn’t any cloud in the sky. It 
-                <input type="text" name="grammar545-3"   placeholder="Responda aqui" required> 
+                <p>3. There isn’t any cloud in the sky. It
+                <input type="text" name="grammar545-3"   placeholder="Responda aqui" required>
                 (be) a lovely day.</p>
-                <p>4. We <input type="text" name="grammar545-4"   placeholder="Responda aqui" required> 
+                <p>4. We <input type="text" name="grammar545-4"   placeholder="Responda aqui" required>
                 (win) the match. We’re playing really well.</p>
-                <p>5. The festival <input type="text" name="grammar545-5"   placeholder="Responda aqui" required> 
+                <p>5. The festival <input type="text" name="grammar545-5"   placeholder="Responda aqui" required>
                 (last) for ten days.</p>
                 <p>6. I<input type="text" name="grammar545-6"   placeholder="Responda aqui" required>
-                (have) a meal with a few friends. There 
-                <input type="text" name="grammar545-7"   placeholder="Responda aqui" required> 
-                (be) about ten of us.</p>                                               
+                (have) a meal with a few friends. There
+                <input type="text" name="grammar545-7"   placeholder="Responda aqui" required>
+                (be) about ten of us.</p>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="9">
@@ -152,7 +152,7 @@
                     <p>have a dinner party</p>
                     <p>go on a picnic</p>
                 </tr>
-            </table>  
+            </table>
 
             <form id="unidade9grammar546" method="post" class="metade">
                 <p>1. <b>They’re going to the cinema on Monday</b>
@@ -162,7 +162,7 @@
                 <p>4. <input type="text" name="grammar546-4" class="full left-align"  placeholder="Responda aqui" required></p>
                 <p>5. <input type="text" name="grammar546-5" class="full left-align"  placeholder="Responda aqui" required></p>
                 <p>6. <input type="text" name="grammar546-6" class="full left-align"  placeholder="Responda aqui" required></p>
-                <p>7. <input type="text" name="grammar546-7" class="full left-align"  placeholder="Responda aqui" required></p>                                
+                <p>7. <input type="text" name="grammar546-7" class="full left-align"  placeholder="Responda aqui" required></p>
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="9">
@@ -173,10 +173,10 @@
             <h5 class="barlow">4 - Fill in WILL or BE GOING TO:</h5>
             <form id="unidade9grammar547" method="post">
                 <p>1. <b>P:</b> Why do you need so much sugar?</p>
-                <p> <b>R:</b> I <input type="text" name="grammar547-1"   placeholder="Responda aqui" required> 
+                <p> <b>R:</b> I <input type="text" name="grammar547-1"   placeholder="Responda aqui" required>
                 make a cake.</p>
                 <p>2. <b>P:</b> Oh no! I’ve left my purse at home and I haven’t got any money on me!</p>
-                <p> <b>R:</b> Don’t worry. I 
+                <p> <b>R:</b> Don’t worry. I
                 <input type="text" name="grammar547-2"   placeholder="Responda aqui" required>
                 lend you some.</p>
                 <p>3. <b>P:</b> I don’t know how to use this mixer.</p>
@@ -184,10 +184,10 @@
                 <input type="text" name="grammar547-3"   placeholder="Responda aqui" required>
                 show you.</p>
                 <p>4. <b>P:</b> Why are all these people gathered here?</p>
-                <p> <b>R:</b> The Prime Minister 
-                <input type="text" name="grammar547-4"   placeholder="Responda aqui" required> 
-                open the new hospital ward.</p>                                               
-                
+                <p> <b>R:</b> The Prime Minister
+                <input type="text" name="grammar547-4"   placeholder="Responda aqui" required>
+                open the new hospital ward.</p>
+
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="9">
@@ -205,8 +205,8 @@
                 <p>4. <b>P:</b> I’ve got a terrible headache.</p>
                 <p><b>R:</b> Have you? Wait here and I <input type="text" name="grammar548-4"   placeholder="Responda aqui" required>(get) an aspirin for you.</p>
                 <p>5. <b>P:</b> Why are you fi lling that bucket with water?</p>
-                <p><b>R:</b> I <input type="text" name="grammar548-5"   placeholder="Responda aqui" required>(wash) the car.</p>                            
-                
+                <p><b>R:</b> I <input type="text" name="grammar548-5"   placeholder="Responda aqui" required>(wash) the car.</p>
+
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="9">
@@ -225,7 +225,7 @@
         checkAtividade(atividade_id);
     });
 
-    
+
     $("#unidade9grammar544").submit(function(e){
             e.preventDefault();
             $(this).find('button').prop('disabled', true);

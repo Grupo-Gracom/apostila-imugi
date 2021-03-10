@@ -14,20 +14,20 @@
             <h5 class="barlow">5 - LISTENING</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 31/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 31/06_LISTENING/LISTENING_31.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A -  Watch the video and summarize it in your own words</h5>
             <iframe width="640" height="360" src="https://www.youtube.com/embed/M908RNjj0n8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <form id="unidade31listening705" method="post" style="margin-top:16px">
-                <textarea name="listening705-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
+            <form id="unidade31listening731" method="post" style="margin-top:16px">
+                <textarea name="listening731-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 
                 <div class="clear"></div>
 
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <input type="hidden" name="resposta_id" value="0">
                 <input type="hidden" name="unidade_id" value="31">
-                <input type="hidden" name="atividade_id" value="705">
+                <input type="hidden" name="atividade_id" value="731">
                 <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
             </form>
         </div>
@@ -42,14 +42,14 @@
         checkAtividade(atividade_id);
     });
 
-    $("#unidade31listening705").submit(function(e) {
+    $("#unidade31listening731").submit(function(e) {
         e.preventDefault();
         $(this).find('button').prop('disabled', true);
-        var respostas = '{"' + $('#unidade31listening705 textarea').attr("name") + '":"' + $('#unidade31listening705 textarea').val() + '"}';
-        if ($('#unidade31listening705 input[name="resposta_id"').val() != 0) {
-            atualizarAtividade($('#unidade31listening705'), respostas);
+        var respostas = '{"' + $('#unidade31listening731 textarea').attr("name") + '":"' + $('#unidade31listening731 textarea').val() + '"}';
+        if ($('#unidade31listening731 input[name="resposta_id"').val() != 0) {
+            atualizarAtividade($('#unidade31listening731'), respostas);
         } else {
-            enviarAtividade($('#unidade31listening705'), respostas);
+            enviarAtividade($('#unidade31listening731'), respostas);
         }
     });
 

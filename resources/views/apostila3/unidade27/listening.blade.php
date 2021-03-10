@@ -14,24 +14,24 @@
             <h5 class="barlow">5 - LISTENING</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 27/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 27/06_LISTENING/LISTENING_27.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
             <form id="unidade27listening691" method="post">
                 <p>
-                    People are <input type="text" name="listening691-1" placeholder="Responda aqui" required /> much more 
-                    <input type="text" name="listening691-2" placeholder="Responda aqui" required />after the 
+                    People are <input type="text" name="listening691-1" placeholder="Responda aqui" required /> much more
+                    <input type="text" name="listening691-2" placeholder="Responda aqui" required />after the
                     <input type="text" name="listening691-3" placeholder="Responda aqui" required />of social media. It’s very
-                    common to see people from different <input type="text" name="listening691-4" placeholder="Responda aqui" required /> 
-                    sharing ideas or just being friends. In the past, our relationships were 
-                    <input type="text" name="listening691-5" placeholder="Responda aqui" required />to geographic 
+                    common to see people from different <input type="text" name="listening691-4" placeholder="Responda aqui" required />
+                    sharing ideas or just being friends. In the past, our relationships were
+                    <input type="text" name="listening691-5" placeholder="Responda aqui" required />to geographic
                     <input type="text" name="listening691-6" placeholder="Responda aqui" required />. Although we may
-                    have friends who live far from us, the 
+                    have friends who live far from us, the
                     <input type="text" name="listening691-7" placeholder="Responda aqui" required />today is about the superficiality of our
-                    relationships. Are we 
-                    <input type="text" name="listening691-8" placeholder="Responda aqui" required /> able to 
-                    <input type="text" name="listening691-9" placeholder="Responda aqui" required /> solid relationships in the 
+                    relationships. Are we
+                    <input type="text" name="listening691-8" placeholder="Responda aqui" required /> able to
+                    <input type="text" name="listening691-9" placeholder="Responda aqui" required /> solid relationships in the
                     <input type="text" name="listening691-10" placeholder="Responda aqui" required /> era?
                 </p>
 

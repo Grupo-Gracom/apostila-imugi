@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -14,16 +14,16 @@
 				<h5 class="barlow">4 - PRONUNCIATION</h5>
 				<span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 2/4. PRONUNCIATION/PRONUNCIATION.ogg') }}" type="audio/ogg">
+					<source src="{{ asset('assets/audio/apostila3/LESSON 02/05_PRONUNCIATION/PRONUNCIATION_02.mp3') }}" type="audio/mp3">
 				</audio>
 				<div class="clear"></div>
 				<h5 class="barlow" style="margin-top:16px">A – Homophones 2</h5>
-                <h5 class="barlow" style="margin-top:16px"><b>Example:</b></h5> 
+                <h5 class="barlow" style="margin-top:16px"><b>Example:</b></h5>
                 <p><b>Here/Hear</b></p>
 				<h5 class="barlow">1 - Complete the sentences below with the appropriate word.</h5>
-				<form id="unidade2pronunciation506" method="post">					
+				<form id="unidade2pronunciation506" method="post">
 					<p>1. We can see the ocean from <input type="text" name="pronunciation506-1" class="inputpequeno left-align" placeholder="Responda aqui" required></p>
-					
+
 					<p>2. Can you <input type="text" name="pronunciation506-2" class="inputpequeno left-align" placeholder="Responda aqui" required> The birds singing.</p>
 
 					<input type="hidden" name="_token" value="{{csrf_token()}}">
@@ -31,7 +31,7 @@
 					<input type="hidden" name="unidade_id" value="2">
 					<input type="hidden" name="atividade_id" value="506">
 					<button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-				</form>				
+				</form>
 			</div>
 		</div>
     </main>

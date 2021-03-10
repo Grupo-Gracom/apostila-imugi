@@ -18,7 +18,7 @@
 			</audio>
 			<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
 			<div class="espacamento">
-				<p><b>TO HAPPEN </b>/ in a nice way / I a difficult way</p>
+				<p><b>TO HAPPEN </b>/ in a nice way / In a difficult way</p>
 				<p><b>TO LIVE </b>/ alone / by yourself / your own life / on your own</p>
 				<p><b>TO ORDER </b>/ a meal / a newspaper / fast food / in a restaurant / the dessert</p>
 			</div>
@@ -28,7 +28,7 @@
 			</audio>
 			<ul class="lista-inline upper" style="margin-top:16px">
 				<li>
-					<p><b>AgreedSubtitles</b></p>
+					<p><b>Agreed Subtitles</b></p>
 				</li>
 				<li>
 					<p><b>Even though</b></p>

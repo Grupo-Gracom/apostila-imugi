@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -14,22 +14,22 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 7/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
-				</audio>
-                <div class="clear"></div>                
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 07/06_LISTENING/LISTENING_07.mp3') }}" type="audio/mp3">
+                </audio>
+                <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade7listening535" method="post">
                     <p>A simple idea can <input type="text" name="listening535-1"  placeholder="Responda aqui" required>
                     people’s minds. Nobody could imagine the
                     <input type="text" name="listening535-2"  placeholder="Responda aqui" required>
-                    of Youtube, Facebook, Instagram 
+                    of Youtube, Facebook, Instagram
                     <input type="text" name="listening535-3"  placeholder="Responda aqui" required>
                     years ago. Empires are being <input type="text" name="listening535-4"  placeholder="Responda aqui" required>
                     based on the use of this <input type="text" name="listening535-5"  placeholder="Responda aqui" required>
                     . For both<input type="text" name="listening535-6"  placeholder="Responda aqui" required>
-                    celebrities and famous and extravagant artists, the use of social media has made a 
+                    celebrities and famous and extravagant artists, the use of social media has made a
                     <input type="text" name="listening535-7"  placeholder="Responda aqui" required>
-                    difference in the way people pursuit success. A good 
+                    difference in the way people pursuit success. A good
                     <input type="text" name="listening535-8"  placeholder="Responda aqui" required>
                     of that is the rise of Justi n Bieber as one of the most
                     <input type="text" name="listening535-9"  placeholder="Responda aqui" required>
@@ -41,11 +41,11 @@
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
                 </form>
-                <div style="margin-top: 36px">   
+                <div style="margin-top: 36px">
                     <figure>
                         <img src="{{ asset('assets/img/masteroflanguage/unit7/listening.jpg') }}" alt="pintura antiga">
-                    </figure>     
-                </div>                        
+                    </figure>
+                </div>
             </div>
 		</div>
     </main>

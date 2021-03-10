@@ -30,7 +30,7 @@
 			<p><b>Gleen: </b>Wow. I’m curious to know more about the story. Ok guys, next class I’d like to
 				have more details about the story ok. See you in the next class.</p>
 			<figure class="manipulaimagem">
-				<img src="{{ asset('assets/img/dominating/unit42/conversation.png') }}" alt="Garotos festejando">
+				<img src="{{ asset('assets/img/dominating/unit42/conversation.PNG') }}" alt="Garotos festejando">
 			</figure>
 		</div>
 	</div>

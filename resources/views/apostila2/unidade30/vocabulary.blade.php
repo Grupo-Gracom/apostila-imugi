@@ -18,8 +18,8 @@
 			</audio>
 			<h5 class="barlow" style="margin-top: 16px">A - WORDS AND EXPRESSIONS</h5>
 			<div class="espacamento">
-				<p><b>TO DIE </b>/ of hunger / of thirsty / of cance</p>
-				<p><b>TO FEEL </b>/ sorry / comfortable / happy / sad / fre</p>
+				<p><b>TO DIE </b>/ of hunger / of thirsty / of cancer</p>
+				<p><b>TO FEEL </b>/ sorry / comfortable / happy / sad / free</p>
 				<p><b>TO LIE </b>/ to somebody /</p>
 			</div>
 			<h5 class="barlow" style="margin-top: 16px">B - WORDS IN CONTEXT</h5>

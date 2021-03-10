@@ -12,10 +12,6 @@
         <div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade32" data-etapa="grammar">
             <h3 class="barlow">UNIT 32</h3>
             <h5 class="barlow">3 - GRAMAR</h5>
-            <span class="play-audio">( Aperte o play )</span>
-            <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 32/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
-            </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
             <h5 class="barlow" style="margin-top: 16px"><b>EXERCISES</b><h5>
@@ -23,7 +19,7 @@
                 1 - In groups, debate about the importance of Emotional intelligence. How can we develop
                 it and used on a daily basis.
             </h5>
-            
+
             <form id="unidade32grammar777" method="post" style="margin-top:32px">
                 <textarea name="grammar777-1" class="metade left-align" placeholder="Responda aqui" required></textarea>
 

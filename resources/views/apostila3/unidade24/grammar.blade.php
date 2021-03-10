@@ -14,7 +14,7 @@
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 24/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 24/03_GRAMMAR/GRAMMAR_24.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
@@ -42,7 +42,7 @@
                         </td>
                     </tr>
                 </table>
-                
+
                 <table class="espacamento center-align bordered" style="margin-top:32px">
                     <tr>
                         <td><h5 class="barlow">DIRECT SPEECH (Wh - questions)</h5></td>
@@ -69,9 +69,9 @@
                 <p><b>He asked me <u>what the time was.</u></b></p>
                 <p style="margin-top:32px"><b>* “Where do you live?” he asked Mary.</b></p>
                 <p><b>How wanted to know <u>where Mary lived</u>.</b></p>
-                
+
                 <h5 class="barlow" style="margin-top:16px">Do the same:</h5>
-                
+
                 <form id="unidade24grammar677" method="post" class="metade" style="margin-top:32px">
                     <p>
                         <p>

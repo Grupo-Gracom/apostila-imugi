@@ -12,6 +12,10 @@
 			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade31" data-etapa="understanding">
 				<h3 class="barlow">UNIT 31</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 31/07_UNDERSTANDING/UNDERSTANDING_31.mp3') }}" type="audio/mp3">
+                </audio>
                 <div class="metade">
                     <form id="unidade31understanding706" method="post">
                         <p>
@@ -31,7 +35,7 @@
                             <input type="text" name="understanding706-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 -  What’s the author’s final opinion regarding the subject?  
+                            5 -  What’s the author’s final opinion regarding the subject?
                             <input type="text" name="understanding706-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
 

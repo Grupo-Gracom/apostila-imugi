@@ -30,7 +30,6 @@ body{background-color: rgba(125, 194, 66, 0.15);}
 .direita{float: right;}
 .umterco{width: calc(33.333% - 11px);float:left;}
 .umquarto{width: calc(25% - 8px);float:left;}
-.tresquarto{width: calc(68% - 11px);}
 
 figure.umterco{margin: 5px;} /*joao */
 figure.umquarto{margin: 4px;}
@@ -40,17 +39,9 @@ figure.metade{margin: 3px;}
 .doisterco{width: calc(66.666% - 11px);}
 .espacamentoWord{word-spacing: 34px;}
 
-.container{position: relative; margin: 0; padding: 0; width: 100%; }
-.container img {width: auto; margin-top: 10px; margin-bottom: 10px; margin-left: auto; margin-right: auto;}
-.container .elemento2 img{width: 80%;}
-.elemento{width: 50%; float: left; transform: translate(15%, 0%);}
-.elemento2{float: left; transform: translate(30%, 0%); width: 25%;}
-.elemento3{float: left; transform: translate(30%, 0%); width: 35%;}
-.elemento4{float: left; transform: translate(15%, 0%);}
-
 figure{margin: 0;}
 video, img{display: block;}
-p{font-size: 18px;color: #333;margin-bottom: 16px; text-align: justify;}
+p{font-size: 18px;color: #333;margin-bottom: 16px;}
 p b{color: black;}
 
 audio::-webkit-media-controls-panel{background-color: #7dc242;}
@@ -71,9 +62,9 @@ nav .nav{height: calc(100vh - 86px);overflow: auto;padding: 0;margin-top: 16px;}
 nav ul{list-style: none;margin: 0;padding: 16px 0;box-sizing: border-box;}
 nav ul li{min-height: 40px;margin: 0;position: relative;box-sizing: border-box;}
 nav ul li.label{height: 0;border-bottom: 1px solid #ededed;margin: 16px 0;}
-nav ul li a{width: 100%;display: block;line-height: 40px;text-decoration: none;color: #777;padding: 0 16px;box-sizing: border-box;}
+nav ul li a{width: 100%;display: block;line-height: 40px;text-decoration: none;color: #777;padding: 0 4px;box-sizing: border-box;}
 nav ul li a:hover{background-color: rgba(255,255,255,.15);}
-nav ul li a i{width: 40px;height: 40px;line-height: 40px !important;float: left;margin-right: 16px;transition: initial;}
+nav ul li a i{width: 35px;height: 40px;line-height: 40px !important;float: left; transition: initial;}
 nav ul li.active-item{position: relative;}
 nav ul li.active-item::before{content: "";width: 100%;height: 100%;background-color: #263238;position: absolute;top: 0;left: 0;z-index: -1;}
 nav ul li ul{padding: 0;display: none;}
@@ -140,7 +131,6 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade #unidade8listening83 textarea{height: 150px}
 #unidade #joguin1{margin: 0 auto;margin-top: 50px;display: block;}
 #unidade .caixa{border: 1px solid #333;width: 35%;}
-#unidade .caixa2{border: 1px solid #333;width: 100%; margin-top:16px; margin-bottom: 16px;}
 #unidade .manipulaimagem{width:60%;margin-left:20%; margin-top:16px;}
 #unidade .otimizarimagem{width:50%;height:auto}
 #unidade figure.umterco img{height:350px;}
@@ -176,7 +166,7 @@ main .capas li.deactive img{filter: grayscale(1);}
 #unidade .recuoEsquerda span, #unidade form p b {color: #7dc242;}
 #unidade .numeradorverde p b {color: #7dc242;}
 
-
+.dark-font{ color: #000!important; font-weight: normal!important;}
 /* #tabelaGramar12 {width: 80%;} */
 
 

@@ -13,9 +13,6 @@
             <h3 class="barlow">UNIT 29</h3>
             <h5 class="barlow">3 - GRAMAR</h5>
             <span class="play-audio">( Aperte o play )</span>
-            <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 29/3. GRAMMAR/GRAMMAR.ogg') }}" type="audio/ogg">
-            </audio>
             <div class="clear"></div>
             <div style="margin-top: 16px">
             <h5 class="barlow" style="margin-top: 16px">A - CONVERSATION PRACTICE</h5>

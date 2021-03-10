@@ -5,7 +5,7 @@
 
 	@include('layouts.menus.mSidebar')
     @include('layouts.header.mHeader')
-    		
+
 	<main>
 		<!-- Conteúdo principal central -->
 		<div class="dashboard">
@@ -14,32 +14,32 @@
                 <h5 class="barlow">5 - LISTENING</h5>
                 <span class="play-audio">( Aperte o play )</span>
 				<audio controls="" controlslist="nodownload" class="suave">
-					<source src="{{ asset('assets/audio/apostila3/UNIT 3/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
-				</audio>
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 03/06_LISTENING/LISTENING_03.mp3') }}" type="audio/mp3">
+                </audio>
                 <div class="clear"></div>
                 <h5 class="barlow" style="margin-top:16px">A - Listen to the audio and fill in the blanks with the missing words.</h5>
                 <form id="unidade3listening513" method="post">
                     <p>
-                        Well, based on my 
-                        <input type="text" name="listening513-1" class="left-align" placeholder="Responda aqui" required>, 
-                        there are some steps to 
-                        <input type="text" name="listening513-2" class="left-align" placeholder="Responda aqui" required> 
+                        Well, based on my
+                        <input type="text" name="listening513-1" class="left-align" placeholder="Responda aqui" required>,
+                        there are some steps to
+                        <input type="text" name="listening513-2" class="left-align" placeholder="Responda aqui" required>
                         in order to be <input type="text" name="listening513-3" class="left-align" placeholder="Responda aqui" required>
                         on the net. First, you <input type="text" name="listening513-4" class="left-align" placeholder="Responda aqui" required>
-                        to have a clear objective. Your Why. Your main purpose. 
-                        <input type="text" name="listening513-5" class="left-align" placeholder="Responda aqui" required>, you need to 
+                        to have a clear objective. Your Why. Your main purpose.
+                        <input type="text" name="listening513-5" class="left-align" placeholder="Responda aqui" required>, you need to
                         <input type="text" name="listening513-6" class="left-align" placeholder="Responda aqui" required>who your
-                        audience is and then, start preparing your 
+                        audience is and then, start preparing your
                         <input type="text" name="listening513-7" class="left-align" placeholder="Responda aqui" required> content.
                     </p>
-                    
+
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="hidden" name="resposta_id" value="0">
                     <input type="hidden" name="unidade_id" value="3">
                     <input type="hidden" name="atividade_id" value="513">
                     <div class="clear"></div>
                     <button type="submit" class="mini-title suave click suave">Salvar resposta</button>
-                </form>                
+                </form>
             </div>
 		</div>
     </main>

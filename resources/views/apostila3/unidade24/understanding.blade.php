@@ -12,6 +12,10 @@
 			<div id="unidade" class="box" data-apostila="apostila3" data-unidade="unidade24" data-etapa="understanding">
 				<h3 class="barlow">UNIT 24</h3>
 				<h5 class="barlow">6 - UNDERSTANDING</h5>
+                <span class="play-audio">( Aperte o play )</span>
+				<audio controls="" controlslist="nodownload" class="suave">
+                    <source src="{{ asset('assets/audio/apostila3/LESSON 24/07_UNDERSTANDING/UNDERSTANDING_24.mp3') }}" type="audio/mp3">
+                </audio>
                 <div class="metade">
                     <form id="unidade24understanding680" method="post">
                         <p>
@@ -31,7 +35,7 @@
                             <input type="text" name="understanding680-4" class="full left-align" placeholder="Responda aqui" required>
                         </p>
                         <p>
-                            5 -  What was the invitation all about? 
+                            5 -  What was the invitation all about?
                             <input type="text" name="understanding680-5" class="full left-align" placeholder="Responda aqui" required>
                         </p>
 

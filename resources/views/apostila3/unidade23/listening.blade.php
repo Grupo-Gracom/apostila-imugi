@@ -14,20 +14,20 @@
             <h5 class="barlow">5 - LISTENING</h5>
             <span class="play-audio">( Aperte o play )</span>
             <audio controls="" controlslist="nodownload" class="suave">
-                <source src="{{ asset('assets/audio/apostila3/UNIT 23/5. LISTENING/LISTENING.ogg') }}" type="audio/ogg">
+                <source src="{{ asset('assets/audio/apostila3/LESSON 23/06_LISTENING/LISTENING_23.mp3') }}" type="audio/mp3">
             </audio>
             <div class="clear"></div>
             <h5 class="barlow" style="margin-top:16px">A -  Listen to the audio and fill in the blanks with the missing words.</h5>
             <form id="unidade23listening675" method="post">
                 <p>
-                    “Think different”. Apple’s slogan <input type="text" name="listening675-1" placeholder="Responda aqui" required /> 
+                    “Think different”. Apple’s slogan <input type="text" name="listening675-1" placeholder="Responda aqui" required />
                     a powerful <input type="text" name="listening675-2" placeholder="Responda aqui" required /> with it. Don’t be
-                    conventional.<input type="text" name="listening675-3" placeholder="Responda aqui" required /> to be different. In today’s world, the 
-                    <input type="text" name="listening675-4" placeholder="Responda aqui" required /> to be different is one of 
-                    <input type="text" name="listening675-5" placeholder="Responda aqui" required /> important characteristics of 
+                    conventional.<input type="text" name="listening675-3" placeholder="Responda aqui" required /> to be different. In today’s world, the
+                    <input type="text" name="listening675-4" placeholder="Responda aqui" required /> to be different is one of
+                    <input type="text" name="listening675-5" placeholder="Responda aqui" required /> important characteristics of
                     <input type="text" name="listening675-6" placeholder="Responda aqui" required /> society. Internet has
-                    <input type="text" name="listening675-7" placeholder="Responda aqui" required /> this characteristic 
-                    <input type="text" name="listening675-8" placeholder="Responda aqui" required /> common people like you and me to 
+                    <input type="text" name="listening675-7" placeholder="Responda aqui" required /> this characteristic
+                    <input type="text" name="listening675-8" placeholder="Responda aqui" required /> common people like you and me to
                     <input type="text" name="listening675-9" placeholder="Responda aqui" required /> and “show our true colors”. (Benetton Slogan)
                 </p>
 
