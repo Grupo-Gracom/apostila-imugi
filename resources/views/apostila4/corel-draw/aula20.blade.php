@@ -137,11 +137,11 @@ caminhos desenhados.</p>
             Utilizada para refinar e desenhar objetos editando pelos pontos de controle do objeto.
             </p>
             <p style="margin-top:16px;">
-            <img src="{{ asset('assets/img/photoshop/corel/aula03/imagem.png') }}" alt=""  style="display: inline-block; width:40px;">
+            <img src="{{ asset('assets/img/photoshop/corel/aula03/imagem16.png') }}" alt=""  style="display: inline-block; width:40px;">
             <strong> Linha de dois pontos </strong>
             </p>
             <p style="margin-top:16px;">
-            <img src="{{ asset('assets/img/photoshop/corel/aula03/imagem.png') }}" alt=""  style="display: inline-block; width:40px;">
+            <img src="{{ asset('assets/img/photoshop/corel/aula03/imagem17.png') }}" alt=""  style="display: inline-block; width:40px;">
             <strong> Curva de 3 Pontos: </strong>
             Utilizada para fazer curvas simples sem precisar usar os controladores de sua peça ou objeto.
             </p>

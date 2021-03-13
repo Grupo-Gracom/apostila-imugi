@@ -632,6 +632,9 @@
                         <li>
                             <a href="{{route('apostila4', ['corel-draw', 'aula20'])}}" data-etapa="aula20"><i class="material-icons suave">mouse</i>Aula 20 </a>
                         </li>
+                        <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula21'])}}" data-etapa="aula21"><i class="material-icons suave">mouse</i>Aula 21 </a>
+                        </li>
                     </ul>
                 </li>
             </ul>
