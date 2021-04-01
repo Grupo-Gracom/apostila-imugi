@@ -24,25 +24,7 @@
                     <img src="{{ asset('assets/img/photoshop/corel/aula04/imagem2.png') }}" alt="guia" style="width:95%!important;" >
                 </figure>
             </div>
-        <div class="clear"></div> 
-        <div style="margin-top:16px">
-                <h5 class="barlow">Simetria</h5>
-                <figure>
-                    <img src="{{ asset('assets/img/photoshop/corel/aula04/imagem3.png') }}" alt="guia" style="width:50%!important;" >
-                </figure>
-                <figure>
-                    <img src="{{ asset('assets/img/photoshop/corel/aula04/imagem4.png') }}" alt="guia" style="width:50%!important;" >
-                </figure>
         </div>
-        
-            <div style="margin-top:16px">
-                <h5 class="barlow">Atividades</h5>
-               <p>Cria uma estrutura simples utilizando as ferramentas de linha do interior de uma casa ou espaço desejado.
-como na imagem abaixo.</p>
-<p>Monte uma arte ou uma mandala uti lizando os controles de simetria. </p>
-<img src="{{ asset('assets/img/photoshop/corel/aula04/imagem5.png') }}" alt=""  style="width:60%;">
-            </div>
-            </div>
 </main>
 
 <script>
