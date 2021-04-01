@@ -26,26 +26,6 @@
                     <div class="swiper-slider-clients swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide text-center">
-                                <a data-fancybox="gallery" href="{{asset('assets/site/images/unidades/01.jpg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
-                                    <img src="{{asset('assets/site/images/unidades/01.jpg')}}" alt="" style="width:80%!important;">
-                                </a>
-                            </div>
-                            <div class="swiper-slide text-center">
-                                <a data-fancybox="gallery" href="{{asset('assets/site/images/unidades/02.jpg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
-                                    <img src="{{asset('assets/site/images/unidades/02.jpg')}}" alt="" style="width:80%!important;">
-                                </a>
-                            </div>
-                            <div class="swiper-slide text-center">
-                                <a data-fancybox="gallery" href="{{asset('assets/site/images/unidades/03.jpg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
-                                    <img src="{{asset('assets/site/images/unidades/03.jpg')}}" alt="" style="width:80%!important;">
-                                </a>
-                            </div>
-                            <div class="swiper-slide text-center">
-                                <a data-fancybox="gallery" href="{{asset('assets/site/images/unidades/04.jpg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
-                                    <img src="{{asset('assets/site/images/unidades/04.jpg')}}" alt="" style="width:80%!important;">
-                                </a>
-                            </div>
-                            <div class="swiper-slide text-center">
                                 <a data-fancybox="gallery" href="{{asset('assets/site/images/unidades/05.jpg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
                                     <img src="{{asset('assets/site/images/unidades/05.jpg')}}" alt="" style="width:80%!important;">
                                 </a>
