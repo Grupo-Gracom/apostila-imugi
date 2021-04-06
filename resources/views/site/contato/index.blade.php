@@ -406,7 +406,7 @@
                         </h5>
                     </div>
                     <div class="col-md-4">
-                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5519994567998" target="_blank" class="btn btn-large btn btn-success  btn-rounded mr-0">FALE CONOSCO</a>
+                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=554184608944" target="_blank" class="btn btn-large btn btn-success  btn-rounded mr-0">FALE CONOSCO</a>
                     </div>
                 </div>
             </div>

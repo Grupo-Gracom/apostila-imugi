@@ -17,7 +17,7 @@
                                     Se prepare para o <br> mercado de trabalho <br> internacional
                                 </p>
                                 <p class="text-white">Baixe nosso App</p>
-                                <a href="https://play.google.com/store/apps/details?id=com.developer.guilherme&hl=pt_BR" target="_blank">
+                                <a href="https://play.google.com/store/apps/details?id=com.pombocriativo.imugi" target="_blank">
                                     <img src="{{asset('assets/site/images/play_store.png')}}" alt="" class="icone_play">
                                 </a>
                             </div>

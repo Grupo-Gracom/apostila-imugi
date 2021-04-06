@@ -57,7 +57,7 @@
                                 </li>
                                 <li class="media mt-4">
                                     <span class="text-white">Baixe nosso app <br> 
-                                        <a href="https://play.google.com/store/apps/details?id=com.developer.guilherme&hl=pt_BR" target="_blank">
+                                        <a href="https://play.google.com/store/apps/details?id=com.pombocriativo.imugi" target="_blank">
                                             <img src="{{asset('assets/site/images/play_store.png')}}" alt="" class="icone_play_footer">
                                         </a>
                                     </span>
