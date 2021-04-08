@@ -28,7 +28,7 @@ class SendMail extends Mailable
      */
     public function build()
     {
-        return $this->from('contato@gracomonline.com.br')->subject('Contato Imugi Tecnologia e Educação')->view('portal.email.index')->with('data', $this->data);
+        return $this->from('contato@imugi.com.br')->subject('Contato Imugi Tecnologia e Educação')->view('portal.email.index')->with('data', $this->data);
     }
 }
 

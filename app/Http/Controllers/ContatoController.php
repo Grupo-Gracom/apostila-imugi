@@ -62,14 +62,14 @@ class ContatoController extends Controller
                   'mensagem' =>   $request->mensagem
               );
       
-           Mail::to('smtp@imugi.com.br')->send(new SendMail($data));
+           Mail::to('contato@imugi.com.br')->send(new SendMail($data));
            return back()->with('success', 'Email enviado com sucesso !');
       
     }
         
         public function contatoAluno(Request $request){
             
-            Mail::to('smtp@imugi.com.br')->send(new ContatoSite($request));
+            Mail::to('contato@imugi.com.br')->send(new ContatoSite($request));
 
                $notification = array(
                 'message' => 'Mensagem enviada com sucesso!', 

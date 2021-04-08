@@ -42,12 +42,16 @@
                                                 <option value="--" selected>Escolha a imugi mais próxima ;)</option>
                                                 <option value="Anápolis">Anápolis / GO</option>
                                                 <option value="Arapiraca">Arapiraca / AL</option>
+                                                <option value="Belém">Belém/ PA</option>
                                                 <option value="Fortaleza Centro"> Fortaleza / CE </option>
+                                                <option value=" Lauro de Freitas"> Lauro de Freitas / BA</option>
                                                 <option value="Macéio">Macéio / AL</option>
                                                 <option value="Manaus">Manaus / AM </option>
+                                                <option value="Natal">Natal / RN </option>
                                                 <option value="Fortaleza Messejana">Messejana / CE</option>
                                                 <option value="São Luís">São Luís / MA</option>  
-                                                <option value="Sorocaba">Sorocaba / SP</option> 
+                                                <option value="Sorocaba">Sorocaba / SP</option>
+                                                <option value="Teresina">Teresina / PI</option> 
                                                 <option value="Vitória">Vitória / ES</option>   
                                             </select>
                                         </div>
