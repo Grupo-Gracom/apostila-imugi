@@ -562,55 +562,55 @@
                             <a href="{{route('apostila4', ['photoshop', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">mouse</i> INTRODUCTION</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula1'])}}" data-etapa="aula1"><i class="material-icons suave">mouse</i>AULA 1</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula1'])}}" data-etapa="aula1"><i class="material-icons suave">edit</i>AULA 1</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula2'])}}" data-etapa="aula2"><i class="material-icons suave">mouse</i>AULA 2</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula2'])}}" data-etapa="aula2"><i class="material-icons suave">edit</i>AULA 2</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula3'])}}" data-etapa="aula3"><i class="material-icons suave">mouse</i>AULA 3</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula3'])}}" data-etapa="aula3"><i class="material-icons suave">edit</i>AULA 3</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula4'])}}" data-etapa="aula4"><i class="material-icons suave">mouse</i>AULA 4</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula4'])}}" data-etapa="aula4"><i class="material-icons suave">edit</i>AULA 4</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula5'])}}" data-etapa="aula5"><i class="material-icons suave">mouse</i>AULA 5</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula5'])}}" data-etapa="aula5"><i class="material-icons suave">edit</i>AULA 5</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula6'])}}" data-etapa="aula6"><i class="material-icons suave">mouse</i>AULA 6</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula6'])}}" data-etapa="aula6"><i class="material-icons suave">edit</i>AULA 6</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula7'])}}" data-etapa="aula7"><i class="material-icons suave">mouse</i>AULA 7</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula7'])}}" data-etapa="aula7"><i class="material-icons suave">edit</i>AULA 7</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula8'])}}" data-etapa="aula8"><i class="material-icons suave">mouse</i>AULA 8</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula8'])}}" data-etapa="aula8"><i class="material-icons suave">edit</i>AULA 8</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula9'])}}" data-etapa="aula9"><i class="material-icons suave">mouse</i>AULA 9</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula9'])}}" data-etapa="aula9"><i class="material-icons suave">edit</i>AULA 9</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula10'])}}" data-etapa="aula10"><i class="material-icons suave">mouse</i>AULA 10</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula10'])}}" data-etapa="aula10"><i class="material-icons suave">edit</i>AULA 10</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula11'])}}" data-etapa="aula11"><i class="material-icons suave">mouse</i>AULA 11</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula11'])}}" data-etapa="aula11"><i class="material-icons suave">edit</i>AULA 11</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula12'])}}" data-etapa="aula12"><i class="material-icons suave">mouse</i>AULA 12</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula12'])}}" data-etapa="aula12"><i class="material-icons suave">edit</i>AULA 12</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula13'])}}" data-etapa="aula13"><i class="material-icons suave">mouse</i>AULA 13</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula13'])}}" data-etapa="aula13"><i class="material-icons suave">edit</i>AULA 13</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula14'])}}" data-etapa="aula14"><i class="material-icons suave">mouse</i>AULA 14</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula14'])}}" data-etapa="aula14"><i class="material-icons suave">edit</i>AULA 14</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula15'])}}" data-etapa="aula15"><i class="material-icons suave">mouse</i>AULA 15</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula15'])}}" data-etapa="aula15"><i class="material-icons suave">edit</i>AULA 15</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula16'])}}" data-etapa="aula16"><i class="material-icons suave">mouse</i>AVALIAÇÃO PRATICA</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula16'])}}" data-etapa="aula16"><i class="material-icons suave">edit</i>AVALIAÇÃO PRATICA</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula17'])}}" data-etapa="aula17"><i class="material-icons suave">mouse</i>AVALIAÇÃO TEORICA</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula17'])}}" data-etapa="aula17"><i class="material-icons suave">edit</i>AVALIAÇÃO TEORICA</a>
                         </li>
                     </ul>
                 </li>
@@ -621,25 +621,61 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">mouse</i>INTRO</a>
+                            <a href="{{route('apostila4', ['corel-draw', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">edit</i>INTRO</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula18'])}}" data-etapa="aula18"><i class="material-icons suave">mouse</i>Aula 18 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula18'])}}" data-etapa="aula18"><i class="material-icons suave">edit</i>Aula 18 </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula19'])}}" data-etapa="aula19"><i class="material-icons suave">mouse</i>Aula 19 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula19'])}}" data-etapa="aula19"><i class="material-icons suave">edit</i>Aula 19 </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula20'])}}" data-etapa="aula20"><i class="material-icons suave">mouse</i>Aula 20 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula20'])}}" data-etapa="aula20"><i class="material-icons suave">edit</i>Aula 20 </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula21'])}}" data-etapa="aula21"><i class="material-icons suave">mouse</i>Aula 21 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula21'])}}" data-etapa="aula21"><i class="material-icons suave">edit</i>Aula 21 </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula22'])}}" data-etapa="aula22"><i class="material-icons suave">mouse</i>Aula 22 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula22'])}}" data-etapa="aula22"><i class="material-icons suave">edit</i>Aula 22 </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula23'])}}" data-etapa="aula23"><i class="material-icons suave">mouse</i>Aula 23 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula23'])}}" data-etapa="aula23"><i class="material-icons suave">edit</i>Aula 23 </a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula24'])}}" data-etapa="aula24"><i class="material-icons suave">edit</i>Aula 24 </a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula25'])}}" data-etapa="aula25"><i class="material-icons suave">edit</i>Aula 25 </a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula26'])}}" data-etapa="aula26"><i class="material-icons suave">edit</i>Aula 26 </a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula27'])}}" data-etapa="aula27"><i class="material-icons suave">edit</i>Aula 27 </a>
+                        </li>
+                         <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula28'])}}" data-etapa="aula28"><i class="material-icons suave">edit</i>Aula 28 </a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula29'])}}" data-etapa="aula29"><i class="material-icons suave">edit</i>Aula 29 </a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula30'])}}" data-etapa="aula30"><i class="material-icons suave">edit</i>Aula 30 </a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula31'])}}" data-etapa="aula31"><i class="material-icons suave">edit</i>Aula 31 </a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula32'])}}" data-etapa="aula32"><i class="material-icons suave">edit</i>Aula 32 </a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula33'])}}" data-etapa="aula33"><i class="material-icons suave">edit</i>Aula 33 </a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula34'])}}" data-etapa="aula34"><i class="material-icons suave">edit</i>Aula 34 </a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula35'])}}" data-etapa="aula35"><i class="material-icons suave">edit</i>Atividade Prática </a>
                         </li>
                     </ul>
                 </li>

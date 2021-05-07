@@ -48,7 +48,7 @@
                                             <input type="submit" class="btn_submit_lead btn-block" value="Quero agendar minha aula">
                                         </div>
                                     </form>
-                                        <p class="obs_lead">*Nossa equipe irá entrar em contato   para  marcar   o melhor dia e horário para agendar sua aula</p>
+                                        <p class="obs_lead">*Nossa equipe irá entrar em contato para marcar o melhor dia e horário para agendar sua aula</p>
                                 </div>
                               </div>
                         </div>
