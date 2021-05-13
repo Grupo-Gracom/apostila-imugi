@@ -12,7 +12,7 @@
                                 <h4 class="titulo_franquia_cotista text-white">
                                     Seja nosso <br> Franqueado ou <br> Sócio Cotista 
                                 </h4>
-                                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521976980055" target="_blank" class="btn falar-franquia"> <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i> Atendimento via WhatsApp</a>
+                                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=554184608944" target="_blank" class="btn falar-franquia"> <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i> Atendimento via WhatsApp</a>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ Um novo mundo cria novas oportunidades!
                             </div>
                             <div class="col-12 col-lg-9 col-md-8 p-0">
                                 <span class="margin-5px-bottom  d-block sm-margin-10px-bottom titulo-investidor">SÓCIO COTISTA</span>
-                                <p class="lg-width-100 desc-investidor text-white">Adquire no mínimo 10% de cota de uma unidade escolar no valor de R$28 mil reais, tendo a franqueadora como gestora e responsável pela prestação de contas e divisão dos lucros. 
+                                <p class="lg-width-100 desc-investidor text-white">Adquire no mínimo 10% de cota de uma unidade escolar no valor de R$30 mil reais, tendo a franqueadora como gestora e responsável pela prestação de contas e divisão dos lucros. 
  </p>
                             </div>
                         </div>
@@ -126,7 +126,7 @@ de todo o negócio e ficará responsável por
                         </div>
                     </div>
                     <div class="col-12 col-lg-9 col-md-8 p-0">
-                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521976980055" target="_blank" class="btn falar-franquia btn-sucesso"> <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i> Atendimento via WhatsApp</a>
+                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=554184608944" target="_blank" class="btn falar-franquia btn-sucesso"> <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i> Atendimento via WhatsApp</a>
                     </div>
                 </div>
                             </div>
@@ -156,7 +156,7 @@ de todo o negócio e ficará responsável por
                             </div>
                         </div>
                             <ul class="p-0 list-style-4 margin-30px-bottom list-style-color">
-                                <li><span class="item-lista">Taxa de franquia R$25.000.00  </span></li>
+                                <li><span class="item-lista">Taxa de franquia R$30.000.00  </span></li>
                                 <li> <span class="item-lista">Prazo médio de retorno no<br> 
                                 investimento: 14 a 18 MESES </span> </li>
                                 <li><span class="item-lista"> Área mínima: 180m<sup>2</sup> </span> </li>
@@ -173,7 +173,7 @@ de todo o negócio e ficará responsável por
                             </div>
                         </div>
                             <ul class="p-0 list-style-4 margin-30px-bottom list-style-color">
-                                <li><span class="item-lista">10% por R$28 MIL Reais </span> </li>
+                                <li><span class="item-lista">10% por R$30 MIL Reais </span> </li>
                                 <li><span class="item-lista">Previsão de lucro mensal: R$3 MIL <br> Reais a cada 10% de cota </span> </li>
                             </ul>
                         </div>
