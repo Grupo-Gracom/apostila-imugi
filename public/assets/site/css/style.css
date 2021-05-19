@@ -475,6 +475,10 @@ margin-right:auto;
         margin: 0 auto;
     }
 
+    .bg_conquista{
+        background-position: 45% center!important;
+    }
+
     .encaminhado{
         margin: 0 auto;
         display: block;
@@ -485,7 +489,7 @@ margin-right:auto;
     }
 
     .titulo_aprimorar{
-        font-size: 28pt!important;
+        font-size: 20pt!important;
         line-height: 40px!important;
         margin-left: 10px!important;
     }
@@ -501,6 +505,8 @@ margin-right:auto;
     .desc_aprimorar{
         width: 60%!important;
         margin-left: 10px!important;
+        margin-top: 0px!important;
+        margin-bottom: 70px!important;
     }
 
     .icone_atuacao{

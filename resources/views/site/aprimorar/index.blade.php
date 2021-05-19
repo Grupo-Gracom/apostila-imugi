@@ -241,7 +241,7 @@ e profissionalismo sem custo algum.
                     <div class="col-1 col-lg-1 col-md-1"></div>
                 </div>
         </section>
-        <section class="wow fadeIn bg_cota_img" style="background-image: url({{asset('assets/site/images/bg_aprimorar_02.png')}}); background-repeat:no-repeat; background-size:cover;">
+        <section class="wow fadeIn bg_conquista" style="background-image: url({{asset('assets/site/images/bg_aprimorar_02.png')}}); background-repeat:no-repeat; background-size:cover;">
                 <div class="container">
                     <div class="row">
                         <div class="md-margin-50px-bottom sm-margin-30px-bottom">
