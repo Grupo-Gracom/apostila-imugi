@@ -1199,6 +1199,7 @@ Route::get('/franquia-imugi', 'HomeController@franquiaCota')->name('franquia-imu
 Route::get('/cursos/cgfly', 'HomeController@cgfly')->name('cg-fly');
 Route::get('/cursos/codeblock', 'HomeController@codeblock')->name('code-block');
 Route::get('/site', 'HomeController@site')->name('site');
+Route::get('/site/programa-aprimorar', 'HomeController@aprimorar')->name('aprimorar');
 Route::get('/site/depoimentos', 'HomeController@depoimentos')->name('depoimentos');
 Route::get('/site/contato', 'ContatoController@siteContato')->name('siteContato');
 Route::get('/site/portaldoaluno', 'HomeController@portalAluno')->name('portalAluno');

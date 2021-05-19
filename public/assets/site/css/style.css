@@ -57,6 +57,16 @@ html{
     display: block;
 }
 
+.icone_como_funciona{
+    margin: 0 auto;
+    display: block;
+}
+
+.icone_atuacao{
+    margin: 0 auto;
+    display: block;
+}
+
 .icone_play{
     width: 25%;
     margin-top:-20px;
@@ -455,10 +465,61 @@ margin-right:auto;
     width: 10%;
 }
 
+.no-top{
+    margin-top: 40px;
+}
+
 @media screen and (max-width: 480px) and (min-width: 320px) {
     .mg-mobile{
         display: block;
         margin: 0 auto;
+    }
+
+    .encaminhado{
+        margin: 0 auto;
+        display: block;
+    }
+
+    .no-top{
+        margin-top: 0px!important;
+    }
+
+    .titulo_aprimorar{
+        font-size: 28pt!important;
+        line-height: 40px!important;
+        margin-left: 10px!important;
+    }
+
+    .numero_aprimorar{
+        margin-top: 20px;
+    }
+
+    .box-aprimorar{
+        width: 100%!important;
+        margin-top: 20px!important;
+    }
+    .desc_aprimorar{
+        width: 60%!important;
+        margin-left: 10px!important;
+    }
+
+    .icone_atuacao{
+        width: 20%!important;
+    }
+
+    .coluna_areas{
+        margin-top: 0px!important;
+    }
+
+    .areas{
+        margin-bottom: 30px!important;
+    }
+
+    .icone_como_funciona{
+       width: 20%!important;
+    }
+    .etapa-funciona{
+        margin-bottom: 30px!important;
     }
     .saiba-titulo{
         text-align: center;
@@ -4892,6 +4953,22 @@ color: #fff;
 
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
+    
+    .bg_aprimorar{
+        background-size: cover!important;
+    }
+
+    .seta_aprimorar{
+        bottom: 240px!important;
+    }
+
+    .oportunidade{
+       font-size: 14pt!important;
+       line-height: 20px!important;
+       margin-left: 40px!important;
+    }
+    
+
     .video_inst{
        width: 300px;
     }
@@ -4966,4 +5043,86 @@ color: #fff;
     .mobile{
         display: none!important;
     }
+}
+
+
+/* estilos pagina aprimorar */
+.oportunidade{
+    font-size: 26pt;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.destaque{
+    color: #7DC242;
+    font-weight: bold;
+}
+
+.titulo_aprimorar{
+    font-family: arista;
+    text-transform: uppercase;
+    font-size: 38pt;
+    color: #00491C;
+    line-height: 50px;
+}
+
+.box-aprimorar{
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 3px rgba(14, 101, 38, 0.2);
+    padding: 14% 4%!important;
+    width: 300px;
+}
+
+.numero_aprimorar{
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 60pt;
+    font-weight: 900;
+    color: #7ABA17;   
+}
+
+.info-box{
+    font-family: "Roboto";
+    font-size: 12pt;
+    color: #000;
+    font-weight: 900;
+}
+
+.desc_aprimorar{
+    width: 40%;
+    font-size:  14pt;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.seta_aprimorar{
+    position:absolute;
+    width:50px; 
+    bottom:180px;
+    left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+}
+
+.quem_somos_aprimorar{
+    font-family: Arista;
+    font-size: 30px;
+    line-height: 30px!important;
+    text-transform: uppercase;
+    color: #7aba17;
+}
+
+.etapas{
+    font-family: arista;
+    color:#000;
+    font-size: 14pt;
+    line-height: 20px;
+}
+
+.areas{
+    font-family: arista;
+    color:#000;
+    font-size: 14pt;
+    line-height: 20px;
 }
