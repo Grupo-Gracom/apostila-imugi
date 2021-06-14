@@ -96,6 +96,11 @@ class HomeController extends Controller
         return view('site/aprimorar/index');
     }
 
+    public function aprovar()
+    {
+        return view('site/home/aprovar');
+    }
+
     public function cgfly()
     {
         return view('site/cursos/cgfly');

@@ -38,7 +38,8 @@ Um novo mundo cria novas oportunidades!
                                 </p>
                             </div>
                         <div class="col-12 col-lg-7 text-center wow fadeInLeft">
-                                <img src="{{asset('assets/site/images/qum_somos_franquia.png')}}" alt="" class="w-100">
+                                <!-- <img src="{{asset('assets/site/images/qum_somos_franquia.png')}}" alt="" class="w-100"> -->
+                                <iframe class="w-100" height="315" src="https://www.youtube.com/embed/UZZNKbCucIU"></iframe>
                         </div> 
                        
                     </div>

@@ -26,16 +26,6 @@
                     <div class="swiper-slider-clients swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide text-center">
-                                <a data-fancybox="gallery" href="{{asset('assets/site/images/unidades/05.jpg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
-                                    <img src="{{asset('assets/site/images/unidades/05.jpg')}}" alt="" style="width:80%!important;">
-                                </a>
-                            </div>
-                            <div class="swiper-slide text-center">
-                                <a data-fancybox="gallery" href="{{asset('assets/site/images/unidades/06.jpg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
-                                    <img src="{{asset('assets/site/images/unidades/06.jpg')}}" alt="" style="width:80%!important;">
-                                </a>
-                            </div>
-                            <div class="swiper-slide text-center">
                                 <a data-fancybox="gallery" href="{{asset('assets/site/images/unidades/07.1.jpg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
                                     <img src="{{asset('assets/site/images/unidades/07.jpg')}}" alt="" style="width:80%!important;">
                                 </a>
@@ -249,7 +239,8 @@
                         <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-deep-green"></i></div>
                         <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">NATAL / RN </div>
                             <p class="width-75 mx-auto">
-                                Av. Prudente de Morais, 3059 - Lagoa Seca
+                                Av. Prudente de Morais, 3059 - Lagoa Seca <br>
+                                (84) 3033-1540
                             </p>
                         </div>
                     </div>
@@ -280,31 +271,32 @@
                 </div>
                 <div class="row mt-4">
                     
+                      
                       <!-- start features box item -->
-                  <div class="col-12 col-lg-4 col-md-6 md-margin-four-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                        <div class="bg-white card-unidade border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
-                        <div class="ribbon"> inauguração <br> <strong> EM BREVE! </strong> </div>    
-                        <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-dark-gray"></i></div>
-                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom"> PALMAS / TO</div>
-                            <p class="width-75 mx-auto">
-                               em implantação
-                            </p>
-                        </div>
-                    </div>
-                    <!-- end features box item -->
+                <div class="col-12 col-lg-4 col-md-6 md-margin-four-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                      <div class="bg-white card-unidade border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
+                      <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-deep-green"></i></div>
+                          <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom"> MANAUS CIDADE NOVA / AM</div>
+                          <p class="width-75 mx-auto">
+                             Rua Curió, 56, quadra 59 <br>
+                          </p>
+                      </div>
+                  </div>
+                  <!-- end features box item -->
             
                     <!-- end features box item -->
-                    <div class="col-12 col-lg-4 col-md-6 sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
-                        <div class="bg-white card-unidade border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
-                        <div class="ribbon"> inauguração <br> <strong> EM BREVE! </strong> </div>     
-                        <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-dark-gray"></i></div>
-                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">BRASÍLIA / DF </div>
+ <div class="col-12 col-lg-4 col-md-6 sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
+                        <div class="bg-white card-unidade border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">   
+                        <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-deep-green"></i></div>
+                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">BELÉM CASTANHEIRAS / PA</div>
                             <p class="width-75 mx-auto">
-                                em implantação 
+                            Rodovia BR 316, loja 1 e 2 <br> 
                             </p>
                         </div>
                     </div>
                     <!-- end features box item -->
+                  
+                  
                     <!-- end features box item -->
                     <div class="col-12 col-lg-4 col-md-6 sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
                         <div class="bg-white card-unidade border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
@@ -319,32 +311,31 @@
                     <!-- end features box item -->
                 </div>
                 <div class="row mt-4">
-                    
                     <!-- start features box item -->
-                <div class="col-12 col-lg-4 col-md-6 md-margin-four-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                      <div class="bg-white card-unidade border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
-                      <div class="ribbon"> inauguração <br> <strong> EM BREVE! </strong> </div>    
-                      <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-dark-gray"></i></div>
-                          <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom"> MANAUS CIDADE NOVA / AM</div>
-                          <p class="width-75 mx-auto">
-                             em implantação
-                          </p>
-                      </div>
-                  </div>
-                  <!-- end features box item -->
-              <!-- end features box item -->
-              <div class="col-12 col-lg-4 col-md-6 sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
+                  <div class="col-12 col-lg-4 col-md-6 md-margin-four-bottom sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                        <div class="bg-white card-unidade border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
+                        <div class="ribbon"> inauguração <br> <strong> EM BREVE! </strong> </div>    
+                        <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-dark-gray"></i></div>
+                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom"> PALMAS / TO</div>
+                            <p class="width-75 mx-auto">
+                               em implantação
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end features box item -->
+                     <!-- end features box item -->
+                     <div class="col-12 col-lg-4 col-md-6 sm-margin-30px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
                         <div class="bg-white card-unidade border-color-extra-medium-gray border text-center padding-eighteen-tb border-radius-4 position-relative h-100">
                         <div class="ribbon"> inauguração <br> <strong> EM BREVE! </strong> </div>     
                         <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-dark-gray"></i></div>
-                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">BELÉM CASTANHEIRAS / PA</div>
+                            <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">BRASÍLIA / DF </div>
                             <p class="width-75 mx-auto">
                                 em implantação 
                             </p>
                         </div>
                     </div>
                     <!-- end features box item -->
-                  
+             
           </div>
             </div>
         </section>

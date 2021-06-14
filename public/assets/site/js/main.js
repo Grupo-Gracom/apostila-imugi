@@ -442,7 +442,8 @@ $(document).ready(function () {
             disableOnInteraction: true
         },
         pagination: {
-            el: null
+            el: '.swiper-pagination-four-slides',
+            clickable: true
         },
         breakpoints: {
             1199: {

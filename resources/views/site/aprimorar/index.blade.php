@@ -18,7 +18,7 @@
                 </div>
 </section>
 <img src="{{asset('assets/site/images/seta.png')}}" alt="" class="seta_aprimorar">
-<section class="wow fadeIn pd-quem_somos" style="padding: 0px 0 50px 0!important; margin-top:80px!important;">
+<section class="wow fadeIn pd-quem_somos" style="padding: 0px 0 100px 0!important; margin-top:80px!important;">
                 <div class="container"> 
                     <div class="row align-items-center">
                     <div class="col-12 col-lg-5 wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.2s">
@@ -28,16 +28,14 @@
                                 para o mercado de trabalho
                                  </span>
                                 <p class="mt-4 desc-somos">
-                                Um dos grandes diferenciais da Imugi é o exclusivo
-programa de orientação para o mercado de trabalho,
-que tem como objetivo indicar e, sempre que possível, encaminhar alunos para as empresas parceiras, bem como orientá-los a se portar em entrevistas de emprego.
+                                Um dos grandes diferenciais da Imugi é o exclusivo programa de orientação para o mercado de 
+                                trabalho que tem como objetivo: indicar e, sempre que possível, encaminhar alunos para empresas 
+                                parceiras, bem como orientá-los a se portar nas entrevistas de emprego.
                                 </p>
                                 </p>
                                 <p class="mt-4 desc-somos">
 
-                                Com isso, os alunos são preparados para disputar
-as vagas do mercado de trabalho com seriedade
-e profissionalismo sem custo algum.
+                                Os alunos são preparados para disputar as vagas do mercado de trabalho com seriedade e profissionalismo.
                                 </p>
                             </div>
                         <div class="col-12 col-lg-7 text-center wow fadeInLeft">
@@ -47,6 +45,7 @@ e profissionalismo sem custo algum.
                     </div>
                 </div>
             </section>
+           
             <section class="border-top border-color-extra-light-gray wow fadeIn" style="background-color:#E5E5E5;">
             <div class="container">
                 <div class="row">
@@ -86,7 +85,7 @@ e profissionalismo sem custo algum.
                                     <img src="{{asset('assets/site/images/funciona/3.png')}}" alt="" class="width-60 icone_como_funciona">
                             </div>
                             <div class="post-details">
-                                <p class="mt-4 text-center etapas etapa-funciona">Entrevista de <br> emprego</p>
+                                <p class="mt-4 text-center etapas etapa-funciona">Cadastro do <br> currículo </p>
                               
                             </div>
                         </div>
@@ -97,7 +96,7 @@ e profissionalismo sem custo algum.
                                     <img src="{{asset('assets/site/images/funciona/4.png')}}" alt="" class="width-60 icone_como_funciona">
                             </div>
                             <div class="post-details">
-                                <p class="mt-4 text-center etapas etapa-funciona">Cadastro do <br> currículo</p>
+                                <p class="mt-4 text-center etapas etapa-funciona">Entrevista de <br> emprego</p>
                               
                             </div>
                         </div>
@@ -116,7 +115,73 @@ e profissionalismo sem custo algum.
                     <div class="col-1 col-lg-1 col-md-1"></div>
                 </div>
         </section>
-        <section class="border-top border-color-extra-light-gray wow fadeIn" style="background-color:#D3FFD7;">
+         <!-- escolas carousel style 1 -->
+         <section style="padding-top: 0px!important; padding-bottom:60px!important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center wow fadeIn">
+                        <h5 class="text-uppercase depoimentos">
+                            Hall da Fama
+                        </h5>
+                        <p><strong> Alunos encaminhados para o mercado de trabalho </strong></p>
+                    </div>
+                </div>
+                <div class="row margin-60px-top md-margin-70px-top sm-margin-50px-top">
+                    <div class="swiper-slider-clients swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide text-center">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/01.jpeg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
+                                    <img src="{{asset('assets/site/images/encaminhados/01.jpeg')}}" alt="" style="width:90%!important; margin-bottom:80px;">
+                                </a>
+                            </div>
+                            <div class="swiper-slide text-center">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/02.jpeg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
+                                    <img src="{{asset('assets/site/images/encaminhados/02.jpeg')}}" alt="" style="width:90%!important; margin-bottom:80px;">
+                                </a>
+                            </div>
+                            <div class="swiper-slide text-center">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/03.jpeg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
+                                    <img src="{{asset('assets/site/images/encaminhados/03.jpeg')}}" alt="" style="width:90%!important; margin-bottom:80px;">
+                                </a>
+                            </div>
+                            <div class="swiper-slide text-center">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/04.jpeg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
+                                    <img src="{{asset('assets/site/images/encaminhados/04.jpeg')}}" alt="" style="width:90%!important; margin-bottom:80px;">
+                                </a>
+                            </div>
+                            <div class="swiper-slide text-center">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/05.jpeg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
+                                    <img src="{{asset('assets/site/images/encaminhados/05.jpeg')}}" alt="" style="width:90%!important; margin-bottom:80px;">
+                                </a>
+                            </div>
+                            <div class="swiper-slide text-center">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/06.jpeg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
+                                    <img src="{{asset('assets/site/images/encaminhados/06.jpeg')}}" alt="" style="width:90%!important; margin-bottom:80px;">
+                                </a>
+                            </div>
+                            <div class="swiper-slide text-center">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/07.jpeg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
+                                    <img src="{{asset('assets/site/images/encaminhados/07.jpeg')}}" alt="" style="width:90%!important; margin-bottom:80px;">
+                                </a>
+                            </div>
+                            <div class="swiper-slide text-center">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/08.jpeg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
+                                    <img src="{{asset('assets/site/images/encaminhados/08.jpeg')}}" alt="" style="width:90%!important; margin-bottom:80px;">
+                                </a>
+                            </div>
+                            <div class="swiper-slide text-center">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/09.jpeg')}}" data-caption="Conheça a Imugi - Tecnológia Educacional">
+                                    <img src="{{asset('assets/site/images/encaminhados/09.jpeg')}}" alt="" style="width:90%!important; margin-bottom:80px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-four-slides h-auto"></div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        <section class="border-top border-color-extra-light-gray wow fadeIn bg_atuacao"  style="background-image: url({{asset('assets/site/images/area-atuacao.png')}}); background-repeat:no-repeat; background-position:center center; background-size:cover;">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -257,28 +322,29 @@ e profissionalismo sem custo algum.
                 </div>
         </section>
         <!-- start testimonial slider section -->
-        <section class="fadeIn" style="padding:80px 0px 40px 0px!important; background-image: url({{asset('assets/site/images/bg-numeros-aprimorar.png')}}); background-repeat:no-repeat; background-position: 100% 60%; background-size:100%;">
+        <section class="fadeIn" style="padding:0px 0px 40px 0px!important; margin-top:-100px;">
             <div class="container">
                 <div class="row position-relative margin-20px-top md-margin-20px-top sm-margin-20px-top">
-                            <div class="col-12 col-lg-4 col-md-6 swiper-slide">
-                                <div class="margin-half-all box-aprimorar bg-white box-shadow-light text-center padding-fourteen-all sm-padding-30px-all">
-                                <h1 class="numero_aprimorar">+45</h1>
+                <div class="col-md-1"></div>            
+                <div class="col-12 col-lg-3 col-md-6 swiper-slide">
+                                <div class="box-aprimorar bg-white box-shadow-light text-center">
+                                <h1 class="numero_aprimorar" id="contratados">+5.180</h1>
                                     <p class="info-box">Alunos Contratados</p>
                                 </div>
                             </div>
                             <!-- end testimonial item -->
                             <!-- start testimonial item -->
-                            <div class="col-12 col-lg-4 col-md-6 swiper-slide">
-                                <div class="margin-half-all box-aprimorar bg-white box-shadow-light text-center padding-fourteen-all sm-padding-30px-all">
-                                <h1 class="numero_aprimorar">+65</h1>
+                            <div class="col-12 col-lg-3 col-md-6 swiper-slide">
+                                <div class=" box-aprimorar bg-white box-shadow-light text-center">
+                                <h1 class="numero_aprimorar" id="encaminhados">+6240</h1>
                                     <p class="info-box">Alunos Encaminhados </p>
                                 </div>
                             </div>
                             <!-- end testimonial item -->
                             <!-- start testimonial item -->
-                            <div class="col-12 col-lg-4 col-md-6 swiper-slide">
-                                <div class="margin-half-all box-aprimorar bg-white box-shadow-light text-center padding-fourteen-all sm-padding-30px-all">
-                                <h1 class="numero_aprimorar">30</h1>
+                            <div class="col-12 col-lg-3 col-md-6 swiper-slide">
+                                <div class="box-aprimorar bg-white box-shadow-light text-center">
+                                <h1 class="numero_aprimorar"> <span id="disponiveis">57</span> Mil</h1>
                                     <p class="info-box">Vagas Disponíveis </p>
                                 </div>
                             </div>
@@ -286,8 +352,8 @@ e profissionalismo sem custo algum.
                         </div>                        
             </div>
         </section>
-        <!-- start testimonial slider section -->
-        <section style="padding:20px 0px!important;">
+        
+        <!-- <section style="padding:20px 0px!important;">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center wow fadeIn">
@@ -298,79 +364,71 @@ e profissionalismo sem custo algum.
                 </div>
                 <div class="row position-relative margin-60px-top md-margin-70px-top sm-margin-50px-top">
                          <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
-                               <img src="{{asset('assets/site/images/encaminhados/01.png')}}" alt="" class="encaminhado">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/01.jpeg')}}" data-caption="CNT Aluno Encaminhado para o mercado de trabalho">
+									<img src="{{asset('assets/site/images/encaminhados/01.jpeg')}}" alt="">
+								</a>
                             </div>
-                            <!-- end testimonial item -->
-                            <!-- start testimonial item -->
+                            
                             <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
-                               <img src="{{asset('assets/site/images/encaminhados/02.png')}}" alt="" class="encaminhado">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/02.jpeg')}}" data-caption="CNT Aluno Encaminhado para o mercado de trabalho">
+									<img src="{{asset('assets/site/images/encaminhados/02.jpeg')}}" alt="">
+								</a>
                             </div>
-                            <!-- end testimonial item -->
-                            <!-- start testimonial item -->
+                           
                             <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
-                               <img src="{{asset('assets/site/images/encaminhados/03.png')}}" alt="" class="encaminhado">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/03.jpeg')}}" data-caption="CNT Aluno Encaminhado para o mercado de trabalho">
+									<img src="{{asset('assets/site/images/encaminhados/03.jpeg')}}" alt="">
+								</a>
                             </div>
-                            <!-- end testimonial item -->
-                            <!-- start testimonial item -->
+                            
                             <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
-                               <img src="{{asset('assets/site/images/encaminhados/04.png')}}" alt="" class="encaminhado">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/04.jpeg')}}" data-caption="CNT Aluno Encaminhado para o mercado de trabalho">
+									<img src="{{asset('assets/site/images/encaminhados/04.jpeg')}}" alt="">
+								</a>
                             </div>
-                            <!-- end testimonial item -->
+                          
                 </div>
                 <div class="row position-relative  no-top">
-                            <!-- start testimonial item -->
+                            
                             <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
-                               <img src="{{asset('assets/site/images/encaminhados/01.png')}}" alt="" class="encaminhado">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/05.jpeg')}}" data-caption="CNT Aluno Encaminhado para o mercado de trabalho">
+									<img src="{{asset('assets/site/images/encaminhados/05.jpeg')}}" alt="">
+								</a>
                             </div>
-                            <!-- end testimonial item -->
-                            <!-- start testimonial item -->
+                            
                             <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
-                               <img src="{{asset('assets/site/images/encaminhados/02.png')}}" alt="" class="encaminhado">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/06.jpeg')}}" data-caption="CNT Aluno Encaminhado para o mercado de trabalho">
+									<img src="{{asset('assets/site/images/encaminhados/06.jpeg')}}" alt="">
+								</a>
                             </div>
-                            <!-- end testimonial item -->
-                            <!-- start testimonial item -->
+                           
                             <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
-                               <img src="{{asset('assets/site/images/encaminhados/03.png')}}" alt="" class="encaminhado">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/07.jpeg')}}" data-caption="CNT Aluno Encaminhado para o mercado de trabalho">
+									<img src="{{asset('assets/site/images/encaminhados/07.jpeg')}}" alt="">
+								</a>
                             </div>
-                            <!-- end testimonial item -->
-                            <!-- start testimonial item -->
+                            
                             <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
-                               <img src="{{asset('assets/site/images/encaminhados/04.png')}}" alt="" class="encaminhado">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/08.jpeg')}}" data-caption="CNT Aluno Encaminhado para o mercado de trabalho">
+									<img src="{{asset('assets/site/images/encaminhados/08.jpeg')}}" alt="">
+								</a>
                             </div>
-                            <!-- end testimonial item -->
-                </div>
-                <div class="row position-relative  no-top">
-                         <!-- start testimonial item -->
-                            <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
-                               <img src="{{asset('assets/site/images/encaminhados/01.png')}}" alt="" class="encaminhado">
+                            
+                             <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
+                                <a data-fancybox="gallery" href="{{asset('assets/site/images/encaminhados/09.jpeg')}}" data-caption="CNT Aluno Encaminhado para o mercado de trabalho">
+									<img src="{{asset('assets/site/images/encaminhados/09.jpeg')}}" alt="">
+								</a>
                             </div>
-                            <!-- end testimonial item -->
-                            <!-- start testimonial item -->
-                            <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
-                               <img src="{{asset('assets/site/images/encaminhados/02.png')}}" alt="" class="encaminhado">
-                            </div>
-                            <!-- end testimonial item -->
-                            <!-- start testimonial item -->
-                            <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
-                               <img src="{{asset('assets/site/images/encaminhados/03.png')}}" alt="" class="encaminhado">
-                            </div>
-                            <!-- end testimonial item -->
-                            <!-- start testimonial item -->
-                            <div class="col-12 col-lg-3 col-md-6 swiper-slide md-margin-four-bottom">
-                               <img src="{{asset('assets/site/images/encaminhados/04.png')}}" alt="" class="encaminhado">
-                            </div>
-                            <!-- end testimonial item -->
+                            
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- start testimonial slider section -->
         <section class="wow fadeIn" style="background-image: url({{asset('assets/site/images/depoimentos.png')}}); background-repeat:no-repeat; background-position: bottom; background-position-x: top; padding:0px!important;">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center wow fadeIn">
-                        <h5 class="text-uppercase depoimentos">
-                            Opinião dos nossos alunos
-                        </h5>
+                        <img src="{{asset('assets/site/images/opiniao.png')}}" alt="">
                     </div>
                 </div>
                 <div class="row position-relative margin-100px-top md-margin-70px-top sm-margin-50px-top">
@@ -408,4 +466,44 @@ e profissionalismo sem custo algum.
             </div>
         </section>
             @include('layouts.site.footer')
+    <script>
+      function animate(obj, initVal, lastVal, duration, sinal) {
+
+let startTime = null;
+
+let currentTime = Date.now();
+
+const step = (currentTime ) => {
+
+    if (!startTime) {
+    startTime = currentTime ;
+    }
+
+    const progress = Math.min((currentTime  - startTime) / duration, 1);
+
+    obj.innerHTML = sinal;
+    obj.innerHTML += Math.floor(progress * (lastVal - initVal) + initVal);
+
+    if (progress < 1) {
+        window.requestAnimationFrame(step);
+    }else{
+        window.cancelAnimationFrame(window.requestAnimationFrame(step));
+    }
+};
+
+window.requestAnimationFrame(step);
+}
+
+let contratado = document.getElementById('contratados');
+let encaminhado = document.getElementById('encaminhados');
+let disponivel = document.getElementById('disponiveis');
+
+const load = () =>{
+
+animate(contratado, 0, 5180, 5000, "+");
+animate(encaminhado, 0, 6240, 5000, "+");
+animate(disponivel, 0, 57, 5000, "");
+
+}
+    </script>
  @endsection

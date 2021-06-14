@@ -77,6 +77,6 @@
             break;
     }
   @endif
-</script>
+</script>     
     </body>
 </html>

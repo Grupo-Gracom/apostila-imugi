@@ -173,6 +173,26 @@
                 </div>
             </div>
         </section>
+        <!-- start parallax feature box -->
+        <section class="p-0 wow fadeIn bg-light-gray" id="curso">
+                <div class="container-fluid">
+                    <div class="row"> 
+                            <div class="col-12 col-lg-6 cover-background md-height-400px wow fadeInRight" style="background-image:url({{asset('assets/site/images/game-dev.png')}});"></div>
+                        <div class="col-12 col-lg-6 wow fadeInLeft padding-four-all md-padding-eight-all md-padding-15px-lr sm-padding-50px-tb">
+                            <div class="row m-0">
+                                <div class="col-12 col-xl-10 margin-six-bottom lg-margin-six-bottom md-margin-30px-bottom sm-no-margin-bottom">
+                                 <img src="{{asset('assets/site/images/logo-dev.png')}}" alt="" width="360">
+                                 <p>
+                                 Curso voltado para profissionais da área de desenvolvimento de jogos digitais, ampliando conhecimentos e também para iniciantes que desejam ingressar nesse mercado em crescimento no mundo. O aluno aprenderá a planejar e desenvolver jogos utilizando as melhores ferramentas, tornando-o um expert em projeto e programação de games.
+                                    </p>
+                                    <a class="btn_curso text-white" href="#matricula">Quero Agendar Minha Aula</a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                    <img src="{{asset('assets/site/images/quadro_2.png')}}" alt="" class="quadrado_2">
+            </section>
         <!-- start section -->
         <section class="wow fadeIn" style="background-image: url({{asset('assets/site/images/bg_portal_aluno.jpg')}}); background-repeat:no-repeat;">
             <div class="container"> 
@@ -210,7 +230,7 @@
                 <div class="container"> 
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-5 text-center wow fadeInLeft">
-                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=U-vopjv-HNk&feature=youtu.be">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=U-vopjv-HNk">
                                 <img src="{{asset('assets/site/images/centro_autorizado.jpg')}}" alt="" class="w-100">
                                 <div class="icon-play">
                                     <div class="absolute-middle-center">

@@ -26,8 +26,16 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                                        <form method="POST" action="{{ route('password.email') }}">
+                                        <form method="POST" action="{{ route('recuperarSenha') }}">
                         @csrf
+
+                        @if (Session::has('message'))
+                            <div class="alert alert-success">{{ Session::get('message') }}
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        @endif
 
                         <div class="form-group row">
                             <div class="col-md-12">

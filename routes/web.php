@@ -1195,6 +1195,7 @@ Route::post('/atualizar-perfil/{id}', 'UserController@update');
 Route::get('/atualiza-senha','UserController@atualizaSenha');
 
 // Rotas Site Imugi
+Route::get('/aprovar', 'HomeController@aprovar')->name('aprovar');
 Route::get('/franquia-imugi', 'HomeController@franquiaCota')->name('franquia-imugi');
 Route::get('/cursos/cgfly', 'HomeController@cgfly')->name('cg-fly');
 Route::get('/cursos/codeblock', 'HomeController@codeblock')->name('code-block');
@@ -1208,6 +1209,8 @@ Route::post('/contato-aluno', 'ContatoController@contatoAluno')->name('alunoCont
 Route::post('/contato-franquia', 'ContatoController@contatoFranquia')->name('contatoFranquia');
 Route::post('/enviar', 'ContatoController@enviar')->name('enviarContato');
 
+// recuperar senha
+Route::post('/api-recuperar', 'ApiUserController@recuperar')->name('recuperarSenha');
 /******************************************************************Rotas Gestao Professor e Coordenador**************************************************************/
 
 Route::get('/gestao', ['as'=>'admin','uses'=>'AdminController@index']);
