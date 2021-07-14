@@ -2231,7 +2231,137 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade33', 'novo_projeto'])}}" data-etapa="novo_projeto"><i class="material-icons suave">record_voice_over</i>Criando um novo projeto 2D</a>
+                            <a href="{{route('apostila5', ['unidade34', 'hierarchy'])}}" data-etapa="hierarchy"><i class="material-icons suave">record_voice_over</i>Hierarchy</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade34', 'inspector'])}}" data-etapa="inspector"><i class="material-icons suave">record_voice_over</i>Inspector Window</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade34', 'asset_store'])}}" data-etapa="asset_store"><i class="material-icons suave">record_voice_over</i>Asset Store</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade34', 'importando_asset'])}}" data-etapa="importando_asset"><i class="material-icons suave">record_voice_over</i>Importando Asset</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!--UNIDADE 35-->
+                <li class="item" data-unidade="unidade35">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 35
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade35', 'asset'])}}" data-etapa="asset"><i class="material-icons suave">record_voice_over</i>Asset</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!--UNIDADE 36-->
+                <li class="item" data-unidade="unidade36">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 36
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade36', 'game_object'])}}" data-etapa="game_object"><i class="material-icons suave">record_voice_over</i>GameObject</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade36', 'componentes'])}}" data-etapa="componentes"><i class="material-icons suave">record_voice_over</i>Componentes</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 37-->
+                <li class="item" data-unidade="unidade37">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 37
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade37', 'importacao_asset'])}}" data-etapa="importacao_asset"><i class="material-icons suave">record_voice_over</i>Importacao de Assets</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!--UNIDADE 38-->
+                <li class="item" data-unidade="unidade38">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 38
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade38', 'scenes'])}}" data-etapa="scenes"><i class="material-icons suave">record_voice_over</i>Scenes</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!--UNIDADE 39-->
+                <li class="item" data-unidade="unidade39">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 39
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade39', 'sprite_renderer'])}}" data-etapa="sprite_renderer"><i class="material-icons suave">record_voice_over</i>Sprite Renderer</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade39', 'sprite_creator'])}}" data-etapa="sprite_creator"><i class="material-icons suave">record_voice_over</i>Sprite Creator</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade39', 'sprite_inspetor'])}}" data-etapa="sprite_inspetor"><i class="material-icons suave">record_voice_over</i>Sprite Inspetor</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!--UNIDADE 40-->
+                <li class="item" data-unidade="unidade40">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 40
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade40', 'asset_gameobject'])}}" data-etapa="asset_gameobject"><i class="material-icons suave">record_voice_over</i>Asset ao GameObject</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade40', 'tilemap'])}}" data-etapa="tilemap"><i class="material-icons suave">record_voice_over</i>Tilemap</a>
+                        </li>
+                    </ul>
+                </li>
+
+                 <!--UNIDADE 41-->
+                 <li class="item" data-unidade="unidade41">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 41
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade41', 'tile_palette'])}}" data-etapa="tile_palette"><i class="material-icons suave">record_voice_over</i>Tile Palette</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade41', 'tilemap_collider'])}}" data-etapa="tilemap_collider"><i class="material-icons suave">record_voice_over</i>Tilemap Collider</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--UNIDADE 42-->
+                <li class="item" data-unidade="unidade42">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 42
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade42', 'prefab'])}}" data-etapa="prefab"><i class="material-icons suave">record_voice_over</i>Prefab</a>
+                        </li>
+                    </ul>
+                </li>
+
+                 <!--UNIDADE 43-->
+                 <li class="item" data-unidade="unidade43">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 43
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade43', 'game_art'])}}" data-etapa="game_art"><i class="material-icons suave">record_voice_over</i>Game Art</a>
                         </li>
                     </ul>
                 </li>

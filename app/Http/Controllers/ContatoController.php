@@ -124,7 +124,7 @@ class ContatoController extends Controller
                           'telefone'   =>  $request->telefone,
                       );
               
-                   Mail::to('smtp@imugi.com.br')->send(new ContatoFranquia($data));
+                   Mail::to('contato@imugi.com.br')->send(new ContatoFranquia($data));
                    return back()->with('success', 'Email enviado com sucesso !');
             }
     }

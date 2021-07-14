@@ -290,7 +290,7 @@
                         <div class="d-inline-block margin-20px-bottom"><i class="icon-map text-white-2 icon-round-small bg-deep-green"></i></div>
                             <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">BELÉM CASTANHEIRAS / PA</div>
                             <p class="width-75 mx-auto">
-                            Rodovia BR 316, 940km, loja 1 e loja 2 -Castanheira <br> 
+                            Rodovia BR 316, 940km, loja 1 e loja 2 -Castanheiras <br> 
                             </p>
                         </div>
                     </div>
