@@ -2363,6 +2363,9 @@
                         <li>
                             <a href="{{route('apostila5', ['unidade43', 'game_art'])}}" data-etapa="game_art"><i class="material-icons suave">record_voice_over</i>Game Art</a>
                         </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade43', 'composicao_dinamica'])}}" data-etapa="composicao_dinamica"><i class="material-icons suave">record_voice_over</i>Composição Dinâmica</a>
+                        </li>
                     </ul>
                 </li>
             </ul>
