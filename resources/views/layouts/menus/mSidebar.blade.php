@@ -2368,6 +2368,36 @@
                         </li>
                     </ul>
                 </li>
+
+                <!--UNIDADE 44-->
+                <li class="item" data-unidade="unidade44">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 44
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade44', 'personagens_poses'])}}" data-etapa="personagens_poses"><i class="material-icons suave">record_voice_over</i>Personagens e Poses</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade44', 'poses_dinamicas'])}}" data-etapa="poses_dinamicas"><i class="material-icons suave">record_voice_over</i>Poses Dinâmicas</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!--UNIDADE 45-->
+                <li class="item" data-unidade="unidade45">
+                    <a class="click submenu">
+                        <i class="material-icons">flag</i> UNIT 45
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade45', 'linhas_movimento'])}}" data-etapa="linhas_movimento"><i class="material-icons suave">record_voice_over</i>Linhas de Movimento</a>
+                        </li>
+                        <li>
+                            <a href="{{route('apostila5', ['unidade45', 'velocidade_tensao_movimento'])}}" data-etapa="velocidade_tensao_movimento"><i class="material-icons suave">record_voice_over</i>Velocidade Movimento</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </li>
         <!-- APOSTILA MASTER OF LANGUAGE -->
