@@ -1240,3 +1240,13 @@ Route::get('/socio-investidor', 'ContatoController@socioInvestidor')->name('soci
 Route::get('/nosso-franqueado', 'ContatoController@nossoFranqueado')->name('nosso-franqueado');
 Route::post('/contato-socio', 'ContatoController@contatoSocioInvestidor')->name('contatoSocio');
 Route::post('/contato-franqueado', 'ContatoController@contatoFranqueado')->name('contatoFranqueado');
+
+//todos os usuarios
+Route::resource('/api-users', 'ApiUserController');
+//usuario especifico de acordo login
+Route::get('/api-login/{email}/{senha}', 'ApiUserController@login');
+//recuperar senha do usuario especifico de acordo email
+Route::get('/api-recuperar/{email}', 'ApiUserController@recuperar');
+Route::post('/api-frequencia', 'ApiUserController@frequencia');
+Route::post('/api-segundaVia', 'ApiUserController@segundaVia');
+Route::get('/api-notas/{matricula}', 'ApiUserController@notas');

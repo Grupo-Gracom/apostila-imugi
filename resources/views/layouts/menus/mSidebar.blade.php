@@ -2208,19 +2208,19 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade33', 'novo_projeto'])}}" data-etapa="novo_projeto"><i class="material-icons suave">record_voice_over</i>Criando um novo projeto 2D</a>
+                            <a href="{{route('apostila5', ['unidade33', 'novo_projeto'])}}" data-etapa="novo_projeto"><i class="material-icons suave">assignment</i>Criando um novo projeto 2D</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade33', 'interface'])}}" data-etapa="interface"><i class="material-icons suave">record_voice_over</i>Interface do Unity Editor</a>
+                            <a href="{{route('apostila5', ['unidade33', 'interface'])}}" data-etapa="interface"><i class="material-icons suave">assignment</i>Interface do Unity Editor</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade33', 'scene_view'])}}" data-etapa="scene"><i class="material-icons suave">record_voice_over</i>Scene View</a>
+                            <a href="{{route('apostila5', ['unidade33', 'scene_view'])}}" data-etapa="scene"><i class="material-icons suave">assignment</i>Scene View</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade33', 'game_view'])}}" data-etapa="game_view"><i class="material-icons suave">record_voice_over</i>Game View</a>
+                            <a href="{{route('apostila5', ['unidade33', 'game_view'])}}" data-etapa="game_view"><i class="material-icons suave">assignment</i>Game View</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade33', 'definindo_favoritos'])}}" data-etapa="definindo_favoritos"><i class="material-icons suave">record_voice_over</i>Definindo Favoritos</a>
+                            <a href="{{route('apostila5', ['unidade33', 'definindo_favoritos'])}}" data-etapa="definindo_favoritos"><i class="material-icons suave">assignment</i>Definindo Favoritos</a>
                         </li>
                     </ul>
                 </li>
@@ -2231,16 +2231,16 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade34', 'hierarchy'])}}" data-etapa="hierarchy"><i class="material-icons suave">record_voice_over</i>Hierarchy</a>
+                            <a href="{{route('apostila5', ['unidade34', 'hierarchy'])}}" data-etapa="hierarchy"><i class="material-icons suave">assignment</i>Hierarchy</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade34', 'inspector'])}}" data-etapa="inspector"><i class="material-icons suave">record_voice_over</i>Inspector Window</a>
+                            <a href="{{route('apostila5', ['unidade34', 'inspector'])}}" data-etapa="inspector"><i class="material-icons suave">assignment</i>Inspector Window</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade34', 'asset_store'])}}" data-etapa="asset_store"><i class="material-icons suave">record_voice_over</i>Asset Store</a>
+                            <a href="{{route('apostila5', ['unidade34', 'asset_store'])}}" data-etapa="asset_store"><i class="material-icons suave">assignment</i>Asset Store</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade34', 'importando_asset'])}}" data-etapa="importando_asset"><i class="material-icons suave">record_voice_over</i>Importando Asset</a>
+                            <a href="{{route('apostila5', ['unidade34', 'importando_asset'])}}" data-etapa="importando_asset"><i class="material-icons suave">assignment</i>Importando Asset</a>
                         </li>
                     </ul>
                 </li>
@@ -2252,7 +2252,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade35', 'asset'])}}" data-etapa="asset"><i class="material-icons suave">record_voice_over</i>Asset</a>
+                            <a href="{{route('apostila5', ['unidade35', 'asset'])}}" data-etapa="asset"><i class="material-icons suave">assignment</i>Asset</a>
                         </li>
                     </ul>
                 </li>
@@ -2264,10 +2264,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade36', 'game_object'])}}" data-etapa="game_object"><i class="material-icons suave">record_voice_over</i>GameObject</a>
+                            <a href="{{route('apostila5', ['unidade36', 'game_object'])}}" data-etapa="game_object"><i class="material-icons suave">assignment</i>GameObject</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade36', 'componentes'])}}" data-etapa="componentes"><i class="material-icons suave">record_voice_over</i>Componentes</a>
+                            <a href="{{route('apostila5', ['unidade36', 'componentes'])}}" data-etapa="componentes"><i class="material-icons suave">assignment</i>Componentes</a>
                         </li>
                     </ul>
                 </li>
@@ -2278,7 +2278,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade37', 'importacao_asset'])}}" data-etapa="importacao_asset"><i class="material-icons suave">record_voice_over</i>Importacao de Assets</a>
+                            <a href="{{route('apostila5', ['unidade37', 'importacao_asset'])}}" data-etapa="importacao_asset"><i class="material-icons suave">assignment</i>Importacao de Assets</a>
                         </li>
                     </ul>
                 </li>
@@ -2290,7 +2290,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade38', 'scenes'])}}" data-etapa="scenes"><i class="material-icons suave">record_voice_over</i>Scenes</a>
+                            <a href="{{route('apostila5', ['unidade38', 'scenes'])}}" data-etapa="scenes"><i class="material-icons suave">assignment</i>Scenes</a>
                         </li>
                     </ul>
                 </li>
@@ -2302,13 +2302,13 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade39', 'sprite_renderer'])}}" data-etapa="sprite_renderer"><i class="material-icons suave">record_voice_over</i>Sprite Renderer</a>
+                            <a href="{{route('apostila5', ['unidade39', 'sprite_renderer'])}}" data-etapa="sprite_renderer"><i class="material-icons suave">assignment</i>Sprite Renderer</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade39', 'sprite_creator'])}}" data-etapa="sprite_creator"><i class="material-icons suave">record_voice_over</i>Sprite Creator</a>
+                            <a href="{{route('apostila5', ['unidade39', 'sprite_creator'])}}" data-etapa="sprite_creator"><i class="material-icons suave">assignment</i>Sprite Creator</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade39', 'sprite_inspetor'])}}" data-etapa="sprite_inspetor"><i class="material-icons suave">record_voice_over</i>Sprite Inspetor</a>
+                            <a href="{{route('apostila5', ['unidade39', 'sprite_inspetor'])}}" data-etapa="sprite_inspetor"><i class="material-icons suave">assignment</i>Sprite Inspetor</a>
                         </li>
                     </ul>
                 </li>
@@ -2320,10 +2320,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade40', 'asset_gameobject'])}}" data-etapa="asset_gameobject"><i class="material-icons suave">record_voice_over</i>Asset ao GameObject</a>
+                            <a href="{{route('apostila5', ['unidade40', 'asset_gameobject'])}}" data-etapa="asset_gameobject"><i class="material-icons suave">assignment</i>Asset ao GameObject</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade40', 'tilemap'])}}" data-etapa="tilemap"><i class="material-icons suave">record_voice_over</i>Tilemap</a>
+                            <a href="{{route('apostila5', ['unidade40', 'tilemap'])}}" data-etapa="tilemap"><i class="material-icons suave">assignment</i>Tilemap</a>
                         </li>
                     </ul>
                 </li>
@@ -2335,10 +2335,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade41', 'tile_palette'])}}" data-etapa="tile_palette"><i class="material-icons suave">record_voice_over</i>Tile Palette</a>
+                            <a href="{{route('apostila5', ['unidade41', 'tile_palette'])}}" data-etapa="tile_palette"><i class="material-icons suave">assignment</i>Tile Palette</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade41', 'tilemap_collider'])}}" data-etapa="tilemap_collider"><i class="material-icons suave">record_voice_over</i>Tilemap Collider</a>
+                            <a href="{{route('apostila5', ['unidade41', 'tilemap_collider'])}}" data-etapa="tilemap_collider"><i class="material-icons suave">assignment</i>Tilemap Collider</a>
                         </li>
                     </ul>
                 </li>
@@ -2349,7 +2349,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade42', 'prefab'])}}" data-etapa="prefab"><i class="material-icons suave">record_voice_over</i>Prefab</a>
+                            <a href="{{route('apostila5', ['unidade42', 'prefab'])}}" data-etapa="prefab"><i class="material-icons suave">assignment</i>Prefab</a>
                         </li>
                     </ul>
                 </li>
@@ -2361,10 +2361,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade43', 'game_art'])}}" data-etapa="game_art"><i class="material-icons suave">record_voice_over</i>Game Art</a>
+                            <a href="{{route('apostila5', ['unidade43', 'game_art'])}}" data-etapa="game_art"><i class="material-icons suave">assignment</i>Game Art</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade43', 'composicao_dinamica'])}}" data-etapa="composicao_dinamica"><i class="material-icons suave">record_voice_over</i>Composição Dinâmica</a>
+                            <a href="{{route('apostila5', ['unidade43', 'composicao_dinamica'])}}" data-etapa="composicao_dinamica"><i class="material-icons suave">assignment</i>Composição Dinâmica</a>
                         </li>
                     </ul>
                 </li>
@@ -2376,10 +2376,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade44', 'personagens_poses'])}}" data-etapa="personagens_poses"><i class="material-icons suave">record_voice_over</i>Personagens e Poses</a>
+                            <a href="{{route('apostila5', ['unidade44', 'personagens_poses'])}}" data-etapa="personagens_poses"><i class="material-icons suave">assignment</i>Personagens e Poses</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade44', 'poses_dinamicas'])}}" data-etapa="poses_dinamicas"><i class="material-icons suave">record_voice_over</i>Poses Dinâmicas</a>
+                            <a href="{{route('apostila5', ['unidade44', 'poses_dinamicas'])}}" data-etapa="poses_dinamicas"><i class="material-icons suave">assignment</i>Poses Dinâmicas</a>
                         </li>
                     </ul>
                 </li>
@@ -2391,10 +2391,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{route('apostila5', ['unidade45', 'linhas_movimento'])}}" data-etapa="linhas_movimento"><i class="material-icons suave">record_voice_over</i>Linhas de Movimento</a>
+                            <a href="{{route('apostila5', ['unidade45', 'linhas_movimento'])}}" data-etapa="linhas_movimento"><i class="material-icons suave">assignment</i>Linhas de Movimento</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila5', ['unidade45', 'velocidade_tensao_movimento'])}}" data-etapa="velocidade_tensao_movimento"><i class="material-icons suave">record_voice_over</i>Velocidade Movimento</a>
+                            <a href="{{route('apostila5', ['unidade45', 'velocidade_tensao_movimento'])}}" data-etapa="velocidade_tensao_movimento"><i class="material-icons suave">assignment</i>Velocidade Movimento</a>
                         </li>
                     </ul>
                 </li>
