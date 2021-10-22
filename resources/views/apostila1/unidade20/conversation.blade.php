@@ -26,8 +26,11 @@
 					<p><b>Akira :</b> My pleasure!</p>												
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit20/ilust_20.jpg') }}" alt="Akira and Maciel">
+					<img src="{{ asset('assets/img/playgo/unit20/ilust_20.jpg') }}" alt="Akira and Maciel" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo20.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

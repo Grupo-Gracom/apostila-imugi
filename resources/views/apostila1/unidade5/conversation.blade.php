@@ -25,8 +25,11 @@
 					<p><b>Sophia : </b>  I’m sorry Lee, but Beatriz is right. Burn tool is used when an area in your picture is bright and you want to make it darker.</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit5/ilust_05.jpg') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit5/ilust_05.jpg') }}" alt="Garotos festejando" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo5.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

@@ -26,8 +26,11 @@
 				<p><b>Angelique :</b> Basically any shape you can imagine, Marciel. I used shape tool to create my site. I had to use it to make the header, search menu, publication area and the	“who am i” section.</p>
 				<p><b>Akira :</b> Great! Thank you all for your contribution to the lesson.</p>								
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit18/ilust_18.jpg') }}" alt="Akira and Maciel">
+					<img src="{{ asset('assets/img/playgo/unit18/ilust_18.jpg') }}" alt="Akira and Maciel" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo18.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

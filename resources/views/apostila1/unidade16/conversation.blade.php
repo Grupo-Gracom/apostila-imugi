@@ -26,8 +26,11 @@
 					<p><b>Akira :</b> Great, guys! Thank you all for sharing. You are all very interesting!</p>				
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit16/ilust_16.jpg') }}" alt="New class">
+					<img src="{{ asset('assets/img/playgo/unit16/ilust_16.jpg') }}" alt="New class" class=img-e>
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo16.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

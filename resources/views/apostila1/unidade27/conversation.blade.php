@@ -24,8 +24,11 @@
 					<p>You can edit the videos on photoshop just like photos. You can control settings like levels, curves, brightness, contrast and more. There is much to learn.</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit27/ilust_27.jpg') }}" alt="Victor">
+					<img src="{{ asset('assets/img/playgo/unit27/ilust_27.jpg') }}" alt="Victor" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo27.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

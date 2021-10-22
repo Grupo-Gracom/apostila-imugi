@@ -24,8 +24,11 @@
 					<p><b>Marcelo :</b> Well, I can say that it is really cool! That’s for sure. And you can do a lot of things with it like creating vintage videos using the black & white tool in the adjustment panel. You can play around with color balance such as brightness/contrast and vibrance. Basically, to make a long story short, you can use the adjustment panel to create amazing effects.</p>
 				</div>				
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit30/ilust_30.jpg') }}" alt="Victor and Marcelo">
+					<img src="{{ asset('assets/img/playgo/unit30/ilust_30.jpg') }}" alt="Victor and Marcelo" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo30.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

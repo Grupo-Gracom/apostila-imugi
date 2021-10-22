@@ -27,8 +27,11 @@
 					<p><b>Victor :</b> Thank you laura! You’re the best!</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit29/ilust_29.jpg') }}" alt="Leon, Laura and Victor">
+					<img src="{{ asset('assets/img/playgo/unit29/ilust_29.jpg') }}" alt="Leon, Laura and Victor" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo29.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

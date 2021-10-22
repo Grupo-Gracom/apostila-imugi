@@ -26,8 +26,11 @@
 					<p><b>Beatriz:</b>  Nice to meet you all! We have a multicultural class! I’m very happy to be your teacher during these classes.</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit10/ilust_10.jpg') }}" alt="Alunos se apresentando">
+					<img src="{{ asset('assets/img/playgo/unit10/ilust_10.jpg') }}" alt="Alunos se apresentando" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo10.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

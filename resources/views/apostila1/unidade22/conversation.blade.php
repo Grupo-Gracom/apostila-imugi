@@ -24,8 +24,11 @@
 					<p><b>Kylie :</b> Hi! My name’s Kylie and i’m a 26-year-old photographer from Australia. I love drawing too! That’s why i’m here.</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit22/ilust_22.jpg') }}" alt="Marina, Rafael, Marcelo and Kylie">
+					<img src="{{ asset('assets/img/playgo/unit22/ilust_22.jpg') }}" alt="Marina, Rafael, Marcelo and Kylie" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo22.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

@@ -28,8 +28,11 @@
 					<p><b>Medina : </b> You’re welcome.</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit12/ilust_12.jpg') }}" alt="Medina e Nicolas">
+					<img src="{{ asset('assets/img/playgo/unit12/ilust_12.jpg') }}" alt="Medina e Nicolas" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo12.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

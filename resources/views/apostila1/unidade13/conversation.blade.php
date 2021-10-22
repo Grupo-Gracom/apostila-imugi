@@ -25,8 +25,11 @@
 					<p><b>Beatriz : </b> Basically, everything you can imagine! You can create 3d shapes, add borders, colors, textures, images, vectors and much more!</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit13/ilust_13.jpg') }}" alt="Beatriz, Lucy and Adan">
+					<img src="{{ asset('assets/img/playgo/unit13/ilust_13.jpg') }}" alt="Beatriz, Lucy and Adan" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo13.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

@@ -26,8 +26,11 @@
 					<p><b>Professor Sophia Jones :</b> Good question, Katia! I choose to use Photoshop because it offers the most advanced and complete editing tools.</p>
 				</div>
 				<figure class="full">
-					<img src="{{ asset('assets/img/playgo/unit3/ilust_03.jpg') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit3/ilust_03.jpg') }}" alt="Garotos festejando" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo3.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

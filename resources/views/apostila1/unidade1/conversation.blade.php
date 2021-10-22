@@ -25,8 +25,11 @@
 					<p><b>Professor Ludemann :</b> Thank you João. You are correct! Photoshop is the ideal software to use for image edition.</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit1/unidade1.png') }}" alt="Garotos festejando" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo1.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

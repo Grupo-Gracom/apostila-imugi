@@ -26,8 +26,11 @@
 					<p><b>Sophia :</b> You’re absolutely correct, Carlos! It is a very common tool used by many people to edit imperfections like acne and scars.</p>
 				</div>
 				<figure class="full">
-					<img src="{{ asset('assets/img/playgo/unit6/ilust_06.jpg') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit6/ilust_06.jpg') }}" alt="Garotos festejando" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo6.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

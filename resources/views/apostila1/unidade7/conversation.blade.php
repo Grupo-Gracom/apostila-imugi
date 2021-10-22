@@ -25,8 +25,11 @@
 					<p><b>Sophia :</b>  Great comments, everybody! I am really happy to see you all understand a little about the Adjustment Panel.</p>				
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit7/ilust_07.jpg') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit7/ilust_07.jpg') }}" alt="Garotos festejando" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo7.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

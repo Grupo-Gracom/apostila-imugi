@@ -27,8 +27,11 @@
 					<p><b>Beatriz: </b> Very good class! You are all amazing students!</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit14/ilust_14.jpg') }}" alt="Beatriz, Medina e Adam">
+					<img src="{{ asset('assets/img/playgo/unit14/ilust_14.jpg') }}" alt="Beatriz, Medina e Adam" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo14.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

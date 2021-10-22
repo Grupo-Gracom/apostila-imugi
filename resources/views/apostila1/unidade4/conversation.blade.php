@@ -25,8 +25,11 @@
 					<p><b>Kate : </b>  Thank you very much Carlos!</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit4/pagina-1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit4/pagina-1.png') }}" alt="Garotos festejando" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo4.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

@@ -26,8 +26,11 @@
 					<p><b>Akira :</b> In addition to changing the spacing between the letters, you can also adjust the size of the text, as well as make the lett ers bold, italic or underlined.</p>												
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit19/ilust_19.jpg') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit19/ilust_19.jpg') }}" alt="Garotos festejando" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo19.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

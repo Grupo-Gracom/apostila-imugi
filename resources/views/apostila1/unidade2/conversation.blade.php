@@ -26,8 +26,11 @@
 					<p><b>Professor Ludemann :</b> Thank you! You and João are great examples of the importance of Photoshop for professionals in the area of graphic design production.</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit2/unidade1.png') }}" alt="Garotos festejando">
+					<img src="{{ asset('assets/img/playgo/unit2/unidade1.png') }}" alt="Garotos festejando" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo2.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

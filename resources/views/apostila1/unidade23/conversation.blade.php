@@ -26,8 +26,11 @@
 					<p><b>Rafael :</b> Got it! Thanks guys!</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit23/ilust_23.jpg') }}" alt="Sarah, Rafael and Kylie">
+					<img src="{{ asset('assets/img/playgo/unit23/ilust_23.jpg') }}" alt="Sarah, Rafael and Kylie" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo23.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

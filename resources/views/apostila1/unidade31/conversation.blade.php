@@ -26,8 +26,11 @@
 					<p><b>Laura :</b> It’s on the upper left of the timeline panel.</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit31/ilust_31.jpg') }}" alt="Victor and Stefany">
+					<img src="{{ asset('assets/img/playgo/unit31/ilust_31.jpg') }}" alt="Victor and Stefany" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo31.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

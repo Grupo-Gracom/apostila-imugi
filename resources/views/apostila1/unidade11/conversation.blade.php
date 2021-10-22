@@ -25,8 +25,11 @@
 					<p><b>ADAM : </b>   I understand! Thank you very much teacher!</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit11/ilust_11.jpg') }}" alt="Beatriz and Adam">
+					<img src="{{ asset('assets/img/playgo/unit11/ilust_11.jpg') }}" alt="Beatriz and Adam" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo11.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

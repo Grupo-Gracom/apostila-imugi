@@ -26,8 +26,11 @@
 					<p><b>Victor :</b> Way to go! You see? You guys are brilliant!</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit32/ilust_32.jpg') }}" alt="Victor and Marcelo">
+					<img src="{{ asset('assets/img/playgo/unit32/ilust_32.jpg') }}" alt="Victor and Marcelo" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo32.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

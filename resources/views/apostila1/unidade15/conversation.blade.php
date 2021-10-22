@@ -25,8 +25,11 @@
 					<p><b>Akira Suzuki : </b>  I hope to help all of you understand how photoshop assists web designers.</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit15/ilust_15.jpg') }}" alt="Akira suzuki">
+					<img src="{{ asset('assets/img/playgo/unit15/ilust_15.jpg') }}" alt="Akira suzuki" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo15.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

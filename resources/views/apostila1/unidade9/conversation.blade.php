@@ -27,8 +27,11 @@
 					<p><b>Beatriz:</b>  You don’t need to be formal, Nicolas! Call me Bia. And yes, I have a hobby. I love to draw and appreciate art!</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit9/ilust_09.jpg') }}" alt="Beatriz">
+					<img src="{{ asset('assets/img/playgo/unit9/ilust_09.jpg') }}" alt="Beatriz" class="img-e">
 				</figure>
+				<div class="video-pratica">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo9.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>

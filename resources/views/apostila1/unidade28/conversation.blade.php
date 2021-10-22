@@ -26,6 +26,9 @@
 				<figure>
 					<img src="{{ asset('assets/img/playgo/unit28/ilust_28.jpg') }}" alt="Stefany, Leon and Laura">
 				</figure>
+				<div class="video-pratica" class="img-e">
+					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo28.mp4"></video>
+				</div>
 			</div>
 		</div>
 	</main>
