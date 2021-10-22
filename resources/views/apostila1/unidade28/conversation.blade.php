@@ -24,9 +24,9 @@
 					<p><b>Marcelo :</b> Yo! I’m Marcelo, but you guys can call me celo. I’m 24 and I make youtube videos. They’re very funny. You all should watch them.</p>
 				</div>
 				<figure>
-					<img src="{{ asset('assets/img/playgo/unit28/ilust_28.jpg') }}" alt="Stefany, Leon and Laura">
+					<img src="{{ asset('assets/img/playgo/unit28/ilust_28.jpg') }}" alt="Stefany, Leon and Laura" class="img-e">
 				</figure>
-				<div class="video-pratica" class="img-e">
+				<div class="video-pratica">
 					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo28.mp4"></video>
 				</div>
 			</div>
