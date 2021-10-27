@@ -29,7 +29,7 @@
 					<img src="{{ asset('assets/img/playgo/unit10/ilust_10.jpg') }}" alt="Alunos se apresentando" class="img-e">
 				</figure>
 				<div class="video-pratica">
-					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo10.mp4"></video>
+					<video poster="{{ asset('assets/portal/images/play-video.jpg') }}" controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo10.mp4"></video>
 				</div>
 			</div>
 		</div>

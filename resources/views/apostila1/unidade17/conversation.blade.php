@@ -30,7 +30,7 @@
 					<img src="{{ asset('assets/img/playgo/unit17/ilust_17.jpg') }}" alt="Akira and Angelique" class="img-e">
 				</figure>
 				<div class="video-pratica">
-					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo17.mp4"></video>
+					<video controls="" poster="{{ asset('assets/portal/images/play-video.jpg') }}"  controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo17.mp4"></video>
 				</div>
 			</div>
 		</div>

@@ -29,7 +29,7 @@
 					<img src="{{ asset('assets/img/playgo/unit32/ilust_32.jpg') }}" alt="Victor and Marcelo" class="img-e">
 				</figure>
 				<div class="video-pratica">
-					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo32.mp4"></video>
+					<video poster="{{ asset('assets/portal/images/play-video.jpg') }}"  controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo32.mp4"></video>
 				</div>
 			</div>
 		</div>

@@ -30,7 +30,7 @@
 					<img src="{{ asset('assets/img/playgo/unit9/ilust_09.jpg') }}" alt="Beatriz" class="img-e">
 				</figure>
 				<div class="video-pratica">
-					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo9.mp4"></video>
+					<video poster="{{ asset('assets/portal/images/play-video.jpg') }}" controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo9.mp4"></video>
 				</div>
 			</div>
 		</div>

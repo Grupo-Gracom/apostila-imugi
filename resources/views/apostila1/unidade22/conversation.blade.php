@@ -27,7 +27,7 @@
 					<img src="{{ asset('assets/img/playgo/unit22/ilust_22.jpg') }}" alt="Marina, Rafael, Marcelo and Kylie" class="img-e">
 				</figure>
 				<div class="video-pratica">
-					<video controls="" controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo22.mp4"></video>
+					<video controls="" poster="{{ asset('assets/portal/images/play-video.jpg') }}"  controlslist="nodownload" disablepictureinpicture="" src="https://fpeduc.com/assets/videos/playgo22.mp4"></video>
 				</div>
 			</div>
 		</div>
