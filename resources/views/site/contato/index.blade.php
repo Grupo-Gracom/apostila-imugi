@@ -379,10 +379,18 @@
                             <input type="text" class="telefone bg-transparent border-color-medium-dark-gray medium-input" name="telefone" placeholder="Telefone">
                         </div>
                         <div class="col-12 col-lg-6">
-                            <input type="text" class="bg-transparent border-color-medium-dark-gray medium-input" name="estado" placeholder="Estado">
+                        <select name="estado" id="estado" class="telefone bg-transparent border-color-medium-dark-gray medium-input">
+            @foreach($estados as $estado)
+                <option value="{{$estado->id_estados}}">{{$estado->estado_nome}}</option>
+            @endforeach
+            </select>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <input type="text" class="bg-transparent border-color-medium-dark-gray medium-input" name="cidade" placeholder="Cidade">
+                        <select name="cidade" id="unidade" class="bg-transparent border-color-medium-dark-gray medium-input">
+                @foreach($unidades as $u)
+                <option value="{{ $u->unidade_id }}">{{ $u->unidade_nome }}</option>
+                @endforeach
+            </select>
                         </div>
                         <div class="col-12">
                             <textarea class="bg-transparent border-color-medium-dark-gray medium-textarea" name="mensagem" rows="6" placeholder="escreva sobre sua dúvida"></textarea>
@@ -414,4 +422,39 @@
             </div>
         </section>
         @include('layouts.site.footer')
+        <script>
+             $('#unidade').hide();
+        $(document).ready(function () {
+           $('#estado').change(function () {
+             var id = $(this).val();
+
+             $('#unidade').find('option').not(':first').remove();
+             
+
+             $.ajax({
+                url:'https://site.imugi.com.br/unidades/'+id,
+                type:'get',
+                dataType:'json',
+                success:function (response) {
+                    var len = 0;
+                    if (response.data != null) {
+                        len = response.data.length;
+                    }
+
+                    if (len>0) {
+                        $("#unidade").html('');
+                        for (var i = 0; i<len; i++) {
+                             var unidade_id = response.data[i].unidade_id;
+                             var unidade_nome = response.data[i].unidade_nome;
+
+                             var option = "<option value='"+unidade_id+"'>"+unidade_nome+"</option>"; 
+                             $('#unidade').show();
+                             $("#unidade").append(option);
+                        }
+                    }
+                }
+             })
+           });
+        });
+        </script>
  @endsection

@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Unidade;
 use App\User;
+use App\Estado;
+use App\Lead;
+use App\UnidadesImugi;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
@@ -26,7 +29,9 @@ class ContatoController extends Controller
 
     public function siteContato()
     {
-        return view('site.contato.index');
+        $estados = Estado::orderBy('estado_nome')->get();
+        $unidades = UnidadesImugi::orderBy("unidade_nome")->get();
+        return view('site.contato.index',compact('estados','unidades'));
     }
 
     public function franquia()
@@ -53,6 +58,9 @@ class ContatoController extends Controller
             'cidade'  =>  'required',
             'mensagem' =>  'required'
            ]);
+
+           $unidade = UnidadesImugi::where("unidade_id", $request->unidade)->get();
+           $estado = Estado::where("id_estados", $request->estado)->get();
       
               $data = array(
                   'nome' =>  $request->nome,
@@ -61,9 +69,25 @@ class ContatoController extends Controller
                   'cidade'   =>  $request->cidade,
                   'mensagem' =>   $request->mensagem
               );
+            
+              $lead = new Lead();
+              $lead->nome = $request->nome;
+              $lead->telefone = $request->telefone;
+              $lead->cidade = $request->cidade;
+              $lead->status = 1;
+              $lead->data_cadastro = date("Y-m-d");
+              $lead->data_update = date("Y-m-d");
+              $lead->estado = $request->estado;
+
+              if($lead->save()){
+                return back()->with('success', 'Email enviado com sucesso !');
+              }else{
+                return back()->with('error', 'Ouve Error :(');
+              }
+
+              Mail::to('contato@imugi.com.br')->send(new SendMail($data));
       
-           Mail::to('contato@imugi.com.br')->send(new SendMail($data));
-           return back()->with('success', 'Email enviado com sucesso !');
+          
       
     }
         

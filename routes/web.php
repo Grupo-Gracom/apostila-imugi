@@ -1250,3 +1250,11 @@ Route::get('/api-recuperar/{email}', 'ApiUserController@recuperar');
 Route::post('/api-frequencia', 'ApiUserController@frequencia');
 Route::post('/api-segundaVia', 'ApiUserController@segundaVia');
 Route::get('/api-notas/{matricula}', 'ApiUserController@notas');
+
+//Rotas API
+Route::get('/api-leads/{unidade?}', 'ApiController@index');
+Route::get('/quantidade', 'ApiController@quantidade');
+Route::get('unidades/{id}', 'ApiController@unidadeEstado');
+Route::get('/api-users/{matricula?}', 'ApiController@apiAluno');
+Route::post('/editar', 'ApiController@editar');
+Route::get('/leads-estado', 'ApiController@leadsEstado');
