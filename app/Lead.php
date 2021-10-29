@@ -13,12 +13,11 @@ class Lead extends Model
         'id',
         'nome',
         'telefone',
-        'email',
-        'como_conheceu',
         'cidade',
         'status',
         'data_cadastro',
-        'data_update'
+        'data_update',
+        'estado'
     ];
     
     public function estado(){
@@ -26,6 +25,6 @@ class Lead extends Model
     }
 
     public function unidade(){
-        return $this->hasOne("App\Unidade", "unidade_id", "cidade");
+        return $this->hasOne("App\UnidadesImugi", "unidade_id", "cidade");
     }
 }

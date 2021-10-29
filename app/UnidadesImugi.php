@@ -19,4 +19,8 @@ class UnidadesImugi extends Model
         'unidade_estado'
     ];
 
+    public function alunos(){
+        return $this->hasMany("App\Lead", "cidade", "unidade_id");
+    }
+
 }

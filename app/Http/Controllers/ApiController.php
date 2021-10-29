@@ -31,6 +31,16 @@ class ApiController extends Controller
         return response()->json($quantidade);
     }
 
+    public function leadsUnidade($estado = null){
+        if($estado){
+            $unidadeLead = UnidadesImugi::with("alunos")->where("unidade_estado",$estado)->get();
+        }else{
+            $unidadeLead = UnidadesImugi::with("alunos")->get();
+        }
+        
+        return response()->json($unidadeLead);
+    }
+
     public function unidadeEstado($id)
     {
         $data = UnidadesImugi::where('unidade_estado',$id)->get();
