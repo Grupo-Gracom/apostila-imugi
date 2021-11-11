@@ -1259,3 +1259,4 @@ Route::get('/api-users/{matricula?}', 'ApiController@apiAluno');
 Route::post('/editar', 'ApiController@editar');
 Route::get('/leads-estado', 'ApiController@leadsEstado');
 Route::get('/leads-unidades/{estado?}', 'ApiController@leadsUnidade');
+Route::post('/consultar-periodo', 'ApiController@carregarPeriodo');

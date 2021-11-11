@@ -30,8 +30,8 @@ class ApiUserController extends Controller
             $mail->CharSet    = 'UTF-8';
             $mail->Host       = 'mail.imugi.com.br';                  // Set the SMTP server to send through
             $mail->SMTPAuth   = true;                               // Enable SMTP authentication
-            $mail->Username   = 'contato@imugi.com.br';                // SMTP username
-            $mail->Password   = 'NlRD&ykap';                       // SMTP password
+            $mail->Username   = 'recovery.password@imugi.com.br';                // SMTP username
+            $mail->Password   = '93lr5yzIfZ';                       // SMTP password
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;                               // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 

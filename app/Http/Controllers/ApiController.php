@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use DatePeriod;
+use DateTime;
+use DateInterval;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\User;
@@ -22,8 +25,17 @@ class ApiController extends Controller
     }
 
     public function quantidade(){
+        $quantidadeMes = [];
+        $quantidadeTotal = [];
+        $dataAtual = date("Y-m");
         $quantidade = lead::where("status", 1)->count();
-        return response()->json($quantidade);
+        $leadsMes = Lead::where("data_cadastro", "like", $dataAtual."%")->count();
+        array_push($quantidadeTotal, $quantidade);
+        array_push($quantidadeMes, $leadsMes);
+       
+        $dados["quantidadeTotal"] = $quantidadeTotal;
+        $dados["quantidadeMes"] = $quantidadeMes;
+        return $dados;
     }
 
     public function leadsEstado(){
@@ -81,5 +93,45 @@ class ApiController extends Controller
 
         }
 
+    }
+
+    public function carregarPeriodo(Request $request)
+    {    
+
+        $anoAtual = date("Y");
+        $mesAtual = date("m");
+
+        if($request->data_inicio == "" && $request->data_fim == ""){
+            $period = new DatePeriod(
+                new DateTime($anoAtual.'-'.$mesAtual),
+                new DateInterval('P1D'),
+                new DateTime($anoAtual.'-'.($mesAtual + 1))
+            );
+        }else{
+            $period = new DatePeriod(
+                new DateTime($request->data_inicio),
+                new DateInterval('P1D'),
+                new DateTime($request->data_fim)
+            );
+        }
+        
+        $volumeLabels = [];
+        $quantidadeTotal = [];
+        
+            
+
+        foreach ($period as $key => $value) {
+            $label = $value->format('Y-m-d');
+            $leads = Lead::where("data_cadastro", "like", $label."%")->count();
+            array_push($volumeLabels, $value->format('d-m-Y'));
+            array_push($quantidadeTotal, $leads);
+
+        }
+   
+
+        $dados["volumeLabels"] = $volumeLabels;
+        $dados["quantidadeTotal"] = $quantidadeTotal;
+
+        return $dados;
     }
 }
