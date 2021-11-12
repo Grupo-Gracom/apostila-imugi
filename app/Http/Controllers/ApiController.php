@@ -39,13 +39,24 @@ class ApiController extends Controller
     }
 
     public function leadsEstado(){
-        $quantidade = Estado::with("quantidade")->get();
+        $quantidade = Estado::with(array('quantidade' => function($query){
+            $mesAtual = date("Y-m");
+            $query->where('data_cadastro', "like", $mesAtual."%");
+        }))->get();
+
+        
         return response()->json($quantidade);
     }
 
     public function leadsUnidade($estado = null){
         if($estado){
-            $unidadeLead = UnidadesImugi::with("alunos")->where("unidade_estado",$estado)->get();
+           
+           // $unidadeLead = UnidadesImugi::with("alunos")->where("unidade_estado",$estado)->get();
+            $unidadeLead = UnidadesImugi::where("unidade_estado",$estado)->with(array('alunos' => function($query){
+                 $mesAtual = date("Y-m");
+                $query->where('data_cadastro', "like", $mesAtual."%");
+            }))->get();
+        
         }else{
             $unidadeLead = UnidadesImugi::with("alunos")->get();
         }
