@@ -12,13 +12,13 @@
                                 <h4 class="titulo_franquia_cotista text-white">
                                     Seja nosso <br> Franqueado ou <br> Sócio Cotista 
                                 </h4>
-                                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=554184608944" target="_blank" class="btn falar-franquia"> <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i> Atendimento via WhatsApp</a>
+                                <!-- <a href="https://api.whatsapp.com/send?1=pt_BR&phone=554184608944" target="_blank" class="btn falar-franquia"> <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i> Atendimento via WhatsApp</a> -->
                             </div>
                         </div>
                     </div>
                 </div>
 </section>
-<img src="{{asset('assets/site/images/seta.png')}}" alt="" class="seta_franquia">
+<!-- <img src="{{asset('assets/site/images/seta.png')}}" alt="" class="seta_franquia"> -->
 <section class="wow fadeIn pd-quem_somos" style="padding: 50px 0!important; margin-top:80px!important;">
                 <div class="container"> 
                     <div class="row align-items-center">
@@ -338,14 +338,44 @@ de todo o negócio e ficará responsável por
                                     <form method="POST" action="{{route('contatoFranquia')}}">
                                     {{ csrf_field() }}
                                         <div class="form-group">
-                                            <input type="text" class="form-control btn_lead" name="nome" placeholder="Insira seu nome e sobrenome">
+                                            <input type="text" class="form-control" name="nome" placeholder="Insira seu nome e sobrenome">
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" class="form-control btn_lead" name="email" placeholder="Insira o seu E-mail">
+                                            <input type="email" class="form-control" name="email" placeholder="Insira o seu E-mail">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="telefone form-control btn_lead" name="telefone" placeholder="Seu Celular com DDD">
+                                            <input type="text" class="telefone form-control" name="telefone" placeholder="Seu Celular com DDD">
                                         </div>
+                                        <div class="row">
+                    <div class="col-12 col-lg-12">
+                    <select name="conheceu_imugi" class="form-control" required="">
+                    <option value="">Como Conheceu a Imugi</option>
+                    <option value="Rádio">Rádio</option>
+                    <option value="Shopping">Shopping</option>
+                    <option value="Site">Site</option>
+                    <option value="Indicação">Indicação</option>
+                    <option value="Rede Social">Rede Social</option>
+                </select>
+                                </div>
+                        </div>
+                                        <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <select name="estado" id="estado" class="form-control">
+                                @foreach($estados as $estado)
+                                <option value="{{$estado->id_estados}}">{{$estado->estado_nome}}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <select name="cidade" id="unidade" class="form-control">
+                                @foreach($unidades as $u)
+                                <option value="{{ $u->unidade_id }}">{{ $u->unidade_nome }}</option>
+                                @endforeach
+                            </select>
+                        </div>
+
+                    </div>
+                   
                                         <div class="form-group">
                                             <div style="float:right;">
                                                 <input type="submit" class="btn_submit_franquia">
@@ -356,6 +386,41 @@ de todo o negócio e ficará responsável por
                         </div>
                     </div>
                 </div>
-            </section>
+            </section><script>
+             $('#unidade').hide();
+        $(document).ready(function () {
+           $('#estado').change(function () {
+             var id = $(this).val();
+
+             $('#unidade').find('option').not(':first').remove();
+             
+
+             $.ajax({
+                url:'https://site.imugi.com.br/unidades/'+id,
+                type:'get',
+                dataType:'json',
+                success:function (response) {
+                    var len = 0;
+                    if (response.data != null) {
+                        len = response.data.length;
+                    }
+
+                    if (len>0) {
+                        $("#unidade").html('');
+                        for (var i = 0; i<len; i++) {
+                             var unidade_id = response.data[i].unidade_id;
+                             var unidade_nome = response.data[i].unidade_nome;
+
+                             var option = "<option value='"+unidade_id+"'>"+unidade_nome+"</option>"; 
+                             $('#unidade').show();
+                             $("#unidade").append(option);
+                        }
+                    }
+                }
+             })
+           });
+        });
+        </script>
+
             @include('layouts.site.footer')
  @endsection

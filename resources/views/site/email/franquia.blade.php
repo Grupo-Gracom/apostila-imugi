@@ -11,6 +11,9 @@
           <p> Nome : <strong> {{ $data['nome'] }} </strong> </p>
           <p> Email : <strong> {{ $data['email'] }} </strong> </p>
           <p> Telefone : <strong> {{ $data['telefone'] }} </strong> </p>
+          <p> Estado : <strong> {{ $data['estado'] }} </strong> </p>
+          <p> Cidade : <strong> {{ $data['cidade'] }} </strong> </p>
+          <p> Como Conheceu: <strong> {{ $data['conheceu'] }} </strong> </p>
       </footer>
     </blockquote>
   </div>

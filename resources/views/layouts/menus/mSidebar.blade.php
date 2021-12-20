@@ -34,8 +34,8 @@
                 </li>
                 <!--UNIDADE 1-->
                 <li class="item" data-unidade="unidade1">
-                    <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 1
+                    <a class="click submenu titulo">
+                        <i class="material-icons">flag</i> UNIT 1 - INTRODUCTION TO GRAPHIC DESIGN PRODUCTION
                     </a>
                     <ul>
                         <li>
@@ -50,8 +50,8 @@
                 </li>
                 <!--UNIDADE 2-->
                 <li class="item" data-unidade="unidade2">
-                    <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 2
+                    <a class="click submenu titulo">
+                        <i class="material-icons">flag</i> UNIT 2 - INTRODUCTION TO PHOTOSHOP
                     </a>
                     <ul>
                         <li>
@@ -66,8 +66,8 @@
                 </li>
                 <!--UNIDADE 3-->
                 <li class="item" data-unidade="unidade3">
-                    <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 3
+                    <a class="click submenu titulo">
+                        <i class="material-icons">flag</i> UNIT 3 - PHOTOGRAPHY AND PHOTOSHOP
                     </a>
                     <ul>
                         <li>
@@ -82,8 +82,8 @@
                 </li>
                 <!--UNIDADE 4-->
                 <li class="item" data-unidade="unidade4">
-                    <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 4
+                    <a class="click submenu titulo">
+                        <i class="material-icons">flag</i> UNIT 4 - NICE TO MEET YOU,<br> KATE!
                     </a>
                     <ul>
                         <li>
@@ -99,7 +99,7 @@
                 <!--UNIDADE 5-->
                 <li class="item" data-unidade="unidade5">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 5
+                        <i class="material-icons">flag</i> UNIT 5 - BURN TOOL
                     </a>
                     <ul>
                         <li>
@@ -114,8 +114,8 @@
                 </li>
                 <!--UNIDADE 6-->
                 <li class="item" data-unidade="unidade6">
-                    <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 6
+                    <a class="click submenu titulo">
+                        <i class="material-icons">flag</i> UNIT 6 - BRUSH AND RED EYE <br> CORRECTION
                     </a>
                     <ul>
                         <li>
@@ -131,7 +131,7 @@
                 <!--UNIDADE 7-->
                 <li class="item" data-unidade="unidade7">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 7
+                        <i class="material-icons">flag</i> UNIT 7 - ADJUSTMENT PANEL
                     </a>
                     <ul>
                         <li>
@@ -146,8 +146,8 @@
                 </li>
                 <!--UNIDADE 8-->
                 <li class="item" data-unidade="unidade8">
-                    <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 8
+                    <a class="click submenu titulo">
+                        <i class="material-icons">flag</i> UNIT 8 - REVIEW OF SOPHIA’S CLASSES
                     </a>
                     <ul>
                         <li>
@@ -162,8 +162,8 @@
                 </li>
                 <!--UNIDADE 9-->
                 <li class="item" data-unidade="unidade9">
-                    <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 9
+                    <a class="click submenu titulo">
+                        <i class="material-icons">flag</i> UNIT 9 - PROFESSOR ANA BEATRIZ
                     </a>
                     <ul>
                         <li>
@@ -179,7 +179,7 @@
                 <!--UNIDADE 10-->
                 <li class="item" data-unidade="unidade10">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 10
+                        <i class="material-icons">flag</i> UNIT 10 - PRONUNCIATION
                     </a>
                     <ul>
                         <li>
@@ -195,7 +195,7 @@
                 <!--UNIDADE 11-->
                 <li class="item" data-unidade="unidade11">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 11
+                        <i class="material-icons">flag</i> UNIT 11 - COLOR TOOLS
                     </a>
                     <ul>
                         <li>
@@ -210,8 +210,8 @@
                 </li>
                 <!--UNIDADE 12-->
                 <li class="item" data-unidade="unidade12">
-                    <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 12
+                    <a class="click submenu titulo">
+                        <i class="material-icons">flag</i> UNIT 12 - TYPE TOOL & STYLE PANEL
                     </a>
                     <ul>
                         <li>
@@ -227,7 +227,7 @@
                 <!--UNIDADE 13 -->
                 <li class="item" data-unidade="unidade13">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 13
+                        <i class="material-icons">flag</i> UNIT 13 - LAYER STYLE
                     </a>
                     <ul>
                         <li>
@@ -242,8 +242,8 @@
                 </li>
                 <!--UNIDADE 14-->
                 <li class="item" data-unidade="unidade14">
-                    <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 14
+                    <a class="click submenu titulo">
+                        <i class="material-icons">flag</i> UNIT 14 - COLOR TOOLS & TYPOGRAPHY TOOLS REVIEW
                     </a>
                     <ul>
                         <li>
@@ -258,8 +258,8 @@
                 </li>
                 <!--UNIDADE 15-->
                 <li class="item" data-unidade="unidade15">
-                    <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 15
+                    <a class="click submenu titulo">
+                        <i class="material-icons">flag</i> UNIT 15 - PROFESSOR AKIRA SUZUKI
                     </a>
                     <ul>
                         <li>
@@ -275,7 +275,7 @@
                 <!--UNIDADE 16-->
                 <li class="item" data-unidade="unidade16">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 16
+                        <i class="material-icons">flag</i> UNIT 16 - AKIRA’S STUDENTS
                     </a>
                     <ul>
                         <li>
@@ -291,7 +291,7 @@
                 <!--UNIDADE 17-->
                 <li class="item" data-unidade="unidade17">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 17
+                        <i class="material-icons">flag</i> UNIT 17 - LAYERS AND GUIDES
                     </a>
                     <ul>
                         <li>
@@ -306,8 +306,8 @@
                 </li>
                 <!--UNIDADE 18-->
                 <li class="item" data-unidade="unidade18">
-                    <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 18
+                    <a class="click submenu titulo">
+                        <i class="material-icons">flag</i> UNIT 18 - SHAPE TOOL <br> & ADOBE KULER
                     </a>
                     <ul>
                         <li>
@@ -323,7 +323,7 @@
                 <!--UNIDADE 19-->
                 <li class="item" data-unidade="unidade19">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 19
+                        <i class="material-icons">flag</i> UNIT 19 - TEXT FORMATING
                     </a>
                     <ul>
                         <li>
@@ -339,7 +339,7 @@
                 <!--UNIDADE 20-->
                 <li class="item" data-unidade="unidade20">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 20
+                        <i class="material-icons">flag</i> UNIT 20 - AKIRA’S REVIEW
                     </a>
                     <ul>
                         <li>
@@ -354,8 +354,8 @@
                 </li>
                 <!--UNIDADE 21-->
                 <li class="item" data-unidade="unidade21">
-                    <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 21
+                    <a class="click submenu titulo">
+                        <i class="material-icons">flag</i> UNIT 21 - PROFESSOR SARAH HENDRIX
                     </a>
                     <ul>
                         <li>
@@ -371,7 +371,7 @@
                 <!--UNIDADE 22-->
                 <li class="item" data-unidade="unidade22">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 22
+                        <i class="material-icons">flag</i> UNIT 22 - SARAH’S STUDENTS
                     </a>
                     <ul>
                         <li>
@@ -387,7 +387,7 @@
                 <!--UNIDADE 23-->
                 <li class="item" data-unidade="unidade23">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 23
+                        <i class="material-icons">flag</i> UNIT 23 - BRUSHES
                     </a>
                     <ul>
                         <li>
@@ -403,7 +403,7 @@
                 <!--UNIDADE 24-->
                 <li class="item" data-unidade="unidade24">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 24
+                        <i class="material-icons">flag</i> UNIT 24 - ERASER TOOL
                     </a>
                     <ul>
                         <li>
@@ -419,7 +419,7 @@
                 <!--UNIDADE 25-->
                 <li class="item" data-unidade="unidade25">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 25
+                        <i class="material-icons">flag</i> UNIT 25 - PEN TOOLS
                     </a>
                     <ul>
                         <li>
@@ -435,7 +435,7 @@
                 <!--UNIDADE 26-->
                 <li class="item" data-unidade="unidade26">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 26
+                        <i class="material-icons">flag</i> UNIT 26 - SARAH’S REVIEW
                     </a>
                     <ul>
                         <li>
@@ -451,7 +451,7 @@
                 <!--UNIDADE 27-->
                 <li class="item" data-unidade="unidade27">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 27
+                        <i class="material-icons">flag</i> UNIT 27 - PROFESSOR VICTOR
                     </a>
                     <ul>
                         <li>
@@ -467,7 +467,7 @@
                 <!--UNIDADE 28-->
                 <li class="item" data-unidade="unidade28">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 28
+                        <i class="material-icons">flag</i> UNIT 28 - VICTOR’S STUDENTS
                     </a>
                     <ul>
                         <li>
@@ -483,7 +483,7 @@
                 <!--UNIDADE 29-->
                 <li class="item" data-unidade="unidade29">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 29
+                        <i class="material-icons">flag</i> UNIT 29 - KEY FRAME
                     </a>
                     <ul>
                         <li>
@@ -499,7 +499,7 @@
                 <!--UNIDADE 30-->
                 <li class="item" data-unidade="unidade30">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 30
+                        <i class="material-icons">flag</i> UNIT 30 - VIDEO EFFECTS
                     </a>
                     <ul>
                         <li>
@@ -515,7 +515,7 @@
                 <!--UNIDADE 31-->
                 <li class="item" data-unidade="unidade31">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 31
+                        <i class="material-icons">flag</i> UNIT 31 - VIDEO TRANSITION
                     </a>
                     <ul>
                         <li>
@@ -531,7 +531,7 @@
                 <!--UNIDADE 32-->
                 <li class="item" data-unidade="unidade32">
                     <a class="click submenu">
-                        <i class="material-icons">flag</i> UNIT 32
+                        <i class="material-icons">flag</i> UNIT 32 - VICTOR’S REVIEW
                     </a>
                     <ul>
                         <li>
@@ -562,49 +562,49 @@
                             <a href="{{route('apostila4', ['photoshop', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">bookmarks</i> INTRODUCTION</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula1'])}}" data-etapa="aula1"><i class="material-icons suave">assignment</i>AULA 01</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula1'])}}" data-etapa="aula1" class="titulo"><i class="material-icons suave">assignment</i>AULA 01 - CONHECENDO O ADOBE PHOTOSHOP</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula2'])}}" data-etapa="aula2"><i class="material-icons suave">assignment</i>AULA 02</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula2'])}}" data-etapa="aula2" class="titulo"><i class="material-icons suave">assignment</i>AULA 02 - FERRAMENTAS DE SELEÇÃO E RECORTE</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula3'])}}" data-etapa="aula3"><i class="material-icons suave">assignment</i>AULA 03</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula3'])}}" data-etapa="aula3" class="titulo"><i class="material-icons suave">assignment</i>AULA 03 - CAMADAS E SELEÇÃO COM A CANETA LAYERS PANEL</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula4'])}}" data-etapa="aula4"><i class="material-icons suave">assignment</i>AULA 04</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula4'])}}" data-etapa="aula4" class="titulo"><i class="material-icons suave">assignment</i>AULA 04 - SMART OBJECTS E SMART FILTERS</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula5'])}}" data-etapa="aula5"><i class="material-icons suave">assignment</i>AULA 05</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula5'])}}" data-etapa="aula5" class="titulo"><i class="material-icons suave">assignment</i>AULA 05 - AJUSTES DESTRUTIVOS E HISTÓRICO</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula6'])}}" data-etapa="aula6"><i class="material-icons suave">assignment</i>AULA 06</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula6'])}}" data-etapa="aula6" class="titulo"><i class="material-icons suave">assignment</i>AULA 06 - CAMADAS DE AJUSTE E MÁSCARAS DE CAMADA</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula7'])}}" data-etapa="aula7"><i class="material-icons suave">assignment</i>AULA 07</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula7'])}}" data-etapa="aula7" class="titulo"><i class="material-icons suave">assignment</i>AULA 07 - BLENDING MODES E MÁSCARA DE CORTE</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula8'])}}" data-etapa="aula8"><i class="material-icons suave">assignment</i>AULA 08</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula8'])}}" data-etapa="aula8" class="titulo"><i class="material-icons suave">assignment</i>AULA 08 - COMPOSIÇÃO TEMÁTICA</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula9'])}}" data-etapa="aula9"><i class="material-icons suave">assignment</i>AULA 09</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula9'])}}" data-etapa="aula9" class="titulo"><i class="material-icons suave">assignment</i>AULA 09 - DISTORÇÕES E PERSPECTIVAS</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula10'])}}" data-etapa="aula10"><i class="material-icons suave">assignment</i>AULA 10</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula10'])}}" data-etapa="aula10" class="titulo"><i class="material-icons suave">assignment</i>AULA 10 - DISTORÇÕES E PERSPECTIVAS II  </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula11'])}}" data-etapa="aula11"><i class="material-icons suave">assignment</i>AULA 11</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula11'])}}" data-etapa="aula11" class="titulo"><i class="material-icons suave">assignment</i>AULA 11 - RETOQUE E RESTAURAÇÃO DE IMAGENS</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula12'])}}" data-etapa="aula12"><i class="material-icons suave">assignment</i>AULA 12</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula12'])}}" data-etapa="aula12"><i class="material-icons suave">assignment</i>AULA 12 - PINTURA DIGITAL</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula13'])}}" data-etapa="aula13"><i class="material-icons suave">assignment</i>AULA 13</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula13'])}}" data-etapa="aula13"><i class="material-icons suave">assignment</i>AULA 13 - EDIÇÃO DE VÍDEOS</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula14'])}}" data-etapa="aula14"><i class="material-icons suave">assignment</i>AULA 14</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula14'])}}" data-etapa="aula14"><i class="material-icons suave">assignment</i>AULA 14 - ACTIONS</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['photoshop', 'aula15'])}}" data-etapa="aula15"><i class="material-icons suave">assignment</i>AULA 15</a>
+                            <a href="{{route('apostila4', ['photoshop', 'aula15'])}}" data-etapa="aula15"><i class="material-icons suave">assignment</i>AULA 15 - MOCKUPS</a>
                         </li>
                         <li>
                             <a href="{{route('apostila4', ['photoshop', 'aula16'])}}" data-etapa="aula16"><i class="material-icons suave">lightbulb</i>AVALIAÇÃO PRATICA</a>
@@ -624,55 +624,55 @@
                             <a href="{{route('apostila4', ['corel-draw', 'intro'])}}" data-etapa="intro"><i class="material-icons suave">bookmarks</i>INTRO</a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula18'])}}" data-etapa="aula18"><i class="material-icons suave">assignment</i>Aula 18 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula18'])}}" data-etapa="aula18"><i class="material-icons suave">assignment</i>Aula 18 - ESPAÇO DE TRABALHO </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula19'])}}" data-etapa="aula19"><i class="material-icons suave">assignment</i>Aula 19 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula19'])}}" data-etapa="aula19" class="titulo"><i class="material-icons suave">assignment</i>Aula 19 - RECURSOS BÁSICOS DO COREL DRAW </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula20'])}}" data-etapa="aula20"><i class="material-icons suave">assignment</i>Aula 20 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula20'])}}" data-etapa="aula20" class="titulo"><i class="material-icons suave">assignment</i>Aula 20 - COPIAR, DUPLICAR E EXCLUIR </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula21'])}}" data-etapa="aula21"><i class="material-icons suave">assignment</i>Aula 21 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula21'])}}" data-etapa="aula21"><i class="material-icons suave">assignment</i>Aula 21 - LINHAS </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula22'])}}" data-etapa="aula22"><i class="material-icons suave">assignment</i>Aula 22 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula22'])}}" data-etapa="aula22"><i class="material-icons suave">assignment</i>Aula 22 - SIMETRIA </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula23'])}}" data-etapa="aula23"><i class="material-icons suave">assignment</i>Aula 23 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula23'])}}" data-etapa="aula23"><i class="material-icons suave">assignment</i>Aula 23 - TEXTO </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula24'])}}" data-etapa="aula24"><i class="material-icons suave">assignment</i>Aula 24 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula24'])}}" data-etapa="aula24"><i class="material-icons suave">assignment</i>Aula 24 - CAMADAS </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula25'])}}" data-etapa="aula25"><i class="material-icons suave">assignment</i>Aula 25 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula25'])}}" data-etapa="aula25"><i class="material-icons suave">assignment</i>Aula 25 - MODELAR OBJETOS </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula26'])}}" data-etapa="aula26"><i class="material-icons suave">assignment</i>Aula 26 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula26'])}}" data-etapa="aula26"><i class="material-icons suave">assignment</i>Aula 26 - OBJETOS E SÍMBOLOS </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula27'])}}" data-etapa="aula27"><i class="material-icons suave">assignment</i>Aula 27 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula27'])}}" data-etapa="aula27" class="titulo"><i class="material-icons suave">assignment</i>Aula 27 - PREENCHIMENTOS E TRANSPARÊNCIAS </a>
                         </li>
                          <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula28'])}}" data-etapa="aula28"><i class="material-icons suave">assignment</i>Aula 28 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula28'])}}" data-etapa="aula28"><i class="material-icons suave">assignment</i>Aula 28 - CORES </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula29'])}}" data-etapa="aula29"><i class="material-icons suave">assignment</i>Aula 29 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula29'])}}" data-etapa="aula29"><i class="material-icons suave">assignment</i>Aula 29 - EFEITOS VISUAIS </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula30'])}}" data-etapa="aula30"><i class="material-icons suave">assignment</i>Aula 30 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula30'])}}" data-etapa="aula30" class="titulo"><i class="material-icons suave">assignment</i>Aula 30 - ESTILOS E CONJUNTOS DE ESTILOS </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula31'])}}" data-etapa="aula31"><i class="material-icons suave">assignment</i>Aula 31 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula31'])}}" data-etapa="aula31"><i class="material-icons suave">assignment</i>Aula 31 - PÁGINAS E LAYOUT </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula32'])}}" data-etapa="aula32"><i class="material-icons suave">assignment</i>Aula 32 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula32'])}}" data-etapa="aula32"><i class="material-icons suave">assignment</i>Aula 32 - RASTREAR BITMAPS </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula33'])}}" data-etapa="aula33"><i class="material-icons suave">assignment</i>Aula 33 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula33'])}}" data-etapa="aula33"><i class="material-icons suave">assignment</i>Aula 33 - POWERTRACE </a>
                         </li>
                         <li>
-                            <a href="{{route('apostila4', ['corel-draw', 'aula34'])}}" data-etapa="aula34"><i class="material-icons suave">assignment</i>Aula 34 </a>
+                            <a href="{{route('apostila4', ['corel-draw', 'aula34'])}}" data-etapa="aula34" class="titulo"><i class="material-icons suave">assignment</i>Aula 34 - CÓDIGOS DE BARRA E QR </a>
                         </li>
                         <li>
                             <a href="{{route('apostila4', ['corel-draw', 'aula35'])}}" data-etapa="aula35"><i class="material-icons suave">lightbulb</i>Atividade Prática </a>

@@ -36,7 +36,9 @@ class ContatoController extends Controller
 
     public function franquia()
     {
-        return view('site.franquia.index');
+        $estados = Estado::orderBy('estado_nome')->get();
+        $unidades = UnidadesImugi::orderBy("unidade_nome")->get();
+        return view('site.franquia.index', compact('unidades','estados'));
     }
 
     public function socioInvestidor()
@@ -107,7 +109,6 @@ class ContatoController extends Controller
         public function contatoSocioInvestidor(Request $request){
             
             Mail::to('expansao@imugi.com.br')
-            ->cc(['pirolla.rfs@gmail.com','carlos.eduardo@grupogracom.com.br'])
             ->send(new SocioMail($request));
 
                $notification = array(
@@ -122,7 +123,6 @@ class ContatoController extends Controller
         public function contatoFranqueado(Request $request){
             
             Mail::to('expansao@imugi.com.br')
-            ->cc(['pirolla.rfs@gmail.com','carlos.eduardo@grupogracom.com.br'])
             ->send(new FranqueadoMail($request));
 
                $notification = array(
@@ -142,13 +142,18 @@ class ContatoController extends Controller
                     'telefone'  =>  'required',
                    ]);
               
+                   $unidade = UnidadesImugi::where("unidade_id", $request->cidade)->get();
+                $estado = Estado::where("id_estados", $request->estado)->get();
                       $data = array(
                           'nome' =>  $request->nome,
                           'email' =>  $request->email,
                           'telefone'   =>  $request->telefone,
+                          'conheceu'   =>  $request->conheceu_imugi,
+                          'estado'   =>  $estado[0]->estado_nome,
+                          'cidade'   =>  $unidade[0]->unidade_nome,
                       );
               
-                   Mail::to('contato@imugi.com.br')->send(new ContatoFranquia($data));
+                   Mail::to('expansao@imugi.com.br')->send(new ContatoFranquia($data));
                    return back()->with('success', 'Email enviado com sucesso !');
             }
     }
