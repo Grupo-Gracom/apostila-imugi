@@ -126,9 +126,9 @@ de todo o negócio e ficará responsável por
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-9 col-md-8 p-0">
+                    <!-- <div class="col-12 col-lg-9 col-md-8 p-0">
                     <a href="https://api.whatsapp.com/send?1=pt_BR&phone=554184608944" target="_blank" class="btn falar-franquia btn-sucesso"> <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i> Atendimento via WhatsApp</a>
-                    </div>
+                    </div> -->
                 </div>
                             </div>
                         </div>

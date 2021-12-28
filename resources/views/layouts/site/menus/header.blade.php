@@ -44,9 +44,16 @@
                                 <li class="@if(Route::current()->getName() == 'siteContato') ativo @endif">
                                     <a href="{{route('siteContato')}}"> Contato </a>          
                                 </li>
-                                
-                                <li class="@if(Route::current()->getName() == 'franquia') ativo @endif">
-                                    <a href="{{route('franquia')}}">Seja Franqueado</a>
+                                 <!-- end menu item -->
+                                 <li class="dropdown simple-dropdown " ><a href="#"  data-toggle="dropdown">Franquia<i class="fas fa-angle-down text-dark"></i> </a>
+                                    <!-- start sub menu -->
+                                    <i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i> 
+                                    <ul class="dropdown-menu menu" role="menu" style="top:50px!important;">
+                                        <li><a  href="{{route('franquia')}}"> SEJA FRANQUEADO <i class="fas fa-angle-right"></i></a>
+                                        </li>
+                                        <li><a href="http://unimugi.com.br/" target="_blank"> UNIMUGI <i class="fas fa-angle-right"></i></a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="@if(Route::current()->getName() == 'portalAluno') ativo @endif">
                                     <a href="{{route('login')}}" target="_blank">Portal do Aluno</a>
